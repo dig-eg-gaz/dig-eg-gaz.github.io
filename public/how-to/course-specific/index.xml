@@ -731,7 +731,14 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/data-revision-example.png&#34; alt=&#34;replace example&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;replace example&#34; srcset=&#34;
+               /media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_3e089c254f84f0dec2a5e601eff22e1c.webp 400w,
+               /media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_48f0538a7672cb6d17e158395cc2e305.webp 760w,
+               /media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_3e089c254f84f0dec2a5e601eff22e1c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;5-fixing-proglems&#34;&gt;5. Fixing proglems&lt;/h2&gt;
@@ -803,7 +810,14 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cattaui-funeral.png&#34; alt=&#34;funeral blurb&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;funeral blurb&#34; srcset=&#34;
+               /media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_939e76303d34b4e94ba17a0bd9a43af8.webp 400w,
+               /media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_5e1fb5bfb37cdef5b46bbd96d8592ca9.webp 760w,
+               /media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_939e76303d34b4e94ba17a0bd9a43af8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;340&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;This prominent businessman has &lt;a href=&#34;https://en.wikipedia.org/wiki/Joseph_Cattaui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;his own Wikipedia page&lt;/a&gt;. It names some of his family members in the box on the right, but I&amp;rsquo;m not sure which daughter it is who died. I decided to add a new section mentioning this information about his private life. Here&amp;rsquo;s the code I used:&lt;/p&gt;

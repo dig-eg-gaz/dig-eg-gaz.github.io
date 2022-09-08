@@ -45,7 +45,7 @@ Once you've found the template you need, click the XML link. This will take you 
 
 **Important**: Only copy the material contained within the `<body> </body>` tags--the rest of the file should not appear in your issue file. To do so, select the text like this:
 
-![templateCopy](/img/templateCopy.png)
+![templateCopy](templateCopy.png)
 
 Paste only this portion of the text into your issue document.
 

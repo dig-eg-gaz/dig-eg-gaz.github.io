@@ -53,7 +53,7 @@ The best way to do this is to send me the link to your "user contributions" page
 
 I found this mention of the funeral of the daughter of Joseph Cattaui in the "Personal and Social" section on page 3 of the December 27, 1906 issue.
 
-![funeral blurb](/img/cattaui-funeral.png)
+![funeral blurb](cattaui-funeral.png)
 
 This prominent businessman has [his own Wikipedia page](https://en.wikipedia.org/wiki/Joseph_Cattaui). It names some of his family members in the box on the right, but I'm not sure which daughter it is who died. I decided to add a new section mentioning this information about his private life. Here's the code I used:
 

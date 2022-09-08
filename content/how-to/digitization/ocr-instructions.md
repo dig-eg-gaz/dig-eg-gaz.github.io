@@ -52,7 +52,7 @@ It can be helpful to embed the column number into the image name. For example, y
 
 Right click on the image file within Google Drive, and open it with Google Docs.
 
-![open-with-google-docs](/img/open-with-google-docs.png)
+![open-with-google-docs](open-with-google-docs.png)
 
 Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.
 
@@ -96,7 +96,7 @@ You need to open a program in order to access the command line.
 
 The program you open will look something like this:
 
-![command line](/img/command-line.png)
+![command line](command-line.png)
 
 When you open this program, you will face a plain black box which offers you no hints or help. But don't worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.
 
@@ -107,7 +107,7 @@ When you open this program, you will face a plain black box which offers you no 
 
 #### Installation for Windows
 - Download [this program](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe) (compiled by generous folks at the University of Mannheim). Run it, which will install Tesseract-OCR, which will be listed under the start menu. Click on it, then click on Console, and a command line terminal will open.
-![tesseract-windows-console](/img/tesseract-windows-console.png) 
+![tesseract-windows-console](tesseract-windows-console.png) 
 Copy the whole bottom line _except_ the final `>`.
 - In order to use the program easily, you also need to set an environment variable, which requires the following two steps.
 - In File Explorer, right click on "This PC." Then, click on Properties > Advanced system settings > Environment Variables. Under System Variables, double click the Path variable. Then click New, and then paste the code you just copied from the console (something like `C:\Program Files\Tesseract-OCR`). Click OK.
@@ -155,11 +155,11 @@ If tesseract still struggles with your columns, you can trick it by drawing a li
 
 If it still garbles the columns, you can try drawing rectangles instead of lines. For example, you can block out the second, fourth and sixth columns. You can also block out ads, templated features, and anything else you don’t need tesseract to read.
 
-![column-block-right](/img/column-block-right.png)
+![column-block-right](column-block-right.png)
 
 Then make another copy, blocking out the first, third, and fifth columns.
 
-![column-block-left](/img/column-block-left.png)
+![column-block-left](column-block-left.png)
 
 When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you'll have to combine them piece by piece).
 

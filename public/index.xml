@@ -1113,7 +1113,14 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/data-revision-example.png&#34; alt=&#34;replace example&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;replace example&#34; srcset=&#34;
+               /media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_3e089c254f84f0dec2a5e601eff22e1c.webp 400w,
+               /media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_48f0538a7672cb6d17e158395cc2e305.webp 760w,
+               /media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/data-revision-example_hu1363512d9e4c51382da8010b0ed54699_494172_3e089c254f84f0dec2a5e601eff22e1c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;5-fixing-proglems&#34;&gt;5. Fixing proglems&lt;/h2&gt;
@@ -1616,7 +1623,14 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cattaui-funeral.png&#34; alt=&#34;funeral blurb&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;funeral blurb&#34; srcset=&#34;
+               /media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_939e76303d34b4e94ba17a0bd9a43af8.webp 400w,
+               /media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_5e1fb5bfb37cdef5b46bbd96d8592ca9.webp 760w,
+               /media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/cattaui-funeral_hua833b015291496c4266a79180abfb377_320751_939e76303d34b4e94ba17a0bd9a43af8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;340&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;This prominent businessman has &lt;a href=&#34;https://en.wikipedia.org/wiki/Joseph_Cattaui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;his own Wikipedia page&lt;/a&gt;. It names some of his family members in the box on the right, but I&amp;rsquo;m not sure which daughter it is who died. I decided to add a new section mentioning this information about his private life. Here&amp;rsquo;s the code I used:&lt;/p&gt;
@@ -19663,7 +19677,14 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/quarter-page-example.jpg&#34; alt=&#34;quarter page example&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;quarter page example&#34; srcset=&#34;
+               /media/quarter-page-example_hu6e02e4df05b74dde6abaeaa6f0dd6a78_3183519_7faee2aca86164d856e3a7ec774d5b14.webp 400w,
+               /media/quarter-page-example_hu6e02e4df05b74dde6abaeaa6f0dd6a78_3183519_8966d62b187e552c8ae990bc05af5093.webp 760w,
+               /media/quarter-page-example_hu6e02e4df05b74dde6abaeaa6f0dd6a78_3183519_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/quarter-page-example_hu6e02e4df05b74dde6abaeaa6f0dd6a78_3183519_7faee2aca86164d856e3a7ec774d5b14.webp&#34;
+               width=&#34;561&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Make sure that you leave a bit of overlap, so that the image stitching software can do its task.&lt;/li&gt;
@@ -19796,7 +19817,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/page-1-example.png&#34; alt=&#34;page-1-example&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;page-1-example&#34; srcset=&#34;
+               /media/page-1-example_hu35835d3ab9f95c26f9db8c4a2f0fc44b_67046_586e542f14e4022ca979047e3ce2be50.webp 400w,
+               /media/page-1-example_hu35835d3ab9f95c26f9db8c4a2f0fc44b_67046_ff2cf56b184979d87fe5e0554bec337a.webp 760w,
+               /media/page-1-example_hu35835d3ab9f95c26f9db8c4a2f0fc44b_67046_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/page-1-example_hu35835d3ab9f95c26f9db8c4a2f0fc44b_67046_586e542f14e4022ca979047e3ce2be50.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;254&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The &amp;ldquo;nameplate&amp;rdquo; &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements:&lt;/p&gt;
@@ -19818,7 +19846,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/nameplate.png&#34; alt=&#34;nameplate&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;nameplate&#34; srcset=&#34;
+               /media/nameplate_hua39ef252a86f749349945550d61f8256_996710_ca3800059501d71bb31bd477afca8297.webp 400w,
+               /media/nameplate_hua39ef252a86f749349945550d61f8256_996710_07a30ed657cf52e378562ae57540fb09.webp 760w,
+               /media/nameplate_hua39ef252a86f749349945550d61f8256_996710_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/nameplate_hua39ef252a86f749349945550d61f8256_996710_ca3800059501d71bb31bd477afca8297.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;155&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;You will need to update your xml file to reflect the content of your own issue. First, you need to look in the &lt;a href=&#34;https://dig-eg-gaz.github.io/issues/advertisements&#34;&gt;advertisements directory&lt;/a&gt; to find templates that correspond to the ads that appear in your issue. Following the detailed indications &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;here&lt;/a&gt;, copy the xml text of templates you need.&lt;/p&gt;
@@ -19841,7 +19876,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/nameplate-2nd-row.png&#34; alt=&#34;nameplate-2nd-row&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;nameplate-2nd-row&#34; srcset=&#34;
+               /media/nameplate-2nd-row_hu91279622371a0a0e799e0f0cd8a5791a_53839_7daebcebefc74fef8e02d2ef841cc993.webp 400w,
+               /media/nameplate-2nd-row_hu91279622371a0a0e799e0f0cd8a5791a_53839_8630341baad026bb4f145bfde76b37fd.webp 760w,
+               /media/nameplate-2nd-row_hu91279622371a0a0e799e0f0cd8a5791a_53839_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/nameplate-2nd-row_hu91279622371a0a0e799e0f0cd8a5791a_53839_7daebcebefc74fef8e02d2ef841cc993.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;239&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;If you switch to author mode (choose it from the text-grid-author buttons near the bottom of your screen), the whole nameplate should look something like this:&lt;/p&gt;
@@ -19863,7 +19905,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/author-mode-nameplate.png&#34; alt=&#34;author-mode-nameplate&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;author-mode-nameplate&#34; srcset=&#34;
+               /media/author-mode-nameplate_hu5313a5bff592f87acd9b3bd6eb21ce82_323118_edda89223d1927e67de51618f3416e1b.webp 400w,
+               /media/author-mode-nameplate_hu5313a5bff592f87acd9b3bd6eb21ce82_323118_f63a5d8d3e2a0fa1e009495a2fef4cf4.webp 760w,
+               /media/author-mode-nameplate_hu5313a5bff592f87acd9b3bd6eb21ce82_323118_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/author-mode-nameplate_hu5313a5bff592f87acd9b3bd6eb21ce82_323118_edda89223d1927e67de51618f3416e1b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Now switch back to text mode and proceed to work on the rest of the page. Find the text of the first ad in the first column after the nameplate, and paste it after the &lt;code&gt;&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code&gt; tag in the advertising section division. Proceed inserting ads all the way to the end of the third column.&lt;/p&gt;
@@ -19922,7 +19971,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/templateCopy.png&#34; alt=&#34;templateCopy&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;templateCopy&#34; srcset=&#34;
+               /media/templateCopy_hu1e1b723bb61628ace47b370444cc139c_112336_e1675d2b07843166a1e5a982df2e570b.webp 400w,
+               /media/templateCopy_hu1e1b723bb61628ace47b370444cc139c_112336_95651e118f0b0f04c38ec8b12bd7352d.webp 760w,
+               /media/templateCopy_hu1e1b723bb61628ace47b370444cc139c_112336_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/templateCopy_hu1e1b723bb61628ace47b370444cc139c_112336_e1675d2b07843166a1e5a982df2e570b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;316&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Paste only this portion of the text into your issue document.&lt;/p&gt;
@@ -19981,7 +20037,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/content-show-in-finder.png&#34; alt=&#34;show in finder&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;show in finder&#34; srcset=&#34;
+               /media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_e15fa1f304cfdffac02faf85dd32bbfe.webp 400w,
+               /media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_3add16a180941d5b8a0d3de0886f790d.webp 760w,
+               /media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_e15fa1f304cfdffac02faf85dd32bbfe.webp&#34;
+               width=&#34;731&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;When you&amp;rsquo;re ready to sync your changes with the GitHub cloud, write a summary of your changes (e.g., &amp;ldquo;creating page 1&amp;rdquo;), hit &amp;ldquo;Commit to Master&amp;rdquo;, then hit &amp;ldquo;Fetch origin&amp;rdquo; (on the top right). This will backup your work onto your fork on GitHub&amp;rsquo;s servers.
@@ -20003,7 +20066,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/fetch-origin-desktop.png&#34; alt=&#34;fetch origin desktop&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;fetch origin desktop&#34; srcset=&#34;
+               /media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_258896822761e83cf8f7d4531e92fcd3.webp 400w,
+               /media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_c0543e7870d5e1b96090b6ac5c79c4af.webp 760w,
+               /media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_258896822761e83cf8f7d4531e92fcd3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;683&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -20027,7 +20097,14 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/new-pull-request.png&#34; alt=&#34;new pull request&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;new pull request&#34; srcset=&#34;
+               /media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_74633414412cd3151fda20ec78a68125.webp 400w,
+               /media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_d295f293f658e166c3640f6239d6ec1c.webp 760w,
+               /media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_74633414412cd3151fda20ec78a68125.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;620&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 I will then see the pull request and either merge your files into the organization&amp;rsquo;s content or request that you change something before doing so. If you want to check the status of your pull requests, scroll all the way to the top of the github web page. Click on &amp;ldquo;Pull requests&amp;rdquo; in white letters on a black background. You will then see a list of the pull requests you&amp;rsquo;ve submitted.&lt;/p&gt;
@@ -20053,7 +20130,14 @@ I will then see the pull request and either merge your files into the organizati
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/250-commits-behind.png&#34; alt=&#34;not up to date&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;not up to date&#34; srcset=&#34;
+               /media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_aa879a9bc5a0afea64aac7f41de5b3a5.webp 400w,
+               /media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_17ae88bdbd2c90cc23bd065782ade6a9.webp 760w,
+               /media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_aa879a9bc5a0afea64aac7f41de5b3a5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;321&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 If you are ahead, click the &amp;ldquo;new pull request&amp;rdquo; button above the status report and ask the organization to merge your changes.&lt;/p&gt;
@@ -20081,7 +20165,14 @@ If you are ahead, click the &amp;ldquo;new pull request&amp;rdquo; button above 
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/pull-requests-tab.png&#34; alt=&#34;pull requests&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;pull requests&#34; srcset=&#34;
+               /media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_04765c997e7d3f22d868c9c326238293.webp 400w,
+               /media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_77ee91ef2e40776b9137befb38aacf16.webp 760w,
+               /media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_04765c997e7d3f22d868c9c326238293.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;198&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Click on the tab, and on the pull request, and then merge the pull request.&lt;/li&gt;
@@ -20155,7 +20246,14 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/open-with-google-docs.png&#34; alt=&#34;open-with-google-docs&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;open-with-google-docs&#34; srcset=&#34;
+               /media/open-with-google-docs_hu0d0f4994bce84d9171ebf62071cd4506_227692_14f076d80a9a2fc602bc2d412877fe3e.webp 400w,
+               /media/open-with-google-docs_hu0d0f4994bce84d9171ebf62071cd4506_227692_cbc0278ff78db8aea5300f1683304782.webp 760w,
+               /media/open-with-google-docs_hu0d0f4994bce84d9171ebf62071cd4506_227692_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/open-with-google-docs_hu0d0f4994bce84d9171ebf62071cd4506_227692_14f076d80a9a2fc602bc2d412877fe3e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;638&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.&lt;/p&gt;
@@ -20209,7 +20307,14 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/command-line.png&#34; alt=&#34;command line&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;command line&#34; srcset=&#34;
+               /media/command-line_hu63fffbeff25bc969c6964ac97796859f_244178_f184ef229f96600e89017b32aae9847e.webp 400w,
+               /media/command-line_hu63fffbeff25bc969c6964ac97796859f_244178_8dd8f4578ada831c314d44f1e59cfc58.webp 760w,
+               /media/command-line_hu63fffbeff25bc969c6964ac97796859f_244178_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/command-line_hu63fffbeff25bc969c6964ac97796859f_244178_f184ef229f96600e89017b32aae9847e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;540&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;When you open this program, you will face a plain black box which offers you no hints or help. But don&amp;rsquo;t worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.&lt;/p&gt;
@@ -20239,7 +20344,14 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tesseract-windows-console.png&#34; alt=&#34;tesseract-windows-console&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;tesseract-windows-console&#34; srcset=&#34;
+               /media/tesseract-windows-console_hua239c62e59d8376583b9027cab13c90e_116218_832523156796794a96851a71f6999bd8.webp 400w,
+               /media/tesseract-windows-console_hua239c62e59d8376583b9027cab13c90e_116218_15a03466f9786ba861ccf0ca5981ced2.webp 760w,
+               /media/tesseract-windows-console_hua239c62e59d8376583b9027cab13c90e_116218_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/tesseract-windows-console_hua239c62e59d8376583b9027cab13c90e_116218_832523156796794a96851a71f6999bd8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
@@ -20295,7 +20407,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-right.png&#34; alt=&#34;column-block-right&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;column-block-right&#34; srcset=&#34;
+               /media/column-block-right_hu2e9df2d41e766ea3db5a2d5e4542f018_812707_faf2dc5f1ba2bb541ab0f95aa318ae47.webp 400w,
+               /media/column-block-right_hu2e9df2d41e766ea3db5a2d5e4542f018_812707_6aeb2a1590aa4b7961188726a679ee7d.webp 760w,
+               /media/column-block-right_hu2e9df2d41e766ea3db5a2d5e4542f018_812707_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/column-block-right_hu2e9df2d41e766ea3db5a2d5e4542f018_812707_faf2dc5f1ba2bb541ab0f95aa318ae47.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Then make another copy, blocking out the first, third, and fifth columns.&lt;/p&gt;
@@ -20317,7 +20436,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-left.png&#34; alt=&#34;column-block-left&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;column-block-left&#34; srcset=&#34;
+               /media/column-block-left_huefd2a611d6c2b724a5ee3fce925b1887_1406685_2ebb0b96aafe6449fb53d5de8f3cf202.webp 400w,
+               /media/column-block-left_huefd2a611d6c2b724a5ee3fce925b1887_1406685_6a1eda902c25f8a25f753fda097c272a.webp 760w,
+               /media/column-block-left_huefd2a611d6c2b724a5ee3fce925b1887_1406685_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/column-block-left_huefd2a611d6c2b724a5ee3fce925b1887_1406685_2ebb0b96aafe6449fb53d5de8f3cf202.webp&#34;
+               width=&#34;696&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you&amp;rsquo;ll have to combine them piece by piece).&lt;/p&gt;
@@ -20466,7 +20592,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/page-div-outline.png&#34; alt=&#34;page-div-outline&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;page-div-outline&#34; srcset=&#34;
+               /media/page-div-outline_hu284b8d65f809a64d6a31fda90b575b9e_78128_d93d5c8830b987bf82f75cdabdddf0e2.webp 400w,
+               /media/page-div-outline_hu284b8d65f809a64d6a31fda90b575b9e_78128_8a7946aff75fb03b7de982242f05dc68.webp 760w,
+               /media/page-div-outline_hu284b8d65f809a64d6a31fda90b575b9e_78128_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/page-div-outline_hu284b8d65f809a64d6a31fda90b575b9e_78128_d93d5c8830b987bf82f75cdabdddf0e2.webp&#34;
+               width=&#34;502&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;All other &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s should be &lt;em&gt;inside&lt;/em&gt; the page &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; in which they appear. If you do not have everything inside pages, your outline will look messy:&lt;/p&gt;
@@ -20488,7 +20621,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/page-div-outline-messy.png&#34; alt=&#34;page-div-outline-messy&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;page-div-outline-messy&#34; srcset=&#34;
+               /media/page-div-outline-messy_hu4ee068fedfa894f83bb4944d027c452d_74003_dfbb5ac71a359879f1a65954ddd00fd1.webp 400w,
+               /media/page-div-outline-messy_hu4ee068fedfa894f83bb4944d027c452d_74003_8acc51e8a09e264924b7cb102cc1ffeb.webp 760w,
+               /media/page-div-outline-messy_hu4ee068fedfa894f83bb4944d027c452d_74003_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/page-div-outline-messy_hu4ee068fedfa894f83bb4944d027c452d_74003_dfbb5ac71a359879f1a65954ddd00fd1.webp&#34;
+               width=&#34;383&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The solution is to drag everything into its proper page.&lt;/p&gt;
@@ -20511,7 +20651,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/unclosed-divs.png&#34; alt=&#34;unclosed-divs&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;unclosed-divs&#34; srcset=&#34;
+               /media/unclosed-divs_hu24dee239348578f68e48b8a27f3594d3_80900_bd13169d8a3ae70c8de164ffa0635fa8.webp 400w,
+               /media/unclosed-divs_hu24dee239348578f68e48b8a27f3594d3_80900_e7ce416541bdde1a75f9db4a32b7a5c0.webp 760w,
+               /media/unclosed-divs_hu24dee239348578f68e48b8a27f3594d3_80900_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/unclosed-divs_hu24dee239348578f68e48b8a27f3594d3_80900_bd13169d8a3ae70c8de164ffa0635fa8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;433&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;2-get-the-breaks-right&#34;&gt;2. Get the breaks right&lt;/h2&gt;
@@ -20545,7 +20692,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-6-cbs-p-3.png&#34; alt=&#34;cols-example-6-cbs-p-3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cols-example-6-cbs-p-3&#34; srcset=&#34;
+               /media/cols-example-6-cbs-p-3_hu5240cb89177ae1ba108db2043d38414f_75385_b746c6b059a5743570e57852aed3b346.webp 400w,
+               /media/cols-example-6-cbs-p-3_hu5240cb89177ae1ba108db2043d38414f_75385_5d19df0054e1cf47fc2826532235f45f.webp 760w,
+               /media/cols-example-6-cbs-p-3_hu5240cb89177ae1ba108db2043d38414f_75385_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/cols-example-6-cbs-p-3_hu5240cb89177ae1ba108db2043d38414f_75385_b746c6b059a5743570e57852aed3b346.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;451&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Do not make each column into its own &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;. Column breaks often coincide with the start of a new &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, but they have a distinct role. They indicate the layout of the paper, not its content. &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, on the other hand, is used to encode articles and sections of the paper with their own headline and content. A &lt;code&gt;&amp;lt;cb/&amp;gt;&lt;/code&gt; can even be dropped in the middle of a paragraph, as we see with the column break at the start of column 5 in the image above.&lt;/p&gt;
@@ -20572,7 +20726,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-p-2-layout.png&#34; alt=&#34;cols-example-p-2-layout&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cols-example-p-2-layout&#34; srcset=&#34;
+               /media/cols-example-p-2-layout_hu40668847d8d3616e8492fca3eae316cb_824189_92010441f229779481debbcf8067093b.webp 400w,
+               /media/cols-example-p-2-layout_hu40668847d8d3616e8492fca3eae316cb_824189_12d3d567b02c76b2509dff58600cfbb0.webp 760w,
+               /media/cols-example-p-2-layout_hu40668847d8d3616e8492fca3eae316cb_824189_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/cols-example-p-2-layout_hu40668847d8d3616e8492fca3eae316cb_824189_92010441f229779481debbcf8067093b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;425&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The page starts with a double-width column (A), which splits into two single-width columns (A &amp;amp; B) partway down. The middle of the page contains another double-width column ( C ) that splits into single-width columns (C &amp;amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp;amp; F).&lt;/p&gt;
@@ -20595,7 +20756,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-p-2-layout-xml.png&#34; alt=&#34;cols-example-p-2-layout-xml&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cols-example-p-2-layout-xml&#34; srcset=&#34;
+               /media/cols-example-p-2-layout-xml_hu1052714dc4b352ff568a099298bf8d39_581929_aebf4f70a34d8cd391a7b2c5a36c6947.webp 400w,
+               /media/cols-example-p-2-layout-xml_hu1052714dc4b352ff568a099298bf8d39_581929_4dde1800ee77adc1298224d43ae0b92e.webp 760w,
+               /media/cols-example-p-2-layout-xml_hu1052714dc4b352ff568a099298bf8d39_581929_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/cols-example-p-2-layout-xml_hu1052714dc4b352ff568a099298bf8d39_581929_aebf4f70a34d8cd391a7b2c5a36c6947.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;718&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;c-colspan-n&#34;&gt;c. &lt;code&gt;&amp;lt;colSpan n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/h3&gt;
@@ -20619,7 +20787,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-colspan-4.png&#34; alt=&#34;cols-example-colspan-4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;cols-example-colspan-4&#34; srcset=&#34;
+               /media/cols-example-colspan-4_hu1a27082940d371e72960d1097c12839b_2158576_055e7eb5edcb305d016f2712962e176d.webp 400w,
+               /media/cols-example-colspan-4_hu1a27082940d371e72960d1097c12839b_2158576_67f89e713cc0c14274d8d09357fa7b73.webp 760w,
+               /media/cols-example-colspan-4_hu1a27082940d371e72960d1097c12839b_2158576_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/cols-example-colspan-4_hu1a27082940d371e72960d1097c12839b_2158576_055e7eb5edcb305d016f2712962e176d.webp&#34;
+               width=&#34;567&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -20711,7 +20886,14 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/find-replace-oxygen.png&#34; alt=&#34;find replace oxygen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;find replace oxygen&#34; srcset=&#34;
+               /media/find-replace-oxygen_hubbf0125814dc2a5b5163660a37ccf43d_20012_409ac56edefa9b44511b45b7b16bc059.webp 400w,
+               /media/find-replace-oxygen_hubbf0125814dc2a5b5163660a37ccf43d_20012_fdcc3addd59ad85d9e4934cca2cc7318.webp 760w,
+               /media/find-replace-oxygen_hubbf0125814dc2a5b5163660a37ccf43d_20012_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/find-replace-oxygen_hubbf0125814dc2a5b5163660a37ccf43d_20012_409ac56edefa9b44511b45b7b16bc059.webp&#34;
+               width=&#34;470&#34;
+               height=&#34;52&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ldquo;All opened files,&amp;rdquo; then proceed with your search.&lt;/p&gt;
@@ -20737,7 +20919,14 @@ This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ld
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/xpath-query-box-oxygen.png&#34; alt=&#34;xpath query box oxygen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;xpath query box oxygen&#34; srcset=&#34;
+               /media/xpath-query-box-oxygen_hu7fae7b412d7c2c717a4e001fad835d85_14096_509f3972e1cfde471ff85213c43bb082.webp 400w,
+               /media/xpath-query-box-oxygen_hu7fae7b412d7c2c717a4e001fad835d85_14096_add8bd5606ddf8006d62480d2e098ec0.webp 760w,
+               /media/xpath-query-box-oxygen_hu7fae7b412d7c2c717a4e001fad835d85_14096_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/xpath-query-box-oxygen_hu7fae7b412d7c2c717a4e001fad835d85_14096_509f3972e1cfde471ff85213c43bb082.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;59&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The drop-down icon on the left of this box allows you to choose the scope of your search: current file, all opened files, and other options. To search the full contents of the digital Egyptian Gazette, you&amp;rsquo;ll need to use a &amp;ldquo;working set.&amp;rdquo;&lt;/p&gt;
@@ -20759,7 +20948,14 @@ This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ld
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/xpath-query-box-scope.png&#34; alt=&#34;xpath query box scope&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;xpath query box scope&#34; srcset=&#34;
+               /media/xpath-query-box-scope_hu4eac6cd2160000e6cef2d8414003947d_169603_5cf484a97624bcc611ee7c3b310d3d76.webp 400w,
+               /media/xpath-query-box-scope_hu4eac6cd2160000e6cef2d8414003947d_169603_da1571ba9545b74e411ad72201a1c0eb.webp 760w,
+               /media/xpath-query-box-scope_hu4eac6cd2160000e6cef2d8414003947d_169603_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/xpath-query-box-scope_hu4eac6cd2160000e6cef2d8414003947d_169603_5cf484a97624bcc611ee7c3b310d3d76.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;379&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h4 id=&#34;set-up-a-working-set&#34;&gt;Set up a working set&lt;/h4&gt;
@@ -20981,7 +21177,14 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tableau-1905-cotton-export-total.png&#34; alt=&#34;Cotton Exports&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cotton Exports&#34; srcset=&#34;
+               /media/tableau-1905-cotton-export-total_hu138a04ab3596ead8d4de9b2e1983f0ef_10404_1c23f4319d78c298dc21be2446ab0f0a.webp 400w,
+               /media/tableau-1905-cotton-export-total_hu138a04ab3596ead8d4de9b2e1983f0ef_10404_5aeae3937f09fbb4a41201085806659e.webp 760w,
+               /media/tableau-1905-cotton-export-total_hu138a04ab3596ead8d4de9b2e1983f0ef_10404_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/tableau-1905-cotton-export-total_hu138a04ab3596ead8d4de9b2e1983f0ef_10404_1c23f4319d78c298dc21be2446ab0f0a.webp&#34;
+               width=&#34;111&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The resulting visual gives us an annual total of exports, but we can go deeper.&lt;/p&gt;
@@ -21006,7 +21209,14 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tableau-1905-monthly-cotton-exports.png&#34; alt=&#34;Cotton Exports&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cotton Exports&#34; srcset=&#34;
+               /media/tableau-1905-monthly-cotton-exports_huf70158529fcdaf70817d2b75fbba43fb_17135_9021f8cef37144dac2b63974cd14e60b.webp 400w,
+               /media/tableau-1905-monthly-cotton-exports_huf70158529fcdaf70817d2b75fbba43fb_17135_6dab5e49a4ea5b71d9c46488b43f7e96.webp 760w,
+               /media/tableau-1905-monthly-cotton-exports_huf70158529fcdaf70817d2b75fbba43fb_17135_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/tableau-1905-monthly-cotton-exports_huf70158529fcdaf70817d2b75fbba43fb_17135_9021f8cef37144dac2b63974cd14e60b.webp&#34;
+               width=&#34;508&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -21035,7 +21245,14 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tableau-cotton-exports-by-country.png&#34; alt=&#34;Cotton Exports&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cotton Exports&#34; srcset=&#34;
+               /media/tableau-cotton-exports-by-country_hu660a54ac1fbae02c772da17e208201ff_26448_e84293290c0f28221768e2e87f75c6b5.webp 400w,
+               /media/tableau-cotton-exports-by-country_hu660a54ac1fbae02c772da17e208201ff_26448_0e04f21afecbe6b9db67ca9b91d7611a.webp 760w,
+               /media/tableau-cotton-exports-by-country_hu660a54ac1fbae02c772da17e208201ff_26448_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/tableau-cotton-exports-by-country_hu660a54ac1fbae02c772da17e208201ff_26448_e84293290c0f28221768e2e87f75c6b5.webp&#34;
+               width=&#34;469&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;13&#34;&gt;
@@ -21059,7 +21276,14 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tableau-cotton-exports-england-france.png&#34; alt=&#34;Cotton Exports to England and France&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cotton Exports to England and France&#34; srcset=&#34;
+               /media/tableau-cotton-exports-england-france_huf0714fdc91a7bdb6b4f28ebc1d98160c_23485_f6068eb86dea0f96017ee9aacfadf126.webp 400w,
+               /media/tableau-cotton-exports-england-france_huf0714fdc91a7bdb6b4f28ebc1d98160c_23485_62e2a55db39c72fe30dd397e4c2aa1fb.webp 760w,
+               /media/tableau-cotton-exports-england-france_huf0714fdc91a7bdb6b4f28ebc1d98160c_23485_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/tableau-cotton-exports-england-france_huf0714fdc91a7bdb6b4f28ebc1d98160c_23485_f6068eb86dea0f96017ee9aacfadf126.webp&#34;
+               width=&#34;423&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 .&lt;/p&gt;
 &lt;ol start=&#34;14&#34;&gt;
@@ -21083,7 +21307,14 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tableau-global-cotton-exports.png&#34; alt=&#34;Global Cotton Exports&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Global Cotton Exports&#34; srcset=&#34;
+               /media/tableau-global-cotton-exports_hua0862aa5e5c2db7356473b4b100b34a1_453029_b14ff1373957527bdf71027d171efbac.webp 400w,
+               /media/tableau-global-cotton-exports_hua0862aa5e5c2db7356473b4b100b34a1_453029_db80102cb252b6e1c679cc7a70d618ed.webp 760w,
+               /media/tableau-global-cotton-exports_hua0862aa5e5c2db7356473b4b100b34a1_453029_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/tableau-global-cotton-exports_hua0862aa5e5c2db7356473b4b100b34a1_453029_b14ff1373957527bdf71027d171efbac.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;407&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;15&#34;&gt;

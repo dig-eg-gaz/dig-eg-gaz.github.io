@@ -20,17 +20,17 @@ This lesson explains how to polish your TEI-XML file so that it is ready to be a
 
 The best way to get a quick idea of your file's structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page `<div>`s:
 
-![page-div-outline](/img/page-div-outline.png)
+![page-div-outline](page-div-outline.png)
 
 All other `<div>`s should be _inside_ the page `<div>` in which they appear. If you do not have everything inside pages, your outline will look messy:
 
-![page-div-outline-messy](/img/page-div-outline-messy.png)
+![page-div-outline-messy](page-div-outline-messy.png)
 
 The solution is to drag everything into its proper page. 
 
 Another problem that arises is failing to close divs or pages. You'll know you have this problem if the end of your file looks like this:
 
-![unclosed-divs](/img/unclosed-divs.png)
+![unclosed-divs](unclosed-divs.png)
 
 ## 2. Get the breaks right
 
@@ -57,7 +57,7 @@ This tag indicates the start of a new column. Use it at the beginning of every p
 
 This is straightforward on a typical page 3, which contains six even-sized columns running from the top to the bottom of the page. 
 
-![cols-example-6-cbs-p-3](/img/cols-example-6-cbs-p-3.png)
+![cols-example-6-cbs-p-3](cols-example-6-cbs-p-3.png)
 
 Do not make each column into its own `<div>`. Column breaks often coincide with the start of a new `<div>`, but they have a distinct role. They indicate the layout of the paper, not its content. `<div>`, on the other hand, is used to encode articles and sections of the paper with their own headline and content. A `<cb/>` can even be dropped in the middle of a paragraph, as we see with the column break at the start of column 5 in the image above.
 
@@ -70,17 +70,17 @@ Things are more complicated on page 2, which often contains a mix of single- and
 
 Here is an example of a page 2, with its layout blocked in colored columns:
 
-![cols-example-p-2-layout](/img/cols-example-p-2-layout.png)
+![cols-example-p-2-layout](cols-example-p-2-layout.png)
 
 The page starts with a double-width column (A), which splits into two single-width columns (A & B) partway down. The middle of the page contains another double-width column ( C ) that splits into single-width columns (C & D). The right-hand side of the page contains two full-length single-width columns (E & F).
 
 We encode the columns on this page like this:
 
-![cols-example-p-2-layout-xml](/img/cols-example-p-2-layout-xml.png)
+![cols-example-p-2-layout-xml](cols-example-p-2-layout-xml.png)
 
 ### c. `<colSpan n="?"/>` 
 You will rarely need to use this tag. It is only used for items that are wider than a single column located where the page cannot be divided into even-sized columns using `<cols/>`.
 
 For example, the "Nile Gauge Reading" item at the bottom of this page should be preceded by a `<colSpan n="4"/)` tag.
 
-![cols-example-colspan-4](/img/cols-example-colspan-4.png)
+![cols-example-colspan-4](cols-example-colspan-4.png)

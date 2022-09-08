@@ -28,21 +28,21 @@ Enter your name into the template (under `<editor>`), today's date (under `<edit
 ## 4. Copy and paste templated material
 In your xml document, the text of your issue itself (as opposed to just the header) starts like this:
 
-![page-1-example](/img/page-1-example.png)
+![page-1-example](page-1-example.png)
 
 The "nameplate" `<div>` that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements: 
 
-![nameplate](/img/nameplate.png)
+![nameplate](nameplate.png)
 
 You will need to update your xml file to reflect the content of your own issue. First, you need to look in the [advertisements directory](/issues/advertisements) to find templates that correspond to the ads that appear in your issue. Following the detailed indications [here](/how-to/digitization/templating-instructions/), copy the xml text of templates you need.
 
 You must paste this text into the correct spot in the nameplate of your xml document. The two ads flanking the title take the form of `<cell>`s that go in the first `<row>` of the nameplate. The second `<row>` of the nameplate lists the number, date, and number of pages of the issue. Update this information.
 
-![nameplate-2nd-row](/img/nameplate-2nd-row.png)
+![nameplate-2nd-row](nameplate-2nd-row.png)
 
 If you switch to author mode (choose it from the text-grid-author buttons near the bottom of your screen), the whole nameplate should look something like this:
 
-![author-mode-nameplate](/img/author-mode-nameplate.png)
+![author-mode-nameplate](author-mode-nameplate.png)
 
 Now switch back to text mode and proceed to work on the rest of the page. Find the text of the first ad in the first column after the nameplate, and paste it after the `<cb n="1"/>` tag in the advertising section division. Proceed inserting ads all the way to the end of the third column.
 

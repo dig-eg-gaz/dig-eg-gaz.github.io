@@ -42,26 +42,26 @@ Tableau is a powerful tool that can be used to view, manipulate, explore, and an
 
 9. At the bottom, click Sheet 1. After dragging and dropping the “Total Cotton Export (Bales)” cell in the row slot, place the “Month” cell in the column slot, under Marks select “Bar”.
 
-![Cotton Exports](/img/tableau-1905-cotton-export-total.png)
+![Cotton Exports](tableau-1905-cotton-export-total.png)
 
 The resulting visual gives us an annual total of exports, but we can go deeper.
 
 10. In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. <!-- If we select the second “Month” in the drop down menu it provides a visualization that includes zero value months. -->
-![Cotton Exports](/img/tableau-1905-monthly-cotton-exports.png)
+![Cotton Exports](tableau-1905-monthly-cotton-exports.png)
 
 11. In the "Marks" box select "Label", and click the box next to "Show Mark Labels". Now our data is effectively communicating the monthly totals of cotton exports. Now let's incorporate each destination to further increase the accuracy of the data.
 
 12. Drag and drop the "Country" cell into the Color box. Now we can see that a majority of the cotton exported every month was shipped to England.
 
-![Cotton Exports](/img/tableau-cotton-exports-by-country.png)
+![Cotton Exports](tableau-cotton-exports-by-country.png)
 
 13. For a simpler comparative drag and drop the "Country" cell into the Filters box, click none, then select which countries you want to compare. For now let's look at the difference between cotton exports to England and France.
 
-![Cotton Exports to England and France](/img/tableau-cotton-exports-england-france.png).
+![Cotton Exports to England and France](tableau-cotton-exports-england-france.png).
 
 14. To create a different kind of visualization clear the Columns and Rows then drag and drop the "Country" cell into the Columns slot and "Total Cotton Export" into the Rows slot. (You may need to remove the filter to display all countries). On the right hand side of the interface click "Show Me", and select the Symbol Map option. The resulting image depicts the amount of comparative cotton exported to each location.
 
-![Global Cotton Exports](/img/tableau-global-cotton-exports.png)
+![Global Cotton Exports](tableau-global-cotton-exports.png)
 
 15. To save our visualizations, click “Story”, “New Story”. Drag the desired sheet to the designated location. Click “Story”, “Export Image”.
 

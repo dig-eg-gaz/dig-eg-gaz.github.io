@@ -40,7 +40,7 @@ Using the Share List part as an example, you can use `//div[child::table[@xml:id
 
 Then, you can use this query to find `<head>` in the div and replace it with `<!-- incorrect value -->\n<head>`. Please remember to enable the regular expression. (See details in the image).
 
-![replace example](/img/data-revision-example.png)
+![replace example](data-revision-example.png)
 
 ## 5. Fixing proglems
 After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website, or using an alogrithm of your design.

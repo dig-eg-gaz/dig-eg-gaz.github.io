@@ -23,7 +23,7 @@ This tutorial explains how to produce high-quality, [OCR](/how-to/digitization/O
 
 ## 2. Scan the page in quarters
 1. In order to produce a high-quality, OCR-ready image, it is necessary to scan the page in quarters, then stitch the image together. Zoom in on the image until the screen shows just the top left-hand quarter of the page, thus:
-![quarter page example](/img/quarter-page-example.jpg)
+![quarter page example](quarter-page-example.jpg)
 Make sure that you leave a bit of overlap, so that the image stitching software can do its task.
 2. Change the shape of the green box, which shows the part of the image that you will save to a file, so that it contains the edges of the print. Make sure that the image is straight, balanced, and focused.
 3. Now you are ready to save it as an image file. Under the Scan/Print tab, change the scan resolution to 600dpi. Press "Scan to Drive #1." Name your file following the standard dating format plus page number plus a suffix for the top left hand corner (YYYY-MM-DD-p1a). Choose file type jpg. Then proceed to scan the bottom left hand corner (p1b), the top right (p1c), and the bottom right (p1d).

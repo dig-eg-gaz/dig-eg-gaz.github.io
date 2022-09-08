@@ -33,7 +33,7 @@ As an example, search for `Egypt`. Then, search for `Egypt`, but restrict your X
 
 #### Searching several files
 Open all of the files that you wish to search, then click on Find/Replace in Files:
-![find replace oxygen](/img/find-replace-oxygen.png)
+![find replace oxygen](find-replace-oxygen.png)
 This will open a dialogue box. Under "Scope," choose "All opened files," then proceed with your search.
 
 #### Searching the full contents of the digital Egyptian Gazette
@@ -43,11 +43,11 @@ To search everything in the [Digital Egyptian Gazette content repository](https:
 
 If you are searching for particular nodes rather than words, or counting nodes, it's easiest to use the XPath query bar, which is located near the top left of your screen.
 
-![xpath query box oxygen](/img/xpath-query-box-oxygen.png)
+![xpath query box oxygen](xpath-query-box-oxygen.png)
 
 The drop-down icon on the left of this box allows you to choose the scope of your search: current file, all opened files, and other options. To search the full contents of the digital Egyptian Gazette, you'll need to use a "working set."
 
-![xpath query box scope](/img/xpath-query-box-scope.png)
+![xpath query box scope](xpath-query-box-scope.png)
 
 #### Set up a working set
 To create a working set of files for your search, click on "Configure XPath working sets..." in the drop down menu pictured above. Create a "New working set", give it a name, then press enter. Now click "Add resources," then "Folders," then select the content folder you've cloned from GitHub. Click "Done" and "Ok", and you should be ready to query the full contents.

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/dianafajardo/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/dianafajardo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/dianafajardo/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/dianafajardo/</link>
+    </image>
+    
+    <item>
+      <title>Bubonic Plague</title>
+      <link>https://dig-eg-gaz.github.io/post/17-analysis-fajardo/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/17-analysis-fajardo/</guid>
+      <description>&lt;p&gt;The &lt;em&gt;Egyptian Gazette&lt;/em&gt; is one of the most remarkable newspaper developed in Egypt that has informed and entertained the community for centuries. The newspaper was the main source of information for members of the community, as it was filled with short stories, financial tables, advertisements, and records of sports. In order to find material for my research, I used &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39;insertword&#39;)]&lt;/code&gt; as my search query. As shown in the table below, I ran results for search words including Bubonic, plague, cattle, and diseases. The results for plague were high&amp;ndash;131 items&amp;ndash;and low for Bubonic&amp;ndash;17 items.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ResultsFajardo1&#34; srcset=&#34;
+               /post/17-analysis-fajardo/fajardo-Results1_hu07b8d2cdfc30eb5337b8146921b3997f_6212_f4fd29f1ac280b1bc58459aff03aa0df.webp 400w,
+               /post/17-analysis-fajardo/fajardo-Results1_hu07b8d2cdfc30eb5337b8146921b3997f_6212_4be41044d560541f4aed171d4ed669cb.webp 760w,
+               /post/17-analysis-fajardo/fajardo-Results1_hu07b8d2cdfc30eb5337b8146921b3997f_6212_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-fajardo/fajardo-Results1_hu07b8d2cdfc30eb5337b8146921b3997f_6212_f4fd29f1ac280b1bc58459aff03aa0df.webp&#34;
+               width=&#34;190&#34;
+               height=&#34;286&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In order to improve the quality of my research, I decided to specifically target the Bubonic Plague.
+As death caused by plagues were repeatedly mentioned in my assigned week, the topic appeared numerous time through my classmates’ XML document.&lt;/p&gt;
+&lt;p&gt;The table below depicts how the result of deaths caused by the Bubonic Plague changes drastically in different cities. Cities that were affected by the plague include: Alexandria, Port Said, Sues, Zifta, and Damanhur. Because of the difference in casualties between the cities, I decided to investigate what may have been the underlaying promotion of the Bubonic Plague in the affected cities. By combining my curiosity for the Bubonic Plague and the sanity conditions of affected cities, my serial question developed into &lt;em&gt;“How the sanitary conditions of the cities may have promoted the Bubonic plague in different cities.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As I began my research, I had to set the foundation of my project by adapting my Oxygen XML editor to the standard XPath and XQuery language. Fortunately, Mr. Reddick (the teacher assistant) was kind enough to help students such as myself, who are not familiar with the process. After the software was ready, I was able to search a number of XPath queries with different terms. However, the process included a series of trial and error. For instance, I noticed that the query, &lt;code&gt;//div[@type=&amp;quot;section&amp;quot;]/div/p[contains(., &#39;bubonic &#39;)]&lt;/code&gt;, resulted with only one item, while the query, &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39;bubonic&#39;)]&lt;/code&gt; resulted with sixteen items. Because of the successful results, I ultimately used this template for my XPath queries: &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39;insertword&#39;)]&lt;/code&gt;.  In order to find quality information regarding of the Bubonic Plague, the main search query used was &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39; Bubonic &#39;)]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A barrier I encountered was that there were short articles appearing in the results or the article regarding about a plague was hidden among other articles. Compared to recurring data in the newspaper, the death counts from the Bubonic Plague were written in articles rather than recorded in tables. As a researcher, it was frustrating not having a tool that would allow me to quickly input data in the Atom software or Windows Excel. However, it would be morally wrong to simply remember the victims of the Bubonic Plague as data; for that reason, the victims were mentioned in articles could be remembered as individuals rather than as simple numbers. Shown below is a graph from the collection of data from the beginning of January 1905 to the end of April 1906.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ChartFajardo2.png&#34; srcset=&#34;
+               /post/17-analysis-fajardo/fajardo-Chart2_hu78c6ee8c6210f6e98557d3816bc6d49f_34876_17bdd6cdd36753bc03a2b0e4e83d49a3.webp 400w,
+               /post/17-analysis-fajardo/fajardo-Chart2_hu78c6ee8c6210f6e98557d3816bc6d49f_34876_a6004aae9774ead19452e23ce11e62b0.webp 760w,
+               /post/17-analysis-fajardo/fajardo-Chart2_hu78c6ee8c6210f6e98557d3816bc6d49f_34876_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-fajardo/fajardo-Chart2_hu78c6ee8c6210f6e98557d3816bc6d49f_34876_17bdd6cdd36753bc03a2b0e4e83d49a3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;550&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As shown above, the city that was heavy affected by the Bubonic Plague was Alexandria, followed by Suez. The data contrasted my original presumption (Alexandria would be least affected by the plague), since it was a very attractive city to tourists. However, I realized how my assumption did not consider actual factors of the city’s condition. If a city or town is widely known and attracts numerous individuals, then the population will drastically increase since citizens will move to seek jobs. If a town is unknown and does not attract many businesses, then the population will be significantly low compared to a city’s. As citizens of Egypt flock to  Alexandria, many would live in uncomfortable and unsanitary conditions since space was limited and many cannot afford a standard household. Since Alexandria had a large population, it was difficult to enforce sanitary laws. As individuals disregard sanitary laws to minimize diseases, the Bubonic Plague may have easily infected citizens since many individuals worked in close proximitiy and the disease could have easily been transmitted. However, the table below will depict how by the end of October, the Bubonic Plague was essentially gone. Since this became the case, I developed a new search query in order to answer how the government was able to control the plague and cure the victims.&lt;/p&gt;
+&lt;p&gt;In order to find valid information regarding how the disregard of sanitary conditions promoted the Bubonic Plague and how the Sanitary Department helped eliminate the Bubonic Plague , I search a query as &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39; Sanitary &#39;)]&lt;/code&gt;. Unfortunately, 271 items appeared as my result. To find information that specify targeted the Sanitary Department, I had to use a specific word choice. The search query that give me a substantial amount of result( 14 items) was, &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39; Sanitary Administration &#39;)]&lt;/code&gt;. As I read article by article, I came across a statement from January 1st, 1905 that states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During the week ending the 31st December, 15 cases of bubonic plague occurred throughout Egypt. An increase appears in the number of cases occurring at Suez last week. It appears from the report that I have received from Dr. Cresswell and from my own observations, (says Sir H. Pinching in his report) that these cases are due to infection conveyed by rats, which had been infected themselves by goods coming from India or Upper Egypt. One of the persons attacked by plague at Suez is an assistant in a shop, which contains large quantities of indigo coming from Calcutta and tea from Madras. In moving the cases containing these goods the dead bodies of rats were found.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This statement released by an unknown writer depicts how easy it was to receive this infection in a heavily populated area. Since food and goods were being imported in contagious settings due to the lack of regulations, many bacteria developed on the products that consumers would eat or touch. As workers dealt with contaminated items on a daily basis, their family, neighbors, and coworkers were being exposed to the deadly Bubonic Plague.&lt;/p&gt;
+&lt;p&gt;On August 30th, the writer of the “Local and General” statements, stated: “The Sanitary Administration has demanded a new credit of  L.E. 10,000 for measures against the plague.” As the deaths caused by the Bubonic Plague were decreasing, the Sanitary Department was demanding a certain number of Egyptian pounds (L.E.) to finally eliminate the plague. My theory for the demand is that the department may have been developing a vaccine. The only reason that the statement seems suspicious is because no information regarding how the Sanitary Department planned on managing the money was released. Even though I do not question the department’s intentions for the money, the public should have been informed on how the Sanitary Department was planning to eliminate the Bubonic Plague.&lt;/p&gt;
+&lt;p&gt;Articles and Statements released in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; reflect how unpredictable the Bubonic Plague was from 1905 to 1906.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Egypt is now free from bubonic plague, and the bulletin issued by the Sanitary department states that no case was reported during last week. Three cases, however, remained under treatment after the issue of the previous bulletin, but of these two have recovered, and one has ended fatally. All these three cases occurred at Alexandria. In view of the present freedom of the country from plague no further official bulletins will issued unless a new case should be notified.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This statement gave hope to the society and eliminated the worries of citizens. The statement gave the illusion to Egyptian citizens that their country is free from the plague.&lt;/p&gt;
+&lt;p&gt;Then on April 1st, this statement was released in the newspaper:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Six cases of plague were reported from the Keneh district on Saturday, four of them terminating fatally. The Public Health Department has just issued a report on bubonic plague in Egypt from February 26 to April 1, which shows a total of 19 cases, 15 of which have proved fatal, the remainder being under treatment.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One can infer that the Bubonic Plague was still a threat to the country even though the newspaper previously mentioned that Egypt was free from the plague. The news coverage should have made it clear to the citizens that even though there has been no new cases, one must take precautions.&lt;/p&gt;
+&lt;p&gt;In essence, the Bubonic Plague took a tremendous toll on Egyptian society, especially in higher populated cities. The data and information that I have collected regarding the plague depicts how bipolar and odd the Bubonic Plague was&amp;ndash;one day it would kill numerous persons, then the Bubonic Plague would not exist the next day.&lt;/p&gt;
+&lt;p&gt;Having access to the &lt;em&gt;Egyptian Gazette&lt;/em&gt;’s data in the XML software allowed me to find the necessary data for my research in practical way. During my research, I realized how the Sanitary Department and sanitary conditions of an area were two main factors in eliminating the plague. There are several questions that still linger in my mind, such as: when the Bubonic Plague came to cease and what eliminated the Bubonic Plague. The data that was found through this research could be studied by specialists and help prevent or eliminate another plague in the future.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

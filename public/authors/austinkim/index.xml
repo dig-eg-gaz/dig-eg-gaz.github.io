@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/austinkim/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/austinkim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/austinkim/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/austinkim/</link>
+    </image>
+    
+    <item>
+      <title>Economic History of Stocks and Shares</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</guid>
+      <description>&lt;h2 id=&#34;identifying-data-sets-bailee&#34;&gt;Identifying Data Sets: Bailee&lt;/h2&gt;
+&lt;p&gt;Our group was primarily focused on the section of the Egyptian Gazette called Stocks and Shares, a table listing various companies and the prices of their respective shares. The companies are divided into various sections such as “banks,” “land,” “commercial/industrial,” “navigation &amp;amp; water works,” and “railways and tramways.” To select specific companies to analyze within each industry, I looked for one or two companies whose shares were listed in pounds (for ease of comparison- though it would be possible to convert from one type of currency to another, it was simpler this way), then picked the companies with the highest share prices. Choosing one or two companies with the highest share prices seemed like one possible way to find companies who were dominating those industries and could therefore provide an accurate assessment of Alexandria’s economy during a specific time period. The following eight companies were selected from those criteria: Imperial Ottoman Bank, National Bank of Egypt, New Daira Sanieh Fond., Alexandria Bonded Stores Pref., pref. Cairo Sewage Transport Ord., Alex. Water Company, Cairo-Helouan, and Keneh-Assouan. (For clarity, these names were lifted directly from the tables in question.)&lt;/p&gt;
+&lt;h2 id=&#34;introducing-the-datasource-alvin&#34;&gt;Introducing the Datasource: Alvin&lt;/h2&gt;
+&lt;p&gt;With the selection of the eight companies above, we found that those companies can be distinguished into two categories.&lt;/p&gt;
+&lt;p&gt;One of them is finance, which includes Imperial Ottoman Bank, National Bank of Egypt, New Daira Sanieh Found, Alexandria Bounded Stores Pref, and Keneh-Assouan (Assurance). It is apparent that bank, insurance, and estate companies are likely to have more influence on the stock market, so we choose to observe them from a micro-scale, and then link them to the macroeconomics of Egypt. For instance, &lt;a href=&#34;http://psi424.cankaya.edu.tr/uploads/files/Pamuk,%20Evolution%20of%20Financial%20Institutions,%201600-1914%20%282004%29.PDF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ottoman Bank&lt;/a&gt; helped foreign interest groups to have their investments in Egypt. Its shares consisted of thousands of English Group and French Group. It also functioned as a loan provider by issuing loans to the government of Egypt.&lt;/p&gt;
+&lt;p&gt;It makes sense that the investors and businessmen in Egypt needed to borrow loans to develop and establish their industries to the emerging economics boom at the start of the 1900s. In return, the consumers and investors built up their credits and deposited their revenues to the bank, which allows the bank to have more power to promote regional development. As the economy boomed, the values of land prices increased. &lt;a href=&#34;http://www.egy.com/historica/97-07-00.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daira Sanieh&lt;/a&gt;  was a sugar company, and it also held many lands in North Egypt. During the booming, its lands were brought by several foreign investors. It used to have about 4 million Para (Ottoman Turkish currency) debt. After the sale of lands, its debt was paid off. On the sides of that, insurance companies had roles in decreasing the risk of the investors in the financial system and preventing the cost when companies have defaulted or failed to obligate the promise of paying back loans. Meanwhile, insurance companies hold &lt;a href=&#34;https://www.researchgate.net/publication/272305139_Egyptian_Insurance_Market_History_and_Structure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;large shares&lt;/a&gt; from other companies.&lt;/p&gt;
+&lt;p&gt;The second category is the infrastructure. In this project, we include Cairo Sewage Transport., Alexandria Water Company, and Cairo Helouan. In two decades, from 1880 to 1900, the population of Egypt had an &lt;a href=&#34;https://archive.org/stream/encyclopaediabri01chisrich#page/568/mode/2up&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exponential growth&lt;/a&gt;. The population in Alexandria grew half the amount of what it had in 1882. In 1907, it had 332,246 in Cairo. With the growth of population, more water installments and more transportation were needed to support the cities’ operation. The water was primarily relied on Suez and Niles. In major cities like Cairo and Alexandria, they had many railroads and tram companies serving for passengers and freight.&lt;/p&gt;
+&lt;h2 id=&#34;process-of-obtaining-preliminary-values-pre-correction-bailee&#34;&gt;Process of Obtaining Preliminary Values Pre-Correction: Bailee&lt;/h2&gt;
+&lt;p&gt;In order to collect values from these companies, I ran the following XPath query:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;//div[@xml:id=”deg-el-stsh01”]/table//cell[contains(.,’Imperial Ottoman Bank’)]/preceding-sibling::cell/measure&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This particular query would deliver the share price (in pounds) for the Imperial Ottoman Bank in each properly labeled Stocks and Shares table within the content repository. (For reference, I updated my version of the content repository on November 13, 2019 at approximately 11 am.) I then took the search results and used Atom to isolate only the dates and share prices, then pasted them as separate columns in an Excel document.
+To obtain values from the other companies, I simply replaced the blue text with another company’s name and followed the same process. In this way, the XPath query for, say, Cairo Sewage Transport Ord. would be:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;//div[@xml:id=&amp;ldquo;deg-el-stsh01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;pref. Cairo Sewage Transport Ord.&amp;rsquo;)]/preceding-sibling::cell/measure&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Running the query &lt;strong&gt;//div[@xml:id=”deg-el-stsh01”]&lt;/strong&gt; showed 175 ocurrences of the Stocks and Shares table within the content repository. However, we had to determine whether the data shown was correct or if it was simply the templated information. So, we decided to restrict to a smaller sample size of data that we could plausibly correct.&lt;/p&gt;
+&lt;p&gt;The period of time that we chose was the year 1905, as the XPath query I ran seemed to show that editions from 1905 had the most complete data sets (perhaps because IDS classes are working on this newspaper in chronological order). Of all the companies listed, Alexandria Bonded Stores Pref., a commercial/industrial company, had the most results in 1905 (94 results). However, 94 tables would be too many for us to check (plausibly). So, we decided to use data only from Wednesdays as a sample. In order to isolate data from Wednesday editions, I imported values corresponding to Alexandria Bonded Stores Pref. in 1905 to Tableau. I set “weekdays” of dates as columns and “count” of the values to find how many of the values came from which day of the week. The largest number of values for Alexandria Bonded Stores Pref. (18 values) were present in Wednesday editions. Tableau confuses me still, so I just used a calendar from 1905 to find out which dates were Wednesdays after figuring out that Wednesdays held the largest data pool. After further research, we found that Wednesday’s stocks and shares data would experience the &lt;a href=&#34;https://finance.zacks.com/day-week-volatile-stock-market-3009.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;least volatility&lt;/a&gt; given its placement exactly between market open and market close in the available trading days throughout any given week.&lt;/p&gt;
+&lt;h2 id=&#34;a-short-aside-on-correction-austin&#34;&gt;A Short Aside on Correction: Austin&lt;/h2&gt;
+&lt;p&gt;The dates that I was supposed to research based on our query were the following: &lt;strong&gt;3/8/1905&lt;/strong&gt;, &lt;strong&gt;3/15&lt;/strong&gt;, and &lt;strong&gt;3/22&lt;/strong&gt;. The first thing to note was that the query was pretty accurate, albeit it still had some problems. Problems not on our end, but flawed issues based on the fact that our repository that we were basing our working sets on were made by other students/people. For the 3/15 chart, I had to figure out why the xml work was showing it was on page six but the image didn’t include it. I had to look through the other pages and found out that it didn’t exist for the date. For the 3/22 table, it was correct but just on a different page than where it was on the source file.&lt;/p&gt;
+&lt;h2 id=&#34;the-visualization-process-jimmy&#34;&gt;The Visualization Process: Jimmy&lt;/h2&gt;
+&lt;p&gt;Using the excel document Bailee made, I opened a Tableau document and imported the data. I first had to include filters because a lot of the data was from the template. The data still may have not been accurate, so as a group we decided to use a sample and manually change the data. Because of the small data sample, the graphs of the stocks look more rigid and a lot don’t move over the course of the year. However, there are interesting jumps here and there in the data. Also, I decided to use the excel visualization platform for the final graphs because it is more intuitive for me. These visualizations include companies in different industries, such as banks, land, commercial industrial, navigation and waterworks, and railways. The National Bank of Egypt seems to have the most dynamic movement, while the Imperial Ottoman Bank hardly moves at all. There seems to be a jump in the prices of bank stocks in January of 1906. However, at the same time the Daira Sanieh stock seems to drop and so does the Alexandria Water company. Whether or not it is in any way correlated remains unanswered.&lt;/p&gt;
+&lt;h3 id=&#34;banks&#34;&gt;Banks:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imperial-Ottoman-Bank&#34; srcset=&#34;
+               /post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_c61f88d87601f8b8dd69da04cfa38b65.webp 400w,
+               /post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_b45cd69d1afeef45ca755521ce3cd749.webp 760w,
+               /post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_c61f88d87601f8b8dd69da04cfa38b65.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;National-Bank-of-Egypt&#34; srcset=&#34;
+               /post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_e213decc85b187c4ae53136b5741b071.webp 400w,
+               /post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_ceb2416964f49c26f732df5458ccbbb1.webp 760w,
+               /post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_e213decc85b187c4ae53136b5741b071.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;land&#34;&gt;Land:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;New-Daira-Sanieh-Fond.&#34; srcset=&#34;
+               /post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_6c552ea4e708b58bdf3effae63b9f696.webp 400w,
+               /post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_c5d773f7b6716e5168f0daa557d027c3.webp 760w,
+               /post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_6c552ea4e708b58bdf3effae63b9f696.webp&#34;
+               width=&#34;480&#34;
+               height=&#34;288&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;commercialindustrial&#34;&gt;Commercial/Industrial:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alexandria-Bonded-Stores-Pref.&#34; srcset=&#34;
+               /post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_7f5dfb7739bc56c5d57fc8c60372bbcc.webp 400w,
+               /post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_0e7d8f84185410e8a18fc2c7d4a6ba40.webp 760w,
+               /post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_7f5dfb7739bc56c5d57fc8c60372bbcc.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;pref.-Cairo-Sewage-Transport-Ord.&#34; srcset=&#34;
+               /post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_397e746fe257d2ce163cc206c496fb10.webp 400w,
+               /post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_6b803834768625b9eae428625d770ad5.webp 760w,
+               /post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_397e746fe257d2ce163cc206c496fb10.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;288&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;navigation--waterworks&#34;&gt;Navigation &amp;amp; Waterworks:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alex.-Water-Company&#34; srcset=&#34;
+               /post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_df817055a49dd031f5d9e5cdbb5141f7.webp 400w,
+               /post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_c2e6f03d46ca7cc6b860a4742a9a6bfa.webp 760w,
+               /post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_df817055a49dd031f5d9e5cdbb5141f7.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;railways-and-tramways&#34;&gt;Railways and Tramways:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cairo-Helouan&#34; srcset=&#34;
+               /post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_678dad59df777f977b8c3237fe2e0eb6.webp 400w,
+               /post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_841d9cce519fe66db2e6acec3c4a6407.webp 760w,
+               /post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_678dad59df777f977b8c3237fe2e0eb6.webp&#34;
+               width=&#34;480&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Keneh-Assouan&#34; srcset=&#34;
+               /post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_90b96bd2161b62411cfe4dd1bc84046a.webp 400w,
+               /post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_ab74dd02df55afb9bc239149cf35b30b.webp 760w,
+               /post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_90b96bd2161b62411cfe4dd1bc84046a.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;conclusion-austin&#34;&gt;Conclusion: Austin&lt;/h2&gt;
+&lt;p&gt;Because the dates are such a small sample size, the difference in share prices were minuscule so I decided to focus more solely on a very important stock at the time and even now for the country of Egypt. During the early 1900’s, Egypt was going through an economic crisis and were in the middle of rebuilding their economy as the British had taken over after the war in 1882. The British made it their goal to pool resources into Egypts economy and this is why the National Bank of Egypt, the oldest and biggest bank in Egypt was able to recover and even have steady stock growth all throughout 1905 and into 1906. Another thing to note is that the tables show debentures and the National Bank of Egypt did not issue any throughout 1905 and this can indicate that the bank was a secure investment and backed by reliable assets.&lt;/p&gt;
+&lt;p&gt;The final point of this project was to see how the financial markets were doing and using this as an evaluation of how the economy in Egypt was during the time period of 1905. The main reason we as a group were trying to find the answer to this question is because Egypt was suffering from a declining economy and after the war of 1882, where the British took over, they made rebuilding Egypt’s economy a priority. The latter reason is that Egypt went through a major recession in the year of 1907 and on, and we wanted to see how stabilized the markets were prior. As we can see from our charts, many of the top performing stocks were either on a clear uptrend or were stabilized around a certain price, indicating that Egypt’s economy was quite strong during 1905.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Egypt Stocks &amp; Shares</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-kim/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-kim/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;My Question: How well would you fare if you invested in the biggest bank in Egypt at the start of 1906?&lt;/strong&gt;
+Expanding on our group project, which was referring to the highest and lowest producing stocks in the stock market in 1906; I wanted to look further into this and see how well you could do with Bank stocks as I noticed throughout the months, while finishing my deliverables, that the banks were heavily advertised and very involved within Egypt’s economy. I looked through the “Stocks and Shares” table in quarter one of 1906 to get the most accurate results. This table not only showed the stock prices but the debentures and well. A stock is basically the digital equivalent of owning a part of a company for which they are able to buy and sell as they wish. A debenture is essentially the same thing but more similar to a bond in that it is everything that a bond is but also secured by assets.&lt;/p&gt;
+&lt;p&gt;The point of this project was basically to show how one would do by investing in the financial sector in the time of rebuilding as Egypt was still going through an economic overhaul led by the British. After the war of 1882 with the British, Egypt was taken over and made as a project by the British to rebuild the declining economy starting with their very important cotton industry. Another reason I decided to ask this question is because while Egypts economy was beginning to suffer and their recession in 1907 was becoming apparent, I wanted to see how a financial stock would fare against negative investor sentiment. The recession trend was also very similar to the US financial crisis of 2008. There is a parallel as the crisis bled into everyday life and affected almost everyone apart of the economy. Both Egypt and the US economy suffered greatly from the recessions and bled more and more everyday. The one key difference was that while the financial sector, specifically the bank stocks were hit the hardest in the US crisis; in Egypt there was really no sector at fault. To go ahead and find out the answer to my question, I decided to do a little research on each of the stocks in the financial sector at the time and figure out which made the most sense.&lt;/p&gt;
+&lt;p&gt;I chose the &lt;em&gt;National Bank of Egypt&lt;/em&gt; because it is the biggest and oldest bank in Egypt and would give me the best results in terms of the financial sector as it is a solid indicator for the sector as a whole.
+Stemming from my project, the query: //div[@xml:id=&amp;ldquo;deg-el-stsh01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;National Bank of Egypt.&amp;rsquo;)]/preceding-sibling::cell/measure&lt;/p&gt;
+&lt;p&gt;Would allow me to see the changes in the prices of the bank shares and the growth or decline of the share as each week went by. This allowed me to also see the visualization as a graph and a trendline.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image title&#34; srcset=&#34;
+               /post/19-analysis-kim/EgyptGraph_hu8f7bdde3495d7c1e82739938937b9a8f_72752_836ba9f9267c27cd91caa38682cd1d11.webp 400w,
+               /post/19-analysis-kim/EgyptGraph_hu8f7bdde3495d7c1e82739938937b9a8f_72752_8ff3828e29d8de721a832bb30848f245.webp 760w,
+               /post/19-analysis-kim/EgyptGraph_hu8f7bdde3495d7c1e82739938937b9a8f_72752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-kim/EgyptGraph_hu8f7bdde3495d7c1e82739938937b9a8f_72752_836ba9f9267c27cd91caa38682cd1d11.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;457&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The stock is clearly a growth stock and an indicator of a winner as it has a positive trend.
+From this visualization, it is obvious, in a small sample size, that the stock is a survivor during a bear market and a great recession-resistant stock. For historical context, The National Bank of Egypt, in 1906, established in Addis Ababa, the &lt;a href=&#34;https://www.bankofabyssinia.com/index.php/profile/company-profile.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bank of Abyssinia.&lt;/a&gt; This bank was able to be granted a 50 year monopoly and became the Ethiopian government fiscal agent as well as the only issuer of currency. It was the most respected commercial bank in Egypt because it was never separated from the national concerns or issues. It has also been the main supporter of Egypts very important national economy by helping finance its major projects. This backed with the fact that it moved the majority of Egypts banking assets, deposits, loans, and advances at the time, it was a safe bet during the recession. So how would I do if I decided to jump the gun and invested in the biggest and oldest bank in Egypt? Not only would I do well, I would be beating the market average by a mile and then some.&lt;/p&gt;
+&lt;p&gt;As an expansion to my reasoning for this project, I wanted to credit a second source that was actually suggested to me by Mr. Hanley himself. I remembered Professor Hanley mentioning during our Blog Post project that we should try and find other blog posts similar to ours and during my search, I found a source that I kept just in case for my analysis project because I knew I was going to do something on the stock market. It just turned out that my group was also in agreeance with me and coincidentally agreed on a question very similar to the following source: &lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-analysis-metallo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stocks and Shares&lt;/a&gt; I just wanted to give thanks to &lt;em&gt;Sophia Metallo&lt;/em&gt; (the author of the blog post) as I was able to pull very valuable information from the work and use it as guidance for this project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rest in Peace Miss F. Collins</title>
+      <link>https://dig-eg-gaz.github.io/post/2019-10-15-austink/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2019-10-15-austink/</guid>
+      <description>&lt;p&gt;I was looking through my papers and noticed an interesting article that didn&amp;rsquo;t seem to align with the theme of the local newsletter. In the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, mostly everything is generalized and for the benefit of the reader but there was a section titled &lt;a href=&#34;https://www.baltimoresun.com/news/bs-xpm-2002-02-17-0202160131-story.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Obituary&lt;/a&gt; and it was interesting because it was on one specific person. As I read I realized that even though she did just seem like another local, the point of the article was to show how &lt;a href=&#34;http://www.globalthinkersforum.org/our-impact/each-and-everyone-of-us-is-unique-and-important-and-no-one-is-insignificant/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;every citizen is important&lt;/a&gt; and it made sure to explain how she was a quality person and her death was to be mourned as many of the locals in Luxor and Cairo cared for her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Each and Everyone of Us Is Unique and Important, and No-one Is Insignificant”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I find this fascinating because there are two other instances I found while browsing through the blog posts in which the &lt;em&gt;Egyptian Gazette&lt;/em&gt; has done this.
+For example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/post/2017-04-23-baenen-deathofthepasha/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;In the death of Haicalis Pasha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-blog-fitzpatrick/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Death of Mr. Hanna&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In both instances the newsletter is reporting local deaths and it shows that the community do care about its people and that no passing is meaningless.&lt;/p&gt;
+&lt;p&gt;One of the important things that was pointed out in the Obituary is how Miss Collins spent a majority of her time at church and actually passed while at a Sunday Service. It is safe to assume that she is now in &lt;a href=&#34;https://www.everystudent.com/journeys/then.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heaven&lt;/a&gt; because not only did she realize God but also lived an honest life.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisdem PDFConverterOCR | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/tag/cisdem-pdfconverterocr/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/tag/cisdem-pdfconverterocr/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cisdem PDFConverterOCR</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
+      <title>Cisdem PDFConverterOCR</title>
+      <link>https://dig-eg-gaz.github.io/tag/cisdem-pdfconverterocr/</link>
+    </image>
+    
+    <item>
+      <title>OCR Woes</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-26-grieco-technical/</link>
+      <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-26-grieco-technical/</guid>
+      <description>&lt;p&gt;For my technical reflection, I have decided to discuss my experiences with the
+OCR software, simply because it was easily the most time-consuming and tedious
+portion of the technical aspects of this class. Since I have a Mac laptop, I
+used the Cisdem OCR software rather than ABBY Finereader.&lt;/p&gt;
+&lt;p&gt;The first thing I would like to say is the accuracy with which it translates
+the text is quite disappointing. I would estimate that at MOST 60% of the
+original text was transcribed to my text editor properly, and even more
+frustrating was that specific letters were nearly almost incorrectly written,
+for instance the letter “e” for the entirety of the respective pages was often
+incorrectly recorded as the letter “a”, and vice versa. Furthermore,
+spell-checking entire pages written in French was both lengthy and difficult,
+particularly when I could not read some of the words and could not use context
+clues to figure out what they were supposed to say (because I do not speak
+French). At a certain point I had to simply accept that my XML pages were simply
+going to be filled with egregious errors and a certain level of accuracy was
+impossible to achieve (much to the chagrin of my mild OCD, but hey it was a
+learning experience in patience and Zen).&lt;/p&gt;
+&lt;p&gt;Overall, I was not a fan of the OCR software. It was most likely faster than
+manually transcribing entire pages of the newspaper, but it was nonetheless
+aggravating and stressful. Rant over.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

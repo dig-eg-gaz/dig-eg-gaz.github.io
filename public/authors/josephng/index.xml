@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/josephng/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/josephng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/josephng/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/josephng/</link>
+    </image>
+    
+    <item>
+      <title>Front Page Advertisements</title>
+      <link>https://dig-eg-gaz.github.io/post/17-analysis-ng/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/17-analysis-ng/</guid>
+      <description>&lt;p&gt;When looking at a newspaper, often the first thing that can be seen is the front page and the information that it holds. The &lt;em&gt;Egyptian Gazette&lt;/em&gt; was a newspaper based out of Alexandria, Egypt that played a crucial role in informing its English- and French-speaking residents on the daily events that occurred within the city and around the world. Political, financial, and social happenings were also chronicled in addition to personal events during the late nineteenth and early twentieth centuries. A majority of the advertisements featured on the front page of this publication promote and advertise shipping and steamer companies that cater to this newspaper’s audience. This audience could consist of an average member of the working class looking to be a passenger and sail somewhere to find new opportunities, or to owners of corporations looking to transport industrial sized cargo from place to place in the most efficient way possible. However, when the prolific number of these advertisements are stripped away from the front page, only a handful of other advertisements are left, which left me wondering, what importance do the products or companies being advertised bear to be featured on the front page?&lt;/p&gt;
+&lt;p&gt;First, to sort through and separate the advertisements that do and don’t advertise shipping and/or navigation lines, I utilized the XPath query feature on Oxygen XML Editor. The XPath query that I created ensured that the results produced would not contain any variation of the word “line”, which signifies that the post was advertising a shipping or sailing line. The final query I ran to find the results I used for this project was:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]//div[@scope=&amp;quot;advertisement&amp;quot;]/head[not(contains(.,&amp;quot;line&amp;quot;))][not(contains(.,&amp;quot;LINE&amp;quot;))][not(contains(.,&amp;quot;Line&amp;quot;))][not(contains(.,&amp;quot;linie&amp;quot;))]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;With this query, the content repository in which the existing files of the digital &lt;em&gt;Egyptian Gazette&lt;/em&gt; are contained was searched, yielding results of advertisements on the first page that do not contain variations of the word “line.” However, because of some inconsistencies with spelling and punctuation, there were some advertisements for shipping and navigation companies that made their way in. After the query was run, the results were first exported into Atom where the results were cleaned up using regular expressions, and then into Microsoft Excel. Microsoft Excel was quite more efficient with finding the leftover advertisements that did not fit the set criteria when compared to the XPath query. Using the Find and Replace tool, I searched for the terms “shipping” and “steamer” and deleted the results that were found and also removed duplicate advertisements, which left me with a list of names of companies that chose to advertise on the front page of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The remaining results with which I was left gave me an idea of what different categories of “other” advertisements showed up on the front page of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. I categorized the advertisements on the basis of whether they were Financial, Insurance, Hotel/Travel, Railway, or Miscellaneous advertisements. Below is a bar graph illustrating the number of different ads each category contains.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Number of ads, excluding shipping ads&#34; srcset=&#34;
+               /post/17-analysis-ng/josephng-graph2_hu8785256995fc756f79542a459f35bd85_67669_9c269e202c34fccb315add12670a420b.webp 400w,
+               /post/17-analysis-ng/josephng-graph2_hu8785256995fc756f79542a459f35bd85_67669_e4f3ec49507f8be9464b2e69eb2761c7.webp 760w,
+               /post/17-analysis-ng/josephng-graph2_hu8785256995fc756f79542a459f35bd85_67669_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ng/josephng-graph2_hu8785256995fc756f79542a459f35bd85_67669_9c269e202c34fccb315add12670a420b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Since the front page seems to be a prestigious spot to place an ad, it is understandable only small numbers of companies from each category would choose to advertise here. Also, I broke down the “Miscellaneous” category into four subcategories (Textiles, Food/Drink, Engineering/Construction, and Communications). I believe that different advertisements that were featured on the front page were essential for the audience of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; to view and also reflected upon the needs of those living in Alexandria, Egypt in their day to day lives.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Financial Ads&#34; srcset=&#34;
+               /post/17-analysis-ng/josephng-financial_hu1333605aaef2b0aa59abb6675b03fac8_69712_74522fdcb1b1abe2689fed4402ea8a04.webp 400w,
+               /post/17-analysis-ng/josephng-financial_hu1333605aaef2b0aa59abb6675b03fac8_69712_513680add526c57d88178772472f9a43.webp 760w,
+               /post/17-analysis-ng/josephng-financial_hu1333605aaef2b0aa59abb6675b03fac8_69712_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ng/josephng-financial_hu1333605aaef2b0aa59abb6675b03fac8_69712_74522fdcb1b1abe2689fed4402ea8a04.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;449&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;During the early twentieth century, Alexandria was a center for those who were seeking out opportunities for employment and financial gain. Thus, it would be logical for banks and credit unions to reach out to the readership of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; and grab their attention. These advertisements would catch the eyes of those who were making profits toward self advancement and who search for more ways to make more money, whether it is through investments or taking out loans. Different banks also present different offers, and a consumer would be able to weigh out their options as they decide where they would like to spend their money.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Insurance Ads&#34; srcset=&#34;
+               /post/17-analysis-ng/josephng-insurance_hu22373cfe49804b4b7bdb038f5e6495a3_118534_4e0e7d260a53e4544e8a7952c1cad5ca.webp 400w,
+               /post/17-analysis-ng/josephng-insurance_hu22373cfe49804b4b7bdb038f5e6495a3_118534_aefc621ebd8dcf2c8b158625d8202a06.webp 760w,
+               /post/17-analysis-ng/josephng-insurance_hu22373cfe49804b4b7bdb038f5e6495a3_118534_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ng/josephng-insurance_hu22373cfe49804b4b7bdb038f5e6495a3_118534_4e0e7d260a53e4544e8a7952c1cad5ca.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;450&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Along with finances, many were also looking for ways to insure their existing and newfound assets from what they have acquired from their stay in Alexandria. The variety of insurance companies advertising themselves aim to satisfy the demand of the different types of insurance needed to protect one’s property and life from the unexpected, especially when living in Alexandria during this time period. No one knows what troubling situations with which they could be faced, and it is crucial to secure one’s belongings while residing in such tumultuous conditions, politically and socially.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Hotel/Travel Ads&#34; srcset=&#34;
+               /post/17-analysis-ng/josephng-hotels:travel_hufe91c442dbb0cc1933f1e3fcc8954d96_71275_1f76746a3c52c77d55f21eb9afd91069.webp 400w,
+               /post/17-analysis-ng/josephng-hotels:travel_hufe91c442dbb0cc1933f1e3fcc8954d96_71275_fde98097c22b221a36311b6c0c9842ef.webp 760w,
+               /post/17-analysis-ng/josephng-hotels:travel_hufe91c442dbb0cc1933f1e3fcc8954d96_71275_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ng/josephng-hotels:travel_hufe91c442dbb0cc1933f1e3fcc8954d96_71275_1f76746a3c52c77d55f21eb9afd91069.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;439&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As mentioned before, Alexandria was a hub for people who were exploring their potential chances of becoming more financially successful. However, this meant many people were coming and going as they sought out each opportunity they could find. Many hotels were able to recognize these patterns and take the initiative to advertise to those looking for a place to stay in their short time in the city. In addition to merely hotels advertising, travel agencies, such as Thos. Cook &amp;amp; Son., also advertised on the front page to help plan different trips for people to get away from the city.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Railway Ads&#34; srcset=&#34;
+               /post/17-analysis-ng/josephng-railways_hu2a4132da2c42ef1b7612fea38ad3d8cd_72922_cc43bd360ebd47e1b1f8ab2263d783bf.webp 400w,
+               /post/17-analysis-ng/josephng-railways_hu2a4132da2c42ef1b7612fea38ad3d8cd_72922_0a7297d93efb050e11fe9e22ffc78abd.webp 760w,
+               /post/17-analysis-ng/josephng-railways_hu2a4132da2c42ef1b7612fea38ad3d8cd_72922_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ng/josephng-railways_hu2a4132da2c42ef1b7612fea38ad3d8cd_72922_cc43bd360ebd47e1b1f8ab2263d783bf.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Although I chose to analyze what advertisements excluding those of shipping and navigation lines the &lt;em&gt;Egyptian Gazette&lt;/em&gt; included on their first page, advertisements for railways also appeared to be quite prominent. Railways were an up and coming new mode of transportation and provided a more comfortable trip for those going longer distances over land. Many railway companies included sleeping or restaurant cars which would appeal to a sense of luxury a reader might be seeking when gazing upon the ads of the cover of the newspaper. Those reading the newspaper who might be of lower social standing might view riding a train as a lavish experience, and others of higher social standing might view this advertisement as convenient, but both parties are able to take in this information and indulge in what is being offered.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Miscellaneous Ads&#34; srcset=&#34;
+               /post/17-analysis-ng/josephng-misc_huff6ce50dafaa486a37f27d404811d54b_2065201_9cb3d2b19ef58e994933127809ff6b39.webp 400w,
+               /post/17-analysis-ng/josephng-misc_huff6ce50dafaa486a37f27d404811d54b_2065201_89d0303a31e585fad3e2b7c20f2bb431.webp 760w,
+               /post/17-analysis-ng/josephng-misc_huff6ce50dafaa486a37f27d404811d54b_2065201_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ng/josephng-misc_huff6ce50dafaa486a37f27d404811d54b_2065201_9cb3d2b19ef58e994933127809ff6b39.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;438&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The remaining advertisements that have been subcategorized into the Miscellaneous categories consist of advertisements regarding textile manufacturers, food or drink, communications, or engineering or construction services. Since the &lt;em&gt;Egyptian Gazette&lt;/em&gt; reaches such a wide range of people, the focus of these advertisements is to attract people of all classes and attempt for them to engage in the product being offered. Likewise, advertisements for engineering and construction would be more relevant from the years 1905-1906 more than ever because of the exploration of prospective land and construction to come. Many seek out ways to build upon that which has not been discovered yet, and coming upon an advertisement for a company that can help seek out opportunities for more success would benefit both parties in that situation. Also, the telegraph and telephone were up and coming new technologies as well, and advertising was necessary to help gain traction for the majority of the audience to invest in these devices. The wide variety of miscellaneous ads shows that not only does this newspaper reach the common housewife, with ads from John B. Caffari’s “Economic Stores,” but it also reaches perhaps an owner of a company who is seeking to expand.&lt;/p&gt;
+&lt;p&gt;Newspapers were probably the main source of information back in the late nineteenth and early twentieth century, before the rise in popularity of devices such as telephones and televisions, and seemed to be crucial in how people in Alexandria knew what was happening. All kinds of people were able to be given the equal opportunity to be in the know of the events of that day. Many companies saw this chance to reach different demographics and took it to hopefully gain business from advertising within the publication. The abundance of advertisements for shipping and navigation lines made it clear that Alexandria was a central location for many travelling to and from the city, but the advertisements surrounding them painted a clearer picture of how those residing in Alexandria went about their lives.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/rileyouellette/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/rileyouellette/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/rileyouellette/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/rileyouellette/</link>
+    </image>
+    
+    <item>
+      <title>Analysis</title>
+      <link>https://dig-eg-gaz.github.io/post/16-analysis-ouelette/</link>
+      <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/16-analysis-ouelette/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://imgur.com/a/Y0Fzn?raw=true&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Alexandria is the second largest city and a major economic center in Egypt, extending about twenty miles along the coast of the Mediterranean Sea in the north central part of the country. Alexandria was founded around a small Ancient Egyptian town c. 331 BC by Alexander the Great. From the late 18th century, the city profited from the easy overland connection between the Mediterranean Sea and the Red Sea, along with the lucrative trade in Egyptian cotton. As a result, Alexandria became a major center of the international shipping industry in addition to one of the most important trading centers in the world. As great as this city sounds, many people will never realize the amount of crime that was committed throughout Alexandria’s history. By using instruments in my digital micro-history class, I have been able to reveal over a month’s worth of Alexandra’s newspaper, The Egyptian Gazette. This newspaper is filled with reports of anything from wars to sports, not to mention all of the crime.&lt;/p&gt;
+&lt;p&gt;Turning this newspaper into an editable, digital form was no easy task. To begin, I had to scan a microfilm containing my week of the newspaper onto my computer. After this I began using an OCR software to convert the newspaper into documents that I could edit. I ran into my first issue when the OCR program poorly read the newspaper, forcing me to retype most of the articles. After finishing the OCR, I moved on to using an XML editor. This allowed me to organize my text into paragraphs, headings, or divisions in the paper. This was also a bit of a challenge for me because I didn&amp;rsquo;t understand the purpose of each tagging command. After a few attempts I learned to wrap any headers with a “head” tag,  wrap any paragraphs with a “p” tag and finally enclose each division in the text with a “div” tag. Each student then uploaded their completed work onto Github allowing the teacher to form everyones’ work into one folder. Using Github was actually quite easy even though the website was completely foreign to me. We simply just had to upload our files and then use a pull request for our work to be submitted. As a result, Github gave me the option to access the newspaper in its final form and pose the serial question: Where and what type of crime occurred in Alexandria and other cities in the early 1900’s?&lt;/p&gt;
+&lt;p&gt;Searching through each newspaper article day by day in search of various crime reports, would be extremely overwhelming. That is where, once again, the XML editor comes in handy. After downloading a folder with all of my classmate’s completed work and inserting it into Oxygen, the XML tool, I was ready to begin querying the digital version of  The Egyptian Gazette. I had the ability to search through all of the content by typing in keywords that relate to crime such as arson, assault, robbery, and murder. After typing in a key word, a list of results appeared allowing me to view an article containing the word after clicking on it. This significantly helped me form my description and analysis on the crime in the 1900’s.&lt;/p&gt;
+&lt;p&gt;A great deal of murder was repeatedly noted in the city of Cairo. In fact, many of these murders happened in a savagery manner. The first example is a cold-blooded murder outside of a church caused by someone firing a worker. While most killings were executed with a firearm, a revolver to be exact, there were still reports of stabbings. For example a man slew his victim with a knife before sunset, and after killing him, he cut his fingers and stabbed his dead body in nine different places. In addition, a few of the murderers were reported showing no remorse for their victims as they were “quoting verses and asking for a cigarette before mounting the ‘gallows.”  An article in  The Egyptian Gazette stated that executions were recently changed from occurring publicly to inside of a prison. The writer also shared his opinion, voicing that he felt public executions were more effective because the condemned person suffered more moral pain.&lt;/p&gt;
+&lt;p&gt;Another common form of crime found in the newspaper is theft. After reading through various articles it appeared that stealing is ubiquitous. Mapping all of the thefts would scatter throughout many Egyptian cities and even steamboats! Jewelry was the most reported stolen item, whether it was stolen straight from a store or from another person’s possession. An instance of pickpocketing occurred on a Steamer when M. Politi, a well-known resident, was caught in the crowd, emerging without his gold watch and chain with gold eagle attached, and a silver cigarette case. Although we usually associate thieves as low-life criminals or desperate, poverty-stricken individuals, it has been noted that even people with official positions still commit stealing crimes. A section in the Local and General portion of a newspaper reads, “Jewel Thief Captured- The Cairo police have succeeded in laying hands on the man who stole two brilliants valued at £250 from Carissian’s Jewelry establishment the other day. His name is Farid Maricius, and he holds an official position in Khartoum.” Besides jewelry, the newspaper also had reports on stolen cattle, clothing, money, and even handkerchiefs. Although the punishment for stealing isn&amp;rsquo;t as extreme as execution it certainly isn&amp;rsquo;t appealing; thieves who had been caught were typically faced a prison sentence filled with months of hard labor.&lt;/p&gt;
+&lt;p&gt;Reports of gang activity were found in the newspaper as well.  These gangs were typically known for robberies on innocent civilians. In one report a gang of muslims insulted the Christian religion by holding a mock funeral, imitating the officiating priest and cross-bearer. After leaving the mosque, they indulged in a travesty of a Christian funeral. Furthermore,  having insulted both religions, found themselves pursued by the police. However, gangs were not an apparent cause for alarm in the city of Alexandria. The gangs were not official with symbols or names.  I was unable to locate significant articles on the fear of gang activity in the cities. 	However, rioting and mobs appeared to be of great concern in certain cities such as Warsaw and Odessa. In Warsaw, an article explained how 300 political prisoners were released on the demand of the crowd, but as 12 were retained, the mob thereupon attacked the Town Hall. Consequently, this caused the cavalry to charge which resulted in 89 deaths. In Odessa hundreds of people had been killed with no signs of an end. A mob of people took possession of the city, plundered the shops and shot the inhabitants. Under those circumstances, the civil militia was left powerless, and the authorities will not interfere.&lt;/p&gt;
+&lt;p&gt;After assessing the purpose of this digital micro history class, I am overall pleased. I enjoyed the experience of exploring an intensive historical investigation of a well-defined, smaller unit of research such as Alexandria instead of a broader and less detailed form of research that I have been familiar with in the past. By studying Egyptian cities in a micro history aspect I feel I was more likely to reveal the complicated function of individual relationships within each and every social setting.  As stated in an internet article by Sigurdur Gylfi Magnusson, “Microhistorians tend to focus on outliers rather than looking for the average individual as found by the application of quantitative research methods. Instead, they scrutinize those individuals who did not follow the paths of their average fellow countryman, thus making them their focal point.” I cannot agree more with this statement. Throughout the semester our class repeatedly discussed any “interesting” or unusual” information we found in the newspaper. In addition, while writing my analysis on crime I tended to focus on more abnormal articles I came across.&lt;/p&gt;
+&lt;p&gt;As a final note, I strongly believe that using micro history methods gave me a better understanding of the culture found in the Egyptian cities in the 1900’s. Reading actual written articles by actual editors at that time period gave me such a better sense of what it was like compared to briefly skimming over a history book. The only downside to micro history that I can think of would be the level of difficulty in creating a broader picture or tackling questions of a greater scale. By examining very fine details, it was hard to make generalizations of the past.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://imgur.com/a/Y0Fzn?raw=true&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

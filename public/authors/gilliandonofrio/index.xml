@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/gilliandonofrio/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/gilliandonofrio/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/gilliandonofrio/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/gilliandonofrio/</link>
+    </image>
+    
+    <item>
+      <title>Robberies in Alexandria</title>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-donofrio/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-donofrio/</guid>
+      <description>&lt;p&gt;Theft should be considered one of the most selfish crimes, as it is literally the act of stealing from others in order to benefit from their belongings. Whether it is out of desperation, or simply for the rush of adrenaline, robbery should not be a crime that is as common as it is today. However, robbery has not only been an issue recently; as shown in multiple issues of &lt;em&gt;The Egyptian Gazette&lt;/em&gt; from 1905 to 1906. My main purpose in this analysis is to make evident the prominence of theft in Egypt during the time period previously stated. In doing this, I will try to uncover a pattern with the robberies by analyzing when and where the theft occurred, what type of robbery it was and if the crime ended in murder.&lt;/p&gt;
+&lt;h1 id=&#34;data-accumulation&#34;&gt;Data Accumulation&lt;/h1&gt;
+&lt;p&gt;What influenced me to look into the prevalence of theft in Egypt was my assigned Monday issue. On October 29, 1906 alone, there were three news articles reporting a sort of robbery that had occurred.  This made me think that there would be similar articles in other issues. However, the three news stories I had read in my issue used different wording to describe the robbery. This caused me to realize that if I wanted to get the most results possible, I would have to test multiple different keywords. Therefore, I ended up using five different keywords, which combined, gave me 51 occurrences of robbery to work with. The keywords I used each gave me a different number of results: my first search using the word “robbery” came back with 49 items, “burglary” with 152 items, “thief” with 39 items, “thieves” with 54 items, and finally, “theft” with 102 items. It was not uncommon for these keywords to overlap in an article, so I had to ensure that I was not reporting an instance in my data more than once. I decided the easiest way to collect my data was to make an Excel sheet with four columns titled date, place, type of robbery, and if the crime ended in murder or not. I created a typology for the different kinds of robbery; individual, house, business, ship, post office and train. Most of these are self-explanatory, being that a house, business, ship, post office or train robbery is one where items are being stolen from that particular setting. However, to clarify, an individual robbery is one where belongings being held on an individual are stolen. After collecting this data, I plugged it into Tableau, where I created different visuals to present my data in an aesthetically pleasing way, which is shown further in my project.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;h3 id=&#34;date&#34;&gt;Date&lt;/h3&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/Mapoftypeofrobberiesthroughoutegypt1905-1906/Sheet2?:showVizHome=no&amp;:embed=true&#34; align=&#34;center&#34; width=&#34;90%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;An aspect of the robberies that I thought would be interesting to examine was the dates that they occurred. I wanted to see if there was a spike in robberies during a certain time period. However, in doing this, I had to acknowledge the fact that the digitization of &lt;em&gt;The Egyptian Gazette&lt;/em&gt; during 1906 is not fully completed. This could be the possible explanation as to why in the line graph below, robberies decrease in 1906. However, it could be possible that this information is true and there actually was a decrease in theft in 1906 due to possibly stricter security or punishment, which could decrease the desire for people to steal. Something else that I found to be unique was the drastic decrease and then increase between August and November of 1905. It is pretty much impossible to discover the exact cause for the extremity of going from seven robberies in August, to one in October, then back to seven in November. However, a hypothesis for the reasoning behind this could be that after such a large amount of robberies in August, security became tighter, causing theft to decrease. Then once robberies decreased, people might have loosened up security because they assumed robberies were less likely to happen, triggering an increase in theft.&lt;/p&gt;
+&lt;h3 id=&#34;place&#34;&gt;Place&lt;/h3&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/Mapoftypeofrobberiesthroughoutegypt1905-1906/Sheet1?:showVizHome=no&amp;:embed=true&#34; align=&#34;center&#34; width=&#34;90%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Another significant detail I decided to analyze about the robberies was the city in which the crimes took place. As shown in the visual, the majority of the robberies occurred in the northeast region of Egypt. There are many possible reasonings for this trend, including the fact that the capital of Egypt, Cairo, is located in the northeast. In fact, 16 of the 51 robberies took place in Cairo. Since Cairo is the capital, it can be inferred that the city was considered modernized and urban, taking in an influx of wealthy European immigrants. This could be the reason that the capital was targeted for theft. The northeast also has access to oceans, making ship ports another easy target for burglary. Thieves may have been attracted to the immigrants coming in on ships with valuable belongings, as well as materials being imported and exported through ports, like Port Said which had 3 reported robberies.&lt;/p&gt;
+&lt;h3 id=&#34;type&#34;&gt;Type&lt;/h3&gt;
+&lt;p&gt;Something I found to be important when analyzing the trends in robberies was the type of theft that occurred. I categorized the robberies by whether it was a house, individual, business, post office, train or ship that was robbed. The two most popular types of theft out of my data are house and individual robberies, each occurring 13 different times. I’m guessing the reasoning behind this is the lack of security. The early 1900’s was a time before high-tech security systems, so homes were not equipped with alarms or cameras making them an easy target. Also, the robbery of an individual may seem easy for a thief as it can go unnoticed through pickpocketing. Another popular type of robbery was train robbery. Again, technology was not how it is today, so one of the most popular forms of transportation was by train. People would most likely travel with their belongings, which may include valuables, that can be targeted easily by thieves.&lt;/p&gt;
+&lt;h3 id=&#34;murder&#34;&gt;Murder&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;murder-donofrio.jpg&#34; alt=&#34;Robberies that ended in murder&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Out of all 51 reported cases of robbery that I analyzed from &lt;em&gt;The Egyptian Gazette&lt;/em&gt;, only seven of them ended in murder. From this we can infer that theft was not meant to be a violent act, and most likely only sparked violence in special circumstances. Of the types of robbery mentioned before, the murders only took place in house and individual robberies. The reasoning for murders occurring only during these types of robberies could be because of human interference. Theft can be considered a desperate act when someone is in need of items, therefor one may do anything in order to gain those items, including killing anyone who gets in the way. While train, ship, business and post office robberies could occur when no one is working a shift, a home burglary is unpredictable, as it is hard to know if someone is in a house at a certain time. The robbing of an individual is also unpredictable, because if the individual realizes he is being robbed, he may fight back, causing the thief to act without thinking and kill the victim.&lt;/p&gt;
+&lt;h2 id=&#34;obstacles&#34;&gt;Obstacles&lt;/h2&gt;
+&lt;p&gt;In collecting my data, I had some instances of difficulty, since the topic I chose is not one that can be found with ease using a query search. Therefor it was very tedious work to have to search each keyword and read through every article to pull out the data that I needed. Another issue that I had to be aware of was ensuring that the article I was reading was an actual news article of a robbery. When I would search my keywords, items other than news articles, like advertisements and reviews, would come up containing that keyword, making the process of reading through the results more time consuming. For example, when searching for the word “burglary” an advertisement for “G. Marcus &amp;amp; Co.” insurance company made up over half of the 152 results, as the insurance company also covers “burglary risks.” Something else that I was considering collecting in my data before I started my research was gender of the criminal. However, once I began my search, I discovered that either most articles did not specify gender, or they had not caught the robber yet, making it difficult to use gender as a category in my analysis. Finally, I would like to ensure the clarity of the fact that although &lt;em&gt;The Egyptian Gazette&lt;/em&gt; is a real publication from Egypt in the early 1900’s, the digitization of these issues was done by students, and can most likely contain flawed, misspelled and inaccurate information.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Robbery was clearly a serious issue during the early 1900’s in Egypt, as 51 cases were reported in &lt;em&gt;The Egyptian Gazette&lt;/em&gt;. The publication also ran follow-up stories on some of the crimes, reporting on whether the thief was caught and updating the public on his sentencing. It was very stimulating for me to look into the data that I collected and hypothesize the correlation between certain aspects of the robberies, like if the place the crime occurred had anything to do with the type of robbery. The frequency of theft in Egypt is just one of the many reasons as to why we have security technology today to catch thieves and more importantly, prevent theft altogether.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Domestic Tragedy</title>
+      <link>https://dig-eg-gaz.github.io/post/18-blog-donofrio/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-blog-donofrio/</guid>
+      <description>&lt;p&gt;This article tells the story of a divorced couple that ultimately ended in fatality. In attempts to fix his relationship, the spouse tried to convince his former wife to get back together. However, when she refused, he got angry and stabbed her multiple times. After this violent and impulsive reaction had subsided, the man realized what he had done, and thinking he had killed his spouse, he drew a revolver and shot himself dead. However, the woman simply fell unconscious and did not die.
+This story has a theme similar to Shakespeare’s &lt;em&gt;Romeo and Juliet&lt;/em&gt; pertaining to the story of a spouse thinking his partner is dead and consequentially killing himself because of that thought. It also shows that people would do anything for love, and that people act irrationally when they are put in desperate situations.&lt;/p&gt;
+&lt;p&gt;Also, domestic violence was not uncommon, as shown in &lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/cooper-wife-murder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matthew Cooper&amp;rsquo;s blog post&lt;/a&gt;. Here Cooper talks about an article on a man who killed his wife with an blow to the head by a bar of iron. Although the context is different between the two instances, it is clear that abuse within marriages was not uncommon.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

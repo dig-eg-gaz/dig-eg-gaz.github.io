@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/adamhutson/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/adamhutson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/adamhutson/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/adamhutson/</link>
+    </image>
+    
+    <item>
+      <title>Musical Theater</title>
+      <link>https://dig-eg-gaz.github.io/post/18-blog-hutson/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-blog-hutson/</guid>
+      <description>&lt;p&gt;The musical theater correspondent surprised me with their knowledge of &amp;ldquo;Los Huguenots&amp;rdquo;. The editor well-articulated their points of the show, being critical but also giving a lot of praise. They begin with the overall thoughts, saying it began slowly, but within a little bit of time it picked up into a great show. The following paragraphs go deeper into the different performers and even the chorus. The editor praised all the performers on how well they sang, but nothing really on acting skill. They did go onto write the chorus was a failure of the performance, but did no effect the overall show.&lt;/p&gt;
+&lt;p&gt;I really felt as if I went to this show, hearing and visualizing the actors throughout. It was very surprising to me to see such good talent being exhibited during this time period, but also the critic who wrote the excerpt was impressive. I did not know that Egypt had such a well-rounded society with a variety of quality entertainment options. However, I do not think it is anywhere as good as what we are seeing during the present day. Today’s entertainment is a wide variety of genres, which means actors must have a wide variety of skills. One of the analysis projects titled, &lt;a href=&#34;https://dig-eg-gaz.github.io/analysis/2016/ragland-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“The Exploration of Musicians in Alexandria”&lt;/a&gt; agrees with this as well. Ragland, the editor writes that most of the performers were amateurs, but were still greatly supported by the community. He goes on to say that there are no negative reviews that he can find, and the &amp;ldquo;Los Huguenots&amp;rdquo; review is no different. The editor does nothing but praise the performance. One last thing I found interesting in his analysis was he said the amount of musicians in the Egyptian Gazette was outstanding. He does not give them by specific name, but mentions the sheer number that are mentioned. I related this to my article because the editor brings up several performers, probably all of the performers from that show.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Big Four Theatres</title>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-hutson/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-hutson/</guid>
+      <description>&lt;p&gt;The  &lt;em&gt;Egyptian Gazette&lt;/em&gt; was a well-rounded newspaper containing topics varying from weather, plague, sports, and daily trade. There are so many topics covered, it was Egypt’s source of news in the early 20th century. While going through the newspaper, coding it, and reading the different stories, something stuck out to me. I was coding page four of my Monday issue when I read about a show within a small theatre in Egypt. This stimulated my interest in what shows were like in the 1900s compared to how they are now. With all the different events going on within the newspaper, there was a large emphasis on the arts, especially musical art and theatres. This was interesting to me because I was always around live shows growing up. I wanted to see how things were different over a hundred years ago in a different country than they are today as I know it. Also, I wanted to compare the theatres mentioned within the region the newspaper covered.&lt;/p&gt;
+&lt;h2 id=&#34;getting-acquainted&#34;&gt;Getting Acquainted&lt;/h2&gt;
+&lt;p&gt;There are four prominent theatres that occur throughout the newspaper from the years 1905-1907, although there are more that show up. Most of the appearances from these theatres come during our winter months (December-March), I am assuming because that is when most of the shows happened. The four theatres that show up the most are the Zizinia Theatre, Verdi Theatre, Abbas Helmy Theatre, and the Alhambra Theatre. To look more in depth to these theatres I used the query, &lt;code&gt;//head[contains(., &amp;quot;THEATRE&amp;quot;)]&lt;/code&gt;. This searched all the headers containing the word theatre. The all caps were necessary because most of the headers coded for use all caps as the header and also used “Theatre” as a search to find the headers with lowercase letters. After gathering more and more information about what theatres were present and which ones appeared the most, I changed theatre to the different names of the specific theatre to narrow my search. The Zizinia and Alhambra theatre show up the majority of the time compared to the other two. Also, the Zizinia Theatre seems to be widely popular, and by far the most popular out of all of them based on the reporting on it. The Alhambra shows up the most number of times trhoughout the paper. The way these theatres worked was a company would rent out the theatre for a certain period of time and put on shows there. A lot of the time there were operas, but other shows range from dramas or comedies. The Verdi Theatre, for example, is a company and they rent out the Cairo Opera House to do their shows.&lt;/p&gt;
+&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;img src=&#34;https://110101-313254-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/10/egypt1215ad.jpg&#34; alt=&#34;Map of Egypt at 1215CE&#34; class=&#34;lazyloading&#34; data-was-processed=&#34;true&#34;&gt;
+&lt;p&gt;My first thought when reading into these different theatres was where they were located. I thought the location would give me more insight on how each one functioned, and I could draw my conclusions on the overall performance from there. To my surprise, the Zizinia Theatre, Abbas Helmy Theatre, and Alhambra Theatre are all located in Alexandria, while the Verdi Theatre location is in Cairo. Alexandria is on the coast, which means more people coming through the city such as tourists or just passing through. I think there is a greater demand for theatres in Alexandria because of this foot traffic. Cairo is also a large city in Egypt, but the demand for theatre is less there. The trend for this holds up in the actual stories of the newspaper.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;theatres&#34; srcset=&#34;
+               /post/18-analysis-hutson/hutson-Visualization_huedf101da406692d62173f992139a74b3_43791_f406cc523fe321504952bb8c8bda048d.webp 400w,
+               /post/18-analysis-hutson/hutson-Visualization_huedf101da406692d62173f992139a74b3_43791_4a86a955da49e5caa1ad1391dc397cec.webp 760w,
+               /post/18-analysis-hutson/hutson-Visualization_huedf101da406692d62173f992139a74b3_43791_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-hutson/hutson-Visualization_huedf101da406692d62173f992139a74b3_43791_f406cc523fe321504952bb8c8bda048d.webp&#34;
+               width=&#34;642&#34;
+               height=&#34;738&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;verdi-theatre&#34;&gt;Verdi Theatre&lt;/h2&gt;
+&lt;p&gt;The Verdi Theatre in Cairo struggled a lot during this time period, which surprised me because of the magnificent layout the Cairo Opera House was. The Khedive at the time wanted something superior to anything else, so the building cost a fortune, but was well constructed (LePaitre 1963). However, upon deeper research in the newspaper, reading what the editors wrote on the Verdi theatre, my opinion was quickly changed. On one occasion in the newspaper, an editor was begging the people of Cairo to go watch shows there. They said the theatre was empty and the companies did not want to rent it out anymore. At one point the Verdi Theatre even went on strike because of their struggles. There is never anything of this sort about the other theatres in Alexandria.&lt;/p&gt;
+&lt;p&gt;The struggling of the Verdi theatre intrigued me. They struggled at the beginning of 1905, as I was going down the dates, another event was interesting.&lt;/p&gt;
+&lt;h2 id=&#34;fire&#34;&gt;Fire!&lt;/h2&gt;
+&lt;p&gt;The Abbas Helmy Theatre caught on fire in April of 1905. No one was injured, but the whole theatre was destroyed, and this caused a few things to happen. After the sudden decline of Abbas Helmy, the Alhambra Theatre received a lot more coverage from the newspaper, and I think this gave them a lot more popularity. Towards the end of the content (around April 1907) there is reporting of the Alhmabra Theatre getting an upgrade. Another cause and effect was the emergence of a new theatre, the Ezbekieh Theatre. However, this new theatre was located in Cairo. This theatre was built next to the Ezbekieh Gardens, along with another theatre next to it. The Khedive made a lot of money by renting these theatres out to various European companies (Barbour 1935).&lt;/p&gt;
+&lt;h2 id=&#34;consistency&#34;&gt;Consistency&lt;/h2&gt;
+&lt;p&gt;The most popular one, the Zizinia Theatre, had a wide variety of shows such as dramas, comedies, and even the occasional biblical one. For most of the two-year time period, they were occupied by French companies. The newspaper would always comment on how the audience reacted so fantastically to all of the plays at this place. Nothing ever negative was really written about them in the paper, the Zizinia seem like the perfect place to go watch a show. I read a journal review titled, “Alexandria: Its Town Planning Development” (Riad 1933) about the layout of Alexandria as a city and the different things going on within the city. The city seems very well put together. It has a wide variety of buildings and grew up on the Mediterranean Sea experiencing a lot of different cultures and travelers coming through. This gave them a diverse culture, as well as a diverse audience for their theatre shows.&lt;/p&gt;
+&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
+&lt;p&gt;Researching this topic was very rewarding as I learned a lot, but it was very challenging at the same time. A lot of the items written about the theatres are repetitive, or not interesting. Since this is a day-to-day newspaper, not everything is exciting all the time. There are a lot of reports on these theatres giving an average show, they give how the audience reacts, and that is it. This repetition over the course of reading hundreds of items on four different theatres was tough. Another challenge I faced was the bias of the newspaper. News in the present day can be very biased and push the audience’s perspective in one way or the other. I am not sure if this is what was going on in the  &lt;em&gt;Egyptian Gazette&lt;/em&gt;, or if they were factual and the Zizinia Theatre was really that amazing, or that the Verdi Theatre really struggled that much. The editors in the paper make it seem like nothing ever goes wrong at the Zizinia Theatre and it makes me wonder if this is just biased reporting because they favor the theatre, or if it was actually a fantastic place to go watch a show. Also, my sample size is only two years, between 1905-1907. During this time, certain theatres could have been thriving while others suffering, but before or after the dates the newspaper looks at, the roles could have been reversed.&lt;/p&gt;
+&lt;h4 id=&#34;things-learned&#34;&gt;Things Learned&lt;/h4&gt;
+&lt;p&gt;Some of the things I learned in general were a lot of European and Middle Eastern companies rented out the theatres. At first thought, I would have expected other African companies to rent out the buildings, but after more thought and research this makes sense. Europe had just decolonized Africa, but this means a lot of European culture was still prevalent in Egypt. Another thing I learned was that there was a certain expectation for these shows. The way editors wrote about them, I could just feel the standard that was set. This leads me to believe that not only the theatre was prominent in Egypt, but the arts as a whole.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;If the reporting is factual, which I assume it is, the Zizinia Theatre is definitely the most popular. The Alhambra theatre shows up the most amount of times, and is also very popular. There are more theatres in Alexandria, and this make sense because of the population, and what that city has to offer. My focus of interest was on events at theatres, that were not actual shows in the theatre. The paper liked talking about these different events such as the strike at Verdi Theatre, the fire at Abbas Theatre. There are also other things mentioned in the paper not a part of the four prominent ones such as an attempted murder that was stopped by the audience, wrestling shows, and another strike. Overall, I think the theatre system back then was the same. In present day, there are more genres and of course more theatres in general. I think the talent level has also increased, with the more variety because actors are expected to be able to portray many different characters, sing, and dance. Whereas in this time period it seems like the level of ability consists of a few genres and mainly singing. However, for the early 20th century, I was impressed with the quality of shows produced and reported on in the Gazette.&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Barbour, Nevill. “&lt;a href=&#34;www.jstor.org/stable/608109&#34;&gt;The Arabic Theatre in Egypt&lt;/a&gt;.” &lt;em&gt;Bulletin of the School of Oriental Studies&lt;/em&gt;, University of London, vol. 8, no. 1, 1935, pp. 173–187.&lt;/li&gt;
+&lt;li&gt;LePaitre, George-Patrick. “&lt;a href=&#34;www.jstor.org/stable/3393642&#34;&gt;A History Teacher Visits the Cairo Opera&lt;/a&gt;.” &lt;em&gt;Music Educators Journal&lt;/em&gt;, vol. 49, no. 4, 1963, pp. 103–103.&lt;/li&gt;
+&lt;li&gt;Riad, Mahmoud. “&lt;a href=&#34;www.jstor.org/stable/40101080&#34;&gt;Alexandria: Its Town Planning Development&lt;/a&gt;.” &lt;em&gt;The Town Planning Review&lt;/em&gt;, vol. 15, no. 4, 1933, pp. 233–248.&lt;/li&gt;
+&lt;li&gt;“&lt;a href=&#34;www.timemaps.com/history/egypt-1215ad/&#34;&gt;Egyptian History 1215 CE&lt;/a&gt;.” TimeMaps.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

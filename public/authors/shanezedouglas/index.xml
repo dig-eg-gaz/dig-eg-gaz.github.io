@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/shanezedouglas/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/shanezedouglas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/shanezedouglas/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/shanezedouglas/</link>
+    </image>
+    
+    <item>
+      <title>Insurance vs Assurance</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-douglas/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-douglas/</guid>
+      <description>&lt;p&gt;After completing my Bachelors in Spanish and Commercial Entrepreneurship, I plan on earning my Masters in Health Administration and hopefully opening up my own health insurance company. Therefore, when I noticed the many ads for different insurance companies in the Egyptian Gazette newspaper, it sparked a topic for me to put my concentration toward, learn more about, and do my analysis project on.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-insurance-vs-what-is-assurance&#34;&gt;WHAT IS INSURANCE vs WHAT IS ASSURANCE&lt;/h2&gt;
+&lt;p&gt;”Insurance is an agreement in which and individual pays a company to protect him/her from possible loss or damage, can be a property loss or financial loss. It is a form of risk management, primarily used to hedge against the risk of a contingent or uncertain loss.” The belief has been formed that during the time the Egyptian Gazette was first being issued that the idea of insurance was first being created. One of the primary things I noticed while I was using the ‘Find/ Replace’ tool in oxygen to skim through the newspaper for insurance ads, were that there were a lot of different ads for not only insurance firms, but assurance firms as well. Following the research I did, my understanding concludes that assurance is basically just another form of insurance. The rates, policies and procedures are different, but they both fill a similar need. Insurance alludes to a coverage over a limited period of time, whilst assurance pertains to continuing coverage for extended periods of time or in some cases until death. As a matter of fact, I noticed that in the newspaper many insurance ad squares advertise both forms by placing two firms of diverse specialties in one square. For example, the Royal Insurance Company is quite often gathered with the Phoenix Assurance Company in their ad square. Therefore, I presumed that both organizations either cooperate with one another or they are associated with each other in some way to almost always consume the same space.&lt;/p&gt;
+&lt;h2 id=&#34;insurance-firms-and-their-specialties&#34;&gt;INSURANCE FIRMS AND THEIR SPECIALTIES&lt;/h2&gt;
+&lt;p&gt;A large portion of my research was completed by utilizing the XPath search functions’ like  ‘Find/ Replace’ tool in oxygen and reading information from different online sources. In this analysis report I will discuss what my results were, some of the different steps in my research process and analysis, and a few different ways to proceed with this study given what information I have now.
+I began my analysis by utilizing the XPath steps to find the words ‘insurance’ and ‘assurance’, so I could come across each different insurance and assurance firm mentioned throughout the newspaper issues that I have completed. Here are a portion of the core searches that produced the most results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]//head[contains(.,&amp;quot;Insurance&amp;quot;)]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]//head[contains(.,&amp;quot;Assurance&amp;quot;)]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;3&amp;quot;]//p[contains(.,&amp;quot;surance&amp;quot;)]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this approach, I basically skimmed through every paragraph &lt;code&gt;&amp;lt;/p&amp;gt;&lt;/code&gt; and header &lt;code&gt;&amp;lt;/head&amp;gt;&lt;/code&gt; for “insurance” and “assurance”. Most of the results came from either the first two pages of any issue or the last two pages, in the form of advertisements.
+Looking anyplace else brought integrated results like; mentions of insurance within headers were rare outside pages 1-2; however, looking inside different sections brought a bit of triumph. Each result came in the form of articles. While a few firms were referenced in the articles, I chose to limit my concentration to the advertisements, as the articles’ information regarding firms was not adequate for the sort of analysis I wanted to endure.&lt;/p&gt;
+&lt;p&gt;Below is the list of the insurance and assurance firms, their specialties, and their founding years.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;table&#34; srcset=&#34;
+               /post/19-analysis-douglas/Table1_huc2d8d03e550c8d402b1de0a7d210e34d_27371_9d6051fd43d7492900b433678e3ec8b1.webp 400w,
+               /post/19-analysis-douglas/Table1_huc2d8d03e550c8d402b1de0a7d210e34d_27371_d9f28f6aa9672d7f2be66cfe80321c3a.webp 760w,
+               /post/19-analysis-douglas/Table1_huc2d8d03e550c8d402b1de0a7d210e34d_27371_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-douglas/Table1_huc2d8d03e550c8d402b1de0a7d210e34d_27371_9d6051fd43d7492900b433678e3ec8b1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;295&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;data-visualizations&#34;&gt;DATA VISUALIZATIONS&lt;/h2&gt;
+&lt;p&gt;Insurance firms in the Gazette were rated highly in the Insurance Almanac. Therefore, I tried to see whether there was a relationship between an insurance firm’s success and its pervasiveness in the newspaper (all thirteen firms were in the almanac). A number of firms mention their funds in their ads, though, so that would be my second parameter, and a more objective one at that.
+Here are the numbers of times a company&amp;rsquo;s ad showed up in the Gazette, utilizing XPath to check the quantity of valid objectives:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;graph&#34; srcset=&#34;
+               /post/19-analysis-douglas/Sheet1_hub422694f9cb45e79f7225641b89332dd_38221_79066b1855188a169bc13fcfcb66b8db.webp 400w,
+               /post/19-analysis-douglas/Sheet1_hub422694f9cb45e79f7225641b89332dd_38221_f676663529e6e719b7254925f4bf99ca.webp 760w,
+               /post/19-analysis-douglas/Sheet1_hub422694f9cb45e79f7225641b89332dd_38221_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-douglas/Sheet1_hub422694f9cb45e79f7225641b89332dd_38221_79066b1855188a169bc13fcfcb66b8db.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;315&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;CONCLUSION&lt;/h2&gt;
+&lt;p&gt;I was not impressed with my outcomes. Choosing to center my research and data through the advertisements not giving myself enough time to fully develop my findings, may have been the reason for my poor outcome. I believe that a more profound analysis of this topic requires great comprehension of history and finance (a skill I do not have). However, I did notice that there are some other directions that this study can take with regards to insurance in the Gazette that may lead to more substantial analysis projects, like using “The Reuter’s Telegrams and Share List tables.”&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Response to Law Against Foreigners in Egypt</title>
+      <link>https://dig-eg-gaz.github.io/post/2019-12-10-shanezedouglas/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2019-12-10-shanezedouglas/</guid>
+      <description>&lt;p&gt;This ad in the Egyptian Gazette newspaper provides readers with a quick synopsis of a book called The Law Affecting Foreigners in Egypt by James Henry Scott, a lecturer at the Khedivial School of Law, Cairo. The book is an introduction to Egyptian Law as it affected foreigners and provides information on history like; the law of the Ottoman Empire and the Ottoman Capitulations.&lt;/p&gt;
+&lt;p&gt;This book that the ad speaks of discloses Egyptian law as it once affected the foreigners of Egypt. For instance, from the list of topics the ad provided us with, it can be noted that this book provides us with information on events such as the mixed codes, mixed courts, the capitulations of European states, and the commercial privileges given to the people of Egypt. During the Anglo-Egyptian War, the country of Egypt was not only occupied by British forces but it was colonized by the British from 1882 when the war started, until 1956 when the war ended and the last British forces withdrew in accordance with the Anglo-Egyptian agreement of 1954 after the Suez Crisis. During this past age of time, several legal problems that were present in Egyptian law came about and were also seized with the limited powers of independent legislation. Insights like this about international historic events that has happened internationally has always intrigued me. I believe that international law allows students like myself to form bits of knowledge into the worldwide legal system and its effect on both national and international policies.&lt;/p&gt;
+&lt;p&gt;I found &lt;a href=&#34;https://books.google.com/books?id=gKIuAAAAIAAJ&amp;amp;pg=PA288&amp;amp;lpg=PA288&amp;amp;dq=Mr.&amp;#43;Scott,&amp;#43;of&amp;#43;the&amp;#43;Khedivial&amp;#43;Law&amp;#43;School&amp;#43;Cairo&amp;amp;source=bl&amp;amp;ots=nHjRElq7vn&amp;amp;sig=ACfU3U2u2ymFGRhBOm1CgfETFkwPHePcSQ&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwjOs6Gz_K7mAhWPxVkKHcgTCikQ6AEwAXoECAYQAQ#v=onepage&amp;amp;q=Mr.%20Scott%2C%20of%20the%20Khedivial%20Law%20School%20Cairo&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this review&lt;/a&gt; that gives an opinionated review and summary of the book itself. &lt;a href=&#34;https://www.jstor.org/stable/367847?seq=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This article&lt;/a&gt; describes the social tensions and the how tht teaching of European law was in Egypt before 1900. &lt;a href=&#34;https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/capitulations-middle-east&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This article&lt;/a&gt; describes how the capitulations were in Egypt.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

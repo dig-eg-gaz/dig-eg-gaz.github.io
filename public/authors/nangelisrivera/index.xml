@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/nangelisrivera/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/nangelisrivera/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/nangelisrivera/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/nangelisrivera/</link>
+    </image>
+    
+    <item>
+      <title>Impact of Seasonal Change On Tourism and Hotel Stays</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-rivera/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-rivera/</guid>
+      <description>&lt;p&gt;Throughout the years 1905, 1906, and 1907 in Egypt, there was a visible fluctuation in the number of individuals staying at various hotels, such as the Luxor Winter Palace, Cataract Hotel Assouan, and the Savoy Hotel Assouan. Seasonal changes, as well as the environmental changes that come with change in season, greatly affect aspects such as traveling and tourism throughout each year. According to the meteorological dates for seasons, the start of each season remains the same, however the end of each season changes slightly each year depending on how many days there are in the month. According to this &lt;a href=&#34;https://www.almanac.com/content/first-day-seasons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Online Almanac&lt;/a&gt;, Spring starts March 1st and ends around May 31st, Summer starts June 1st and ends around August 31st, Fall starts September 1st and ends around November 30th, and Winter starts December 1st and ends around February 29th. I utilized the meteorological dates for the seasons because this website states that these dates are &amp;ldquo;based on the annual temperature cycle and the 12-month calendar.” This website also mentions that “climate scientists and meteorologists created this definition to make it easier to keep records of the weather, since the start of each meteorological season doesn’t change from year to year.” The meteorological dates are most useful for this research because the start of each season starts the same day no matter what year and these dates exist strictly for weather data.&lt;/p&gt;
+&lt;p&gt;According to &lt;a href=&#34;https://www.wildland.com/destinations/middle-east/egypt/seasonsclimate.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wildland Adventures&lt;/a&gt;, Egypt’s main seasons are Winter and Summer, Egypt’s Winters are typically cold, windy, humid, and sometimes rainy whereas Egypt’s Summers are very dry, with very high temperatures. This website also states that the months April, May, October, and November are especially good for travelling. These reported most popular months for tourism fall in the seasons of Fall and Spring. With the data collected through an XPath Query, three line graphs and a series of bar graphs were created, demonstrating what months experienced more stays in hotels, which can be tied to tourism and how environment and seasons can affect travel in Alexandria.&lt;/p&gt;
+&lt;p&gt;To visually represent the number of individuals staying in hotels in Alexandria throughout the years 1905, 1906, and 1907, I used a specific XPath Query, organized my findings into Excel documents, and imported these Excel documents into Tableau. The data I collected was derived from using the XPath Query &lt;code&gt;//div[@feature=&amp;quot;visitList&amp;quot;]&lt;/code&gt; and searching specifically for commas in this feature to detect all of the commas present in each listing of the Visitor’s List because the Visitor’s List feature provides all hotel visitor names separated by commas. This XPath Query is not one hundred percent correct and only provides estimates, since often in these features a husband and wife along with their shared last name are included before one single comma. Using this XPath Query allowed me to detect estimates of the quantities of individuals staying in hotels throughout each year. After collecting the quantities from each year, I transferred them into three separate Excel documents so that they could later be uploaded to Tableau. In addition to the the three line graphs separated by year, I have also created a visualization, separated by year and month, of the averages of the number of individuals staying in hotels throughout each month of the year.&lt;/p&gt;
+&lt;p&gt;Once I uploaded each of the three Excel documents into Tableau, I was able to create three separate line graphs that demonstrate the number of individuals residing in hotels in Egypt. To make these line graphs even more accurate, I recorded every instance in which there was a list of names in the Visit List feature. Since I recorded every appearance of this feature, I was able to label each specific date and number of commas on the line graph to make it easier to visualize the beginning and end of seasons. By looking at all four of the visualizations, I can state that the months January, February, March, and December seem to be the months that experienced the most tourism and populated hotels. The seasons that these months fall in are Winter and Spring. The months that experienced the least number of individuals staying in hotels were August, October, and November. This data proves the &amp;ldquo;Wildland Adventures&amp;rdquo; article wrong because they stated that the most popular months for tourism in Egypt are April, May, October, and November, where in reality the most popular months were actually January, February, March and December. By looking at what months that article thought were most active, I was able to deduce that they believed the most popular tourism seasons to be Fall and Spring.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;data visualization 1&#34; srcset=&#34;
+               /post/19-analysis-rivera/IDS2681IndividualProject1905_hu7e3c6a68f36a6f11f58b15a323e9142a_204790_80b2c79d092b28edc8552009826fe835.webp 400w,
+               /post/19-analysis-rivera/IDS2681IndividualProject1905_hu7e3c6a68f36a6f11f58b15a323e9142a_204790_3bccc93707715a0ce9299da123fd25e9.webp 760w,
+               /post/19-analysis-rivera/IDS2681IndividualProject1905_hu7e3c6a68f36a6f11f58b15a323e9142a_204790_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-rivera/IDS2681IndividualProject1905_hu7e3c6a68f36a6f11f58b15a323e9142a_204790_80b2c79d092b28edc8552009826fe835.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;636&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Caption
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;data visualization 2&#34; srcset=&#34;
+               /post/19-analysis-rivera/IDS2681IndividualProject1906_hu7e3c6a68f36a6f11f58b15a323e9142a_221338_902ba22a4dfba506eb0b246d91f604c3.webp 400w,
+               /post/19-analysis-rivera/IDS2681IndividualProject1906_hu7e3c6a68f36a6f11f58b15a323e9142a_221338_d0893471ab2608b2d9e2400ca47c2459.webp 760w,
+               /post/19-analysis-rivera/IDS2681IndividualProject1906_hu7e3c6a68f36a6f11f58b15a323e9142a_221338_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-rivera/IDS2681IndividualProject1906_hu7e3c6a68f36a6f11f58b15a323e9142a_221338_902ba22a4dfba506eb0b246d91f604c3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;636&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Caption
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;data visualization 3&#34; srcset=&#34;
+               /post/19-analysis-rivera/IDS2681IndividualProject1907_hu213ac07fecfa8671ebad13d15ff7c525_135372_85d0a1c846e9d33c51b5beda1b1029aa.webp 400w,
+               /post/19-analysis-rivera/IDS2681IndividualProject1907_hu213ac07fecfa8671ebad13d15ff7c525_135372_e249287c40dd5311f2984bb9c36ae412.webp 760w,
+               /post/19-analysis-rivera/IDS2681IndividualProject1907_hu213ac07fecfa8671ebad13d15ff7c525_135372_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-rivera/IDS2681IndividualProject1907_hu213ac07fecfa8671ebad13d15ff7c525_135372_85d0a1c846e9d33c51b5beda1b1029aa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;609&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Caption
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;data visualization 4&#34; srcset=&#34;
+               /post/19-analysis-rivera/IDS2681IndividualProject_hu954f8c0b13150c4b60d204ce83c75e55_186962_31ee69c5a9608fc3268083821d355cbe.webp 400w,
+               /post/19-analysis-rivera/IDS2681IndividualProject_hu954f8c0b13150c4b60d204ce83c75e55_186962_986691af4b3b899dec22abf43486bec4.webp 760w,
+               /post/19-analysis-rivera/IDS2681IndividualProject_hu954f8c0b13150c4b60d204ce83c75e55_186962_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-rivera/IDS2681IndividualProject_hu954f8c0b13150c4b60d204ce83c75e55_186962_31ee69c5a9608fc3268083821d355cbe.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;533&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Caption
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discrimination Against Dogs in Egypt</title>
+      <link>https://dig-eg-gaz.github.io/post/2019-10-17-nangelisrivera/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2019-10-17-nangelisrivera/</guid>
+      <description>&lt;p&gt;As I was completing my deliverables and combing through page images, I came across an interesting article in the &amp;ldquo;Letters to the Editor&amp;rdquo; section of the June 14, 1907 issue of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. In this article, an individual described their experience in which their gentle dog was harmed and seized, right as they were about to get into their home, simply because it was not wearing a muzzle. In this time in Egypt, it was required for dogs to wear muzzles in public, but this individual was not able to place a muzzle on their dog because it was so small and no muzzle would fit it. The typical punishment for dogs not wearing muzzles in Egypt was death. As this individual went through the process of getting their dog back, they witnessed a vast area and said it was &amp;ldquo;like searching for pins in the Catacombs.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The treatment of dogs in Alexandria was completely different than the treatment of dogs in today&amp;rsquo;s society. Today we treat dogs as if they are our own children and only muzzle them if they show aggressive tendencies. In Alexandria, if any dog, no matter how small, nice, or cute, was seen without a muzzle in the open, the police would hit them, or kill them, and even seize the dogs and contain them in an ironic facility labelled the &amp;ldquo;Infirmary : Prevention of Cruelty to Animals.&amp;rdquo; The individual that submitted this letter did not understand Arabic, so they could not understand what two police officers were trying to tell them before the writer&amp;rsquo;s dog was seized or even the papers that needed to be signed before the dog went back into the writer&amp;rsquo;s custody. This type of treatment would not be accepted today in the United States since pets have become so near and dear to humans. Pets are now even ironically used as police dogs all around the world, contrary to the letter that discussed how police were abusive towards dogs.&lt;/p&gt;
+&lt;p&gt;In this &lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-blog-degroat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;, someone discussed this same letter, &amp;ldquo;Police Dog Service&amp;rdquo; and stated that someone responded to this letter agreeing with the writer and stating that dogs should be treated better, especially as they get closer to passing away. However, in this time period in Egypt, dogs were not commonly thought of as dearly as they are now, so they were kept in terrible conditions and left to die a horrible death. In another &lt;a href=&#34;https://dig-eg-gaz.github.io/post/16-analysis-sain/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;, I saw even more evidence of how dogs were yet again mistreated and not cared about as much as they are today. The creator of this blog post mentioned that they discovered that there was a section in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; titled &amp;ldquo;Stray and Ownerless Dog&amp;rdquo; that provided little information on the actual dog and when they were set to be poisoned. In this time period in Egypt, if dogs were found and did not seem to have an owner, a vague announcement was made and as a form of controlling the overpopulation of dogs, they were euthanized right as they were caught. Today, we provide owners with a longer time to find their lost dog and if a dog does not have an owner and is in a no-kill shelter, workers at the shelter try their hardest to advertise the dog so that it can find a loving home. This is interesting because we can see the development of the relationship between man and man&amp;rsquo;s best friend in the United States in the early 1900s and Egypt in the 1900s, Americans have domesticated dogs and thought of them as family members whereas Egyptians saw them as a hassle and pests. According to an &lt;a href=&#34;https://blog.biodiversitylibrary.org/2017/07/cats-dogs-nineteenth-and-early-twentieth-century-perspectives.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Online Blog&lt;/a&gt;, during the nineteenth and twentieth centuries dogs were still not as near and dear to individuals as they are now. Dogs were kept mostly for completing tasks such as hunting, not usually for enjoying their company and having a companion.&lt;/p&gt;
+&lt;p&gt;Through reading these blog posts about how dogs were mistreated in twentieth century Egypt, I decided to conduct more research to see if the treatment of dogs has improved today in the twenty-first century. I first found an &lt;a href=&#34;https://www.egypttoday.com/Article/1/3793/Gov%E2%80%99t-poisons-1K-stray-dogs-in-3-months-denies-shooting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Egyptian News Article&lt;/a&gt; that discussed the cruelty of the Egyptian government towards dogs. Since Egypt is overpopulated by dogs, the government poisons the food by stray dogs and leaves them to die and lay in the street. There have even been rumors that the Egyptian government has shot dogs and lets them lay in their own blood on the ground. Through reading this Egyptian News Article, it is obvious that Egyptians in the twenty-first have the same disregard and cruelty towards dogs as Egyptians in the twentieth century. In this &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.913.7476&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Article&lt;/a&gt;, a positive light is shed on the relationship between Egyptians and dogs as it highlights the useful tasks that dogs helped humans with. According to this article, dogs were seen as very productive in the Egyptian community because they assisted with hunting, protection, and herding livestock. Contrary to the writer of the &amp;ldquo;Police Dog Service&amp;rdquo; article in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, this article on the relationship between individuals and dogs in Egypt states that &amp;ldquo;ottoman officials indeed actively encouraged the increase and maintenance of dog populations by providing them with food and water and by punishing those who committed violence against them.&amp;rdquo; This is very surprising and ironic, considering that the &amp;ldquo;Police Dog Service&amp;rdquo; article literally stated how someone harmed an innocent, miniature dog due to it not having a muzzle. These differing opinions could possibly be due to different cities in Egypt having different policies and opinions on dogs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

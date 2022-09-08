@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/kennethukah/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/kennethukah/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/kennethukah/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/kennethukah/</link>
+    </image>
+    
+    <item>
+      <title>Aspects of Insurance</title>
+      <link>https://dig-eg-gaz.github.io/post/17-analysis-ukah/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/17-analysis-ukah/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sun&#34; srcset=&#34;
+               /post/17-analysis-ukah/ukahSUN_hu1e8e6f5ec045e8a096129d8b84a065dd_644032_50ddb79bce7b11f9a6da5f71945ce8b4.webp 400w,
+               /post/17-analysis-ukah/ukahSUN_hu1e8e6f5ec045e8a096129d8b84a065dd_644032_9efbc2a86d35dc0cca20323073638ba9.webp 760w,
+               /post/17-analysis-ukah/ukahSUN_hu1e8e6f5ec045e8a096129d8b84a065dd_644032_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ukah/ukahSUN_hu1e8e6f5ec045e8a096129d8b84a065dd_644032_50ddb79bce7b11f9a6da5f71945ce8b4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;571&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As an undergraduate studying actuarial science, I will be spending ample time learning about insurance and risk management  in the future, from practicing financial mathematics to understanding sound business procedure. So I decided to undertake  my analysis project with a focus towards learning more about insurance in the context of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;  newspaper. Most of my research was done by using the XPath search functions and reading some online media. In this  report I will discuss what my findings were, my research process and analysis, and some ways to continue this study  given what information I have now.&lt;/p&gt;
+&lt;h4 id=&#34;insurance-vs-assurance&#34;&gt;Insurance vs Assurance&lt;/h4&gt;
+&lt;p&gt;One of the first things I noticed while scanning the newspaper for insurance ads was that there were a  handful of ads for assurance firms as well. From what I understand, assurance is just another form of insurance.  The rates, policies and procedures are different, yes, but they serve the same purpose. In fact, many insurance  ad blocks advertise both forms by placing two firms of different specialties in one block. For example, the Royal Insurance  Company is almost always grouped with the Phoenix Assurance Company in their ad block. I suspect the firms cooperated  or are affiliated in some way to occupy that space.&lt;/p&gt;
+&lt;p&gt;I do not see much difference between the two forms of insurance to warrant excluding one form from my analysis.  In the future, extensive analysis of insurance or assurance alone might make for more discussion of this topic.&lt;/p&gt;
+&lt;h4 id=&#34;insurance-firms-and-their-specialties&#34;&gt;Insurance Firms and Their Specialties&lt;/h4&gt;
+&lt;p&gt;I started my analysis by using XPath to search for every insurance and assurance firm mentioned in the newspaper within  the number of issues available to me. Here are some of the core searches that yielded the most results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]//head[contains(.,&amp;quot;Insurance&amp;quot;)]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]//head[contains(.,&amp;quot;INSURANCE&amp;quot;)]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;3&amp;quot;]//p[contains(.,&amp;quot;insurance&amp;quot;)]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To summarize this approach, I browsed every paragraph (p) and header (head) for the variations of the words &amp;ldquo;insurance&amp;rdquo; and  &amp;ldquo;assurance&amp;rdquo;. The vast majority of results came from the first two pages of any issue, in the form of advertisements.&lt;/p&gt;
+&lt;p&gt;Searching anywhere else brought mixed results: mentions of insurance within headers were rare outside pages 1-2; searching  within paragraphs, however, brought some success. These results came in the form of articles. While some firms were  mentioned in the articles, I ultimately decided to narrow my focus to advertisements, as the articles&amp;rsquo; information  regarding firms was not sufficient for the type of analysis I wanted to undergo.&lt;/p&gt;
+&lt;p&gt;Here are all of the insurance and assurance firms I found, their specialties, and their founding dates.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;insurance firms&#34; srcset=&#34;
+               /post/17-analysis-ukah/ukahEGFirms_hu8966346b3f2de7392d115ab2dd202a33_42959_380bcc09d7b8f6be9c31eab7dc33286f.webp 400w,
+               /post/17-analysis-ukah/ukahEGFirms_hu8966346b3f2de7392d115ab2dd202a33_42959_eb7bfe05f3d8a7e33bf29b718c83f8b5.webp 760w,
+               /post/17-analysis-ukah/ukahEGFirms_hu8966346b3f2de7392d115ab2dd202a33_42959_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ukah/ukahEGFirms_hu8966346b3f2de7392d115ab2dd202a33_42959_380bcc09d7b8f6be9c31eab7dc33286f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;212&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;There is a relatively even distribution of fire, life, and marine insurance firms, as well as combinations of the three.  A handful of these firms are grouped together in the newspaper. Such pairs include Edinburgh Life and Society of Canton, and  Royal Insurance and Phoenix Assurance. The number of different firms is smalller than expected, but they appear quite often  the newspaper. Based on my searching, a moderate percentage of these firms make daily appearances in the newspaper issues for some time.&lt;/p&gt;
+&lt;p&gt;The prevalence of these forms of insurance may be explained with historical perspective. Egypt in 1905-1906 is a colony under  Britain, and Britain brought to Egypt its forms of trade and business. Britain having port cities is an explanation for the  presence of marine insurance in the newspaper, for example. Most if not all of these firms are founded in London or  Europe at the least, and it seems most of them had spread their business practices.&lt;/p&gt;
+&lt;h4 id=&#34;a-closer-look-at-some-insurance-firms&#34;&gt;A Closer Look at Some Insurance Firms&lt;/h4&gt;
+&lt;p&gt;The &lt;a href=&#34;https://play.google.com/store/books/details?id=mDVOAQAAMAAJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1921 Insurance Almanac&lt;/a&gt; by The Underwriter Printing and Publishing Co. provides descriptions of multiple  insurance firms found in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+&lt;h5 id=&#34;sun-insurance-office&#34;&gt;Sun Insurance Office&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Sun Insurance Office is the oldest insurance company in the world, having been organized in 1710. It was known as the Sun Fire Office until 1891, when by act of Parliament its present title was assumed and the company received authority to transact all kinds of insurance. The resources and operations of the Sun are very extensive; it covers a great variety of risks and has agencies in all parts of the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So about a decade after the time frame of this analysis, The Sun Insurance Office became a strong force in the market,  with assets in the quarter billions. Sun Insurance was one of the more prevalent ads in the &lt;em&gt;Gazette&lt;/em&gt; at this time as well.&lt;/p&gt;
+&lt;h5 id=&#34;phoenix-assurance-company-limited&#34;&gt;Phoenix Assurance Company, Limited&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Phoenix is one of the largest and most widely operated Fire Insurance companies in the world. Its assets approximate $95,451,688; its surplus and special funds $11,584,565. The reputation of the company is of the best in all respects; its strength is most impressive, its respect for its obligations is traditional, and its operations have been attended with exceptional profit. Admitted to the United States in 1804, it was the first English fire insurance company to establish an American agency plant.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Phoenix Assurance was one of the most common insurance ads in the &lt;em&gt;Gazette&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Something else to note from the &lt;em&gt;Insurance Almanac&lt;/em&gt; is that many firms in the &lt;em&gt;Gazette&lt;/em&gt; have specialties beyond  fire, life, and marine. Sun Insurance also specialized in auto, tornado, and explosion insurance. Phoenix Assurance  covered for riots and civil commotion as well as sprinkler leakage.&lt;/p&gt;
+&lt;h4 id=&#34;data-visualizations&#34;&gt;Data Visualizations&lt;/h4&gt;
+&lt;p&gt;Insurance firms in the &lt;em&gt;Gazette&lt;/em&gt; were rated highly in the &lt;em&gt;Insurance Almanac&lt;/em&gt;. So I endeavored to find out if there  was a correlation between an insurance firm&amp;rsquo;s success and its prevalence in the newspaper, but not all thirteen firms were  in the the almanac, unfortunately. A handful of firms mention their funds in their ads, though, so that would be my second  parameter, and a more objective one at that.&lt;/p&gt;
+&lt;p&gt;Here are the numbers of times a firm&amp;rsquo;s advertisement appeared in the &lt;em&gt;Gazette&lt;/em&gt;, using XPath to count the number of valid targets:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;firm frequency&#34; srcset=&#34;
+               /post/17-analysis-ukah/ukahEGData1_hu28bda4e51b42d252efdca0d18bb67be0_67830_f182a035175fbd63c41d077488f0a4e1.webp 400w,
+               /post/17-analysis-ukah/ukahEGData1_hu28bda4e51b42d252efdca0d18bb67be0_67830_a2e80b6ce81670c98fde01ef74db3909.webp 760w,
+               /post/17-analysis-ukah/ukahEGData1_hu28bda4e51b42d252efdca0d18bb67be0_67830_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ukah/ukahEGData1_hu28bda4e51b42d252efdca0d18bb67be0_67830_f182a035175fbd63c41d077488f0a4e1.webp&#34;
+               width=&#34;586&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Here are the &lt;strong&gt;reported&lt;/strong&gt; funds of firms in the &lt;em&gt;Gazette&lt;/em&gt;, taken from the insurance ads (non-reporting firms&amp;rsquo; values are left blank):&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;firm funds&#34; srcset=&#34;
+               /post/17-analysis-ukah/ukahEGData2_hudaa3b577001c98dcd69c3c42dadaae40_49614_8b1f87e58a3bcb1b7563bcfb6cebd338.webp 400w,
+               /post/17-analysis-ukah/ukahEGData2_hudaa3b577001c98dcd69c3c42dadaae40_49614_c3a75c9c93156879ae3fb4f34aadcf1e.webp 760w,
+               /post/17-analysis-ukah/ukahEGData2_hudaa3b577001c98dcd69c3c42dadaae40_49614_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-ukah/ukahEGData2_hudaa3b577001c98dcd69c3c42dadaae40_49614_8b1f87e58a3bcb1b7563bcfb6cebd338.webp&#34;
+               width=&#34;645&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;br&gt;
+&lt;em&gt;Gresham Life&amp;rsquo;s funds were converted from euros to pounds&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, half of the firms in the &lt;em&gt;Gazette&lt;/em&gt; do not mention their funds in their ads, making the data very incomplete,  but not useless. There is enough data to come to the conclusion that a relation between a firm&amp;rsquo;s prevalence in the newspaper  and its funds is non-existent. Guardian Insurance and Law Union &amp;amp; Crown have a similar number of funds but one shows up  nearly 150 times while the other, under ten. Another example: Gresham Life has the second-highest funds out of the thirteen, but only appears seven times in the &lt;em&gt;Gazette&lt;/em&gt;. And there are more.&lt;/p&gt;
+&lt;p&gt;So there are some other reasons as to why a firm appears as often as it does unrelated to the success of the firm. It may be  that the reason has more to do with the newspaper than the insurance firms.&lt;/p&gt;
+&lt;h4 id=&#34;final-thoughts-and-continuation-of-the-study&#34;&gt;Final Thoughts and Continuation of The Study&lt;/h4&gt;
+&lt;p&gt;I was left dissatisfied with how my results turned out. My decision to focus my research and data through the advertisements  may have been a reason why the results turned out as they did, but not having enough time to fully develop my findings,  I feel, is a more comprehensive reason. Deeper and more substantial analysis of this topic requires a better understanding  of history and finance, something I cannot afford to acquire at this moment.&lt;/p&gt;
+&lt;p&gt;There are some other directions of study that can be taken with regards to insurance in the &lt;em&gt;Gazette&lt;/em&gt; that may lead to  more substantial analysis projects.&lt;/p&gt;
+&lt;h5 id=&#34;xpath-and-the-historical-context&#34;&gt;XPath and The Historical Context&lt;/h5&gt;
+&lt;p&gt;It is safe to say that there may be more about the insurance firms to be found in the newspaper apart from in advertisements,  and the key to finding that information lies in the &lt;em&gt;Gazette&lt;/em&gt;&amp;rsquo;s articles. I had some success searching for key words  such as &amp;ldquo;fire,&amp;rdquo; or &amp;ldquo;disaster&amp;rdquo; in paragraphs using XPath. And the fact that the majority of insurance firms in the &lt;em&gt;Gazette&lt;/em&gt; specialize in fire insurance is no coincidence. With a deeper understanding of Egypt&amp;rsquo;s history through secondary sourcesor personal knowledge, the context behind the ads and articles can be better understood.  (P.G.M. Dickinson&amp;rsquo;s &lt;em&gt;The Sun Insurance Office, 1710-1960: The History of Two and a Half Centuries of British Insurance&lt;/em&gt; is a good place to start.)&lt;/p&gt;
+&lt;h5 id=&#34;the-financial-context&#34;&gt;The Financial Context&lt;/h5&gt;
+&lt;p&gt;I originally intended to include analysis of insurance firms in financial tables in the &lt;em&gt;Gazette&lt;/em&gt;, until I could not find any: searching table cells for insurance firms proved fruitless. I admit my knowledge of XPath and finance is limited, but there must be &lt;em&gt;something&lt;/em&gt; of worth to find in that  newspaper, if not, perhaps through secondary sources. The Reuter&amp;rsquo;s Telegrams  and Share List tables may be the best chances at finding potentially useful information in relation to insurance.&lt;/p&gt;
+&lt;h5 id=&#34;faulty-xpath-results-and-limited-issues&#34;&gt;Faulty XPath Results and Limited Issues&lt;/h5&gt;
+&lt;p&gt;While effectively using XPath searches proved difficult, a part of the difficulty came from sifting through incomplete issues or  incorrect coding, which would always skew the results of XPath searches. The pool of information in these issues is always  changing as additional issues are completed and archived as well. The imperfections of the analysis and coding are to  be expected, as this is an undergraduate level course. Perhaps with time and additional data from the &lt;em&gt;Egyptian Gazette&lt;/em&gt;,  projects of this form can yield more substantial results.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

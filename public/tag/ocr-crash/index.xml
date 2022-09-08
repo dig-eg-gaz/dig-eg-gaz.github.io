@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OCR crash | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/tag/ocr-crash/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/tag/ocr-crash/index.xml" rel="self" type="application/rss+xml" />
+    <description>OCR crash</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 28 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
+      <title>OCR crash</title>
+      <link>https://dig-eg-gaz.github.io/tag/ocr-crash/</link>
+    </image>
+    
+    <item>
+      <title>Finereader Rage</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-28-thompson-finereader-rage/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-28-thompson-finereader-rage/</guid>
+      <description>&lt;p&gt;So my biggest technical difficulty while working on this project has to have been the multiple errors that I encountered while using he OCR. Overall it worked ok, but when it failed, it failed big time. For instance, while correcting some of the errors in one page I was on the very last paragraph and went to save it, and Finereader crashed. Two hours of work, two hours of my life, gone, down the drain, and there was nothing I could do about it. I was understandably irate, but after I took some time for cathartic expression and collected myself, I felt much better. I also found out that I was not alone in my anger, some of my fellow students had been experiencing troubles as well.&lt;/p&gt;
+&lt;p&gt;However, from what I have seen online, things could have actually been much worse. Apparently it could actually cause other Microsoft programs to crash, at least according to &lt;a href=&#34;https://support.microsoft.com/en-us/kb/2755838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this support article on Microsoft’s website&lt;/a&gt;. I could also have run into errors that wouldn’t have allowed me to do any work within Finereader, such as the &lt;a href=&#34;http://knowledgebase.ocrsdk.com/article/1096&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;license not reading&lt;/a&gt;, so that fact that it worked for me relatively well is a good thing in general.&lt;/p&gt;
+&lt;p&gt;Overall, Finereader was a useful program that, while annoying at times, did enable me to do my work properly and relatively quickly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

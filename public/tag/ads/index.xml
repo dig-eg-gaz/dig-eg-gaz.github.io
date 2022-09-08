@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ads | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/tag/ads/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/tag/ads/index.xml" rel="self" type="application/rss+xml" />
+    <description>ads</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
+      <title>ads</title>
+      <link>https://dig-eg-gaz.github.io/tag/ads/</link>
+    </image>
+    
+    <item>
+      <title>Alexandria-Brussels Vessel Missing</title>
+      <link>https://dig-eg-gaz.github.io/post/2019-10-19-monaco/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2019-10-19-monaco/</guid>
+      <description>&lt;p&gt;In the Tuesday issue of ​The Egyptian Gazette​ for the week of November 18, 1907, there is a specific ad which, at first glance, I figured was for a new company providing travel by ship.&lt;/p&gt;
+&lt;p&gt;Most of the pages of the days that I’ve gone through so far with these deliverables have been ads for hotels, chocolate companies like Nestle, and more. But when I first saw this ad and researched a bit about its possible background, it came to my surprise that there was barely any information on the event, and it didn’t have a specific title to search by either. Using our present media and technology outlets, it would seem as if the event never occurred. But according to the newspaper, a vessel embarking from Alexandria en route to Brussels went missing months prior in the same year of 1907. It did not say much about the last place the vessel was seen, and all it said about its passengers was that they were men, women, and children all travelling to Brussels for various reasons, including work and vacation.&lt;/p&gt;
+&lt;p&gt;In researching events during that time period that could match up with the ad included in Tuesday’s issue, I found multiple sources that helped me to interpret the event. In the beginning of my findings, I came across an image that represents what an Egyptian vessel would have looked like at the time of this ad’s publication. This image and the page is linked ​&lt;a href=&#34;https://en.wikipedia.org/wiki/SS_Heliopolis_%281907%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;​. In finding this image, I now have a clearer idea of what the missing vessel discussed in the ad might’ve looked like. I also found a link to a missing vessel en route from the US to Portugal that coast guards believe contained a significant amount of passengers from Brussels. The link to the missing vessel report is included &lt;a href=&#34;https://www.marinetraffic.com/en/ais/details/ships/shipid:133862/mmsi:255806004/imo:9200691/vessel:BRUSSELS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.​ I compared this information to the ad included in the issue of ​The Egyptian Gazette​, and this is what I think a more modern version of the ad would be today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Billy Ocean meets Prince Lines</title>
+      <link>https://dig-eg-gaz.github.io/post/will-billy-ocean/</link>
+      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/will-billy-ocean/</guid>
+      <description>&lt;p&gt;Back in 1984, Billy Ocean had a big hit with his song &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/Caribbean_Queen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Caribbean Queen&lt;/a&gt;.&amp;rdquo; It was a versatile song in global terms, as Ocean recorded versions that charted in other markets: &amp;ldquo;African Queen&amp;rdquo; and &amp;ldquo;European Queen&amp;rdquo; didn&amp;rsquo;t require much extra reworking to benefit from &lt;a href=&#34;https://en.wikipedia.org/wiki/Internationalization_and_localization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;internationalization and localization&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Cahch0_M06c&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;I got to thinking about &amp;ldquo;Caribbean Queen&amp;rdquo; while I was preparing an &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pri01.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xml version of the Prince Lines advertisement&lt;/a&gt; that appeared on the front page of most issues of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; in 1905.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Prince Lines&#34; srcset=&#34;
+               /post/will-billy-ocean/featured_hu1ba5552d26f5472369b61eea088fe79b_1886043_b27a7bfbad4531415c9486182b0a6ecc.webp 400w,
+               /post/will-billy-ocean/featured_hu1ba5552d26f5472369b61eea088fe79b_1886043_775eaa996da6c21f473046bce9923abe.webp 760w,
+               /post/will-billy-ocean/featured_hu1ba5552d26f5472369b61eea088fe79b_1886043_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/will-billy-ocean/featured_hu1ba5552d26f5472369b61eea088fe79b_1886043_b27a7bfbad4531415c9486182b0a6ecc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;425&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The ad lists 48 ships owned by the company by name and weight. Each name is a prince of a certain region, nation, type, or character. Billy Ocean might be gratified to see that there is a massive Carib Prince (8,000 tons) and a somewhat slighter African Prince (3,050 tons). No European Prince, but lots of Princes from various parts of Europe:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Prince Lines locations&#34; srcset=&#34;
+               /post/will-billy-ocean/Prince-Line-locations_huecc374c246ea369d269329d9865ba3f4_1605948_74d3904c0073693914648e7e96458b51.webp 400w,
+               /post/will-billy-ocean/Prince-Line-locations_huecc374c246ea369d269329d9865ba3f4_1605948_c5572a1e89fe143c79ea1ab4e7e15f97.webp 760w,
+               /post/will-billy-ocean/Prince-Line-locations_huecc374c246ea369d269329d9865ba3f4_1605948_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/will-billy-ocean/Prince-Line-locations_huecc374c246ea369d269329d9865ba3f4_1605948_74d3904c0073693914648e7e96458b51.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;325&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I was struck by the coverage of names. The geography of colonial shipping interests dictated part but not all of this range&amp;ndash;though the heaviest ships seemed to follow the empire&amp;rsquo;s shipping lanes. British whimsy seemed to supply other names&amp;ndash;Highlands Prince, Soldier Prince, Merchant Prince, and so on. And of course there&amp;rsquo;s an Ocean Prince: Billy honored before his time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

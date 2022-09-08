@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/category/technology/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/category/technology/index.xml" rel="self" type="application/rss+xml" />
+    <description>technology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
+      <title>technology</title>
+      <link>https://dig-eg-gaz.github.io/category/technology/</link>
+    </image>
+    
+    <item>
+      <title>Technology Troubles</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-29-frederick-technology-troubles/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-29-frederick-technology-troubles/</guid>
+      <description>&lt;p&gt;For the first few weeks of this semester I was completely dedicated to toiling for hours in order to receive an “A” in this class. I would stay up until midnight finishing editing text that was OCRd making sure that no detail was overlooked. I would spend hours working on this editing only to go back to it and find that all of my hard work had either disappeared or been undone and not for lack of saving. When I started working with Oxygen, I would find that a file I had just started coding the previous night could not be found when I went to open and edit it the next day. This setback has been a source of major frustration for obvious reasons. I don’t know whether this unfortunate series of events is occurring because of some delayed karma or because I have the dreaded apple computer but it has caused me to become lazy with the workload. That being said, I have prayed to the computer gods to fix my issues so I can save my grade and it seems to have worked so far. In the wake of my realization about how quickly the semester is coming to an end I have kicked back into gear and have decided to push through any and all technical difficulties.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/laneydegroat/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/laneydegroat/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/laneydegroat/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/laneydegroat/</link>
+    </image>
+    
+    <item>
+      <title>Rainfall</title>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-degroat/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-degroat/</guid>
+      <description>&lt;p&gt;Microhistory gives the ability to focus on smaller details in history to be able to fully understand why and what happened during that day in time. Microhistory for this class allowed the students to investigate the &lt;em&gt;Egyptian Gazette&lt;/em&gt; newspaper from 1905, 1906, and 1907 and see details from our certain weeks assigned to us. The week that was given to me was the week of June 17th, 1907. After analyzing six days of this newspaper, we start to see similarities and patterns in the paper overtime. Each day has around six to eight pages and while each page is different, each page of each day has a similar format with different topics. Page one consisted mainly of ads which were pretty much uniform throughout all of the days for my week. Page two has some adds mixed with some text. The page threes are mostly text. They all start with “Local and General,” then the “Financial Crisis,” and then articles about what is happening at the time. Page four mostly consists of charts full of data, ranging from cotons to stocks and shares. Page five is more information about what was happening in their society at the moment. It has two columns of telegrams, a daily weather report, and usually a story highlighting a specific person. Page six continued with more ads along with ads that would normally go on flyers and some data. The daily weather report on page five is my main focus for this assignment.&lt;/p&gt;
+&lt;p&gt;After downloading a copy of the master content from GitHub, I used it to isolate the daily weather report from the deliverables. Using the daily weather report I wanted to find out all of the inputted values for the amount of rainfall every month for every year. After retrieving the values, I could not fully complete the graph that I wanted to have consisting of months, years. The reason behind it is because some of the data consisted of “Heavy Dew” for some records rather than a number of how much rain. Because it is a text and not an exact amount, the graph could not show the amount of rain each month for each year. However, I computed a graph that shows and added amount of rainfall for the month. There are some months with no rainfall because it did not rain, and it is recorded that it did not rain that day. The day that it rained the most is undetectable because there are two entries of “Heavy Dew” which could be a larger number, we do not know.&lt;/p&gt;
+&lt;p&gt;In analyzing how much rainfall there was over time, after looking at the graph, we can conclude that there was only recorded rainfall for fourteen out of the thirty-six months. After going through a majority of the files to be sure that the data for the rainfall daily was correct, I also chose to read the information under the “Remarks” tab regarding the weather for that particular day. Doing this give me a look to be sure that the value entered is correct. I can determine this because if a value is recorded as no rain for that particular day, but the remarks for that day says that there was heavy pour or “dew”, then I know that the data is incorrect. While I did not read through all of them, because there are an awful lot, I read through one every other Monday. I chose to do it like this because it is easier to stick to one certain day to look at rather than switching days and getting mixed up.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;graph&#34; srcset=&#34;
+               /post/18-analysis-degroat/degroat-analysis-graph1_hu7f199f985d6f4da5c29647c3c1b8c5dd_35282_a5bdac8f15c7f405f017c5368590d747.webp 400w,
+               /post/18-analysis-degroat/degroat-analysis-graph1_hu7f199f985d6f4da5c29647c3c1b8c5dd_35282_a769e01b077ada24704a8555b59ffa9b.webp 760w,
+               /post/18-analysis-degroat/degroat-analysis-graph1_hu7f199f985d6f4da5c29647c3c1b8c5dd_35282_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-degroat/degroat-analysis-graph1_hu7f199f985d6f4da5c29647c3c1b8c5dd_35282_a5bdac8f15c7f405f017c5368590d747.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;414&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The graph above shows the amount of rainfall from 1905 to 1907 each month. The months that have no data are crammed together and not shown because there is no recorded date for those days or months. For the graph, the average rainfall cannot be shown because all of the entered values are not all numbers so the graph can only show the amount of times that it rained every month. After working with Webber in office hours, we came to the conclusion that there was no other possible way to retrieve that data for average rainfall and that the only possible solution was to record the data for how many times it rained per month per year. Using the daily weather report data, not only rainfall for the day is shown. It also consists of direction of wind, maximum temperature, and humidity level for the day, etc.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;graph2&#34; srcset=&#34;
+               /post/18-analysis-degroat/degroat-analysis-graph2_hua6891b3b26ab29b52b9ecf0ae5461aba_32910_87c566d89aeeb9f9f8c071d2edc378df.webp 400w,
+               /post/18-analysis-degroat/degroat-analysis-graph2_hua6891b3b26ab29b52b9ecf0ae5461aba_32910_a90bf3dcfd64a50452caffc3e84e0bf3.webp 760w,
+               /post/18-analysis-degroat/degroat-analysis-graph2_hua6891b3b26ab29b52b9ecf0ae5461aba_32910_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-degroat/degroat-analysis-graph2_hua6891b3b26ab29b52b9ecf0ae5461aba_32910_87c566d89aeeb9f9f8c071d2edc378df.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;395&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This graph displays the amount of rainfall per month in hundredths of a mm. The difference between the two graphs is that this one disregards the values that say &amp;ldquo;Heavy Dew&amp;rdquo; and only focuses on the numerical values that were inputted.&lt;/p&gt;
+&lt;p&gt;The reason that I chose doing a graph using the data of rainfall recorded in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; for all three years is because I favor the rain. There is no special reason that has to do with my major or what I am interested in, it is simply because I enjoy the rain and I was curious to see how often it rained in Egypt during this time.&lt;/p&gt;
+&lt;p&gt;In order to obtain a graph of the amount of times it rained per month per year in Egypt, I first had to search in the master content folder on my hard drive. The XPath query that I used to get these results is &lt;code&gt;//cell[contains(.,&amp;quot;Rainfall&amp;quot;)]//following-sibling::cell/measure&lt;/code&gt;. Doing this, I was given back the days and values inputted for rainfall each day in the newspaper. The XPath that I used tells Oxygen XML Editor to first look in the second level of cells that contain “Rainfall” and to then to look into the measure to see what the value is. After 73.3 seconds, the XPath came back successful, returning the inputted values and dates for which it rained daily. The data is formatted that each value is measured in millimeters and every “null” value was recorded as no rainfall for that day. The “Heavy Dew” description imputed for the value of rainfall cannot be considered a number because it is unknown how many millimeters “Heavy Dew” can account for. After getting the information from Oxygen XML, I used Atom to take out the information that I did not need to use and took everything out except the date and amount of rainfall for that day. Then, using Tableau, I uploaded my data into the software and computed a graph of how much is rained every month from 1905 to 1907.&lt;/p&gt;
+&lt;p&gt;The strengths and weaknesses of using the content folder of the information from the &lt;em&gt;Egyptian Gazette&lt;/em&gt; can cause problems or be extremely helpful. A weakness about using the master content folder to search through and pull information from is that it is information put into the document by persons, so it is not 100% accurate if even one person did it wrong or left out information. A strength of the content information is that all of the information and data is in one large file that can be searched through completely. Another weakness is that not only could the information be wrong, but there could be information left out of the documents. Whomever transferred the information from the newspaper to the content folder could have left out certain numbers, ads, or articles. When it comes to searching for something, if it is left out of the file, then the information is not there to be found. For example, while searching for rainfall for every day, if someone who was entering the information for May 8th forgot to change the value of rainfall from 0 to 2 mm, then my data is inaccurate based on how much it actually rained that day. Therefore, whatever documents are changed by a person need to be trusted that the information updated is correct information.&lt;/p&gt;
+&lt;p&gt;After looking at the project titled &amp;ldquo;&lt;a href=&#34;https://dig-eg-gaz.github.io/analysis/2017/vaverek-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Making Sense of the Daily Weather Report&lt;/a&gt;,&amp;rdquo; I looked through the picture that they used, and in this certain one, there was no section for rainfall. There are multiple cases where this occurs. Some of the newspaper issues do not have rainfall in the daily weather report. This could be because it did not rain that day. However, there are multiple times that it is labeled in the paper with a value showing that there was no rain for that day. So the question that arises is, why do some days not have the rainfall tab in it?&lt;/p&gt;
+&lt;p&gt;Finding an external source, I also looked at the website &lt;a href=&#34;oldweather.org&#34;&gt;oldweather.org&lt;/a&gt; to see if there was any information about rainfall during 1907 and the earliest dates that I could find weather reports on were from 1913 to today. I searched the website for any information regarding 1905, 1906, and 1907 but no information surfaced.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Doggos</title>
+      <link>https://dig-eg-gaz.github.io/post/18-blog-degroat/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-blog-degroat/</guid>
+      <description>&lt;p&gt;On June 18th, 1907, Tuesday&amp;rsquo;s issue of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; was released to the public. In this issue of the newspaper, on the fourth page, under the section labeled &amp;ldquo;Letter to the Editor,&amp;rdquo; a person wrote to the editor about his / her referring to Canis Major&amp;rsquo;s recent letter. The letter written by Canis Major is posted in the newspaper above the Letter to the Editor – Police Dog Service. Canis Major’s letter discussed the treatment of dogs when getting closer to death. Major stated that “[he] thinks that the matter should be looked into, and something should be done, to make the life of [the] dogs, during the time they wait for death, less painful for them.” In response to Canis Major’s letter, a “Lover of Animals” commented how a friend of theirs dog suffered from a disease “contracted in the black hole of Boulac.” The animal suffered through death, and the person who responded to Canis Major’s letter wanted to make a statement agreeing with him, that dogs should be treated better in their last days and minutes. Having this section, “Letters to the Editor,” allows the public to develop their thoughts and issues about society to the newspaper. This gives them a chance to speak up. Even though, the newspaper most likely cannot put in submissions that will cause a riot, they still put in some that have a small amount of concern from the people which keeps everything well balanced.&lt;/p&gt;
+&lt;p&gt;After doing another search about dogs, not animals, there were only a few articles that came up about the cruelty in their treatment. While there are other blog posts about different animals and dogs, I saw no record of any with an emphasis on the treatment of dogs during their dying stages. Regarding the SPCA, I ran multiple xpath query’s and all were returned with no results.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

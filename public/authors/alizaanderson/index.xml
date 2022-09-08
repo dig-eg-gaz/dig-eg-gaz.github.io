@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/alizaanderson/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/alizaanderson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/alizaanderson/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/alizaanderson/</link>
+    </image>
+    
+    <item>
+      <title>Tarif d’Exportation</title>
+      <link>https://dig-eg-gaz.github.io/post/17-analysis-anderson/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/17-analysis-anderson/</guid>
+      <description>&lt;p&gt;The XPath query targeting the &lt;a href=&#34;https://dig-eg-gaz.github.io/templates/#tarif-dexportation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tarif d’Exportation&lt;/a&gt; table, &lt;code&gt;//div[@xml:id=&amp;quot;deg-el-tdex01&amp;quot;]&lt;/code&gt; only came back with 11 items&amp;ndash;should have returned about 20. The table comes out once a month, and there is about a year and a half of the newspaper encoded. There was a result in March, July, 6 results in August, and 3 in September, all in 1905. The table of the prices of exports is released once every month, so in the encoded sections by other students, four months were found.&lt;/p&gt;
+&lt;p&gt;One of the problems collected from the first XPath query done was that some of the data from the newspapers was not entered into XML correctly. For example, in the online template for July, 1906, the export tariff of coton was 2475, grains de coton was 520, lentilles was 1800, and mais was 855. Some of the students (such as during the months of September and July 1905) did not enter in the correct data from the date of their paper. This error makes it difficult to examine the data because it is not correct from the months of the paper that the table was a part of.&lt;/p&gt;
+&lt;p&gt;Next, in order to attempt to find more data from the table Tarifs D’Exportation, I used a general find search, non case-sensitive, in order to attempt to find more tables that were not entered in correctly but contain the data I’m looking for about the tariffs. I search for “tarifs d’exportation.” This search found 13 results in the xml documents. I found a new result from May 1905, that was the correct table with the information I need. There were also two results from August and two from September, three from November that contained inaccurate tables that were empty or missing. However, one of the November and a December results contained the table that was accurate and useful.&lt;/p&gt;
+&lt;p&gt;So, using the data in oxygen with other students’ data yielded some results, but not all of the months that I need. I tried other, broader searches in Oxygen in order to try to find more of the tables that may have not been correctly encoded when the person entered them in. I first tried to search for “exportation,” but the document yielded 570. I next tried to search for “tariff,” but it yielded 957 results.&lt;/p&gt;
+&lt;p&gt;After trying many different searches, I decided to analyze the data that I found from 1905 only, because for some reason in the searches, no results from 1906 showed up in the data.&lt;/p&gt;
+&lt;p&gt;In the data, I noticed that two months, July and September 1905, contained the same results and the same table and numbers. I then looked at the Tarif d’Exportation template on the website, and noticed that the results in the July and some of the September issues were the same as the template, so the person did not enter the table in correctly. However, one of the results in the July issue was correct and did match the page files that I found in Github. I next found that the tables that were found in September 13,14 and 15 of 1905. Then, using the incorrect tables, I noted which pages they were on in which issues, and then I looked up in the page image files and found the correct values for the tables. I entered the results into an Excel document and first I created a table of the data:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;anderson1&#34; srcset=&#34;
+               /post/17-analysis-anderson/anderson1_hu1805b72a2bc85dd60b3c6a4553dda66d_174108_5d311d5ff4f680d34799150ab797aee7.webp 400w,
+               /post/17-analysis-anderson/anderson1_hu1805b72a2bc85dd60b3c6a4553dda66d_174108_5fd981b40438e12c270803e12f62a217.webp 760w,
+               /post/17-analysis-anderson/anderson1_hu1805b72a2bc85dd60b3c6a4553dda66d_174108_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-anderson/anderson1_hu1805b72a2bc85dd60b3c6a4553dda66d_174108_5d311d5ff4f680d34799150ab797aee7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;279&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Then, using the table I created graphs for each of the different exports in order to attempt to find a trend line in the data to analyze the price of exports on each item. The first thing that I noticed when I created the trendlines for each export item was that all of different items consisted of very differently shaped trendlines with spikes in the prices at different times. For this reason, the data that I collected did not convey a certain theme within it, such as all the prices dropping or raising at the same time, because the different items peaked and decreased at different times throughout the year of 1905.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;anderson2&#34; srcset=&#34;
+               /post/17-analysis-anderson/anderson2_hua71df213a75e571c3769c2cf1678bd42_91804_cf4b044bb8423f9eb7996afe93366080.webp 400w,
+               /post/17-analysis-anderson/anderson2_hua71df213a75e571c3769c2cf1678bd42_91804_f473757af079138b25f8ad4669c4d419.webp 760w,
+               /post/17-analysis-anderson/anderson2_hua71df213a75e571c3769c2cf1678bd42_91804_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-anderson/anderson2_hua71df213a75e571c3769c2cf1678bd42_91804_cf4b044bb8423f9eb7996afe93366080.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;459&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For example, the tarif of exportation of cotton peaked at a high of 3295 in May of 1905, then remained steady the rest of the year at around 2500.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;anderson3&#34; srcset=&#34;
+               /post/17-analysis-anderson/anderson3_hud4f4ad928d23951cf64efb31d8df193e_88114_928250c216cfe4c6f3c36a5b494aa2c0.webp 400w,
+               /post/17-analysis-anderson/anderson3_hud4f4ad928d23951cf64efb31d8df193e_88114_17113a8a08420a736a8be701c34f2f59.webp 760w,
+               /post/17-analysis-anderson/anderson3_hud4f4ad928d23951cf64efb31d8df193e_88114_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-anderson/anderson3_hud4f4ad928d23951cf64efb31d8df193e_88114_928250c216cfe4c6f3c36a5b494aa2c0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;459&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The Grains de Coton was the trend line that differed the least throughout the year of 1905. It remained pretty steady around 500 until December when, what looks like a steep drop on the chart, to 400.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;anderson4&#34; srcset=&#34;
+               /post/17-analysis-anderson/anderson4_hu02ad104ef9a5c4adf1b3bcfaa51c9973_98644_7386cc2618fe83f63766f994ff51e8f7.webp 400w,
+               /post/17-analysis-anderson/anderson4_hu02ad104ef9a5c4adf1b3bcfaa51c9973_98644_3f639acaa6a188e7a51e4838309c8b67.webp 760w,
+               /post/17-analysis-anderson/anderson4_hu02ad104ef9a5c4adf1b3bcfaa51c9973_98644_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-anderson/anderson4_hu02ad104ef9a5c4adf1b3bcfaa51c9973_98644_7386cc2618fe83f63766f994ff51e8f7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The graph of Lentilles (beans) went up and down a lot, with the main peak of the trend line occurring in July 1905, when it jumps up about 800 from the previous months. The graph then begins to level out at the end of the year.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;anderson5&#34; srcset=&#34;
+               /post/17-analysis-anderson/anderson5_hua73c78f19e195f0ad1aca20ce821a29d_80560_5e0633d1422c1b208b0b0ee41510883f.webp 400w,
+               /post/17-analysis-anderson/anderson5_hua73c78f19e195f0ad1aca20ce821a29d_80560_33f2e4dada425d9ca28ac35deb56acc3.webp 760w,
+               /post/17-analysis-anderson/anderson5_hua73c78f19e195f0ad1aca20ce821a29d_80560_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-anderson/anderson5_hua73c78f19e195f0ad1aca20ce821a29d_80560_5e0633d1422c1b208b0b0ee41510883f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The general trend of the mais (corn) crop was generally upwards throughout the year of 1905. There were no steep trends in the months as the progress/increase in the price of the tarif increased slowly from close to 800 to only about a little below 1000.&lt;/p&gt;
+&lt;p&gt;In terms of analyzing the data found from 1905, with the price of export tariffs of cotton, cotton grains, beans, and corn, the data did not clearly indicate peaks within a certain point of time that were all consistent with each other. In contrast, the prices went up and down without correlating with each other, or even with the general economic trends during the times of 1905. According to &lt;em&gt;The Board of Trade Journal&lt;/em&gt;, the general exports from Egypt to France decreased from 1904 to 1905. If more of the newspaper was encoded correctly, or encoded at all, it would be possible to compare different years to the general trends of the tariffs, instead of comparing the different months to each other. Also, the currency that was used in 1905, is in some ways similar to the currency found in modern day Egypt. In 1834, the Egyptian pound was introduced to replace the previous currency, the Egyptian piastre. The Egyptian pound was issued based on gold and silver. The methods of trading in 1885 required exchange rates to be formed with Europe using standard bar gold rates, and the Egyptian pound was then first compared to the British pound sterling.&lt;/p&gt;
+&lt;p&gt;Next, the total amounts of all of the exports can also be graphed, in order to see which of the 4 items was the most to export in the year of 1905.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;anderson6&#34; srcset=&#34;
+               /post/17-analysis-anderson/anderson6_hub0a5f20a1ce0b3b9951cb4097b28be5c_121385_925f2d0debf7b30de9b887c7424342b3.webp 400w,
+               /post/17-analysis-anderson/anderson6_hub0a5f20a1ce0b3b9951cb4097b28be5c_121385_c6ecf90118a84782a229610dd3340add.webp 760w,
+               /post/17-analysis-anderson/anderson6_hub0a5f20a1ce0b3b9951cb4097b28be5c_121385_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-anderson/anderson6_hub0a5f20a1ce0b3b9951cb4097b28be5c_121385_925f2d0debf7b30de9b887c7424342b3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;446&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The bar graph is consistent in which item costs the most to export by a lot. Coton always costs the most to export by a considerable amount, it is usually 2-3 times more money to export than any of the other 3 items. Coton costs the most to export most likely because it was in high demand during this time period, and it was the most popular item. The other three items are pretty close in prices, especially the lentilles (beans) and mais (corn), as they are usually have the same export price, while the grains de coton have the lowest price of export.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

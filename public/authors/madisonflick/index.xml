@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/madisonflick/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/madisonflick/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/madisonflick/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/madisonflick/</link>
+    </image>
+    
+    <item>
+      <title>Funerals in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/17-analysis-flick/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/17-analysis-flick/</guid>
+      <description>&lt;p&gt;In the early 20th century, in Alexandria, Egypt, many people died, but not everyone had a funeral. Of the funerals reported by the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, it turns out that not all of the funerals reported even took place in Alexandria. I am interested in why some people were lucky enough to have a funeral and why some funerals were mentioned in the newspaper even if it didn’t happen in Alexandria?&lt;/p&gt;
+&lt;p&gt;My original idea for this analysis was to just find out where most of these funerals were taking place. I wanted to see where they were being held to see if this could show if the &lt;em&gt;Egyptian Gazette&lt;/em&gt; focused more on local events or foreign events. Soon after starting my research, my goal morphed into finding out not only where these funerals took place, but also whom these funerals were for. My question changed to include who the people are because I wanted to see if there was a certain “type” of person who had a funeral. So my goal in the end of this was to see if there was clearly a more common location for funerals and a specific type of person who had a funeral in 1905 and 1906 as reported by the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I started my research by using the XPath Query &lt;code&gt;//div/p[contains(., &#39;funeral&#39;)]&lt;/code&gt; to find all of the instances where the word “funeral” appears in the newspaper. The query brought up 158 results. I found that the easiest way to record my results would be to read through each one of these results to find which ones are actual funeral announcements and then I could record the name of the person and place of the funeral. After reading through each search result I realized that a few of the more popular funerals were reported on a couple of different times (before and after the actual funeral). Also, quite a few results weren’t actually funeral announcements and were actually articles about architecture, explaining that some buildings look like “funeral temples” or reporting on artifacts found that would be used in a funeral. Other times the word “funeral” was mentioned they were expense reports that stated how much the country either budgeted or spent on everything, including funeral expenses. Out of the 158 results, only 83 of these results were actually original funeral announcements. I could have simplified the process of manually collecting data by using the &lt;code&gt;persName&lt;/code&gt; and &lt;code&gt;placeName&lt;/code&gt; tags when executing my XPath Query to hopefully get all the names of the deceased and the location of their funerals in one easy search. In theory, this approach should be helpful, but after all of my manual data collection, I noticed that not many of the funeral announcements were encoded with the &lt;code&gt;persName&lt;/code&gt; and &lt;code&gt;placeName&lt;/code&gt; tags. So if all of my fellow collaborators had used these tags, yes this approach would be very helpful, but since not many did use these tags, including these tags in my XPath Query isn&amp;rsquo;t as helpful as it should be.&lt;/p&gt;
+&lt;p&gt;After I found all of the funerals that were reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, I decided to perform the XPath Query &lt;code&gt;//div/p[contains(., &#39;died&#39;)]&lt;/code&gt; to find the number of times the newspaper reported a death. I wanted to see if the number of people who had funerals was the same as the number of people who had died. This significant difference in numbers can help prove that only certain people are having their funerals reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. From this query, I got 337 results, but when I read through all of the results, I found that the newspaper actually reported 406 deaths.&lt;/p&gt;
+&lt;p&gt;There were many deaths reported by the &lt;em&gt;Egyptian Gazette&lt;/em&gt; in 1905 and 1906, but only a small number of funerals reported in the newspaper. Out of the 406 deaths reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, only 83 funerals were reported, which means only about 20% of the people who died actually had their funeral reported. The deaths that were reported included articles that recorded groups of anonymous people dying, such as multiple soldiers who died in a military accident, or multiple people dying from the plague at around the same time. When the funerals were reported, on the other hand, they reported on only one person at a time and named them specifically. Most of the funerals that were reported gave at least a sentence or two describing their lives and all of the people seemed to be somewhat well known people in Alexandria (or a family member of a well known person). An example of the death and funeral of a very important person in Alexandria is Dr. Haicalis Pasha, the &amp;ldquo;&amp;lsquo;Editor-proprietor&amp;rsquo; of the &amp;lsquo;Phare d’Alexandrie&amp;rsquo;&amp;rdquo;. Dr. Haicalis’ death and funeral was reported on three days in a row. His original death announcement labeled him as the &amp;ldquo;&amp;lsquo;doyen&amp;rsquo; of the Egyptian Press,&amp;rdquo; as well as named him as &amp;ldquo;his Excellency Dr. Haicalis Pasha.&amp;rdquo; It’s very clear that Dr. Haicalis was very important in Alexandria, at least to the writers at the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. It may seem like the person who wrote his obituary is a little biased towards Dr. Haicalis because he wrote for the &lt;em&gt;Egyptian Gazette&lt;/em&gt; before he died, but it seems as though he actually was a very important person in Alexandria because his funeral procession was headed by the police and famous people, such as Hafez Mohamed Bey, Sub-Governor of Alexandria, came to show their respects at his funeral. It seems like most of the people who had funeral announcements in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; were well known because of the job that they had, which can lead us to believe that these people were probably wealthier than some of the other people who died, which means that they are able to afford a funeral, while others cannot afford one in the first place. So one can conclude that well known, wealthy people had funerals in Alexandria in 1905 and 1906.&lt;/p&gt;
+&lt;p&gt;While most of the funerals reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; did occur in Alexandria, not all did, in fact, a large number of the funerals did not even take place in Egypt. 33% of the funerals reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; occurred in Alexandria, 22% of the funerals took place in Cairo, 5% of funerals took place in Egypt outside of Alexandria and Cairo, and 40% of funerals occurred outside of Egypt all together. This means that 60% of funerals reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; occurred in Egypt. The fact that the &lt;em&gt;Egyptian Gazette&lt;/em&gt; is reporting on funerals mostly within the country and that Alexandria is the individual city with the highest percentage of funerals reported, shows that the &lt;em&gt;Egyptian Gazette&lt;/em&gt; is in fact focused more on local events, rather than international events. But why is the &lt;em&gt;Egyptian Gazette&lt;/em&gt; even interested in the funerals that took place outside of Egypt? Most of the international funerals had one thing in common, they were for someone who was famous in some way, whether they were some form of royalty or they were a famous celebrity. For example, on October 28, 1905, Sir Henry Irving, a very famous actor, had a large funeral in London, England. Because of his level of fame, I can only imagine that his funeral was not only reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, but every major or even minor newspaper in the world probably reported on his funeral. While most of the international funerals were for royal or famous people, the ones that weren’t were usually well known citizens of Alexandria or another Egyptian city, who died while they were on vacation out of the country. So it can be said that the &lt;em&gt;Egyptian Gazette&lt;/em&gt; mainly reported these international funerals if the deceased was either a well-known celebrity or well-known Egyptians who just happened to die outside of Egypt.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Funerals in the &amp;lt;em&amp;gt;Egyptian Gazette&amp;lt;/em&amp;gt;&#34; srcset=&#34;
+               /post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette_hud869510a9e14b6875e505c0a365de665_265148_05c5b28680baa60e8fe377080b02b6cc.webp 400w,
+               /post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette_hud869510a9e14b6875e505c0a365de665_265148_f77e68e4b275d4d3f48ee98ec1bc3a99.webp 760w,
+               /post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette_hud869510a9e14b6875e505c0a365de665_265148_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette_hud869510a9e14b6875e505c0a365de665_265148_05c5b28680baa60e8fe377080b02b6cc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;460&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This word cloud connects all the people who had funerals in a specific city. I chose this visualization to show the location where the most funerals reported by the &lt;em&gt;Egyptian Gazette&lt;/em&gt; occurred. I had the option between showing the names of the deceased on the word cloud and just showing the number that their name is associated with on a table. At first I was going to use the chart that showed the names of the deceased because I wanted to show who was actually having these funerals, rather than just showing a number that essentially meant nothing, but I also found that having the names on the chart made it quite cluttered and it was actually very difficult to read the names this way. So I had to find a way to make it so that the chart was readable, but the people reading this could see the names of the people who had funerals. My solution to this problem was to make the chart without the names on it and just have the generated numbers shown on the graph that coordinate with the name on the key that I attached to the chart. For example, the number “19” on the chart that is connected to Alexandria will correspond to the name “M. Gregoire Mistrovachi” on the key, meaning that M. Gregoire Mistrovachi had his funeral in Alexandria. This approach makes the chart look clean and put together, but also shows the name who had the funeral and where the funeral took place in Egypt in 1905 and 1906.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Map of Funerals in the &amp;lt;em&amp;gt;Egyptian Gazette&amp;lt;/em&amp;gt;&#34; srcset=&#34;
+               /post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette-map_hu55e8d02bf6db7f19ffa32cdc46118b6e_69850_8228248c268a23afa8f4168ce4de4d40.webp 400w,
+               /post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette-map_hu55e8d02bf6db7f19ffa32cdc46118b6e_69850_234914567a5d0743ef7f1eb4a4ac10b8.webp 760w,
+               /post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette-map_hu55e8d02bf6db7f19ffa32cdc46118b6e_69850_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/17-analysis-flick/Funerals-in-the-Egyptian-Gazette-map_hu55e8d02bf6db7f19ffa32cdc46118b6e_69850_8228248c268a23afa8f4168ce4de4d40.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;345&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I also made a map of where all of the funerals in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; occurred. This visualization shows where the location physically is, not just the name of the city that the funeral was in.&lt;/p&gt;
+&lt;p&gt;One of the major limitations I had during this analysis was not knowing if the funerals that the &lt;em&gt;Egyptian Gazette&lt;/em&gt; reported were the only funerals happening in Alexandria in 1905 and 1906. I know that the few international funerals and Egyptian funerals outside of Alexandria that were reported are not the only international funerals that happened in 1905 and 1906 because most of the funerals happening all over the world aren’t relevant to the readers of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. But even though there were many more funerals reported in Alexandria than any other city, the newspaper could still have left some out because the writers didn’t think some of the people were important enough, or maybe some families wanted a private funeral and didn’t want the newspaper to publish a formal announcement for the funeral. Either way, there is a good chance that more funerals occurred in Alexandria than just the ones that were reported in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

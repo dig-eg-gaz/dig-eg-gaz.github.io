@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/melissapregasen/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/melissapregasen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/melissapregasen/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/melissapregasen/</link>
+    </image>
+    
+    <item>
+      <title>Lord Cromer in the &#39;Egyptian Gazette&#39;</title>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-pregasen/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-pregasen/</guid>
+      <description>&lt;p&gt;For my research analysis project, I looked at the number of times Lord Cromer was mentioned throughout the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. I first searched a simple XPath query by searching for the word &amp;ldquo;Cromer&amp;rdquo; with the restriction of &lt;code&gt;//div[not(@feature=“advert”)]&lt;/code&gt; to look throughout all the issues and every div except the divs with the feature of advert. I looked through the entire content repository. I found each issue that Lord Cromer had been mentioned at and put that data into the text editor, Atom. Using regular expression, I cleaned up the data to only list the dates with how many times Lord Cromer was mentioned in each issue. I then plotted the dates into a bar graph as depicted below. The bar graph accounts the dates from January 1905 to May 1907 when Lord Cromer retired and was not mentioned further.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Image&#34; srcset=&#34;
+               /post/18-analysis-pregasen/pregasen-CromerBarDates_hu421387d09014edc4ce9e37712b355761_193856_8d10aed2a1ac909438f1ef8854fe4d47.webp 400w,
+               /post/18-analysis-pregasen/pregasen-CromerBarDates_hu421387d09014edc4ce9e37712b355761_193856_fbf8a0540b50cf4972ad84be764cd8d9.webp 760w,
+               /post/18-analysis-pregasen/pregasen-CromerBarDates_hu421387d09014edc4ce9e37712b355761_193856_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-pregasen/pregasen-CromerBarDates_hu421387d09014edc4ce9e37712b355761_193856_8d10aed2a1ac909438f1ef8854fe4d47.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;147&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Looking at this data I could see that Lord Cromer is mentioned consistently with high points during the months of January 1905, August 1905, January 1906, August 1906, and April 1907. This means that he was mentioned many times during those months and few times in others. Between October 1906 and March 1907 Lord Cromer is not even mentioned at all. Throughout the latter months of his tenure as Consul General, Cromer was mentioned on average more than during the earlier years cataloged.&lt;/p&gt;
+&lt;p&gt;Lord Cromer, born Evelyn Baring, was the first Consul General of Egypt. He was given this position in September of 1883. He kept this position until May 1907 when he retired due to health reasons. He lived the rest of his life in England. During Lord Cromer’s reign over Egypt, he advocated for more British rule over the lands and dismissed the Egyptian demands for independence from Britain. Lord Cromer instituted mass reforms like the Veiled Protectorate “whereby he ruled the rulers of Egypt, with the assistance of a group of English administrators trained in India, who were placed in key positions as advisors to the Egyptian government” (Marsot). Along with governmental reforms, Lord Cromer helped institute public irrigation works and many agricultural feats that helped with the Egyptian economy and grow industrially. In 1907, a new British Prime Minister, Sir Henry Campbell-Bannerman, was elected into office from the House of Commons. Campbell-Bannerman was more lenient to the Egyptians. Lord Cromer was in Britain during the time of October and March, which is why he was not mentioned at all in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, when he found out about Campbell-Bannerman’s plans. Seeing the news and hearing of plans that would be put into place, his retirement seemed to be the best course of action. Lord Cromer’s health had been deteriorating too.&lt;/p&gt;
+&lt;p&gt;Looking closely at the data, I noticed that many of the mentions about Lord Cromer discussed his travel across Europe. Many of the articles in January 1905 that spiked the mentions of Lord Cromer all discussed Lord Cromer’s trip across the Nile. Cromer discussed is thoughts on trade in his speeches during the trip. They discussed the prospect of Lord Cromer’s arrival back in Alexandria being delayed by a few days and social engagements Lord Cromer will come back to attend. In August 1905, an article featured titled “Lord Cromer His Life and Work.” The article discussed Lord Cromer’s personal life such as living in an old-fashioned mid-Victorian house and his professional job in Egypt. He was initially given ten years to deal with Egypt. The article specifically praises Lord Cromer’s work with irrigation that helped increase the population of Egypt. In January 1906, Lord Cromer gave a speech regarding opening a Nile-Red Sea Railway. The article praised for Lord Cromer for being a “master of English prose.” In August 1906, Lord Cromer was heavily mentioned. An article criticized Lord Cromer’s reforms and his past actions in relation to the Egyptians.  In April 1907, Lord Cromer announced his resignation. As a result, he was widely discussed. His career and personal life was analyzed throughout months leading to May when he formally resigned his position. Throughout the other months Lord Cromer was mentioned a couple of times. These mentions often discussed his travel plans, his social engagements, and his actions. The only time when Lord Cromer was not discussed at all was October 1906 to March 1907. Lord Cromer was in England for an extended period of time. His health had been deteriorating and these months lead up to his resignation for health reasons. It could be that Lord Cromer was dealing with his health seriously that caused him to formally resign his position as Consul General. It is interesting that January and August were very highly discussed months for Lord Cromer. There does not seem to be a seasonal correlation between Lord Cromer’s mentions and his actions. August and January seems to be the months when big decisions and roles Lord Cromer had to fulfill had happened.&lt;/p&gt;
+&lt;p&gt;Through my research, I noticed that Lord Cromer was often discussed as being the “Honorable Cromer.” He was clearly thought of highly among officials. The &lt;em&gt;Egyptian Gazette&lt;/em&gt; has written some articles praising his work ethic and ability to lead such a simple life. The newspaper further had called him a great man on multiple occasions in 1905. This is interesting, because Lord Cromer’s favoritism for increased British rule in Egypt was subject to much criticism from Egyptians. Yet, this Egyptian newspaper consistently painted Lord Cromer in respectable and good lights in 1905. The newspaper might have been scared of writing negatively of such an important British official or perhaps paid off by Englishmen. The reason for writing as such is unknown. However, in 1906 Lord Cromer had been criticized at many points. In January 1906, the &lt;em&gt;Egyptian Gazette&lt;/em&gt; called Lord Cromer snobby and claimed that he has almost ultimate power of Egypt. A few months later the article was followed up upon by discussing Lord Cromer’s possible retirement. It discusses his failure in the Denshwai affair in which some British officials and Egyptians began to fight. Taking another 180-degree turn, Lord Cromer was discussed decently highly from March to May 1907. The newspaper seems to be trying to describe him in a positive light again as his retirement neared.&lt;/p&gt;
+&lt;p&gt;While this data was especially helpful in gaining an insight in Lord Cromer’s life and reputation in Egypt, the transcription of the articles might have lost some important data. There were many points where Lord Cromer’s name had not been edited correctly and had been written has “Cromor” or “Cnomer.” This would cause some of the data to be lost in certain days where Lord Cromer should have been recorded by my XPath Query. Sadly, this is harder to search for, because there are many different misspellings. Therefore, the different misspellings could cause skewed data that has not been recorded. This could only be corrected by looking through all the issues and correcting the text that had been transcribed incorrectly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

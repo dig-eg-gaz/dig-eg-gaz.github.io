@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/robertthomas/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/robertthomas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/robertthomas/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/robertthomas/</link>
+    </image>
+    
+    <item>
+      <title>Humidity and its relation to cotton yields</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-thomas/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-thomas/</guid>
+      <description>&lt;p&gt;Humidity in and of itself does not have a strong correlation to cotton yields due to the fact that humidity by itself does not affect cotton. Germination of a cotton seed and the subsequent sprouting and ripening of that seed cannot be affected by the air’s relative humidity. The only thing that could possibly be affected by humidity if the quality of the cotton. For example, if the cotton was soaked through due to the humidity and therefore lost some of its inherent integrity as a fiber. However, humidity does in fact inform the analyst of one thing and that is whether there was rainfall and how frequently that rainfall was taking place. According to &lt;a href=&#34;https://www.smartfog.com/how-rain-and-humidity-connected.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Smart Fog&lt;/a&gt; “When it rains, it will increase the relative humidity because of the evaporation. The air where the rain is falling may not be completely saturated with water vapor. However, the longer it rains, the more the humidity will increase because of the air constantly drawing the water.” Using this knowledge inferences can be made about rainfall as humidity increases across a certain time period and in turn see rainfalls effect on cotton yields. This roundabout, estimative way of seeing how rainfall affects cotton yields is necessary due to the fact that there is minimal rainfall data throughout the Egyptian Gazette so far as people have either not entered it in or left the template as it was. However, using this method there can at least be some inference about rainfall and its amounts and effect on cotton yield using secondary sources to add where the estimate lacks.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cotton Yields&#34; srcset=&#34;
+               /post/19-analysis-thomas/Cotton_hu27e5b500f2bf3ddd6fbf7aeae0421efe_39182_4e4436ea0ea25cf1ddaedd341c6a432a.webp 400w,
+               /post/19-analysis-thomas/Cotton_hu27e5b500f2bf3ddd6fbf7aeae0421efe_39182_eb989c5df4575f9e463f5bf225f3d01a.webp 760w,
+               /post/19-analysis-thomas/Cotton_hu27e5b500f2bf3ddd6fbf7aeae0421efe_39182_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-thomas/Cotton_hu27e5b500f2bf3ddd6fbf7aeae0421efe_39182_4e4436ea0ea25cf1ddaedd341c6a432a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+According to data gathered through Xpath queries executed on the Egyptian Gazette content repository which queried the tables that contained figures for cotton exports and recorded the sums found in each issue pairing them to the dates that they were found, Cotton yields were the highest in January. So high in fact that the amounts recorded outstrip the second highest value by more than twice that values amount. This implies that humidity and in turn rainfall was at optimal levels which according to &lt;a href=&#34;https://www.organiccotton.org/oc/Cotton-general/Plant-and-fibres/Plant-requirements.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Organic cotton&lt;/a&gt; is about 500mm of water between germination and boll formation. Yields then begin to fall to their lowest recorded in March but then rise to more than triple that amount by May. They then fall to almost half of May’s yields by July but almost rises back to May’s amounts in just one month in August but then fall by even lower than half in just one month to September. The least drastic difference occurs between September and October where compared to the other months it’s just a small rise in cotton yields.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Humidity&#34; srcset=&#34;
+               /post/19-analysis-thomas/Humidity_hu8f607ef798514e7e17c98ff729cca499_27781_3414809fa2c57db398e601812f74362f.webp 400w,
+               /post/19-analysis-thomas/Humidity_hu8f607ef798514e7e17c98ff729cca499_27781_2ba549e310e6cb14d4d5c98bd7bc1052.webp 760w,
+               /post/19-analysis-thomas/Humidity_hu8f607ef798514e7e17c98ff729cca499_27781_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-thomas/Humidity_hu8f607ef798514e7e17c98ff729cca499_27781_3414809fa2c57db398e601812f74362f.webp&#34;
+               width=&#34;756&#34;
+               height=&#34;473&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Data gathered through the same method used to find data on cotton yields on humidity yielded much less exciting results as the average humidity throughout the months looks much different than the cotton yields. However, data can still be extracted from the results gathered. The graph shows a relative decrease in the average humidity from January to July and a relative increase from July to October. The humidity then begins on a decrease again from November to December which can be inferenced to be part of the relative decrease from January to July.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Rainfall&#34; srcset=&#34;
+               /post/19-analysis-thomas/Rainfall_huc8bb26fb7bb5ccfaf4415e7ddc23579d_13762_44cf4f15925d8d66f67716d8c3fe1681.webp 400w,
+               /post/19-analysis-thomas/Rainfall_huc8bb26fb7bb5ccfaf4415e7ddc23579d_13762_1024c2e6d614cdef64f02bada41c0c9b.webp 760w,
+               /post/19-analysis-thomas/Rainfall_huc8bb26fb7bb5ccfaf4415e7ddc23579d_13762_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-thomas/Rainfall_huc8bb26fb7bb5ccfaf4415e7ddc23579d_13762_44cf4f15925d8d66f67716d8c3fe1681.webp&#34;
+               width=&#34;724&#34;
+               height=&#34;382&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+According to &lt;a href=&#34;https://tradingeconomics.com/egypt/precipitation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trading economics&lt;/a&gt; , which is an online platform that provides historical data, economic forecasts, news, and trading recommendations across 196 countries, the relative increase and decrease of precipitation in Egypt in 1907 corresponds with the relative increases and decreases in humidity as shown in the humidity percentage graph. This supports the theory that by measuring the humidity fluctuations over each month it can be estimated whether it is raining more or less in a specific time period. Through both the graph of rainfall and the graph of humidity it can be inferred that relative rainfall was decreasing from January to July and increasing from July to October. Comparing this with the cotton exports graph shows very little correlation between cotton exports and humidity. The turning points of the cotton exports graph and the relative decreases and increases found in the humidity and rainfall graphs do not line up very well in the slightest. This suggests that either humidity and rainfall in Egypt don’t affect cotton growth very much or the way that the data itself is flawed in some way. This could be further investigated by making sure every humidity and cotton export value in every table analyzed is correct when compared to the page images the date is supposed to be taken from and/or doing the same for rainfall and correcting every rainfall value to see If rainfall may be different than what was found on &lt;a href=&#34;https://tradingeconomics.com/egypt/precipitation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trading economics&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Swindling Don Juan</title>
+      <link>https://dig-eg-gaz.github.io/post/2019-10-17-robertthomas/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2019-10-17-robertthomas/</guid>
+      <description>&lt;p&gt;I decided to write my blog post about an interesting article I found on the first day of my assigned week. This article was about how an older wealthy lady named Waghida Hanem seemed to have had her feelings captured by a young man, whom her family believed was only after her substantial finances. The young man successfully convinced Ms. Waghida to leave for Zagazig to meet and marry him along with jewels and money valuing around 20,000 pounds. At the news of the marriage the family of the bride demanded the revocation of the marriage and subsequent divorce of the bride and groom which was granted through the correct legal proceedings. Ms. Waghida was left in the care of her brother which she refused and took refuge with her lawyer however she has now disappeared without a trace.&lt;/p&gt;
+&lt;p&gt;This article was interesting to me for a number of reasons. One being that you don&amp;rsquo;t hear many cases today of young men trying to get with older women for their money, most of the time it&amp;rsquo;s the other way around with young women trying to find that rich lonely man to latch onto. Another thing I found interesting was how the family was able to literally nullify the marriage without the consent of either the bride or the groom and the fact that it was completely legal. There has been ongoing debate and trials regarding ways to legally nullify marriages in the U.S as outlined &lt;a href=&#34;http://eds.b.ebscohost.com/eds/pdfviewer/pdfviewer?vid=5&amp;amp;sid=ed4cddda-385a-463f-9405-36c8c02418ee%40pdc-v-sessmgr01&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, though I know of no way in America for someone who has no part in the marriage to nullify it against the bride and groom&amp;rsquo;s wishes so the fact that this was allowed amazes me. However &lt;a href=&#34;http://eds.b.ebscohost.com/eds/pdfviewer/pdfviewer?vid=2&amp;amp;sid=ed4cddda-385a-463f-9405-36c8c02418ee%40pdc-v-sessmgr01&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; it is shown how in India a marriage may be nullified for a variety of reasons including if either the bride or groom was declared mentally unsound. This could be attributed to the laws in India that require a woman to have a male guardian so they are seen as less than women are seen in America. I read an article &lt;a href=&#34;https://www.indiatoday.in/india/story/kerala-high-court-hindu-muslim-islamic-state-979157-2017-05-25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; on how a marriage was made null and void by a court in India over the fact that it was believed the daughter was forcibly converted to Islam. Apparently this isn&amp;rsquo;t extremely uncommon for countries other than the U.S.&lt;/p&gt;
+&lt;p&gt;Interestingly enough I found a blog post &lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-blog-pustam/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; where the author decided to write an article about the fact that marriages were seen as a way for women to be happy and the author seemed extremely upset with that belief. I found it ironic considering Mrs. Waghida&amp;rsquo;s family forcibly put an end to her marriage even though she inferably was happy. You could say that her family was trying to prevent her from getting her heart broken by this swindler or just hurt in general because as outlined &lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-blog-donofrio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; where a man attempting to fix his relationship with his wife ends up stabbing her out of anger, domestic violence was not uncommon.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

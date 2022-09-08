@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/brettbarry/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/brettbarry/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/brettbarry/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/brettbarry/</link>
+    </image>
+    
+    <item>
+      <title>Analyzing Agricultural Bank Stocks between different Exchanges in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</guid>
+      <description>&lt;p&gt;The idea of Agricultural Banks, facilitated through government tax collectors to distribute loans, originally started in the early 1880s in India. Lord Cromer, a prominent figure in Egypt’s economy, was originally pitched this idea by William Wedderburn while “serving in India as Finance Member of Lord Ripon’s government”. Lord Cromer was fond of the idea and pitched it to the Government of India, however, they rejected the idea. Lord Cromer then carried this idea to the Egyptian Government, where they finally established the “Agricultural Bank of Egypt in May of 1902”. The idea proved to be promising as it initially attracted a lot of investors as well as clients (Jakes).&lt;/p&gt;
+&lt;p&gt;My project aims to analyze the movement of the Agricultural Bank stocks on the different exchanges listed in the Egyptian Gazette. I mainly focus on the &lt;a href=&#34;https://dig-eg-gaz.github.io/issues/templates/#london-stock-exchange&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;London Stock Exchange&lt;/a&gt;: “Agricultural Banks” and the &lt;a href=&#34;https://dig-eg-gaz.github.io/issues/templates/#bourse-du-caire&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cairo Stock Exchange&lt;/a&gt;: “Agricultural Bank of Egypt”. To gather this data, I originally used the following Queries to locate my desired data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div[@xml:id=&amp;quot;deg-el-bduc01&amp;quot;]/table[1]/row[3]/cell[3]/measure&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div[@xml:id=&amp;quot;deg-el-lsex01&amp;quot;]/table[1]/row[3]/cell[3]/measure&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While these queries located some of my data, it was evident that along the line there was a template change in both stock exchanges which led to inaccurate data. In order to combat, this I updated the following queries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div[@xml:id=&amp;quot;deg-el-lsex01&amp;quot;]/table[1]/row/cell[contains(., &amp;quot;Agricultural Banks&amp;quot;)]/following-sibling::cell[1]/measure&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div[@xml:id=&amp;quot;deg-el-bduc01&amp;quot;]/table[1]/row/cell[contains(., &amp;quot;Agricultural Bank of Egypt&amp;quot;)]/following-sibling::cell[1]/measure&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This updated query gave me more accurate data, however, it was clear from the repeated values that a lot of the issues included the templated value and not the issue&amp;rsquo;s actual value. In order to combat this, I had to double check the microscanned pages and manually fill in some values.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1&#34; srcset=&#34;
+               /post/2021-analysis-barry/barry-1_hu2695e26fb4aab1e8dcc344e098f0b281_46576_490579ab12d8ecd4ebf9e322e5c175be.webp 400w,
+               /post/2021-analysis-barry/barry-1_hu2695e26fb4aab1e8dcc344e098f0b281_46576_8170922f9dc8a69d510c65e32424a118.webp 760w,
+               /post/2021-analysis-barry/barry-1_hu2695e26fb4aab1e8dcc344e098f0b281_46576_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2021-analysis-barry/barry-1_hu2695e26fb4aab1e8dcc344e098f0b281_46576_490579ab12d8ecd4ebf9e322e5c175be.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;469&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2&#34; srcset=&#34;
+               /post/2021-analysis-barry/barry-2_hu2695e26fb4aab1e8dcc344e098f0b281_47385_efdf7e357b655f16ccce3d99c2ca5843.webp 400w,
+               /post/2021-analysis-barry/barry-2_hu2695e26fb4aab1e8dcc344e098f0b281_47385_d85c989dc77f6c8204bfd83702ebd17f.webp 760w,
+               /post/2021-analysis-barry/barry-2_hu2695e26fb4aab1e8dcc344e098f0b281_47385_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2021-analysis-barry/barry-2_hu2695e26fb4aab1e8dcc344e098f0b281_47385_efdf7e357b655f16ccce3d99c2ca5843.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;469&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The upward trends in the graph could be facilitated through a multitude of reasons. The first being the initial upward trend could be a result of the reaction of the public to the newly created agricultural banks. As explained by Aaron Jakes, “Its mortgages at 9% interest seemed to offer the bank’s clients an appealing alternative to existing forms of local moneylending” (Jakes). Additionally, the influx of foreign money coming into Egypt propelled a lot of land owners into participating in one of Egypt&amp;rsquo;s main agricultural exports at the time, cotton. Agricultural Banks established by Lord Cromer seemed to be an easy way into the agricultural industry.&lt;/p&gt;
+&lt;p&gt;The downward trends can be explained by the apparent problems with the Agricultural Bank&amp;rsquo;s structure as well as environmental problems during the early 1900s. While the foreign capital influenced landowners to enter the industry, the majority of the foreign money flowed directly into the pockets of wealthy landowners in the industry. Additionally, the foreign money also “drove down the profitability of loans against agricultural land and produce” (Jakes). The main driving force in the downward trends would be a result of the “cotton worm”. The cotton worm not only destroyed cotton seeds but also weakened the soil quality on which cotton was grown, decreasing yields. This caused people to stay out of the industry driving the Agricultural Bank’s stocks downwards.&lt;/p&gt;
+&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;
+&lt;p&gt;Jakes, Aaron. &lt;em&gt;Egypt’s Occupation: Colonial Economism And The Crises Of Capitalism&lt;/em&gt;. Stanford, California: Stanford University Press, 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

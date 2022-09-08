@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/ianbolger/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/ianbolger/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/ianbolger/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/ianbolger/</link>
+    </image>
+    
+    <item>
+      <title>Polo in Cairo</title>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-bolger/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-bolger/</guid>
+      <description>&lt;p&gt;I chose to do my Analysis Project on the performances of different polo players and teams in Egypt and using different xpath queries and analysis to see who is the best polo player and the best polo team in Egypt. For this analysis, I will be searching through the editions of the 1905-1907 &lt;em&gt;Egyptian Gazette&lt;/em&gt; and determine which of the polo players and teams in Egypt have the better performances through those years.&lt;/p&gt;
+&lt;p&gt;While reading through my week of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, which is March 5-10, 1906, I was always interested when it came to putting the ‘Sport and Play’ section together into xml formatting and I ended up reading most of the articles in that section. One of the headlines that would always seem to pop up for my week and interest me was the Cairo Polo Tournament. During the Cairo Polo Tournament and other polo games throughout the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, there are usually two games that are played on a given day and the days of the week that the Cairo Polo Tournament was being played were Monday, March 5th, Wednesday, March 7th, and Friday, March 9th, of 1906.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.britannica.com/sports/polo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Polo&lt;/a&gt; is a game that is played on horseback between two teams, each who use mallets with long, flexible handles to drive a wooden ball down a grass field and between to goal posts. Before reading the articles about the Cairo Polo Tournament, I was uninformed about the &lt;a href=&#34;https://www.historic-uk.com/CultureUK/The-Origins-of-Polo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rules&lt;/a&gt; of polo and how it is played. Now, I am most informed about the sport and can understand terms that are being used in the articles about the games. Polo has aptly been called &lt;a href=&#34;https://www.jstor.org/stable/pdf/25485776.pdf?refreqid=search%3Af56393a29453dff0a4f76b5dc4efb7d2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hockey&lt;/a&gt; on horseback. Each team usually consists of four polo players in each game and one umpire to regulate play of those games. The games are separated into four chukkers and whichever team scores the most goals at the end of the fourth chukker wins the match.&lt;/p&gt;
+&lt;p&gt;Most &lt;a href=&#34;http://www.horsetimesegypt.com/pdf/articles/Polo_In_Egypt_Sport_Of_Kings_And_The_Kings_Of_The_Sport.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;historians&lt;/a&gt; of the sport consider that the game was first actively played as a cavalry exercise in Persia as early as the 6th century BC, migrating with conquest both east to China during the Tang Dynasty (7th century AD) and west to Byzantium, arriving in Egypt during the Ayyubid period (12th century AD). When I was reading through these articles, I wanted to know the context of these games, and which of the players and teams were really good and supposed to win and which of the players and teams weren’t as good as the other teams in the tournament. When thinking about what my analysis project should be, I immediately thought about this concept and was intrigued to find out more about the world of polo in Egypt.&lt;/p&gt;
+&lt;p&gt;To answer the questions that I had about polo teams and players, I composed and ran an xpath query in our main repository of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; issues that were already put into xml formatting. The xpath query that I ran to execute this task is &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][contains(., &amp;quot;chukker&amp;quot;)]&lt;/code&gt;. I used the word “chukker” as my search word because there are many times where the word “polo” shows up without their being an actual game. Whenever the word “chukker” showed up, there was always a game that was attached to the term. After I ran the xpath query and sorted in the repository to see where the polo games were in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, I started to read the articles that consisted of those polo games in Egypt and find out which teams played in each game, how each of the teams performed that game, as well as their players, and who ended up playing the best.&lt;/p&gt;
+&lt;p&gt;Most of the polo matches and tournaments were found in the ‘Sport and Play’ section of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, which was located on page five most of the time. The search for my query on the word “chukker” came back with 54 results, which was not as much as I thought it would be, but it is still enough to do analysis for this project. Most of the returning results from my query were from the first few months of 1906 and all of those results came from tournaments that were being played. The results of this query can also be hampered because of the fact that there are some issues that have not been turned into the main repository yet, or some students just didn’t correctly format when they were doing their xml coding. I think that if I had every issue from 1905-1907, correctly formatted and turned in to the main repository, I would have a lot more results for my query and more games that I can use for evaluation to see who ends up being the best polo player and team in Egypt.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Goals per game (Teams)&#34; srcset=&#34;
+               /post/18-analysis-bolger/bolger-goals_per_game_teams_hu6d44d99cca45ae0751c468ad20233f13_19506_254078625e4a621c758c0361716d7367.webp 400w,
+               /post/18-analysis-bolger/bolger-goals_per_game_teams_hu6d44d99cca45ae0751c468ad20233f13_19506_6990e82e5085e22a15ac5f35dbb976c5.webp 760w,
+               /post/18-analysis-bolger/bolger-goals_per_game_teams_hu6d44d99cca45ae0751c468ad20233f13_19506_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-bolger/bolger-goals_per_game_teams_hu6d44d99cca45ae0751c468ad20233f13_19506_254078625e4a621c758c0361716d7367.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;177&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Goals per game (Players)&#34; srcset=&#34;
+               /post/18-analysis-bolger/bolger-goals_per_game_players_hufba7b849e23cb8ebedc8e9dfc533dfed_36030_95f3b4079352b0086cb6a0b89f507da5.webp 400w,
+               /post/18-analysis-bolger/bolger-goals_per_game_players_hufba7b849e23cb8ebedc8e9dfc533dfed_36030_6a4309e154f61134600cb8da3a02e700.webp 760w,
+               /post/18-analysis-bolger/bolger-goals_per_game_players_hufba7b849e23cb8ebedc8e9dfc533dfed_36030_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-bolger/bolger-goals_per_game_players_hufba7b849e23cb8ebedc8e9dfc533dfed_36030_95f3b4079352b0086cb6a0b89f507da5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;365&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;After going through my results, I put together a bar graph showing the number of goals that were scored per game in all of the polo games combined by each of the teams that played, along with players that scored those goals each game. Out of the five teams that played polo in Egypt during this time, the Tourists is the team leading this category, scoring 4 goals per game. The player that had the most goals per game was Captain Stockwell, who averaged 1.5 goals per game. Stockwell plays for the Mosquitoes, who was second in this category with 3.25 goals per game. This gives a visual representation for not only which team scores the most goals per game in all of the polo games, but also which players score those goals each game for their teams and how many goals per game they have.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Lead to a polo article from March 9th, 1906, during the Cairo Polo Tournament&#34; srcset=&#34;
+               /post/18-analysis-bolger/bolger-analysis_image_hu1b644a46e9d2cb24dfa2739f0928cfcc_99238_b4155f2166485944fb12fa089e1521c8.webp 400w,
+               /post/18-analysis-bolger/bolger-analysis_image_hu1b644a46e9d2cb24dfa2739f0928cfcc_99238_b9b8491b586bca474a30c7caf8b6e5ad.webp 760w,
+               /post/18-analysis-bolger/bolger-analysis_image_hu1b644a46e9d2cb24dfa2739f0928cfcc_99238_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-bolger/bolger-analysis_image_hu1b644a46e9d2cb24dfa2739f0928cfcc_99238_b4155f2166485944fb12fa089e1521c8.webp&#34;
+               width=&#34;199&#34;
+               height=&#34;438&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Although statistics are a big part of the research for my analysis project, it is not the only source that I will be using to determine who is the best polo team and player in Egypt. When I read through the articles that consist of polo games, I will see what the writer specifically says about each of the teams and the players and how they performed from his point of view, since he was there to watch all the games go down in 1906. I took down notes of what the writer said about each player and put those together with the statistics to figure out the best teams and players that play polo in Egypt.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Total Goals (Teams)&#34; srcset=&#34;
+               /post/18-analysis-bolger/bolger-total_goals_teams_hu34ca3f9006b6bfd9e8b61f2c0363636c_16630_888997f5ead7af58330a83f4aa4f54f0.webp 400w,
+               /post/18-analysis-bolger/bolger-total_goals_teams_hu34ca3f9006b6bfd9e8b61f2c0363636c_16630_f0675d942fc650d2729d26d00ba5eceb.webp 760w,
+               /post/18-analysis-bolger/bolger-total_goals_teams_hu34ca3f9006b6bfd9e8b61f2c0363636c_16630_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-bolger/bolger-total_goals_teams_hu34ca3f9006b6bfd9e8b61f2c0363636c_16630_888997f5ead7af58330a83f4aa4f54f0.webp&#34;
+               width=&#34;310&#34;
+               height=&#34;273&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Total Goals (Players)&#34; srcset=&#34;
+               /post/18-analysis-bolger/bolger-total_goals_players_hu4c6afca9f18562a2bee9f09c7f9a63f8_31725_0812f206725a07609134033ddf62e441.webp 400w,
+               /post/18-analysis-bolger/bolger-total_goals_players_hu4c6afca9f18562a2bee9f09c7f9a63f8_31725_8d8b4c79baca0004ecdcc4577aa7710c.webp 760w,
+               /post/18-analysis-bolger/bolger-total_goals_players_hu4c6afca9f18562a2bee9f09c7f9a63f8_31725_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-bolger/bolger-total_goals_players_hu4c6afca9f18562a2bee9f09c7f9a63f8_31725_0812f206725a07609134033ddf62e441.webp&#34;
+               width=&#34;310&#34;
+               height=&#34;497&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Another one of my visualizations that I used is that I put together some pie charts with the number of total goals from each of the polo teams, along with their players on that team, and see which of the teams and players scored the majority of the goals in all of the polo games that were played. The Tourists were the team that scored the most goals, with a total of 16 goals, along with Captain Stockwell scoring the most goals from all the players on the polo teams, with a total of six goals. This gives a better representation of who dominates in scoring for all the polo teams and players in Egypt for 1906.&lt;/p&gt;
+&lt;p&gt;The data visualization charts that I used above are different because one shows the goals per game by each player and team, while the other shows the total amount of goals of the same players and teams. I decided to use both of these data charts because for the first one, it shows the players and teams efficiency in each game with the average amount of goals they score, while in the second one, it shows the total goals and who is the best overall scorer on each team and the best scoring polo team in Egypt.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Records of Polo Teams&#34; srcset=&#34;
+               /post/18-analysis-bolger/bolger-records_hu180cd49628550799cf0104e2d5869e57_26427_a3247011d6ee6bb345fddee2f376b5ab.webp 400w,
+               /post/18-analysis-bolger/bolger-records_hu180cd49628550799cf0104e2d5869e57_26427_011e885cc243b020ad536aeb3e381716.webp 760w,
+               /post/18-analysis-bolger/bolger-records_hu180cd49628550799cf0104e2d5869e57_26427_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/18-analysis-bolger/bolger-records_hu180cd49628550799cf0104e2d5869e57_26427_a3247011d6ee6bb345fddee2f376b5ab.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;627&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The next data visualization that it shown is a multi-bar chart for the total amount of wins and losses each of the polo teams have throughout the course of all the polo games that are played. This shows, blatantly, which of the teams that have played are really good or really bad. From this chart, you can also examine, from the teams that have good win-loss records, that most of the good players that play polo are from the teams that have winning overall records in the polo games that they play. The Tourists have one of the best records in Egypt from all the polo games, with four total wins and zero total losses. One of the worst teams in polo is E.A., who have a combined zero wins and four losses.&lt;/p&gt;
+&lt;p&gt;In conclusion, through my xpath query results, along with my data visualizations and analysis research through the many polo game articles, I have found that the best polo team in Egypt is the Tourists and the best polo player in Egypt is Captain Stockwell. The Tourists have not lost a game of polo, with an undefeated record of 4-0, and Captain Stockwell, from the Mosquitoes, leads all polo players in goals scored and is thrived upon by the writers when he plays. Other great players that played polo in Egypt are Mr. Paravicini and Mr. Pickering, who both play for the undefeated Tourists and each scored five total goals from their polo games. Even though there wasn’t as much information for analysis as I thought there would be, the information that I gathered for research was still appealing and the game of polo in Egypt is something that the people who loved sports wanted to read in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Varsity Match of Egypt</title>
+      <link>https://dig-eg-gaz.github.io/post/18-blog-bolger/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/18-blog-bolger/</guid>
+      <description>&lt;p&gt;On Monday, March 5th, 1906, the Egyptian Gazette posted an article about football in their &amp;ldquo;Sport and Play&amp;rdquo; section. An &amp;ldquo;enthusiast&amp;rdquo; sent in the article of the summary of this football game hoping that the Egyptian Gazette would be kind enough as to give this &amp;ldquo;enthusiast&amp;rsquo;s&amp;rdquo; article a corner of the paper.&lt;/p&gt;
+&lt;p&gt;When this article was made in 1906, &lt;a href=&#34;http://www.egyptianplayers.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;football&lt;/a&gt; was one of the the most popular sports in Egypt. Egyptians would use to gather around to watch their various clubs play, including the Egyptian &lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/Fling-Sports/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;national football team&lt;/a&gt;, almost on a daily basis. No matter what level of play it was, football was a big deal wherever it was played in Egypt. There were many other &lt;a href=&#34;http://www.touregypt.net/historicalessays/ancsportsindex.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sports in Egypt&lt;/a&gt;, including polo, which was another popular sport in the Middle East, but football, at the time, stood out amongst all of them.&lt;/p&gt;
+&lt;p&gt;The match that was being played was referred to as the &amp;ldquo;Varsity match of Egypt&amp;rdquo;. It is one of the most important football matches in Egypt played between Khedivieh and Tewfikieh Schools. This was the first inter-school match played between the teams since December 28th, 1905, with Khedivieh beating Tewfikieh School two goals to one. The Khedivial and Tewfikieh Schools were two secondary schools that had a long standing rivalry in football. There were other secondary schools in Upper Egypt, including Girgeh, Ketieh, and Assouan.&lt;/p&gt;
+&lt;p&gt;The Tewfikieh boys won the coin toss, but ten minutes into the game, Mahmoud Ali, left wing for Khedivial, scored for the first point of the game. Then, near the end of the first half, the Khedivial centre forward, Ahmed Aly, who is the brother of the player that scored the first goal, added another point for his team to make the score two goals to love.&lt;/p&gt;
+&lt;p&gt;The whole second half was pretty even, as the Khedivial boys topped their rivals two goals to love. This was the 6th consecutive match that the Khedivial School have ended up as the victors.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

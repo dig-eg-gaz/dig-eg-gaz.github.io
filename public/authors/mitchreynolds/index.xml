@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/mitchreynolds/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/mitchreynolds/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/mitchreynolds/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/mitchreynolds/</link>
+    </image>
+    
+    <item>
+      <title>Home Field Advantage in Football</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-reynolds/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-reynolds/</guid>
+      <description>&lt;p&gt;Every athlete loves to play on their home field, and it’s easy to see why. Being in front of their home fans, being on their most familiar field, and the overall convenience of home field has led to the common belief that the home team is at a measurable advantage. In the Egyptian Gazette, football (soccer) is one of the only sports with a distinct home and away team. For my individual analysis, I decided to explore this home and away data to answer the question: did home field advantage exist for football teams in early 1900’s Egypt, and why/why not?
+In order to find this data, I used the same queries which I used in the group project. One of the queries I used was //head[matches(.,’sport and play’, ‘i’)][matches(.,&amp;rsquo;the plague&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)].  The purpose of these queries was to find every recorded football game possible in the newspaper. For each game I found, I recorded the issue date, home and away team, score, and attendance. Finding which teams were home or away seemed impossible at first, but I quickly realized that all of the recaps had the home team listed first. For example, if the section read “St. Andrew’s F.C. vs E.T.C. Suez,” it meant that St. Andrew’s F.C. was the home team.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-every-winning-football-team-split-by-home-and-away&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;FootballPieChart&#34; srcset=&#34;
+               /post/19-analysis-reynolds/soccer4_hua1819f1260f20ae07dfa4755f8a71703_227226_42edefdde5285fe26d98155736c7d2b8.webp 400w,
+               /post/19-analysis-reynolds/soccer4_hua1819f1260f20ae07dfa4755f8a71703_227226_283e4e0844ba908ec6f0e7d8ed00eff7.webp 760w,
+               /post/19-analysis-reynolds/soccer4_hua1819f1260f20ae07dfa4755f8a71703_227226_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-reynolds/soccer4_hua1819f1260f20ae07dfa4755f8a71703_227226_42edefdde5285fe26d98155736c7d2b8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;369&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Every winning football team split by home and away
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+This double-layered pie chart displays the winning team of every recorded game, separated by home or away. I found that across every game that did not end in a tie, the home team won nearly 75% of the time, or almost 300% more than the away team. Teams like St. Andrew’s F.C., E.T.C. Suez, and the Boulac Railway Institute had the most success at home, as they are the only teams with multiple home wins. St. Andrew’s played in the greatest number of recorded matches, so it is not too unusual to see them with 6 home wins. On the away side of the chart, the Royal Inniskilling Fusiliers are the only to get more than one win on the road. However, this disparity goes beyond simple win/loss statistics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-scores-of-every-football-game&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;FootballVictoryMargin&#34; srcset=&#34;
+               /post/19-analysis-reynolds/soccer1_hu9e3b5747422b6740a372a760a58ef4ad_361925_b7a90c9598c80e203d0b4eb42ec5e3ef.webp 400w,
+               /post/19-analysis-reynolds/soccer1_hu9e3b5747422b6740a372a760a58ef4ad_361925_d6c590bf4fcc5ada60c374fba2029218.webp 760w,
+               /post/19-analysis-reynolds/soccer1_hu9e3b5747422b6740a372a760a58ef4ad_361925_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-reynolds/soccer1_hu9e3b5747422b6740a372a760a58ef4ad_361925_b7a90c9598c80e203d0b4eb42ec5e3ef.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;388&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Scores of every football game
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+This stacked bar chart shows the home and away scores of every recorded game, along with an overlaid line chart of every game’s margin of victory. It is clear that most of the graph lies above the x-axis, on the home side. The reference lines show us that the average score of all away teams was 1.1 goal per game, while the home teams averaged 2 goals, nearly twice as much scoring per game. The most goals and highest victory margin for an away team in a game were accomplished by the Royal Inniskilling Fusiliers when they stomped the King’s Royal Rifles 5-0. Other than this game, there are a few away teams who have won by 2 or 3 goals, but the majority of away wins are by just 1 goal.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So, what exactly is the reason for this seemingly enormous difference in home and away team performance? One reason could be the way that games are scheduled. In recreational sports leagues like this one, most of the time the better or at least more established teams are granted home field, while the worse or less known team must travel. This would mean that the home teams are almost always the better team before the game even starts. This explanation is plausible, but the data does not include any teams with much more home than away games. Another reason could be for the simple fact that players on the home team do not have to travel like the away players do. Depending on how far each game was, travelling to away games is inconvenient and can disrupt a player’s internal schedule or readiness. Home teams obviously do not travel, so they are able to rest, practice, or otherwise prepare during this time. Finally, this data disparity could also be due to the most common explanation for home field advantage: the fans. While this is certainly true for most major sporting events, these games were very recreational and did not have a huge number of spectators. Of the 13 games which recorded attendance, only five had over 2000 people, all of which were very anticipated games between prominent military units.
+Rather than a single factor causing the home and away disparity, I believe that it is due to a combination of everything stated above. It is possible that while most teams played roughly the same number of home and away games, teams still scheduled easy games on their home field. I do not believe that simply traveling to another field could have such a large impact on its own, but it does have a perceivable effect and could easily play a role in this. Although there were relatively low numbers of attendance, over 1000 fans could definitely have an impact on the game’s outcome. However, as previously mentioned these are recreational competitions, meaning there probably are not over 1000 fans who care enough to get loud at most of the games. Overall, I believe that the massive difference in the performance of home and away teams is caused by a combination of home teams intentionally being better, away teams having to travel, and the home fans.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What Brings in the Crowds for Sporting Events?</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-sports/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-sports/</guid>
+      <description>&lt;p&gt;Throughout history, sports have impacted the lives of not only the participants, but also the fans who choose to watch them. As the sports group, we decided to focus our analysis project on the different factors which can affect spectator turnout across the major sports of the Egyptian Gazette. Among residents of early 1900’s Egypt, three of the most popular sports were football (soccer), polo, and horse racing. By looking into the data that we have collected for these sports, we are able to get an idea of what Egyptian sport fans wanted to see. Through our analysis of the Egyptian Gazette data and cross-checking with multiple studies on attendance of various sports, we have concluded that in early 1900’s Egypt, there were three major factors of sports attendance: level of competition/skill of either side, rivalry between the two sides, and importance/stakes of the competition.&lt;/p&gt;
+&lt;p&gt;The question of how to get fans in attendance of sporting events is nothing new; as long as there have been sports, there have been those in charge trying to increase attendance. Especially recently, sporting events provide a large stream of revenue, so factors which influence attendance are important information for those involved in sports. Experts and researchers, such as John Douvis and Peter Bird, have tried finding these factors in many different ways across a wide range of sports. These publications are looking at current factors, of which many do not apply to early 1900’s Egypt, however common themes across generations have held true.&lt;/p&gt;
+&lt;p&gt;In order to collect this data, we ran a series of XPath queries aimed at finding as many games as possible for each sport. We searched for the “sport and play” sections of the newspaper, where sports data and stats are most often found. One problem we came across was that many of the sport and play sections were not tagged with the sport feature type. To combat this, we removed //div[@feature=”sport”] from our queries and replaced it with //head[matches(.,’sport and play’, ‘i’)]. What this did was return to us any div with the header “Sport and Play,” which only included sport and play sections. We utilized this along with searching for sport-specific terms like “chukker” (polo) to collect the full data range that was available to us. We also realized that many sections use qualitative descriptions instead of numbers for attendance data. These sections often used the same terms, such as “fine,” “large,” and “very large,” so we recorded these descriptions anyway.&lt;/p&gt;
+&lt;h2 id=&#34;football&#34;&gt;Football&lt;/h2&gt;
+&lt;p&gt;Football was one of the most popular sports at the time, often played between different military regiments or schools. The military teams, such as the Royal Inniskilling Fusiliers, were split into teams or “companies,” although they did sometimes compete together. This brings us to our first factor of attendance, level of competition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-attendance-of-each-football-game&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Football&#34; srcset=&#34;
+               /post/19-analysis-sports/soccer2_hufc10ea590fb23d0043e850eb1c7c4d9e_139705_85013edb5f8423cd177b3a5b8aeb52c4.webp 400w,
+               /post/19-analysis-sports/soccer2_hufc10ea590fb23d0043e850eb1c7c4d9e_139705_01641b399d7544259f6a1b04d828a571.webp 760w,
+               /post/19-analysis-sports/soccer2_hufc10ea590fb23d0043e850eb1c7c4d9e_139705_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-sports/soccer2_hufc10ea590fb23d0043e850eb1c7c4d9e_139705_85013edb5f8423cd177b3a5b8aeb52c4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;557&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Attendance of each football game
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+When looking at the attendance data for these games, the effect of this factor becomes clear. The matches with high attendance are all between two of the military unit teams at full strength, and not divided into companies. Matches between two of the subdivided units, such as the Royal Inniskilling Fusiliers F. and D. Companies, tended to have much less attendance than the more high-profile competitions. This, of course, is logical because more fans are going to be willing to attend a game if it is between two good teams. The research of Peter J. W. N. Bird on league football attendance also supports this factor. In &lt;a href=&#34;https://www-jstor-org.proxy.lib.fsu.edu/stable/2348449?seq=1#metadata_info_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“The Demand for League Football,”&lt;/a&gt; Bird looks at various teams and determined that whether or not the team was a contender during the season or a contender for the play-offs was a highly significant factor with a strong positive relation to attendance. Continuing with this first factor, the skill level of the away team appears to also play a role.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-football-attendance-vs-margin-of-victory&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Football2&#34; srcset=&#34;
+               /post/19-analysis-sports/soccer3_hu12aa319d7be8c51eb45b3a311f9e7dfc_213964_8cf52ae603ea432e49e743f374898df6.webp 400w,
+               /post/19-analysis-sports/soccer3_hu12aa319d7be8c51eb45b3a311f9e7dfc_213964_84d44735ebb589ebc11b1e64f62fbb3f.webp 760w,
+               /post/19-analysis-sports/soccer3_hu12aa319d7be8c51eb45b3a311f9e7dfc_213964_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-sports/soccer3_hu12aa319d7be8c51eb45b3a311f9e7dfc_213964_8cf52ae603ea432e49e743f374898df6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;495&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Football attendance vs margin of victory
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+The data above shows that there was significantly higher attendance in games where the away team had a bigger the margin of victory (shown by the points below 0). This correlation is strikingly direct, and displays an positive relationship between attendance and away team performance. This suggests a number of things, but we concluded the reason for this trend is that when a good team is in town, fans in the area would be likely to attend the game. Often, teams would have large gaps between games at the same away location, so fans understood that each of these games was the last time they could see the team for a while.  This is supported by Hal Hansen and Roger Gauthier, who in 1989 researched and collected &lt;a href=&#34;http://content.ebscohost.com/ContentServer.asp?T=P&amp;amp;P=AN&amp;amp;K=16462549&amp;amp;S=R&amp;amp;D=s3h&amp;amp;EbscoContent=dGJyMNLr40Sep644wtvhOLCmr1Gep7dSsKa4TbSWxWXS&amp;amp;ContentCustomer=dGJyMPGrsUi2pq5MuePfgeyx43zx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;40 different factors&lt;/a&gt; which impact attendance. Included in these are the record of the visiting team and the number of star athletes on the visiting team. Like it does for the home team, the skill level of the away team makes people more inclined to attend.&lt;/p&gt;
+&lt;h2 id=&#34;polo&#34;&gt;Polo&lt;/h2&gt;
+&lt;p&gt;One of the oldest team sports in history, polo was also very popular in early 1900’s Egypt. Like football, polo was often played by military regiments, but polo also included more organized teams. Because there was more parity between teams, attendance is more uniform across games than football.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-attendance-of-polo-games&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Polo&#34; srcset=&#34;
+               /post/19-analysis-sports/polo_hu996ea4491af36a185359547393064a23_119531_64f8f2545581332da3fd5088929faa5b.webp 400w,
+               /post/19-analysis-sports/polo_hu996ea4491af36a185359547393064a23_119531_a56f825b1c0b5aa95ceb7371381bb411.webp 760w,
+               /post/19-analysis-sports/polo_hu996ea4491af36a185359547393064a23_119531_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-sports/polo_hu996ea4491af36a185359547393064a23_119531_64f8f2545581332da3fd5088929faa5b.webp&#34;
+               width=&#34;696&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Attendance of polo games
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Polo attendance in the Egyptian Gazette was only recorded as “fair,” “large,” or “very large,” so we decided to display these terms numerically 1-3 for our data visualization. Our second attendance factor, rivalry or repeated matchups, applies to our polo data. Teams like the 60th Rifles, the Mosquitos, the Egyptian Army, and the Tourists played each other more often than other teams did, and thus drew significantly bigger audiences for their games. This factor is corroborated by Hansen and Gauthier, who have “Rivalry between competing home team and opponent” as a significant factor. G.V. Wall, a researcher who analyzed attendance of Toronto Blue Jays’ games, also determined that rivalry is an &lt;a href=&#34;http://sparti.uop.gr/~toda/asmrj/Vol1_c.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“especially prominent indicator of attendance.”&lt;/a&gt; As teams play each other more, the competitiveness of the matchup rises, and fans are more interested in the result. Along with this, these teams played more games in general, meaning fans were more familiar with them and more likely to attend a game.&lt;/p&gt;
+&lt;h2 id=&#34;horse-racing&#34;&gt;Horse Racing&lt;/h2&gt;
+&lt;p&gt;The next sport of the Egyptian Gazette that we are analyzing is horse racing. The data we found for horse racing was unique to that of our other sports because of the different stats and measurements that are recorded for it. First of all, these races all had different stakes and payouts for 1st-3rd place. Helouan was very popular venue for these horse races, but most of these races tended to be lower stakes, more recreational competitions. Instead, we are focusing on the derbies or “plates” with higher stakes. Along with the increased competition, spectators were drawn to these races because of the money on the line. Some of these plates had first place prizes upwards of 25,000 Egyptian pounds, which naturally generated more interest from fans.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-stakes-for-each-races-top-3-finishers&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;HorseRacing&#34; srcset=&#34;
+               /post/19-analysis-sports/horse_huec89872b290c475adbf4183700a098ff_113464_400e885d8d7a4ddf0a5b7551394de3ae.webp 400w,
+               /post/19-analysis-sports/horse_huec89872b290c475adbf4183700a098ff_113464_842df50d9e0ce7de1ed8ddf12a738269.webp 760w,
+               /post/19-analysis-sports/horse_huec89872b290c475adbf4183700a098ff_113464_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-sports/horse_huec89872b290c475adbf4183700a098ff_113464_400e885d8d7a4ddf0a5b7551394de3ae.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;411&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Stakes for each race&amp;rsquo;s top 3 finishers
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+We call this factor the importance factor, because spectators are generally more interested in competitions that are more important and have more on the line, whether it be prize money or a championship trophy. This factor is why, for example, NBA Finals games are more watched than regular season competitions. The importance factor stems from a combination of multiple other factors, as many things go into how “important” a competition is. In the case of horse racing in the Egyptian Gazette, this importance comes from the large sums of money available to the winners. Unsurprisingly, the plates highest in prize amounts are the plates which were most popular and anticipated. The Sahara Stakes is especially significant, boasting a 33,000 first place prize, and a second-place prize double that of any other race we found. These plates are among the most popular of any sporting event in the Egyptian Gazette because of their high stakes and intensity. The importance factor is also seen in the sport of billiards. Despite its popularity, the data found for billiards in the newspaper is rather sparse. However, we can see that the attendance in the match referred to as the “final match” was described as “smoking” and “a concert,” as opposed to others which just state that attendance was “few.” Overall, the factor of importance describes how much the average fan cares about the result of the competition.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Across any sport, there are common factors which influence spectator turnout. The level of competition, or the skills of either team, is our first attendance factor. Fans would rather watch competition between two good teams than two poor ones, so games with better participants competing will draw more of a crowd. Specifically, in the case of football, the skill of the away team also impacts attendance, as more fans will go to a game if the visiting team is especially good. Rivalries are also a significant factor in attendance, because as two teams continue to play each other, the intensity and emotions of the matchup increase with each game. Finally, fans have more interest in important games with higher stakes and more on the line. When the competition has a large prize, like in horse racing, or is a championship, like in billiards, people have more interest in the outcome of the game and are more likely to choose to attend.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

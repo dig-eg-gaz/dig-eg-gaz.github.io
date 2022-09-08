@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>encoding | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/tag/encoding/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/tag/encoding/index.xml" rel="self" type="application/rss+xml" />
+    <description>encoding</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
+      <title>encoding</title>
+      <link>https://dig-eg-gaz.github.io/tag/encoding/</link>
+    </image>
+    
+    <item>
+      <title>Egyptian Gazette Structural Issues</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-27-esteve-egyptiangazettestructuralissues/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-27-esteve-egyptiangazettestructuralissues/</guid>
+      <description>&lt;p&gt;During my week of the Egyptian Gazette, I have several page sevens that are unlike the other pages. These pages focus on travel and mostly have hotel advertisements. However, they also contain commentary about the best way to travel to different places and the differences in climate between the two. This commentary is split between all six columns of the newspaper. There are some advertisements (see below) that are similar in that they take up two columns. However, I have no idea how to encode these page sevens in order to reflect the structure of the newspaper. Up till now, I have just grouped the commentary in one div. If I encoded the page sevens by columns, I would get six random groups of text. Obviously, this would cause a great deal of confusion unless there was a way to connect the text in each column together. A tag that connects the text together might work, but this issue is definitely one worth exploring as we move forward.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/1905-12-11-p8-Structure.png?raw=true&#34; alt=&#34;advertisements&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Time Issues</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-07-hofmeister-time-issues/</link>
+      <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-07-hofmeister-time-issues/</guid>
+      <description>&lt;p&gt;To be honest, this class is not what I expected it to be. I did not expect
+to be learning how to code things or doing xml or anything that involved
+technical skills. While learning the skills is not difficult, it is
+difficult to find the time it takes to complete the assignments.
+I try to set aside time to complete pages and to edit the text,
+however I can never find enough time. For me, this is a huge issue
+because I am super obsessive about my grades and I am actually
+concerned about not receiving a good grade in this class. I do not face
+any technical issues, just time issues. Thus far I have completed the first
+three pages of everyday , the only issue in the pages that I find is not
+being able to read the data for financial tables. The data is always written
+very small and it tends to be smudged and &lt;strong&gt;I hate it and it gives me a headache.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technical Difficulties in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</link>
+      <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</guid>
+      <description>&lt;p&gt;When I first produced my image scans using the library&amp;rsquo;s microfilm
+of the Egyptian Gazette, I thought that by feeding the material into
+the OCR software, my computer would automatically spit back the
+entire transcription completed error-free. At first I attempted to use
+FineReader on my roommate&amp;rsquo;s laptop, hoping it would yield results, but
+when her computer began to lag and I realized how time consuming the
+process would be, I switched to using my Mac.&lt;/p&gt;
+&lt;p&gt;When the class discovered Cisdem PDF Converter for Mac, I quickly
+realized that while some pages contained minimal errors, others required
+extensive corrections to yield an accurate reading of the text.
+The pages, most of which were rife with errors, took around 2 and a half
+hours each to fully type and XML, and even then many advertisements and
+charts are still not completed.&lt;/p&gt;
+&lt;p&gt;After I had completed the vast majority of the transcription, I learned
+that by scanning in a higher resolution and stitching multiple images
+together, I probably could have produced the paper and a much faster rate.&lt;/p&gt;
+&lt;p&gt;Nevertheless, I&amp;rsquo;m continuing to work on completing certain advertisements
+and charts, as well as TEI-tagging people and places.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

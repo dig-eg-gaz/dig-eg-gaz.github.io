@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/baileeku/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/baileeku/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digital Egyptian Gazette</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/baileeku/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Digital Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/authors/baileeku/</link>
+    </image>
+    
+    <item>
+      <title>Egypt’s Cotton Exports in the Early 1900s</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-ku/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-ku/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-close-up-photo-of-cotton&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cotton&#34; srcset=&#34;
+               /post/19-analysis-ku/cotton_huca465acd5b88d9852e269324951b6efe_2710126_01d86e685925f297a8d2f9be42eba87b.webp 400w,
+               /post/19-analysis-ku/cotton_huca465acd5b88d9852e269324951b6efe_2710126_1d80583e5309781351048828e200cbde.webp 760w,
+               /post/19-analysis-ku/cotton_huca465acd5b88d9852e269324951b6efe_2710126_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-ku/cotton_huca465acd5b88d9852e269324951b6efe_2710126_01d86e685925f297a8d2f9be42eba87b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      close-up photo of cotton
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;historical-background&#34;&gt;Historical Background&lt;/h2&gt;
+&lt;p&gt;Cotton played a vital role in Egyptian economy in the 19th and 20th centuries. The Ottoman governor Mehmed ‘Ali Pasha instituted corvée, in which peasant workers were conscripted into the cotton fields and other government projects such as building the Suez Canal. Throughout his reign, ‘Ali held tight control over Egypt’s economy and trade. The profits of exports were used to fund ‘Ali’s many military campaigns. However, Ali’s successors wanted to open Egypt up to European investors. By the time of Khedive Isma&amp;rsquo;il, Egypt was borrowing heavily from French and British banks on the supposition that cotton harvests would pay them back. In the 1860s, the vacuum left by the American Civil War did cause cotton prices to rise and Egypt’s cotton market to prosper. However, the influx of cotton after the Civil War caused a series of events that culminated in Egypt going bankrupt in 1876. As the economy spiraled, Egyptian citizens grew restless. General Ahmad ‘Urabi Pasha spearheaded a revolt with the support of Egypt’s citizens. In 1882, Britain took control of Egypt and ended the revolt in order to protect her investment, all under the guise of promoting &lt;a href=&#34;https://www.e-ir.info/2009/03/23/the-british-invasion-of-egypt-1882/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“honesty, humanity and justice.”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Under consul-general Lord Evelyn Baring Cromer, cotton yields in Egypt increased rapidly through the end of the 19th century, aided by restructuring of irrigation, taxes, and land-ownership. This productivity encouraged investors from various countries to participate in a web of over-speculation that eventually burst in March of 1907. The following economic crisis was fueled by declining cotton yields, caused by the cotton worm, weakened seeds, and worsening soil quality. Irrigation policies developed by British engineers had actually flooded and brined the soil. The failures of certain British policies revitalized nationalist movements against outside interference and may have led to Cromer’s resignation in 1907. However, Egypt did not gain independence until after the events of &lt;a href=&#34;https://www.nonviolent-conflict.org/egyptian-independence-1919-22/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;World War I&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;choosing-a-data-source&#34;&gt;Choosing a Data Source&lt;/h2&gt;
+&lt;p&gt;During the informal British occupation of Egypt, cotton exports were used to determine the state of the economy and whether new policies should be kept. Therefore, I decided to examine the table &lt;strong&gt;cotn01&lt;/strong&gt; from &lt;em&gt;The Egyptian Gazette&lt;/em&gt;. This table details cotton exports to various countries and total monthly exports in balles (French for bales). As determined in the post &lt;a href=&#34;https://dig-eg-gaz.github.io/post/17-analysis-fricano/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Cotton Trade&lt;/em&gt;&lt;/a&gt; written by Nino Fricano, a bale of cotton at this time was approximately 20% smaller than the standard modern bale.&lt;/p&gt;
+&lt;p&gt;I ran the following XPath query to obtain the total monthly cotton export value from every &lt;strong&gt;cotn01&lt;/strong&gt; table currently within &lt;em&gt;The Digital Egyptian Gazette’s&lt;/em&gt; content repository:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;//div[@xml:id=&amp;ldquo;deg-el-cotn01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;balles&amp;rsquo;)]/following-sibling::cell&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Isolating only the dates and values in Atom and importing them into Tableau, I was able to create the following line graph of cotton export trends from 1905 to 1907.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-line-graph-showing-original-unedited-cotton-export-values-by-month&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Original Unedited Cotton Exports&#34; srcset=&#34;
+               /post/19-analysis-ku/Original-Unedited-Cotton-Exports_hu9bed1b88025aaabd0d564040c22f1a50_48113_9ffd93be8da05d9c2b9d8287e726a67a.webp 400w,
+               /post/19-analysis-ku/Original-Unedited-Cotton-Exports_hu9bed1b88025aaabd0d564040c22f1a50_48113_137520a43cacb8a1aeb992a0059c38be.webp 760w,
+               /post/19-analysis-ku/Original-Unedited-Cotton-Exports_hu9bed1b88025aaabd0d564040c22f1a50_48113_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-ku/Original-Unedited-Cotton-Exports_hu9bed1b88025aaabd0d564040c22f1a50_48113_9ffd93be8da05d9c2b9d8287e726a67a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;478&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Line graph showing original, unedited cotton export values by month
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Looking at the uncorrected data, the value &lt;em&gt;&lt;strong&gt;53,232&lt;/strong&gt;&lt;/em&gt; is quite prevalent. This identical value given for months in succession creates the horizontal portions of the graph above. Such an aberration within the raw data makes sense, as 53,232 is the number inputted within the original template. Any edition of &lt;em&gt;The Egyptian Gazette&lt;/em&gt; in which the &lt;strong&gt;cotn01&lt;/strong&gt; table was simply copied and not corrected would retain that value. It is clear that the raw data does not provide an accurate enough perspective.&lt;/p&gt;
+&lt;h3 id=&#34;correcting-the-tables&#34;&gt;Correcting the Tables&lt;/h3&gt;
+&lt;p&gt;Fortunately, since the &lt;strong&gt;cotn01&lt;/strong&gt; table is a monthly recitation of exports, it should logically only change every four weeks. In order to narrow my search results, I decided to select the first date and &lt;strong&gt;cotn01&lt;/strong&gt; table from every month. Therefore, the pool of data to be proofed ended up only being 27 separate tables. Of these 27 tables, 10 of them contained the stock value while 2 others contained the same value as the previous month. Thankfully, this much more manageable number would still result in a complete data set.&lt;/p&gt;
+&lt;h3 id=&#34;complications&#34;&gt;Complications&lt;/h3&gt;
+&lt;p&gt;The first complication that I encountered while correcting my sample of tables was unexpected. As it turns out, various encoders have made the same mistake of dropping in the &lt;strong&gt;cotn01&lt;/strong&gt; table when the actual microfilm used another table, &lt;strong&gt;ctns01&lt;/strong&gt;. The &lt;strong&gt;ctns01&lt;/strong&gt; table shows stock prices for cotton shares rather than export values. In certain months, I was unable to find any &lt;strong&gt;cotn01&lt;/strong&gt; tables. I am unsure why this is, since this table should appear at least once per month.&lt;/p&gt;
+&lt;p&gt;While checking the 2 repeated tables, I found that the table printed on January 2, 1906 is exactly the same as the one printed in December of 1905. This shows that the table does not change at the beginning of a new month, but rather somewhere in the middle. In January 1906, this change happened on the 11th. However, as the &lt;strong&gt;cotn01&lt;/strong&gt; table does not appear every single day, it is difficult to ascertain if there is a set day where the table changes each month or if it is random.&lt;/p&gt;
+&lt;h2 id=&#34;interpreting-the-data&#34;&gt;Interpreting the Data&lt;/h2&gt;
+&lt;p&gt;After I proofed and corrected those 12 tables, I ran the same query and used only the values from the first table listed each month to create the following visualization.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-line-graph-showing-corrected-data-of-cotton-export-values-by-month&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Corrected Cotton Exports&#34; srcset=&#34;
+               /post/19-analysis-ku/Corrected-Cotton-Exports_hu32791247bdfda002be7b251280665c3b_50428_2b37815b94ede83669ed3ea45561c042.webp 400w,
+               /post/19-analysis-ku/Corrected-Cotton-Exports_hu32791247bdfda002be7b251280665c3b_50428_f657825a9012d15c583014c2ff784ed7.webp 760w,
+               /post/19-analysis-ku/Corrected-Cotton-Exports_hu32791247bdfda002be7b251280665c3b_50428_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-ku/Corrected-Cotton-Exports_hu32791247bdfda002be7b251280665c3b_50428_2b37815b94ede83669ed3ea45561c042.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;477&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Line graph showing corrected data of cotton export values by month
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The graph shows a yearly trend where exports spike in December and reach their lowest points around June or July. In the fall, there is another small spike and fall. The steady climb in exports from fall to December can be explained by &lt;a href=&#34;https://naldc.nal.usda.gov/download/CAT86200445/PDF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cotton maturation cycles&lt;/a&gt;. In both Upper and Lower Egypt, fall is the season for cotton harvesting. The &lt;strong&gt;cotn01&lt;/strong&gt; table for any given month supplies cotton export numbers for the month previous. So, since November marks the end of the cotton harvest, a sharp decrease in exports is expected in January. (December would display sales for November, and January would show counts for December.) In a post entitled &lt;a href=&#34;https://dig-eg-gaz.github.io/post/16-analysis-grieco/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Fluctuation in Egyptian Cotton Exports Throughout the Year&lt;/em&gt;&lt;/a&gt;, Dante Grieco speculates that “a domestic policy in England” may also contribute to yearly cotton export trends, given the overwhelming presence of Britain in export numbers.&lt;/p&gt;
+&lt;h3 id=&#34;lord-cromers-reports&#34;&gt;Lord Cromer’s Reports&lt;/h3&gt;
+&lt;p&gt;According to &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/anti.12216&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;certain secondary sources&lt;/a&gt;, the cotton worm was said to have devastated the cotton crop in the late 1800s and early 1900s. However, the data given in &lt;em&gt;The Egyptian Gazette&lt;/em&gt; produces a very stable-looking trend line, factoring in seasonal changes, from the end of 1904 to the middle of 1907. To reconcile this apparently disparate information, I turned to Lord Evelyn Baring Cromer’s yearly &lt;em&gt;“Reports…on the Finances, Administration, and Condition of Egypt and the Soudan.”&lt;/em&gt; Lord Cromer’s annual report in 1905 (detailing events from 1904) mentions the cotton worm and suggests new policies to combat its effects. Unfortunately, the repository of &lt;em&gt;The Digital Egyptian Gazette&lt;/em&gt; does not include enough information from 1904 to provide context of cotton exports prior to 1905. (Meaning, it is difficult to visualize how the trendline would have differed.) Lord Cromer’s report from 1907 (detailing the events of 1906) is quite optimistic. In 1905, the return of corvée, which had previously been vanquished by the touted benevolence of British supervision, brought young boys en masse to the cotton fields to handpick infested leaves. State-mandated labor, combined with excellent weather and rainfall, strengthened the cotton crops in 1906. Although less land was dedicated to cotton-growing than in previous years, Lord Cromer was confident that the yield would be significantly larger. This fact is reflected in the graph above, in which peak monthly cotton exports in 1906 exceeded those of the same season in 1905 by nearly 40,000 bales. While a larger raw data source would be useful in visualizing the tumultuous period in Egypt before and during World War I, existing data paints a picture which compliments both primary and secondary sources.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Economic History of Stocks and Shares</title>
+      <link>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</guid>
+      <description>&lt;h2 id=&#34;identifying-data-sets-bailee&#34;&gt;Identifying Data Sets: Bailee&lt;/h2&gt;
+&lt;p&gt;Our group was primarily focused on the section of the Egyptian Gazette called Stocks and Shares, a table listing various companies and the prices of their respective shares. The companies are divided into various sections such as “banks,” “land,” “commercial/industrial,” “navigation &amp;amp; water works,” and “railways and tramways.” To select specific companies to analyze within each industry, I looked for one or two companies whose shares were listed in pounds (for ease of comparison- though it would be possible to convert from one type of currency to another, it was simpler this way), then picked the companies with the highest share prices. Choosing one or two companies with the highest share prices seemed like one possible way to find companies who were dominating those industries and could therefore provide an accurate assessment of Alexandria’s economy during a specific time period. The following eight companies were selected from those criteria: Imperial Ottoman Bank, National Bank of Egypt, New Daira Sanieh Fond., Alexandria Bonded Stores Pref., pref. Cairo Sewage Transport Ord., Alex. Water Company, Cairo-Helouan, and Keneh-Assouan. (For clarity, these names were lifted directly from the tables in question.)&lt;/p&gt;
+&lt;h2 id=&#34;introducing-the-datasource-alvin&#34;&gt;Introducing the Datasource: Alvin&lt;/h2&gt;
+&lt;p&gt;With the selection of the eight companies above, we found that those companies can be distinguished into two categories.&lt;/p&gt;
+&lt;p&gt;One of them is finance, which includes Imperial Ottoman Bank, National Bank of Egypt, New Daira Sanieh Found, Alexandria Bounded Stores Pref, and Keneh-Assouan (Assurance). It is apparent that bank, insurance, and estate companies are likely to have more influence on the stock market, so we choose to observe them from a micro-scale, and then link them to the macroeconomics of Egypt. For instance, &lt;a href=&#34;http://psi424.cankaya.edu.tr/uploads/files/Pamuk,%20Evolution%20of%20Financial%20Institutions,%201600-1914%20%282004%29.PDF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ottoman Bank&lt;/a&gt; helped foreign interest groups to have their investments in Egypt. Its shares consisted of thousands of English Group and French Group. It also functioned as a loan provider by issuing loans to the government of Egypt.&lt;/p&gt;
+&lt;p&gt;It makes sense that the investors and businessmen in Egypt needed to borrow loans to develop and establish their industries to the emerging economics boom at the start of the 1900s. In return, the consumers and investors built up their credits and deposited their revenues to the bank, which allows the bank to have more power to promote regional development. As the economy boomed, the values of land prices increased. &lt;a href=&#34;http://www.egy.com/historica/97-07-00.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daira Sanieh&lt;/a&gt;  was a sugar company, and it also held many lands in North Egypt. During the booming, its lands were brought by several foreign investors. It used to have about 4 million Para (Ottoman Turkish currency) debt. After the sale of lands, its debt was paid off. On the sides of that, insurance companies had roles in decreasing the risk of the investors in the financial system and preventing the cost when companies have defaulted or failed to obligate the promise of paying back loans. Meanwhile, insurance companies hold &lt;a href=&#34;https://www.researchgate.net/publication/272305139_Egyptian_Insurance_Market_History_and_Structure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;large shares&lt;/a&gt; from other companies.&lt;/p&gt;
+&lt;p&gt;The second category is the infrastructure. In this project, we include Cairo Sewage Transport., Alexandria Water Company, and Cairo Helouan. In two decades, from 1880 to 1900, the population of Egypt had an &lt;a href=&#34;https://archive.org/stream/encyclopaediabri01chisrich#page/568/mode/2up&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exponential growth&lt;/a&gt;. The population in Alexandria grew half the amount of what it had in 1882. In 1907, it had 332,246 in Cairo. With the growth of population, more water installments and more transportation were needed to support the cities’ operation. The water was primarily relied on Suez and Niles. In major cities like Cairo and Alexandria, they had many railroads and tram companies serving for passengers and freight.&lt;/p&gt;
+&lt;h2 id=&#34;process-of-obtaining-preliminary-values-pre-correction-bailee&#34;&gt;Process of Obtaining Preliminary Values Pre-Correction: Bailee&lt;/h2&gt;
+&lt;p&gt;In order to collect values from these companies, I ran the following XPath query:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;//div[@xml:id=”deg-el-stsh01”]/table//cell[contains(.,’Imperial Ottoman Bank’)]/preceding-sibling::cell/measure&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This particular query would deliver the share price (in pounds) for the Imperial Ottoman Bank in each properly labeled Stocks and Shares table within the content repository. (For reference, I updated my version of the content repository on November 13, 2019 at approximately 11 am.) I then took the search results and used Atom to isolate only the dates and share prices, then pasted them as separate columns in an Excel document.
+To obtain values from the other companies, I simply replaced the blue text with another company’s name and followed the same process. In this way, the XPath query for, say, Cairo Sewage Transport Ord. would be:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;//div[@xml:id=&amp;ldquo;deg-el-stsh01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;pref. Cairo Sewage Transport Ord.&amp;rsquo;)]/preceding-sibling::cell/measure&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Running the query &lt;strong&gt;//div[@xml:id=”deg-el-stsh01”]&lt;/strong&gt; showed 175 ocurrences of the Stocks and Shares table within the content repository. However, we had to determine whether the data shown was correct or if it was simply the templated information. So, we decided to restrict to a smaller sample size of data that we could plausibly correct.&lt;/p&gt;
+&lt;p&gt;The period of time that we chose was the year 1905, as the XPath query I ran seemed to show that editions from 1905 had the most complete data sets (perhaps because IDS classes are working on this newspaper in chronological order). Of all the companies listed, Alexandria Bonded Stores Pref., a commercial/industrial company, had the most results in 1905 (94 results). However, 94 tables would be too many for us to check (plausibly). So, we decided to use data only from Wednesdays as a sample. In order to isolate data from Wednesday editions, I imported values corresponding to Alexandria Bonded Stores Pref. in 1905 to Tableau. I set “weekdays” of dates as columns and “count” of the values to find how many of the values came from which day of the week. The largest number of values for Alexandria Bonded Stores Pref. (18 values) were present in Wednesday editions. Tableau confuses me still, so I just used a calendar from 1905 to find out which dates were Wednesdays after figuring out that Wednesdays held the largest data pool. After further research, we found that Wednesday’s stocks and shares data would experience the &lt;a href=&#34;https://finance.zacks.com/day-week-volatile-stock-market-3009.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;least volatility&lt;/a&gt; given its placement exactly between market open and market close in the available trading days throughout any given week.&lt;/p&gt;
+&lt;h2 id=&#34;a-short-aside-on-correction-austin&#34;&gt;A Short Aside on Correction: Austin&lt;/h2&gt;
+&lt;p&gt;The dates that I was supposed to research based on our query were the following: &lt;strong&gt;3/8/1905&lt;/strong&gt;, &lt;strong&gt;3/15&lt;/strong&gt;, and &lt;strong&gt;3/22&lt;/strong&gt;. The first thing to note was that the query was pretty accurate, albeit it still had some problems. Problems not on our end, but flawed issues based on the fact that our repository that we were basing our working sets on were made by other students/people. For the 3/15 chart, I had to figure out why the xml work was showing it was on page six but the image didn’t include it. I had to look through the other pages and found out that it didn’t exist for the date. For the 3/22 table, it was correct but just on a different page than where it was on the source file.&lt;/p&gt;
+&lt;h2 id=&#34;the-visualization-process-jimmy&#34;&gt;The Visualization Process: Jimmy&lt;/h2&gt;
+&lt;p&gt;Using the excel document Bailee made, I opened a Tableau document and imported the data. I first had to include filters because a lot of the data was from the template. The data still may have not been accurate, so as a group we decided to use a sample and manually change the data. Because of the small data sample, the graphs of the stocks look more rigid and a lot don’t move over the course of the year. However, there are interesting jumps here and there in the data. Also, I decided to use the excel visualization platform for the final graphs because it is more intuitive for me. These visualizations include companies in different industries, such as banks, land, commercial industrial, navigation and waterworks, and railways. The National Bank of Egypt seems to have the most dynamic movement, while the Imperial Ottoman Bank hardly moves at all. There seems to be a jump in the prices of bank stocks in January of 1906. However, at the same time the Daira Sanieh stock seems to drop and so does the Alexandria Water company. Whether or not it is in any way correlated remains unanswered.&lt;/p&gt;
+&lt;h3 id=&#34;banks&#34;&gt;Banks:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imperial-Ottoman-Bank&#34; srcset=&#34;
+               /post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_c61f88d87601f8b8dd69da04cfa38b65.webp 400w,
+               /post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_b45cd69d1afeef45ca755521ce3cd749.webp 760w,
+               /post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_c61f88d87601f8b8dd69da04cfa38b65.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;National-Bank-of-Egypt&#34; srcset=&#34;
+               /post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_e213decc85b187c4ae53136b5741b071.webp 400w,
+               /post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_ceb2416964f49c26f732df5458ccbbb1.webp 760w,
+               /post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_e213decc85b187c4ae53136b5741b071.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;land&#34;&gt;Land:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;New-Daira-Sanieh-Fond.&#34; srcset=&#34;
+               /post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_6c552ea4e708b58bdf3effae63b9f696.webp 400w,
+               /post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_c5d773f7b6716e5168f0daa557d027c3.webp 760w,
+               /post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_6c552ea4e708b58bdf3effae63b9f696.webp&#34;
+               width=&#34;480&#34;
+               height=&#34;288&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;commercialindustrial&#34;&gt;Commercial/Industrial:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alexandria-Bonded-Stores-Pref.&#34; srcset=&#34;
+               /post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_7f5dfb7739bc56c5d57fc8c60372bbcc.webp 400w,
+               /post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_0e7d8f84185410e8a18fc2c7d4a6ba40.webp 760w,
+               /post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_7f5dfb7739bc56c5d57fc8c60372bbcc.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;pref.-Cairo-Sewage-Transport-Ord.&#34; srcset=&#34;
+               /post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_397e746fe257d2ce163cc206c496fb10.webp 400w,
+               /post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_6b803834768625b9eae428625d770ad5.webp 760w,
+               /post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_397e746fe257d2ce163cc206c496fb10.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;288&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;navigation--waterworks&#34;&gt;Navigation &amp;amp; Waterworks:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alex.-Water-Company&#34; srcset=&#34;
+               /post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_df817055a49dd031f5d9e5cdbb5141f7.webp 400w,
+               /post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_c2e6f03d46ca7cc6b860a4742a9a6bfa.webp 760w,
+               /post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_df817055a49dd031f5d9e5cdbb5141f7.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;railways-and-tramways&#34;&gt;Railways and Tramways:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cairo-Helouan&#34; srcset=&#34;
+               /post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_678dad59df777f977b8c3237fe2e0eb6.webp 400w,
+               /post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_841d9cce519fe66db2e6acec3c4a6407.webp 760w,
+               /post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_678dad59df777f977b8c3237fe2e0eb6.webp&#34;
+               width=&#34;480&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-graphs&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Keneh-Assouan&#34; srcset=&#34;
+               /post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_90b96bd2161b62411cfe4dd1bc84046a.webp 400w,
+               /post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_ab74dd02df55afb9bc239149cf35b30b.webp 760w,
+               /post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_90b96bd2161b62411cfe4dd1bc84046a.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;289&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      graphs
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;conclusion-austin&#34;&gt;Conclusion: Austin&lt;/h2&gt;
+&lt;p&gt;Because the dates are such a small sample size, the difference in share prices were minuscule so I decided to focus more solely on a very important stock at the time and even now for the country of Egypt. During the early 1900’s, Egypt was going through an economic crisis and were in the middle of rebuilding their economy as the British had taken over after the war in 1882. The British made it their goal to pool resources into Egypts economy and this is why the National Bank of Egypt, the oldest and biggest bank in Egypt was able to recover and even have steady stock growth all throughout 1905 and into 1906. Another thing to note is that the tables show debentures and the National Bank of Egypt did not issue any throughout 1905 and this can indicate that the bank was a secure investment and backed by reliable assets.&lt;/p&gt;
+&lt;p&gt;The final point of this project was to see how the financial markets were doing and using this as an evaluation of how the economy in Egypt was during the time period of 1905. The main reason we as a group were trying to find the answer to this question is because Egypt was suffering from a declining economy and after the war of 1882, where the British took over, they made rebuilding Egypt’s economy a priority. The latter reason is that Egypt went through a major recession in the year of 1907 and on, and we wanted to see how stabilized the markets were prior. As we can see from our charts, many of the top performing stocks were either on a clear uptrend or were stabilized around a certain price, indicating that Egypt’s economy was quite strong during 1905.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Review of a Review of a Review of a Book</title>
+      <link>https://dig-eg-gaz.github.io/post/2019-10-18-baileeku/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2019-10-18-baileeku/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-article-image&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;photo of the article&#34; srcset=&#34;
+               /post/2019-10-18-baileeku/article_image_hu3ee890b560d8a3982eafe46dab3b9f62_233604_2c580c02f27fe70ac9e91ba2e2bce2a8.webp 400w,
+               /post/2019-10-18-baileeku/article_image_hu3ee890b560d8a3982eafe46dab3b9f62_233604_4d8d5114ef8a6fe442503a837daf9acd.webp 760w,
+               /post/2019-10-18-baileeku/article_image_hu3ee890b560d8a3982eafe46dab3b9f62_233604_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2019-10-18-baileeku/article_image_hu3ee890b560d8a3982eafe46dab3b9f62_233604_2c580c02f27fe70ac9e91ba2e2bce2a8.webp&#34;
+               width=&#34;322&#34;
+               height=&#34;555&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      article image
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Secret History of the English Occupation of Egypt: Being a Personal Narrative of Events&lt;/em&gt;, written by &lt;a href=&#34;https://mypoeticside.com/poets/wilfrid-scawen-blunt-poems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wilfrid Scawen Blunt&lt;/a&gt;, was given an uninspiring review in the Egyptian Gazette. This short piece, found on the third page of June 4, 1907, was comically scathing in its evaluation. Whoever wrote the review said that the publication “appears to contain nothing startling”  and “is as feeble as Mr. Blunt’s last notorious pamphlet.” Given Blunt’s usual mix of erotic poetry and political statements, I wonder which apparently uninspiring work is being referenced here. The reviewer condemns the focus on “accounts of Mr. Blunt’s own interventions,” an odd criticism given the book’s clear self-identification as a “Personal Narrative,&amp;quot; as well as his numerous mentions of &lt;a href=&#34;https://www.britannica.com/biography/William-Ewart-Gladstone/First-administration-1868-74&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prime Minister Gladstone&amp;rsquo;s&lt;/a&gt; opinions. Gladstone&amp;rsquo;s name is indeed referenced 109 times within the book. However, seeing as Gladstone had an immense amount of influence over British politics in the late 19th century, his inclusion in Blunt&amp;rsquo;s narrative seems fitting. As no information about the author is provided for the review, there is little way of deciding whether the reviewer’s disdain of Blunt is due to literary or political reasons.&lt;/p&gt;
+&lt;p&gt;Wilfrid Blunt held &lt;a href=&#34;https://www.theguardian.com/books/booksblog/2019/jul/29/poem-of-the-week-prison-sonnets-by-wilfrid-scawen-blunt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;such contentious opinions&lt;/a&gt; as supporting Celtic and African freedom from the British empire. As the Egyptian Gazette was highly supportive of British imperialistic efforts (it was, after all, written for Englishmen and Frenchmen residing in Egypt), it makes sense that the writers would disapprove of Blunt. Blunt had a long and tumultuous history with Lord Cromer, consul general of Egypt and darling of the Egyptian Gazette. Blunt was Cromer’s political enemy. In a time when few British individuals opposed colonialism, Blunt encouraged opposition to the British agenda. Oddly enough, despite their political differences, Blunt and Cromer seemed to be &lt;a href=&#34;https://bewley.virtualave.net/blunt.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;friends of a sort&lt;/a&gt;. Cromer even accompanied Blunt&amp;rsquo;s daughter Judith at her wedding in Blunt&amp;rsquo;s place.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-wilfrid-scawen-blunt&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;photo of Wilfrid Scawen Blunt&#34; srcset=&#34;
+               /post/2019-10-18-baileeku/wilfrid_scawen_blunt_huf90c73d3789f910059dc30961d23e01c_275597_a748b235c30650bcffeca8ea94d38f71.webp 400w,
+               /post/2019-10-18-baileeku/wilfrid_scawen_blunt_huf90c73d3789f910059dc30961d23e01c_275597_799e4e80dd35c06b444511d9d4a3c4c2.webp 760w,
+               /post/2019-10-18-baileeku/wilfrid_scawen_blunt_huf90c73d3789f910059dc30961d23e01c_275597_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2019-10-18-baileeku/wilfrid_scawen_blunt_huf90c73d3789f910059dc30961d23e01c_275597_a748b235c30650bcffeca8ea94d38f71.webp&#34;
+               width=&#34;526&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Wilfrid Scawen Blunt
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I question whether the reviewer actually read the book, as he relies heavily on another newspaper’s thoughts. This is what caught my attention the most. It is a review based on another review of a book. It begins with the words “The ‘Daily Chronicle’ publishes an advance review of Mr. Wilfred Blunt’s book…” and ends with “From the review in question I would consider…” I suspect that any attempts to unravel this mystery would have to begin by examining the political leanings of the &lt;em&gt;Daily Chronicle&lt;/em&gt; and &lt;a href=&#34;https://www.questia.com/read/4898002/secret-history-of-the-english-occupation-of-egypt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the work itself&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

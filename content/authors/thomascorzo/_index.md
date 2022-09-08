@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Thomas Corzo
+title: Thomas Corzo
 
 authors:
 - thomascorzo

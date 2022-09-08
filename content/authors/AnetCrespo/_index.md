@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Anet Crespo
+title: Anet Crespo
 
 authors:
 - AnetCrespo

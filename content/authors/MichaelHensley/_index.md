@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Michael Hensley
+title: Michael Hensley
 
 authors:
 - michaelhensley

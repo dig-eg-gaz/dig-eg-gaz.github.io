@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Handy A. Pierre
+title: Handy A. Pierre
 
 authors:
 - handyapierre

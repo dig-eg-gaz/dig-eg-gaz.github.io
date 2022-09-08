@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Matthew Cooper
+title: Matthew Cooper
 
 authors:
 - MatthewCooper

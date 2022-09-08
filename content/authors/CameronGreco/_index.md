@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Cameron Greco
+title: Cameron Greco
 
 authors:
 - camerongreco

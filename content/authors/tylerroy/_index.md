@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Tyler Roy
+title: Tyler Roy
 
 authors:
 - tylerroy

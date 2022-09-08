@@ -1,6 +1,6 @@
 ---
 # Display name
-name: John White
+title: John White
 
 authors:
 - JohnWhite

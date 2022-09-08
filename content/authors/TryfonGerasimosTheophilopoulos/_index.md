@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Tryfon Gerasimos Theophilopoulos
+title: Tryfon Gerasimos Theophilopoulos
 
 authors:
 - TryfonGerasimosTheophilopoulos

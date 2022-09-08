@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Gwen Lofman
+title: Gwen Lofman
 
 authors:
 - GwenLofman

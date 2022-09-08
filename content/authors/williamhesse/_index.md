@@ -1,6 +1,6 @@
 ---
 # Display name
-name: William Hesse
+title: William Hesse
 
 authors:
 - WilliamHesse

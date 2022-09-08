@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alexis Fitzpatrick
+title: Alexis Fitzpatrick
 
 authors:
 - alexisfitzpatrick

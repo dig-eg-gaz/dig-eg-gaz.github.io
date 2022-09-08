@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kevin Hernandez
+title: Kevin Hernandez
 
 authors:
 - kevinhernandez

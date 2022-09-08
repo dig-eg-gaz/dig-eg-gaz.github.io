@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Diana Fajardo
+title: Diana Fajardo
 
 authors:
 - dianafajardo

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Peyton Smith
+title: Peyton Smith
 
 authors:
 - peytonsmith

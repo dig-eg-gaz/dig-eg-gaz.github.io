@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Tiffany Medina
+title: Tiffany Medina
 
 authors:
 - tiffanymedina

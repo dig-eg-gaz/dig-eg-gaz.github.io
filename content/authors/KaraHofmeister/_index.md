@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kara Hofmeister
+title: Kara Hofmeister
 
 authors:
 - KaraHofmeister

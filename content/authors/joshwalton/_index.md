@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Josh Walton
+title: Josh Walton
 
 authors:
 - joshwalton

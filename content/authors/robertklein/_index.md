@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Robert Klein
+title: Robert Klein
 
 authors:
 - robertklein

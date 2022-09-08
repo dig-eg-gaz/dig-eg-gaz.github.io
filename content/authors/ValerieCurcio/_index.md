@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Valerie Curcio
+title: Valerie Curcio
 
 authors:
 - ValerieCurcio

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Adrian Ell
+title: Adrian Ell
 
 authors:
 - adrianell

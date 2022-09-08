@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Karl-Frederick Roche
+title: Karl-Frederick Roche
 
 authors:
 - Karl-FrederickRoche

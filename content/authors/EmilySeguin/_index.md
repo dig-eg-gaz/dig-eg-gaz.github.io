@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Emily Seguin
+title: Emily Seguin
 
 authors:
 - EmilySeguin

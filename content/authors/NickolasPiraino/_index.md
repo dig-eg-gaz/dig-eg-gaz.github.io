@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nickolas Piraino
+title: Nickolas Piraino
 
 authors:
 - NickolasPiraino

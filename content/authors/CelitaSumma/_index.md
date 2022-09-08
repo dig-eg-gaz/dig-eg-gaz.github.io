@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Celita Summa
+title: Celita Summa
 
 authors:
 - CelitaSumma

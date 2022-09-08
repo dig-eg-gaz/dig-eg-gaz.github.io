@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Taylor Cwikla
+title: Taylor Cwikla
 
 authors:
 - taylorcwikla

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Olivia Hammermaster
+title: Olivia Hammermaster
 
 authors:
 - oliviahammermaster

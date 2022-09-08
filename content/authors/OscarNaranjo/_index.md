@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Oscar Naranjo
+title: Oscar Naranjo
 
 authors:
 - OscarNaranjo

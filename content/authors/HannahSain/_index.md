@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Hannah Sain
+title: Hannah Sain
 
 authors:
 - HannahSain

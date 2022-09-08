@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Macray Simmers
+title: Macray Simmers
 
 authors:
 - MacraySimmers

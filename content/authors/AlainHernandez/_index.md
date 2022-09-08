@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alain Hernandez
+title: Alain Hernandez
 
 authors: AlainHernandez
 

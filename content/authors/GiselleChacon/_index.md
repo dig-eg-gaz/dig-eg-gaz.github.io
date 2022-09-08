@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Giselle Chacon
+title: Giselle Chacon
 
 authors:
 - gisellechacon

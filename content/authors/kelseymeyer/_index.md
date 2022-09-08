@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kelsey Meyer
+title: Kelsey Meyer
 
 authors:
 - kelseymeyer

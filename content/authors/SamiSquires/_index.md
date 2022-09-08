@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Sami Squires
+title: Sami Squires
 
 authors:
 - samisquires

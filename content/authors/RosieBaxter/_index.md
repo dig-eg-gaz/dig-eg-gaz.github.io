@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Rosie Baxter
+title: Rosie Baxter
 
 authors:
 - rosiebaxter

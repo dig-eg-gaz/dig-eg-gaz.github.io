@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Ian Bolger
+title: Ian Bolger
 
 authors:
 - ianbolger

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Andres Acosta
+title: Andres Acosta
 
 authors:
 - andresacosta

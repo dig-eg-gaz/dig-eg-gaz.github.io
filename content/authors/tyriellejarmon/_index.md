@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Tyrielle Jarmon
+title: Tyrielle Jarmon
 
 authors:
 - tyriellejarmon

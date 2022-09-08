@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Sonali Pustam
+title: Sonali Pustam
 
 authors:
 - sonalipustam

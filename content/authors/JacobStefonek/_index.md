@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jacob Stefonek
+title: Jacob Stefonek
 
 authors:
 - JacobStefonek

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kevin Ooten
+title: Kevin Ooten
 
 authors:
 - kevinooten

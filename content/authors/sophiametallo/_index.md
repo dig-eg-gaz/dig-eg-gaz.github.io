@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Sophia Metallo
+title: Sophia Metallo
 
 authors:
 - sophiametallo

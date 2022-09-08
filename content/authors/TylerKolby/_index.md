@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Tyler Kolby
+title: Tyler Kolby
 
 authors:
 - TylerKolby

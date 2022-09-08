@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Brayan Barbosa
+title: Brayan Barbosa
 
 authors:
 - BrayanBarbosa

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Joshua Story
+title: Joshua Story
 
 authors:
 - joshuastory

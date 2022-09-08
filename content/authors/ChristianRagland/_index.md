@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Christian Ragland
+title: Christian Ragland
 
 authors:
 - ChristianRagland

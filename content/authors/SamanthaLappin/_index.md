@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Samantha Lappin
+title: Samantha Lappin
 
 authors:
 - SamanthaLappin

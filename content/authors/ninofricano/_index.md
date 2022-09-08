@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nino Fricano
+title: Nino Fricano
 
 authors:
 - ninofricano

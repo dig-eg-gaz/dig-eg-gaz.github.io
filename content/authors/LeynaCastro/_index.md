@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Leyna Castro
+title: Leyna Castro
 
 authors:
 - leynacastro

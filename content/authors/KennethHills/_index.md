@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kenneth Hills
+title: Kenneth Hills
 
 authors:
 - KennethHills

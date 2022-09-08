@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Elizabeth Barrett
+title: Elizabeth Barrett
 
 authors:
 - elizabethbarrett

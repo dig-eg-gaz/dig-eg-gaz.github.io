@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Parker Beasley
+title: Parker Beasley
 
 authors:
 - parkerbeasley

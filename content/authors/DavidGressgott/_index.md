@@ -1,6 +1,6 @@
 ---
 # Display name
-name: David Gressgott
+title: David Gressgott
 
 authors:
 - DavidGressgott

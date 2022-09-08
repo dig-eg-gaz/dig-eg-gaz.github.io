@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jonathan Cannon
+title: Jonathan Cannon
 
 authors:
 - jonathancannon

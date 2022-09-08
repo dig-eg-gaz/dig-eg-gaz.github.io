@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Daniel Arenas
+title: Daniel Arenas
 
 authors:
 - DanielArenas

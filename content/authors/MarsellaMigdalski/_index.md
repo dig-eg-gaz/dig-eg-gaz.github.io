@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Marsella Migdalski
+title: Marsella Migdalski
 
 authors:
 - MarsellaMigdalski

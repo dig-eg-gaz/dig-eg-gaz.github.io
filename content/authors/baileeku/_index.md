@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Bailee Ku
+title: Bailee Ku
 
 authors:
 - baileeku

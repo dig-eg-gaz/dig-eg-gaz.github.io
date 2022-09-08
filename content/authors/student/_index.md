@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Student
+title: Student
 
 authors:
 - student

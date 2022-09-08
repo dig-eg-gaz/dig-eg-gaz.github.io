@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Laney DeGroat
+title: Laney DeGroat
 
 authors:
 - laneydegroat

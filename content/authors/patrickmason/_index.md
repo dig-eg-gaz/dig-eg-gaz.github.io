@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Patrick Mason
+title: Patrick Mason
 
 authors:
 - patrickmason

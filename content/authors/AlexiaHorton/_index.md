@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alexia Horton
+title: Alexia Horton
 
 authors:
 - alexiahorton

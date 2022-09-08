@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Melizza Black
+title: Melizza Black
 
 authors:
 - MelizzaBlack

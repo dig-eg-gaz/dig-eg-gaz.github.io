@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alexander Amorello
+title: Alexander Amorello
 
 authors:
 - alexanderamorello

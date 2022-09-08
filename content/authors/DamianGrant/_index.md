@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Damian Grant
+title: Damian Grant
 
 authors: 
 - DamianGrant

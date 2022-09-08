@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Madison Flick
+title: Madison Flick
 
 authors:
 - madisonflick

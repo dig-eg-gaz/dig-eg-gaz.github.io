@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Anthony Muniz
+title: Anthony Muniz
 
 authors:
 - anthonymuniz

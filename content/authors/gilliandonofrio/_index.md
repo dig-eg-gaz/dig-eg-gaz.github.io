@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Gillian D'Onofrio
+title: Gillian D'Onofrio
 
 authors:
 - gilliandonofrio

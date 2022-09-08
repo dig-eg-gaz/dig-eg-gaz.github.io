@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Owen Yanevich
+title: Owen Yanevich
 
 authors:
 - owenyanevich

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Johanna Eugenio
+title: Johanna Eugenio
 
 authors:
 - JohannaEugenio

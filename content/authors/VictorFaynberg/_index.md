@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Victor Faynberg
+title: Victor Faynberg
 
 authors:
 - VictorFaynberg

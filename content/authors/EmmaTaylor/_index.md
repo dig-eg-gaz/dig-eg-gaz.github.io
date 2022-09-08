@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Emma Taylor
+title: Emma Taylor
 
 authors:
 - EmmaTaylor

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Brett Barry
+title: Brett Barry
 
 authors:
 - brettbarry

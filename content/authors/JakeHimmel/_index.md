@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jake Himmel
+title: Jake Himmel
 
 authors:
 - JakeHimmel

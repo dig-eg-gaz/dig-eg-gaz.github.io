@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jonathan Morales
+title: Jonathan Morales
 
 authors:
 - jonathanmorales

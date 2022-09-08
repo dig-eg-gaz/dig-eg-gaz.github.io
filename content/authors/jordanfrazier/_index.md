@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jordan Frazier
+title: Jordan Frazier
 
 authors:
 - jordanfrazier

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Taj Ali
+title: Taj Ali
 
 authors:
 - tajali

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Riley Ouellette
+title: Riley Ouellette
 
 authors:
 - RileyOuellette

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Joshua Kendrick
+title: Joshua Kendrick
 
 authors:
 - joshuakendrick

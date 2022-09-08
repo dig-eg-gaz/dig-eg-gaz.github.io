@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alexander Caliendo
+title: Alexander Caliendo
 
 authors:
 - AlexanderCaliendo

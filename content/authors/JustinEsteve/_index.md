@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Justin Esteve
+title: Justin Esteve
 
 authors:
 - JustinEsteve

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Brett Crawford
+title: Brett Crawford
 
 authors:
 - BrettCrawford

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Hannah Frady
+title: Hannah Frady
 
 authors:
 - hannahfrady

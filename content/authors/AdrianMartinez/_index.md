@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Adrian Martinez
+title: Adrian Martinez
 
 authors:
 - Adrianmartinez

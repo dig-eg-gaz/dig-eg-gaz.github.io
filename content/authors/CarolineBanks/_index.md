@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Caroline Banks
+title: Caroline Banks
 
 authors:
 - carolinebanks

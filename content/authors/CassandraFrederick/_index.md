@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Cassandra Frederick
+title: Cassandra Frederick
 
 authors:
 - CassandraFrederick

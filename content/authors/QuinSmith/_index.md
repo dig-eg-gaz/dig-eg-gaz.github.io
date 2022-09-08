@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Quin Smith
+title: Quin Smith
 
 authors:
 - quinsmith

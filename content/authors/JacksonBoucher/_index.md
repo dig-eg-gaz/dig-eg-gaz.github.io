@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jackson Boucher
+title: Jackson Boucher
 
 authors:
 - jacksonboucher

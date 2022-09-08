@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Amy Lee Brown
+title: Amy Lee Brown
 
 authors:
 - amyleebrown

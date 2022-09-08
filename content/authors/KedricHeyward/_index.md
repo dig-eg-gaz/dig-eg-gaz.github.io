@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kedric Heyward
+title: Kedric Heyward
 
 authors:
 - KedricHeyward

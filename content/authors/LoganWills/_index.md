@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Logan Wills
+title: Logan Wills
 
 authors:
 - LoganWills

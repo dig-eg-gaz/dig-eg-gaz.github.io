@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Tanner Doring
+title: Tanner Doring
 
 authors:
 - tannerdoring

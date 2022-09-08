@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kenneth Ukah
+title: Kenneth Ukah
 
 authors:
 - kennethukah

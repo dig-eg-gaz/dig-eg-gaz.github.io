@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Brooklyn Vincent
+title: Brooklyn Vincent
 
 authors:
 - BrooklynVincent

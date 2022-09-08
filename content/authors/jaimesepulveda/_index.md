@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jaime Sepulveda
+title: Jaime Sepulveda
 
 authors:
 - jaimesepulveda

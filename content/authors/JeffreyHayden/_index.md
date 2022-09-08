@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jeffrey Hayden
+title: Jeffrey Hayden
 
 authors:
 - jeffreyhayden

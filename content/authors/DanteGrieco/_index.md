@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Dante Grieco
+title: Dante Grieco
 
 authors:
 - DanteGrieco

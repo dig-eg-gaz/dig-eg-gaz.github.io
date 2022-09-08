@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Amber Fling
+title: Amber Fling
 
 authors:
 - AmberFling

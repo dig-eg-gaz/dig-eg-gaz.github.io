@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Will Pearce
+title: Will Pearce
 
 authors:
 - willpearce

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Breanna Heflin
+title: Breanna Heflin
 
 authors:
 - BreannaHeflin

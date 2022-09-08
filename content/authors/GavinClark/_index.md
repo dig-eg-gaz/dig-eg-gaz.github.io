@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Gavin Clark
+title: Gavin Clark
 
 authors:
 - gavinclark

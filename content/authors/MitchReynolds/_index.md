@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Mitch Reynolds
+title: Mitch Reynolds
 
 authors:
 - MitchReynolds

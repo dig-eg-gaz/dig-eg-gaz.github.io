@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kevin Fitzpatrick
+title: Kevin Fitzpatrick
 
 authors:
 - kevinfitzpatrick

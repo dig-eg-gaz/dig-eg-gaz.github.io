@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Aaron Kamata
+title: Aaron Kamata
 
 authors:
 - aaronkamata

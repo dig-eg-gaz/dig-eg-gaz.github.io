@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nicole Morini
+title: Nicole Morini
 
 authors:
 - nicolemorini

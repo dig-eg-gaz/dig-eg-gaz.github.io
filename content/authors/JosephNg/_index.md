@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Joseph Ng
+title: Joseph Ng
 
 authors:
 - josephng

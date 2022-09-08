@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Greyson Porter
+title: Greyson Porter
 
 authors:
 - greysonporter

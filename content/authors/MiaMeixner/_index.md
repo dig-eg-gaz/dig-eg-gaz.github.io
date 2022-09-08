@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Mia Meixner
+title: Mia Meixner
 
 authors:
 - miameixner

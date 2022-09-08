@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Hannah Bridges
+title: Hannah Bridges
 
 authors:
 - hannabridges

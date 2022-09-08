@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Aliza Anderson
+title: Aliza Anderson
 
 authors:
 - alizaanderson

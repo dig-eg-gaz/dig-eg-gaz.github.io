@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Mikayla Monaco
+title: Mikayla Monaco
 
 authors:
 - MikaylaMonaco

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jacob Baenen
+title: Jacob Baenen
 
 authors:
 - jacobaenen

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nangelis Rivera
+title: Nangelis Rivera
 
 authors:
 - NangelisRivera

@@ -84,41 +84,39 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/sample/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/brettbarry/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/category/analysis/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/brettbarry/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/categories/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/owenyanevich/</loc><lastmod>2021-12-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/2021-analysis-yanevich/</loc><lastmod>2021-12-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/owenyanevich/</loc><lastmod>2021-12-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/faithjankowski/</loc><lastmod>2021-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/</loc><lastmod>2021-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/2021-analysis-roy/</loc><lastmod>2021-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/tylerroy/</loc><lastmod>2021-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/post/2021-analysis-roy/</loc><lastmod>2021-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dig-eg-gaz.github.io/post/2021-analysis-walton/</loc><lastmod>2021-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/joshwalton/</loc><lastmod>2021-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/nicolemorini/</loc><lastmod>2021-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/post/2021-analysis-walton/</loc><lastmod>2021-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/2021-analysis-morini/</loc><lastmod>2021-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2021/</loc><lastmod>2021-08-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/admin/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -130,6 +128,8 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/sample/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/admin/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/%E5%90%B3%E6%81%A9%E9%81%94/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -137,14 +137,6 @@
     <loc>https://dig-eg-gaz.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-spring-2020/</loc><lastmod>2020-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/carolinebanks/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/celinebenedico/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kennethhills/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kyleliberatore/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/athens/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -154,11 +146,19 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/cairo/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/carolinebanks/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/celinebenedico/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/tag/crime/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/category/curiosities/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/danger/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kennethhills/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kyleliberatore/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/lodging/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -176,13 +176,13 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/transportation/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/robertklein/</loc><lastmod>2020-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/tag/accidents/</loc><lastmod>2020-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2020-03-10-robertklein/</loc><lastmod>2020-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/cars/</loc><lastmod>2020-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/robertklein/</loc><lastmod>2020-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2019/</loc><lastmod>2020-01-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -190,13 +190,13 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-chen/</loc><lastmod>2019-12-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/phuongnguyen/</loc><lastmod>2019-12-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/tag/cures/</loc><lastmod>2019-12-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/health/</loc><lastmod>2019-12-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/medicine/</loc><lastmod>2019-12-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/phuongnguyen/</loc><lastmod>2019-12-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2019-12-16-phuong/</loc><lastmod>2019-12-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -212,12 +212,6 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/trade/</loc><lastmod>2019-12-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/jimmymendez/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/karl-frederickroche/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/macraysimmers/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/tag/artists/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-simmers/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -225,6 +219,12 @@
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-mendez/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-roche/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/jimmymendez/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/karl-frederickroche/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/macraysimmers/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/music/</loc><lastmod>2019-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -234,8 +234,6 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/austinkim/</loc><lastmod>2019-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/victorfaynberg/</loc><lastmod>2019-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/tag/economic/</loc><lastmod>2019-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</loc><lastmod>2019-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -244,41 +242,23 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/stocks-and-shares/</loc><lastmod>2019-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/nangelisrivera/</loc><lastmod>2019-12-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dig-eg-gaz.github.io/authors/victorfaynberg/</loc><lastmod>2019-12-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-rivera/</loc><lastmod>2019-12-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/nangelisrivera/</loc><lastmod>2019-12-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/2019-12-10-tryfontheophilopoulos/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/alainhernandez/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/breannaheflin/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/emilyseguin/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/jakehimmel/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/madihayes/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/mikaylamonaco/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/mitchreynolds/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/nickolaspiraino/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/oscarnaranjo/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/peytonsmith/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/shanezedouglas/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/tryfongerasimostheophilopoulos/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/williamhesse/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/2019-12-10-tryfontheophilopoulos/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/authors/damamlidorsey/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/egypt/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/emilyseguin/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/foreigners/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -290,7 +270,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-douglas/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/jakehimmel/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/tag/law/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/madihayes/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-monaco/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -298,13 +282,25 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-medicine/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/mikaylamonaco/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/mitchreynolds/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/nickolaspiraino/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/oscarnaranjo/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/peytonsmith/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/2019-12-10-shanezedouglas/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/shanezedouglas/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/tryfongerasimostheophilopoulos/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-sports/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/parkerbryant/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/vanessagrimaldo/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dig-eg-gaz.github.io/authors/williamhesse/</loc><lastmod>2019-12-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/animals/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -328,6 +324,8 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-grimaldo/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/parkerbryant/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/tag/pilgrimage/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/sanitation/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -335,6 +333,8 @@
     <loc>https://dig-eg-gaz.github.io/tag/sanitation-department/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-bryant/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/vanessagrimaldo/</loc><lastmod>2019-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/aaronkamata/</loc><lastmod>2019-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -350,11 +350,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/alecwalter/</loc><lastmod>2019-12-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/19-analysis-accidents/</loc><lastmod>2019-12-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/damiangrant/</loc><lastmod>2019-12-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/moriahhouse/</loc><lastmod>2019-12-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/19-analysis-accidents/</loc><lastmod>2019-12-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-grant/</loc><lastmod>2019-12-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -366,13 +366,13 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-heflin/</loc><lastmod>2019-12-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/robertthomas/</loc><lastmod>2019-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-nguyen/</loc><lastmod>2019-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-kim/</loc><lastmod>2019-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-thomas/</loc><lastmod>2019-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/robertthomas/</loc><lastmod>2019-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-hernandez/</loc><lastmod>2019-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -484,11 +484,9 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/sample/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/danielarenas/</loc><lastmod>2018-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-arenas/</loc><lastmod>2018-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kevinhernandez/</loc><lastmod>2018-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dig-eg-gaz.github.io/authors/danielarenas/</loc><lastmod>2018-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/burning/</loc><lastmod>2018-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -496,31 +494,33 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-blog-hernandez/</loc><lastmod>2018-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kevinhernandez/</loc><lastmod>2018-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/tag/stores/</loc><lastmod>2018-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/greysonporter/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/sonalipustam/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-blog-pustam/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-porter/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/greysonporter/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/sonalipustam/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/tag/weddings/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/women/</loc><lastmod>2018-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/amyleebrown/</loc><lastmod>2018-05-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/tag/amos/</loc><lastmod>2018-05-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/amyleebrown/</loc><lastmod>2018-05-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/azhar/</loc><lastmod>2018-05-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-blog-brown/</loc><lastmod>2018-05-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/tyriellejarmon/</loc><lastmod>2018-04-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/18-blog-jarmon/</loc><lastmod>2018-04-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/tyriellejarmon/</loc><lastmod>2018-04-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/adamhutson/</loc><lastmod>2018-04-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -536,25 +536,47 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-beasley/</loc><lastmod>2018-04-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-blog-beasley/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tag/acne/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/adrianell/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/tag/alexandria/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/alexisfitzpatrick/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-northcutt/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-richardson/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/chloemajonica/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/claudiarichardson/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-ebert/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/faithnorthcutt/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-meyer/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/gavinclark/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/gilliandonofrio/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/tag/guns/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/hannahbridges/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/hannahfrady/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-jones/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/ianbolger/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-squires/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-brown/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/jonathancannon/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -562,51 +584,19 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/laneydegroat/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/leynacastro/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/melissapregasen/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/michaelebert/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/patrickmason/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/ryanjones/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/samisquires/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/sophiametallo/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/tiffanymedina/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-blog-beasley/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/acne/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/alexandria/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-northcutt/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-richardson/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-ebert/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-meyer/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/guns/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-jones/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-squires/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-brown/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-majonica/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/leynacastro/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-bridges/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-pregasen/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-frady/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/melissapregasen/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/michaelebert/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-mason/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -618,6 +608,8 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/category/organic-medicines/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/patrickmason/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-bolger/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/railways/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -627,6 +619,12 @@
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-cannon/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-donofrio/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/ryanjones/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/samisquires/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/sophiametallo/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-metallo/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -642,15 +640,17 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-castro/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/tiffanymedina/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-ell/</loc><lastmod>2018-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/handyapierre/</loc><lastmod>2018-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/thomaswallace/</loc><lastmod>2018-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-pierre/</loc><lastmod>2018-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/handyapierre/</loc><lastmod>2018-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-wallace/</loc><lastmod>2018-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/thomaswallace/</loc><lastmod>2018-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/crash/</loc><lastmod>2018-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -661,10 +661,6 @@
     <loc>https://dig-eg-gaz.github.io/post/18-blog-metallo/</loc><lastmod>2018-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/stock-market/</loc><lastmod>2018-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kailenchapple/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kevinooten/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-blog-donofrio/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -695,6 +691,10 @@
     <loc>https://dig-eg-gaz.github.io/tag/imperialism/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/italians/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kailenchapple/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kevinooten/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/khedivieh/</loc><lastmod>2018-03-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -774,9 +774,9 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/funerals/</loc><lastmod>2018-02-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/jordanfrazier/</loc><lastmod>2017-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-frazier/</loc><lastmod>2017-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/jordanfrazier/</loc><lastmod>2017-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2017-05-06-frazier-raininthedesert-jordan/</loc><lastmod>2017-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -794,11 +794,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-muniz/</loc><lastmod>2017-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/17-analysis-boucher/</loc><lastmod>2017-05-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/jacksonboucher/</loc><lastmod>2017-05-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/jasminejohnson/</loc><lastmod>2017-05-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/17-analysis-boucher/</loc><lastmod>2017-05-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-johnson/</loc><lastmod>2017-05-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -810,49 +810,15 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/mr.-potato-head/</loc><lastmod>2017-05-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/17-analysis-sepulveda/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/alexiahorton/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/alizaanderson/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/carlosrodriguez/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/gisellechacon/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/jaimesepulveda/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/jonathanmorales/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/josephng/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/joshuastory/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kevinfitzpatrick/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/madisonbolton/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/marsellamigdalski/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/miameixner/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/michaelhensley/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/ninofricano/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/oliviahammermaster/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/rosiebaxter/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/sabrinanunez/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/tajali/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/tannerdoring/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/taylorcwikla/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/17-analysis-sepulveda/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-cwikla/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/carlosrodriguez/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-hammermaster/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -866,11 +832,31 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-ng/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/gisellechacon/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-horton/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-hensley/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/jaimesepulveda/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/jonathanmorales/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/josephng/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/joshuastory/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kevinfitzpatrick/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/2017-05-01-ali-blog/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/madisonbolton/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/marsellamigdalski/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/miameixner/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/michaelhensley/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-rodriguez/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -880,11 +866,25 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-baxter/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/ninofricano/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/oliviahammermaster/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-meixner/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-migdalski/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/rosiebaxter/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/sabrinanunez/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/tajali/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/tannerdoring/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-anderson/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/taylorcwikla/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-doring/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -894,9 +894,9 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-bolton/</loc><lastmod>2017-05-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/kennethukah/</loc><lastmod>2017-04-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-ukah/</loc><lastmod>2017-04-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/kennethukah/</loc><lastmod>2017-04-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/jacobbaenen/</loc><lastmod>2017-04-29T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -920,11 +920,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-acosta/</loc><lastmod>2017-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/elizabethbarrett/</loc><lastmod>2017-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/2017-04-23-baenen-deathofthepasha/</loc><lastmod>2017-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-barrett/</loc><lastmod>2017-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/elizabethbarrett/</loc><lastmod>2017-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/famous/</loc><lastmod>2017-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -934,29 +934,27 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/treatment/</loc><lastmod>2017-04-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/madisonflick/</loc><lastmod>2017-04-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/willpearce/</loc><lastmod>2017-04-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-flick/</loc><lastmod>2017-04-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/madisonflick/</loc><lastmod>2017-04-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-pearce/</loc><lastmod>2017-04-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/willpearce/</loc><lastmod>2017-04-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/quinsmith/</loc><lastmod>2017-04-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-smith/</loc><lastmod>2017-04-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/dianafajardo/</loc><lastmod>2017-04-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/williamortiz/</loc><lastmod>2017-04-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-ortiz/</loc><lastmod>2017-04-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-fajardo/</loc><lastmod>2017-04-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/post/18-analysis-chapple/</loc><lastmod>2017-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dig-eg-gaz.github.io/authors/dianafajardo/</loc><lastmod>2017-04-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/justinpetersen/</loc><lastmod>2017-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dig-eg-gaz.github.io/authors/williamortiz/</loc><lastmod>2017-04-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/18-analysis-chapple/</loc><lastmod>2017-04-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2017-04-14-fitzpatrick-post-birds/</loc><lastmod>2017-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -971,6 +969,8 @@
     <loc>https://dig-eg-gaz.github.io/tag/france/</loc><lastmod>2017-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-petersen/</loc><lastmod>2017-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/justinpetersen/</loc><lastmod>2017-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/lighthouse/</loc><lastmod>2017-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -996,9 +996,9 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2017-04-11-ortiz-russian-anarchy/</loc><lastmod>2017-04-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/katherineferguson/</loc><lastmod>2017-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/post/17-analysis-ferguson/</loc><lastmod>2017-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/katherineferguson/</loc><lastmod>2017-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/petra/</loc><lastmod>2017-04-08T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1182,11 +1182,21 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2016-12-08-numerical-nonsense/</loc><lastmod>2016-12-08T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-caliendo/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-summa/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-evanoff/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/alexanderamorello/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/alexandercaliendo/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/amberfling/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-ouelette/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-gressgott/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/brandonbarrett/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1196,9 +1206,19 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/brooklynvincent/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-cyr/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-crawford/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/celitasumma/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-hofmeister/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/christianragland/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-white/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-lappin/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/daisyvazquez/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1210,9 +1230,27 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/erekcyr/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-taylor/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-stefonek/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-grieco/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tag/geopolitics/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-wills/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/hankthompson/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/hannahsain/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-vazquez/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-heyward/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tag/international-news/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-black/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/jacobstefonek/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1226,65 +1264,23 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/kedricheyward/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-amorello/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/loganwills/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/matthewcooper/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-curcio/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/melizzablack/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/16-analysis-barbosa/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/oliviaevanoff/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/rileyouellette/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/samanthalappin/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/thomascorzo/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/valeriecurcio/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-caliendo/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-summa/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-evanoff/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-ouelette/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-gressgott/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-cyr/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-crawford/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-hofmeister/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-white/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-lappin/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-taylor/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-stefonek/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-grieco/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/geopolitics/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-wills/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-vazquez/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-heyward/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/international-news/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-black/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-amorello/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-curcio/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/post/16-analysis-barbosa/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/16-analysis-corzo/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1300,9 +1296,13 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/16-analysis-esteve/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/thomascorzo/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/16-analysis-sain/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/16-analysis-vincent/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/valeriecurcio/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/16-analysis-cooper/</loc><lastmod>2016-12-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1558,11 +1558,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</loc><lastmod>2016-10-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/will/</loc><lastmod>2019-08-28T17:57:10-04:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/tag/islam/</loc><lastmod>2019-08-28T17:57:10-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/will-abduh/</loc><lastmod>2019-08-28T17:57:10-04:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/will/</loc><lastmod>2019-08-28T17:57:10-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/will-billy-ocean/</loc><lastmod>2019-08-28T17:57:10-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1582,15 +1582,7 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/robert-ford/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/default-admin/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/authors/gwenlofman/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/joshuakendrick/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/student/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/tylerkolby/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2016/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -1598,6 +1590,14 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-spring-2018/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/joshuakendrick/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-seguin/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/tag/orientalism/exoticism/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://dig-eg-gaz.github.io/tag/orientalism/exoticism/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/student/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/tylerkolby/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/default-admin/</loc><changefreq>weekly</changefreq></url></urlset>

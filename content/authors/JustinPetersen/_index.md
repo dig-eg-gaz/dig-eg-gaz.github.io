@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Justin Petersen
+title: Justin Petersen
 
 authors:
 - justinpetersen

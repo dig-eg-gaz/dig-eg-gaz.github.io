@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Madison Bolton
+title: Madison Bolton
 
 authors:
 - madisonbolton

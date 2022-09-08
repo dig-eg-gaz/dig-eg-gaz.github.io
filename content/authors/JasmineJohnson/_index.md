@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jasmine Johnson
+title: Jasmine Johnson
 
 authors:
 - jasminejohnson

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alec Walter
+title: Alec Walter
 
 authors: alecwalter
 

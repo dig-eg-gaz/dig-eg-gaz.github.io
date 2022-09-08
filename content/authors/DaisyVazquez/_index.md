@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Daisy Vazquez
+title: Daisy Vazquez
 
 authors:
 - DaisyVazquez

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Parker Bryant
+title: Parker Bryant
 
 authors:
 - parkerbryant

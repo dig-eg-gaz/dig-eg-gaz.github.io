@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alvin Chen
+title: Alvin Chen
 
 authors:
 - AlvinChen

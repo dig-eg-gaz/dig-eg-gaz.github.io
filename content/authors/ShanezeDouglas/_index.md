@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Shaneze Douglas
+title: Shaneze Douglas
 
 authors:
 - ShanezeDouglas

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Faith Jankowski
+title: Faith Jankowski
 
 authors:
 - faithjankowski

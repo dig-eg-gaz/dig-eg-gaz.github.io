@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Faith Northcutt
+title: Faith Northcutt
 
 authors:
 - faithnorthcutt

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Hank Thompson
+title: Hank Thompson
 
 authors:
 - HankThompson

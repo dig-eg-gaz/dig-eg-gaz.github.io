@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Phuong Nguyen
+title: Phuong Nguyen
 
 authors:
 - PhuongNguyen

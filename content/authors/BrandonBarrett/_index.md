@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Brandon Barrett
+title: Brandon Barrett
 
 authors:
 - BrandonBarrett

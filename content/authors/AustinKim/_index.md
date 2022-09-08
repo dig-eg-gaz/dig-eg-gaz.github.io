@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Austin Kim
+title: Austin Kim
 
 authors:
 - AustinKim

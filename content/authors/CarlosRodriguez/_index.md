@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Carlos Rodriguez
+title: Carlos Rodriguez
 
 authors:
 - carlosrodriguez

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Katherine Ferguson
+title: Katherine Ferguson
 
 authors:
 - katherineferguson

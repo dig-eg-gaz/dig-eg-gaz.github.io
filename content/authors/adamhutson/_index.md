@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Adam Hutson
+title: Adam Hutson
 
 authors:
 - adamhutson

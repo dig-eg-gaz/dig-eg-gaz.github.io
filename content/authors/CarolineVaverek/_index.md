@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Caroline Vaverek
+title: Caroline Vaverek
 
 authors:
 - carolinevavarek

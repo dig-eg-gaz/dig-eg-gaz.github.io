@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Thomas Wallace
+title: Thomas Wallace
 
 authors:
 - thomaswallace

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Madi Hayes
+title: Madi Hayes
 
 authors: MadiHayes
 

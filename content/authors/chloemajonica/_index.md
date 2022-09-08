@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Chloe Majonica
+title: Chloe Majonica
 
 authors:
 - chloemajonica

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Melissa Pregasen
+title: Melissa Pregasen
 
 authors:
 - melissapregasen

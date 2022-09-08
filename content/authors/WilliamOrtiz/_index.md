@@ -1,6 +1,6 @@
 ---
 # Display name
-name: William Ortiz
+title: William Ortiz
 
 authors:
 - williamortiz

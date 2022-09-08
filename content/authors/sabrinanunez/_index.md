@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Sabrina Nunez
+title: Sabrina Nunez
 
 authors:
 - sabrinanunez

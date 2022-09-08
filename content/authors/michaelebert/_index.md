@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Michael Ebert
+title: Michael Ebert
 
 authors:
 - michaelebert

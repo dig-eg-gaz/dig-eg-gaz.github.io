@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Celine Benedico
+title: Celine Benedico
 
 authors:
 - celinebenedico

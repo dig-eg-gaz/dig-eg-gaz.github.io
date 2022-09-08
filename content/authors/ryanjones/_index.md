@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Ryan Jones
+title: Ryan Jones
 
 authors:
 - ryanjones

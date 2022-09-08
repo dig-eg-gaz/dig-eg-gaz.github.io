@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jimmy Mendez
+title: Jimmy Mendez
 
 authors:
 - jimmymendez

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Vanessa Grimaldo 
+title: Vanessa Grimaldo 
 
 authors:
 - VanessaGrimaldo

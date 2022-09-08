@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Erek Cyr
+title: Erek Cyr
 
 authors:
 - ErekCyr

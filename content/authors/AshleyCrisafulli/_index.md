@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Ashley Crisafulli
+title: Ashley Crisafulli
 
 authors:
 - AshleyCrisafulli

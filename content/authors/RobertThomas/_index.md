@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Robert Thomas
+title: Robert Thomas
 
 authors:
 - RobertThomas

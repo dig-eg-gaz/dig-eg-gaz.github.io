@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kyle Liberatore
+title: Kyle Liberatore
 
 authors:
 - KyleLiberatore

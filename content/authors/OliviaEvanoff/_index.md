@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Olivia Evanoff
+title: Olivia Evanoff
 
 authors:
 - OliviaEvanoff

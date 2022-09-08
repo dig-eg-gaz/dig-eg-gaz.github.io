@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kailen Chapple
+title: Kailen Chapple
 
 authors:
 - kailenchapple

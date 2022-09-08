@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Moriah House
+title: Moriah House
 
 authors:
 - MoriahHouse

@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Claudia Richardson
+title: Claudia Richardson
 
 authors:
 - claudiarichardson

@@ -2,7 +2,7 @@
 title: Digital Egyptian Gazette Schema
 linktitle: Schema
 toc: true
-type: docs
+type: book
 date: "2019-08-29"
 draft: false
 menu:

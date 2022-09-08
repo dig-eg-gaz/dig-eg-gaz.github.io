@@ -2,7 +2,7 @@
 title: Unicode symbols reference key
 linktitle: Unicode
 toc: true
-type: docs
+type: book
 date: "2019-08-29"
 draft: false
 menu:

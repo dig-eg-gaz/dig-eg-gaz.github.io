@@ -76,14 +76,6 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/</loc><lastmod>2017-03-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/event/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/category/analysis/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -93,6 +85,8 @@
     <loc>https://dig-eg-gaz.github.io/authors/brettbarry/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/categories/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -117,24 +111,6 @@
     <loc>https://dig-eg-gaz.github.io/post/2021-analysis-morini/</loc><lastmod>2021-12-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2021/</loc><lastmod>2021-08-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/post/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tags/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/admin/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/%E5%90%B3%E6%81%A9%E9%81%94/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-spring-2020/</loc><lastmod>2020-05-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -167,6 +143,8 @@
     <loc>https://dig-eg-gaz.github.io/tag/olympicgames/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/police/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tags/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/technology/</loc><lastmod>2020-03-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -481,8 +459,6 @@
     <loc>https://dig-eg-gaz.github.io/tag/russia/</loc><lastmod>2019-10-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2019-10-16-oscar/</loc><lastmod>2019-10-16T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/post/18-analysis-arenas/</loc><lastmod>2018-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -1568,20 +1544,6 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/shipping/</loc><lastmod>2019-08-28T17:57:10-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dig-eg-gaz.github.io/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/publication-type/1/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/publication_types/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/sample/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/robert-ford/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dig-eg-gaz.github.io/authors/gwenlofman/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2016/</loc><changefreq>weekly</changefreq></url>
@@ -1596,8 +1558,12 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/tag/orientalism/exoticism/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dig-eg-gaz.github.io/publication_types/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/student/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/tylerkolby/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/admin/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/default-admin/</loc><changefreq>weekly</changefreq></url></urlset>

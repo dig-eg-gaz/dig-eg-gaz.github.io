@@ -2,7 +2,7 @@
 title: Changelog
 linktitle: Changelog
 toc: true
-type: docs
+type: book
 date: "2019-08-29"
 draft: false
 menu:

@@ -2,7 +2,7 @@
 title: Syllabus
 linktitle: Syllabus
 toc: true
-type: docs
+type: book
 date: "2021-08-26"
 draft: false
 menu:

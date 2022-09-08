@@ -2,7 +2,7 @@
 title: Where can I find other issues of the Egyptian Gazette?
 linktitle: Holdings
 toc: true
-type: docs
+type: book
 date: "2020-07-22"
 draft: false
 menu:

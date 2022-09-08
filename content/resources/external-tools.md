@@ -2,7 +2,7 @@
 title: External Tools
 linktitle: Tools
 toc: true
-type: docs
+type: book
 date: "2019-11-21"
 draft: false
 menu:

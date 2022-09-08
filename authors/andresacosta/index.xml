@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/andresacosta/</link><atom:link href="https://dig-eg-gaz.github.io/authors/andresacosta/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/andresacosta/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/andresacosta/</link></image><item><title>Patent Pills</title><link>https://dig-eg-gaz.github.io/post/17-analysis-acosta/</link><pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/17-analysis-acosta/</guid><description>&lt;p>Even in our current society we see advertisements for products that do not always seem conventional. We might be walking through a store and see a product that is advertised to do great things for our health without using chemicals or anything unnatural. Some will advertise that they use natural herbs or minerals to get their results. This is not something unique to our time, they are actually the lasting remnants of patent pills from the past. These medicines have become less common because of efforts to regulate drugs, such as the first Pure Food and Drug Act in 1906 and the creation of the US Food and Drug Administration (FDA). These actions made it illegal for these products to have misleading, fraudulent, overstated, or extravagant claims on their products without being able to back it up. The 1906 act just required these products to at least label what ingredients they were using and to accurately state what the medicines were doing but in 1936 the statute was revised. This revision banned all products that had misleading claims and caused these companies to overhaul their products with different ingredients, claims, or purposes in order to follow the law. Products like Coca-Cola, 7-up, Dr Pepper, Vicks Vaporub, and many more are current consumer products that evolved from patent medicines of the past.&lt;/p>
+&lt;p>Patent Medicines, otherwise known as Nostrums, are medicines that are not considered effective because they are prepared by an unqualified person or company. They are usually highly advertised with creative claims in order to reel in customers. In the &lt;em>Egyptian Gazette&lt;/em>, these advertisements were sometimes disguised as stories which then ended up turning into advertisements after catching readers’ attentions. The Picnic Girl is one of the many examples of clever advertising that patent medicines used in newspapers in order to slyly promote and sell their product.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Picnic Girl" srcset="
+/post/17-analysis-acosta/thePicnicGirl_hua62f63e97b26606df04bfdb251c4e2c9_3598953_051629f5bc1789238cd627bedd1452d9.webp 400w,
+/post/17-analysis-acosta/thePicnicGirl_hua62f63e97b26606df04bfdb251c4e2c9_3598953_363622f9a6253c6376b504a2ea0ba87a.webp 760w,
+/post/17-analysis-acosta/thePicnicGirl_hua62f63e97b26606df04bfdb251c4e2c9_3598953_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-acosta/thePicnicGirl_hua62f63e97b26606df04bfdb251c4e2c9_3598953_051629f5bc1789238cd627bedd1452d9.webp"
+width="182"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>In the &lt;em>Egyptian Gazette&lt;/em>, there are many different occurrences of patent pill advertisements and this analysis will analyze the frequency of these advertisements throughout the publication, compare results of these occurrences to see which patent pills were the most successful, and lastly evaluate their longevity to see if it is positively correlated by their advertising frequency.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="acostaTotalMentions" srcset="
+/post/17-analysis-acosta/acostaTotalMentions_huc65dc30cc65342100f78010f0eb4fd40_23049_76a72b23efc9ba8bdf77f76b6fbd2d71.webp 400w,
+/post/17-analysis-acosta/acostaTotalMentions_huc65dc30cc65342100f78010f0eb4fd40_23049_092a789f1a3d7c7d87966df657fa93e4.webp 760w,
+/post/17-analysis-acosta/acostaTotalMentions_huc65dc30cc65342100f78010f0eb4fd40_23049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-acosta/acostaTotalMentions_huc65dc30cc65342100f78010f0eb4fd40_23049_76a72b23efc9ba8bdf77f76b6fbd2d71.webp"
+width="760"
+height="369"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>It seems that the total number of advertisements of patent medicines in the &lt;em>Egyptian Gazette&lt;/em> declined as the year passed. The peaks occurred in January, March, and May of 1905 while the strongest dips were in February of both years, July of 1905, and a few other months in 1906. There seems to be a trend of slow decline throughout the two years but the month of February seems particularly odd since it is such a huge drop compared to the two months around it. According to the trend, February should have had around 5 total advertisements but instead it had none. The total then jumped back up to 3 in the immediately following month. The month of February in 1905 has a substantial amount of submissions (around 18) so a lack of postings does not seem to be the issue.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="acostaMentionsPerCompany" srcset="
+/post/17-analysis-acosta/acostaMentionsPerCompany_hu520164e3d0f1be12b24bf52928786151_59265_e4bbdb4776838a5d3c2969b40a5c1bbc.webp 400w,
+/post/17-analysis-acosta/acostaMentionsPerCompany_hu520164e3d0f1be12b24bf52928786151_59265_cd17b5ae2a4c9615a08a112c2f57560c.webp 760w,
+/post/17-analysis-acosta/acostaMentionsPerCompany_hu520164e3d0f1be12b24bf52928786151_59265_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-acosta/acostaMentionsPerCompany_hu520164e3d0f1be12b24bf52928786151_59265_e4bbdb4776838a5d3c2969b40a5c1bbc.webp"
+width="760"
+height="413"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="acostaMentionsPerCompanyPie" srcset="
+/post/17-analysis-acosta/acostaMentionsPerCompanyPie_hu4cff52642c7ccb4d006dd089b3405abd_36234_166f61d4d58268208f721ebe8a1421ae.webp 400w,
+/post/17-analysis-acosta/acostaMentionsPerCompanyPie_hu4cff52642c7ccb4d006dd089b3405abd_36234_0a7b5b3b568073c473b74da64c040705.webp 760w,
+/post/17-analysis-acosta/acostaMentionsPerCompanyPie_hu4cff52642c7ccb4d006dd089b3405abd_36234_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-acosta/acostaMentionsPerCompanyPie_hu4cff52642c7ccb4d006dd089b3405abd_36234_166f61d4d58268208f721ebe8a1421ae.webp"
+width="760"
+height="413"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>After splitting up the patent pill mentions by company there are some obvious signs of market dominance. Dr. Williams&amp;rsquo; Pink Pills for Pale People and Dr. Le Clerc&amp;rsquo;s Pills for the Liver each both had around double of the mentions as the other companies combined (12 and 11 to 6 and 1). However, Doan’s Backache Kidney Pills was also dominant in the first few months and had as many mentions as the other top two medicines until the summer months of 1905 occurred. After this slump the company had no mentions for the rest of the two years.&lt;/p>
+&lt;p>I researched Doan’s Backache Kidney Pills and was surprised to notice that, despite their disappearance from the newspaper, they are still running strong. (Although with some branding and claim changes). I also researched Beecham’s pills because I was curious if the amount of advertisements a product had correlated with the product’s/company’s longevity. Beecham’s pills had the least mentions out of the 4 patent medicines in the newspaper, with only one article. However, their company transformed into the Beecham Group which was still running until 1989 when it then merged with another company (BBC). This long lifespan shows that longevity of the company and frequency of their product advertisements were not directly correlated.&lt;/p>
+&lt;p>Towards the end of the analysis time period, Dr. William’s and Dr. Le Clerc’s pills seemed to both follow an identical pattern. Upon shifting the graph into a 3D version you can see that starting from August of 1905 the two companies had identical advertisement frequencies while the other two products seemed to flatline.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="acostaMentionsPerCompany3D" srcset="
+/post/17-analysis-acosta/acostaMentionsPerCompany3D_hu8e7033f78f751198772d624bf88f782d_113184_e2872a3ff1561231256dccf75a52aca9.webp 400w,
+/post/17-analysis-acosta/acostaMentionsPerCompany3D_hu8e7033f78f751198772d624bf88f782d_113184_2a540dc836da36a1ecb491f2b3c727bf.webp 760w,
+/post/17-analysis-acosta/acostaMentionsPerCompany3D_hu8e7033f78f751198772d624bf88f782d_113184_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-acosta/acostaMentionsPerCompany3D_hu8e7033f78f751198772d624bf88f782d_113184_e2872a3ff1561231256dccf75a52aca9.webp"
+width="760"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The two products had the same advertisement frequency from August of 1905 to the end of the analysis in October of 1906. This strikes me as odd and leads me to believe that these patterns might be caused because of submission errors. Shifting the graph to a 3D version also helped emphasize how rarely Beecham’s Pills were advertised compared to the other 3 products. This shift also helps highlight the market dominance that Dr. Williams&amp;rsquo; Pink Pills for Pale People and Dr. Le Clerc&amp;rsquo;s Pills for the Liver had throughout both years. Coming back to the analysis of company success in relation to advertisement frequency I was surprised to see that Dr. Le Clerc&amp;rsquo;s Pills for the Liver did not seem to have lasted long after this time period, despite the large amount of advertisements the company had in the &lt;em>Egyptian Gazette&lt;/em>. I could not find any recent information on this product or the company that advertised this product which was odd because even the Beecham product had information despite its lack of advertisement. However, the other market dominator, Dr. Williams&amp;rsquo; Pink Pills for Pale People, did seem to last much longer than its competitor.&lt;/p>
+&lt;p>Dr. Williams&amp;rsquo; Pink Pills for Pale People was a product of G. T. Fulford &amp;amp; Company, and was sold under the company name of Dr. Williams Medicine Company (Bator). Fulford grew this product and at one time had over 1 million dollars in its advertising budget (Bator). The entire Fulford family became extremely wealthy from this product and Barton emphasized how widespread the product was and how wealthy it made the Fulford family in his article,&lt;/p>
+&lt;blockquote>
+&lt;p>The lucrativeness of Pink Pills can only be estimated from the value of Fulford’s empire when he died, which was almost five million dollars. In the early 20th century the pills sold for 50¢ a box or six boxes for $2.50. Tunnell placed the annual consumption in Canada alone at one million boxes, producing, conservatively, more than $160,000 in profits. The high volume of Fulford’s sales demonstrated the fact that patent medicines were big business. The market for Pink Pills extended beyond Canada and North America. By 1905 G. T. Fulford and Company had established branches in Schenectady, N.Y., London, Paris, Sydney, Wellington, Singapore, Bombay, Rio de Janeiro, Buenos Aires, and Cape Town. Branches were later established in China and Hong Kong.&lt;/p>
+&lt;/blockquote>
+&lt;p>The meteoric rise of patent medicines in the late 1800s and early 1900s is an interesting occurrence which left many people with huge sums of money and really set the foundation for clever advertising techniques which can still be seen in today’s marketing styles. Although many people were misled about these products and their uses, they were an interesting example of what the new era of media and production/machinery capabilities could bring to the table, and how lucrative this type of advertising-based industry could be.
+ &lt;/p>
+&lt;h1 id="works-cited">Works Cited&lt;/h1>
+&lt;ul>
+&lt;li>BBC, &amp;ldquo;&lt;a href="http://news.bbc.co.uk/2/hi/business/606830.stm" target="_blank" rel="noopener">BUSINESS Profile: SmithKline Beecham&lt;/a>.&amp;rdquo; BBC News. BBC, 18 Dec. 2000. Web. 24 Apr. 2017.&lt;/li>
+&lt;li>Bator, Paul Adolphus. &amp;ldquo;&lt;a href="http://www.biographi.ca/en/bio/fulford_george_taylor_13E.html" target="_blank" rel="noopener">Biography – FULFORD, GEORGE TAYLOR&lt;/a>.&amp;rdquo; &lt;em>Dictionary of Canadian Biography&lt;/em> Volume XIII (1901-1910). University of Toronto/Université Laval, 1994. Web. 24 Apr. 2017.&lt;/li>
+&lt;/ul></description></item></channel></rss>

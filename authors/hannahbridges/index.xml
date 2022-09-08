@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/hannahbridges/</link><atom:link href="https://dig-eg-gaz.github.io/authors/hannahbridges/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/hannahbridges/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/hannahbridges/</link></image><item><title>Local and General Analysis</title><link>https://dig-eg-gaz.github.io/post/18-analysis-bridges/</link><pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/18-analysis-bridges/</guid><description>&lt;p>There were many topics to chose from pertaining to the &lt;em>Egyptian Gazette&lt;/em> however, in my analysis project I decided to look at the &amp;ldquo;Local and General&amp;rdquo; section of the newspaper. I was interested in the topics that showed up most in the section and moreover what topics kept getting printed in the issues of the newspaper. I wanted to know throughout the newspaper what topics were, not so much being read more than the other but, reoccurring actions to be talked or read about in Egypt during the time.&lt;/p>
+&lt;h2 id="word-cloud-photo">Word Cloud Photo&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Local and General Word Cloud" srcset="
+/post/18-analysis-bridges/bridges-word-cloud_huccfb5fd530596c60948db6e9d9a7efee_101637_2a7f4bdb6304a528670df839a4e27550.webp 400w,
+/post/18-analysis-bridges/bridges-word-cloud_huccfb5fd530596c60948db6e9d9a7efee_101637_9eb7939487e7474a1a107d7ff81ec1a6.webp 760w,
+/post/18-analysis-bridges/bridges-word-cloud_huccfb5fd530596c60948db6e9d9a7efee_101637_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/18-analysis-bridges/bridges-word-cloud_huccfb5fd530596c60948db6e9d9a7efee_101637_2a7f4bdb6304a528670df839a4e27550.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>As a result of this I decided to create a word cloud to make a visual representation of the headlines of each section of the newspaper. In the word cloud, the headlines that were printed most are the largest in the figure and then following that are the headlines that are posted less which are represented by the smaller words in the figure.&lt;/p>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;p>For this data set I created a query that would find only the headlines in the section of local and general and it would also include the date of the issue posted. I used two queries to do this because the &lt;code>@feature&lt;/code> and &lt;code>@element&lt;/code> tags were implemented and each contained data that I needed to combine to get accurate results. The first query used was as presented &lt;code>//div[@feature=&amp;quot;local&amp;quot;]/div/head&lt;/code>, the second query is different by one word &lt;code>//div[@element=&amp;quot;local&amp;quot;]/div/head&lt;/code> . The first query search returned 2,497 items while the second query resulted in 308 items. After this I transferred all the results into atom and refined the visual content that the search gave me. At the end I had two columns of data that was the date of the issue and the headline that was posted on that date in the &amp;ldquo;Local and General&amp;rdquo; section of the newspaper.&lt;/p>
+&lt;h2 id="comparison-and-outside-sources">Comparison and Outside Sources&lt;/h2>
+&lt;p>Reading through other analysis projects from previous students, as well as the discussion of it in class, there was one that stood out to me about the Plague. As I was reading through their project they mention that their search for any &lt;code>div&lt;/code> in any &lt;code>item&lt;/code> would contain the word &amp;ldquo;plague&amp;rdquo; and it only returned 82 items. This search seems to have returned a small number of instances for the return of the word plague considering one of the more prominent words in my word cloud is the word &amp;ldquo;plague&amp;rdquo;. They continue to go on to explain the way the word was used and the context of the word in the multiple occurrence in the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;p>Also in relation to my analysis search I want to reference today&amp;rsquo;s newspapers and/or ways of information in today&amp;rsquo;s society. We hardly get our information from a daily newspaper anymore, we typically get our intel from either social media or from the form of digital news still found on the internet. There is the more common way of reeling in viewers with a headline that is either a hook or a brief excerpt of what the piece entails. This differs from the way the &lt;em>Egyptian Gazette&lt;/em> displayed its news. The headlines for the news paper in the section are 2 to 3 word headlines that explain the passage.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>The largest printed headline was the word &amp;ldquo;Canal&amp;rdquo; and the second most printed headline was &amp;ldquo;Suez&amp;rdquo;. There were other headlines printed that were seen quite often throughout consisting of: Alexandria, Plague, Egyptian, Stray Dogs, etc. There were often topics that were repeated in this section of the newspaper and new information was displayed this way in the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;p>Below is a clip of the newspaper that I would find the &amp;ldquo;Local and General&amp;rdquo; section in and it is typically found on the third page of the issue. Also, to conclude this analysis project I think that the way I represented this data works much better visually than any bar graph would have been able to.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Photo of Local and General Section" srcset="
+/post/18-analysis-bridges/bridges-screenshot_hu05b22e8e924b67c5b8f7631bbf72df54_187571_bafb8dbf06aa02ab3981a0bd816ece9b.webp 400w,
+/post/18-analysis-bridges/bridges-screenshot_hu05b22e8e924b67c5b8f7631bbf72df54_187571_d46c6bfec80156a851c2cc498b5f212c.webp 760w,
+/post/18-analysis-bridges/bridges-screenshot_hu05b22e8e924b67c5b8f7631bbf72df54_187571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/18-analysis-bridges/bridges-screenshot_hu05b22e8e924b67c5b8f7631bbf72df54_187571_bafb8dbf06aa02ab3981a0bd816ece9b.webp"
+width="170"
+height="666"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item></channel></rss>

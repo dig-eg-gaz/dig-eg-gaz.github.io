@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Course-specific instructions | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/</link><atom:link href="https://dig-eg-gaz.github.io/how-to/course-specific/index.xml" rel="self" type="application/rss+xml"/><description>Course-specific instructions</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>Course-specific instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/</link></image><item><title>Blogging instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</link><pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</guid><description>&lt;h2 id="1-fork-the-repository">1. Fork the repository&lt;/h2>
+&lt;p>Fork a copy of the organization &lt;a href="https://github.com/dig-eg-gaz/blog-posts" target="_blank" rel="noopener">blog-posts&lt;/a> repository on your personal github account. Do this by clicking on the &amp;ldquo;fork&amp;rdquo; icon on the top right. You will be offered the chance to fork the repository under your own username&amp;ndash;do so. This will make a copy of the repository in your own GitHub account, in which you should save your draft blog posts.&lt;/p>
+&lt;h2 id="2-set-up-your-post">2. Set up your post&lt;/h2>
+&lt;p>Make a duplicate of the &lt;code>YYYY-MM-DD-name&lt;/code> folder, &lt;strong>leaving the original in place&lt;/strong>. Rename the &lt;em>duplicate&lt;/em> folder with today&amp;rsquo;s date and your name. This is the folder where you will put your blog post. The folder contains a file named &lt;code>index.md&lt;/code>. Open this file in a plain text editor such as Atom or Sublime Text.&lt;/p>
+&lt;h2 id="3-fill-in-the-header">3. Fill in the header&lt;/h2>
+&lt;p>The header (the material in the opening lines of the document, between the two &amp;mdash; lines) is very important. It tells the website how to treat your blog post. Replace the comments (&lt;code>&amp;lt;!--insert--&amp;gt;&lt;/code>) in the header. Give your post a title and provide a one to two sentence summary. For author, give your full name with no spaces (for me, this is &lt;code>[willhanley]&lt;/code>). List a few tags that reflect the subject matter that your post covers. Enter the date. Keep the category &lt;code>[curiosities]&lt;/code>.&lt;/p>
+&lt;h2 id="4-choose-a-feature-image">4. Choose a feature image&lt;/h2>
+&lt;p>Choose an image that you would like to appear to promote the post on the main page of the website. Name that image &lt;code>featured.jpg&lt;/code> or &lt;code>featured.png&lt;/code> (depending on the file format), and add it to your blog post folder (replacing the &lt;code>featured.png&lt;/code> file that&amp;rsquo;s already there). You do not need to add any more information about the image to the header, other than giving it a caption in the appropriate section. (For more on images, see number 5 below.)&lt;/p>
+&lt;h2 id="4-write-a-post-in-markdown-and-add-images">4. Write a post in markdown and add images&lt;/h2>
+&lt;p>You will write your text using &lt;a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Markdown&lt;/a>, a very simple markup language but a different one from xml, which you are using for the newspaper pages. Here&amp;rsquo;s a &lt;a href="http://www.markdowntutorial.com/" target="_blank" rel="noopener">tutorial&lt;/a> and here&amp;rsquo;s a &lt;a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="noopener">cheatsheet&lt;/a>. Aim for at least 200 words, but it&amp;rsquo;s fine if you write more. Integrate some links into your post (especially to previous blog posts on similar topics), and use an image or two.&lt;/p>
+&lt;h2 id="5-working-with-images">5. Working with images&lt;/h2>
+&lt;p>Include an image clipped from your issue of the paper, and any other images that might add to the impact of your post. If you are using an image that you find on the internet, make sure that you have the right to reuse it, and download the image (don&amp;rsquo;t just link to it).&lt;/p>
+&lt;p>Your feature image will not appear in the body of your post unless you insert it, using this syntax:&lt;/p>
+&lt;p>&lt;code>![label](featured.jpg)&lt;/code>&lt;/p>
+&lt;p>To include other images in your post, add the image file to the folder. Then, add a line to the blog post in the following format: &lt;code>![Image label](image-file-name.png &amp;quot;Caption&amp;quot;)&lt;/code>. The &amp;ldquo;Caption&amp;rdquo; information is optional, but encouraged.&lt;/p>
+&lt;h2 id="6-complete-your-author-page">6. Complete your author page&lt;/h2>
+&lt;p>I want to give you credit on the website for the work you do. In order to tell everyone who you are, change the &lt;code>YourNameNoSpaces&lt;/code> folder in your blog folder. Rename it using your first and last name without spaces. Then open the index file within the folder and add your own information, as you like. Remember to supply your github username. You can also replace the avatar image with one of your own choosing if you like (just make sure it&amp;rsquo;s square).&lt;/p>
+&lt;h2 id="7-send-a-pull-request-to-the-group-repository">7. Send a pull request to the group repository&lt;/h2>
+&lt;p>When your blog post and image are ready, you can fold them back into the organization content repository by sending me a &lt;strong>pull request&lt;/strong>. You do this by clicking the &amp;ldquo;new pull request&amp;rdquo; button the top left above your list of files. I will then see the pull request and either merge your files into the organization&amp;rsquo;s content or request that you change something before doing so.&lt;/p></description></item><item><title>Serial question analysis instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</guid><description>&lt;p>Your final project is to consider a theme or question that recurs across many issues of the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;p>Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/query-instructions">tutorial&lt;/a>.&lt;/p>
+&lt;p>To consult previous serial analysis projects, see this &lt;a href="#directory-of-previous-analysis-projects">directory&lt;/a>.&lt;/p>
+&lt;h2 id="how-do-i-format-my-serial-analysis">How do I format my serial analysis?&lt;/h2>
+&lt;p>Write your file in &lt;a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank" rel="noopener">markdown&lt;/a>, just as you did for the &lt;a href="https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions">blog post&lt;/a>.&lt;/p>
+&lt;p>Use a header containing these lines. Supply the title, your name, and the date:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: &amp;#34;YourTitle&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">authors: [YourName]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: YYYY-MM-DDD
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">categories: [analysis]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Name this file &lt;code>index.md&lt;/code>.&lt;/p>
+&lt;h2 id="what-about-images">What about images?&lt;/h2>
+&lt;p>Please produce data visualization(s) to accompany your analysis.&lt;/p>
+&lt;p>You may use a variety of tools:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://hdlab.stanford.edu/palladio/" target="_blank" rel="noopener">Palladio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://developers.google.com/chart/" target="_blank" rel="noopener">Google charts&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">Tableau&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-do-i-show-these-visualizations-in-my-markdown-page">How do I show these visualizations in my markdown page?&lt;/h2>
+&lt;p>The easiest thing to do is to take a screenshot and include the static image using markdown&amp;rsquo;s code: &lt;code>![image title](image-file-name.png)&lt;/code>.&lt;/p>
+&lt;p>If, however, you have produced an &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">interactive visualization&lt;/a> using Tableau or Google Charts, you need to do two things to embed data visualizations in your markdown github pages.&lt;/p>
+&lt;h3 id="1-host-the-visualization">1. Host the visualization:&lt;/h3>
+&lt;p>For &lt;strong>Tableau&lt;/strong>:&lt;/p>
+&lt;p>Upload your workbook to Tableau Public&amp;rsquo;s server. Use the &amp;ldquo;server&amp;rdquo; drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.&lt;/p>
+&lt;p>For &lt;strong>Google Charts&lt;/strong>:&lt;/p>
+&lt;p>Post your code as a &lt;a href="https://gist.github.com/" target="_blank" rel="noopener">gist&lt;/a>, then render it using a link from &lt;a href="http://raw.githack.com/" target="_blank" rel="noopener">githack&lt;/a>.&lt;/p>
+&lt;h3 id="2-embed-the-visualization">2. Embed the visualization:&lt;/h3>
+&lt;p>For &lt;strong>Tableau&lt;/strong>:&lt;/p>
+&lt;p>A complete version of embedding instructions is included in this &lt;a href="https://www.datavizforall.org/embed/tableau/" target="_blank" rel="noopener">excellent tutorial&lt;/a>. Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;iframe&lt;/span> &lt;span class="na">src=&lt;/span>&lt;span class="s">&amp;#34;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;amp;:embed=true&amp;#34;&lt;/span> &lt;span class="na">align=&lt;/span>&lt;span class="s">&amp;#34;center&amp;#34;&lt;/span> &lt;span class="na">width=&lt;/span>&lt;span class="s">&amp;#34;90%&amp;#34;&lt;/span> &lt;span class="na">height=&lt;/span>&lt;span class="s">&amp;#34;500&amp;#34;&lt;/span>&lt;span class="nt">&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>(For the &lt;code>YOURURLHERE&lt;/code> part, include everything to the right of &lt;code>views/&lt;/code> and to the left of the question mark. Your line should look something like this: &lt;code>&amp;lt;iframe src=&amp;quot;https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&amp;amp;:embed=true&amp;quot; align=&amp;quot;center&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;500&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code>.) Paste this code into your markdown file.&lt;/p>
+&lt;p>For &lt;strong>Google Charts&lt;/strong>:&lt;/p>
+&lt;p>Place the following bit of code in a markdown file, and your visualization should appear: &lt;code>&amp;lt;iframe src=&amp;quot;your-githack-link&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;400&amp;quot;/&amp;gt;&lt;/code>&lt;/p>
+&lt;h2 id="how-do-i-submit-my-individual-project">How do I submit my individual project?&lt;/h2>
+&lt;p>Fork the &lt;a href="https://github.com/dig-eg-gaz/analysis" target="_blank" rel="noopener">analysis&lt;/a> repository. Then, make a folder called named &lt;code>19-analysis-yourSurname&lt;/code> and add it to this fork. Add your analysis text file (named &lt;code>index.md&lt;/code>) to this folder, as well as your images. Make sure that you have no spaces in your file names&amp;ndash;use dashes instead. Once your folder is complete, send a pull request. Do this at least twice: first you&amp;rsquo;ve finished a draft, and a second time once you&amp;rsquo;ve completed your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.&lt;/p>
+&lt;h2 id="how-do-we-submit-our-group-work">How do we submit our group work?&lt;/h2>
+&lt;p>One member of the group should add a folder named &lt;code>19-analysis-yourGroupTopic&lt;/code> to their fork of the analysis repository. This folder should be structured the same as the individual project: an &lt;code>index.md&lt;/code> file and image files. In the &lt;code>author:&lt;/code> line of the markdown header, list all members of the group.&lt;/p>
+&lt;h2 id="directory-of-previous-analysis-projects">Directory of Previous Analysis Projects&lt;/h2>
+&lt;h3 id="ids-2681-fall-2019">IDS 2681 Fall 2019&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Surname&lt;/th>
+&lt;th>Title&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-accidents">An Accidental Analysis&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crisafulli&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-chrisafulli">Emotions and Accidents&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Grant&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-grant">Polo in Egypt: An Attendance Analysis&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>House&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-house">The Geography of Accidents&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kamata&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-kamata">Comparing Location and Speed to Analyze the Effectiveness of Communication&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Nguyen&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-nguyen">Accidents Linguistics&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Walter&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-walter">Alexandria Fire Accidents&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-medicine">Medicine&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Dorsey&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-dorsey">Diseases and the Medical Schools/Hospitals History&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Heflin&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-heflin">Tuberculosis and Medicine&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Himmel&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-cholera">Cholera&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Naranjo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-naranjo">The Plague&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Theophilopoulos&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-theophilopoulos">Medical Terminology&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-sports">Sports&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Faynberg&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-faynberg">Polo in Egypt: An Attendance Analysis&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hesse&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hayes&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-hayes">Billiards Participants&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Reynolds&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-reynolds">Home Field Advantage in Football&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Roche&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-roche">Horse Racing in 1907&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-sun">Heat of the Sun&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hernandez&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-hernandez">Maximum and Minimum Temperature in Alexandria, Egypt(May 1906-April 1907)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Monaco&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-monaco">Maximum Heat of the Sun in Different Stations Across Alexandria [May 1906-April 1907]&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Seguin&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-seguin">Minimum Temperatures of Alexandria, Port Said, and Suez [1906-1907]&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Smith&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-smith">Wind speeds in relation to the heat of the sun&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-stocks">Economic History of Stocks and Shares&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Chen&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-chen">The Mystery of Daira Sanieh&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kim&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-kim">Egypt Stocks &amp;amp; Shares&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kolby&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ku&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-ku">Egypt’s Cotton Exports in the Early 1900s&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mendez&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-mendez">Gold Mining and the Gold Market:To What Extent does the Nile Valley Gold Company Reflect the Gold Market?&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Piraino&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-environment">Environment&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bryant&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-bryant">The Cotton Worm in Egypt from 1905 to 1907&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Grimaldo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-grimaldo">Mosquitoes in the Egyptian Gazette&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rivera&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-rivera">Impact of Seasonal Change On Tourism and Hotel Stays&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Simmers&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-simmers">Cotton Production In Relation To Average Temperature in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Thomas&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-thomas">Humidity and its relation to cotton yields&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;mdash;&lt;/td>
+&lt;td>&amp;mdash;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Douglas&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-douglas">Insurance vs Assurance&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="ifs-2116-spring-2018">IFS 2116 Spring 2018&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Surname&lt;/th>
+&lt;th>Title&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Arenas&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-arenas">Attitudes towards Germany: Random, Situational, or Seasonal?&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Beasley&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-beasley">Temperatures in Assouan and Port Said&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bolger&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-bolger">Polo in Cairo&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bridges&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-bridges">Local and General Analysis&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Brown&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-brown">Jobs in Cheap Prepaid Advertisements&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cannon&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-cannon">Reported Accidents, Incidents, Tragedies, and Disasters&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Castro&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-castro">Theatre&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Chapple&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-chapple">Hotels in Cairo&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Clark&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-clark">The Egyptian education system in the early 1900s&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DeGroat&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-degroat">Rainfall&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>D&amp;rsquo;Onofrio&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-donofrio">Robberies in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ebert&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-ebert">Egyptian Export Companies&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ell&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-ell">Wedding and Funeral Flowers&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Frady&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-frady">Marriage, Weddings and Divorce&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fitzpatrick&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-fitzpatrick">The Fascination with Death&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hutson&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-hutson">The Big Four Theatres&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Jones&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-jones">Humidity in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Majonica&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-majonica">Letters to the Editor 1906&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mason&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-mason">Most Popular Sports&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Medina&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-medina">The Plague in Egypt&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Metallo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-metallo">Stocks and Shares&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meyer&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-meyer">Fires&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Northcutt&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-northcutt">Anti-Semitism in Egypt and Surrounding Countries&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pierre&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-pierre">Communication is the way&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Porter&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-porter">Golf in Egypt in the early 20th century&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pregasen&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-pregasen">Lord Cromer in the Egyptian Gazette&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pustam&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-pustam">Wedding Fashion Trends 1905-1906&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Richardson&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-richardson">Children in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Squires&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-squires">Impact from Climate in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Wallace&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-wallace">Shipping in Colonial Egypt&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="ifs-2116-spring-2017">IFS 2116 Spring 2017&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Surname&lt;/th>
+&lt;th>Title&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Acosta&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-acosta">Patent Pills&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ali&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-ali">Egypt&amp;rsquo;s Grandest Stage&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Anderson&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-anderson">Tarif d’Exportation&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Baenen&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-baenen">Seasons of Sport&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Barrett&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-barrett">Donkeys&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Baxter&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-baxter">New York Excursions&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bolton&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-bolton">Vade Mecum for the Homeward Bound&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Boucher&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-boucher">Bond Price Analysis&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Chacon&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-chacon">Murder locations&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cwikla&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-cwikla">Analyzing Archaeology&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Doring&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-doring">The Ground War in China&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fajardo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-fajardo">Bubonic Plague&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ferguson&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-ferguson">20th Century Mosquito Control Efforts in Egypt&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fitzpatrick&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-fitzpatrick">Murder Reports&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flick&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-flick">Funerals&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Frazier&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-frazier">Desert weather&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fricano&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-fricano">Cotton trade&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Greco&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-greco">Coal in Early 1900s Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hammermaster&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-hammermaster">Changes in the Murder Rate in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hayden&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-hayden">Sailboat Racing&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hensley&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-hensley">Insurance&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Horton&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-horton">Hospitality through the eyes of the Egyptian Gazette&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Johnson&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-johnson">The Domino Effect: The Impact of Strikes, 1905-1906&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Martinez&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-martinez">Land Bank Stock Prices&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meixner&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-meixner">Patterns and Trends with Weddings&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Migdalski&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-migdalski">Plague in Egypt, 1905-1906&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Morales&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-morales">The Plague and the roles hospitals played&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Muniz&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-muniz">Russian Revolution&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Nuñez&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-muniz">Russian Revolution&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ng&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-ng">Front Page Advertisements&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ortiz&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-ortiz">Anarchism in Colonial Egypt&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pearce&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-pearce">Turn of the Century Exchange Rates&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Petersen&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-petersen">Gum in Egypt&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rodriguez&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-rodriguez">Murder in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sepulveda&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-sepulveda">1905 County Championship&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Story&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-story">Climate Change in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ukah&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-ukah">Aspects of Insurance&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Vaverek&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/17-analysis-vaverek">Making Sense of the Daily Weather Report&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="ifs-2116-fall-2016">IFS 2116 Fall 2016&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Surname&lt;/th>
+&lt;th>Title&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Amorello&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-amorello">Letters to the Editor in the 1905 Egyptian Gazette&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Barbosa&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-barbosa">Murder&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Barrett&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-barrett">Sports&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Black&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-black">Investigating the Calendar of the Week&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Caliendo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-caliendo">20th Century Smoking Culture&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cooper&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-cooper">Who is the Fastest Horse in Alexandria?&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Corzo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-corzo">Silent Killer&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crawford&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-crawford">Capital Market Integration&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Crespo&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-crespo">Nile River&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Curcio&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-curcio">Medical Miracles&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cyr&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-cyr">Bubonic Plague In Egypt, 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Esteve&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-esteve">The Uses of Counting&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Eugenio&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-eugenio">The Bubonic Plague&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Evanoff&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-evanoff">Advertising in Alexandria Egypt 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fling&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-fling">The Egyptian Gazette’s Fires of 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Frederick&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-frederick">The African Pygmies&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Gressgott&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-gressgott">Anti-Semitism&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Grieco&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-grieco">Fluctuation in Egyptian Cotton Exports Throughout the Year&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Heyward&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-heyward">How Much Coal was Imported Into Egypt in 1905?&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hofmeister&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-hofmeister">Changes Over the Year&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lappin&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-lappin">Cultural Significance of Events in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ouelette&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-ouelette">Analysis&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ragland&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-ragland">The Exploration of Musicians in Alexandria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rymer&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-finalproject-rymer.pdf">Egyptian Entertainment: Weekend activities of the everyday Egyptian in 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sain&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-sain">Tracking Stray and Ownerless Dogs&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Stefonek&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-stefonek">Fleet Tracking&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Summa&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-summa">A Serial Analysis of St. Petersburg, London, and Paris Through the Lens of the Egyptian Gazette&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Taylor&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-taylor">Expeditions in 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Thompson&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-thompson">The Deaths of Alexandrian Citizens in 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Vazquez&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-vazquez">How did the Cattle Plague affect populations during the year of 1905?&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Vincent&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-vincent">Tragic Events in 1905&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>White&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-white">Counting Countries, Counting Cities&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Wills&lt;/td>
+&lt;td>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-wills">Global Diplomatic Influence on Egypt&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Data revision instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/data-revision-instruction/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/data-revision-instruction/</guid><description>&lt;p>As our project develops into a database, it is important for us to ensure the accuracy of our content. One important step of this revision is to check one specific element/section/div across the full run of the Digital Egyptian Gazette.&lt;/p>
+&lt;h2 id="1-preparation">1. Preparation&lt;/h2>
+&lt;p>Before you start revising our project, you will need to have your fork of the
+content repository updated. (&lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">You can do this using pull requests&lt;/a>). Download your folk of the content repository through Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all of the files you want to look at.&lt;/p>
+&lt;p>Then, choose the element/section/div that you might want to revise, and find the template for it on our website. List that feature or element on this &lt;a href="https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing" target="_blank" rel="noopener">spreadsheet&lt;/a>, to be sure that you are not duplicating someone else&amp;rsquo;s work.&lt;/p>
+&lt;h2 id="2-finding-an-element-to-revise">2. Finding an Element to Revise&lt;/h2>
+&lt;p>Look at the template and think about the possible values that might appear if someone just copied the template and left it unchanged. Use the characteristics (such as type/element/feature/xml:id/scope) that defined your targeted div to do XPath queries.&lt;/p>
+&lt;p>For example, you can search &lt;code>//table[@xml:id=&amp;quot;deg-ta-shli01&amp;quot;]&lt;/code> to find all the specific tables in all files that associated with the xml id of &amp;ldquo;deg-ta-shli01&amp;rdquo;.&lt;/p>
+&lt;p>Use more specific queries to search for the possible values that might appear. For example, the first value in the Share List (template 1) on our website is &amp;ldquo;13 13/16&amp;rdquo;. And it is always in the 3rd cell of the 1st row of the first table of the Share List. Thus, we can use &lt;code>//div[table[@xml:id=&amp;quot;deg-ta-shli01&amp;quot;]/row[1]/cell[3]/measure&lt;/code> to locate all the unchanged &amp;ldquo;13 13/16&amp;rdquo; in our files by using Find/Replace in Files.&lt;/p>
+&lt;p>After you get all the possible result, compare more values in your targets and make sure that you only deal with those unchanged ones. Keep it mind that it is very possible that your result has the same value with the template by accident. Play with other values or queries to get the best result.&lt;/p>
+&lt;h2 id="3-avoiding-conflicts">3. Avoiding Conflicts&lt;/h2>
+&lt;p>Because you will be changing a large number of files, we need to proceed carefully in order to avoid creating conflicts with others&amp;rsquo; changes. We will do this in two ways. First, you will write a markdown file documenting your revision logic, findings, and process. This process must be replicable and duplicable. Obviously you may be doing some work by hand as well, but describe the general process in this way. Second, we will make all of our changes on the same day, during a class period. We will do this together to ensure that we avoid conflicts.&lt;/p>
+&lt;h2 id="4-tagging-problems">4. Tagging Problems&lt;/h2>
+&lt;p>Once you find a good query that allows you to locate all unchanged divs, you will need to add a comment in the very beginning of them to let others know the risk of using such bad sources. Here is an easy way to add comments to all of them instead of doing that manually.&lt;/p>
+&lt;p>Using the Share List part as an example, you can use &lt;code>//div[child::table[@xml:id=&amp;quot;deg-ta-shli01&amp;quot;]/row[1]/cell[3]/measure[contains(., &amp;quot;13 13/16&amp;quot;)]]&lt;/code> in the Find/Replace in File tool to tell Oxygen to look at the div itself instead of the table inside the div.&lt;/p>
+&lt;p>Then, you can use this query to find &lt;code>&amp;lt;head&amp;gt;&lt;/code> in the div and replace it with &lt;code>&amp;lt;!-- incorrect value --&amp;gt;\n&amp;lt;head&amp;gt;&lt;/code>. Please remember to enable the regular expression. (See details in the image).&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/data-revision-example.png" alt="replace example" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="5-fixing-proglems">5. Fixing proglems&lt;/h2>
+&lt;p>After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website, or using an alogrithm of your design.&lt;/p>
+&lt;h2 id="6-submission">6. Submission&lt;/h2>
+&lt;p>TBA&lt;/p></description></item><item><title>Tutorials instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</guid><description>&lt;p>Students wishing to write small tutorials should write in Markdown. Proceed in the same manner as you do with blog posts and analysis reports, but for this assignment fork and add your work to the &lt;a href="https://github.com/dig-eg-gaz/tutorials" target="_blank" rel="noopener">tutorials repository&lt;/a>. Send a pull request when you are done.&lt;/p>
+&lt;h2 id="how-to-wish-list">How-to wish list&lt;/h2>
+&lt;ul>
+&lt;li>Glossary&lt;/li>
+&lt;li>Github use, especially pull requests, issues, communications&lt;/li>
+&lt;li>the various ways of pasting text files into Oxygen&lt;/li>
+&lt;li>dealing with images in advertisements&lt;/li>
+&lt;li>&lt;strong>&lt;code>&amp;lt;figure&amp;gt;&lt;/code>&lt;/strong> for images.&lt;/li>
+&lt;/ul></description></item><item><title>Wikipedia instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/wikipedia-instructions/</link><pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/wikipedia-instructions/</guid><description>&lt;p>Much of the information that Wikipedia offers us about turn-of-the-century Egypt is derived from earlier, top-down sources (for example, the &lt;a href="https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition" target="_blank" rel="noopener">&lt;em>Encyclopedia Britannica&lt;/em> of 1911&lt;/a>). The &lt;em>Egyptian Gazette&lt;/em> contains a wealth of microhistorical data that can enrich the&lt;/p>
+&lt;h2 id="1-identify-a-subject">1. Identify a subject&lt;/h2>
+&lt;p>The first step is to find a Wikipedia page that needs your help. One way to get there is to use category pages, such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Category:Egyptian_politician_stubs" target="_blank" rel="noopener">Egyptian politician stubs&lt;/a> (a stub is &amp;ldquo;an article deemed too short to provide encyclopedic coverage of a subject&amp;rdquo;)&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Category:People_from_Cairo" target="_blank" rel="noopener">People from Cairo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Category:Pashas" target="_blank" rel="noopener">Pashas&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>If you are working on a person stub, you can search for that individuals in the &lt;em>Digital Egyptian Gazette&lt;/em> content repository. Identify a news story that informs us of an important event in their lives, ideally something unaccounted for on the page. (Of course, you can also add the &lt;em>Gazette&lt;/em> as a reference in support of information already given in Wikipedia.)&lt;/p>
+&lt;p>You might wish to work on an event or a place, or to create a new Wikipedia page for someone of significance. All of this is worthwhile work.&lt;/p>
+&lt;h2 id="2-edit-the-page">2. Edit the page&lt;/h2>
+&lt;p>Sign up for Wikipedia and log in. Click &amp;ldquo;edit&amp;rdquo; near the top right of the page, and you will see the page&amp;rsquo;s text encoded in &lt;a href="https://en.wikipedia.org/wiki/Help:Wikitext" target="_blank" rel="noopener">wikitext&lt;/a> (Wikipedia&amp;rsquo;s syntax). It&amp;rsquo;s a simple language, not so different from Markdown, and there are lots of tips and tutorials available&amp;ndash;here&amp;rsquo;s a &lt;a href="https://en.wikipedia.org/wiki/Help:Editing" target="_blank" rel="noopener">good place to start&lt;/a>. Proceed to add the necessary text to the page.&lt;/p>
+&lt;h2 id="3-cite-your-source">3. Cite your source&lt;/h2>
+&lt;p>At the end of the information that you add, provide a reference to your source article in the &lt;em>Egyptian Gazette&lt;/em>. Use this basic format (updated to reflect your source):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">&amp;lt;ref&amp;gt;{{cite news |author=&amp;lt;!--Staff writer(s); no by-line.--&amp;gt; |title=Personal and Social. |url=https://raw.githubusercontent.com/dig-eg-gaz/page-images/master/1906-page-images-4/1906-12-27-p3.jpg |work=The Egyptian Gazette |date=27 December 1906}}&amp;lt;/ref&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>(The url I&amp;rsquo;ve linked to is the page image of the article I&amp;rsquo;ve used.)&lt;/p>
+&lt;h2 id="4-save-your-edit">4. Save your edit&lt;/h2>
+&lt;p>You will want to preview it first to check if the format is correct. You might also wish to watch the page, just in case someone removes your change&amp;ndash;when this happens, it often happens in the first 24 hours.&lt;/p>
+&lt;h2 id="5-let-me-know-what-youve-edited">5. Let me know what you&amp;rsquo;ve edited&lt;/h2>
+&lt;p>The best way to do this is to send me the link to your &amp;ldquo;user contributions&amp;rdquo; page. My link looks like this: &lt;code>https://en.wikipedia.org/wiki/Special:Contributions/Will_Hanley&lt;/code>.&lt;/p>
+&lt;h1 id="an-example">An example&lt;/h1>
+&lt;p>I found this mention of the funeral of the daughter of Joseph Cattaui in the &amp;ldquo;Personal and Social&amp;rdquo; section on page 3 of the December 27, 1906 issue.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/cattaui-funeral.png" alt="funeral blurb" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This prominent businessman has &lt;a href="https://en.wikipedia.org/wiki/Joseph_Cattaui" target="_blank" rel="noopener">his own Wikipedia page&lt;/a>. It names some of his family members in the box on the right, but I&amp;rsquo;m not sure which daughter it is who died. I decided to add a new section mentioning this information about his private life. Here&amp;rsquo;s the code I used:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">==Personal life==
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Cattaui&amp;#39;s daughter died of typhoid fever at the age of 18 at the end of December, 1906.&amp;lt;ref&amp;gt;{{cite news |author=&amp;lt;!--Staff writer(s); no by-line.--&amp;gt; |title=Personal and Social. |url=https://raw.githubusercontent.com/dig-eg-gaz/page-images/master/1906-page-images-4/1906-12-27-p3.jpg |work=The Egyptian Gazette |date=27 December 1906}}&amp;lt;/ref&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The edit is recorded in the page history &lt;a href="https://en.wikipedia.org/w/index.php?title=Joseph_Cattaui&amp;amp;type=revision&amp;amp;diff=952696886&amp;amp;oldid=950009046" target="_blank" rel="noopener">here&lt;/a>.&lt;/p></description></item></channel></rss>

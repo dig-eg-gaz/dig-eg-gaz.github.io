@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/joshwalton/</link><atom:link href="https://dig-eg-gaz.github.io/authors/joshwalton/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/joshwalton/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/joshwalton/</link></image><item><title>How the number of visitors in Alexandria Egypt from 1906 to 1908 changed leading up to the financial collapse.</title><link>https://dig-eg-gaz.github.io/post/2021-analysis-walton/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2021-analysis-walton/</guid><description>&lt;p>In the years leading up to financial collapse in early 20th century Egypt, a change in the number of visitors would be expected. Hard times were faced as Egypt was coming up on multiple crises. The hard times would seemingly create a change in how many people are visiting Egypt. In the early 20th century Egypt was struggling against cotton worms, disease, financial collapse, over-farming, and political instability. Given the high number of issues arising in Egypt a shift in the number of tourists and visitors on business would be expected. In addition a change in the ratio between the two groups of visitors would also be expected. After looking deeper, the data points to no obvious trend, up or down.&lt;/p>
+&lt;p>In &amp;ldquo;Boom, Bugs, Bust: Egypt’s Ecology of Interest, 1882–1914,&amp;rdquo; Aron Jakes explores the intersection of the numerous crises in Egypt. Along with this Jakes also elaborates on how all the crises came together, amplifying each other. The dire situation faced in Egypt had many effects on everyday life in Egypt. For example Jakes discusses the employment of forced child labor. The server condition in Egypt would seemingly lower the number of visitors.&lt;/p>
+&lt;p>In order to gather data for a visualization of the number of visitors in Alexandria I used both the Visitors List and the Nile Tourists features. The two XPath queries I used are &lt;code>//div[@type=&amp;quot;item&amp;quot;][contains( . , 'VISITORS LIST')]&lt;/code> and &lt;code>//div[@type=&amp;quot;item&amp;quot;][contains( . , 'VISITORS LIST')]&lt;/code>. I copied the years with the start location and end location. I used the formula &lt;code>=C1-B1&lt;/code> to give me the number of lines taken up by the section. The difference of the start and end location gives me an estimate of how many people were visiting Alexandria in comparison to other days. The numerical value of the difference has no other significance outside of the comparison.&lt;/p>
+&lt;p>To visualize my findings I used multiple graphs. The first and second show the relation of Visitors List length to the date.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="1" srcset="
+/post/2021-analysis-walton/walton-1_hud9be01a38ef4ccbf79a51b1d3142c773_94747_bb0ac2106098b26021f418b66acdf875.webp 400w,
+/post/2021-analysis-walton/walton-1_hud9be01a38ef4ccbf79a51b1d3142c773_94747_749bc6ca022a4c5e2cbac469a39b1730.webp 760w,
+/post/2021-analysis-walton/walton-1_hud9be01a38ef4ccbf79a51b1d3142c773_94747_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-walton/walton-1_hud9be01a38ef4ccbf79a51b1d3142c773_94747_bb0ac2106098b26021f418b66acdf875.webp"
+width="760"
+height="538"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="2" srcset="
+/post/2021-analysis-walton/walton-2_huccf3b1260d4c70a900042a620c3677f7_109203_ad7e86fbb7ed3777cea261e13c75e241.webp 400w,
+/post/2021-analysis-walton/walton-2_huccf3b1260d4c70a900042a620c3677f7_109203_980278c04fe9b7cc4c138d982bfbd123.webp 760w,
+/post/2021-analysis-walton/walton-2_huccf3b1260d4c70a900042a620c3677f7_109203_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-walton/walton-2_huccf3b1260d4c70a900042a620c3677f7_109203_ad7e86fbb7ed3777cea261e13c75e241.webp"
+width="760"
+height="543"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The third shows the relation between the date and length of the Nile Tourists feature.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="3" srcset="
+/post/2021-analysis-walton/walton-3_hu7ca175b279ebdbd59a8ab867cb46e36c_95290_b8933a326397526839e4ba6540663c87.webp 400w,
+/post/2021-analysis-walton/walton-3_hu7ca175b279ebdbd59a8ab867cb46e36c_95290_fc261c6625d5bc53a0d7e52319f90386.webp 760w,
+/post/2021-analysis-walton/walton-3_hu7ca175b279ebdbd59a8ab867cb46e36c_95290_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-walton/walton-3_hu7ca175b279ebdbd59a8ab867cb46e36c_95290_b8933a326397526839e4ba6540663c87.webp"
+width="760"
+height="604"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>All three of the graphs show no correlation between the progression towards the financial crisis and the number of visitors in Alexandria. The data range is wide in all four years examined. The graphs oscillate continuously. In addition to the lack of trend, the data also has major time gaps, making it impossible to estimate which years had the longest visitors list or Nile Tourists feature. After reviewing my results, it has become evident the rise of crises in Egypt did not affect tourism. From 1905 to 1908 there was neither an up or down trend in the number of visitors in Alexandria. It is possible in the years closer to 1914 there is a more visible change in tourism.&lt;/p></description></item></channel></rss>

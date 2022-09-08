@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/madisonbolton/</link><atom:link href="https://dig-eg-gaz.github.io/authors/madisonbolton/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/madisonbolton/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/madisonbolton/</link></image><item><title>Vade Mecum for the Homeward Bound</title><link>https://dig-eg-gaz.github.io/post/17-analysis-bolton/</link><pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/17-analysis-bolton/</guid><description>&lt;p>Throughout the &lt;em>Egyptian Gazette&lt;/em> there are many different types of pages that convey different information to the reader in the early twentieth century. One page, the &amp;ldquo;Vade Mecum for the Homeward Bound,&amp;rdquo;&amp;quot; is particularly interesting and gives travel recommendations for people leaving Alexandria, Egypt to travel all over the world. The &amp;ldquo;Vade Mecum for the Homeward Bound&amp;rdquo; varies throughout all of the editions and gives the reader different recommendations based on the time of year and when the issue was published. I have picked three different issues from varios seasons of the year, and compared them to see what the author in Alexandria in the early 1900s thought the best areas were for Egyptians to travel. The issues are from March 13, 15 and 17, 1905 (all the same two pages published throughout the entire week), December 5, 1905 and February 23, 1906. Throughout the entire content fork of IFS2116 I was only able to find these three Vade Mecums. There was one other one that was written in the comments &amp;ldquo;Vade Mecum for the Homeward bound, do not know how to format this,&amp;rdquo; so this shows that there are more throughout the microfilm but not readily available to analyze in the class&amp;rsquo; XML documents. They are also all in different formats, and I assume this is because the &lt;em>Egyptian Gazette&lt;/em> offered more travel information at different times of the year for its subscribers. For example, when people traveled more in summer there would be more extensive travel recommendations and detailed trips, while when people in Alexandria are less likely to travel it would be less useful, therefore only one page was published instead of two.&lt;/p>
+&lt;p>The process I chose to analyze these &amp;ldquo;Vade Mecum for the Homeward Bound&amp;rdquo; pages was to look at all of their travel suggestions and the page formatting. I first realized that they ranged from being a single page to two pages, and this was based on the number of recommendations the writer made in that specific issue. The Vade Mecum from the whole week of March 1905 was two pages, and I believe that this was because it was a peak travel time for Alexandrians, so the &lt;em>Egyptian Gazette&lt;/em> had more destinations to suggest to travelers.&lt;/p>
+&lt;p>I used two different XPath queries to help me learn about the differences in the issues of &amp;ldquo;Vade Mecum for the Homeward Bound.&amp;rdquo;. Each of them helped me find something new, but at first I had to create one to help me actually find the other Vade Mecums within the IFS content fork. I used &lt;code>count(//div[@xml:id=&amp;quot;deg-el-vmhb01&amp;quot;]//div)&lt;/code>. This helped me find the two other issues from February and December, as well as the other one that was not fully coded but acknowledged in the comments. The other XPath query helped find the number of divisions in the different &amp;ldquo;Vade Mecum for the Homeward bound&amp;rdquo; issues to learn about the different styles of formatting used by the &lt;em>Egyptian Gazette&lt;/em>, and that query is &lt;code>count(//div/head[contains(.,'Vade')]/following-sibling::div)&lt;/code>.&lt;/p>
+&lt;p>The first XPath query helped me find the other issues of the &lt;em>Egyptian Gazette&lt;/em> that contained a Vade Mecum page and the second helped find the number of divisions they contained. The most common number of divisions was 87. I believe that this was because the template offered online for this page had 87 divisions and the students who encountered this page did not edit it to fit their specific issue. I also encountered a problem with this because I typed out every detail of the March Vade Mecum but in my XML document only technically says it has 14 divisions when the query is returned. This is because every other column in the Vade Mecum is filled with advertisements. These advertisements are mainly for hotels in the recommended travel destinations. Since there were so any ads and they were not available through the GitHub page when creating my XML document I had to put the names and their corresponding information into the comments, therefore not having a division like there should be after each one. When it is put into the comments it does not count as a division, so this alters the information given by the query search in Oxygen.&lt;/p>
+&lt;p>In total, there were 323 mentions of specific destinations within three different countries: Italy, Greece, and Switzerland. These places ranged from cities, municipalities, and resorts to mountains, springs, rivers, and islands. The March issue was the most detailed and gave very specific travel information with 220 places mentioned throughout the three different countries. The March issue also split Italy into a few different articles, which was unlike any of the other issues from December 1905 or February 1906. It split the Italy travel guide into Southern Italy, Sicily, Central Italy, Northern Italy, and the Italian Lakes (Italian and French Riviera). The entire first page of this issue was completely dedicated to travel throughout Italy. It mentioned all the different sights that should be seen, and included the easiest and most efficient way to travel there (most likely by train – early 20th century travel). Within in these articles it also mentioned making stops in other countries like France and Switzerland.&lt;/p>
+&lt;p>Although the majority of the articles were about Italian travel, the most detailed travel plans came from the articles about Switzerland. There were 161 different areas throughout Switzerland in the three different Vade Mecum issues. In the articles about Switzerland they mention specific mountain ranges that you must see, lakes and glaciers that are spectacular, and even specific viewpoints that you can hike to. The author mentions that places like Interlaken, Switzerland are great for people who love adventure, while travel to the Swiss Alps are great for people who love to be in the snow and lodges. The writer also mentions many “health resorts” and specific amenities they offer for travelers.&lt;/p>
+&lt;p>Lastly, Greece and what were called the Ionian Isles were mentioned in all three different &amp;ldquo;Vade Mecums for the Homeward Bound&amp;rdquo;. One curiosity that intrigued me was in the December issue there were only a few sentences about travel to Greece. Within those sentences they only mentioned Athens and Corfu were worth seeing. This made me wonder if there was anything specifically happening in Greece during December of 1905, and their relationship with Alexandria or Egypt in general. Greece was the least mentioned of all the destinations, and they focused on what used to be Constantinople. This made it difficult to map specific locations, and it made it necessary to research the different cities and if they still existed and their modern names.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Image 1" srcset="
+/post/17-analysis-bolton/VadeMecumMentions_hudde5c42b7a308194d6299ca0650b1a3e_60017_3f25c0ceab6e9fd1e8d2f3db125f8b39.webp 400w,
+/post/17-analysis-bolton/VadeMecumMentions_hudde5c42b7a308194d6299ca0650b1a3e_60017_be30fc8ff110514b590c6282b9fb2003.webp 760w,
+/post/17-analysis-bolton/VadeMecumMentions_hudde5c42b7a308194d6299ca0650b1a3e_60017_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-bolton/VadeMecumMentions_hudde5c42b7a308194d6299ca0650b1a3e_60017_3f25c0ceab6e9fd1e8d2f3db125f8b39.webp"
+width="760"
+height="497"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Image 2" srcset="
+/post/17-analysis-bolton/VadeMecumTotalRegion_hu65602e3ca0e89daa11224ca8f59c6ead_54378_7cea74fe5c85f376ee5af9107158df0f.webp 400w,
+/post/17-analysis-bolton/VadeMecumTotalRegion_hu65602e3ca0e89daa11224ca8f59c6ead_54378_a4241d78f0015c11c9d99f550320de59.webp 760w,
+/post/17-analysis-bolton/VadeMecumTotalRegion_hu65602e3ca0e89daa11224ca8f59c6ead_54378_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-bolton/VadeMecumTotalRegion_hu65602e3ca0e89daa11224ca8f59c6ead_54378_7cea74fe5c85f376ee5af9107158df0f.webp"
+width="760"
+height="497"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>These images show the entire region that the &lt;em>Egyptian Gazette&lt;/em>’s Vade Mecum recommends traveling to. Notice in the first image the different darkness of all of the countries; Greece, Italy, and Switzerland. The importance of this image is to see that although in the spreadsheet of all the places mentioned Greece was by far the highest, it is in fact severely the lowest in this visualization. This is due to the fact that the article focused on Constantinople, and that is no longer is a country which made it difficult to find the modern versions of the places mentioned. I found the modern city names for quite a few locations, but others are not recognized anymore. They existed in early 20th century Greece, but now they are forgotten or considered “ancient cities.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Image 3" srcset="
+/post/17-analysis-bolton/VadeMecumItaly_hu99db1eaa6de340638bd3e42d445e91c1_53766_3e5caad540e9b56027fdf71d463771dc.webp 400w,
+/post/17-analysis-bolton/VadeMecumItaly_hu99db1eaa6de340638bd3e42d445e91c1_53766_b0d08757cbbf42523ff747c38f33dc94.webp 760w,
+/post/17-analysis-bolton/VadeMecumItaly_hu99db1eaa6de340638bd3e42d445e91c1_53766_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-bolton/VadeMecumItaly_hu99db1eaa6de340638bd3e42d445e91c1_53766_3e5caad540e9b56027fdf71d463771dc.webp"
+width="760"
+height="490"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This visualization focuses on travel to Italy from the three different issues of the &amp;ldquo;Vade Mecum for the Homeward Bound.&amp;rdquo; It helps show that the recognized locations were spread throughout Italy, but also were quite concentrated in Northern Italy. There are locations that were mentioned five different times. This shows that while the destination was most likely mentioned in the articles about Italy, it was also brought up in articles about other countries as a travel hub or stop over while on the road.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Image 4" srcset="
+/post/17-analysis-bolton/VadeMecumGreece_hufcbba4d9aaf644ff3253f51e001cae54_42874_7b8d7d7de9462d3dfc35f2580d657589.webp 400w,
+/post/17-analysis-bolton/VadeMecumGreece_hufcbba4d9aaf644ff3253f51e001cae54_42874_e8945b38f03a496bec34d03babd7eb49.webp 760w,
+/post/17-analysis-bolton/VadeMecumGreece_hufcbba4d9aaf644ff3253f51e001cae54_42874_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-bolton/VadeMecumGreece_hufcbba4d9aaf644ff3253f51e001cae54_42874_7b8d7d7de9462d3dfc35f2580d657589.webp"
+width="760"
+height="490"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This visualization focuses on travel to Greece and the former Ionian Isles from the three different issues of the &amp;ldquo;Vade Mecum for the Homeward Bound.&amp;rdquo;&amp;quot; The main concentration of destinations is not on mainland Greece, but the islands off the southern coast. These areas were most likely easier to travel too from Alexandria, Egypt. They are also the few that are still recognized today because of Constantinople.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Image 5" srcset="
+/post/17-analysis-bolton/VadeMecumSwitzerland_hu867aa4498b125a3b87abebaea18d3c2b_63561_468780774b3e0c28e09aca1af12c278e.webp 400w,
+/post/17-analysis-bolton/VadeMecumSwitzerland_hu867aa4498b125a3b87abebaea18d3c2b_63561_e26549b79d40760b6bc1cd9ab31c071b.webp 760w,
+/post/17-analysis-bolton/VadeMecumSwitzerland_hu867aa4498b125a3b87abebaea18d3c2b_63561_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-bolton/VadeMecumSwitzerland_hu867aa4498b125a3b87abebaea18d3c2b_63561_468780774b3e0c28e09aca1af12c278e.webp"
+width="760"
+height="490"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This visualization focuses on travel to Switzerland from the three different issues of the Vade Mecum for the Homeward Bound. This is interesting because there are no places in Switzerland that are also on the border of Italy like they were mentioned to be in the articles. This could be cause by changes in names or the places mentioned are not recognized as cities but only small destinations such as glaciers, mountains or possibly even viewpoints. They are also concentrated in two specific areas because the resorts and mountain ranges are all connected, and therefore will show up very close to each other in the smallest of the three countries recommended to travel to in the &amp;ldquo;Vade Mecum for the Homeward Bound.&amp;rdquo;&amp;quot;&lt;/p></description></item></channel></rss>

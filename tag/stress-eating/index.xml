@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>stress eating | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/tag/stress-eating/</link><atom:link href="https://dig-eg-gaz.github.io/tag/stress-eating/index.xml" rel="self" type="application/rss+xml"/><description>stress eating</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2016 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>stress eating</title><link>https://dig-eg-gaz.github.io/tag/stress-eating/</link></image><item><title>A Reflection on the Tech</title><link>https://dig-eg-gaz.github.io/post/2016-12-11-into-the-rabbit-hole-technical/</link><pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2016-12-11-into-the-rabbit-hole-technical/</guid><description>&lt;p>I feel like this second blog post is going to saturated with negatives, so I&amp;rsquo;ll try to keep mine a little brighter by starting with the fact that this initially pain-staking process has really grown on me. At first it was a total chore, slowly trouble shooting every single issue that I had with the multiple programs I had no familiarity with (Oxygen, ABBYY Finereader, and Github), wishing that my advisor would&amp;rsquo;ve warned better beforehand of such things and hoping that I would have a free weekend again.&lt;/p>
+&lt;p>But after about 3 solid weeks of working, something clicked. I started enjoying this previously arduous work. The trouble-shooting became enjoyable, as every issue came to me as an interesting puzzle rather than a pace-breaking wall. Also, the whole philosophy behind this encoding became much clearer to me, and in a way, inspired me to take special care when it came to encoding.&lt;/p>
+&lt;p>Some things on the tech side that I believe led me to enjoying this process more were:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Having a larger monitor to work on: I like having all the information I need to encode in view all at once, it helps me keep things in order and it just keeps things more accurate. Having a monitor that is larger than a standard 13-15-17 in laptop screen really helped me. I was able to pull up boilerplates, have oxygen open, and have a reference scanned image open all in sizes that I could view easily. This expedited the process greatly&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Using a mouse: After trying to encode and OCR on my Surface and comparing it to my work on my desktop, I noticed a night and day difference in quality of pages and general frustration. The mouse allows you to have more exact control of your cursor and gives a less clunky access to your keyboard whilst moving your cursor between multiple points quickly.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&amp;hellip;and some other technical mishaps/advice&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Make sure you take the highest quality scans of your microfilm as possible: Because I was foolish and decided to separate my scanning sessions into different days, I ended up getting two different qualities of scans. This made OCR&amp;rsquo;ing extremely frustrating as it made some pages correctable in about 20 minutes and other pages taking over an hour and a half. In short, SCAN HIGHEST DPI POSSIBLE AND MAKE SURE THE SCANNER GLASS DOES NOT HAVE EXCESSIVE SMUDGING.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Always press Ctrl+S or &amp;ldquo;Save&amp;rdquo; after every page you finish in your issues: It&amp;rsquo;s been about 3 times that I&amp;rsquo;ve been so caught up in encoding that I forget to save for a few pages. Inevitably my computer updates or Oxygen crashes, and all that work is lost, leading to one too many instances of my palm colliding with my forehead.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The &lt;a href="http://www.tei-c.org/index.xml" target="_blank" rel="noopener">TEI webpage&lt;/a> should be considered the holy text of this class. It is referenced by Dr. Hanley, and simple guides are available on dig-eg-gaz. But if you need find anything specific, get spiritual and make a journey into the rabbit hole.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

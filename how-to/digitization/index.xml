@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digitization | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/how-to/digitization/</link><atom:link href="https://dig-eg-gaz.github.io/how-to/digitization/index.xml" rel="self" type="application/rss+xml"/><description>Digitization</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>Digitization</title><link>https://dig-eg-gaz.github.io/how-to/digitization/</link></image><item><title>How to set up your computer</title><link>https://dig-eg-gaz.github.io/how-to/digitization/setup-instructions/</link><pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/setup-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>This tutorial explains how to set up your laptop computer and online accounts with the software that you need for the digital &lt;em>Egyptian Gazette&lt;/em> project.&lt;/p>
+&lt;h2 id="1-set-up-github">1. Set up GitHub&lt;/h2>
+&lt;p>GitHub is the tool we use to save, submit, and combine our work. Create a &lt;a href="https://github.com/join" target="_blank" rel="noopener">GitHub account&lt;/a>. Submit your GitHub ID via &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSeySTOWS96vM1m7B1gfYp9QeWMTkWC4hLwqi9N28Y3CuPuJxA/viewform?usp=sf_link" target="_blank" rel="noopener">this form&lt;/a> so that we can add you to the &lt;a href="https://github.com/dig-eg-gaz" target="_blank" rel="noopener">dig-eg-gaz organization&lt;/a> where we store our code. Download &lt;a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop&lt;/a> and install it on your laptop.&lt;/p>
+&lt;h2 id="2-set-up-oxygen-xml-editor">2. Set up Oxygen XML Editor&lt;/h2>
+&lt;p>This is the program we use to create our full text version of the &lt;em>Egyptian Gazette&lt;/em>. Download the full-function Oxygen XML Editor, which offers a &lt;a href="http://www.oxygenxml.com/xml_editor/register.html" target="_blank" rel="noopener">free 30-day trial&lt;/a>. After 30 days, you might find &lt;a href="https://10minutemail.com/" target="_blank" rel="noopener">ways&lt;/a> to renew your trial access, or simply purchase Oxygen using their &lt;a href="http://oxygenxml.com/academic/" target="_blank" rel="noopener">academic and educational discount&lt;/a>.&lt;/p>
+&lt;h2 id="3-set-up-a-plain-text-editor">3. Set up a plain text editor&lt;/h2>
+&lt;p>We will use plain text to write blog posts and other material for the website in Markdown format. The editor is also useful for regular expression editing. There are &lt;a href="https://en.wikipedia.org/wiki/Comparison_of_text_editors" target="_blank" rel="noopener">an awful lot of other text editors out there&lt;/a>. For now, download and install &lt;a href="https://atom.io/" target="_blank" rel="noopener">Atom.io&lt;/a>, a free open source editor that you can download and run on any platform. You might also like &lt;a href="https://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text&lt;/a>.&lt;/p>
+&lt;h2 id="4-set-up-tableau">4. Set up Tableau&lt;/h2>
+&lt;p>Tableau Public is a data visualization program. Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to &lt;a href="https://www.tableau.com/academic/students" target="_blank" rel="noopener">this page&lt;/a> and its instructions to download your copy of Tableau. &lt;strong>Be sure to use your FSU email address&lt;/strong>. You will receive a download link via email. Download Tableau and follow installation instructions.&lt;/p>
+&lt;h2 id="5-set-up-hugo">5. Set up Hugo&lt;/h2>
+&lt;p>Hugo is the engine that produces our website. You&amp;rsquo;ll install a local copy so that you can test your webpages before submitting them.&lt;/p>
+&lt;p>If you are using OSX, open the Terminal command line program (you can find it in &lt;code>Applications &amp;gt; Utilities&lt;/code>). Install &lt;a href="https://brew.sh/" target="_blank" rel="noopener">Homebrew&lt;/a> (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code>/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code> in the command line, pressing enter, and following the prompts. Then enter &lt;code>brew install hugo&lt;/code>.&lt;/p>
+&lt;p>If you are using Windows, follow &lt;a href="https://gohugo.io/getting-started/installing#chocolatey-windows" target="_blank" rel="noopener">these instructions&lt;/a>.&lt;/p>
+&lt;p>You can also consult &lt;a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">more detailed instructions&lt;/a> to make your own websites.&lt;/p></description></item><item><title>Microfilm instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/microfilm-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/microfilm-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>This tutorial explains how to produce high-quality, &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/OCR-instructions/">OCR&lt;/a>-readable images from microfilm of a historical newspaper. &lt;strong>Note:&lt;/strong> Library staff may offer you some help in using the microfilm readers, but they are not responsible to do the work for you. This tutorial explains everything you need to know to do this task.&lt;/p>
+&lt;h2 id="1-setup">1. Setup&lt;/h2>
+&lt;ol>
+&lt;li>Get film NP 486 for the appropriate month and year from the reserve desk in the basement in Strozier. You can sign it out for two hours. Each film contains three months&amp;rsquo; worth of issues. You might have to scroll through a lot of film to find your date.&lt;/li>
+&lt;li>Log on to one of the six microfilm-enabled computers, and open the &amp;ldquo;Microform PowerScan/PowerScan&amp;rdquo; program. Indicate that you are using microfilm or, if you are using PowerScan 2200, select the &amp;ldquo;Expert User + New Features&amp;rdquo; mode so you can change the resolution. Thread the film into the microfilm reader (a &amp;ldquo;ScanPro 1000/2200&amp;rdquo;), carefully following the threading route mapped on the table or the machine itself. Run a bit of film through the machine until you begin to see page images&amp;ndash;the first foot of film is only black.&lt;/li>
+&lt;li>Familiarize yourself with the controls at the bottom of the program. The &amp;ldquo;Motorized Roll Film Control&amp;rdquo; allows you to move through the film and find the issue you need. The toggle switch at the top moves the film slowly, and is useful to make exact adjustments. The larger &amp;ldquo;Adjust Image&amp;rdquo; menu has numerous controls. If your image is only displaying as half screen, click the &amp;ldquo;Film Orientation&amp;rdquo; button (or &amp;ldquo;Fill to Width&amp;rdquo; under the &amp;ldquo;Home&amp;rdquo; menu if you are using Powerscan 2200) and it will shift to full screen. You can play with the zoom until you see a whole page on the screen&amp;ndash;you may have to move the carriage in the microfilm reader itself to center the image. You can focus, change the brightness, and so on, which will give you a more readable result.&lt;/li>
+&lt;/ol>
+&lt;h2 id="2-scan-the-page-in-quarters">2. Scan the page in quarters&lt;/h2>
+&lt;ol>
+&lt;li>In order to produce a high-quality, OCR-ready image, it is necessary to scan the page in quarters, then stitch the image together. Zoom in on the image until the screen shows just the top left-hand quarter of the page, thus:
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/quarter-page-example.jpg" alt="quarter page example" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+Make sure that you leave a bit of overlap, so that the image stitching software can do its task.&lt;/li>
+&lt;li>Change the shape of the green box, which shows the part of the image that you will save to a file, so that it contains the edges of the print. Make sure that the image is straight, balanced, and focused.&lt;/li>
+&lt;li>Now you are ready to save it as an image file. Under the Scan/Print tab, change the scan resolution to 600dpi. Press &amp;ldquo;Scan to Drive #1.&amp;rdquo; Name your file following the standard dating format plus page number plus a suffix for the top left hand corner (YYYY-MM-DD-p1a). Choose file type jpg. Then proceed to scan the bottom left hand corner (p1b), the top right (p1c), and the bottom right (p1d).&lt;/li>
+&lt;/ol>
+&lt;h2 id="3-stitch-the-quarters">3. Stitch the quarters&lt;/h2>
+&lt;ol>
+&lt;li>Stitch the four quarters into a single high-resolution file using the &lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/ice/" target="_blank" rel="noopener">Microsoft Image Composite Editor&lt;/a>. The program is loaded on all of the scanning computers at Strozier. If you use a Windows computer, it is free to download for your own computer. When you open the program, click &amp;ldquo;New Panorama,&amp;rdquo; import the four quarter images you just produced, click &amp;ldquo;Stitch,&amp;rdquo; then click &amp;ldquo;Export.&amp;rdquo; Choose image quality &amp;ldquo;superb,&amp;rdquo; and save the file with the name &amp;ldquo;YYYY-MM-DD-p1.jpg&amp;rdquo;. This is the file that you will use for subsequent work&amp;ndash;save it to your hard drive.&lt;/li>
+&lt;li>Go ahead and do the same for all the pages of the issue. &lt;strong>Note:&lt;/strong> You may find that certain pages (often page 1) are doubled on the microfilm. When this is the case, you only need scan one version of the doubled page.&lt;/li>
+&lt;/ol>
+&lt;h2 id="4-save-your-files">4. Save your files&lt;/h2>
+&lt;ol>
+&lt;li>Find the stitched image files you&amp;rsquo;ve created on the computer&amp;rsquo;s hard drive, and copy them to a USB key, save them to Dropbox, or save them some other way. Do not simply leave them on the microfilm computer. You do not need to save the quarter page images.&lt;/li>
+&lt;li>Return the microfilm to the checkout desk&amp;ndash;your classmates will need to find it.&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-upload-your-images">5. Upload your images&lt;/h2>
+&lt;ol>
+&lt;li>Each image file should be between 2MB and 10MB in size. If your files are larger than that, you will have to compress them.&lt;/li>
+&lt;li>Once you are satisfied with your images, upload them directly to the appropriate subfolder within the &lt;a href="https://github.com/dig-eg-gaz/page-images" target="_blank" rel="noopener">page-images repository&lt;/a> repository on GitHub. There are many subfolders (one for each quarter of each year). Make doubly sure before &lt;em>before you upload&lt;/em> that your images are named exactly according to this format: &lt;code>YYYY-MM-DD-p1.jpg&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;h3 id="troubleshooting">Troubleshooting&lt;/h3>
+&lt;p>Sometimes the microfilm hardware fails to function. When this is the case, follow these instructions (courtesy Malcolm Shackelford of FSU libraries): Those MF machines are prone to fits, but the cure is nearly always to&lt;/p>
+&lt;ol>
+&lt;li>stop the microform viewing/scanning application.&lt;/li>
+&lt;li>turn off the MF machine using the switch on the rear left&lt;/li>
+&lt;li>detach and reattach the firewire cable from both the MF machine and the computer&lt;/li>
+&lt;li>fire up the machine, then the scanning program&lt;/li>
+&lt;/ol>
+&lt;p>Doing the above makes sure we don&amp;rsquo;t have a loose cable, and reminds Windows that the device is there and alive.&lt;/p></description></item><item><title>TEI-XML instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/</link><pubDate>Mon, 05 Sep 2016 00:00:00 +0100</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>These instructions guide you in transforming your plain text page files into a marked-up xml document that conforms to the standards of &lt;a href="http://www.tei-c.org" target="_blank" rel="noopener">TEI&lt;/a> (the Text Encoding Initiative).&lt;/p>
+&lt;h2 id="1-set-up-your-xml-editor">1. Set up your XML editor&lt;/h2>
+&lt;p>Download the full-function Oxygen XML Editor, which offers a &lt;a href="http://www.oxygenxml.com/xml_editor/register.html" target="_blank" rel="noopener">free 30-day trial&lt;/a>. After 30 days, you might find &lt;a href="https://10minutemail.com/" target="_blank" rel="noopener">ways&lt;/a> to renew your trial access, or simply purchase Oxygen using their &lt;a href="http://oxygenxml.com/academic/" target="_blank" rel="noopener">academic and educational discount&lt;/a>).&lt;/p>
+&lt;h2 id="2-create-an-xml-file">2. Create an xml file&lt;/h2>
+&lt;p>Copy and paste &lt;a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/empty-issue.xml" target="_blank" rel="noopener">this template&lt;/a> into a new document. &lt;strong>Important&lt;/strong>: the new document will have &lt;code>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;/code> as its first line, and it&amp;rsquo;s also the first line of the template; delete one of them, otherwise your document will be ill-formed. Name this document using the date of the issue and an xml extension (YYYY-MM-DD.xml). (This document will eventually contain all of the pages of the issue, so it is not necessary to add the page number to the document name.) Save this document on your hard drive.&lt;/p>
+&lt;h2 id="3-fill-in-the-header">3. Fill in the header&lt;/h2>
+&lt;p>Enter your name into the template (under &lt;code>&amp;lt;editor&amp;gt;&lt;/code>), today&amp;rsquo;s date (under &lt;code>&amp;lt;edition&amp;gt;&lt;/code>, in text and numeric formats), and the issue date (under &lt;code>&amp;lt;bibl&amp;gt;&lt;/code>, in text and numeric formats). (Currently, these areas have entries in the comment format (&lt;code>&amp;lt;!-- --&amp;gt;&lt;/code>)&amp;ndash;replace these with your text). Save your file.&lt;/p>
+&lt;h2 id="4-copy-and-paste-templated-material">4. Copy and paste templated material&lt;/h2>
+&lt;p>In your xml document, the text of your issue itself (as opposed to just the header) starts like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/page-1-example.png" alt="page-1-example" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The &amp;ldquo;nameplate&amp;rdquo; &lt;code>&amp;lt;div&amp;gt;&lt;/code> that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/nameplate.png" alt="nameplate" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>You will need to update your xml file to reflect the content of your own issue. First, you need to look in the &lt;a href="https://dig-eg-gaz.github.io/issues/advertisements">advertisements directory&lt;/a> to find templates that correspond to the ads that appear in your issue. Following the detailed indications &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/">here&lt;/a>, copy the xml text of templates you need.&lt;/p>
+&lt;p>You must paste this text into the correct spot in the nameplate of your xml document. The two ads flanking the title take the form of &lt;code>&amp;lt;cell&amp;gt;&lt;/code>s that go in the first &lt;code>&amp;lt;row&amp;gt;&lt;/code> of the nameplate. The second &lt;code>&amp;lt;row&amp;gt;&lt;/code> of the nameplate lists the number, date, and number of pages of the issue. Update this information.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/nameplate-2nd-row.png" alt="nameplate-2nd-row" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>If you switch to author mode (choose it from the text-grid-author buttons near the bottom of your screen), the whole nameplate should look something like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/author-mode-nameplate.png" alt="author-mode-nameplate" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Now switch back to text mode and proceed to work on the rest of the page. Find the text of the first ad in the first column after the nameplate, and paste it after the &lt;code>&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code> tag in the advertising section division. Proceed inserting ads all the way to the end of the third column.&lt;/p>
+&lt;h2 id="5-make-sure-that-your-document-is-well-formed">5. Make sure that your document is well-formed&lt;/h2>
+&lt;p>At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it&amp;rsquo;s green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it&amp;rsquo;s red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.&lt;/p>
+&lt;p>One common error that prevents a well-formed document:&lt;/p>
+&lt;ul>
+&lt;li>doubled &lt;code>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;/code> lines at the opening of the xml document.&lt;/li>
+&lt;/ul>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;ul>
+&lt;li>“&lt;a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html" target="_blank" rel="noopener">A Gentle Introduction to XML&lt;/a>,” TEI Consortium.&lt;/li>
+&lt;/ul></description></item><item><title>Templating instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</guid><description>&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;p>While &lt;a href="https://dig-eg-gaz.github.io/issues/features/">features&lt;/a> of the &lt;em>Egyptian Gazette&lt;/em> were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.&lt;/p>
+&lt;h2 id="1-identifying-recurring-features">1. Identifying recurring features&lt;/h2>
+&lt;p>The first step is to determine if you are looking at something that is a template. Advertisements, tables, and other material that is not free text is probably templated. Check these indexes to see if you can find something identical or similar to what you want to find:&lt;/p>
+&lt;ul>
+&lt;li>The complete catalog of advertisements is &lt;a href="https://dig-eg-gaz.github.io/issues/advertisements/">here&lt;/a>.&lt;/li>
+&lt;li>The complete catalog of financial tables and other boilerplates is &lt;a href="https://dig-eg-gaz.github.io/issues/templates/">here&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template.&lt;/p>
+&lt;h2 id="2-using-templates">2. Using templates&lt;/h2>
+&lt;p>Once you&amp;rsquo;ve identified the relevant template, you can paste its XML code into your own file. There are two ways to do this.&lt;/p>
+&lt;h3 id="2a-using-content-completion-boilerplates">2a. Using content completion boilerplates&lt;/h3>
+&lt;p>I&amp;rsquo;ve made a file that contains shortcuts to most of the boilerplates that you will need. (Note that it does not contain advertisements.) You can download it &lt;a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/dig-eg-gaz-code-templates.xml" target="_blank" rel="noopener">here&lt;/a>. Once downloaded, you can install the file in Oxygen XML Editor by opening the Preferences dialog box (Options &amp;gt; Preferences), then going to Editor &amp;gt; Content Completion &amp;gt; Code Templates. Now click the Import button, and select the file you have downloaded.&lt;/p>
+&lt;p>Once you have installed the content completion boilerplates, you can press Control + Space, and a drop down menu of templates will appear. Choose the template you need and it will automatically appear where your cursor was.&lt;/p>
+&lt;p>Next, customize the template content to match your issue&amp;rsquo;s content. Often there will be no changes. Sometimes dates, names, or numbers will have to be changed. Sometimes the changes will be more complex. As you become more familiar with TEI-XML, you will get better at customizing the template.&lt;/p>
+&lt;p>Note that this content completion file will not be automatically updated. For the latest versions of boilerplates, consult the complete catalog, and follow the following procedure:&lt;/p>
+&lt;h3 id="2b-copy-and-paste-from-xml-file">2b. Copy and paste from xml file&lt;/h3>
+&lt;p>Once you&amp;rsquo;ve found the template you need, click the XML link. This will take you to a file in the dig-eg-gaz GitHub repository. Here you can copy the code you need to paste into your file.&lt;/p>
+&lt;p>&lt;strong>Important&lt;/strong>: Only copy the material contained within the &lt;code>&amp;lt;body&amp;gt; &amp;lt;/body&amp;gt;&lt;/code> tags&amp;ndash;the rest of the file should not appear in your issue file. To do so, select the text like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/templateCopy.png" alt="templateCopy" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Paste only this portion of the text into your issue document.&lt;/p>
+&lt;h2 id="3-what-if-theres-no-template">3. What if there&amp;rsquo;s no template?&lt;/h2>
+&lt;p>If you can&amp;rsquo;t find a template that should be there, or if your version of an item is so different from the template that you think a new template is warranted, there are a few things you can do.&lt;/p>
+&lt;ul>
+&lt;li>First, you can search the &lt;a href="https://github.com/dig-eg-gaz/content" target="_blank" rel="noopener">repository of already-encoded issues&lt;/a> to see if someone has already produced a version of the material.&lt;/li>
+&lt;li>If you find it, or if you feel up to encoding it yourself, you can turn this into a new template so that everyone can save time. Upload the xml and an image of the feature to the &lt;a href="https://github.com/dig-eg-gaz/advertisements" target="_blank" rel="noopener">advertisements&lt;/a> or &lt;a href="https://github.com/dig-eg-gaz/boilerplates" target="_blank" rel="noopener">boilerplates&lt;/a> repository, and send a pull request.&lt;/li>
+&lt;li>Finally, if you can&amp;rsquo;t find the material anywhere and it&amp;rsquo;s too involved to reproduce it yourself, file an &lt;a href="https://guides.github.com/features/issues/" target="_blank" rel="noopener">issue&lt;/a> at the &lt;a href="https://github.com/dig-eg-gaz/advertisements/issues" target="_blank" rel="noopener">advertisements&lt;/a> or &lt;a href="https://github.com/dig-eg-gaz/boilerplates/issues" target="_blank" rel="noopener">boilerplates&lt;/a> repositories, insert a &lt;code>&amp;lt;!-- missing template --&amp;gt;&lt;/code> comment with a few details into your document, and move on.&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-an-overview-of-features-from-page-to-page-and-day-to-day">4. An overview of &amp;ldquo;features&amp;rdquo; from page to page and day to day&lt;/h2>
+&lt;p>For a general summary of recurring features, see the tables &lt;a href="https://dig-eg-gaz.github.io/issues/features/">here&lt;/a>. Every numbered page of the &lt;em>Gazette&lt;/em> held similar material every day. The slides below offer an overview of the format over a typical week in July 1905. Page numbers are indicated on the bottom right. The main boilerplate is six pages long. On Wednesday and Saturday, when issues are eight pages, the extra pages are the fourth and fifth pages. Pages 6-8 of extended editions correspond to pages 4-6 of regular editions.&lt;/p>
+&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSoNMUJRV31l_qJ-hWRQwU3JHdGi8wLNv5nEndc6eeQWcRqbo9womcWCRDlgRJmumWR7i-RL5G2rFRv/embed?start=true&amp;amp;loop=false&amp;amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>GitHub instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.&lt;/p>
+&lt;h2 id="1-what-is-github">1. What is GitHub?&lt;/h2>
+&lt;p>GitHub is a tool to manage versioning and collaboration in coding projects large and small. It&amp;rsquo;s built on &lt;a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener">git&lt;/a> software, and offers a bunch of useful social and communication tools in its user interface. Each of us will create an individual account where we&amp;rsquo;ll store and refine our work until it&amp;rsquo;s ready to upload to the &lt;a href="https://github.com/dig-eg-gaz" target="_blank" rel="noopener">dig-eg-gaz organization repositories&lt;/a>.&lt;/p>
+&lt;h2 id="2-how-to-access-github">2. How to access GitHub&lt;/h2>
+&lt;p>You can approach GitHub three ways:&lt;/p>
+&lt;ul>
+&lt;li>using a web browser to access &lt;a href="https://github.com/" target="_blank" rel="noopener">github.com&lt;/a>,&lt;/li>
+&lt;li>using the &lt;a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop&lt;/a> client , or&lt;/li>
+&lt;li>using &lt;a href="http://programminghistorian.org/lessons/intro-to-bash" target="_blank" rel="noopener">the command line&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>We&amp;rsquo;ll be using the Desktop client mostly, but in a pinch you can use the web browser.&lt;/p>
+&lt;h2 id="3-how-to-use-the-organization-repository-and-your-own-fork-of-it">3. How to use the organization repository and your own fork of it&lt;/h2>
+&lt;ol>
+&lt;li>Navigate to the organization &lt;a href="https://github.com/dig-eg-gaz/content" target="_blank" rel="noopener">content repository&lt;/a>, and &lt;strong>fork&lt;/strong> the repository by clicking on the &amp;ldquo;fork&amp;rdquo; icon on the top right. You will be offered the chance to fork the repository under your own username&amp;ndash;do so. This will make a copy of the repository in your own GitHub account.&lt;/li>
+&lt;li>Clone this repository in your Desktop.&lt;/li>
+&lt;li>In GitHub Desktop, right click the &amp;ldquo;content&amp;rdquo; repository, and choose &amp;ldquo;Show in Finder.&amp;rdquo; This will show where the content files you&amp;rsquo;ve just cloned are stored on your hard drive. Move your xml files here, and continue to edit and save them in this location. Desktop will help you to send these edits to Github.
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/content-show-in-finder.png" alt="show in finder" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>When you&amp;rsquo;re ready to sync your changes with the GitHub cloud, write a summary of your changes (e.g., &amp;ldquo;creating page 1&amp;rdquo;), hit &amp;ldquo;Commit to Master&amp;rdquo;, then hit &amp;ldquo;Fetch origin&amp;rdquo; (on the top right). This will backup your work onto your fork on GitHub&amp;rsquo;s servers.
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/fetch-origin-desktop.png" alt="fetch origin desktop" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="4-how-to-submit-your-deliverables">4. How to submit your deliverables&lt;/h2>
+&lt;p>When your page files are complete, you can fold them from your own fork into the &lt;strong>master&lt;/strong> organization content repository by sending me a &lt;strong>pull request&lt;/strong>. You do this by navigating (on the github website) to &lt;em>your fork&lt;/em> of the content repository. If it says &amp;ldquo;This branch is 1 commit ahead,&amp;rdquo; you can submit a pull request by clicking the &amp;ldquo;new pull request&amp;rdquo; button on the top left above your list of files. Follow the instructions and keep clicking until the pull request is submitted.
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/new-pull-request.png" alt="new pull request" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+I will then see the pull request and either merge your files into the organization&amp;rsquo;s content or request that you change something before doing so. If you want to check the status of your pull requests, scroll all the way to the top of the github web page. Click on &amp;ldquo;Pull requests&amp;rdquo; in white letters on a black background. You will then see a list of the pull requests you&amp;rsquo;ve submitted.&lt;/p>
+&lt;h2 id="5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">5. How do I make sure that my content fork is up to date?&lt;/h2>
+&lt;p>In the screenshot above, you&amp;rsquo;ll notice the caption &amp;ldquo;This branch is 1 commit ahead, 98 commits behind dig-eg-gaz:master.&amp;rdquo; &amp;ldquo;Commits ahead&amp;rdquo; is work that you&amp;rsquo;ve done and will (or have already) submitted in a pull request. Once it&amp;rsquo;s merged into the master content repository, your fork will be &amp;ldquo;no commits ahead&amp;rdquo;.&lt;/p>
+&lt;p>&amp;ldquo;Commits behind&amp;rdquo; represents work that your colleagues have done and that has been merged into the master content repository &lt;em>after&lt;/em> you first made your fork. These updates don&amp;rsquo;t make their way into your fork automatically. Normally this is not big deal, as you aren&amp;rsquo;t working on those files anyway. But when it comes time to do your querying and analysis of the whole repository, it&amp;rsquo;s very important to make sure that you are working on an up-to-date version of the master content files.&lt;/p>
+&lt;p>When you look at your fork of the &lt;code>dig-eg-gaz/content&lt;/code> repository on the github website, you will see a line comparing your repository to the organization repository:
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/250-commits-behind.png" alt="not up to date" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+If you are ahead, click the &amp;ldquo;new pull request&amp;rdquo; button above the status report and ask the organization to merge your changes.&lt;/p>
+&lt;p>If you are behind:&lt;/p>
+&lt;ol>
+&lt;li>click &amp;ldquo;pull request&amp;rdquo; on the same line and to the right of the status of the report.&lt;/li>
+&lt;li>You need to manipulate things so that your fork is the &amp;ldquo;base repository&amp;rdquo; and the &lt;code>dig-eg-gaz/content&lt;/code> is the &amp;ldquo;head repository&amp;rdquo;. I&amp;rsquo;m not completely sure how to accomplish this&amp;hellip;&lt;/li>
+&lt;li>You will then be taken to a screen that allows you to create a pull request. Do so.&lt;/li>
+&lt;li>This pull request will now appear on the &amp;ldquo;pull requests&amp;rdquo; tab of your fork of the content folder.
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/pull-requests-tab.png" alt="pull requests" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+Click on the tab, and on the pull request, and then merge the pull request.&lt;/li>
+&lt;li>Your fork should now be up to date&amp;ndash;the status line will confirm this.&lt;/li>
+&lt;/ol>
+&lt;h2 id="6-resources">6. Resources&lt;/h2>
+&lt;p>These Github tutorials might be useful:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://guides.github.com/introduction/flow/" target="_blank" rel="noopener">Github flow&lt;/a>: describes branch, commit, pull, etc. 5 minute read.&lt;/li>
+&lt;li>&lt;a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="noopener">Hello world&lt;/a>: step-by-step explanation of key functions via web interface. 10 minute read.&lt;/li>
+&lt;li>&lt;a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/" target="_blank" rel="noopener">Understanding Github&lt;/a>: very clear introductory discussion, focusing on command line interface.&lt;/li>
+&lt;/ul></description></item><item><title>OCR instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/</link><pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>This lesson explains how to turn images of text into editable files. We will use &lt;a href="https://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank" rel="noopener">&amp;ldquo;optical character recognition&amp;rdquo; (OCR)&lt;/a> to work with free text wherever we encounter it in the &lt;em>Egyptian Gazette&lt;/em>. Once we&amp;rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/">TEI-XML markup&lt;/a>.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+You will not need to use OCR on text that has been &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/">templated&lt;/a>.
+&lt;/div>
+&lt;/div>
+&lt;p>There are many OCR options. Each has strengths and weaknesses. I&amp;rsquo;ll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week. Some issues are clearer than others, both in terms of the printing of the original newspaper itself and its transfer to microfilm. The quality of type varies, as does the white balance and background noise in the microfilm images. Always start with the clearest, straightest images you can produce.&lt;/p>
+&lt;h1 id="option-a-google-drive">Option A: Google Drive&lt;/h1>
+&lt;p>&lt;strong>Strengths:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>free program that can be used without limit&lt;/li>
+&lt;li>multi-language support&lt;/li>
+&lt;li>continually updated and well-supported&lt;/li>
+&lt;li>good OCR results&lt;/li>
+&lt;li>handles line breaks and paragraph breaks well&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Weaknesses:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>requires images to be cropped into single columns&lt;/li>
+&lt;li>cumbersome upload process&lt;/li>
+&lt;li>output can be over-formatted when pasted into author mode&lt;/li>
+&lt;li>no configuration options&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Screen capture walk-through&lt;/strong>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/e-NVYTX2zcc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="1-crop-your-page-images-into-single-columns">1. Crop your page images into single columns&lt;/h2>
+&lt;p>It can be helpful to embed the column number into the image name. For example, you could call the image of column 1 of page 5 of the July 8, 1905 issue &lt;code>1905-07-08-p5-c1.jpg&lt;/code>.&lt;/p>
+&lt;h2 id="2-upload-the-images-to-google-drive">2. Upload the images to Google Drive&lt;/h2>
+&lt;h2 id="3-convert-the-image-file-to-google-docs">3. Convert the image file to Google Docs&lt;/h2>
+&lt;p>Right click on the image file within Google Drive, and open it with Google Docs.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/open-with-google-docs.png" alt="open-with-google-docs" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.&lt;/p>
+&lt;h2 id="4-paste-results-into-oxygens-author-mode">4. Paste results into Oxygen&amp;rsquo;s author mode&lt;/h2>
+&lt;p>Whenever OCR produces formatted text (rather than plain text such as tesseract gives us), it is best to paste it using Oxygen XML Editor&amp;rsquo;s author mode (choose it from the text-grid-author buttons near the bottom of your screen). This means that paragraphs and other formatting will carry over into XML. When you switch back to text mode you will see them already marked up.&lt;/p>
+&lt;p>Pasting into author mode can create some odd &lt;code>div&lt;/code> issues. Sometimes it is easiest to create an empty div in text mode, put your cursor inside it, then switch to author mode and paste the OCRed material. Normally it will appear in the right spot. Don&amp;rsquo;t neglect to go back to text mode and make sure everything looks okay.&lt;/p>
+&lt;p>When you are pasting column by column from Google Drive conversion, it can be useful to use the &lt;code>&amp;lt;cb n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code> tags to keep track of your place in the page.&lt;/p>
+&lt;h1 id="option-b-tesseract">Option B: Tesseract&lt;/h1>
+&lt;p>&lt;strong>Strengths:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>lots of configuration options&lt;/li>
+&lt;li>free, open-source program that can be used without limit&lt;/li>
+&lt;li>multi-language support&lt;/li>
+&lt;li>continually updated and well-supported&lt;/li>
+&lt;li>allows scanning of full page in one go&lt;/li>
+&lt;li>plain text output can be cleaned easily&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Weaknesses:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>no graphic user interface (GUI)&lt;/li>
+&lt;li>plain text output must be converted to XML&lt;/li>
+&lt;li>can struggle with columns&lt;/li>
+&lt;li>uneven quality&lt;/li>
+&lt;li>no in-program correction interface&lt;/li>
+&lt;/ul>
+&lt;h2 id="1-set-up-tesseract">1. Set up Tesseract&lt;/h2>
+&lt;p>&lt;a href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="noopener">Tesseract&lt;/a> is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.&lt;/p>
+&lt;p>We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a &lt;a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank" rel="noopener">graphical user interface&lt;/a> (GUI). Instead, you run it from the &lt;a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="noopener">command line&lt;/a>. The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it&amp;rsquo;s easier to look under the hood of your computer when you need to.&lt;/p>
+&lt;h3 id="1a-access-the-command-line">1a. Access the command line&lt;/h3>
+&lt;p>You need to open a program in order to access the command line.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>OSX&lt;/strong>: The command line program is &lt;strong>Terminal&lt;/strong>. You can find it in &lt;code>Applications &amp;gt; Utilities&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Windows&lt;/strong>: If you&amp;rsquo;re using Windows, click Start, then in the Search or Run line, type &lt;code>cmd&lt;/code> (short for command), and press enter.&lt;/li>
+&lt;/ul>
+&lt;p>The program you open will look something like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/command-line.png" alt="command line" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>When you open this program, you will face a plain black box which offers you no hints or help. But don&amp;rsquo;t worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.&lt;/p>
+&lt;h3 id="1b-install-tesseract">1b. Install Tesseract&lt;/h3>
+&lt;h4 id="installation-for-osx">Installation for OSX&lt;/h4>
+&lt;ul>
+&lt;li>Install &lt;a href="https://brew.sh/" target="_blank" rel="noopener">Homebrew&lt;/a> (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code>/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code> in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code>brew install tesseract&lt;/code> in the terminal. You&amp;rsquo;ll also want to add French language support: run &lt;code>brew install tesseract-lang&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="installation-for-windows">Installation for Windows&lt;/h4>
+&lt;ul>
+&lt;li>Download &lt;a href="https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe" target="_blank" rel="noopener">this program&lt;/a> (compiled by generous folks at the University of Mannheim). Run it, which will install Tesseract-OCR, which will be listed under the start menu. Click on it, then click on Console, and a command line terminal will open.
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/tesseract-windows-console.png" alt="tesseract-windows-console" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+Copy the whole bottom line &lt;em>except&lt;/em> the final &lt;code>&amp;gt;&lt;/code>.&lt;/li>
+&lt;li>In order to use the program easily, you also need to set an environment variable, which requires the following two steps.&lt;/li>
+&lt;li>In File Explorer, right click on &amp;ldquo;This PC.&amp;rdquo; Then, click on Properties &amp;gt; Advanced system settings &amp;gt; Environment Variables. Under System Variables, double click the Path variable. Then click New, and then paste the code you just copied from the console (something like &lt;code>C:\Program Files\Tesseract-OCR&lt;/code>). Click OK.&lt;/li>
+&lt;li>Now under System Variables, click New. Under Variable name, enter &lt;code>TESSDATA_PREFIX&lt;/code>, and under Variable value, enter the code you copied from the console, plus &lt;code>\tessdata&lt;/code>. Together, the variable should be something like &lt;code>C:\Program Files\Tesseract-OCR\tessdata&lt;/code>. Click OK.&lt;/li>
+&lt;li>Close any terminals that are open.&lt;/li>
+&lt;/ul>
+&lt;h4 id="test-your-installation">Test your installation&lt;/h4>
+&lt;p>Open a command line terminal and type &lt;code>tesseract --version&lt;/code>. If it says &lt;code>tesseract 4.0.0&lt;/code> or &lt;code>tesseract v5.0.0&lt;/code> or something like that, you have successfully installed tesseract.&lt;/p>
+&lt;p>If you have some problem in installation, more detailed instructions to install Tesseract can be found &lt;a href="https://github.com/tesseract-ocr/tesseract/wiki" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h2 id="2-transform-image-into-text">2. Transform image into Text&lt;/h2>
+&lt;p>Now that the program is installed, you will be running tesseract from the command line.&lt;/p>
+&lt;h3 id="2a-navigate-to-image-directory">2a. Navigate to image directory&lt;/h3>
+&lt;p>First, you must make sure that you are working in the &amp;ldquo;directory&amp;rdquo; (location) on your computer that contains the image file that you want to process. Enter the command &lt;code>ls&lt;/code> (OSX) or &lt;code>dir&lt;/code> (Windows) to see a list of the files in the directory you&amp;rsquo;re currently in. It&amp;rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>OSX&lt;/strong>: Type &lt;code>cd&lt;/code> (&amp;ldquo;change directory&amp;rdquo;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.&lt;/li>
+&lt;li>&lt;strong>Windows&lt;/strong>: From the File Explorer window that contains the image file, click on the “File” menu, then &amp;ldquo;Open Windows PowerShell&amp;rdquo;. Or, if you are more comfortable with command line, you can use &lt;code>cd&lt;/code> in console to navigate to your images&amp;rsquo; directory.&lt;/li>
+&lt;/ul>
+&lt;p>Once you&amp;rsquo;ve done this, type &lt;code>ls&lt;/code> (in OSX) or &lt;code>dir&lt;/code> (in Windows) at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in &lt;code>YYYY-MM-DD.jpg&lt;/code> format) is listed, you&amp;rsquo;re ready for the next step.&lt;/p>
+&lt;h3 id="2b-run-ocr">2b. Run OCR&lt;/h3>
+&lt;p>You can perform a basic read by running the command &lt;code>tesseract &amp;lt;input_file&amp;gt; &amp;lt;output_file&amp;gt;&lt;/code>, where &lt;code>&amp;lt;input_file&amp;gt;&lt;/code> is the exact name of your image file, including the .jpg extension, and &lt;code>&amp;lt;output_file&amp;gt;&lt;/code> is whatever name you want to give the results file. For example, you might say &lt;code>tesseract 1905-07-18-p3.jpg monday-page-three-text&lt;/code>.&lt;/p>
+&lt;p>Open the output file (which will be in &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/" target="_blank" rel="noopener">plain text&lt;/a>) and take a gander at the results. They will be okay, but not as good as we&amp;rsquo;d like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.&lt;/p>
+&lt;p>Things should work a bit better using this command:&lt;/p>
+&lt;p>&lt;code>tesseract &amp;lt;input_file&amp;gt; &amp;lt;output_file&amp;gt; -l eng+fra --psm 1&lt;/code>&lt;/p>
+&lt;p>If everything looks good, proceed to step 2d. If not, follow step 2c.&lt;/p>
+&lt;h3 id="2c-help-tesseract-see-the-columns">2c. Help tesseract see the columns&lt;/h3>
+&lt;p>There are various reasons why your OCR results might be poor.&lt;/p>
+&lt;ul>
+&lt;li>the microfilm itself might be dirty&lt;/li>
+&lt;li>the image you took might be blurred&lt;/li>
+&lt;li>the image might be too small or too compressed&lt;/li>
+&lt;li>the image might not be straight.&lt;/li>
+&lt;/ul>
+&lt;p>Do everything you can when digitizing from microfilm to use the cleanest, straightest images possible.&lt;/p>
+&lt;p>If tesseract still struggles with your columns, you can trick it by drawing a lines in between the column. Make a copy of your page image (giving it a different name from the original), then use image software (such as Preview on OSX or Paint on Windows) to draw five thin black lines overtop the lines separating columns on the images. Run OCR on this image. The text file that results will contain some reading errors, but it shouldn&amp;rsquo;t confuse the columns.&lt;/p>
+&lt;p>If it still garbles the columns, you can try drawing rectangles instead of lines. For example, you can block out the second, fourth and sixth columns. You can also block out ads, templated features, and anything else you don’t need tesseract to read.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/column-block-right.png" alt="column-block-right" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Then make another copy, blocking out the first, third, and fifth columns.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/column-block-left.png" alt="column-block-left" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you&amp;rsquo;ll have to combine them piece by piece).&lt;/p>
+&lt;h2 id="3-make-basic-edits-to-the-raw-text">3. Make basic edits to the raw text&lt;/h2>
+&lt;p>Before moving this raw text into our XML file, we need to prepare it for XML. To do this, use a full plain text editor such as &lt;a href="https://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text&lt;/a> or &lt;a href="https://atom.io/" target="_blank" rel="noopener">Atom&lt;/a>. (We&amp;rsquo;ll learn more about plain text editing in &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions">another tutorial&lt;/a>). Do not use the text editor that your operating system provides, because it does not support regular expressions.&lt;/p>
+&lt;p>Using &lt;strong>Find and Replace&lt;/strong> in your plain text editor, follow these steps:&lt;/p>
+&lt;ol>
+&lt;li>Find every &lt;code>&amp;lt;&lt;/code> and &lt;code>&amp;gt;&lt;/code>, which will almost certainly be OCR errors, and delete or replace them.&lt;/li>
+&lt;li>XML freaks out if it sees an &amp;ldquo;and&amp;rdquo; symbol, and there are lots of them in the &lt;em>Egyptian Gazette&lt;/em>. Replace &lt;code>&amp;amp;&lt;/code> with &lt;code>&amp;amp;amp;&lt;/code>.&lt;/li>
+&lt;li>Tesseract puts an empty line between most paragraphs that it recognizes. We can use &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/">regular expressions&lt;/a> to mark these paragraph breaks in XML code. In your text editor, enable regular expressions. Then, find &lt;code>\n\n&lt;/code> (the regular expression for double paragraph breaks) and replace with &lt;code>&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&lt;/code> (the XML code for paragraph breaks).&lt;/li>
+&lt;li>In order to complete this file, add a &lt;code>&amp;lt;p&amp;gt;&lt;/code> at the very start, and a &lt;code>&amp;lt;/p&amp;gt;&lt;/code> at the very end. These are necessary to open and close the first and last paragraph.&lt;/li>
+&lt;/ol>
+&lt;p>You should now be able to paste this text into XML without errors.&lt;/p>
+&lt;h2 id="4-move-the-text-into-your-xml-file">4. Move the text into your XML file&lt;/h2>
+&lt;p>Copy the contents of the first column in the text file you&amp;rsquo;ve prepared. Open Oxygen. In the xml file that you&amp;rsquo;re preparing, put a &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/code> pair of tags after the &lt;pb n="?"/> tag corresponding to the page you&amp;rsquo;ve OCRed. Paste the text in between these tags.&lt;/p>
+&lt;p>Proceed to copy the second column in your text file. In Oxygen, add an &lt;code>&amp;lt;cb n=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.&lt;/p>
+&lt;p>You should have a green box, indicating a well-formed document. If not, correct any errors you find.&lt;/p>
+&lt;h1 id="option-c-abby-finereader">Option C: ABBY Finereader&lt;/h1>
+&lt;p>If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.&lt;/p>
+&lt;p>&lt;strong>Strengths:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>multi-language support&lt;/li>
+&lt;li>well-supported&lt;/li>
+&lt;li>allows scanning of full page in one go&lt;/li>
+&lt;li>excellent in-program correction interface (Windows only)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Weaknesses:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>requires correcting text boxes to recognize columns correctly&lt;/li>
+&lt;li>free trial is limited, and program is expensive&lt;/li>
+&lt;li>OSX version is inferior to Windows version&lt;/li>
+&lt;/ul>
+&lt;h2 id="if-you-are-using-windows">If you are using Windows:&lt;/h2>
+&lt;ol>
+&lt;li>Download &lt;a href="http://trial.abbyyusa.com/download-fr12pro" target="_blank" rel="noopener">AABBY Finereader&lt;/a>. The 30-day, 100-page free trial that they offer &lt;em>should&lt;/em> be enough time to complete your OCR work for this class. If you don&amp;rsquo;t complete it on time, you have the option to buy the software for about $100.&lt;/li>
+&lt;li>Open the program, then open the image file of the page you wish to read. When you open the document, Finereader will automatically read it. Let it do its work.&lt;/li>
+&lt;li>Once the initial read is complete, you&amp;rsquo;ll need to make sure that it&amp;rsquo;s defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you&amp;rsquo;ll want to reshape these boxes so that they cover the text correctly. I&amp;rsquo;ve sometimes found that it&amp;rsquo;s best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material&amp;ndash;you&amp;rsquo;ll copy and paste templates rather than OCR those items.&lt;/li>
+&lt;li>Once the boxes cover all of the text, you need to make sure that they&amp;rsquo;re in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.&lt;/li>
+&lt;li>It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the &amp;ldquo;Area Properties&amp;rdquo; tab at the bottom of the screen) to French.&lt;/li>
+&lt;li>Once the sequence of areas is correct, click the &amp;ldquo;read&amp;rdquo; icon again. The program will reread the text in the order you&amp;rsquo;ve indicated.&lt;/li>
+&lt;li>Click on the &amp;ldquo;verification&amp;rdquo; icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. &lt;em>Do not&lt;/em> correct any errors you might find in the newspaper itself&amp;ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li>
+&lt;li>Once you&amp;rsquo;ve verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the &amp;ldquo;Save&amp;rdquo; icon in the middle top of the page. Choose &amp;ldquo;Plain text&amp;rdquo; or &amp;ldquo;Word Document&amp;rdquo; as the document layout (as you like), and click &amp;ldquo;Save.&amp;rdquo; Name the document following the standard format of YYYY-MM-DD-p#. If you click &amp;ldquo;Format options,&amp;rdquo; and check &amp;ldquo;Use blank line as paragraph separator,&amp;rdquo; it will make your work easier later on. You can now close Finereader without losing your verification work.&lt;/li>
+&lt;li>Once you&amp;rsquo;ve finished work on the page, upload it to your personal GitHub repository.&lt;/li>
+&lt;/ol>
+&lt;h2 id="if-you-are-using-mac">If you are using Mac:&lt;/h2>
+&lt;p>This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can &lt;a href="https://trial.abbyyusa.com/download-frpro-mac-free-trial" target="_blank" rel="noopener">download here&lt;/a>. The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you&amp;rsquo;ve downloaded, don&amp;rsquo;t install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.&lt;/p>
+&lt;p>To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click &amp;ldquo;Export.&amp;rdquo; Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.&lt;/p>
+&lt;h2 id="if-your-trial-license-runs-out">If your trial license runs out:&lt;/h2>
+&lt;p>The free version of &lt;a href="finereaderonline.com">Finereader Online&lt;/a> allows you to OCR 10 pages per month. This should help if you don&amp;rsquo;t manage to finish all of your OCR in time. Note that there is no verification tool in the online version.&lt;/p>
+&lt;h1 id="option-d-cisdem-osx-only">Option D: Cisdem (OSX only)&lt;/h1>
+&lt;p>I&amp;rsquo;ve also had good results with &lt;a href="https://www.cisdem.com/ocr-wizard-mac.html" target="_blank" rel="noopener">Cisdem OCR Wizard&lt;/a>. I&amp;rsquo;m not sure how long their free trial lasts, but it&amp;rsquo;s worth a try, and can also be purchased for $60. Follow the directions below.&lt;/p>
+&lt;p>&lt;strong>Strengths:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>multi-language support&lt;/li>
+&lt;li>allows scanning of full page in one go&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Weaknesses:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>requires correcting text boxes to recognize columns correctly&lt;/li>
+&lt;li>free trial is limited, and program is expensive&lt;/li>
+&lt;li>OSX only&lt;/li>
+&lt;/ul>
+&lt;h2 id="using-cisdem">Using Cisdem&lt;/h2>
+&lt;ol>
+&lt;li>Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press &amp;ldquo;recognize&amp;rdquo;. Let it do its work.&lt;/li>
+&lt;li>Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.&lt;/li>
+&lt;li>Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.&lt;/li>
+&lt;li>Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. &lt;em>Do not&lt;/em> correct any errors you might find in the newspaper itself&amp;ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li>
+&lt;li>Once you&amp;rsquo;ve finished work on the page, save it&amp;ndash;soon we&amp;rsquo;ll upload it to your xml issue file.&lt;/li>
+&lt;/ol>
+&lt;p>(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of &lt;a href="http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;amp;utm_medium=Popup&amp;amp;utm_campaign=Popup-trial" target="_blank" rel="noopener">Readiris Pro&lt;/a>. &lt;a href="http://solutions.weblite.ca/pdfocrx/download_mac" target="_blank" rel="noopener">PDF OCR X Community Edition&lt;/a> also didn&amp;rsquo;t do a great job, but it&amp;rsquo;s free).&lt;/p>
+&lt;h1 id="faqs">FAQs&lt;/h1>
+&lt;h2 id="how-many-errors-should-i-expect-to-find">How many errors should I expect to find?&lt;/h2>
+&lt;p>If you find a very large number of misread words, you might consider re-scanning the page at a higher resolution or a better focus.&lt;/p>
+&lt;h2 id="how-do-i-deal-with-accented-letters">How do I deal with accented letters?&lt;/h2>
+&lt;p>Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for &lt;a href="https://kb.iu.edu/d/aihp" target="_blank" rel="noopener">Windows&lt;/a> and &lt;a href="http://symbolcodes.tlt.psu.edu/accents/codemac.html" target="_blank" rel="noopener">Mac&lt;/a>.&lt;/p>
+&lt;h2 id="what-if-i-cant-read-the-text">What if I can&amp;rsquo;t read the text?&lt;/h2>
+&lt;p>Wrap it in an &lt;code>&amp;lt;unclear&amp;gt;&lt;/code> tag, and maybe add a &lt;code>&amp;lt;!-- comment --&amp;gt;&lt;/code> explaining what&amp;rsquo;s going on.&lt;/p></description></item><item><title>Content markup instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/</link><pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>This lesson explains how to convert the raw, basic XML text you produced through OCR into useable TEI-XML material.&lt;/p>
+&lt;h2 id="1-fix-the-basic-structural-tags">1. Fix the basic structural tags&lt;/h2>
+&lt;p>Now correct and add basic structural tags of three types:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code>, which you can use for articles, items, or any division of the page that makes sense to you,&lt;/li>
+&lt;li>&lt;code>&amp;lt;head&amp;gt;&lt;/code>, which indicates a headline (the headline must be the first element in the item),&lt;/li>
+&lt;li>&lt;code>&amp;lt;p&amp;gt;&lt;/code>, which indicates a paragraph.&lt;/li>
+&lt;/ul>
+&lt;p>Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit &lt;code>command-E&lt;/code>. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit &lt;code>command-slash&lt;/code>.&lt;/p>
+&lt;p>Once you add these tags to your page, you might have a valid document (and thus a green box in Oxygen). But these common errors will probably also have to be addressed:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&amp;amp;&lt;/strong>: the ampersand is represented as &lt;code>&amp;amp;amp;&lt;/code> in xml. &lt;code>&amp;amp;&lt;/code> alone will create an error.&lt;/li>
+&lt;li>&lt;strong>&amp;gt;&lt;/strong> or &lt;strong>&amp;lt;&lt;/strong>: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.&lt;/li>
+&lt;li>anything else not in a &lt;code>&amp;lt;div&amp;gt;&lt;/code>, and not in a &lt;code>&amp;lt;p&amp;gt;&lt;/code> or a &lt;code>&amp;lt;head&amp;gt;&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-add-feature-attributes">2. Add feature attributes&lt;/h2>
+&lt;p>There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked &lt;code>&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt;&lt;/code> rather than &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code>. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is &lt;a href="https://dig-eg-gaz.github.io/issues/features/">here&lt;/a>. To add an feature attribute, place it within the &lt;code>&amp;lt;div&amp;gt;&lt;/code> tag, after the &lt;code>type=&amp;quot;section&amp;quot;&lt;/code> attribute, thus: &lt;code>&amp;lt;div type=&amp;quot;section&amp;quot; feature=&amp;quot;local&amp;quot;&amp;gt;&lt;/code>. If you type &lt;code>feature&lt;/code> inside the tag, Oxygen should offer you an autocomplete menu of features.&lt;/p>
+&lt;h2 id="3-add-more-complex-structural-tags">3. Add more complex structural tags&lt;/h2>
+&lt;p>There are more tags that you can add:&lt;/p>
+&lt;ul>
+&lt;li>If the article or item is in French, add the attribute &lt;code>xml:lang=&amp;quot;fr&amp;quot;&lt;/code> to the &lt;code>&amp;lt;div&amp;gt;&lt;/code> tag.&lt;/li>
+&lt;li>&lt;strong>&lt;code>&amp;lt;cb/&amp;gt;&lt;/code>&lt;/strong> for column breaks. Be sure to put this tag at the &lt;em>beginning&lt;/em> of the column. Add the number of the column, as well, thus: &lt;code>&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code> For mixed columns, see &lt;a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb" target="_blank" rel="noopener">this guidance&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>&lt;code>&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt;&lt;/code>&lt;/strong> to wrap multiple items that belong together, for instance in the international or local news sections.&lt;/li>
+&lt;li>&lt;strong>&lt;code>&amp;lt;dateline&amp;gt;&lt;/code>&lt;/strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code> for each newswire report.&lt;/li>
+&lt;li>&lt;strong>&lt;code>&amp;lt;byline&amp;gt;&lt;/code>&lt;/strong> for authors. There can only be one byline per division.&lt;/li>
+&lt;li>&lt;strong>&lt;code>&amp;lt;gap/&amp;gt;&lt;/code>&lt;/strong> for holes in the text, &lt;strong>&lt;code>&amp;lt;unclear&amp;gt;&lt;/code>&lt;/strong> for illegible text (you can supply an attribute explaining why), and &lt;strong>&lt;code>&amp;lt;supplied&amp;gt;&lt;/code>&lt;/strong> for something that was illegible but which you figured out by finding the same thing in a different issue.&lt;/li>
+&lt;li>pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot; xml:id=&amp;quot;item1&amp;quot; next=&amp;quot;item2&amp;quot;&amp;gt;&lt;/code> and &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot; xml:id=&amp;quot;item2&amp;quot; prev=&amp;quot;item1&amp;quot;&amp;gt;&lt;/code>. If the articles are in different issues, make their tags &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot; xml:id=&amp;quot;item1&amp;quot; next=&amp;quot;YYYY-MM-DD.xml#item2&amp;quot;&amp;gt;&lt;/code> and &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot; xml:id=&amp;quot;item2&amp;quot; prev=&amp;quot;YYYY-MM-DD.xml#item1&amp;quot;&amp;gt;&lt;/code>.&lt;/li>
+&lt;li>the &lt;strong>&lt;code>&amp;lt;figure&amp;gt;&lt;/code>&lt;/strong> element will be useful for the &lt;em>Egyptian Gazette&lt;/em>, but I have not yet worked out how to use it.&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-add-advanced-content-tags">4. Add advanced content tags&lt;/h2>
+&lt;p>This is a more advanced undertaking. See the separate tutorial &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/tagging-people-and-places-instructions/">here&lt;/a>.&lt;/p></description></item><item><title>Polishing TEI instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/</link><pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.&lt;/p>
+&lt;h2 id="1-get-the-page-hierarchy-right">1. Get the page hierarchy right&lt;/h2>
+&lt;p>The best way to get a quick idea of your file&amp;rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page &lt;code>&amp;lt;div&amp;gt;&lt;/code>s:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/page-div-outline.png" alt="page-div-outline" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>All other &lt;code>&amp;lt;div&amp;gt;&lt;/code>s should be &lt;em>inside&lt;/em> the page &lt;code>&amp;lt;div&amp;gt;&lt;/code> in which they appear. If you do not have everything inside pages, your outline will look messy:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/page-div-outline-messy.png" alt="page-div-outline-messy" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The solution is to drag everything into its proper page.&lt;/p>
+&lt;p>Another problem that arises is failing to close divs or pages. You&amp;rsquo;ll know you have this problem if the end of your file looks like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/unclosed-divs.png" alt="unclosed-divs" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="2-get-the-breaks-right">2. Get the breaks right&lt;/h2>
+&lt;p>There are three types of &amp;ldquo;breaks&amp;rdquo; in the digital &lt;em>Egyptian Gazette&lt;/em>. All are indicated using single tags, rather than pairs: unlike paragraph tags, for example, which must open (&lt;code>&amp;lt;p&amp;gt;&lt;/code>) and close (&lt;code>&amp;lt;/p&amp;gt;&lt;/code>), break tags come alone. They include a &amp;ldquo;slash&amp;rdquo; just before the closing bracket to show that they have no partner: &lt;code>&amp;lt;lb/&amp;gt;&lt;/code>.&lt;/p>
+&lt;p>Two of the break tags are quite straightforward to work with:&lt;/p>
+&lt;h3 id="a-line-breaks">a. Line breaks&lt;/h3>
+&lt;p>You will have little need for line breaks, which are coded &lt;code>&amp;lt;lb/&amp;gt;&lt;/code>. For the most part, line breaks are indicated with paragraph tags. Sometimes, however (in adverts, for instance), you may find it useful or necessary to use a &lt;code>&amp;lt;lb/&amp;gt;&lt;/code> instead of &lt;code>&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code>.&lt;/p>
+&lt;h3 id="b-page-breaks">b. Page breaks&lt;/h3>
+&lt;p>Page breaks (&lt;code>&amp;lt;pb n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code>) are currently used in the digital &lt;em>Egyptian Gazette&lt;/em>, but they are redundant, because every page is contained in &lt;code>&amp;lt;div type=&amp;quot;page&amp;quot; n=&amp;quot;?&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&lt;/code> tags. In both cases, the &lt;code>n=&amp;quot;?&amp;quot;&lt;/code> attribute records the page number.&lt;/p>
+&lt;p>Please use both divs and breaks to indicate pages. TEI&amp;rsquo;s rules for periodicals are still in development, and we want our resource to be flexible to more than one approach. Note that the page break tag comes &lt;em>before&lt;/em> the page &lt;code>&amp;lt;div&amp;gt;&lt;/code> itself; the arrangement outlined in the first page hierarchy image above is correct.&lt;/p>
+&lt;h2 id="3-column-breaks">3. Column breaks&lt;/h2>
+&lt;p>Column breaks can be hard to work out, not least because they are not well implemented in the TEI specification. In this project, we use three different tags to describe the columns:&lt;/p>
+&lt;h3 id="a-cb-n">a. &lt;code>&amp;lt;cb n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code>&lt;/h3>
+&lt;p>This tag indicates the start of a new column. Use it at the beginning of every page, and again each time the text stops at the bottom of the page and jumps to the top of another column. Use the &lt;code>n=&lt;/code> attribute to indicate which column is beginning.&lt;/p>
+&lt;p>This is straightforward on a typical page 3, which contains six even-sized columns running from the top to the bottom of the page.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/cols-example-6-cbs-p-3.png" alt="cols-example-6-cbs-p-3" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Do not make each column into its own &lt;code>&amp;lt;div&amp;gt;&lt;/code>. Column breaks often coincide with the start of a new &lt;code>&amp;lt;div&amp;gt;&lt;/code>, but they have a distinct role. They indicate the layout of the paper, not its content. &lt;code>&amp;lt;div&amp;gt;&lt;/code>, on the other hand, is used to encode articles and sections of the paper with their own headline and content. A &lt;code>&amp;lt;cb/&amp;gt;&lt;/code> can even be dropped in the middle of a paragraph, as we see with the column break at the start of column 5 in the image above.&lt;/p>
+&lt;h3 id="b-cols-n">b. &lt;code>&amp;lt;cols n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code>&lt;/h3>
+&lt;p>This tag indicates how many evenly-sized columns the page is divided into. Use it only when the width of columns change. Below the nameplate on page 1, for example, we use a &lt;code>&amp;lt;cols n=&amp;quot;3&amp;quot;/&amp;gt;&lt;/code> tag to show that the page is divided into three equal columns. We insert this tag before we show the start of the first column using &lt;code>&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code>.&lt;/p>
+&lt;p>Page 3 is usually divided into six equal columns. We can indicate this using &lt;code>&amp;lt;cols n=&amp;quot;6&amp;quot;/&amp;gt;&lt;/code>. Again, this tag comes before the first column break (as indicated in the image above).&lt;/p>
+&lt;p>Things are more complicated on page 2, which often contains a mix of single- and double-width columns. Remember that single-width columns are indicated with &lt;code>&amp;lt;cols n=&amp;quot;6&amp;quot;/&amp;gt;&lt;/code>, because the page can contain six of them. Double-width colums are indicated with &lt;code>&amp;lt;cols n=&amp;quot;3&amp;quot;/&amp;gt;&lt;/code>, because the page can contain only three of them. The rare triple-width column would be marked with &lt;code>&amp;lt;cols n=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code>.&lt;/p>
+&lt;p>Here is an example of a page 2, with its layout blocked in colored columns:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/cols-example-p-2-layout.png" alt="cols-example-p-2-layout" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The page starts with a double-width column (A), which splits into two single-width columns (A &amp;amp; B) partway down. The middle of the page contains another double-width column ( C ) that splits into single-width columns (C &amp;amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp;amp; F).&lt;/p>
+&lt;p>We encode the columns on this page like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/cols-example-p-2-layout-xml.png" alt="cols-example-p-2-layout-xml" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="c-colspan-n">c. &lt;code>&amp;lt;colSpan n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code>&lt;/h3>
+&lt;p>You will rarely need to use this tag. It is only used for items that are wider than a single column located where the page cannot be divided into even-sized columns using &lt;code>&amp;lt;cols/&amp;gt;&lt;/code>.&lt;/p>
+&lt;p>For example, the &amp;ldquo;Nile Gauge Reading&amp;rdquo; item at the bottom of this page should be preceded by a &lt;code>&amp;lt;colSpan n=&amp;quot;4&amp;quot;/)&lt;/code> tag.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/cols-example-colspan-4.png" alt="cols-example-colspan-4" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Plain text instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>One of the aims of this class is to transform the &lt;em>Egyptian Gazette&lt;/em> into an interchangeable format that everyone can use. To do so, we must begin with plain text documents, which contain no hidden extra code. Word processor documents (.doc files, for example) can only be opened with word processors. Plain text documents can be opened with all and any text editors. That&amp;rsquo;s what we want to use. For more detailed background on plain text editing, see this &lt;a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown" target="_blank" rel="noopener">plain text tutorial&lt;/a>.&lt;/p>
+&lt;h2 id="what-program-should-i-use-to-edit-text">What program should I use to edit text?&lt;/h2>
+&lt;p>Your computer already contains a plain text editor that should work fine initially. TextEdit is loaded on Macs, and Notepad is bundled with Windows. But there are &lt;a href="https://en.wikipedia.org/wiki/Comparison_of_text_editors" target="_blank" rel="noopener">an awful lot of other text editors out there&lt;/a> that offer enhanced features. These instructions are for &lt;a href="https://atom.io/" target="_blank" rel="noopener">Atom.io&lt;/a>, a free open source editor that you can download and run on any platform.&lt;/p>
+&lt;h2 id="how-do-i-format-plain-text">How do I format plain text?&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>.txt&lt;/strong> is the simplest way to format plain text.&lt;/li>
+&lt;li>&lt;strong>.md&lt;/strong> (Markdown) allows simple formatting.&lt;/li>
+&lt;/ol>
+&lt;h2 id="what-other-features-of-atom-should-i-know-about">What other features of Atom should I know about?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;em>Markdown Preview&lt;/em> - under the &amp;ldquo;Packages&amp;rdquo; menu, you can open a window that shows how your Markdown text will look when formatted.&lt;/li>
+&lt;li>&lt;em>Soft Wrap&lt;/em> - under the &amp;ldquo;View&amp;rdquo; menu, you can toggle soft wrap, which will allow you to see long lines of text on your screen.&lt;/li>
+&lt;/ul></description></item><item><title>Tagging people and places</title><link>https://dig-eg-gaz.github.io/how-to/digitization/tagging-people-and-places-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/tagging-people-and-places-instructions/</guid><description>&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;p>The greatest use for the encoded &lt;em>Egyptian Gazette&lt;/em> will come in linking its content to other data sets. There are wonderful datasets listing people and places of the past. This tutorial explains how we will link our project to those projects. To do so, we will use the Text Encoding Initiative (TEI)&amp;rsquo;s &lt;a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html" target="_blank" rel="noopener">rich schema for tagging people and places&lt;/a>.&lt;/p>
+&lt;h2 id="1-tagging-places">1. Tagging places&lt;/h2>
+&lt;p>The basic tag that we will use is &lt;code>&amp;lt;placeName&amp;gt;&lt;/code>. Full details of usage are &lt;a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPLAC" target="_blank" rel="noopener">here&lt;/a> and &lt;a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>The key element we will use to link our places to other date sets is &lt;code>ref=&lt;/code>. We can use this to link to authorities such as wikidata, geonames, or &lt;a href="https://tools.wmflabs.org/geohack/geohack.php?pagename=Alexandria&amp;amp;params=31_12_N_29_55_E" target="_blank" rel="noopener">geohack&lt;/a>&lt;/p>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;ul>
+&lt;li>Goad fire insurance maps of &lt;a href="https://iiif.lib.harvard.edu/manifests/view/drs:15525296$3i" target="_blank" rel="noopener">Alexandria&lt;/a> and &lt;a href="https://iiif.lib.harvard.edu/manifests/view/drs:15525297$1i" target="_blank" rel="noopener">Cairo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.davidrumsey.com/luna/servlet/view/all?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No" target="_blank" rel="noopener">David Rumsey map collection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wikimapia.org" target="_blank" rel="noopener">Wikimapia&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-tagging-persons">2. Tagging persons&lt;/h2>
+&lt;p>The basic tag we will use is &lt;code>&amp;lt;persName&amp;gt;&lt;/code>. Full details of usage are &lt;a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>Work to link persons to references such as wikidata or viaf. For instance, you might describe Cromer thus:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">&amp;lt;persName ref=&amp;#34;https://www.wikidata.org/wiki/Q336487&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;forename&amp;gt;Evelyn&amp;lt;/forename&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;surname&amp;gt;Baring&amp;lt;/surname&amp;gt;, &amp;lt;roleName&amp;gt;1st Earl of Cromer&amp;lt;/roleName&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;/persName&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For persons not named, but who have a reference that you can supply (either an external authority or an xml:id), use &lt;code>&amp;lt;rs&amp;gt;&lt;/code> (refering string).&lt;/p>
+&lt;h2 id="3-tagging-events">3. Tagging events&lt;/h2>
+&lt;p>To label an event, use a variant of the &lt;code>&amp;lt;interp xml:id=&amp;quot;&amp;quot;&amp;gt;&lt;/code> tag.&lt;/p></description></item><item><title>Querying the Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/how-to/digitization/query-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/query-instructions/</guid><description>&lt;h2 id="objective">Objective&lt;/h2>
+&lt;p>We are digitizing the &lt;em>Egyptian Gazette&lt;/em> to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for &amp;ldquo;London&amp;rdquo; in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for &amp;ldquo;London&amp;rdquo; in &lt;em>specific parts&lt;/em> of the newspaper: page 3, for example, or local news. Restricting your search to these locations can give you more useful results.&lt;/p>
+&lt;p>The two main query (search) languages for XML are &lt;a href="https://www.w3.org/TR/xpath-datamodel-30/" target="_blank" rel="noopener">XPath and XQuery&lt;/a>. This tutorial focuses on XPath as used in the Oxygen XML editor. An XPath is a series of terms (words) separated by slashes (/) and other punctuation that describes a specific location or locations in an XML file. For example, the XPath &lt;code>//div[@type=&amp;quot;section&amp;quot;]/div/p[contains(., 'cotton')]&lt;/code> describes paragraphs containing the word &amp;ldquo;cotton&amp;rdquo; that are contained in any &lt;code>div&lt;/code> that is itself contained in a &lt;code>div&lt;/code> that is defined as a section. This tutorial explains how to use this powerful tool.&lt;/p>
+&lt;h2 id="1-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor&lt;/h2>
+&lt;p>Oxygen XML Editor allows you to run queries in several different ways. For our purposes, the most useful are a) Find and Replace and b) the XPath query bar&lt;/p>
+&lt;h3 id="a-find-and-replace">A) Find and Replace&lt;/h3>
+&lt;p>If you are searching for a specific word or phrase, or searching using regular expressions, it&amp;rsquo;s easiest to use Find and Replace. You can search for the word everywhere in a file, or in specific parts of that file, by restricting the search to a certain XPath.&lt;/p>
+&lt;h4 id="searching-a-single-file">Searching a single file&lt;/h4>
+&lt;p>Open the file that you wish to search in the Oxygen XML editor. Then, click on Find/Replace (the magnifying glass). This will allow you to search for a keyword in the open file. The results will be displayed at the bottom of the editor. Click on any item in this list to be taken to that location in your file.&lt;/p>
+&lt;p>As an example, search for &lt;code>Egypt&lt;/code>. Then, search for &lt;code>Egypt&lt;/code>, but restrict your XPath to &lt;code>div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;3&amp;quot;]&lt;/code>, which will restrict your search to page 3 only. Copmpare the results of these two searches.&lt;/p>
+&lt;h4 id="searching-several-files">Searching several files&lt;/h4>
+&lt;p>Open all of the files that you wish to search, then click on Find/Replace in Files:
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/find-replace-oxygen.png" alt="find replace oxygen" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ldquo;All opened files,&amp;rdquo; then proceed with your search.&lt;/p>
+&lt;h4 id="searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette&lt;/h4>
+&lt;p>To search everything in the &lt;a href="https://github.com/dig-eg-gaz/content" target="_blank" rel="noopener">Digital Egyptian Gazette content repository&lt;/a>, under Find/Replace in Files &amp;gt; Scope, choose &amp;ldquo;Specified path,&amp;rdquo; then navigate to the location where you&amp;rsquo;ve cloned your fork of the content repository. For more information about how to find this location, consult the &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/">Github tutorial&lt;/a>.&lt;/p>
+&lt;h3 id="b-xpath-query-bar">B) XPath query bar&lt;/h3>
+&lt;p>If you are searching for particular nodes rather than words, or counting nodes, it&amp;rsquo;s easiest to use the XPath query bar, which is located near the top left of your screen.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/xpath-query-box-oxygen.png" alt="xpath query box oxygen" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The drop-down icon on the left of this box allows you to choose the scope of your search: current file, all opened files, and other options. To search the full contents of the digital Egyptian Gazette, you&amp;rsquo;ll need to use a &amp;ldquo;working set.&amp;rdquo;&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/xpath-query-box-scope.png" alt="xpath query box scope" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h4 id="set-up-a-working-set">Set up a working set&lt;/h4>
+&lt;p>To create a working set of files for your search, click on &amp;ldquo;Configure XPath working sets&amp;hellip;&amp;rdquo; in the drop down menu pictured above. Create a &amp;ldquo;New working set&amp;rdquo;, give it a name, then press enter. Now click &amp;ldquo;Add resources,&amp;rdquo; then &amp;ldquo;Folders,&amp;rdquo; then select the content folder you&amp;rsquo;ve cloned from GitHub. Click &amp;ldquo;Done&amp;rdquo; and &amp;ldquo;Ok&amp;rdquo;, and you should be ready to query the full contents.&lt;/p>
+&lt;h4 id="basic-xpath-queries">Basic XPath queries&lt;/h4>
+&lt;p>Set the scope to &amp;ldquo;Current File,&amp;rdquo; then try these basic queries:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div&lt;/code> returns a list of all the &amp;ldquo;divs&amp;rdquo; in your file&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;item&amp;quot;]&lt;/code> returns a list of all the item-type divs in your file&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;item&amp;quot;][contains(., 'cotton')]&lt;/code> returns a list of all the item-type divs in your file containing the word &amp;ldquo;cotton&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-the-what-and-where-of-xpath">2. The What and Where of XPath&lt;/h2>
+&lt;p>Once you have the basic parameters set up, it&amp;rsquo;s time to look a bit more carefully at the logic of XPath. XPath asks you to do two things: specify &lt;strong>where&lt;/strong> you want to search, and specify &lt;strong>what&lt;/strong> you want to search for.&lt;/p>
+&lt;h3 id="where-searches">&amp;ldquo;Where&amp;rdquo; searches&lt;/h3>
+&lt;p>We use XML to structure our issues of the &lt;em>Egyptian Gazette&lt;/em> by page, section, item, and so on. For example, we use nesting pairs of tags to put &lt;code>&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&lt;/code> inside &lt;code>&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&lt;/code>, and &lt;code>&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&lt;/code> inside &lt;code>&amp;lt;div type=&amp;quot;page&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&lt;/code>.&lt;/p>
+&lt;p>This structure is commonly described as a &amp;ldquo;tree.&amp;rdquo; The root is the issue, which branches into six or eight pages, and each page branches into sections and items and paragraphs.&lt;/p>
+&lt;p>An XPath query shows the tree parts separated by slashes, starting from root and heading towards the branches, like so:&lt;/p>
+&lt;p>&lt;code>//div[@type=&amp;quot;page&amp;quot;]/div[@type=&amp;quot;section&amp;quot;]/div[@type=&amp;quot;item&amp;quot;]/p&lt;/code>&lt;/p>
+&lt;p>A double slash (&lt;strong>//&lt;/strong>) tells the computer to look anywhere in the document for the item that comes next. A single slash (&lt;strong>/&lt;/strong>) tells the computer to look only one level up the tree. What difference does this make?&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div//head&lt;/code> would return any headline in any div in the whole document. This would not be a very good search, because it would return a huge number of results.&lt;/li>
+&lt;li>&lt;code>//div/div/div/div/head&lt;/code> would return any paragraph that is inside four divisions (for instance, a paragraph in an item in a section in a page). This would return fewer results.&lt;/li>
+&lt;/ul>
+&lt;p>The best way to say exactly where you want to look is by using &lt;strong>attributes&lt;/strong>. These are contained in square brackets. For example, if you want to search for the headlines within page 1 only, you would say &lt;code>//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]//head&lt;/code>. What goes in the square brackets is the attributes you put in the &lt;code>&amp;lt;div&amp;gt;&lt;/code> tag when you&amp;rsquo;re encoding the issues.&lt;/p>
+&lt;p>With a little practice, you&amp;rsquo;ll learn to search for results only in the relevant parts of the newspaper.&lt;/p>
+&lt;h3 id="what-searches">&amp;ldquo;What&amp;rdquo; searches&lt;/h3>
+&lt;p>After you tell XPath &lt;em>where&lt;/em> you want it to search, you can tell it &lt;em>what&lt;/em> you want it to return. (This is optional.) Probably the most common thing to search for is a word or words. To do this, add &lt;code>[contains(., &amp;quot;searchtext&amp;quot;)]&lt;/code> to the end of your search, putting your search word(s) between the quotation marks. For example, &lt;code>//div[contains(., &amp;quot;plague&amp;quot;)]&lt;/code> will return all divs that contain the word &amp;ldquo;plague.&amp;rdquo; Note that this search is case sensitive, and will not return &amp;ldquo;PLAGUE&amp;rdquo; and &amp;ldquo;Plague.&amp;rdquo; To remedy this ,use the &lt;code>matches&lt;/code> function with the &lt;code>'i'&lt;/code> flag, which makes the search case insensitive: &lt;code>//div[matches(.,'the plague', 'i')]&lt;/code>.&lt;/p>
+&lt;p>You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>count()&lt;/code> &amp;ndash; how many of these things are there?&lt;/li>
+&lt;li>&lt;code>string()&lt;/code> &amp;ndash; what is the string of text this thing contains?&lt;/li>
+&lt;li>&lt;code>number()&lt;/code> &amp;ndash; what number is found on this branch?&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-navigating-the-tree">3. Navigating the tree&lt;/h2>
+&lt;p>You can navigate around the tree by using commands like &lt;code>parent::&lt;/code> or &lt;code>following-sibling::&lt;/code> instead of the slash. These will move you up and down the tree.&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;ul>
+&lt;li>Return all datelines contained in a &amp;ldquo;cable&amp;rdquo; div type: &lt;code>//div[@type=&amp;quot;cable&amp;quot;]/parent::div//dateline&lt;/code>&lt;/li>
+&lt;li>Return all placeNames in cable: &lt;code>//div[@type=&amp;quot;cable&amp;quot;]/parent::div//dateline//placeName&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="search-using-xmlid-or-feature">Search using xml:id or feature&lt;/h3>
+&lt;p>Many ads, templates, and sections have &lt;code>xml:id&lt;/code> or &lt;code>feature&lt;/code> tags embedded in them. These are meant to simplify your search. For features, use &lt;code>//div[@feature=&amp;quot;shippingMovements&amp;quot;]&lt;/code>. For tables, use &lt;code>//table[@xml:id=&amp;quot;deg-ta-cppa01&amp;quot;]&lt;/code>.&lt;/p>
+&lt;h2 id="4-working-with-tables">4. Working with tables&lt;/h2>
+&lt;p>Tables are a powerful part of the XML-encoded &lt;em>Egyptian Gazette&lt;/em>. XPath gives us tools to return precise parts of the information these tables contain. For example:&lt;/p>
+&lt;ul>
+&lt;li>return the text contained in the cell after a cell containing the text &amp;ldquo;P.T.&amp;rdquo; &lt;code>//table//cell[contains(.,'P.T.')]/following-sibling::cell[1]/text()&lt;/code>. Does not work for numbers, it seems.&lt;/li>
+&lt;li>return the number contained in the cell after a cell containing the text &amp;ldquo;Augment.&amp;rdquo; &lt;code>//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/number()&lt;/code>. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).&lt;/li>
+&lt;li>return the string contained in the cell after a cell containing the text &amp;ldquo;Augment.&amp;rdquo; &lt;code>//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/string()&lt;/code>&lt;/li>
+&lt;li>return the string text of the first paragraph of the div with the heading &amp;ldquo;MARCHE DE MINET&amp;rdquo; &lt;code>//div//head[contains(.,'MARCHE DE MINET')]/following-sibling::p[1]/string()&lt;/code>&lt;/li>
+&lt;li>return the value of the &amp;ldquo;when&amp;rdquo; attribute of dates in the third line of the Orient-Royal Mail Line ad: &lt;code>//div[@xml:id=&amp;quot;deg-ad-orm01&amp;quot;]//head/following-sibling::p[3]/date/@when&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>An example of working your way through table cells, looking at prices for cotton:&lt;/p>
+&lt;ul>
+&lt;li>This query will look at all tables and return the value in the fourth cell to the right of the cell containing the word &amp;ldquo;Cotton&amp;rdquo;: &lt;code>//table//cell[contains(.,'Cotton')]/following-sibling::cell[4]&lt;/code>&lt;/li>
+&lt;li>This query will look at the &amp;ldquo;Coton&amp;rdquo; table (which has an xml:id of &amp;ldquo;deg-ta-cotn01&amp;rdquo;), and return the value in the cell to the right of the cell containing the word &amp;ldquo;Russie&amp;rdquo;: &lt;code>//table[@xml:id=&amp;quot;deg-ta-cotn01&amp;quot;]//cell[contains(.,'Russie')]/following-sibling::cell[1]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-recipe-book">5. Recipe book&lt;/h2>
+&lt;p>The possibilities are endless. Here are some samples.&lt;/p>
+&lt;h3 id="searching-for-instances-of-particular-words">Searching for instances of particular words&lt;/h3>
+&lt;ul>
+&lt;li>Return all placename items that contain the word &amp;ldquo;Aden&amp;rdquo;: &lt;code>//placeName[contains(.,'Aden')]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="counting-instances">Counting instances&lt;/h3>
+&lt;ul>
+&lt;li>Count the number of items containing the term &amp;rsquo;native&amp;rsquo;: &lt;code>count(//div[contains(., 'native')])&lt;/code>&lt;/li>
+&lt;li>count the number of ads (divs) on page 1 (div n=&amp;ldquo;1&amp;rdquo;): &lt;code>count(//div[@n=&amp;quot;1&amp;quot;]//div)&lt;/code>&lt;/li>
+&lt;li>count the number of paragraphs in the division whose heading contains &amp;ldquo;MARCHE DE MINET&amp;rdquo;: &lt;code>count(//div/head[contains(.,'MARCHE DE MINET')]/following-sibling::p)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="item-length">Item length&lt;/h3>
+&lt;ul>
+&lt;li>Find all paragraphs longer than 5000 characters: &lt;code>//p[string-length() &amp;gt; 5000]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="exclude-sectiondivpage">Exclude Section/div/Page&lt;/h3>
+&lt;ul>
+&lt;li>Search all the divs after Page 1: &lt;code>//div[not(descendant::div[@n=&amp;quot;1&amp;quot;]) and not(ancestor-or-self::div[@n=&amp;quot;1&amp;quot;])]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="search-for-one-word-but-not-another">Search for one word but not another&lt;/h3>
+&lt;ul>
+&lt;li>Search for paragraphs containing the word &amp;ldquo;theatre&amp;rdquo; but not the word &amp;ldquo;performance&amp;rdquo;: &lt;code>//p[contains(.,'theatre')]/text() | //p[contains(.,'theatre')]/*[not(contains(.,'performance'))]/text()&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-searching-with-regular-expressions">6. Searching with regular expressions&lt;/h2>
+&lt;p>It is possible to combine regular expression and XPath searches by using the find/replace menu. Enter the regular expression you wish to search for in the Find box, and the XPath location in which you wish to search in the XPath box. &amp;lt;!&amp;mdash; explain further &amp;mdash;&amp;gt;&lt;/p>
+&lt;h2 id="7-export-and-manipulate-results">7. Export and manipulate results&lt;/h2>
+&lt;p>Right click on results, then export file. You can then &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/#cleaning-xpath-results" target="_blank" rel="noopener">clean up these results with regular expressions&lt;/a> to remove the parts you don&amp;rsquo;t want. After this, you can work with the results in a spreadsheet.&lt;/p>
+&lt;h2 id="8-xquery">8. XQuery&lt;/h2>
+&lt;p>More complex querying can be accomplished using XQuery.&lt;/p>
+&lt;p>Example, returning the date of every issue with a page 7:
+&lt;code>for $a in collection(&amp;quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&amp;quot;) where $a//*:div[@n=&amp;quot;7&amp;quot;] return $a//*:bibl/*:date&lt;/code>&lt;/p>
+&lt;p>Identify six versus eight page issues:
+&lt;code>for $a in collection(&amp;quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&amp;quot;) return if ($a//*:div[@n=&amp;quot;7&amp;quot;]) then &amp;lt;eight-page&amp;gt;{data($a//*:bibl/*:date)}&amp;lt;/eight-page&amp;gt; else &amp;lt;six-page&amp;gt;{data($a//*:bibl/*:date)}&amp;lt;/six-page&amp;gt;&lt;/code>&lt;/p>
+&lt;h2 id="9-resources">9. Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.w3schools.com/xml/xsl_functions.asp" target="_blank" rel="noopener">XPath functions list&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.w3.org/TR/2010/REC-xpath-functions-20101214/#func-number" target="_blank" rel="noopener">W3C XPath functions list&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.w3schools.com/xml/xpath_intro.asp" target="_blank" rel="noopener">XPath tutorial&lt;/a>&lt;/li>
+&lt;li>Got a question or comment? File an issue &lt;a href="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/_pages/how-to/query-instructions.md" target="_blank" rel="noopener">here&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Regular expressions instructions</title><link>https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/</guid><description>&lt;p>Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.&lt;/p>
+&lt;p>&lt;a href="https://regexr.com/" target="_blank" rel="noopener">Regexr&lt;/a> is a great place to learn about and try out regular expressions.&lt;/p>
+&lt;h2 id="using-regex-in-oxygen">Using regex in Oxygen&lt;/h2>
+&lt;p>You can use regex in the Find/Repace in Files tool when you enable the Regular Expression option in it.
+Some examples of commonly used regex codes:&lt;/p>
+&lt;ul>
+&lt;li>Search &lt;code>\d+ \w+ \w+ &lt;/code> for patterns like &amp;ldquo;100 tons cotton&amp;rdquo;&lt;/li>
+&lt;li>Search &lt;code>\W\w+ \W\w+ &lt;/code> for personal names&lt;/li>
+&lt;li>Search &lt;code>at [A-Z]\w+ &lt;/code> for locations (Remember to enable Case Sensitive)&lt;/li>
+&lt;/ul>
+&lt;h2 id="using-regex-in-atom">Using regex in Atom&lt;/h2>
+&lt;p>To put &lt;code>&amp;lt;persName&amp;gt;&lt;/code> around passenger names in a list: find &lt;code>Mr. [A-Z][a-z, 0-9]+,&lt;/code> replace with &lt;code>&amp;lt;persName&amp;gt;$&amp;amp;&amp;lt;/persName&amp;gt;&lt;/code>.&lt;/p>
+&lt;!-- To convert `&lt;p>Budapest, January 4.&lt;/p>` to `&lt;dateline>Budapest, January 4.&lt;/dateline>`: find `&lt;p>[A-Z][a-z]+, [A-Z][a-z]+ [0-9]+\.&lt;\/p>` and replace with `&lt;dateline>$&amp;&lt;/dateline>`. -->
+&lt;h2 id="cleaning-xpath-results">Cleaning XPath results&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Select all, copy, and paste results into your plain text editor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>First, let&amp;rsquo;s remove the lines that start with &amp;ldquo;XPath location,&amp;rdquo; &amp;ldquo;Start location,&amp;rdquo; and &amp;ldquo;End location,&amp;rdquo; because we won&amp;rsquo;t need these results. Open find and replace. Click the Regex option, then use this regex to find the first of these results: &lt;code>XPath location: .+\n&lt;/code>. &lt;em>Note&lt;/em>: if you&amp;rsquo;re using Windows, you may have to replace the &lt;code>\n&lt;/code> (new line indicator) at the end of this string with &lt;code>\r\n&lt;/code>, which is how Windows sometimes indicates new lines.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Once you&amp;rsquo;ve selected all of these &amp;ldquo;XPath location&amp;rdquo; lines, replace them with nothing (i.e., leave the replace box empty). Click Replace All.&lt;/p>
+&lt;p>Now you can do the same for &lt;code>Start location: .+\n&lt;/code> and &lt;code>End location: .+\n&lt;/code>&lt;/p>
+&lt;ol start="3">
+&lt;li>
+&lt;p>Remove the file location that precedes the issue date. Find &lt;code>System ID: /Users/whanley/GitHub/DEG-content/&lt;/code> (this will be different on your computer&amp;ndash;just select everything that comes before the date filename). (You may need to turn off Regex in order to find this string text.) Leave the replace box empty, then click Replace All.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Now we replace what comes between the date and the results. Turn Regex back on, then find &lt;code>.xml\nDescription: &lt;/code> (or &lt;code>.xml\r\nDescription: &lt;/code> if you are using Windows) and replace with &lt;code>\t&lt;/code>. Replace All.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you have empty lines in your file, you can remove them by finding &lt;code>\n\n&lt;/code> (or &lt;code>\r\n\r\n&lt;/code>) and replacing it with &lt;code>\n&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You might have a bit of garbage left over at the beginning and end of the file. Delete this. Now you will have a tab-separated, two-column table that you can paste into a spreadsheet.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="using-regex-in-microsoft-word">Using regex in Microsoft word&lt;/h2>
+&lt;p>Say you are trying to make a table of the results that you exported from Oxygen.&lt;/p>
+&lt;p>Import these results into a Word document. Then use Edit &amp;gt; Find &amp;gt; Advanced Find and Replace.&lt;/p>
+&lt;ol>
+&lt;li>Find two paragraph marks (^p^p), and replace with @@.&lt;/li>
+&lt;li>Find one paragraph mark (^p), and replace with comma.&lt;/li>
+&lt;li>Find @@, and replace with paragraph mark (^p).&lt;/li>
+&lt;li>Select all text, then use Table &amp;gt; Convert &amp;gt; text to table.&lt;/li>
+&lt;/ol></description></item><item><title>Data Visualization Tutorial</title><link>https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/</link><pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/</guid><description>&lt;p>Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to &lt;a href="https://www.tableau.com/academic/students" target="_blank" rel="noopener">this page&lt;/a> and its instructions to download your copy of Tableau. &lt;strong>Be sure to use your FSU email address&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You will receive a download link via email. Download Tableau and follow installation instructions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After downloading and installing the software, you can follow &lt;a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html" target="_blank" rel="noopener">video tutorials&lt;/a> to get up to speed with more advanced functions. But for now, let&amp;rsquo;s look at some simple examples using data from the digital Egyptian Gazette.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="walkthrough">Walkthrough&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>First, let&amp;rsquo;s gather data to explore in Tableau. This data comes from the &lt;a href="https://dig-eg-gaz.github.io/issues/templates/#coton">Coton&lt;/a> table, which appears regularly in the financial news section of the Egyptian Gazette.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Using this query: &lt;code>//table[@xml:id=&amp;quot;deg-ta-cotn01&amp;quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]&lt;/code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We will want to do more than just explore total cotton exports so let&amp;rsquo;s also run this query:&lt;code>//table[@xml:id=&amp;quot;deg-ta-cotn01&amp;quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]&lt;/code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The resulting data from each of these queries will be quite raw. We can use &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/">Regular Expressions&lt;/a> to clean up our data before putting it into Tableau.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample &lt;a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx" target="_blank" rel="noopener">spreadsheet&lt;/a> containing these data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Now that we have data representing monthly total cotton exports and where they are being shipped we want to visualize this data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open Tableau, and click &amp;ldquo;Connect to a File&amp;rdquo; in the upper left corner, and select the spreadsheet from your hard drive.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Make sure that Tableau is recognizing the data types in your spreadsheet (dates, country names, numbers, etc). While in the Data Source interface, change the “Month” column from string to date value by Clicking on the “Abc” icon and selecting “Date” from the drop down menu. Set the “Country” column&amp;rsquo;s geographic role to &amp;ldquo;Country/Region&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>At the bottom, click Sheet 1. After dragging and dropping the “Total Cotton Export (Bales)” cell in the row slot, place the “Month” cell in the column slot, under Marks select “Bar”.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/tableau-1905-cotton-export-total.png" alt="Cotton Exports" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The resulting visual gives us an annual total of exports, but we can go deeper.&lt;/p>
+&lt;ol start="10">
+&lt;li>
+&lt;p>In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. &lt;!-- If we select the second “Month” in the drop down menu it provides a visualization that includes zero value months. -->
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/tableau-1905-monthly-cotton-exports.png" alt="Cotton Exports" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &amp;ldquo;Marks&amp;rdquo; box select &amp;ldquo;Label&amp;rdquo;, and click the box next to &amp;ldquo;Show Mark Labels&amp;rdquo;. Now our data is effectively communicating the monthly totals of cotton exports. Now let&amp;rsquo;s incorporate each destination to further increase the accuracy of the data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag and drop the &amp;ldquo;Country&amp;rdquo; cell into the Color box. Now we can see that a majority of the cotton exported every month was shipped to England.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/tableau-cotton-exports-by-country.png" alt="Cotton Exports" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ol start="13">
+&lt;li>For a simpler comparative drag and drop the &amp;ldquo;Country&amp;rdquo; cell into the Filters box, click none, then select which countries you want to compare. For now let&amp;rsquo;s look at the difference between cotton exports to England and France.&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/tableau-cotton-exports-england-france.png" alt="Cotton Exports to England and France" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+.&lt;/p>
+&lt;ol start="14">
+&lt;li>To create a different kind of visualization clear the Columns and Rows then drag and drop the &amp;ldquo;Country&amp;rdquo; cell into the Columns slot and &amp;ldquo;Total Cotton Export&amp;rdquo; into the Rows slot. (You may need to remove the filter to display all countries). On the right hand side of the interface click &amp;ldquo;Show Me&amp;rdquo;, and select the Symbol Map option. The resulting image depicts the amount of comparative cotton exported to each location.&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://dig-eg-gaz.github.io/img/tableau-global-cotton-exports.png" alt="Global Cotton Exports" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ol start="15">
+&lt;li>To save our visualizations, click “Story”, “New Story”. Drag the desired sheet to the designated location. Click “Story”, “Export Image”.&lt;/li>
+&lt;/ol>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Tableau is great for creating visualisations from your data, but it also is useful for data exploration. When we create data visualisations it is important to remember to keep graphics simple and self-explanatory. For independent data exploration, however, we can try simple as well as complex approaches. Experiment with your data in the software to not only create graphics, but to see how different visualisations help you think about your research.&lt;/p></description></item></channel></rss>

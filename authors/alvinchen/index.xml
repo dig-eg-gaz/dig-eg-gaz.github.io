@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/alvinchen/</link><atom:link href="https://dig-eg-gaz.github.io/authors/alvinchen/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/alvinchen/avatar_hu247d826031eb74738a8adfbcdc145f59_4780646_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/alvinchen/</link></image><item><title>The Mystery of Daira Sanieh</title><link>https://dig-eg-gaz.github.io/post/19-analysis-chen/</link><pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/19-analysis-chen/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>This individual research extends the &lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-stocks/">group project on the topic of economics and trade in Egypt&lt;/a>. After the war with Britain, Egypt was turned into a colony of Britain. Its economy had significant growth from the business introduced by the British. Businessman and the Egyptian colonial government promoted the transfer of western industry to the locals. They strived to make the region like a European state. &lt;sup name="a1">&lt;a href="#f1">1&lt;/a>&lt;/sup> To achieve that, many local resources such as arable lands and mineral pits were used for growing crops and mining. As more local industries started trading with other parts of the world, the stock and exchange market formed.&lt;/p>
+&lt;h3 id="the-history-of-daira-senieh">The History of Daira Senieh&lt;/h3>
+&lt;p>The newspaper &lt;em>Egyptian Gazette&lt;/em> was the primary source for this analysis project. A company named Daira Senieh caught my attention. The classification of Daira Senieh was ambiguous. During the group project, some of my research partners found that the company was associated with land. However, Daira Senieh was also a sugar company that owned several agricultural plants and sugar cane fields. The company was known for its sugar plantation in Upper Egypt and its massive freight transportation. Samir Raafat, a former banker, a columnist, wrote in his article that Daira Senieh owned 470 km of railroad lines, 65 locomotives, and 2,092 wagons. &lt;sup name="a2">&lt;a href="#f2">2&lt;/a>&lt;/sup> Even in the present day, the company&amp;rsquo;s scale is sizable. Additionally, the company originated from lands of the Egyptian royal family. There was a time when the company had a financial crisis. Egypt had a loss of its political sovereignty around the 1870s as the foreign rivalry entered. However, one study suspected that Egypt had sufficient resources and potential economic growth. Still, the reformed British government had mismanaged Egypt&amp;rsquo;s financial revenue, so the depression of the Egyptian companies started forming. &lt;sup name="a3">&lt;a href="#f3">3&lt;/a>&lt;/sup> Companies like Daira Senieh had to either borrow loans or sell the company&amp;rsquo;s assets, such as lands. In addition, the bad harvest and Russo-Turkish War aggravated Egypt&amp;rsquo;s financial situation.&lt;/p>
+&lt;h3 id="the-occurrence-of-daira-senieh">The Occurrence of Daira Senieh&lt;/h3>
+&lt;p>To understand the significance of the company in this analysis, I queried the data set of the newest DEG .xml archives (right before first-time publishing this article.) I thought the occurrence of Daira Senieh might leave hints on its economic activities in different periods. I, therefore, sorted out the data via the XPath 2.0 search with the code, &lt;code>count(//div/head[matches(.,'Daira', 'i')]/following-sibling::p)&lt;/code>, and got the result which revealed in the following treemap (cubics) and bar graph.&lt;/p>
+&lt;iframe seamless frameborder="0" src="https://public.tableau.com/views/Book2_15765347843500/Cubics?:showVizHome=no&amp;:embed=true" align="center" width="90%" height="500">&lt;/iframe>
+&lt;p>Going further in-depth with the date featured with Daira Senieh, I found more content that is relevant to the companies&amp;rsquo; shares and properties. Other than the company name found in Stock and Exchange, Page 3 articles often wrote about company meetings involved with legal, liabilities, assets of the company. Along these lines, the occurrence helped to link the history and changes of Daira Senieh. It additionally enriched the explanations of the events of the company.&lt;/p>
+&lt;h3 id="privatization-of-land">Privatization of Land&lt;/h3>
+&lt;p>As I mentioned earlier, the company had relationships with the Egyptian royal family. At surface level, its land could be the company&amp;rsquo;s private property, but, in reality, it also could be seen as the state&amp;rsquo;s territory/land. It attempted to bail out the company through auctions. As we know, the company had Royal family ties, so the auction set by Daira Senieh was controversial because the properties of the company could also be deemed as the nation&amp;rsquo;s properties. Indeed, auctions on lands ended with a failure. In one report published by The Brisbane Courier &lt;sup name="a4">&lt;a href="#f4">4&lt;/a>&lt;/sup>, an Australia newspaper, the sale of Daira Senieh had disapproval from the English and the French syndicate groups. The Egyptian government demanded to have one-third of a share from the final sale price which hindered the auction process. Subsequent to the auction held in the last ten years, the company &amp;ldquo;was unable to let a single acre of the sugar lands for 1888 in eight out of nine districts, and only 95 acres in the ninth district (the number offered to be let being about 25,000).” &lt;sup name="a5">&lt;a href="#f5">5&lt;/a>&lt;/sup>
+In the 1900 Annual Report by Consul-General Cromer on the Finances, Administration, and Condition of Egypt, an excerpt stated, &amp;ldquo;the Government and the Company share equally in the net profit derived from the sale of land… meanwhile … the company now offers to sell lands on payment of one-tenth of the price, before 1905, after which time the buyers will have the option of paying the balance in cash or in fifteen annuities.&amp;rdquo; It seemed that the government and Daria Seineh were encouraging peasants to be the owner of the debts, but it also sold out the land to foreign proprietors. &lt;sup name="a6">&lt;a href="#f6">6&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>
+&lt;figure id="figure-daira-senieh-loan">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="daira_loans.jpg" srcset="
+/post/19-analysis-chen/daira_loans_hubce7ed358f746fcd89a1e4e99113c1be_195109_4638451efc78c2fb555a424d1f237fcb.webp 400w,
+/post/19-analysis-chen/daira_loans_hubce7ed358f746fcd89a1e4e99113c1be_195109_393fab5ede7bbc66c2cdfb239a680250.webp 760w,
+/post/19-analysis-chen/daira_loans_hubce7ed358f746fcd89a1e4e99113c1be_195109_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-chen/daira_loans_hubce7ed358f746fcd89a1e4e99113c1be_195109_4638451efc78c2fb555a424d1f237fcb.webp"
+width="760"
+height="187"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Daira Senieh Loan
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>As the Daira Senieh continued to privatize its agricultural properties, the value of the lands, which was diluted on the open market, increased tremendously &lt;sup name="a1">&lt;a href="#f1">1&lt;/a>&lt;/sup>. Therefore, the company&amp;rsquo;s consortium gained revenue, which exceeded their outstanding debts, so it paid off its debt of 4,444,340 Para in 1905, according to the World Bank documentation &lt;sup name="a7">&lt;a href="#f7">7&lt;/a>&lt;/sup>. Meanwhile, more foreign competitors acquired lands from Daira Senieh to begin their industry in Egypt.&lt;/p>
+&lt;img src="sale_of_daira.jpg" width="216">
+&lt;h3 id="stock-value-analysis">Stock Value Analysis&lt;/h3>
+&lt;p>The scope of this research project is focused on the years of the newspaper I could access, between the year 1905 to the year 1908. I adopted the Stock and Share table, which described Egyptian companies&amp;rsquo; value changes. I used an Xpath query to search the latest content repository, which was updated by the end of Fall 2019. Inserting &lt;code>//div[@xml:id=&amp;quot;deg-el-stsh01&amp;quot;]/table//cell[contains(.,'New Daira Sanieh Fond')]/preceding-sibling::cell/measure&lt;/code>, 126 results was found. I then organized the data with a trendline graph.
+The accuracy of the data obtained from Xpath 2.0 is plausible. This is mostly due to the incomplete updates in the .xml files for the tables of measures. Besides, some outliers in the graph below could be the typo during the process of digitizing the newspaper.&lt;/p>
+&lt;iframe seamless frameborder="0" src="https://public.tableau.com/views/DairaSeniehStock/Sheet1?:showVizHome=no&amp;:embed=true" align="center" width="90%" height="500">&lt;/iframe>
+&lt;p>From the data, we can roughly see the growth of Daira Senieh&amp;rsquo;s stock which might due to the sale of lands. Its decline after 1905 also coincides with the nation&amp;rsquo;s GDP since the company&amp;rsquo;s size shared a significant component of the Egyptian economy. It is known that Egypt went through economic crisis in 1907&lt;sup name="a8">&lt;a href="#f8">8&lt;/a>&lt;/sup>. This matched with the highlighted region of the real GDP graph showing below.&lt;/p>
+&lt;img src="rgdp_egypt.png" width="448">
+&lt;h3 id="summery">Summery&lt;/h3>
+&lt;p>In a glimpse of the economics of Egypt in the 1900s, I found Daira Senieh was established during the invasion of Britain. However, it had some crisis in finance in 1886, perhaps due to warfare. In the later decades, the company announced its bankruptcy and put its lands on sale. This incident was later known as the Daira Senieh scandal. &lt;sup name="a9">&lt;a href="#f9">9&lt;/a>&lt;/sup> After it sold a fraction of the company owned lands, the company escaped the danger of bankruptcy. As the side effect of the sold lands, it reshaped Egypt&amp;rsquo;s economy. The government gained fortune from the auction to fill the financial holes of national debts, but opened the door for the foreign influences on its domestic economy.&lt;/p>
+&lt;h3 id="source">Source&lt;/h3>
+&lt;p>&lt;b name="f1">1&lt;/b> M. CAMPANINI, Storia dell’ Egitto contemporaneo. Dalla rinascita ottocentesca a Mubarak, Roma 2005, page 28 &lt;a href="#a1">↩&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f2">2&lt;/b> SAMIR RAFAT, “Familiar Ground: the 19th Century Privatization of Daira
+Sanieh doesn’t seem that Distant,” Business Monthly Magazine &lt;a href="#a2">↩&lt;/a> &lt;a href="http://www.egy.com/historica/97-07-00.php" target="_blank" rel="noopener">Link&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f3">3&lt;/b> ALI COŞKUN TUNÇER, “Sovereign Debt and International Financial Control of the Middle East and the Balkans, 1870 –1914” &lt;a href="#a3">↩&lt;/a> &lt;a href="https://warwick.ac.uk/fac/arts/history/students/modules/hi173/classesandreading/colonialegypt/tuncer_-_middle_east_and_the_balkans_1870-1914_chapter_3_-_egypt.pdf" target="_blank" rel="noopener">Link&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f4">4&lt;/b> THE BRISBANE COURIER, “Sale of The Daira Sanieh”,1898 &lt;a href="#a4">↩&lt;/a> &lt;a href="https://trove.nla.gov.au/newspaper/article/3673866/555286" target="_blank" rel="noopener">Link&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f5">5&lt;/b> UK PARLIAMENT, “Egypt—The Daira Sanieh of the Khedive” &lt;a href="#a5">↩&lt;/a> &lt;a href="https://api.parliament.uk/historic-hansard/commons/1888/apr/10/egypt-the-daira-sanieh-of-the-khedive#column_847" target="_blank" rel="noopener">Link&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f6">6&lt;/b> 1900 Cd.95 Egypt. No. 1 (1900). Reports by Her Majesty&amp;rsquo;s agent and consul-general on the finances, administration, and condition of Egypt and the Soudan in 1899 &lt;a href="#a6">↩&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f7">7&lt;/b> INTERNA TIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT, “The External Debt of Egypt”, Table A-3 &lt;a href="#a7">↩&lt;/a> &lt;a href="http://documents.worldbank.org/curated/en/912111468022761475/pdf/670930SR0Box46000E1680debt0of0Egypt.pdf" target="_blank" rel="noopener">Link&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f8">8&lt;/b> DAILY CONSULAR AND TRADE REPORTS, “Trade Review of Egypt”, page 787 &lt;a href="#a8">↩&lt;/a> &lt;a href="https://books.google.com/books?id=PbKRr5Z5PmIC&amp;amp;pg=PA787&amp;amp;lpg=PA787&amp;amp;dq=financial&amp;#43;crisis&amp;#43;in&amp;#43;egypt&amp;#43;1905" target="_blank" rel="noopener">Link&lt;/a>&lt;/p>
+&lt;p>&lt;b name="f9">9&lt;/b> THE NEW YORK TIMES, “A Public Scandal in Egypt”, 1886 &lt;a href="#a9">↩&lt;/a> &lt;a href="https://www.nytimes.com/1886/03/19/archives/a-public-scandal-in-egypt.html" target="_blank" rel="noopener">Link&lt;/a>&lt;/p></description></item><item><title>Economic History of Stocks and Shares</title><link>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</link><pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/19-analysis-stocks/</guid><description>&lt;h2 id="identifying-data-sets-bailee">Identifying Data Sets: Bailee&lt;/h2>
+&lt;p>Our group was primarily focused on the section of the Egyptian Gazette called Stocks and Shares, a table listing various companies and the prices of their respective shares. The companies are divided into various sections such as “banks,” “land,” “commercial/industrial,” “navigation &amp;amp; water works,” and “railways and tramways.” To select specific companies to analyze within each industry, I looked for one or two companies whose shares were listed in pounds (for ease of comparison- though it would be possible to convert from one type of currency to another, it was simpler this way), then picked the companies with the highest share prices. Choosing one or two companies with the highest share prices seemed like one possible way to find companies who were dominating those industries and could therefore provide an accurate assessment of Alexandria’s economy during a specific time period. The following eight companies were selected from those criteria: Imperial Ottoman Bank, National Bank of Egypt, New Daira Sanieh Fond., Alexandria Bonded Stores Pref., pref. Cairo Sewage Transport Ord., Alex. Water Company, Cairo-Helouan, and Keneh-Assouan. (For clarity, these names were lifted directly from the tables in question.)&lt;/p>
+&lt;h2 id="introducing-the-datasource-alvin">Introducing the Datasource: Alvin&lt;/h2>
+&lt;p>With the selection of the eight companies above, we found that those companies can be distinguished into two categories.&lt;/p>
+&lt;p>One of them is finance, which includes Imperial Ottoman Bank, National Bank of Egypt, New Daira Sanieh Found, Alexandria Bounded Stores Pref, and Keneh-Assouan (Assurance). It is apparent that bank, insurance, and estate companies are likely to have more influence on the stock market, so we choose to observe them from a micro-scale, and then link them to the macroeconomics of Egypt. For instance, &lt;a href="http://psi424.cankaya.edu.tr/uploads/files/Pamuk,%20Evolution%20of%20Financial%20Institutions,%201600-1914%20%282004%29.PDF" target="_blank" rel="noopener">Ottoman Bank&lt;/a> helped foreign interest groups to have their investments in Egypt. Its shares consisted of thousands of English Group and French Group. It also functioned as a loan provider by issuing loans to the government of Egypt.&lt;/p>
+&lt;p>It makes sense that the investors and businessmen in Egypt needed to borrow loans to develop and establish their industries to the emerging economics boom at the start of the 1900s. In return, the consumers and investors built up their credits and deposited their revenues to the bank, which allows the bank to have more power to promote regional development. As the economy boomed, the values of land prices increased. &lt;a href="http://www.egy.com/historica/97-07-00.php" target="_blank" rel="noopener">Daira Sanieh&lt;/a> was a sugar company, and it also held many lands in North Egypt. During the booming, its lands were brought by several foreign investors. It used to have about 4 million Para (Ottoman Turkish currency) debt. After the sale of lands, its debt was paid off. On the sides of that, insurance companies had roles in decreasing the risk of the investors in the financial system and preventing the cost when companies have defaulted or failed to obligate the promise of paying back loans. Meanwhile, insurance companies hold &lt;a href="https://www.researchgate.net/publication/272305139_Egyptian_Insurance_Market_History_and_Structure" target="_blank" rel="noopener">large shares&lt;/a> from other companies.&lt;/p>
+&lt;p>The second category is the infrastructure. In this project, we include Cairo Sewage Transport., Alexandria Water Company, and Cairo Helouan. In two decades, from 1880 to 1900, the population of Egypt had an &lt;a href="https://archive.org/stream/encyclopaediabri01chisrich#page/568/mode/2up" target="_blank" rel="noopener">exponential growth&lt;/a>. The population in Alexandria grew half the amount of what it had in 1882. In 1907, it had 332,246 in Cairo. With the growth of population, more water installments and more transportation were needed to support the cities’ operation. The water was primarily relied on Suez and Niles. In major cities like Cairo and Alexandria, they had many railroads and tram companies serving for passengers and freight.&lt;/p>
+&lt;h2 id="process-of-obtaining-preliminary-values-pre-correction-bailee">Process of Obtaining Preliminary Values Pre-Correction: Bailee&lt;/h2>
+&lt;p>In order to collect values from these companies, I ran the following XPath query:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>//div[@xml:id=”deg-el-stsh01”]/table//cell[contains(.,’Imperial Ottoman Bank’)]/preceding-sibling::cell/measure&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>This particular query would deliver the share price (in pounds) for the Imperial Ottoman Bank in each properly labeled Stocks and Shares table within the content repository. (For reference, I updated my version of the content repository on November 13, 2019 at approximately 11 am.) I then took the search results and used Atom to isolate only the dates and share prices, then pasted them as separate columns in an Excel document.
+To obtain values from the other companies, I simply replaced the blue text with another company’s name and followed the same process. In this way, the XPath query for, say, Cairo Sewage Transport Ord. would be:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>//div[@xml:id=&amp;ldquo;deg-el-stsh01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;pref. Cairo Sewage Transport Ord.&amp;rsquo;)]/preceding-sibling::cell/measure&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>Running the query &lt;strong>//div[@xml:id=”deg-el-stsh01”]&lt;/strong> showed 175 ocurrences of the Stocks and Shares table within the content repository. However, we had to determine whether the data shown was correct or if it was simply the templated information. So, we decided to restrict to a smaller sample size of data that we could plausibly correct.&lt;/p>
+&lt;p>The period of time that we chose was the year 1905, as the XPath query I ran seemed to show that editions from 1905 had the most complete data sets (perhaps because IDS classes are working on this newspaper in chronological order). Of all the companies listed, Alexandria Bonded Stores Pref., a commercial/industrial company, had the most results in 1905 (94 results). However, 94 tables would be too many for us to check (plausibly). So, we decided to use data only from Wednesdays as a sample. In order to isolate data from Wednesday editions, I imported values corresponding to Alexandria Bonded Stores Pref. in 1905 to Tableau. I set “weekdays” of dates as columns and “count” of the values to find how many of the values came from which day of the week. The largest number of values for Alexandria Bonded Stores Pref. (18 values) were present in Wednesday editions. Tableau confuses me still, so I just used a calendar from 1905 to find out which dates were Wednesdays after figuring out that Wednesdays held the largest data pool. After further research, we found that Wednesday’s stocks and shares data would experience the &lt;a href="https://finance.zacks.com/day-week-volatile-stock-market-3009.html" target="_blank" rel="noopener">least volatility&lt;/a> given its placement exactly between market open and market close in the available trading days throughout any given week.&lt;/p>
+&lt;h2 id="a-short-aside-on-correction-austin">A Short Aside on Correction: Austin&lt;/h2>
+&lt;p>The dates that I was supposed to research based on our query were the following: &lt;strong>3/8/1905&lt;/strong>, &lt;strong>3/15&lt;/strong>, and &lt;strong>3/22&lt;/strong>. The first thing to note was that the query was pretty accurate, albeit it still had some problems. Problems not on our end, but flawed issues based on the fact that our repository that we were basing our working sets on were made by other students/people. For the 3/15 chart, I had to figure out why the xml work was showing it was on page six but the image didn’t include it. I had to look through the other pages and found out that it didn’t exist for the date. For the 3/22 table, it was correct but just on a different page than where it was on the source file.&lt;/p>
+&lt;h2 id="the-visualization-process-jimmy">The Visualization Process: Jimmy&lt;/h2>
+&lt;p>Using the excel document Bailee made, I opened a Tableau document and imported the data. I first had to include filters because a lot of the data was from the template. The data still may have not been accurate, so as a group we decided to use a sample and manually change the data. Because of the small data sample, the graphs of the stocks look more rigid and a lot don’t move over the course of the year. However, there are interesting jumps here and there in the data. Also, I decided to use the excel visualization platform for the final graphs because it is more intuitive for me. These visualizations include companies in different industries, such as banks, land, commercial industrial, navigation and waterworks, and railways. The National Bank of Egypt seems to have the most dynamic movement, while the Imperial Ottoman Bank hardly moves at all. There seems to be a jump in the prices of bank stocks in January of 1906. However, at the same time the Daira Sanieh stock seems to drop and so does the Alexandria Water company. Whether or not it is in any way correlated remains unanswered.&lt;/p>
+&lt;h3 id="banks">Banks:&lt;/h3>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Imperial-Ottoman-Bank" srcset="
+/post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_c61f88d87601f8b8dd69da04cfa38b65.webp 400w,
+/post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_b45cd69d1afeef45ca755521ce3cd749.webp 760w,
+/post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/Imperial-Ottoman-Bank_hu37ddb8ac42199d4508930bcc62c61ed0_5454_c61f88d87601f8b8dd69da04cfa38b65.webp"
+width="481"
+height="289"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="National-Bank-of-Egypt" srcset="
+/post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_e213decc85b187c4ae53136b5741b071.webp 400w,
+/post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_ceb2416964f49c26f732df5458ccbbb1.webp 760w,
+/post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/National-Bank-of-Egypt_hu657fdb5446d23078845b413742548a23_15807_e213decc85b187c4ae53136b5741b071.webp"
+width="481"
+height="289"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h3 id="land">Land:&lt;/h3>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="New-Daira-Sanieh-Fond." srcset="
+/post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_6c552ea4e708b58bdf3effae63b9f696.webp 400w,
+/post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_c5d773f7b6716e5168f0daa557d027c3.webp 760w,
+/post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/New-Daira-Sanieh-Fond_hu885f534db5b1df0f3261c7c5c00c26e5_7486_6c552ea4e708b58bdf3effae63b9f696.webp"
+width="480"
+height="288"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h3 id="commercialindustrial">Commercial/Industrial:&lt;/h3>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Alexandria-Bonded-Stores-Pref." srcset="
+/post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_7f5dfb7739bc56c5d57fc8c60372bbcc.webp 400w,
+/post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_0e7d8f84185410e8a18fc2c7d4a6ba40.webp 760w,
+/post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/Alexandria-Bonded-Stores-Pref_hu01541c686f33b878aa147988290ab523_4727_7f5dfb7739bc56c5d57fc8c60372bbcc.webp"
+width="481"
+height="289"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="pref.-Cairo-Sewage-Transport-Ord." srcset="
+/post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_397e746fe257d2ce163cc206c496fb10.webp 400w,
+/post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_6b803834768625b9eae428625d770ad5.webp 760w,
+/post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/pref-Cairo-Sewage-Transport-Ord_hu37d10ca47715bdb4a98804215db870da_4689_397e746fe257d2ce163cc206c496fb10.webp"
+width="481"
+height="288"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h3 id="navigation--waterworks">Navigation &amp;amp; Waterworks:&lt;/h3>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Alex.-Water-Company" srcset="
+/post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_df817055a49dd031f5d9e5cdbb5141f7.webp 400w,
+/post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_c2e6f03d46ca7cc6b860a4742a9a6bfa.webp 760w,
+/post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/Alex-Water-Company_hu9cd42676ef1f1a864a420323b56be319_13229_df817055a49dd031f5d9e5cdbb5141f7.webp"
+width="481"
+height="289"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h3 id="railways-and-tramways">Railways and Tramways:&lt;/h3>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Cairo-Helouan" srcset="
+/post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_678dad59df777f977b8c3237fe2e0eb6.webp 400w,
+/post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_841d9cce519fe66db2e6acec3c4a6407.webp 760w,
+/post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/Cairo-Helouan_hue599f971fc94b2fefe9032cdeaf830ff_11035_678dad59df777f977b8c3237fe2e0eb6.webp"
+width="480"
+height="289"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-graphs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Keneh-Assouan" srcset="
+/post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_90b96bd2161b62411cfe4dd1bc84046a.webp 400w,
+/post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_ab74dd02df55afb9bc239149cf35b30b.webp 760w,
+/post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/19-analysis-stocks/Keneh-Assouan_huf70a76ea685b24c654a9a3174d640015_3301_90b96bd2161b62411cfe4dd1bc84046a.webp"
+width="481"
+height="289"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+graphs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="conclusion-austin">Conclusion: Austin&lt;/h2>
+&lt;p>Because the dates are such a small sample size, the difference in share prices were minuscule so I decided to focus more solely on a very important stock at the time and even now for the country of Egypt. During the early 1900’s, Egypt was going through an economic crisis and were in the middle of rebuilding their economy as the British had taken over after the war in 1882. The British made it their goal to pool resources into Egypts economy and this is why the National Bank of Egypt, the oldest and biggest bank in Egypt was able to recover and even have steady stock growth all throughout 1905 and into 1906. Another thing to note is that the tables show debentures and the National Bank of Egypt did not issue any throughout 1905 and this can indicate that the bank was a secure investment and backed by reliable assets.&lt;/p>
+&lt;p>The final point of this project was to see how the financial markets were doing and using this as an evaluation of how the economy in Egypt was during the time period of 1905. The main reason we as a group were trying to find the answer to this question is because Egypt was suffering from a declining economy and after the war of 1882, where the British took over, they made rebuilding Egypt’s economy a priority. The latter reason is that Egypt went through a major recession in the year of 1907 and on, and we wanted to see how stabilized the markets were prior. As we can see from our charts, many of the top performing stocks were either on a clear uptrend or were stabilized around a certain price, indicating that Egypt’s economy was quite strong during 1905.&lt;/p></description></item><item><title>The Downfall of Thomas Cook Group</title><link>https://dig-eg-gaz.github.io/post/2019-10-20-alvinchen/</link><pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2019-10-20-alvinchen/</guid><description>&lt;p>
+&lt;figure id="figure-thomas-cook-logo">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="thomas_cook_logo" srcset="
+/post/2019-10-20-alvinchen/thomas_cook_logo_hu276fc938958a0982e64a5e5cc578883f_33944_5769a2e2026b6b1a76180321086f0be0.webp 400w,
+/post/2019-10-20-alvinchen/thomas_cook_logo_hu276fc938958a0982e64a5e5cc578883f_33944_c15300e91338a5db25d57a30ffa8b8d2.webp 760w,
+/post/2019-10-20-alvinchen/thomas_cook_logo_hu276fc938958a0982e64a5e5cc578883f_33944_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2019-10-20-alvinchen/thomas_cook_logo_hu276fc938958a0982e64a5e5cc578883f_33944_5769a2e2026b6b1a76180321086f0be0.webp"
+width="615"
+height="409"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Thomas Cook Logo
+&lt;/figcaption>&lt;/figure>
+&lt;br />&lt;br />&lt;br />
+Thomas Cook was an English businessman. He started up his business from a small local shop in London. The shop sold traveling related products such as guidebooks, traveling wears, and maps. Several years later in 1872, he expanded his business with his son John, reformed the company as “Thomas Cook &amp;amp; Son”. &lt;a href="https://www.telegraph.co.uk/travel/tours/history-of-thomas-cook/" target="_blank" rel="noopener">(1)&lt;/a> &lt;br />&lt;/p>
+&lt;p>Throughout the course, we found that Thomas Cook &amp;amp; Son travel company had frequent updates on their advertisements. And they also sponsored the Egyptian Gazette profoundly by putting their advertisements on the title page banner. The company had various travel package options in the Middle East. It was the early age that civilians could afford the expenses and take ships to another continent. In parallel to the analysis of advertisement on the Egyptian Gazette by Olivia Evanoff &lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-evanoff/" target="_blank" rel="noopener">(2)&lt;/a>, she wrote that&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;people could pay the fees that go along with it in that period.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>It is plausible the early 20 Century is prosperous era in economy. As the company grew, it also owned hotels in Britain primarily, Western Europe, North America, and Middle East. Suggested by a blog post by Kailen Chapple &lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-chapple/" target="_blank" rel="noopener">(3)&lt;/a>, the company had an enormous impact in the 19th Century. Kailen also remarked,&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;It is a new concept … a product of the industrial revolution.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;br />&lt;br />
+&lt;figure id="figure-thomas-cook-ceases-trading">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="company_ceases_trading" srcset="
+/post/2019-10-20-alvinchen/company_ceases_trading_hu78c1a9d45d2d16bcd68c17690c9f9eda_88877_f6702b627484ed8764d7cc12e6af52e0.webp 400w,
+/post/2019-10-20-alvinchen/company_ceases_trading_hu78c1a9d45d2d16bcd68c17690c9f9eda_88877_14414ed6e87a729e6a4da0a6d66e0fba.webp 760w,
+/post/2019-10-20-alvinchen/company_ceases_trading_hu78c1a9d45d2d16bcd68c17690c9f9eda_88877_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2019-10-20-alvinchen/company_ceases_trading_hu78c1a9d45d2d16bcd68c17690c9f9eda_88877_f6702b627484ed8764d7cc12e6af52e0.webp"
+width="760"
+height="412"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Thomas Cook ceases trading
+&lt;/figcaption>&lt;/figure>
+&lt;br />&lt;br />&lt;/p>
+&lt;p>However, the glory of this family business could not thrive with the competitions in travel markets in 2019. Nowadays, people have more options for traveling. They gradually not rely on package-tours or travel agents. The way people used to travel is changed since it has became more accessible and easier to go foreign places without tour companies. Thomas Cook failed to transfer its tactics with modern travel behaviors, was defeated by other LCC (low-cost company) airlines competitors. It was bought in low stock value due to its 2.1 billion U.S. Dollars debt &lt;a href="https://www.reuters.com/article/us-thomas-cook-grp-investment-explainer/thomas-cook-collapses-why-and-what-happens-now-idUSKBN1W804O" target="_blank" rel="noopener">(4)&lt;/a>. The bankruptcy also interrupted approximate 500 thousand travelers’ plans. And about 30 thousand Thomas Cook employees lost their jobs. Here is a footage about a pilot of Thomas Cook Airlines in his last day job &lt;a href="https://www.youtube.com/watch?v=rGyd8jtroHo" target="_blank" rel="noopener">(5)&lt;/a>. The company sinks into debt, but its employee tries their best to serve their passengers with professionalism.&lt;/p>
+&lt;p>Though it is the oldest travel company in Britain, the British government refuses to offer it bankruptcy protection. It may no longer have value to people, and the government can’t waste taxpayers’ money on an obselete industry. Let it pass with history.&lt;/p>
+&lt;p>&lt;strong>References&lt;/strong>&lt;br />
+&lt;a href="https://www.telegraph.co.uk/travel/tours/history-of-thomas-cook/" target="_blank" rel="noopener">(1) History article, &amp;ldquo;The history of Thomas Cook, from tours for teetotallers to boozy packages in Spain&amp;rdquo;&lt;/a> &lt;br />
+&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-evanoff/" target="_blank" rel="noopener">(2) Blog post by Kailen Chapple, &amp;ldquo;Hotels in Cairo&amp;rdquo;&lt;/a> &lt;br />
+&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-chapple/" target="_blank" rel="noopener">(3) Blog post by Olivia Evanoff, &amp;ldquo;Advertising in Alexandria Egypt 1905&amp;rdquo;&lt;/a> &lt;br />
+&lt;a href="https://www.reuters.com/article/us-thomas-cook-grp-investment-explainer/thomas-cook-collapses-why-and-what-happens-now-idUSKBN1W804O" target="_blank" rel="noopener">(4) News article, &amp;ldquo;Thomas Cook collapses: Why and what happens now?&amp;rdquo;&lt;/a> &lt;br />
+&lt;a href="https://www.youtube.com/watch?v=rGyd8jtroHo" target="_blank" rel="noopener">(5) Youtube video, &amp;ldquo;Thomas Cook Crew Gives Emotional Speech to Passengers After Touching Down in Mancheste&amp;rdquo;&lt;/a>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/faithjankowski/</link><atom:link href="https://dig-eg-gaz.github.io/authors/faithjankowski/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/faithjankowski/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/faithjankowski/</link></image><item><title>Tobacco and Cigarette Exports from Alexandria</title><link>https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/</link><pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/</guid><description>&lt;h3 id="background">Background&lt;/h3>
+&lt;p>Throughout the mid-19th century, tobacco consumption began to gain popularity through the Ottoman Empire and Egypt. The tobacco industry thrived in Egypt alongside the “development of industrialized agriculture cash crops,” and Egypt was known for exporting luxury cigarettes around the world. Beginning in 1860, the Ottoman Empire’s state monopoly on tobacco only awarded Greek and Ottoman tobaccomen the right to cultivate tobacco (Shechter). This led to the expansion of the cigarette industry with the arrival of more tobaccomen from Greece and the Ottoman Empire, with the emergence of large-scale cigarette factories from previously smaller made-to-order tobacco stores. Eventually, in 1903, the Egyptian government adds a separate cigarette section to the annual foreign commerce reports (Shechter).&lt;/p>
+&lt;h3 id="research">Research&lt;/h3>
+&lt;p>The initial research question I set out to analyze examined the cigarette and tobacco exports from Alexandria to Constantinople listed under the “Export Manifests.” From using the following queries:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div[@feature='exportManifests']//p[contains(., 'CONST')]/following-sibling::p[1]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@feature='exportManifests']//p[contains(., 'CONST')]/following-sibling::p[2]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@feature='exportManifests']//p[contains(., 'CONST')]/following-sibling::p[3]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>I was able to find several data points under the Export Manifests feature containing the letters “Const” (for Constantinople), and that were in the paragraphs immediately, two, and three after the word “Const.”
+From the table below, it is evident that there were not enough available data points to draw conclusions or analyze the data available for larger patterns or trends.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Amt of Tobacco&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Destination&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Co.&lt;/strong>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>01-29-1906&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>Syria &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3-28-1906&lt;/td>
+&lt;td>56&lt;/td>
+&lt;td>Piraeus &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3-28-1906&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12-31-1906&lt;/td>
+&lt;td>120&lt;/td>
+&lt;td>Syria &amp;amp; Const&lt;/td>
+&lt;td>Cie Nav Helienique&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>06-20-1907&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>Port Said &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>09-25-1907&lt;/td>
+&lt;td>26&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11-20-1907&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Date&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Amt of Cigarettes&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Destination&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Co.&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Unit&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>04-24-1905&lt;/td>
+&lt;td>146&lt;/td>
+&lt;td>Piraeus &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11-30-1905&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;td>ED Protapapas &amp;amp; Co.&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>03-23-1906&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>Syria &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>06-22-1906&lt;/td>
+&lt;td>1,037&lt;/td>
+&lt;td>Piraeus &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>baskets&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>02-14-1907&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>06-20-1907&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td>Port Said &amp;amp; Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>08-01-1907&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>Const and Rhodos&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>09-25-1907&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cases&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>After conducting a new query that looked at just tobacco exports from the Export Manifests feature, I was able to gather a much wider time series, as follows.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Date&lt;/th>
+&lt;th>Amount&lt;/th>
+&lt;th>Destination&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1905-01-13&lt;/td>
+&lt;td>81&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-03-03&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-04-25&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>Malta&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-04-27&lt;/td>
+&lt;td>365&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-06-12&lt;/td>
+&lt;td>92&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-07-05&lt;/td>
+&lt;td>78&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-07-10&lt;/td>
+&lt;td>5&lt;/td>
+&lt;td>Malta/Liverpool&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-08-04&lt;/td>
+&lt;td>115&lt;/td>
+&lt;td>Port Said/Mersina&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-08-16&lt;/td>
+&lt;td>64&lt;/td>
+&lt;td>Mersina&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-08-23&lt;/td>
+&lt;td>661&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-09-29&lt;/td>
+&lt;td>186&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-11-02&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-11-30&lt;/td>
+&lt;td>125&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-12-01&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Rotterdam/Hamburg&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-12-14&lt;/td>
+&lt;td>53&lt;/td>
+&lt;td>Marseilles&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-12-18&lt;/td>
+&lt;td>14&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1905-12-28&lt;/td>
+&lt;td>9&lt;/td>
+&lt;td>Syria/Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-05&lt;/td>
+&lt;td>44&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-08&lt;/td>
+&lt;td>291&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-10&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Crete&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-25&lt;/td>
+&lt;td>17&lt;/td>
+&lt;td>Malta/Hamburg&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-25&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>Syria/Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-29&lt;/td>
+&lt;td>176&lt;/td>
+&lt;td>Syria/Odessa&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-01-29&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>Bremen/Rotterdam&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-02-05&lt;/td>
+&lt;td>316&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-02-21&lt;/td>
+&lt;td>62&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-03-02&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-03-12&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>Malta/Hamburg&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-03-14&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-03-22&lt;/td>
+&lt;td>17&lt;/td>
+&lt;td>Not specified&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-03-28&lt;/td>
+&lt;td>56&lt;/td>
+&lt;td>Piraeus/Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-03-28&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-04-11&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-04-19&lt;/td>
+&lt;td>23&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-05-17&lt;/td>
+&lt;td>7&lt;/td>
+&lt;td>Crete&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-05-17&lt;/td>
+&lt;td>59&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-06-02&lt;/td>
+&lt;td>8&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-06-08&lt;/td>
+&lt;td>118&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-07-17&lt;/td>
+&lt;td>32&lt;/td>
+&lt;td>Brindisi and Trieste&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-02&lt;/td>
+&lt;td>281&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-29&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>London&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-31&lt;/td>
+&lt;td>54&lt;/td>
+&lt;td>Port Said/Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-12&lt;/td>
+&lt;td>95&lt;/td>
+&lt;td>Malta/Hamburg&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-12&lt;/td>
+&lt;td>19&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-25&lt;/td>
+&lt;td>165&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-11-12&lt;/td>
+&lt;td>400&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-11-15&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>London&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-11-16&lt;/td>
+&lt;td>106&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-12-12&lt;/td>
+&lt;td>55&lt;/td>
+&lt;td>Piraeus/Odessa&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2906-12-21&lt;/td>
+&lt;td>49&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-12-31&lt;/td>
+&lt;td>120&lt;/td>
+&lt;td>Syria/Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-01-29&lt;/td>
+&lt;td>12&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-01-31&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Port Said&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-02-26&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>Malta/Liverpool&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-02-28&lt;/td>
+&lt;td>28&lt;/td>
+&lt;td>Marseilles&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-05-02&lt;/td>
+&lt;td>47&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-05-29&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>Port Said&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-06-14&lt;/td>
+&lt;td>14&lt;/td>
+&lt;td>Marseilles&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-06-20&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>Port Said/Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-06-26&lt;/td>
+&lt;td>13&lt;/td>
+&lt;td>Marseilles&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-07-08&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>Crete&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-07-15&lt;/td>
+&lt;td>305&lt;/td>
+&lt;td>Malta/Liverpool&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-07-16&lt;/td>
+&lt;td>29&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-07-18&lt;/td>
+&lt;td>213&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-07-24&lt;/td>
+&lt;td>25&lt;/td>
+&lt;td>Syria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-09-16&lt;/td>
+&lt;td>31&lt;/td>
+&lt;td>London&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-09-18&lt;/td>
+&lt;td>21&lt;/td>
+&lt;td>Crete&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-09-25&lt;/td>
+&lt;td>26&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-11-20&lt;/td>
+&lt;td>10&lt;/td>
+&lt;td>London&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-11-20&lt;/td>
+&lt;td>21&lt;/td>
+&lt;td>Const&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-12-09&lt;/td>
+&lt;td>55&lt;/td>
+&lt;td>Port Said&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-12-24&lt;/td>
+&lt;td>22&lt;/td>
+&lt;td>Piraeus/Odessa&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1908-01-28&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>Port Said&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>This new time series will allow me to try to examine trends in tobacco exports by data and by the final destination of the exports.&lt;/p>
+&lt;h2 id="data-visualization">Data Visualization&lt;/h2>
+&lt;p>The results from my initial query were hard to analyze, again, due to a lack of data. When used to visualize changes in exports, it is not possible to draw any conclusions.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="1" srcset="
+/post/2021-analysis-jankowski/jankowski-1_hu1da56d8b988166c4ee47e944cae2cef1_50331_53cdbe9b3de012555b5ae3a3cfd49672.webp 400w,
+/post/2021-analysis-jankowski/jankowski-1_hu1da56d8b988166c4ee47e944cae2cef1_50331_936e54d0bb856e301c191af59c97fcf1.webp 760w,
+/post/2021-analysis-jankowski/jankowski-1_hu1da56d8b988166c4ee47e944cae2cef1_50331_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/jankowski-1_hu1da56d8b988166c4ee47e944cae2cef1_50331_53cdbe9b3de012555b5ae3a3cfd49672.webp"
+width="760"
+height="469"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="2" srcset="
+/post/2021-analysis-jankowski/jankowski-2_hu0fdf4b609862d574e3854745c3413940_50072_2e9c611c2bb82779f7afcf95e66b567f.webp 400w,
+/post/2021-analysis-jankowski/jankowski-2_hu0fdf4b609862d574e3854745c3413940_50072_7e7f0dff54b0f8016997be0836418a7d.webp 760w,
+/post/2021-analysis-jankowski/jankowski-2_hu0fdf4b609862d574e3854745c3413940_50072_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/jankowski-2_hu0fdf4b609862d574e3854745c3413940_50072_2e9c611c2bb82779f7afcf95e66b567f.webp"
+width="760"
+height="467"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The results from the new query provide a better picture of what tobacco exports looked like from January 1905 to January 1908.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="3" srcset="
+/post/2021-analysis-jankowski/jankowski-3_hu2695e26fb4aab1e8dcc344e098f0b281_79378_17b875399e530e5b2700af7d41db7803.webp 400w,
+/post/2021-analysis-jankowski/jankowski-3_hu2695e26fb4aab1e8dcc344e098f0b281_79378_cecec779bf5cc061d4bd8f465378b81c.webp 760w,
+/post/2021-analysis-jankowski/jankowski-3_hu2695e26fb4aab1e8dcc344e098f0b281_79378_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/jankowski-3_hu2695e26fb4aab1e8dcc344e098f0b281_79378_17b875399e530e5b2700af7d41db7803.webp"
+width="760"
+height="469"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="4" srcset="
+/post/2021-analysis-jankowski/jankowski-4_hu004b831402c220eb6a1f309340668a65_22428_708ff3ddee7f2524d5808a4f931e4621.webp 400w,
+/post/2021-analysis-jankowski/jankowski-4_hu004b831402c220eb6a1f309340668a65_22428_a01a1470ed5fff5656bf41d90155ef90.webp 760w,
+/post/2021-analysis-jankowski/jankowski-4_hu004b831402c220eb6a1f309340668a65_22428_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2021-analysis-jankowski/jankowski-4_hu004b831402c220eb6a1f309340668a65_22428_708ff3ddee7f2524d5808a4f931e4621.webp"
+width="600"
+height="371"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>These two charts show the amount of tobacco export over time (Chart 1) and the density of tobacco exports by final location (Chart 2).&lt;/p>
+&lt;p>Another avenue of research that required further research was the quantity of cigarettes exported to Germany. The Shechter paper mentions Germany specifically as a top imported of Egyptian luxury cigarettes but does not provide any details further than noting that exports to Germany “dropped sharply after 1905 as a result of new tariff barriers” and that Germany was a “significant importer until 1914” (Shechter).&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Even after expanding the query to all available tobacco exports, it is still difficult to draw any conclusions regarding export patterns. There’s no clear trend as far as destination city or seasonal trends in where the tobacco is exported to. Furthermore, it was not possible to expand my query in this way by looking at cigarette exports because there were so many results; however, there were fewer entries under tobacco making it possible to extrapolate the numbers manually.&lt;/p>
+&lt;h2 id="works-cited">Works Cited&lt;/h2>
+&lt;p>Shechter, R. (2003). &amp;ldquo;&lt;a href="http://www.jstor.org/stable/3879927" target="_blank" rel="noopener">Selling Luxury: The Rise of the Egyptian Cigarette and the Transformation of the Egyptian Tobacco Market, 1850-1914&lt;/a>&amp;rdquo;. &lt;em>International Journal of Middle East Studies&lt;/em>, 35(1), 51–75.&lt;/p></description></item></channel></rss>

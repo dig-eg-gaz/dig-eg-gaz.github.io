@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/elizabethbarrett/</link><atom:link href="https://dig-eg-gaz.github.io/authors/elizabethbarrett/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Apr 2017 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/elizabethbarrett/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/elizabethbarrett/</link></image><item><title>Donkeys in Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/post/17-analysis-barrett/</link><pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/17-analysis-barrett/</guid><description>&lt;h2 id="brewing-the-idea">Brewing the Idea&lt;/h2>
+&lt;p>I began upon this subject for my analysis project through my &lt;a href="https://dig-eg-gaz.github.io/curiosities/Barrett-Donkey-Drivers/" target="_blank" rel="noopener">blog post&lt;/a> that I wrote earlier in the class. I found a peculiar article in my week of March 1905 entitled “A Cairo Nuisance”. It was all about “donkey-boys” and how they harass residents of Cairo. Today, one would be hard-pressed to find someone in America who regularly sees donkeys, much less is harassed by their owners, so this subject interested me. The closet thing I could think of was people at the mall who stand at the kiosks and politely verbally accost you until you try their perfume samples. As the article indicates, there are already cabs in Cairo, so are the donkeys a fading form of transportation? Are they pets? What type of person owns them? The “Cairo Complainer” (a name I have given the anonymous Cairo resident who wrote the original article) seems to be of a status that is above donkeys. With so many questions, I was curious about their role in 1905/1906 Egypt, and wanted answers.
+This course focuses around micro history, which is using small facts and details found in primary sources and weaving them into a larger, big-picture look at history. In any history class, no professor spends a lecture on donkeys. At the same time, there were clearly donkeys in Egypt at the time; they were a part of the lives of the residents in Egypt. Despite their seemingly unremarkable role, they had a role nonetheless. Therefore, I found this subject to be perfect for a serial micro history investigation.&lt;/p>
+&lt;h2 id="serial-question">Serial Question&lt;/h2>
+&lt;p>I realized that although my original article focused on the “donkey-boys”, it would be more fruitful to be slightly less specific and broaden my topic to be on the subject of donkeys in general. My goal is to learn exactly how donkeys were used and perceived by those living in Egypt at the time. It is unrealistic to think that every perspective of donkeys is present in the &lt;em>Egyptian Gazette&lt;/em>, especially given the audience is French and English people living in the area at the time, so I arrived at the serial question “What is the role of donkeys in 1905/1906 Egypt as represented by the &lt;em>Egyptian Gazette&lt;/em>?”.&lt;/p>
+&lt;h2 id="xpath-query">XPATH Query&lt;/h2>
+&lt;p>To practically answer this question, I needed to create an XML search query. This allows me to search all the issues of the newspaper that have been uploaded to our content repository on Github, effectively searching through every daily issue of the &lt;em>Egyptian Gazette&lt;/em> from 1905 and 1906 that has been completed. An XML search basically needs two things&amp;hellip; a WHERE, and a WHAT.&lt;/p>
+&lt;h3 id="what">What?&lt;/h3>
+&lt;p>My “what” was easy&amp;hellip; donkeys. I knew that I need to try to find every reference to donkeys that I could. I realized that there is more than one word for donkey, but after some preliminary searching, I saw that the most common substitute turned up primarily the word “association”. It seemed like donkey was the term of the land for the creature.&lt;/p>
+&lt;h3 id="where">Where?&lt;/h3>
+&lt;p>As discussed before, I needed to find every mention of donkeys that I could. I might find these mentions on page 2, 3, 4, anywhere. However, I knew that I wouldn’t find the references in a specific advertisement or table as many of my classmates would. Therefore, I made my search a general search for the word “donkey”.
+&lt;code>//p[contains(.,&amp;quot;donkey&amp;quot;)]&lt;/code>&lt;/p>
+&lt;p>However, XML searches are case sensitive. I still had one more search to do.
+&lt;code>//p[contains(.,”Donkey&amp;quot;)]&lt;/code>&lt;/p>
+&lt;p>I collected my results for the first query on Friday April 21st at 4:28 p.m. and the second query at 5:35 p.m. on Friday, April 21st. Then, I organized them by topic and formulated the results section of this paper.&lt;/p>
+&lt;h2 id="challenges">Challenges&lt;/h2>
+&lt;p>Not all of the articles were corrected perfectly from the OCR software, so I had to do some decoding to figure out what they were saying. Keeping this in mind, there could be other mentions of donkeys that I was not able to discover because someone failed to correct a misreading by their OCR software. Occasionally, I would come across a section that was improperly divided, or missing appropriate sections. For example, despite the word “donkey” being mentioned only once, I received a several different articles as results and had to sift through them to find the content I was searching for. In addition, on May 11th, 1906 and May 9th, 1906, the same articles were featured. I’m not sure if this is intentional, a mistake of the Gazette, or a mistake of a fellow transcriber.&lt;/p>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>From the XPATH query, I found 41 mentions of the word “donkey”. In addition, I found 21 occurrences of the word with its first letter capitalized. Every article and the date can be found in the appendix of this paper [&lt;em>removed-Ed.&lt;/em>]. There are not 41 entries in the appendix because sometime the word appeared more than once in an article that was a continuation of the same topic. As discussed in a previous section, I organized them by subject. There were a handful of articles that did not fit into any of the categories, such as the one-off use of the phrase “Donkey Tail Principle”, and in a mention of horse shows. Below is a visualization of the different topics I organized the articles into. The bigger the circle, the more articles were in that category. More detail on the topics follows the visual.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/17-analysis-barrett/topiccircles_hue723f97fda3603ca0ee88cfeec60780a_90895_3306d483676509f77b8d2ed5d22c08e0.webp 400w,
+/post/17-analysis-barrett/topiccircles_hue723f97fda3603ca0ee88cfeec60780a_90895_baeb56c77f3f96c1215b6198b2461e11.webp 760w,
+/post/17-analysis-barrett/topiccircles_hue723f97fda3603ca0ee88cfeec60780a_90895_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-barrett/topiccircles_hue723f97fda3603ca0ee88cfeec60780a_90895_3306d483676509f77b8d2ed5d22c08e0.webp"
+width="760"
+height="735"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h3 id="donkey-racing---10-occurrences">Donkey Racing - 10 occurrences&lt;/h3>
+&lt;p>Donkey Racing mentions occurred at any time of the year. There were some in January, February, April, May, June August, and December. Therefore, donkey racing does not seem to be a seasonal sport. Many of the articles included who won which race, what times the races would occur, and information along those same lines. On August 16th, 1906 donkey races are described as “modest”. There was a variations of donkey racing that I found interesting. On June 1st, 1905, the article mentions that one of the sports they performed was Tug-of-War on donkeys!&lt;/p>
+&lt;h3 id="donkey-boys--6-occurrences">Donkey Boys- 6 occurrences&lt;/h3>
+&lt;p>Piecing together the persona of donkey boys has been surprising. Their appearance must have been distinct because on March 12th, 1906, Mr. Firth was reported as dressing as one for a costume party. It was also reported that a man named Mohamed Dodo owns 60 donkeys and donkey boys. That means that these people are likely viewed as (at least) second class citizens due to the fact that they can be owned.&lt;/p>
+&lt;p>Although the original article I found negatively portrayed the donkey boys, I found two separate events that praise donkey boys for their action. On May 24th, 1905, a group of people had stones being thrown at them, but the donkey boys were not among those throwing the stones. Also, in July of 1905, there was a man who was beaten by someone, and the donkey boys were eyewitnesses and testified as to who the abuser was. The praise may stem from them typically being considered nuisances, but I think that with this little information, it is unfair to make that broad assumption.&lt;/p>
+&lt;h3 id="animal-cruelty--4-occurrences">Animal Cruelty- 4 occurrences&lt;/h3>
+&lt;p>There seems to be a vocalized care for the treatment of animals throughout the paper, which includes care for donkeys. The SPCA (Society for the Prevention of Cruelty to Animals) made strides for the protection of donkeys. In March of 1905, they declared that no longer would the same yolks that are meant for Buffalos be allowed on donkeys. That September, 82 donkeys were treated by at the animal hospital. From January 10th-April 24th, 301 donkeys were treated.&lt;/p>
+&lt;h3 id="crimes--3-occurrences">Crimes- 3 occurrences&lt;/h3>
+&lt;p>Two occurrences focused on their donkeys being stolen, which means that donkeys were valuable enough for someone to care that they were missing. In August of 1906, a man was arrested for murdering his servant because his servant lost his donkey’s stirrups.&lt;/p>
+&lt;h3 id="transportation-and-trade--17-occurrences">Transportation and trade- 17 occurrences&lt;/h3>
+&lt;p>It was common for reporting to be done on people traveling by donkey. Even the Khedival family traveled by donkey (February 1st, 1905). They were used not only to transport people, but also for trade purposes. The donkeys were traded, and things they transported were traded too, such as wood and other heavy things. They’re mentioned as being a part of street clutter on September 5th, 1906. As of September 1st of 1905, it was mentioned that “despite trains”, donkeys were still the preferred method of transportation. However, an article from May 19th, 1906 states that the train was replacing the donkey as a form of transportation.&lt;/p>
+&lt;h3 id="in-art--2-occurrences">In Art- 2 occurrences&lt;/h3>
+&lt;p>Donkeys were featured on art, mentioned February, 1905. There was a play called “Darktown Donkey Race” put on by people in Alexandria. I believe it to be a musical because there was another article about how a band played a song from the production.&lt;/p>
+&lt;p>In sum, donkeys seem to be a common, but fading part of the transportation/trade portion of people’s lives in Egypt in 1905/1906, as represented by the &lt;em>Egyptian Gazette&lt;/em>. When donkeys weren’t used for trading, they were frequently used for racing. Although donkey boys may not have been held to the highest opinion, the SPCA still cared about the wellbeing of donkeys.&lt;/p>
+&lt;h2 id="visualization">Visualization&lt;/h2>
+&lt;p>For the visualization of this data, I created a word cloud of all words appearing in the same articles as the word donkey. I chose to do this because the words that most frequently occur with the word donkey should be an indication of what things were associated with donkeys, giving insight as to how they were perceived in early 20th century Egypt. Here is a word cloud of all of the words occurring in the same paragraphs. The bigger the word, the more often it occurred.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="wordcloud" srcset="
+/post/17-analysis-barrett/barrett-wordcloud_hub8b1c9dc82961c762fd9bb6dcfd72f3d_240581_a7a190aa5bee76448d2689b3cd81f68c.webp 400w,
+/post/17-analysis-barrett/barrett-wordcloud_hub8b1c9dc82961c762fd9bb6dcfd72f3d_240581_99c60400f73e62210500a4ae78ff6d68.webp 760w,
+/post/17-analysis-barrett/barrett-wordcloud_hub8b1c9dc82961c762fd9bb6dcfd72f3d_240581_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-barrett/barrett-wordcloud_hub8b1c9dc82961c762fd9bb6dcfd72f3d_240581_a7a190aa5bee76448d2689b3cd81f68c.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Although this looks nice, I have also developed a black and white version of the cloud. I did this because some colors stand out more. For example, it&amp;rsquo;s easier to read the lighter ones than the darker ones. That should remove bias of some words seeming more important than others because of color and not because of size.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="wordcloudbw" srcset="
+/post/17-analysis-barrett/barrett-wordcloudbw_hu3ab7f81985a08008d94a0b1fc4b02078_281232_32f1d980aaa6c5cffc5256eacaa554fe.webp 400w,
+/post/17-analysis-barrett/barrett-wordcloudbw_hu3ab7f81985a08008d94a0b1fc4b02078_281232_698ccb310336c716cd239c5bb8cd398a.webp 760w,
+/post/17-analysis-barrett/barrett-wordcloudbw_hu3ab7f81985a08008d94a0b1fc4b02078_281232_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/17-analysis-barrett/barrett-wordcloudbw_hu3ab7f81985a08008d94a0b1fc4b02078_281232_32f1d980aaa6c5cffc5256eacaa554fe.webp"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The sizes of many of the words make sense! For example, &amp;ldquo;Race&amp;rdquo; is large. Racing was a popular topic as shown by the circular visualization. &amp;ldquo;Boy&amp;rdquo; is another popular word, and my explanation is the same for why &amp;ldquo;Racing&amp;rdquo; was represented so boldly. Many of the months are featured in large print on the graphic. This is because I included all the dates of the articles in the document that I uploaded to create the word cloud. It does appear that the highest number of the articles occurred in May, which is reflected in visualization. I&amp;rsquo;d like to note that Cairo was much larger than Alexandria. This may be attributed to their geographical location, given that Cairo was an inland city (unlike Alexandria), and more transportation/traveling would need to be done on land than by sea. Some interesting things that I found based on the visualizations were the size of the words O&amp;rsquo;Brien, Miss (especially compared to the size of Mrs. and Ms)&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>O&amp;rsquo;Brien&lt;/strong> - Private O&amp;rsquo;Brien was the last name of the man who was attacked, that the donkeyboys testified for him in courts. There was a follow up of the trial. They simply used his name a lot when telling the whole story, so that is why his name appears so large in the infographic.&lt;/li>
+&lt;li>&lt;strong>Miss&lt;/strong> - There were two misses involved in a donkey race, and a long list of misses who attended a costume party. The party was the same one at which Mr. Firth dressed up as a donkey boy. It was strange, because there seemed to be many &amp;ldquo;Mr.&amp;ldquo;s but that didn&amp;rsquo;t seem highlighted as largely in the word cloud.&lt;/li>
+&lt;li>&lt;strong>Following&lt;/strong> - The newspaper used the word &amp;ldquo;following&amp;rdquo; to precede any sort of list. It wasn&amp;rsquo;t that people with donkeys were following others, or there was a large fan club following donkeys, just a different, unrelated use of the word.&lt;/li>
+&lt;li>&lt;strong>Accused&lt;/strong> - accused was also used a lot because of the incident with O&amp;rsquo;Brien. Beyond that story, it was used very infrequently.&lt;/li>
+&lt;/ul></description></item></channel></rss>

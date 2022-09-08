@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/resources/</link><atom:link href="https://dig-eg-gaz.github.io/resources/index.xml" rel="self" type="application/rss+xml"/><description>Resources</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>Resources</title><link>https://dig-eg-gaz.github.io/resources/</link></image><item><title>Syllabus</title><link>https://dig-eg-gaz.github.io/resources/syllabus/</link><pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid><description>&lt;p>The course syllabus for the current semester (downloadable in PDF &lt;a href="https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing" target="_blank" rel="noopener">here&lt;/a>):&lt;/p>
+&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/document/d/e/2PACX-1vTRghO5oK-co1DipF0wl955Yk6rzgVTPFMKJj1WugjHyN8BbrGEtGoR5-9CqMSa3D1mkzlp4lB5hzPo/pub?embedded=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="previous-semesters">Previous semesters&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing" target="_blank" rel="noopener">Fall 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1Ei9dAWXOpi2VcQxkmgIUowxvnDQW1VnqX0v15wA4ob8/edit?usp=sharing" target="_blank" rel="noopener">Spring 2020&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing" target="_blank" rel="noopener">Fall 2019&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I" target="_blank" rel="noopener">Spring 2018&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI" target="_blank" rel="noopener">Spring 2017&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing" target="_blank" rel="noopener">Fall 2016&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>GitHub Organization Page</title><link>https://dig-eg-gaz.github.io/resources/github/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/github/</guid><description>&lt;p>&lt;a href="https://github.com/dig-eg-gaz" target="_blank" rel="noopener">GitHub organization page&lt;/a>&lt;/p>
+&lt;p>For more information on how we use github, see the &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/">GitHub tutorial&lt;/a> in the how-to section.&lt;/p></description></item><item><title>Digital Egyptian Gazette Schema</title><link>https://dig-eg-gaz.github.io/resources/schema/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/schema/</guid><description>&lt;p>This page describes the schema used in the Digital Egyptian Gazette project, which lives &lt;a href="https://github.com/dig-eg-gaz/resources/blob/master/egSchema.odd" target="_blank" rel="noopener">here&lt;/a> in &lt;a href="http://www.tei-c.org/Guidelines/Customization/odds.xml" target="_blank" rel="noopener">ODD (‘One Document Does it All’)&lt;/a> format.&lt;/p>
+&lt;p>The schema expressed in relaxNG compact (made from .odd files using the &lt;a href="http://www.tei-c.org/Roma/" target="_blank" rel="noopener">Roma tool&lt;/a> at &lt;a href="http://www.tei-c.org/Roma/" target="_blank" rel="noopener">TEI-c.org.&lt;/a>) is &lt;a href="https://github.com/dig-eg-gaz/resources/blob/master/egSchema.rnc" target="_blank" rel="noopener">here&lt;/a>. It can be validated against by using the URL &lt;a href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc" target="_blank" rel="noopener">https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&lt;/a> in an XML editor.&lt;/p>
+&lt;p>In addition to the tags offered by the &lt;a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html" target="_blank" rel="noopener">TEI P5 guidelines&lt;/a>, the customized schema employs the following terms.&lt;/p>
+&lt;h2 id="div-attributes">&lt;code>&amp;lt;div&amp;gt;&lt;/code> attributes&lt;/h2>
+&lt;h3 id="type">Type&lt;/h3>
+&lt;ul>
+&lt;li>nameplate: use for the first page of the paper only&lt;/li>
+&lt;li>page: always use the &lt;code>n=&amp;quot;&amp;quot;&lt;/code> attribute&lt;/li>
+&lt;li>item: the default and most generic &lt;code>div&lt;/code> type&lt;/li>
+&lt;li>section: a &lt;code>div&lt;/code> containing other &lt;code>div&lt;/code>s, typically of the &lt;code>item&lt;/code> type.&lt;/li>
+&lt;li>subsection: a &lt;code>div&lt;/code> within a &lt;code>section&lt;/code> itself containing other &lt;code>div&lt;/code>s, typically of the &lt;code>item&lt;/code> type. Use sparingly&lt;/li>
+&lt;li>cable: a single wire report with a &lt;code>&amp;lt;dateline&amp;gt;&lt;/code> and the name of the wireservice (typically Reuters or Havas)&lt;/li>
+&lt;li>advert: any advertisement; templates are listed &lt;a href="https://dig-eg-gaz.github.io/advertisements" target="_blank" rel="noopener">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="feature">Feature&lt;/h3>
+&lt;ul>
+&lt;li>weather: Daily Weather Report&lt;/li>
+&lt;li>wire: Telegrams&lt;/li>
+&lt;li>local: Local and General&lt;/li>
+&lt;li>sport: Sport and Play&lt;/li>
+&lt;li>social: Personal and Social&lt;/li>
+&lt;li>comingEvents: Calendar of Coming Events&lt;/li>
+&lt;li>passList: Passenger List&lt;/li>
+&lt;li>visitList: Visitors&amp;rsquo; List&lt;/li>
+&lt;li>letters: Letters to the Editor&lt;/li>
+&lt;li>mattersMoment: Matters of Moment. Pith of the Press Comments.&lt;/li>
+&lt;li>nativePress: Native Press Comments&lt;/li>
+&lt;li>khedive: The Khedive&lt;/li>
+&lt;li>esbekieh: Esbekieh Gardens&lt;/li>
+&lt;li>army: Army and Navy / Army of Occupation / Egyptian Army&lt;/li>
+&lt;li>shippingMovement: Shipping Movement&lt;/li>
+&lt;li>steamerMovement: Steamer Movement&lt;/li>
+&lt;li>navalNotes: Naval Notes&lt;/li>
+&lt;li>mouvementMaritime: Mouvement Maritime&lt;/li>
+&lt;li>londonLetter: Our London Letter&lt;/li>
+&lt;li>parisLetter: Our Paris Letter&lt;/li>
+&lt;li>prepaidAdvertisements: Cheap Prepaid advertisements&lt;/li>
+&lt;li>bulletinBourse: Bulletin de la bulletin&lt;/li>
+&lt;li>councilMinisters: Council of Ministers&lt;/li>
+&lt;li>shareMarket: Egyptian Share Market&lt;/li>
+&lt;li>notesPortSaid: Notes from Port Said&lt;/li>
+&lt;li>notesSuez: Notes from Suez&lt;/li>
+&lt;li>notesSuakin: Notes from Suakin&lt;/li>
+&lt;li>notesKhartoum: Notes from Khartoum&lt;/li>
+&lt;li>notesConstantinople: Notes from Constantinople&lt;/li>
+&lt;li>notesCyprus: Notes from Cyprus&lt;/li>
+&lt;li>notesSudan: Notes from the Sudan&lt;/li>
+&lt;li>notesFayoum: Notes from Fayoum&lt;/li>
+&lt;li>notesOther: Notes from other places in Egypt&lt;/li>
+&lt;/ul>
+&lt;h3 id="status">Status&lt;/h3>
+&lt;p>Do not use any status as default&amp;ndash;leave out the attribute altogether.&lt;/p>
+&lt;ul>
+&lt;li>verified: Complete and correct, verified by third editor.&lt;/li>
+&lt;li>unverified: Has not been checked.&lt;/li>
+&lt;li>uncorrectedOCR: Div contains pasted OCR text that has not been corrected or formatted.&lt;/li>
+&lt;li>irregularFormat: Div contains valid content, but formatting differs from standard.&lt;/li>
+&lt;li>templateDefault: Div is identical to the template, and does not correspond to the content of the issue.&lt;/li>
+&lt;li>empty: Div is empty, often because an editor deleted default template.&lt;/li>
+&lt;li>incomplete: Div contains some but not all of the material it should.&lt;/li>
+&lt;/ul>
+&lt;h2 id="measure-attributes">&lt;code>&amp;lt;measure&amp;gt;&lt;/code> attributes&lt;/h2>
+&lt;h3 id="units">Units&lt;/h3>
+&lt;ul>
+&lt;li>tal: Talari&lt;/li>
+&lt;li>cantar: qantar&lt;/li>
+&lt;li>£: British Pounds Sterling&lt;/li>
+&lt;li>fcs: francs&lt;/li>
+&lt;li>sh: shillings&lt;/li>
+&lt;li>LE: Egyptian pounds (livres égyptien)&lt;/li>
+&lt;li>balles: bales of cotton&lt;/li>
+&lt;li>ton: tonnes&lt;/li>
+&lt;li>dC: degrees celsius&lt;/li>
+&lt;li>mm: millimeters&lt;/li>
+&lt;li>pt: piasters tarif&lt;/li>
+&lt;li>min: minutes&lt;/li>
+&lt;li>LE M: Egyptian pounds and millimes&lt;/li>
+&lt;li>ard: ardeb&lt;/li>
+&lt;li>$: US dollars&lt;/li>
+&lt;li>sack: sacks&lt;/li>
+&lt;/ul>
+&lt;h3 id="commodity">Commodity&lt;/h3>
+&lt;ul>
+&lt;li>currency&lt;/li>
+&lt;/ul>
+&lt;h3 id="type-1">Type&lt;/h3>
+&lt;ul>
+&lt;li>indexNo: number corresponding to indexing system for newspaper features, especially paid advertisements&lt;/li>
+&lt;/ul>
+&lt;h2 id="columns">Columns&lt;/h2>
+&lt;ul>
+&lt;li>cols: Specifies the number of columns in a given section&lt;/li>
+&lt;li>colSpan: Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.&lt;/li>
+&lt;/ul></description></item><item><title>Changelog</title><link>https://dig-eg-gaz.github.io/resources/changelog/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/changelog/</guid><description>&lt;h3 id="2019-09-20--version-014">2019-09-20 // Version 0.14&lt;/h3>
+&lt;ul>
+&lt;li>Begin hosting &lt;a href="https://dig-eg-gaz.github.io/contents/images">collection of page images&lt;/a> beyond scope of class.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2019-08-19--version-013">2019-08-19 // Version 0.13&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing" target="_blank" rel="noopener">Fourth class&lt;/a> begins&lt;/li>
+&lt;li>Launch of new website&lt;/li>
+&lt;/ul>
+&lt;h3 id="2018-04-17--version-012">2018-04-17 // Version 0.12&lt;/h3>
+&lt;ul>
+&lt;li>Change &lt;code>@element&lt;/code> attribute to &lt;code>@feature&lt;/code>&lt;/li>
+&lt;li>Move to establish &lt;code>&amp;lt;pb/&amp;gt;&lt;/code> in lieu of &lt;code>&amp;lt;div type=&amp;quot;page&amp;quot;&amp;gt;&lt;/code>&lt;/li>
+&lt;li>Add &lt;code>@status&lt;/code> attribute to indicate completeness of divs&lt;/li>
+&lt;li>Add &lt;code>&amp;lt;gloss&amp;gt;&lt;/code> to XML header to indicate completeness of issues&lt;/li>
+&lt;/ul>
+&lt;h3 id="2018-01-08--version-011">2018-01-08 // Version 0.11&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I" target="_blank" rel="noopener">Third class&lt;/a> begins&lt;/li>
+&lt;/ul>
+&lt;h3 id="2017-09-17--version-010">2017-09-17 // Version 0.10&lt;/h3>
+&lt;ul>
+&lt;li>Reduce and standardize page images, using ImageMagick command &lt;code>mogrify -strip -interlace Plane -gaussian-blur 0.05 -quality 85% *.jpg&lt;/code> (via &lt;a href="https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick#7262050" target="_blank" rel="noopener">stackoverflow&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;h3 id="2017-05-12--version-009">2017-05-12 // Version 0.09&lt;/h3>
+&lt;ul>
+&lt;li>Second semester complete&lt;/li>
+&lt;li>New, complete contents listing&lt;/li>
+&lt;li>Change issue file serving to &lt;a href="gitCDN.xyz">gitCDN.xyz&lt;/a> for better support of updated files&lt;/li>
+&lt;/ul>
+&lt;h3 id="2017-03-15--version-005">2017-03-15 // Version 0.05&lt;/h3>
+&lt;ul>
+&lt;li>Added &lt;code>@elements&lt;/code> attribute to recurring elements and tables&lt;/li>
+&lt;/ul>
+&lt;h3 id="2017-01-30--version-004">2017-01-30 // Version 0.04&lt;/h3>
+&lt;ul>
+&lt;li>Added XSLT stylesheet&lt;/li>
+&lt;/ul>
+&lt;h3 id="2017-01-15--version-003">2017-01-15 // Version 0.03&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI" target="_blank" rel="noopener">Second class&lt;/a> begins&lt;/li>
+&lt;/ul>
+&lt;h3 id="2016-11-28--version-002">2016-11-28 // Version 0.02&lt;/h3>
+&lt;ul>
+&lt;li>Added &lt;code>xml:id&lt;/code>s to recurring elements and tables&lt;/li>
+&lt;/ul>
+&lt;h3 id="2016-09-01--version-001">2016-09-01 // Version 0.01&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing" target="_blank" rel="noopener">First class&lt;/a> begins&lt;/li>
+&lt;/ul></description></item><item><title>Roadmap</title><link>https://dig-eg-gaz.github.io/resources/roadmap/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/roadmap/</guid><description>&lt;h2 id="ideas-and-possible-new-features">Ideas and possible new features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> publication of content on &lt;a href="http://exist-db.org/exist/apps/homepage/index.html" target="_blank" rel="noopener">Exist-db&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> deploy &lt;a href="https://srophe.app/" target="_blank" rel="noopener">srophe&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> publication of weeks, under editors&amp;rsquo; names, on &lt;a href="https://fsu.digital.flvc.org" target="_blank" rel="noopener">diginole&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> integration of page images in XML text&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> introduction of search form (not necessary if I use srophe)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> deploying TEI Boilerplate (?)&lt;/li>
+&lt;/ul>
+&lt;h2 id="done">Done&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> XSLT stylesheet&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://dig-eg-gaz.github.io/authors/">authors list&lt;/a> (September 2019)&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> transition website from Jekyll to Hugo (September 2019)&lt;/li>
+&lt;/ul></description></item><item><title>Other Resources</title><link>https://dig-eg-gaz.github.io/resources/other-resources/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/other-resources/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://dig-eg-gaz.github.io/old-site/" target="_blank" rel="noopener">Previous website&lt;/a>, archived in September 2019. Some links may be broken.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="dig-eg-gaz.slack.com">Slack Team&lt;/a> &lt;em>&lt;strong>NOTE: not currently monitored&lt;/strong>&lt;/em> - the team where you can communicate with classmates, and get help with the git platform. Slack is the standard for communication in technical teams, but it&amp;rsquo;s gaining traction as an email replacement in a very wide variety of companies and organizations. Slack organizes all communication into dedicated channels, where people can have focused conversations, and can always find a place to ask important questions. If you would like to learn more about Slack, watch &lt;a href="https://www.youtube.com/watch?v=B6zVzWU95Sw" target="_blank" rel="noopener">this&lt;/a> video. &lt;a href="http://dig-eg-gaz.slack.com" target="_blank" rel="noopener">Join the dig-eg-gaz slack team!&lt;/a> All you need is your @my.fsu.edu email address.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/dig-eg-gaz/samples" target="_blank" rel="noopener">Samples&lt;/a> - offers a few sample files (images of pages and plain text) of page 3 of the July 7, 1905 issue for you to test your OCR and editing processes.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>External Tools</title><link>https://dig-eg-gaz.github.io/resources/external-tools/</link><pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/external-tools/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.textfixer.com/tools/online-word-counter.php" target="_blank" rel="noopener">Word Frequency Counter&lt;/a>. Also available in &lt;a href="http://www.textfixerfr.com/outils/compteur-de-mots-en-ligne.php" target="_blank" rel="noopener">French&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul></description></item><item><title>Unicode symbols reference key</title><link>https://dig-eg-gaz.github.io/resources/unicode/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/unicode/</guid><description>&lt;p>This page will list unicode symbols for the Digital &lt;em>Egyptian Gazette&lt;/em> project.&lt;/p></description></item><item><title>Where can I find other issues of the Egyptian Gazette?</title><link>https://dig-eg-gaz.github.io/resources/holdings/</link><pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/holdings/</guid><description>&lt;p>This website offers very detailed digitization of a relatively narrow range of issues (1905-1908). But the &lt;em>Gazette&lt;/em> published for many years. Where can you find other issues?&lt;/p>
+&lt;p>This is a summary of what I know is available. I&amp;rsquo;d love to learn more about what you know. Please contact me to contribute to this page.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Years&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;th>Links&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1882-4&lt;/td>
+&lt;td>First year of publication. Scattered issues available on this site.&lt;/td>
+&lt;td>See also CEAlex&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1884-1892&lt;/td>
+&lt;td>Not clear where these issues can be found.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1893-1909&lt;/td>
+&lt;td>On microfilm at FSU and elsewhere&lt;/td>
+&lt;td>&lt;a href="https://fsu.catalog.fcla.edu/fs.jsp?ADV=S&amp;amp;t1=egyptian&amp;#43;gazette&amp;amp;k1=kw&amp;amp;op1=a&amp;amp;t2=&amp;amp;k2=kw&amp;amp;op2=a&amp;amp;t3=&amp;amp;k3=kw&amp;amp;avli=&amp;amp;fa=&amp;amp;fa=&amp;amp;pf=&amp;amp;pt=&amp;amp;V=D&amp;amp;S=1521595456841273&amp;amp;I=5#shFSULCMICR" target="_blank" rel="noopener">FSU library catalog&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1910-30&lt;/td>
+&lt;td>The British library holds these (and more) on microfilm: 31 Dec.1938; 1 March 1939 - 30 March 1940; 6 Jan. - 26 March, 13-16 April. 16 Oct 1941 - 20 May, 13 June 1943 - 29 Feb 1944, 3 Jan.1945 - 7 March, 1 June 1947 - Dec.1993; Jan.1998 - 31 Dec.2000&lt;/td>
+&lt;td>&lt;a href="http://primocat.bl.uk/F?func=direct&amp;amp;local_base=ITEMV&amp;amp;doc_number=013904794&amp;amp;con_lng=eng" target="_blank" rel="noopener">British Library catalog&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1930-51&lt;/td>
+&lt;td>CRL holds this. Details: MF-346 FNMP r.1-33 1930-Jan 15, 1941; (LACKS: Mar 24-26, 1930; Nov 25, 1933 (pp. 3-4); Feb 19-21, May 7-9, Oct 10 (pp. 1-2, 7-8), 1934; Jun 8, 1935 (pp. 3-4); Jan 29 (pp. 3-4), Feb 11 (pp. 3-4), May 17 (pp. 3-4), Dec 25, 1937; Jun 23-25, Sep 22-25, Dec 5-7, 1938; Jan 8-10, May 10-11, Jun 6-8, 10-12, Jul 25-27, Oct 10-12, Nov 2, 1940.) r.33-38 Jan 3, 1943-1946, r.39-40/e 1947-Jun 1948., r.41-44 Jul 1948-Jun 1950, r.45/e Jul-Dec 1950, r.46-47 1951.&lt;/td>
+&lt;td>&lt;a href="http://catalog.crl.edu/record=b1033661~S1" target="_blank" rel="noopener">CRL catalog&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1952-66&lt;/td>
+&lt;td>Harvard holds Microfilm: MF-68 r.1-4 1952, r.5-8/e 1953, r.9-12 1954, r.13-16 1955. MF-75 FNMP r.1-4 1956, r.5-8 1957, r.9-12 1958, r.13-21 1959-Jun 1963, r.22/e Jul-Dec 1963, r.23-28 1964-1966.&lt;/td>
+&lt;td>&lt;a href="http://catalog.crl.edu/record=b1412622~S1" target="_blank" rel="noopener">CRL catalog&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1940s-60s&lt;/td>
+&lt;td>CRL is posting copies online for certain periods: 1947-Jun 1948; Jul-Dec 1950; 1953; Jul-Dec 1963&lt;/td>
+&lt;td>&lt;a href="https://dds.crl.edu/crldelivery/16240" target="_blank" rel="noopener">CRL Digital Delivery&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1967-94&lt;/td>
+&lt;td>CRL MF-75 FNMP r. 29-30 1967, r.31-42 1968-1973, MF-390 FNMP (20 reels) 1974-1983., MF-6486 (20 reels) 1984-Jun 1992, MF-9344 (22 reels) Jul 1992-Dec 1994; Jan-Dec 1998&lt;/td>
+&lt;td>&lt;a href="http://catalog.crl.edu/record=b1033661~S1" target="_blank" rel="noopener">CRL catalog&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2000-2007&lt;/td>
+&lt;td>Library of Congress microfilm?&lt;/td>
+&lt;td>&lt;a href="http://catalog.crl.edu/record=b2894712~S1" target="_blank" rel="noopener">CRL catalog&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>

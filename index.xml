@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/</link><atom:link href="https://dig-eg-gaz.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/</link></image><item><title>Blogging instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</link><pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</guid><description>&lt;h2 id="1-fork-the-repository">1. Fork the repository&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/</link><atom:link href="https://dig-eg-gaz.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/</link></image><item><title>Blogging instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</link><pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</guid><description>&lt;h2 id="1-fork-the-repository">1. Fork the repository&lt;/h2>
 &lt;p>Fork a copy of the organization &lt;a href="https://github.com/dig-eg-gaz/blog-posts" target="_blank" rel="noopener">blog-posts&lt;/a> repository on your personal github account. Do this by clicking on the &amp;ldquo;fork&amp;rdquo; icon on the top right. You will be offered the chance to fork the repository under your own username&amp;ndash;do so. This will make a copy of the repository in your own GitHub account, in which you should save your draft blog posts.&lt;/p>
 &lt;h2 id="2-set-up-your-post">2. Set up your post&lt;/h2>
 &lt;p>Make a duplicate of the &lt;code>YYYY-MM-DD-name&lt;/code> folder, &lt;strong>leaving the original in place&lt;/strong>. Rename the &lt;em>duplicate&lt;/em> folder with today&amp;rsquo;s date and your name. This is the folder where you will put your blog post. The folder contains a file named &lt;code>index.md&lt;/code>. Open this file in a plain text editor such as Atom or Sublime Text.&lt;/p>
@@ -16,19 +16,194 @@
 &lt;h2 id="6-complete-your-author-page">6. Complete your author page&lt;/h2>
 &lt;p>I want to give you credit on the website for the work you do. In order to tell everyone who you are, change the &lt;code>YourNameNoSpaces&lt;/code> folder in your blog folder. Rename it using your first and last name without spaces. Then open the index file within the folder and add your own information, as you like. Remember to supply your github username. You can also replace the avatar image with one of your own choosing if you like (just make sure it&amp;rsquo;s square).&lt;/p>
 &lt;h2 id="7-send-a-pull-request-to-the-group-repository">7. Send a pull request to the group repository&lt;/h2>
-&lt;p>When your blog post and image are ready, you can fold them back into the organization content repository by sending me a &lt;strong>pull request&lt;/strong>. You do this by clicking the &amp;ldquo;new pull request&amp;rdquo; button the top left above your list of files. I will then see the pull request and either merge your files into the organization&amp;rsquo;s content or request that you change something before doing so.&lt;/p></description></item><item><title>Syllabus</title><link>https://dig-eg-gaz.github.io/resources/syllabus/</link><pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid><description>&lt;p>The course syllabus for the current semester (downloadable in PDF &lt;a href="https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing" target="_blank" rel="noopener">here&lt;/a>):&lt;/p>
-&lt;div class="responsive-wrap">
-&lt;iframe src="https://docs.google.com/document/d/e/2PACX-1vTRghO5oK-co1DipF0wl955Yk6rzgVTPFMKJj1WugjHyN8BbrGEtGoR5-9CqMSa3D1mkzlp4lB5hzPo/pub?embedded=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
-&lt;/div>
-&lt;h3 id="previous-semesters">Previous semesters&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing" target="_blank" rel="noopener">Fall 2021&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.google.com/document/d/1Ei9dAWXOpi2VcQxkmgIUowxvnDQW1VnqX0v15wA4ob8/edit?usp=sharing" target="_blank" rel="noopener">Spring 2020&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing" target="_blank" rel="noopener">Fall 2019&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I" target="_blank" rel="noopener">Spring 2018&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI" target="_blank" rel="noopener">Spring 2017&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing" target="_blank" rel="noopener">Fall 2016&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Status by week</title><link>https://dig-eg-gaz.github.io/issues/weeks/</link><pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/issues/weeks/</guid><description>&lt;h2 id="items-lacking-previous-semesters">Items lacking (previous semesters)&lt;/h2>
+&lt;p>When your blog post and image are ready, you can fold them back into the organization content repository by sending me a &lt;strong>pull request&lt;/strong>. You do this by clicking the &amp;ldquo;new pull request&amp;rdquo; button the top left above your list of files. I will then see the pull request and either merge your files into the organization&amp;rsquo;s content or request that you change something before doing so.&lt;/p></description></item><item><title>Status by week</title><link>https://dig-eg-gaz.github.io/issues/weeks/</link><pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/issues/weeks/</guid><description>&lt;h2 id="current-semester">Current semester&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Issue 1&lt;/th>
+&lt;th>Issue 2&lt;/th>
+&lt;th>Issue 3&lt;/th>
+&lt;th>Assigned to&lt;/th>
+&lt;th>Images&lt;/th>
+&lt;th>Files&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1904-11-28&lt;/td>
+&lt;td>1904-11-29&lt;/td>
+&lt;td>1904-11-30&lt;/td>
+&lt;td>&lt;a href="https://github.com/F8th0101" target="_blank" rel="noopener">Faith Rupkalvis&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-01&lt;/td>
+&lt;td>1904-12-02&lt;/td>
+&lt;td>1904-12-03&lt;/td>
+&lt;td>&lt;a href="https://github.com/hho22" target="_blank" rel="noopener">Harrison Obos&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-05&lt;/td>
+&lt;td>1904-12-06&lt;/td>
+&lt;td>1904-12-07&lt;/td>
+&lt;td>&lt;a href="https://github.com/HanlyBaker32" target="_blank" rel="noopener">Hayden Baker&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-08&lt;/td>
+&lt;td>1904-12-09&lt;/td>
+&lt;td>1904-12-10&lt;/td>
+&lt;td>&lt;a href="https://github.com/opm22a" target="_blank" rel="noopener">Owen Maxwell&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-12&lt;/td>
+&lt;td>1904-12-13&lt;/td>
+&lt;td>1904-12-14&lt;/td>
+&lt;td>&lt;a href="https://github.com/FKD22" target="_blank" rel="noopener">Fiona Dininger&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-15&lt;/td>
+&lt;td>1904-12-16&lt;/td>
+&lt;td>1904-12-17&lt;/td>
+&lt;td>&lt;a href="https://github.com/RLS22A" target="_blank" rel="noopener">Rainey Sharrow&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-19&lt;/td>
+&lt;td>1904-12-20&lt;/td>
+&lt;td>1904-12-21&lt;/td>
+&lt;td>&lt;a href="https://github.com/blossomisthebestcatever" target="_blank" rel="noopener">Sara Casimiro&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-22&lt;/td>
+&lt;td>1904-12-23&lt;/td>
+&lt;td>1904-12-24&lt;/td>
+&lt;td>&lt;a href="https://github.com/alexmgrove" target="_blank" rel="noopener">Alex Grove&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-26&lt;/td>
+&lt;td>1904-12-27&lt;/td>
+&lt;td>1904-12-28&lt;/td>
+&lt;td>&lt;a href="https://github.com/Carson456" target="_blank" rel="noopener">Carson Combs&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-29&lt;/td>
+&lt;td>1904-12-30&lt;/td>
+&lt;td>1904-12-31&lt;/td>
+&lt;td>&lt;a href="https://github.com/AnnieKryvorutsky" target="_blank" rel="noopener">Annie Kryvorutsky&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-05-25&lt;/td>
+&lt;td>1906-05-26&lt;/td>
+&lt;td>1906-06-06&lt;/td>
+&lt;td>&lt;a href="https://github.com/elenab1" target="_blank" rel="noopener">Elena Beggs&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-06-23&lt;/td>
+&lt;td>1906-07-03&lt;/td>
+&lt;td>1906-07-04&lt;/td>
+&lt;td>&lt;a href="https://github.com/CareyBush13" target="_blank" rel="noopener">Wyatt Bush&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-04&lt;/td>
+&lt;td>1906-08-10&lt;/td>
+&lt;td>1906-08-11&lt;/td>
+&lt;td>&lt;a href="https://github.com/nmd19" target="_blank" rel="noopener">Nicholas Deptula&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-05&lt;/td>
+&lt;td>1906-10-06&lt;/td>
+&lt;td>1906-10-17&lt;/td>
+&lt;td>&lt;a href="https://github.com/mckennaoakley" target="_blank" rel="noopener">McKenna Oakley&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-30&lt;/td>
+&lt;td>1906-11-02&lt;/td>
+&lt;td>1906-11-03&lt;/td>
+&lt;td>&lt;a href="https://github.com/gracedamato22" target="_blank" rel="noopener">Grace Damato&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-16&lt;/td>
+&lt;td>1906-08-17&lt;/td>
+&lt;td>1906-08-18&lt;/td>
+&lt;td>&lt;a href="https://github.com/Lpazos2" target="_blank" rel="noopener">Luca Pazos&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-05-09&lt;/td>
+&lt;td>1907-05-10&lt;/td>
+&lt;td>1907-05-11&lt;/td>
+&lt;td>&lt;a href="https://github.com/bellaseaner" target="_blank" rel="noopener">Bella Seaner&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-08-21&lt;/td>
+&lt;td>1907-09-06&lt;/td>
+&lt;td>1907-09-07&lt;/td>
+&lt;td>&lt;a href="https://github.com/BenDAnderson" target="_blank" rel="noopener">Ben Anderson&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-10-08&lt;/td>
+&lt;td>1907-10-09&lt;/td>
+&lt;td>1907-10-10&lt;/td>
+&lt;td>&lt;a href="https://github.com/miriamalrahil" target="_blank" rel="noopener">Miriam Alrahil&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="items-lacking-previous-semesters">Items lacking (previous semesters)&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -61,24 +236,6 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>May 25, 1906&lt;/td>
-&lt;td>May 26, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>June 6, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
 &lt;td>June 9, 1906&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -88,100 +245,10 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>June 23, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>July 3, 1906&lt;/td>
-&lt;td>July 4, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>August 4, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>August 10, 1906&lt;/td>
-&lt;td>August 11, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>October 5, 1906&lt;/td>
-&lt;td>October 6, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>October 17, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>October 30, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>November 2, 1906&lt;/td>
-&lt;td>November 3, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
 &lt;td>July 20, 1907&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>August 21, 1907&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>September 6, 1907&lt;/td>
-&lt;td>September 7, 1907&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -289,29 +356,11 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>33B&lt;/td>
-&lt;td>August 16, 1906&lt;/td>
-&lt;td>August 18, 1906&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
 &lt;td>49B&lt;/td>
 &lt;td>December 6, 1906&lt;/td>
 &lt;td>December 8, 1906&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>all&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>19B&lt;/td>
-&lt;td>May 9, 1907&lt;/td>
-&lt;td>May 11, 1907&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -351,25 +400,29 @@
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
-&lt;tr>
-&lt;td>41A&lt;/td>
-&lt;td>October 8, 1907&lt;/td>
-&lt;td>October 10, 1907&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Tu We Th&lt;/td>
-&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="previous-courses">Previous courses&lt;/h2>
 &lt;ul>
+&lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-fall-2022/">IDS 2681 Fall 2022&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-fall-2021/">IDS 2681 Fall 2021&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-spring-2020/">IDS 2681 Spring 2020&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-fall-2019/">IDS 2681 Fall 2019&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-spring-2018/">IFS 2116 Spring 2018&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-spring-2017/">IFS 2116 Spring 2017&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://dig-eg-gaz.github.io/issues/weeks-fall-2016/">IFS 2116 Fall 2016&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Syllabus</title><link>https://dig-eg-gaz.github.io/resources/syllabus/</link><pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid><description>&lt;p>The course syllabus for the current semester (downloadable in PDF &lt;a href="https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing" target="_blank" rel="noopener">here&lt;/a>):&lt;/p>
+&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/document/d/e/2PACX-1vTRghO5oK-co1DipF0wl955Yk6rzgVTPFMKJj1WugjHyN8BbrGEtGoR5-9CqMSa3D1mkzlp4lB5hzPo/pub?embedded=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="previous-semesters">Previous semesters&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing" target="_blank" rel="noopener">Fall 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1Ei9dAWXOpi2VcQxkmgIUowxvnDQW1VnqX0v15wA4ob8/edit?usp=sharing" target="_blank" rel="noopener">Spring 2020&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing" target="_blank" rel="noopener">Fall 2019&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I" target="_blank" rel="noopener">Spring 2018&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI" target="_blank" rel="noopener">Spring 2017&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing" target="_blank" rel="noopener">Fall 2016&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Serial question analysis instructions</title><link>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</link><pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</guid><description>&lt;p>Your final project is to consider a theme or question that recurs across many issues of the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
 &lt;p>Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the &lt;a href="https://dig-eg-gaz.github.io/how-to/digitization/query-instructions">tutorial&lt;/a>.&lt;/p>
 &lt;p>To consult previous serial analysis projects, see this &lt;a href="#directory-of-previous-analysis-projects">directory&lt;/a>.&lt;/p>
@@ -12961,7 +13014,194 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>To save our visualizations, click “Story”, “New Story”. Drag the desired sheet to the designated location. Click “Story”, “Export Image”.&lt;/li>
 &lt;/ol>
 &lt;h2 id="conclusion">Conclusion&lt;/h2>
-&lt;p>Tableau is great for creating visualisations from your data, but it also is useful for data exploration. When we create data visualisations it is important to remember to keep graphics simple and self-explanatory. For independent data exploration, however, we can try simple as well as complex approaches. Experiment with your data in the software to not only create graphics, but to see how different visualisations help you think about your research.&lt;/p></description></item><item><title>Analyzing Agricultural Bank Stocks between different Exchanges in the Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</guid><description>&lt;p>The idea of Agricultural Banks, facilitated through government tax collectors to distribute loans, originally started in the early 1880s in India. Lord Cromer, a prominent figure in Egypt’s economy, was originally pitched this idea by William Wedderburn while “serving in India as Finance Member of Lord Ripon’s government”. Lord Cromer was fond of the idea and pitched it to the Government of India, however, they rejected the idea. Lord Cromer then carried this idea to the Egyptian Government, where they finally established the “Agricultural Bank of Egypt in May of 1902”. The idea proved to be promising as it initially attracted a lot of investors as well as clients (Jakes).&lt;/p>
+&lt;p>Tableau is great for creating visualisations from your data, but it also is useful for data exploration. When we create data visualisations it is important to remember to keep graphics simple and self-explanatory. For independent data exploration, however, we can try simple as well as complex approaches. Experiment with your data in the software to not only create graphics, but to see how different visualisations help you think about your research.&lt;/p></description></item><item><title>IDS2681 Fall 2022 Weeks</title><link>https://dig-eg-gaz.github.io/issues/weeks-fall-2022/</link><pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/issues/weeks-fall-2022/</guid><description>&lt;p>This is an archived record of the weeks assigned in fall 2022.&lt;/p>
+&lt;h2 id="current-semester">Current semester&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Issue 1&lt;/th>
+&lt;th>Issue 2&lt;/th>
+&lt;th>Issue 3&lt;/th>
+&lt;th>Assigned to&lt;/th>
+&lt;th>Images&lt;/th>
+&lt;th>Files&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1904-11-28&lt;/td>
+&lt;td>1904-11-29&lt;/td>
+&lt;td>1904-11-30&lt;/td>
+&lt;td>&lt;a href="https://github.com/F8th0101" target="_blank" rel="noopener">Faith Rupkalvis&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-01&lt;/td>
+&lt;td>1904-12-02&lt;/td>
+&lt;td>1904-12-03&lt;/td>
+&lt;td>&lt;a href="https://github.com/hho22" target="_blank" rel="noopener">Harrison Obos&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-05&lt;/td>
+&lt;td>1904-12-06&lt;/td>
+&lt;td>1904-12-07&lt;/td>
+&lt;td>&lt;a href="https://github.com/HanlyBaker32" target="_blank" rel="noopener">Hayden Baker&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-08&lt;/td>
+&lt;td>1904-12-09&lt;/td>
+&lt;td>1904-12-10&lt;/td>
+&lt;td>&lt;a href="https://github.com/opm22a" target="_blank" rel="noopener">Owen Maxwell&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-12&lt;/td>
+&lt;td>1904-12-13&lt;/td>
+&lt;td>1904-12-14&lt;/td>
+&lt;td>&lt;a href="https://github.com/FKD22" target="_blank" rel="noopener">Fiona Dininger&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-15&lt;/td>
+&lt;td>1904-12-16&lt;/td>
+&lt;td>1904-12-17&lt;/td>
+&lt;td>&lt;a href="https://github.com/RLS22A" target="_blank" rel="noopener">Rainey Sharrow&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-19&lt;/td>
+&lt;td>1904-12-20&lt;/td>
+&lt;td>1904-12-21&lt;/td>
+&lt;td>&lt;a href="https://github.com/blossomisthebestcatever" target="_blank" rel="noopener">Sara Casimiro&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-22&lt;/td>
+&lt;td>1904-12-23&lt;/td>
+&lt;td>1904-12-24&lt;/td>
+&lt;td>&lt;a href="https://github.com/alexmgrove" target="_blank" rel="noopener">Alex Grove&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-26&lt;/td>
+&lt;td>1904-12-27&lt;/td>
+&lt;td>1904-12-28&lt;/td>
+&lt;td>&lt;a href="https://github.com/Carson456" target="_blank" rel="noopener">Carson Combs&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1904-12-29&lt;/td>
+&lt;td>1904-12-30&lt;/td>
+&lt;td>1904-12-31&lt;/td>
+&lt;td>&lt;a href="https://github.com/AnnieKryvorutsky" target="_blank" rel="noopener">Annie Kryvorutsky&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-05-25&lt;/td>
+&lt;td>1906-05-26&lt;/td>
+&lt;td>1906-06-06&lt;/td>
+&lt;td>&lt;a href="https://github.com/elenab1" target="_blank" rel="noopener">Elena Beggs&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-06-23&lt;/td>
+&lt;td>1906-07-03&lt;/td>
+&lt;td>1906-07-04&lt;/td>
+&lt;td>&lt;a href="https://github.com/CareyBush13" target="_blank" rel="noopener">Wyatt Bush&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-04&lt;/td>
+&lt;td>1906-08-10&lt;/td>
+&lt;td>1906-08-11&lt;/td>
+&lt;td>&lt;a href="https://github.com/nmd19" target="_blank" rel="noopener">Nicholas Deptula&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-05&lt;/td>
+&lt;td>1906-10-06&lt;/td>
+&lt;td>1906-10-17&lt;/td>
+&lt;td>&lt;a href="https://github.com/mckennaoakley" target="_blank" rel="noopener">McKenna Oakley&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-10-30&lt;/td>
+&lt;td>1906-11-02&lt;/td>
+&lt;td>1906-11-03&lt;/td>
+&lt;td>&lt;a href="https://github.com/gracedamato22" target="_blank" rel="noopener">Grace Damato&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1906-08-16&lt;/td>
+&lt;td>1906-08-17&lt;/td>
+&lt;td>1906-08-18&lt;/td>
+&lt;td>&lt;a href="https://github.com/Lpazos2" target="_blank" rel="noopener">Luca Pazos&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-05-09&lt;/td>
+&lt;td>1907-05-10&lt;/td>
+&lt;td>1907-05-11&lt;/td>
+&lt;td>&lt;a href="https://github.com/bellaseaner" target="_blank" rel="noopener">Bella Seaner&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-08-21&lt;/td>
+&lt;td>1907-09-06&lt;/td>
+&lt;td>1907-09-07&lt;/td>
+&lt;td>&lt;a href="https://github.com/BenDAnderson" target="_blank" rel="noopener">Ben Anderson&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1907-10-08&lt;/td>
+&lt;td>1907-10-09&lt;/td>
+&lt;td>1907-10-10&lt;/td>
+&lt;td>&lt;a href="https://github.com/miriamalrahil" target="_blank" rel="noopener">Miriam Alrahil&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Analyzing Agricultural Bank Stocks between different Exchanges in the Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2021-analysis-barry/</guid><description>&lt;p>The idea of Agricultural Banks, facilitated through government tax collectors to distribute loans, originally started in the early 1880s in India. Lord Cromer, a prominent figure in Egypt’s economy, was originally pitched this idea by William Wedderburn while “serving in India as Finance Member of Lord Ripon’s government”. Lord Cromer was fond of the idea and pitched it to the Government of India, however, they rejected the idea. Lord Cromer then carried this idea to the Egyptian Government, where they finally established the “Agricultural Bank of Egypt in May of 1902”. The idea proved to be promising as it initially attracted a lot of investors as well as clients (Jakes).&lt;/p>
 &lt;p>My project aims to analyze the movement of the Agricultural Bank stocks on the different exchanges listed in the Egyptian Gazette. I mainly focus on the &lt;a href="https://dig-eg-gaz.github.io/issues/templates/#london-stock-exchange" target="_blank" rel="noopener">London Stock Exchange&lt;/a>: “Agricultural Banks” and the &lt;a href="https://dig-eg-gaz.github.io/issues/templates/#bourse-du-caire" target="_blank" rel="noopener">Cairo Stock Exchange&lt;/a>: “Agricultural Bank of Egypt”. To gather this data, I originally used the following Queries to locate my desired data:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>//div[@xml:id=&amp;quot;deg-el-bduc01&amp;quot;]/table[1]/row[3]/cell[3]/measure&lt;/code>&lt;/li>

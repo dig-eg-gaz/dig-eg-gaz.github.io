@@ -3,15 +3,38 @@ title: Status by week
 linktitle: Weeks
 toc: true
 type: book
-date: "2021-08-26"
+date: "2022-09-04"
 draft: false
 menu:
   issues:
     parent: Issues
     weight: 2
-
 weight: 2
 ---
+
+## Current semester
+
+Issue 1|Issue 2|Issue 3|Assigned to|Images|Files|Notes
+---|---|---|---|---|---|---
+1904-11-28|1904-11-29|1904-11-30|[Faith Rupkalvis](https://github.com/F8th0101)|||
+1904-12-01|1904-12-02|1904-12-03|[Harrison Obos](https://github.com/hho22)|||
+1904-12-05|1904-12-06|1904-12-07|[Hayden Baker](https://github.com/HanlyBaker32)|||
+1904-12-08|1904-12-09|1904-12-10|[Owen Maxwell](https://github.com/opm22a)|||
+1904-12-12|1904-12-13|1904-12-14|[Fiona Dininger](https://github.com/FKD22)|||
+1904-12-15|1904-12-16|1904-12-17|[Rainey Sharrow](https://github.com/RLS22A)|||
+1904-12-19|1904-12-20|1904-12-21|[Sara Casimiro](https://github.com/blossomisthebestcatever)|||
+1904-12-22|1904-12-23|1904-12-24|[Alex Grove](https://github.com/alexmgrove)|||
+1904-12-26|1904-12-27|1904-12-28|[Carson Combs](https://github.com/Carson456)|||
+1904-12-29|1904-12-30|1904-12-31|[Annie Kryvorutsky](https://github.com/AnnieKryvorutsky)|||
+1906-05-25|1906-05-26|1906-06-06|[Elena Beggs](https://github.com/elenab1)|||
+1906-06-23|1906-07-03|1906-07-04|[Wyatt Bush](https://github.com/CareyBush13)|||
+1906-08-04|1906-08-10|1906-08-11|[Nicholas Deptula](https://github.com/nmd19)|||
+1906-10-05|1906-10-06|1906-10-17|[McKenna Oakley](https://github.com/mckennaoakley)|||
+1906-10-30|1906-11-02|1906-11-03|[Grace Damato](https://github.com/gracedamato22)|||
+1906-08-16|1906-08-17|1906-08-18|[Luca Pazos](https://github.com/Lpazos2)|||
+1907-05-09|1907-05-10|1907-05-11|[Bella Seaner](https://github.com/bellaseaner)|||
+1907-08-21|1907-09-06|1907-09-07|[Ben Anderson](https://github.com/BenDAnderson)|||
+1907-10-08|1907-10-09|1907-10-10|[Miriam Alrahil](https://github.com/miriamalrahil)|||
 
 ## Items lacking (previous semesters)
 
@@ -19,20 +42,8 @@ Date|End date|Images|Files|Notes
 ---|---|---|---|---|---|---
 January 27, 1906|||1|
 February 17, 1906|||1|
-May 25, 1906|May 26, 1906||2|
-June 6, 1906|||1||
 June 9, 1906|||1||
-June 23, 1906|||1||
-July 3, 1906|July 4, 1906||2|
-August 4, 1906|||1|
-August 10, 1906|August 11, 1906||2|
-October 5, 1906|October 6, 1906||2|
-October 17, 1906|||1|
-October 30, 1906|||1|
-November 2, 1906|November 3, 1906||2|
 July 20, 1907|||1|
-August 21, 1907|||1|
-September 6, 1907|September 7, 1907||2|
 October 12, 1907||6||
 
 ## Images lacking from microfilm
@@ -70,18 +81,15 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 7|February 14, 1905|February 18, 1905||all|5|
 24|June 12, 1905|June 17, 1905||all||only four p3s encoded
 18B|May 3, 1906|May 5, 1906||all||
-33B|August 16, 1906|August 18, 1906||||
 49B|December 6, 1906|December 8, 1906||all||
-19B|May 9, 1907|May 11, 1907||||
 33A|August 12, 1907|August 14, 1907||all||
 38B|September 19, 1907|September 21, 1907||all||
 39B|September 26, 1907|September 28, 1907||all||
 40A|September 30, 1907|October 2, 1907||all||
-41A|October 8, 1907|October 10, 1907||||Tu We Th
-
 
 ## Previous courses
 
+- [IDS 2681 Fall 2022](/issues/weeks-fall-2022/)
 - [IDS 2681 Fall 2021](/issues/weeks-fall-2021/)
 - [IDS 2681 Spring 2020](/issues/weeks-spring-2020/)
 - [IDS 2681 Fall 2019](/issues/weeks-fall-2019/)

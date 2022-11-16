@@ -35,7 +35,8 @@ menu:
 8. [How to perform content markup](/how-to/digitization/tagging-people-and-places-instructions)
 9. [How to query the full contents](/how-to/digitization/query-instructions)
 10. [How to use regular expressions](/how-to/digitization/regular-expression-instructions)
-11. [How to create data visualizations](/how-to/digitization/visualization-instructions)
+11. [How to create an exploratory visualization](/how-to/digitization/exploratory-visualization)
+12. [How to create data visualizations](/how-to/digitization/visualization-instructions)
 
 ## Course-specific instructions
 

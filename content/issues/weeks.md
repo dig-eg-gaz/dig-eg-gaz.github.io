@@ -24,13 +24,13 @@ Issue 1|Issue 2|Issue 3|Assigned to|Images|Files|Notes
 1904-12-15|1904-12-16|1904-12-17|[Rainey Sharrow](https://github.com/RLS22A)|||
 1904-12-19|1904-12-20|1904-12-21|[Sara Casimiro](https://github.com/blossomisthebestcatever)|||
 1904-12-22|1904-12-23|1904-12-24|[Alex Grove](https://github.com/alexmgrove)|||
-1904-12-26|1904-12-27|1904-12-28|[Carson Combs](https://github.com/Carson456)|||
+1904-12-26|1904-12-27|1904-12-28|[Carson Combs](https://github.com/Carson456)|3|18|
 1904-12-29|1904-12-30|1904-12-31|[Annie Kryvorutsky](https://github.com/AnnieKryvorutsky)|||
-1906-05-25|1906-05-26|1906-06-06|[Elena Beggs](https://github.com/elenab1)|||
+1906-05-25|1906-05-26|1906-06-06|[Elena Beggs](https://github.com/elenab1)||9|
 1906-06-23|1906-07-03|1906-07-04|[Wyatt Bush](https://github.com/CareyBush13)|||
 1906-08-04|1906-08-10|1906-08-11|[Nicholas Deptula](https://github.com/nmd19)|||
 1906-10-05|1906-10-06|1906-10-17|[McKenna Oakley](https://github.com/mckennaoakley)|||
-1906-10-30|1906-11-02|1906-11-03|[Grace Damato](https://github.com/gracedamato22)|||
+1906-10-30|1906-11-02|1906-11-03|[Grace Damato](https://github.com/gracedamato22)|2||
 1906-08-16|1906-08-17|1906-08-18|[Luca Pazos](https://github.com/Lpazos2)|||
 1907-05-09|1907-05-10|1907-05-11|[Bella Seaner](https://github.com/bellaseaner)|||
 1907-08-21|1907-09-06|1907-09-07|[Ben Anderson](https://github.com/BenDAnderson)|||

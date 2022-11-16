@@ -78,11 +78,11 @@
   
     
   
-  <meta name="description" content="Objective We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.
-1. What is GitHub?" />
+  <meta name="description" content="The Egyptian Gazette repository contains millions of words. A researcher might find thousands of instances of a word that interests her. Where to start with so much material?
+The TEI-XML structure of the Digital Egyptian Gazette makes it possible to narrow a search to particular parts of the paper." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/" />
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/exploratory-visualization/" />
 
   
   
@@ -284,7 +284,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/" />
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/exploratory-visualization/" />
 
   
   
@@ -307,19 +307,19 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Digital Egyptian Gazette" />
-  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/" />
-  <meta property="og:title" content="GitHub instructions | Digital Egyptian Gazette" />
-  <meta property="og:description" content="Objective We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.
-1. What is GitHub?" /><meta property="og:image" content="https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/exploratory-visualization/" />
+  <meta property="og:title" content="Exploratory data visualization | Digital Egyptian Gazette" />
+  <meta property="og:description" content="The Egyptian Gazette repository contains millions of words. A researcher might find thousands of instances of a word that interests her. Where to start with so much material?
+The TEI-XML structure of the Digital Egyptian Gazette makes it possible to narrow a search to particular parts of the paper." /><meta property="og:image" content="https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2016-09-30T00:00:00&#43;00:00"
+        content="2022-11-09T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2016-09-30T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-11-09T00:00:00&#43;00:00">
   
 
   
@@ -331,7 +331,7 @@
   
 
 
-  <title>GitHub instructions | Digital Egyptian Gazette</title>
+  <title>Exploratory data visualization | Digital Egyptian Gazette</title>
 
   
   
@@ -351,7 +351,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f9fdb71212fba4efd8520e7651fd6991" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cc43bf8272649dabdec27e2c67b6cd11" >
 
   
   
@@ -766,7 +766,7 @@
 
 
 
-  <li class="active"><a href="/how-to/digitization/github-instructions/">GitHub</a></li>
+  <li class=""><a href="/how-to/digitization/github-instructions/">GitHub</a></li>
 
 
 
@@ -798,7 +798,7 @@
 
 
 
-  <li class=""><a href="/how-to/digitization/exploratory-visualization/">Exploratory visualization</a></li>
+  <li class="active"><a href="/how-to/digitization/exploratory-visualization/">Exploratory visualization</a></li>
 
 
 
@@ -894,13 +894,15 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#objective">Objective</a></li>
-    <li><a href="#1-what-is-github">1. What is GitHub?</a></li>
-    <li><a href="#2-how-to-access-github">2. How to access GitHub</a></li>
-    <li><a href="#3-how-to-use-the-organization-repository-and-your-own-fork-of-it">3. How to use the organization repository and your own fork of it</a></li>
-    <li><a href="#4-how-to-submit-your-deliverables">4. How to submit your deliverables</a></li>
-    <li><a href="#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">5. How do I make sure that my content fork is up to date?</a></li>
-    <li><a href="#6-resources">6. Resources</a></li>
+    <li><a href="#1-search-for-a-word-using-xpath">1. Search for a word using XPath</a></li>
+    <li><a href="#2-clean-your-results">2. Clean your results</a></li>
+    <li><a href="#3-make-a-table">3. Make a table</a></li>
+    <li><a href="#4-connect-your-table-to-tableau">4. Connect your table to Tableau</a></li>
+    <li><a href="#5-create-your-exploratory-visualization">5. Create your exploratory visualization</a>
+      <ul>
+        <li><a href="#title-list">Title list</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -932,195 +934,137 @@
 
         <div class="docs-article-container">
           
-          <h1>GitHub instructions</h1>
+          <h1>Exploratory data visualization</h1>
 
           <div class="article-style">
 
             
             
 
-            <h2 id="objective">Objective</h2>
-<p>We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.</p>
-<h2 id="1-what-is-github">1. What is GitHub?</h2>
-<p>GitHub is a tool to manage versioning and collaboration in coding projects large and small. It&rsquo;s built on <a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener">git</a> software, and offers a bunch of useful social and communication tools in its user interface. Each of us will create an individual account where we&rsquo;ll store and refine our work until it&rsquo;s ready to upload to the <a href="https://github.com/dig-eg-gaz" target="_blank" rel="noopener">dig-eg-gaz organization repositories</a>.</p>
-<h2 id="2-how-to-access-github">2. How to access GitHub</h2>
-<p>You can approach GitHub three ways:</p>
+            <p>The Egyptian Gazette repository contains millions of words. A researcher might find thousands of instances of a word that interests her. Where to start with so much material?</p>
+<p>The TEI-XML structure of the Digital Egyptian Gazette makes it possible to narrow a search to particular parts of the paper. But before restricting the search, it is useful to form a general idea of where in the paper a term appears. For this, exploratory data visualization can be a great tool.</p>
+<h2 id="1-search-for-a-word-using-xpath">1. Search for a word using XPath</h2>
+<p>For the purposes of a quick, rough exploration, first try searching a word in the whole repository, using <code>Find &gt; Find and Replace</code> in the Files menu.</p>
+<p>Then, try these two searches in the &ldquo;XPath 2.0&rdquo; box at the top left of your Oxygen XML editor window.</p>
 <ul>
-<li>using a web browser to access <a href="https://github.com/" target="_blank" rel="noopener">github.com</a>,</li>
-<li>using the <a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop</a> client , or</li>
-<li>using <a href="http://programminghistorian.org/lessons/intro-to-bash" target="_blank" rel="noopener">the command line</a>.</li>
+<li>This one produces a list of the titles (headlines) of every division that contains the word you are searching: <code>//body/div/div[(matches(.,'word', 'i'))]/head</code></li>
+<li>This one produces a list of the feature tags of every division that contains the word you are searching: <code>//div[matches(.,'word', 'i')]/@feature</code></li>
 </ul>
-<p>We&rsquo;ll be using the Desktop client mostly, but in a pinch you can use the web browser.</p>
-<h2 id="3-how-to-use-the-organization-repository-and-your-own-fork-of-it">3. How to use the organization repository and your own fork of it</h2>
-<ol>
-<li>Navigate to the organization <a href="https://github.com/dig-eg-gaz/content" target="_blank" rel="noopener">content repository</a>, and <strong>fork</strong> the repository by clicking on the &ldquo;fork&rdquo; icon on the top right. You will be offered the chance to fork the repository under your own username&ndash;do so. This will make a copy of the repository in your own GitHub account.</li>
-<li>Clone this repository in your Desktop.</li>
-<li>In GitHub Desktop, right click the &ldquo;content&rdquo; repository, and choose &ldquo;Show in Finder.&rdquo; This will show where the content files you&rsquo;ve just cloned are stored on your hard drive. Move your xml files here, and continue to edit and save them in this location. Desktop will help you to send these edits to Github.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="show in finder" srcset="
-               /media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_898c6a89a14da93ed01f1abd409d1382.webp 400w,
-               /media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_3add16a180941d5b8a0d3de0886f790d.webp 760w,
-               /media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/media/content-show-in-finder_hu09f59385f589e2dff52da53a5a39f26e_160833_898c6a89a14da93ed01f1abd409d1382.webp"
-               width="731"
-               height="760"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</li>
-<li>When you&rsquo;re ready to sync your changes with the GitHub cloud, write a summary of your changes (e.g., &ldquo;creating page 1&rdquo;), hit &ldquo;Commit to Master&rdquo;, then hit &ldquo;Fetch origin&rdquo; (on the top right). This will backup your work onto your fork on GitHub&rsquo;s servers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="fetch origin desktop" srcset="
-               /media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_93dd8c4d452c2d56941647184a495de2.webp 400w,
-               /media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_c0543e7870d5e1b96090b6ac5c79c4af.webp 760w,
-               /media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/media/fetch-origin-desktop_hud2863607f2e203ce2e57c2bb102222ff_340827_93dd8c4d452c2d56941647184a495de2.webp"
-               width="760"
-               height="683"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</li>
-</ol>
-<h2 id="4-how-to-submit-your-deliverables">4. How to submit your deliverables</h2>
-<p>When your page files are complete, you can fold them from your own fork into the <strong>master</strong> organization content repository by sending me a <strong>pull request</strong>. You do this by navigating (on the github website) to <em>your fork</em> of the content repository. If it says &ldquo;This branch is 1 commit ahead,&rdquo; you can submit a pull request by clicking the &ldquo;new pull request&rdquo; button on the top left above your list of files. Follow the instructions and keep clicking until the pull request is submitted.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="new pull request" srcset="
-               /media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_42f7e6cbff305dd15c5cc5159bb74522.webp 400w,
-               /media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_d295f293f658e166c3640f6239d6ec1c.webp 760w,
-               /media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/media/new-pull-request_hu0ace3d29da7e2c22ec6e7fb9fc4cca7a_124472_42f7e6cbff305dd15c5cc5159bb74522.webp"
-               width="760"
-               height="620"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-
-I will then see the pull request and either merge your files into the organization&rsquo;s content or request that you change something before doing so. If you want to check the status of your pull requests, scroll all the way to the top of the github web page. Click on &ldquo;Pull requests&rdquo; in white letters on a black background. You will then see a list of the pull requests you&rsquo;ve submitted.</p>
-<h2 id="5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">5. How do I make sure that my content fork is up to date?</h2>
-<p>In the screenshot above, you&rsquo;ll notice the caption &ldquo;This branch is 1 commit ahead, 98 commits behind dig-eg-gaz:master.&rdquo; &ldquo;Commits ahead&rdquo; is work that you&rsquo;ve done and will (or have already) submitted in a pull request. Once it&rsquo;s merged into the master content repository, your fork will be &ldquo;no commits ahead&rdquo;.</p>
-<p>&ldquo;Commits behind&rdquo; represents work that your colleagues have done and that has been merged into the master content repository <em>after</em> you first made your fork. These updates don&rsquo;t make their way into your fork automatically. Normally this is not big deal, as you aren&rsquo;t working on those files anyway. But when it comes time to do your querying and analysis of the whole repository, it&rsquo;s very important to make sure that you are working on an up-to-date version of the master content files.</p>
-<p>When you look at your fork of the <code>dig-eg-gaz/content</code> repository on the github website, you will see a line comparing your repository to the organization repository:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="not up to date" srcset="
-               /media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_e2f209d15d0812ee5e12ca82c12f61d8.webp 400w,
-               /media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_17ae88bdbd2c90cc23bd065782ade6a9.webp 760w,
-               /media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/media/250-commits-behind_hu2f6e593fcf8b28f4d983bdd2f497774a_53348_e2f209d15d0812ee5e12ca82c12f61d8.webp"
-               width="760"
-               height="321"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-
-If you are ahead, click the &ldquo;new pull request&rdquo; button above the status report and ask the organization to merge your changes.</p>
-<p>If you are behind:</p>
-<ol>
-<li>click &ldquo;pull request&rdquo; on the same line and to the right of the status of the report.</li>
-<li>You need to manipulate things so that your fork is the &ldquo;base repository&rdquo; and the <code>dig-eg-gaz/content</code> is the &ldquo;head repository&rdquo;. I&rsquo;m not completely sure how to accomplish this&hellip;</li>
-<li>You will then be taken to a screen that allows you to create a pull request. Do so.</li>
-<li>This pull request will now appear on the &ldquo;pull requests&rdquo; tab of your fork of the content folder.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="pull requests" srcset="
-               /media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_35db8ff3dca15f254959a31a1e58a1ab.webp 400w,
-               /media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_77ee91ef2e40776b9137befb38aacf16.webp 760w,
-               /media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/media/pull-requests-tab_hu9f5c40c344dae52c10a617fb1714ef49_36328_35db8ff3dca15f254959a31a1e58a1ab.webp"
-               width="760"
-               height="198"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-
-Click on the tab, and on the pull request, and then merge the pull request.</li>
-<li>Your fork should now be up to date&ndash;the status line will confirm this.</li>
-</ol>
-<h2 id="6-resources">6. Resources</h2>
-<p>These Github tutorials might be useful:</p>
+<p>For my example, I searched the word &ldquo;sudan.&rdquo; I got 11,242 hits with the basic search, 1303 with the headline search, and 96 with the feature search.</p>
 <ul>
-<li><a href="https://guides.github.com/introduction/flow/" target="_blank" rel="noopener">Github flow</a>: describes branch, commit, pull, etc. 5 minute read.</li>
-<li><a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="noopener">Hello world</a>: step-by-step explanation of key functions via web interface. 10 minute read.</li>
-<li><a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/" target="_blank" rel="noopener">Understanding Github</a>: very clear introductory discussion, focusing on command line interface.</li>
+<li><a href="https://dig-eg-gaz.github.io/how-to/digitization/query-instructions" target="_blank" rel="noopener">further search instructions</a></li>
+</ul>
+<h2 id="2-clean-your-results">2. Clean your results</h2>
+<p>Copy and paste your results into a plain text editor like <a href="https://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text</a>. Then use <code>Find &gt; Replace ...</code> to convert these results into a useable tabular (spreadsheet) format. Make sure that you toggle on regular expression (<code>.*</code>) then use these four commands.</p>
+<table>
+<thead>
+<tr>
+<th>Find</th>
+<th>Find (Windows)</th>
+<th>Replace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>System.+/(?=\d\d\d\d-)</code></td>
+<td><code>System.+/(?=\d\d\d\d-)</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>.xml\nDescription: </code></td>
+<td><code>.xml\r\nDescription: </code></td>
+<td><code>\t</code></td>
+</tr>
+<tr>
+<td><code>\nXPath location:.+body.1..div.</code></td>
+<td><code>\r\nXPath location:.+body.1..div.</code></td>
+<td><code>\t</code></td>
+</tr>
+<tr>
+<td><code>\].+\n.+\n.+\n</code></td>
+<td><code>\].+\r\n.+\r\n.+\r\n</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>This should give you one line for every result, starting with the date of the issue. Copy all of this text.</p>
+<ul>
+<li><a href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions" target="_blank" rel="noopener">further regex instructions</a></li>
+</ul>
+<h2 id="3-make-a-table">3. Make a table</h2>
+<p>Paste the text into the <em>second line</em> of a spreadsheet program. Google Sheets works well for this.</p>
+<p>In the first line, give each column a label. You can use <code>Date</code>, <code>Title</code> or <code>Feature</code>, and <code>Page</code>.</p>
+<p>Give your new spreadsheet a name.</p>
+<h2 id="4-connect-your-table-to-tableau">4. Connect your table to Tableau</h2>
+<p>If you haven&rsquo;t downloaded Tableau yet, fill in this <a href="https://www.tableau.com/academic/students#form" target="_blank" rel="noopener">online form</a>. Make sure you use your <code>@fsu.edu</code> email. For the <code>How will you be using your Tableau license?</code> question, answer <code>Learning on own</code>.</p>
+<p>You will receive an email with download links and a registration key. Click the link to download Tableau Desktop, and sign up for the 14 day free trial. Install the program and use the registration key (a series of digits). This will give you access for the semester.</p>
+<p>Once you have Tableau running, use the &ldquo;Connect&rdquo; column on the left to link to your spreadsheet. For example, if you made a Google Sheet, use <code>To a server &gt; Google Drive</code>, and follow the steps to authorize Tableau to access the sheet you&rsquo;ve made. If you saved your table as an Excel spreadsheet, use <code>To a file &gt; Microsoft Excel</code>.</p>
+<p>The data you created should now load. You can click the <code>Sheet 1</code> tab at the bottom.</p>
+<h2 id="5-create-your-exploratory-visualization">5. Create your exploratory visualization</h2>
+<h3 id="title-list">Title list</h3>
+<ol>
+<li>Drag <code>Date</code> from the column on the left to the <code>Columns</code> tray at the top. (You may get this by double clicking). Click on the right of the green oval, where a white triangle appears. In the drop down list, choose the second <code>Day</code>.</li>
+<li>Drag <code>Title</code> from the column on the left to the <code>Rows</code> tray at the top. If it gives you a warning, choose <code>Add all members.</code> Click on the right of the blue oval, where a white triangle appears. In the drop down list, choose <code>Sort</code>, and set these values.</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="title sort" srcset="
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_3b0acf81b89b700e530d4af2abb11543.webp 400w,
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_1f581a95082ae128fcbaf5cd44c97830.webp 760w,
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_3b0acf81b89b700e530d4af2abb11543.webp"
+               width="572"
+               height="732"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>You should now have a list (with dates) of the titles of divisions containing your keyword, ranked from most to least common:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="title ranked viz" srcset="
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_12560cfce1b1269a8a9cf1e4c6d6a1ed.webp 400w,
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_c032682a5c2fb6a017e23d4118cf86b7.webp 760w,
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_12560cfce1b1269a8a9cf1e4c6d6a1ed.webp"
+               width="760"
+               height="669"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<ul>
+<li><a href="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/" target="_blank" rel="noopener">further data visualization instructions</a></li>
 </ul>
 
 
@@ -1140,14 +1084,14 @@ Click on the tab, and on the pull request, and then merge the pull request.</li>
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/how-to/digitization/templating-instructions/" rel="next">Templating instructions</a>
+    <a href="/how-to/digitization/regular-expression-instructions/" rel="next">Regular expressions instructions</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/how-to/digitization/ocr-instructions/" rel="prev">OCR instructions</a>
+    <a href="/how-to/digitization/visualization-instructions/" rel="prev">Data Visualization Tutorial</a>
   </div>
   
 </div>
@@ -1157,7 +1101,7 @@ Click on the tab, and on the pull request, and then merge the pull request.</li>
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 30, 2016</p>
+          <p>Last updated on Nov 9, 2022</p>
 
           
 

@@ -1438,6 +1438,139 @@ Some examples of commonly used regex codes:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Exploratory data visualization</title>
+      <link>https://dig-eg-gaz.github.io/how-to/digitization/exploratory-visualization/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/digitization/exploratory-visualization/</guid>
+      <description>&lt;p&gt;The Egyptian Gazette repository contains millions of words. A researcher might find thousands of instances of a word that interests her. Where to start with so much material?&lt;/p&gt;
+&lt;p&gt;The TEI-XML structure of the Digital Egyptian Gazette makes it possible to narrow a search to particular parts of the paper. But before restricting the search, it is useful to form a general idea of where in the paper a term appears. For this, exploratory data visualization can be a great tool.&lt;/p&gt;
+&lt;h2 id=&#34;1-search-for-a-word-using-xpath&#34;&gt;1. Search for a word using XPath&lt;/h2&gt;
+&lt;p&gt;For the purposes of a quick, rough exploration, first try searching a word in the whole repository, using &lt;code&gt;Find &amp;gt; Find and Replace&lt;/code&gt; in the Files menu.&lt;/p&gt;
+&lt;p&gt;Then, try these two searches in the &amp;ldquo;XPath 2.0&amp;rdquo; box at the top left of your Oxygen XML editor window.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This one produces a list of the titles (headlines) of every division that contains the word you are searching: &lt;code&gt;//body/div/div[(matches(.,&#39;word&#39;, &#39;i&#39;))]/head&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;This one produces a list of the feature tags of every division that contains the word you are searching: &lt;code&gt;//div[matches(.,&#39;word&#39;, &#39;i&#39;)]/@feature&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For my example, I searched the word &amp;ldquo;sudan.&amp;rdquo; I got 11,242 hits with the basic search, 1303 with the headline search, and 96 with the feature search.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/query-instructions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;further search instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-clean-your-results&#34;&gt;2. Clean your results&lt;/h2&gt;
+&lt;p&gt;Copy and paste your results into a plain text editor like &lt;a href=&#34;https://www.sublimetext.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sublime Text&lt;/a&gt;. Then use &lt;code&gt;Find &amp;gt; Replace ...&lt;/code&gt; to convert these results into a useable tabular (spreadsheet) format. Make sure that you toggle on regular expression (&lt;code&gt;.*&lt;/code&gt;) then use these four commands.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Find&lt;/th&gt;
+&lt;th&gt;Find (Windows)&lt;/th&gt;
+&lt;th&gt;Replace&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;System.+/(?=\d\d\d\d-)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;System.+/(?=\d\d\d\d-)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;.xml\nDescription: &lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.xml\r\nDescription: &lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\t&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;\nXPath location:.+body.1..div.&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\r\nXPath location:.+body.1..div.&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\t&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;\].+\n.+\n.+\n&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\].+\r\n.+\r\n.+\r\n&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This should give you one line for every result, starting with the date of the issue. Copy all of this text.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;further regex instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-make-a-table&#34;&gt;3. Make a table&lt;/h2&gt;
+&lt;p&gt;Paste the text into the &lt;em&gt;second line&lt;/em&gt; of a spreadsheet program. Google Sheets works well for this.&lt;/p&gt;
+&lt;p&gt;In the first line, give each column a label. You can use &lt;code&gt;Date&lt;/code&gt;, &lt;code&gt;Title&lt;/code&gt; or &lt;code&gt;Feature&lt;/code&gt;, and &lt;code&gt;Page&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Give your new spreadsheet a name.&lt;/p&gt;
+&lt;h2 id=&#34;4-connect-your-table-to-tableau&#34;&gt;4. Connect your table to Tableau&lt;/h2&gt;
+&lt;p&gt;If you haven&amp;rsquo;t downloaded Tableau yet, fill in this &lt;a href=&#34;https://www.tableau.com/academic/students#form&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online form&lt;/a&gt;. Make sure you use your &lt;code&gt;@fsu.edu&lt;/code&gt; email. For the &lt;code&gt;How will you be using your Tableau license?&lt;/code&gt; question, answer &lt;code&gt;Learning on own&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You will receive an email with download links and a registration key. Click the link to download Tableau Desktop, and sign up for the 14 day free trial. Install the program and use the registration key (a series of digits). This will give you access for the semester.&lt;/p&gt;
+&lt;p&gt;Once you have Tableau running, use the &amp;ldquo;Connect&amp;rdquo; column on the left to link to your spreadsheet. For example, if you made a Google Sheet, use &lt;code&gt;To a server &amp;gt; Google Drive&lt;/code&gt;, and follow the steps to authorize Tableau to access the sheet you&amp;rsquo;ve made. If you saved your table as an Excel spreadsheet, use &lt;code&gt;To a file &amp;gt; Microsoft Excel&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The data you created should now load. You can click the &lt;code&gt;Sheet 1&lt;/code&gt; tab at the bottom.&lt;/p&gt;
+&lt;h2 id=&#34;5-create-your-exploratory-visualization&#34;&gt;5. Create your exploratory visualization&lt;/h2&gt;
+&lt;h3 id=&#34;title-list&#34;&gt;Title list&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Drag &lt;code&gt;Date&lt;/code&gt; from the column on the left to the &lt;code&gt;Columns&lt;/code&gt; tray at the top. (You may get this by double clicking). Click on the right of the green oval, where a white triangle appears. In the drop down list, choose the second &lt;code&gt;Day&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Drag &lt;code&gt;Title&lt;/code&gt; from the column on the left to the &lt;code&gt;Rows&lt;/code&gt; tray at the top. If it gives you a warning, choose &lt;code&gt;Add all members.&lt;/code&gt; Click on the right of the blue oval, where a white triangle appears. In the drop down list, choose &lt;code&gt;Sort&lt;/code&gt;, and set these values.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;title sort&#34; srcset=&#34;
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_3b0acf81b89b700e530d4af2abb11543.webp 400w,
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_1f581a95082ae128fcbaf5cd44c97830.webp 760w,
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_3b0acf81b89b700e530d4af2abb11543.webp&#34;
+               width=&#34;572&#34;
+               height=&#34;732&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;You should now have a list (with dates) of the titles of divisions containing your keyword, ranked from most to least common:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;title ranked viz&#34; srcset=&#34;
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_12560cfce1b1269a8a9cf1e4c6d6a1ed.webp 400w,
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_c032682a5c2fb6a017e23d4118cf86b7.webp 760w,
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_12560cfce1b1269a8a9cf1e4c6d6a1ed.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;669&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;further data visualization instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Visualization Tutorial</title>
       <link>https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>

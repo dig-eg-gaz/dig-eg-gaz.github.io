@@ -21253,10 +21253,10 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;title sort&#34; srcset=&#34;
-               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_3b0acf81b89b700e530d4af2abb11543.webp 400w,
+               /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_723f79b0c514802ef160bc2a3893c526.webp 400w,
                /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_1f581a95082ae128fcbaf5cd44c97830.webp 760w,
                /media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dig-eg-gaz.github.io/media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_3b0acf81b89b700e530d4af2abb11543.webp&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/exploratory-title-sort_hu4c486c75caca610a16480463d19bf470_40241_723f79b0c514802ef160bc2a3893c526.webp&#34;
                width=&#34;572&#34;
                height=&#34;732&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -21282,10 +21282,10 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;title ranked viz&#34; srcset=&#34;
-               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_12560cfce1b1269a8a9cf1e4c6d6a1ed.webp 400w,
+               /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_8036f509c756dc67cd648ad72c9b9bf4.webp 400w,
                /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_c032682a5c2fb6a017e23d4118cf86b7.webp 760w,
                /media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dig-eg-gaz.github.io/media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_12560cfce1b1269a8a9cf1e4c6d6a1ed.webp&#34;
+               src=&#34;https://dig-eg-gaz.github.io/media/title-viz-sorted-list_hua46b06669d5e561ee92487cfc1d7a81f_355620_8036f509c756dc67cd648ad72c9b9bf4.webp&#34;
                width=&#34;760&#34;
                height=&#34;669&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -26563,7 +26563,7 @@ According to &lt;a href=&#34;https://tradingeconomics.com/egypt/precipitation&#3
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Over the last few decades, the topic of global warming has gotten huge publicity all around the world. This analysis was created with the purpose of finding out whether or not global warming has been occuring specifically in Alexandria, Egypt by taking data found from May 1906 to April 1907 and comparing it to an article I found that lists the temperature change in Alexandria Egypt over the last 100 years to see if there has been an increase in the average temeperature and if so what could be the leading factors in the climate change.&lt;/p&gt;
 &lt;h3 id=&#34;xpath-query&#34;&gt;XPath Query&lt;/h3&gt;
-&lt;p&gt;The Xpath Queries I have chosen to use are: 
+&lt;p&gt;The Xpath Queries I have chosen to use are:
 1.Max Temps: //table//cell[contains(.,&amp;lsquo;Max. Temp in the shade&amp;rsquo;)]/following-sibling::cell[1]/number()&lt;br&gt;
 2.Min Temps: //table//cell[contains(.,&amp;lsquo;Min. Temp in the shade&amp;rsquo;)]/following-sibling::cell[1]/number()&lt;/p&gt;
 &lt;p&gt;The goal of the query is to find a certain table in the newspaper which shows the weather information  which typically is found on page 2-3 and from that, I would take the data that is under the maximum  and minimum temperature section. By taking the following sibling cell after the cell that says max temperature and minimum temperature, I will be able to gather the numbers provided and copy and paste them into Atom to then use them to create useful visualizations. The Xpath query had to be narrowed down to keywords such as the exact titles of the weather report or else the information could be skewed. Another important thing in making the query was making sure that the results that were given back were in numbers so it would not mess up the graph if someone would have written something in that section.&lt;/p&gt;

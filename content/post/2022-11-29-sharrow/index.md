@@ -29,7 +29,7 @@ The epidemic's effects were disastrous in Egypt. Symptoms included diarrhea, hig
 
 I became curious about what section of The Egyptian Gazette the cattle plague appeared in most frequently, so I ran a simple Xpath Query.
 
-//div[matches(., 'cattle plague', 'i')]/@feature
+`//div[matches(., 'cattle plague', 'i')]/@feature`
 
 This searched for the term "cattle plague" within any feature of The Egyptian Gazette. It returned 68 hits, and I found that the cattle plague appeared most in the Local and General sections of the paper.
 

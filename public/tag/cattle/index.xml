@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cattle | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/tag/cattle/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/tag/cattle/index.xml" rel="self" type="application/rss+xml" />
+    <description>cattle</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
+      <title>cattle</title>
+      <link>https://dig-eg-gaz.github.io/tag/cattle/</link>
+    </image>
+    
+    <item>
+      <title>Cattle Plague in Egypt</title>
+      <link>https://dig-eg-gaz.github.io/post/2022-11-29-sharrow/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2022-11-29-sharrow/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cattle Plague&#34; srcset=&#34;
+               /post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_42328e87bc921f65f80fc3f763a186cc.webp 400w,
+               /post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_451f8bae38a021ce9b5e40f537a25212.webp 760w,
+               /post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_42328e87bc921f65f80fc3f763a186cc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;669&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Caption
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;As I began the research process, I constantly ran into information about various plagues: specifically the Bubonic Plague. What appeared less frequently, however, was cattle plague. Upon seeing an excerpt on page 3 of the 1904-12-16 issue of The Egyptian Gazette, I delved deeper. What is &amp;ldquo;bovine typhus&amp;rdquo; and why was it important to the readers of The Egyptian Gazette?&lt;/p&gt;
+&lt;h2 id=&#34;rinderpest&#34;&gt;Rinderpest&lt;/h2&gt;
+&lt;p&gt;The Cattle Plague, also known as Rinderpest, entered Africa in the 1880s most likely from the shipment of cattle from Arabia or Bombay. Many Egyptians urged the government to take action against this through trade restrictions; however, the Egyptian government needed to import cattle to have enough for the country. Instead, the government set up a quarantine site for any cattle and sheep entering the country. Despite their efforts, the plague entered Egypt in 1903 due to a lack of knowledge about the symptoms in bovine.&lt;/p&gt;
+&lt;p&gt;The epidemic&amp;rsquo;s effects were disastrous in Egypt. Symptoms included diarrhea, high fever, oral erosions, lymphoid necrosis, etc. Many cattle met their demise. According to The Egyptian Gazette, as of 1904-12-16, an estimated 146,649 cattle had died from the plague. This explains the significance of the coverage in the newspaper. It is important to the readers of the paper to understand the status of the cattle plague so they can keep their bovine healthy.&lt;/p&gt;
+&lt;h2 id=&#34;the-egyptian-gazette&#34;&gt;The Egyptian Gazette&lt;/h2&gt;
+&lt;p&gt;I became curious about what section of The Egyptian Gazette the cattle plague appeared in most frequently, so I ran a simple Xpath Query.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;//div[matches(., &#39;cattle plague&#39;, &#39;i&#39;)]/@feature&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This searched for the term &amp;ldquo;cattle plague&amp;rdquo; within any feature of The Egyptian Gazette. It returned 68 hits, and I found that the cattle plague appeared most in the Local and General sections of the paper.&lt;/p&gt;
+&lt;h3 id=&#34;additional-links&#34;&gt;additional links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ia800708.us.archive.org/view_archive.php?archive=/22/items/crossref-pre-1909-scholarly-works/10.1016%252Fs0368-1742%252804%252980032-8.zip&amp;amp;file=10.1016%252Fs0368-1742%252805%252980072-4.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ia800708.us.archive.org/view_archive.php?archive=/22/items/crossref-pre-1909-scholarly-works/10.1016%252Fs0368-1742%252804%252980032-8.zip&amp;file=10.1016%252Fs0368-1742%252805%252980072-4.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/03670074.1960.11665255?journalCode=teaf19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.tandfonline.com/doi/abs/10.1080/03670074.1960.11665255?journalCode=teaf19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-1-4419-8901-7_1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://link.springer.com/chapter/10.1007/978-1-4419-8901-7_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/post/16-analysis-vazquez/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dig-eg-gaz.github.io/post/16-analysis-vazquez/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-analysis-medina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dig-eg-gaz.github.io/post/18-analysis-medina/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

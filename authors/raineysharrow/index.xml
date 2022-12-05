@@ -20,7 +20,7 @@ Caption
 &lt;p>The epidemic&amp;rsquo;s effects were disastrous in Egypt. Symptoms included diarrhea, high fever, oral erosions, lymphoid necrosis, etc. Many cattle met their demise. According to The Egyptian Gazette, as of 1904-12-16, an estimated 146,649 cattle had died from the plague. This explains the significance of the coverage in the newspaper. It is important to the readers of the paper to understand the status of the cattle plague so they can keep their bovine healthy.&lt;/p>
 &lt;h2 id="the-egyptian-gazette">The Egyptian Gazette&lt;/h2>
 &lt;p>I became curious about what section of The Egyptian Gazette the cattle plague appeared in most frequently, so I ran a simple Xpath Query.&lt;/p>
-&lt;p>//div[matches(., &amp;lsquo;cattle plague&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)]/@feature&lt;/p>
+&lt;p>&lt;code>//div[matches(., 'cattle plague', 'i')]/@feature&lt;/code>&lt;/p>
 &lt;p>This searched for the term &amp;ldquo;cattle plague&amp;rdquo; within any feature of The Egyptian Gazette. It returned 68 hits, and I found that the cattle plague appeared most in the Local and General sections of the paper.&lt;/p>
 &lt;h3 id="additional-links">additional links&lt;/h3>
 &lt;ul>

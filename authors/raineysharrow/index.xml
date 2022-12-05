@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/raineysharrow/</link><atom:link href="https://dig-eg-gaz.github.io/authors/raineysharrow/index.xml" rel="self" type="application/rss+xml"/><description>Digital Egyptian Gazette</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/raineysharrow/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/raineysharrow/</link></image><item><title>Cattle Plague in Egypt</title><link>https://dig-eg-gaz.github.io/post/2022-11-29-sharrow/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-11-29-sharrow/</guid><description>&lt;p>
+&lt;figure id="figure-caption">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Cattle Plague" srcset="
+/post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_42328e87bc921f65f80fc3f763a186cc.webp 400w,
+/post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_451f8bae38a021ce9b5e40f537a25212.webp 760w,
+/post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-11-29-sharrow/featured_hu517b9e61da6e4c6d4dc939968c50f745_673497_42328e87bc921f65f80fc3f763a186cc.webp"
+width="760"
+height="669"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Caption
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>As I began the research process, I constantly ran into information about various plagues: specifically the Bubonic Plague. What appeared less frequently, however, was cattle plague. Upon seeing an excerpt on page 3 of the 1904-12-16 issue of The Egyptian Gazette, I delved deeper. What is &amp;ldquo;bovine typhus&amp;rdquo; and why was it important to the readers of The Egyptian Gazette?&lt;/p>
+&lt;h2 id="rinderpest">Rinderpest&lt;/h2>
+&lt;p>The Cattle Plague, also known as Rinderpest, entered Africa in the 1880s most likely from the shipment of cattle from Arabia or Bombay. Many Egyptians urged the government to take action against this through trade restrictions; however, the Egyptian government needed to import cattle to have enough for the country. Instead, the government set up a quarantine site for any cattle and sheep entering the country. Despite their efforts, the plague entered Egypt in 1903 due to a lack of knowledge about the symptoms in bovine.&lt;/p>
+&lt;p>The epidemic&amp;rsquo;s effects were disastrous in Egypt. Symptoms included diarrhea, high fever, oral erosions, lymphoid necrosis, etc. Many cattle met their demise. According to The Egyptian Gazette, as of 1904-12-16, an estimated 146,649 cattle had died from the plague. This explains the significance of the coverage in the newspaper. It is important to the readers of the paper to understand the status of the cattle plague so they can keep their bovine healthy.&lt;/p>
+&lt;h2 id="the-egyptian-gazette">The Egyptian Gazette&lt;/h2>
+&lt;p>I became curious about what section of The Egyptian Gazette the cattle plague appeared in most frequently, so I ran a simple Xpath Query.&lt;/p>
+&lt;p>//div[matches(., &amp;lsquo;cattle plague&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)]/@feature&lt;/p>
+&lt;p>This searched for the term &amp;ldquo;cattle plague&amp;rdquo; within any feature of The Egyptian Gazette. It returned 68 hits, and I found that the cattle plague appeared most in the Local and General sections of the paper.&lt;/p>
+&lt;h3 id="additional-links">additional links&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://ia800708.us.archive.org/view_archive.php?archive=/22/items/crossref-pre-1909-scholarly-works/10.1016%252Fs0368-1742%252804%252980032-8.zip&amp;amp;file=10.1016%252Fs0368-1742%252805%252980072-4.pdf" target="_blank" rel="noopener">https://ia800708.us.archive.org/view_archive.php?archive=/22/items/crossref-pre-1909-scholarly-works/10.1016%252Fs0368-1742%252804%252980032-8.zip&amp;file=10.1016%252Fs0368-1742%252805%252980072-4.pdf&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tandfonline.com/doi/abs/10.1080/03670074.1960.11665255?journalCode=teaf19" target="_blank" rel="noopener">https://www.tandfonline.com/doi/abs/10.1080/03670074.1960.11665255?journalCode=teaf19&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://link.springer.com/chapter/10.1007/978-1-4419-8901-7_1" target="_blank" rel="noopener">https://link.springer.com/chapter/10.1007/978-1-4419-8901-7_1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dig-eg-gaz.github.io/post/16-analysis-vazquez/" target="_blank" rel="noopener">https://dig-eg-gaz.github.io/post/16-analysis-vazquez/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dig-eg-gaz.github.io/post/18-analysis-medina/" target="_blank" rel="noopener">https://dig-eg-gaz.github.io/post/18-analysis-medina/&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

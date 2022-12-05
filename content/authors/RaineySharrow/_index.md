@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Rainey Sharrow
+title: Rainey Sharrow
 
 authors:
 - RaineySharrow

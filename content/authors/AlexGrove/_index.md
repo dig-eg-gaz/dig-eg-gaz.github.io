@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alex Grove
+title: Alex Grove
 
 authors:
 - AlexGrove
@@ -36,6 +36,6 @@ social:
 user_groups:
 - Writers
 ---
-The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2020.
+The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2022.
 
 

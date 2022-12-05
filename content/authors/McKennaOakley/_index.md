@@ -1,6 +1,6 @@
 ---
 # Display name
-name: McKenna Oakley
+title: McKenna Oakley
 
 authors:
 - McKennaOakley

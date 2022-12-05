@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Annie Kryvorutsky
+title: Annie Kryvorutsky
 
 authors:
 - AnnieKryvorutsky
@@ -19,7 +19,9 @@ organizations:
 bio: The author, a student at Florida State University, was enrolled in the digital microhistory lab in fall 2022.
 
 interests:
-# - accounting, environmental science, photography
+- accounting
+- environmental science
+- photography
 
 social:
 - icon: github
@@ -36,6 +38,6 @@ social:
 user_groups:
 - Writers
 ---
-The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2020.
+The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2022.
 
 

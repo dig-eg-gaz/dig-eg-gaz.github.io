@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Sara Casimiro
+title: Owen Maxwell
 
 authors:
-- SaraCasimiro
+- OwenMaxwell
 
 superuser: no
 
@@ -24,7 +24,7 @@ interests:
 social:
 - icon: github
   icon_pack: fab
-  link: https://github.com/blossomisthebestcatever
+  link: https://github.com/opm22a
 # add these accounts if you would like
 # - icon: instagram
 #  icon_pack: fab
@@ -37,3 +37,5 @@ user_groups:
 - Writers
 ---
 The author, a student at Florida State University, was enrolled in the digital microhistory lab in fall 2022.
+
+

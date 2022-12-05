@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Luca Pazos
+title: Luca Pazos
 
 authors:
 - LucaPazos
@@ -36,6 +36,6 @@ social:
 user_groups:
 - Writers
 ---
-The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2020.
+The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2022.
 
 

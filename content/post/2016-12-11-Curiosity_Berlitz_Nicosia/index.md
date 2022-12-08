@@ -3,7 +3,7 @@ title: "Higher Learning through the Newspaper"
 summary: "Would you apply to a Secondary Institution because of an advertisement in the newspaper?"
 date: 2016-12-11
 categories: [curiosities]
-author: [AlexanderAmorello]
+authors: [AlexanderAmorello]
 tags: ["Education", "Berlitz", "Language", "1900s"]
 featured: false
 draft: false

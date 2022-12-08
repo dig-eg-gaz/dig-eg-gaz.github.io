@@ -3,7 +3,7 @@ title: "Distorted Photo File"
 summary: "Photo quality and scanner quality might drive me insane. Seriously."
 date: 2016-10-31
 categories: [technical]
-author: [OliviaEvanoff]
+authors: [OliviaEvanoff]
 tags: ["Scanner", "distorts", "images"]
 featured: false
 draft: false

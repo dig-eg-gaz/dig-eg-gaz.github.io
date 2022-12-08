@@ -3,7 +3,7 @@ title: "Plants that make ice?"
 summary: "See what happens when engineers mix water with plants."
 date: 2017-03-06
 categories: [curiosities]
-author: [jonathanmorales]
+authors: [jonathanmorales]
 tags: ["advertisements", "engineering", "future", "machines", "ice", "water", "refrigeration"]
 featured: false
 draft: false

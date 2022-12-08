@@ -3,7 +3,7 @@ title: "Why is anarchy important in British Egypt?"
 summary: "The Egyptian Gazette is reporting on anarchist activity but why is that important to British Egypt?"
 date: 2017-04-11
 categories: [curiosities]
-author: [WilliamOrtiz]
+authors: [WilliamOrtiz]
 tags: ["anarchy", "colonialism", "Russia", "tsar,", "Japan"]
 featured: false
 draft: false

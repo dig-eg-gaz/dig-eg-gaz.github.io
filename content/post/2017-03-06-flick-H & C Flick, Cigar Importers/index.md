@@ -3,7 +3,7 @@ title: "H & C Flick, Cigar Importers"
 summary: "Am I related?"
 date: 2017-03-06
 categories: [curiosities]
-author: [madisonflick]
+authors: [madisonflick]
 tags: ["advertisements", "cigar"]
 featured: false
 draft: false

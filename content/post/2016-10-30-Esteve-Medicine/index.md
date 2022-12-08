@@ -3,7 +3,7 @@ title: "Medicine"
 summary: "A man in Alexandria, Egypt had suffered from chronic kidney disease for 19 years of his life. After being told he had less than three months to live, he has managed to cure his disease with only five boxes of Doan's Backache Kidney Pills."
 date: 2016-10-30
 categories: [curiosities]
-author: [JustinEsteve]
+authors: [JustinEsteve]
 tags: ["medicine", "kidney failure", "miracles"]
 featured: false
 draft: false

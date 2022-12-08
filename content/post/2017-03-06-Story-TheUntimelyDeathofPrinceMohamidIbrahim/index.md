@@ -3,7 +3,7 @@ title: "The Untimely Death of Prince Mohamed Ibrahim"
 summary: "Freak Car Accident"
 date: 2017-03-06
 categories: [curiosities]
-author: [JoshuaStory]
+authors: [JoshuaStory]
 tags: ["car accidents", "famous death"]
 featured: false
 draft: false

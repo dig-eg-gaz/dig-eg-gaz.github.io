@@ -3,7 +3,7 @@ title: "Madame Butterfly: A Metamorphosis"
 summary: "A great play for the grand stage"
 date: 2017-05-01
 categories: [curiosities]
-author: [TajAli]
+authors: [TajAli]
 tags: ["theater"]
 image:
   caption: "February 22, 1905"

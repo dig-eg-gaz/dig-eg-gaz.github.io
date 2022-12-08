@@ -3,7 +3,7 @@ title: "The Result of hashish"
 summary: "What goes on in someone's mind after tasting some hashish paste"
 date: 2016-12-13
 categories: [curiosities]
-author: [BrayanBarbosa]
+authors: [BrayanBarbosa]
 tags: ["hashish", "drugs"]
 featured: false
 draft: false

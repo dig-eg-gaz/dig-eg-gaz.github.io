@@ -3,7 +3,7 @@ title: "Numerical Nonsense"
 summary: "A-B-C  1-2..is that a 3 or an 8?"
 date: 2016-12-08
 categories: [technical]
-author: [ValerieCurcio]
+authors: [ValerieCurcio]
 tags: 
 image:
   caption: "1905-05-20"

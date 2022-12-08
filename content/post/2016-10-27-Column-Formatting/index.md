@@ -3,7 +3,7 @@ title: "Column Formatting"
 summary: "An insinuation of importance by size devotion."
 date: 2016-10-27
 categories: [technical]
-author: [SamanthaLappin]
+authors: [SamanthaLappin]
 tags: ["technical", "formatting", "column", "importance"]
 featured: false
 draft: false

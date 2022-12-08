@@ -3,7 +3,7 @@ title: "212 Runs"
 summary: "A complete thrashing (or is it?)"
 date: 2017-03-06
 categories: [curiosities]
-author: [jaimesepulveda]
+authors: [jaimesepulveda]
 tags: ["sports"]
 image:
   caption: "Cricket scores on 1906-07-30"

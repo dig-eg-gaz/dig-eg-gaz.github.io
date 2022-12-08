@@ -3,7 +3,7 @@ title: "Analysis of The Road Man"
 summary: "One liner"
 date: 2017-03-08
 categories: [curiosities]
-author: [dianafajardo]
+authors: [dianafajardo]
 tags: ["college", "stories"]
 image:
   caption: "1905-09-12-P5"

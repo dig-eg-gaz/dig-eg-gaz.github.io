@@ -3,7 +3,7 @@ title: "British Imperialism"
 summary: "Moving forward"
 date: 2016-10-24
 categories: [curiosities]
-author: [DanteGrieco]
+authors: [DanteGrieco]
 tags: ["Imperialism", "Pax Britannica", "nationalism"]
 featured: false
 draft: false

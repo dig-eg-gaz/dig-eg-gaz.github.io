@@ -3,7 +3,7 @@ title: "Page 6 Disaster"
 summary: "The never ending pages of financial tables"
 date: 2017-03-10
 categories: [curiosities]
-author: [AlexiaHorton]
+authors: [AlexiaHorton]
 tags: ["Numbers", "Language", "Understanding", "Computer malfunctions"]
 featured: false
 draft: false

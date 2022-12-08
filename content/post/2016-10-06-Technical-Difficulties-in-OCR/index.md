@@ -3,7 +3,7 @@ title: "Technical Difficulties in the Egyptian Gazette"
 summary: "A brief summary of the struggles in encoding I've encountered."
 date: 2016-10-06
 categories: [technical]
-author: [CelitaSumma]
+authors: [CelitaSumma]
 tags: ["XML", "OCR", "encoding"]
 featured: false
 draft: false

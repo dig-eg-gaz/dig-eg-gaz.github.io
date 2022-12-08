@@ -3,7 +3,7 @@ title: "The Bubonic Plague"
 summary: "How the Bubonic Plague hit Egypt"
 date: 2017-03-05
 categories: [curiosities]
-author: [AlizaAnderson]
+authors: [AlizaAnderson]
 tags: ["Bubonic Plague", "Egypt"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "Christmas Mail"
 summary: ""
 date: 2016-10-07
 categories: [curiosities]
-author: [SamanthaLappin]
+authors: [SamanthaLappin]
 tags: ["Christmas", "post", "mail"]
 featured: false
 draft: false

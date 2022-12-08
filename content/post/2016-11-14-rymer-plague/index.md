@@ -3,7 +3,7 @@ title: "The Plague"
 summary: "Why is the report of a plague hidden in the middle of a newspaper? Find out why."
 date: 2016-11-14
 categories: [curiosities]
-author: [charlierymer]
+authors: [charlierymer]
 tags: ["plague"]
 image:
   caption: "Military hospital in Alexandria from World War 1."

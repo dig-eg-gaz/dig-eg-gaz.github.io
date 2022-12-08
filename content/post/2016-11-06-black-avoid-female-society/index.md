@@ -3,7 +3,7 @@ title: "“Avoid Female Society”"
 summary: "Also onions and garlic"
 date: 2016-11-06
 categories: [curiosities]
-author: [MelizzaBlack]
+authors: [MelizzaBlack]
 tags: ["culture", "calendar of the week", "coptic", "mohamedan"]
 featured: false
 draft: false

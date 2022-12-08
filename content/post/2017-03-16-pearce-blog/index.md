@@ -3,7 +3,7 @@ title: "Reading of Sentence"
 summary: "In this portion of this Thursday issue of the Egyptian Gazette,"
 date: 2017-03-16
 categories: [curiosities]
-author: [willpearce]
+authors: [willpearce]
 tags: ["Denshiwai"]
 image:
   caption: "June 28, 1906"

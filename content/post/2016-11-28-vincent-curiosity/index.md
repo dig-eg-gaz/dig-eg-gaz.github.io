@@ -3,7 +3,7 @@ title: "Tragic Fall from a Window"
 summary: "The blog post is about a man who tries to throw his wife out of a window"
 date: 2016-11-28
 categories: [curiosities]
-author: [brooklynvincent <!--- all one word --->]
+authors: [brooklynvincent <!--- all one word --->]
 tags:
   -
 featured: false

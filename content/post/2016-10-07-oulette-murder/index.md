@@ -3,7 +3,7 @@ title: "Murder In Cairo"
 summary: ""
 categories: [curiosities]
 date: 2016-10-07
-author: [RileyOuellette]
+authors: [RileyOuellette]
 tags: ["murder", "Cairo"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "Egyptian Gazette Structural Issues"
 summary: "Encoding Limitations"
 date: 2016-11-27
 categories: [technical]
-author: [JustinEsteve]
+authors: [JustinEsteve]
 tags: ["structure", "encoding"]
 featured: false
 draft: false

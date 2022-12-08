@@ -3,7 +3,7 @@ title: "Rain in the Desert"
 summary: "How is the driest place in the world one of the most fertile?"
 date: 2017-05-06
 categories: [curiosities]
-author: [jordanfrazier]
+authors: [jordanfrazier]
 tags: ["weather"]
 image:
   caption: "Rain in the Nile on page 7 of the Thursday May 30th, 1906 issue"

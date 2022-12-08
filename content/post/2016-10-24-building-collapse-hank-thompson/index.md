@@ -3,7 +3,7 @@ title: "Fatal House Collapse"
 summary: "A Curiosity."
 date: 2016-10-24
 categories: [curiosities]
-author: [HankThompson]
+authors: [HankThompson]
 tags: ["construction", "death", "investigation"]
 featured: false
 draft: false

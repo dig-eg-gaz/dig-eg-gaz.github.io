@@ -3,7 +3,7 @@ title: "Finereader Rage"
 summary: "* In my best Darth Vader impression* NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!"
 date: 2016-10-28
 categories: [Technical]
-author: [HankThompson]
+authors: [HankThompson]
 tags: ["ABBYY finereader", "OCR crash"]
 featured: false
 draft: false

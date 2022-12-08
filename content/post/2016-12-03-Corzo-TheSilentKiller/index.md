@@ -3,7 +3,7 @@ title: "The Silent Killer"
 summary: "Another life taken by the plague. Wait what plague?"
 date: 2016-12-03
 categories: [curiosities]
-author: [thomascorzo]
+authors: [thomascorzo]
 tags:
 featured: false
 draft: false

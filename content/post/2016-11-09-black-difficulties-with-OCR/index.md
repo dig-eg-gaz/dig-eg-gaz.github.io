@@ -3,7 +3,7 @@ title: "Difficulties with OCR"
 summary: "A short, very angry, very annoyed rant"
 date: 2016-11-09
 categories: [technical]
-author: [MelizzaBlack]
+authors: [MelizzaBlack]
 tags: ["OCR", "Mac", "difficult"]
 featured: false
 draft: false

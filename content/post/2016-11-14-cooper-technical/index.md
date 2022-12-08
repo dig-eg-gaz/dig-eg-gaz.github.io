@@ -3,7 +3,7 @@ title: "Issues with the Issue"
 summary: "Various issues I've encountered while attempting to digitize my portion of the Egyptian Gazette"
 date: 2016-11-14
 categories: [Technical]
-author: [MatthewCooper]
+authors: [MatthewCooper]
 tags:
 featured: false
 draft: false

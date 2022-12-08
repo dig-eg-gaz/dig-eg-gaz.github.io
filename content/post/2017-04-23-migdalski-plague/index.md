@@ -3,7 +3,7 @@ title: "The Plague"
 summary: "Origins, treatment, cure?"
 date: 2017-04-23
 categories: [curiosities]
-author: [MarsellaMigdalski]
+authors: [MarsellaMigdalski]
 tags: ["plague", "death", "treatment"]
 featured: false
 draft: false

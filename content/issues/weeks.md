@@ -18,7 +18,7 @@ Issue 1|Issue 2|Issue 3|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 1904-11-28|1904-11-29|1904-11-30|[Faith Rupkalvis](https://github.com/F8th0101)|18|3|
 1904-12-01|1904-12-02|1904-12-03|[Harrison Obos](https://github.com/hho22)|20|2|
-1904-12-05|1904-12-06|1904-12-07|[Hayden Baker](https://github.com/HanlyBaker32)|||
+1904-12-05|1904-12-06|1904-12-07|[Hayden Baker](https://github.com/HanlyBaker32)|18||
 1904-12-08|1904-12-09|1904-12-10|[Owen Maxwell](https://github.com/opm22a)||2|
 1904-12-12|1904-12-13|1904-12-14|[Fiona Dininger](https://github.com/FKD22)|18|3|
 1904-12-15|1904-12-16|1904-12-17|[Rainey Sharrow](https://github.com/RLS22A)||1|
@@ -31,7 +31,7 @@ Issue 1|Issue 2|Issue 3|Assigned to|Images|Files|Notes
 1906-08-04|1906-08-10|1906-08-11|[Nicholas Deptula](https://github.com/nmd19)|19||1906-08-11-p8 not on microfilm
 1906-10-05|1906-10-06|1906-10-17|[McKenna Oakley](https://github.com/mckennaoakley)|ok|3|
 1906-10-30|1906-11-02|1906-11-03|[Grace Damato](https://github.com/gracedamato22)|20||
-1906-08-16|1906-08-17|1906-08-18|[Luca Pazos](https://github.com/Lpazos2)|||
+1906-08-16|1906-08-17|1906-08-18|[Luca Pazos](https://github.com/Lpazos2)|19||lacking 1906-08-16-p6.jpg
 1907-05-09|1907-05-10|1907-05-11|[Bella Seaner](https://github.com/bellaseaner)|3|1|
 1907-08-21|1907-09-06|1907-09-07|[Ben Anderson](https://github.com/BenDAnderson)|ok||
 1907-10-08|1907-10-09|1907-10-10|[Miriam Alrahil](https://github.com/miriamalrahil)|3||
@@ -51,6 +51,7 @@ October 12, 1907||6||
 Date|Weekday|Issue number|Missing
 ---|---|---|---
 August 11, 1906|Saturday|7569|p. 8
+August 16, 1906|Thursday|?|p. 6
 April 1, 1907|Monday|7724|pp. 7-8
 October 31, 1907|Thursday|7905|whole issue
 

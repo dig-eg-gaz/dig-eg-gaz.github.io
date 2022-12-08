@@ -3,7 +3,7 @@ title: "How the Khedive Spends His Time"
 summary: "The activities of the Khedive as described by The Egyptian Gazette"
 date: 2017-04-04
 categories: [curiosities]
-author: [JosephNg]
+authors: [JosephNg]
 tags: ["khedive", "daily update"]
 featured: false
 draft: false

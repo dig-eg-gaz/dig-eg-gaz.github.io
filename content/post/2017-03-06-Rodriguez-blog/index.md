@@ -3,7 +3,7 @@ title: "Dead Man, One Horse"
 summary: "A murderous horse vs. the common thief"
 date: 2017-03-06
 categories: [curiosities]
-author: [CarlosRodriguez]
+authors: [CarlosRodriguez]
 tags: ["animals", "crime"]
 featured: false
 draft: false

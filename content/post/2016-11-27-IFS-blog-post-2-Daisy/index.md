@@ -3,7 +3,7 @@ title: "XML Brings Tears"
 summary: "Things don’t go right"
 date: 2016-11-27
 categories: [technical]
-author: [DaisyVazquez]
+authors: [DaisyVazquez]
 tags: ["stress", "crying", "complications", "XML"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "Bubonic Plague In Egypt"
 summary: "Bubonic Plague Claims Lives in 1905, Not Just a Medieval Problem."
 date: 2016-11-06
 categories: [curiosities]
-author: [ErekCyr]
+authors: [ErekCyr]
 tags: ["bubonic Plague", "disease"]
 featured: false
 draft: false

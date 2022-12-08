@@ -3,7 +3,7 @@ title: "Death of Haicalis Pasha"
 summary: "The passing of the Doyen of Local Press, a beloved soul and very important man in Egypt."
 date: 2017-04-23
 categories: [curiosities]
-author: [JacobBaenen]
+authors: [JacobBaenen]
 tags: ["Death", "Famous", "Journalist"]
 featured: false
 draft: false

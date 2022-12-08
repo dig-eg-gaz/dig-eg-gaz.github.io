@@ -2,7 +2,7 @@
 title: "Hash smuggling: seeing the profits through the haze"
 summary: "Hashsish smuggling analysis"
 date: 2016-12-18
-author: [MaxConway]
+authors: [MaxConway]
 ---
 
 Although not everyone takes part in it, everyone has been around it and known  someone who indulges in the forbidden fruit that is Hashish. Hashish is an  extracted concentrate from the marijuana plant leaves, that is much more potent  and has been used for thousands of years, but popularity has risen in the past  500 years. Egyptians were the first to really use this drug and its importation  and exportation has stemmed from the African continent for most of its history.  Hashish shares a commonality with its parent, marijuana, in that the smuggling  of it into countries where it is illegal will prove to be a very highly  profitable business if you choose to take the serious risks that are involved.  In my assigned the issues of June 26-July 1, I had 2 occurrences of hashish  being found trying to be smuggled around Egypt, on boats and camels. When I saw  the happening of this I realized a serial question could be posed from that, so  I am going to see how many hashish seizures there were in the year 1905 by doing  a serial analysis of the data that we have been provided by ourselves and  classmates.

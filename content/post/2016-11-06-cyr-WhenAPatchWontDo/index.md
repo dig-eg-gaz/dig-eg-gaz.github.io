@@ -3,7 +3,7 @@ title: "When a Patch Won't Do!"
 summary: "The Importance of Historical Preservation."
 date: 2016-11-06
 categories: [Technical]
-author: [ErekCyr]
+authors: [ErekCyr]
 tags:
 featured: false
 draft: false

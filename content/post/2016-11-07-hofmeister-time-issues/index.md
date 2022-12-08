@@ -3,7 +3,7 @@ title: "Time Issues"
 summary: "Will I ever finish?"
 date: 2016-11-07
 categories: [technical]
-author: [KaraHofmeister]
+authors: [KaraHofmeister]
 tags: ["time", "XML", "encoding"]
 featured: false
 draft: false

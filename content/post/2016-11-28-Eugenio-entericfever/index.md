@@ -3,7 +3,7 @@ title: "Enteric Fever"
 summary: "This blog post is about Enteric fever and the army."
 date: 2016-11-28
 categories: [curiosities]
-author: [JohannaEugenio]
+authors: [JohannaEugenio]
 tags: ["Enteric", "Army", "illness"]
 featured: false
 draft: false

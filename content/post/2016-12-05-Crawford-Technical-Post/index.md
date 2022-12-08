@@ -3,7 +3,7 @@ title: "XML encoding in Finereader"
 summary: "Seeing through the noise"
 date: 2016-12-05
 categories: [technical]
-author: [williamcrawford]
+authors: [williamcrawford]
 tags: ["shortcuts"]
 image:
   caption:

@@ -2,7 +2,7 @@
 title: "The World's Worst Job"
 date: 2016-11-21
 categories: [curiosities]
-author: [williamcrawford]
+authors: [williamcrawford]
 tags:
  - trade
  - environment

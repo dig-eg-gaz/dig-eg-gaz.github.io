@@ -3,7 +3,7 @@ title: "The Gum Trade"
 summary: "Yesterday gums up today"
 date: 2017-03-04
 categories: [curiosities]
-author: [JustinPetersen]
+authors: [JustinPetersen]
 tags: ["gum"]
 image:
   caption: "Gum of today"

@@ -3,7 +3,7 @@ title: "Women Are Always Lying?"
 summary: "Someone had a bad breakup..."
 date: 2017-04-27
 categories: [curiosities]
-author: [TannerDoring]
+authors: [TannerDoring]
 tags: ["women  "]
 image:
   caption: "Clip of the Column from Tuesday, August 1, 1905"

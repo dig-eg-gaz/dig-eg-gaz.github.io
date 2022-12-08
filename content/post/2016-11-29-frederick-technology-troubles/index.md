@@ -3,7 +3,7 @@ title: "Technology Troubles"
 summary: "Just one computer inept girl taking on technology and wondering why it hates her."
 date: 2016-11-29
 categories: [technology]
-author: [cassandrafrederick]
+authors: [cassandrafrederick]
 tags: ["technology", "problems", "OCR", "sucks"]
 featured: false
 draft: false

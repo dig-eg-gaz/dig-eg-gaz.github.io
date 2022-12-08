@@ -3,7 +3,7 @@ title: "Egyptology & Archeology"
 summary: "A curiosity"
 date: 2016-10-29
 categories: [curiosities]
-author: [GwenLofman]
+authors: [GwenLofman]
 tags: ["egyptology", "archeology", "ramses", "excavation"]
 featured: false
 draft: false

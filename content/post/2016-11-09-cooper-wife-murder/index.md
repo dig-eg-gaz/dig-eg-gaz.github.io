@@ -3,7 +3,7 @@ title: "Wife Murder"
 summary: "Crazy man kills his wife with an unusual weapon"
 date: 2016-11-09
 categories: [curiosities]
-author: [MatthewCooper]
+authors: [MatthewCooper]
 tags: ["death", "tragedy", "murder"]
 featured: false
 draft: false

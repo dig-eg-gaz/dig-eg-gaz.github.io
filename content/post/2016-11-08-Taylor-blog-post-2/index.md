@@ -3,7 +3,7 @@ title: "Running out of Time"
 summary: "This course has been a challenge. At times it feels as though the very technology which should be helping is doing just the opposite."
 date: 2016-11-08
 categories: [technical]
-author: [EmmaTaylor]
+authors: [EmmaTaylor]
 tags: ["ABBYY FineReader", "scanning", "trial periods", "corruption"]
 featured: false
 draft: false

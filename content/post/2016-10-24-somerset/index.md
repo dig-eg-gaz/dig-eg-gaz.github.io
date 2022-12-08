@@ -3,7 +3,7 @@ title: "Somerset"
 summary: "An interesting person"
 date: 2016-10-24
 categories: [curiosities]
-author: [JohnWhite]
+authors: [JohnWhite]
 tags: ["homophobia", "feminism", "nationalism"]
 featured: false
 draft: false

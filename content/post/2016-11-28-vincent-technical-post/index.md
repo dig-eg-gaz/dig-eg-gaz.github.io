@@ -3,7 +3,7 @@ title: "Technical Issues"
 summary: "Problems I faced during my jouney in IFS2116"
 date: 2016-11-28
 categories: [technical]
-author: [brooklynvincent]
+authors: [brooklynvincent]
 tags:
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "Maxim Gorki"
 summary: "Maxim Gorki is to be prosecuted"
 date: 2017-05-05
 categories: [curiosities]
-author: [Gisellechacon]
+authors: [Gisellechacon]
 tags: ["murder", "prison", "prosecution"]
 featured: false
 draft: false

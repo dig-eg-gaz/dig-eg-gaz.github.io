@@ -3,7 +3,7 @@ title: "Dishonesty: The Consistency of Politics"
 summary: "People make careless remarks all the time, especially public figures who then regret what they said. Egyptian royalty in 1906 was no different."
 date: 2017-04-07
 categories: [curiosities]
-author: [oliviahammermaster]
+authors: [oliviahammermaster]
 tags: ["Princess Nazli", "nationality", "French", "Ottoman", "Lord Cromer", "politics"]
 featured: false
 draft: false

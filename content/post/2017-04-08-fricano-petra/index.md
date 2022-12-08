@@ -3,7 +3,7 @@ title: "Petra"
 summary: "One liner"
 date: 2017-04-08
 categories: [curiosities]
-author: [NinoFricano]
+authors: [NinoFricano]
 tags: ["petra"]
 image:
   caption: "January 9, 1906"

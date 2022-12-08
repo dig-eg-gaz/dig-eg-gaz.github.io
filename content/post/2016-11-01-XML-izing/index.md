@@ -2,7 +2,7 @@
 title: "XML-izing"
 summary: "A retrospective on creating a rough draft for my week's XML."
 date: 2016-11-01
-author: [JohnWhite]
+authors: [JohnWhite]
 categories: [technical]
 tags: ["tedium", "dedication", "stubbornness"]
 featured: false

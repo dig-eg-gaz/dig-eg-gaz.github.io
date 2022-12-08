@@ -3,7 +3,7 @@ title: "Hey That's My Good Arm!"
 summary: "A deep and intellectual discussion on the horrors of life"
 date: 2017-05-03
 categories: [curiosities]
-author: [AnthonyMuniz]
+authors: [AnthonyMuniz]
 tags: ["Arm", "Baron London Bavastro de Cortazzi", "Mr. Potato Head"]
 featured: false
 draft: false

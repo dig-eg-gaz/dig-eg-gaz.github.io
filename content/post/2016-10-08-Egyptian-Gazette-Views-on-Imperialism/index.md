@@ -3,7 +3,7 @@ title: "Egyptian Gazette Views on Imperialism"
 summary: ""
 date: 2016-10-08
 categories: [curiosities]
-author: [CelitaSumma]
+authors: [CelitaSumma]
 tags: ["imperialism"]
 image:
   caption:

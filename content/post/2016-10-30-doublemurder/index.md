@@ -3,7 +3,7 @@ title: "Bar Fight between Greeks"
 summary: "Fatal Fight and Double Murder"
 date: 2016-10-30
 categories: [curiosities]
-author: [KaraHofmeister]
+authors: [KaraHofmeister]
 tags: ["death", "murder"]
 featured: false
 draft: false

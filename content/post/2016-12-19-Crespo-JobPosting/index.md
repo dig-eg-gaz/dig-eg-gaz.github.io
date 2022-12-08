@@ -3,7 +3,7 @@ title: "Job Posting"
 summary: "Job posting in the Egyptian Gazzette, very picky about its candidates."
 date: 2016-12-19
 categories: [curiosity]
-author: [AnetCrespo]
+authors: [AnetCrespo]
 tags: ["job", "doctor", "picky"]
 featured: false
 draft: false

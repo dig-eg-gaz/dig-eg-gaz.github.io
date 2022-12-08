@@ -3,7 +3,7 @@ title: "Haskell and XML"
 summary: "A Technical Reflection"
 date: 2016-11-06
 categories: [technical]
-author: [Gwen Lofman]
+authors: [Gwen Lofman]
 tags: ["Haskell", "XML"]
 featured: false
 draft: false

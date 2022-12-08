@@ -3,7 +3,7 @@ title: "Pe-ru-na"
 summary: "Oldest Man in America"
 date: 2017-04-14
 categories: [curiosities]
-author: [madisonbolton]
+authors: [madisonbolton]
 tags: ["peruna", "America", "oldest man", "Texas"]
 featured: false
 draft: false

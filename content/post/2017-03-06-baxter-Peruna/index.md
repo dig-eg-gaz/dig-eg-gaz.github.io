@@ -3,7 +3,7 @@ title: "Miraculous Medicine"
 summary: "A woman who used a medicine as a last resort ended up being cured of her 3 year long illness! Mrs. Ida Caldwell swears by this cure, would you try it?"
 date: 2017-03-06
 categories: [curiosities]
-author: [RosalynBaxter]
+authors: [RosalynBaxter]
 tags: ["Medicine", "Catarrh", "Cures"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "The Stuff Movies are Made Of"
 summary: "An entire family perishes attempting to enter an ancient structure...is this really where the story ends?"
 date: 2016-10-11
 categories: [curiosities]
-author: [EmmaTaylor]
+authors: [EmmaTaylor]
 tags: ["fatalities", "locals", "ancient structures"]
 featured: false
 draft: false

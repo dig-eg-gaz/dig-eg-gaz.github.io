@@ -3,7 +3,7 @@ title: "OCR Woes"
 summary: "OCR: A Tale of Misery, Loss, and Misfortune"
 date: 2016-11-25
 categories: [technical]
-author: [dantegrieco]
+authors: [dantegrieco]
 tags: ["OCR", "Cisdem PDFConverterOCR", "Mac text editor"]
 featured: false
 draft: false

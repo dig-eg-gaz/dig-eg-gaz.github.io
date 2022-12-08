@@ -3,7 +3,7 @@ title: "The Fashoda Incident"
 summary: "One of the many times Britain and France were on the brink of war."
 date: 2016-10-10
 categories: [curiosities]
-author: [JacobStefonek]
+authors: [JacobStefonek]
 tags: ["Fashoda", "Britain", "France", "Colonialism", "Freycinet"]
 featured: false
 draft: false

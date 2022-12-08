@@ -3,7 +3,7 @@ title: "Odd Football Score"
 summary: "Such a unrealistic score."
 date: 2016-11-15
 categories: [Curiosities]
-author: [AmberFling]
+authors: [AmberFling]
 tags: ["Football", "New Zealander Team"]
 featured: false
 draft: false

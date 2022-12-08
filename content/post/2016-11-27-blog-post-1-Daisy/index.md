@@ -3,7 +3,7 @@ title: "Curiosities"
 summary: "Arabic Isn’t The Only Language for the Egyptians! There’s more!"
 date: 2016-11-27
 categories: [curiosities]
-author: [DaisyVazquez]
+authors: [DaisyVazquez]
 tags: ["language", "Berlitz"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "OCR OCSucks"
 summary: "ABBYY made word processing take more than a minute."
 date: 2016-11-09
 categories: [technical]
-author: [HannahSain]
+authors: [HannahSain]
 tags: ["OCR", "ABBYY", "Text Scanning"]
 featured: false
 draft: false

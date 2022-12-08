@@ -3,7 +3,7 @@ title: "The Death in Egypt and in my Mind."
 summary: "My social life isn't the only thing that's dying."
 date: 2017-03-06
 categories: [curiosities]
-author: [CameronGreco]
+authors: [CameronGreco]
 tags:
   - Death
   - Mother & Child

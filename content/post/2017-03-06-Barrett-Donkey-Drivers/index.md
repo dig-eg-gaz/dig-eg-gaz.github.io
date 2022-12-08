@@ -3,7 +3,7 @@ title: "Donkey Drivers"
 summary: "The perfume mall-kiosks salesmen of the early 1900s"
 date: 2017-03-06
 categories: [curiosities]
-author: [ElizabethBarrett]
+authors: [ElizabethBarrett]
 tags: ["Donkey", "sell", "complaints", "Cairo"]
 featured: false
 draft: false

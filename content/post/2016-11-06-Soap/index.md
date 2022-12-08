@@ -3,7 +3,7 @@ title: "Clean Killer"
 summary: "Soap producers have been using an extra ingredient in their product that cleans off more than just dirt. Manufacturers have been adding a chemical in their soaps that can remove skin tissue."
 date: 2016-11-06
 categories: [curiosities]
-author: [HannahSain]
+authors: [HannahSain]
 tags: ["soap", "medicine", "sanitation"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "A Regatta Is a Boat Race."
 summary: "In this week's regatta, The Ananke aims for another first place finish after her successful debut in the Khedival Yacht Club. But what does that even mean?"
 date: 2017-03-08
 categories: [curiosities]
-author: [KennethUkah]
+authors: [KennethUkah]
 tags: ["regatta", "race", "yacht", "club", "khedival"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "Technical Reflection"
 summary: "Get ready to work"
 date: 2016-11-14
 categories: [technical]
-author: [AmberFling]
+authors: [AmberFling]
 tags: ["coffee is necessary", "dedicate hours"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "A Sad Englishman"
 summary: "A man's ear used for negotiation."
 date: 2016-11-28
 categories: [curiosities]
-author: [ChristianRagland]
+authors: [ChristianRagland]
 tags: ["international", "ott", "Englishman"]
 featured: false
 draft: false

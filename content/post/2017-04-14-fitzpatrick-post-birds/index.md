@@ -3,7 +3,7 @@ title: "6,000 Birds Found Dead"
 summary: "Don't go towards the light!"
 date: 2017-04-14
 categories: [curiosities]
-author: [KevinFitzpatrick]
+authors: [KevinFitzpatrick]
 tags: ["birds", "Cape Grisnez", "lighthouse", "fog", "France"]
 featured: false
 draft: false

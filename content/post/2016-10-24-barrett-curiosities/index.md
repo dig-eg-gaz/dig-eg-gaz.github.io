@@ -3,7 +3,7 @@ title: "Close Knit Community"
 summary: "Throughout the text the paper has given lists of names of people who attended certain events.  How close knit was the 1905 community?"
 date: 2016-10-24
 categories: [curiosities]
-author: [BrandonBarrett]
+authors: [BrandonBarrett]
 tags:
 featured: false
 draft: false

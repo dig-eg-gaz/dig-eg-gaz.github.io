@@ -2,7 +2,7 @@
 title: "Chatham Explosion"
 summary: "World's Largest Explosion"
 date: 2016-10-13
-author: [LoganWills]
+authors: [LoganWills]
 category: [curiosities]
 tags: ["economy", "chatham", "naval ship", "Egypt"]
 featured: false

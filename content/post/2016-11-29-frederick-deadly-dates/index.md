@@ -3,7 +3,7 @@ title: "Deadly Dates"
 summary: "A man treats his cousin to a date she will never forget"
 date: 2016-11-29
 categories: [curiosities]
-author: [cassandrafrederick]
+authors: [cassandrafrederick]
 tags: ["murder", "family", "dates", "poison"]
 featured: false
 draft: false

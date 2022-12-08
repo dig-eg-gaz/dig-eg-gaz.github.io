@@ -3,7 +3,7 @@ title: "Icilma"
 summary: "Nature's Skin Food"
 date: 2017-03-28
 categories: [curiosities]
-author: [SabrinaNunez]
+authors: [SabrinaNunez]
 tags: ["skin food", "healing", "youthful", "preventing"]
 featured: false
 draft: false

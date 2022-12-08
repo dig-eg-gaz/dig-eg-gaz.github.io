@@ -3,7 +3,7 @@ title: "A Reflection on the Tech"
 summary: "Pressing Ctrl+S every once and while is good decision. Trust me "
 categories: [technical]
 date: 2016-12-11
-author: [AlexanderAmorello]
+authors: [AlexanderAmorello]
 tags: ["premature aging", "keyboard smashing rage", "stress eating", "OCR", "Oxygen", "Lack of Oxygen"]
 featured: false
 draft: false

@@ -3,7 +3,7 @@ title: "The Evolution of Cigarette Advertising"
 summary:
 date: 2016-12-02
 categories: [curiosities]
-author: [alexcaliendo]
+authors: [alexcaliendo]
 tags: ["advertisements", "cigarettes", "smoking"]
 featured: false
 draft: false

@@ -4,7 +4,7 @@ summary: "Why did Typhoid Fever last so long when Dr. Leigh Canney had given the
 and research  on the importance of boiling water before drinking it?  "
 date: 2017-03-01
 categories: [curiosities]
-author: [KatherineFerguson]
+authors: [KatherineFerguson]
 tags: ["Medicine", "Typhoid", "Dr. Leigh Canney"]
 featured: false
 draft: false

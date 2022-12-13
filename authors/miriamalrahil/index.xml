@@ -1,1 +1,187 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miriam Alrahil | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/miriamalrahil/</link><atom:link href="https://dig-eg-gaz.github.io/authors/miriamalrahil/index.xml" rel="self" type="application/rss+xml"/><description>Miriam Alrahil</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>https://dig-eg-gaz.github.io/authors/miriamalrahil/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Miriam Alrahil</title><link>https://dig-eg-gaz.github.io/authors/miriamalrahil/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miriam Alrahil | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/miriamalrahil/</link><atom:link href="https://dig-eg-gaz.github.io/authors/miriamalrahil/index.xml" rel="self" type="application/rss+xml"/><description>Miriam Alrahil</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/miriamalrahil/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Miriam Alrahil</title><link>https://dig-eg-gaz.github.io/authors/miriamalrahil/</link></image><item><title>The Question of Levantine Immigration</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-alrahil/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-alrahil/</guid><description>&lt;h2 id="introduction-and-historical-context">Introduction and Historical Context&lt;/h2>
+&lt;p>The Middle East and North Africa are regions particularly known for its different eras and patterns of shifting or displacing the locations of its populaces over the past centuries. In being this cross-section of trade and travel throughout the world, it is evident that this rich context would impact its future with both foreign involvement and foreign adventure. Within the late 18th and early 19th century, whether by economic strife, political oppression, religious persecution, or some other outlying factor, there was a new mass migratory movement from the Levantine Ottoman Empire. Between the years of 1880 and 1924 around a half million Levantine Arabs left their homelands to obtain a sense of freedom economically, socially, and politically within the Americas, North, Central, and South (Fahrenthold). Recent economic forces had started to link the Mediterranean and Atlantic newly capitalistic economies, and in doing so created a labor vacuum that easily brought in these new Arab migrants (Fahrenthold). Egypt served as an integral part to this process in multiple ways, most principally being one of the major channels through which Levantine migrants had to pass in order to begin their journey to the Americas (Hitti 62) or by the fact that first Arabic periodicals from the Americas appeared in Egypt which then spurred a strong network of global readership between the US, Latin America, and Egypt (Fahrenthold). It is evident that by more than proximity but rather direct involvement with this phenomenon lends it to be something that could be particularly interesting in Egyptian society, and through that perhaps of note within the &lt;em>Egyptian Gazette&lt;/em> itself. This analysis pursues this question, with the idea of the mention and opinion of Levantine migration found within the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;h2 id="topic-discussion">Topic Discussion&lt;/h2>
+&lt;p>My overall question is the discussion and portrayal of Levantine migration within &lt;em>Egyptian Gazette&lt;/em>, which was prompted by my coincidental finding of a small blurb about “Syrian Immigration to Jamaica” that I found in the local and general section of one of the editions I was encoding. This led to the curiosity of whether other forms of Levantine migration were mentioned, and if so, how often, where,why, and in what light. In essence this topic begets itself to be qualitative work and analysis, which contrasts to the more quantitative leaning of the class and project; however, I deem it reflective as to what Digital Humanities is as a whole, as DIH work is based in this cross-section of the qualitative and the quantitative as a form of computational history. This mindset imbued itself into my attitude towards the project directly affected my method in querying this topic.&lt;/p>
+&lt;h2 id="querying-process-visualizations-and-overall-findings">Querying Process, Visualizations, and Overall Findings&lt;/h2>
+&lt;p>My querying process used a combination of qualitative and quantitative approaches through my employment of multiple X-Paths. The more quantitative X-Path used was &lt;code>count(//p[matches(., &amp;quot;migration&amp;quot;, &amp;quot;i&amp;quot;) or matches(., &amp;quot;migrant&amp;quot;, &amp;quot;i&amp;quot;)])&lt;/code> . I utilized this to gain a numerical look at how often these two words were mentioned to 1) dissect if there was a consistent pattern of repeated use during certain months or years and 2) to compare with a graph sourced from Kemal Karpat and utilized by Stacy Fahrenthold that demonstrated the “Annual Rate of Immigration to the United States from Turkey in Asia” [the Levant] (Fahrenthold).. In comparing these two graphs I would be able to see if there is a correlation with higher immigration rates to higher mention rates within the &lt;strong>Egyptian Gazette&lt;/strong>. The visualizations can be seen below:&lt;/p>
+&lt;p>
+&lt;figure id="figure-yearly-count-of-mentions-of-migration-and-migrant-in-the-_egyptian-gazette_">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Yearly count of mentions of &amp;amp;ldquo;Migration&amp;amp;rdquo; of &amp;amp;ldquo;Migrant&amp;amp;rdquo; in the &amp;lt;em&amp;gt;Egyptian Gazette&amp;lt;/em&amp;gt;" srcset="
+/post/2022-analysis-alrahil/analysis-xpath-vis-1_hu246d200994b37095333816dae144c09c_49341_229abd2afa55c7e003aba94e9013f8cc.webp 400w,
+/post/2022-analysis-alrahil/analysis-xpath-vis-1_hu246d200994b37095333816dae144c09c_49341_a3eefa9fa284fcdf6404c50bd491b984.webp 760w,
+/post/2022-analysis-alrahil/analysis-xpath-vis-1_hu246d200994b37095333816dae144c09c_49341_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-alrahil/analysis-xpath-vis-1_hu246d200994b37095333816dae144c09c_49341_229abd2afa55c7e003aba94e9013f8cc.webp"
+width="760"
+height="243"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Yearly count of mentions of Migration and Migrant in the &lt;em>Egyptian Gazette&lt;/em>
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-monthly-count-of-mentions-of-migration-and-migrant-in-the-_egyptian-gazette_">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Monthly count of mentions of &amp;amp;ldquo;Migration&amp;amp;rdquo; of &amp;amp;ldquo;Migrant&amp;amp;rdquo; in the &amp;lt;em&amp;gt;Egyptian Gazette&amp;lt;/em&amp;gt;" srcset="
+/post/2022-analysis-alrahil/analysis-vs-2-month_hu5d86ba97105d36d8c7ea0035b4d39db9_97958_f0dd08dbb7ce7c3988505ae887ced543.webp 400w,
+/post/2022-analysis-alrahil/analysis-vs-2-month_hu5d86ba97105d36d8c7ea0035b4d39db9_97958_df8bbe974cad4a45501a29c0f9eae18b.webp 760w,
+/post/2022-analysis-alrahil/analysis-vs-2-month_hu5d86ba97105d36d8c7ea0035b4d39db9_97958_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-alrahil/analysis-vs-2-month_hu5d86ba97105d36d8c7ea0035b4d39db9_97958_f0dd08dbb7ce7c3988505ae887ced543.webp"
+width="760"
+height="721"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Monthly count of mentions of Migration and Migrant in the &lt;em>Egyptian Gazette&lt;/em>
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-annual-rate-of-immigration-from-turkey-in-asia">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="annual rate of immigration from Turkey in Asia" srcset="
+/post/2022-analysis-alrahil/Turkey-in-Asia_hu93788ed8732239dc07e8a1eab92dadc1_308385_536931d3fe83d9cf19249bc2e24c27af.webp 400w,
+/post/2022-analysis-alrahil/Turkey-in-Asia_hu93788ed8732239dc07e8a1eab92dadc1_308385_c571b41525db0fb5dc443d8b0ae7a40a.webp 760w,
+/post/2022-analysis-alrahil/Turkey-in-Asia_hu93788ed8732239dc07e8a1eab92dadc1_308385_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-alrahil/Turkey-in-Asia_hu93788ed8732239dc07e8a1eab92dadc1_308385_536931d3fe83d9cf19249bc2e24c27af.webp"
+width="760"
+height="488"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+annual rate of immigration from Turkey in Asia
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>In analyzing the three visualizations it is evident the rise of immigration from 1905-1908 is mirrored by the increasing reference of migration within the &lt;em>Egyptian Gazette&lt;/em>, along with the simultaneous decrease in 1908. A weakness of this X-path/question is made apparent by the Karpat graph, in the sense that the database simply does not have the dates available where we see the highest peaks in immigration. Within this Xpath and the ones to discuss next, there was an issue with only getting a smaller number of hits than would be deemed useful or substantial. Especially for quantitative analysis, the limited range of hits impacts the substantialness of the data itself. However, if the mirroring trends made apparent with the current data set are accurate, then it could set the groundwork for predicting the use of migration in the &lt;em>Egyptian Gazette&lt;/em> in the future.&lt;/p>
+&lt;p>In my more qualitative exploits used and tested out a myriad of Xpaths which included:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//p[matches(., &amp;quot;immigration&amp;quot;, &amp;quot;i&amp;quot;) or matches(., &amp;quot;migrant&amp;quot;, &amp;quot;i&amp;quot;)]/parent::div/@feature&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@feature=&amp;quot;local&amp;quot; and matches(., &amp;quot;immigration&amp;quot;, &amp;quot;i&amp;quot;)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@feature=&amp;quot;local&amp;quot; and matches(., &amp;quot;migration&amp;quot;, &amp;quot;i&amp;quot;)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//p[matches(., “levant”, “i”) and matches(., 'Syrian', “i”)]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>After employing them, I would go through and read the results that came up since they rarely exceeded 200 items max. In doing so I would see the context in which the word was used and the connotation and description surrounding it to try to garner the opinion or viewpoint of the readers and contributors to the &lt;em>Egyptian Gazette&lt;/em> surrounding not only topics of migration but the community I am particularly focusing on: Levantine/Syrian. I made note of a dichotomy between the positive outlook towards migration from the Islamic Egyptian perspective and the negative connotation surrounding British based ideas on the matter. For the Egyptian perspective I found in part 5.4 of the 1906-02-14 edition emigration being described as being “useful”, “advisable”, and “being approved by the Prophet” but that also Egyptians must be very cognizant of where and when they emigrate so that they can ensure they have assured rights and privileges in the countries they migrate to. In comparison, a lot of mentions of migration or of Levantines/Syrians that seemed to come from British sources or directed and British audiences have a negative or degrading connotation around them. Across multiple issues they are described as ignorant, fickle, lacking a high standard of morality, etc, and a lot of policy is promoted or discussed surrounding the fact that their and other East Asian immigration to the West should be limited because of their background. This duality of perspectives reflect the overarching viewpoints on Levantine immigration by the East and West during that era, and so interestingly despite a low return rate of hits, the information made available provided a useful insight as to how the portrayal of such is reflected within the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;h2 id="reflection-on-the-process-and-implications-for-the-_gazette_">Reflection on the Process and Implications for the &lt;em>Gazette&lt;/em>&lt;/h2>
+&lt;p>Overall, there is a lot more experimentation that could be done with different Xpath results to garner more data surrounding this topic, as so much experimentation was needed to get the limited data I had now . I believe the groundwork laid here can be used as a structural basis into which to analyze this topic once more editions of the &lt;em>Gazette&lt;/em> are digitally encoded, and that even more trends and relations between migrational patterns and mentions in the &lt;em>Gazette&lt;/em> can potentially be seen using the combo comparative quantitative methodology and qualitative digging demonstrated here. This project has spurred an acceptance within me that the work of a historian is never ending.&lt;/p>
+&lt;h2 id="additional-sources">Additional sources:&lt;/h2>
+&lt;ul>
+&lt;li>Fahrenthold, Stacy D. &lt;a href="https://doi.org/10.1093/acrefore/9780199329175.013.598." target="_blank" rel="noopener">“Arab Labor Migration in the Americas, 1880–1930.”&lt;/a> &lt;em>Oxford Research Encyclopedia of American History&lt;/em> (2019).&lt;/li>
+&lt;li>Hitti, Philip. &lt;em>The Syrians in America&lt;/em> New York: George H. Doran Company.&lt;/li>
+&lt;/ul></description></item><item><title>Syrian immigration</title><link>https://dig-eg-gaz.github.io/post/2022-11-01-alrahil/</link><pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-11-01-alrahil/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="article" srcset="
+/post/2022-11-01-alrahil/article_hu8b18c731028e781abd295ea366f2897b_250911_b2e0a4c10e71933f0c0915c51d500198.webp 400w,
+/post/2022-11-01-alrahil/article_hu8b18c731028e781abd295ea366f2897b_250911_924434b7f96269287b24a049f0f14454.webp 760w,
+/post/2022-11-01-alrahil/article_hu8b18c731028e781abd295ea366f2897b_250911_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-11-01-alrahil/article_hu8b18c731028e781abd295ea366f2897b_250911_b2e0a4c10e71933f0c0915c51d500198.webp"
+width="760"
+height="532"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Within the issue of October 8, 1907 under the Local and General Section, an interesting deviation from the normalities of that column appeared. Within this small paragraph it is discussed that a heavier influx of Syrians, which could describe both people from what is known as modern day Syria or from the Levant as a while, along with Chinese migrants to Jamaica. This “oriental” influx seemingly pushed the Government of Jamaica to prevent their entrance into the country, as it would pose a threat to local traders in the region. From this the City Council of Kingston pushed to amend the pauper alien immigration law to hinder the landing of “undesirable foreigners” in what was portrayed as an act of economic self preservation for other natives. The mention of this phenomenon mirrors the overarching trends found within this period, as Levantine/Syrian migration abroad for work had started becoming a more integral facet of the Middle Eastern existence and economy. This also coincided with other Eastern communities, especially Japanese and Chinese, doing the same, hence the mention of the Chinese immigrant influx as well within this short text. This started creating a new world social schema, and the racially targeted legislation that is seen being discussed had and would start popping up in different countries within the Western Hemisphere. This curiosity offers a small window in the overarching migrational patterns that characterized that time.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="label" srcset="
+/post/2022-11-01-alrahil/featured_hucb0c15f804a8c45abf60e8367391067e_9055_23ae6fc4c1888eeac78361083e0c9e99.webp 400w,
+/post/2022-11-01-alrahil/featured_hucb0c15f804a8c45abf60e8367391067e_9055_54e3ae6e9f2e917e1d4d26584470ff9c.webp 760w,
+/post/2022-11-01-alrahil/featured_hucb0c15f804a8c45abf60e8367391067e_9055_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-11-01-alrahil/featured_hucb0c15f804a8c45abf60e8367391067e_9055_23ae6fc4c1888eeac78361083e0c9e99.webp"
+width="248"
+height="203"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="sources">Sources&lt;/h2>
+&lt;ul>
+&lt;li>Fahrenthold, Stacy D. &lt;a href="https://doi.org/10.1093/acrefore/9780199329175.013.598." target="_blank" rel="noopener">“Arab Labor Migration in the Americas, 1880–1930.”&lt;/a> &lt;em>Oxford Research Encyclopedia of American History&lt;/em> (2019).&lt;/li>
+&lt;li>Nicholls, David. &lt;a href="https://doi.org/10.1007/978-1-349-17786-8_9" target="_blank" rel="noopener">&amp;ldquo;No Hawkers and Pedlars: Arabs of the Antilles&amp;rdquo;&lt;/a>, in &lt;em>Haiti in Caribbean Context&lt;/em>, St Antony’s Series (Palgrave Macmillan, 1985).&lt;/li>
+&lt;li>Nicholls, David. &lt;a href="https://www.proquest.com/scholarly-journals/syrians-jamaica/docview/1292739482/se-2." target="_blank" rel="noopener">&amp;ldquo;The &amp;ldquo;Syrians&amp;rdquo; of Jamaica.&amp;rdquo;&lt;/a> &lt;em>Jamaican Historical Review&lt;/em>, vol. 15, 1986, pp. 50.&lt;/li>
+&lt;/ul></description></item><item><title>How can microhistorical digital research methods apply to questions concerning qualitative data</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/</link><pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Our group is filled with many different questions with very few similarities between them all, however, after looking through what we were each using as a question and how we were researching we came to the conclusion that our group would best be summarized as one based around qualitative research. The question we decided to base our research on is how qualitative questions lead to the development of research techniques with xml and regular expression. The way to answer this question took us a long time to figure out due to how large of a question this is, we ended up having to collaborate and brainstorm many different ideas before coming up with a simple and effective solution. The solution we came up with to achieve this task was to create a general Xpath query that we could use in each of our individual projects and compare and contrast the data and information we got with this query. We all created visualizations based off of this Xpath query to make this goal more achievable. The question itself and the methodology used to solve were very useful for each of our individual projects, especially as many of our personal questions are complicated and difficult to answer. With this group project question we can work on our own projects as a side effect of the group project question we are answering. In summary, we are a qualitative data group who are trying to answer how qualitative questions lead to the development of research techniques with xml and regular expression.&lt;/p>
+&lt;h2 id="finding-a-query">Finding a Query&lt;/h2>
+&lt;p>As our group had many different topics, finding a common query seemed like a rather daunting task. Tying religion to military ranks to mummies, etc. looked to be somewhat impossible, especially considering how each individual project was specific in its own unique way. Thus, our query ended up being broad to fit the various objectives we had, which ended up being tied to our research methods (qualitative research). The query ended up being how many times a certain word that related to our project showed up across the entire Egyptian Gazette digital catalog, in any feature. We had mentions of the words: “Commander”, “Turks”, “Migration”, “Yours truly”, and so on and so forth.&lt;/p>
+&lt;p>The expression we ended up using was //div[matches(.,&amp;lsquo;x&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)]/@feature, with “x” being the word we searched for. We put this into the XPath 2.0 search bar in the Oxygen Editor and queried the contents of the whole newspaper with our individual terms. Once the whole contents were queried, we copied over the results into a plain text editor, where we would edit it to be usable in an Excel spreadsheet. From there, we would copy it into Tableau, the application that visualizes the results.&lt;/p>
+&lt;p>The way the query worked shows how similar our data collection methods are. While the query itself is incredibly broad, it is a good representation of what we will do in our individual analysis projects. Specific searches would not work; thus, this method is likely the lowest common denominator that we have as a group.&lt;/p>
+&lt;h2 id="creating-visualizations">Creating Visualizations&lt;/h2>
+&lt;p>With our XPath query, we were searching for a few simple results in common for otherwise uncommon topics of study. Our query yielded the feature, date, and page number of every division that contained a keyword of our respective independent research efforts. With this data we sought to generate a set of visualizations that used the same type of data in roughly the same style and theme, to be easily compared to one another for possible similarities and discrepancies in the patterns of each, which could indicate a connection between the different topics.&lt;/p>
+&lt;p>We chose to use the date, feature count, page number, and feature for our visualizations. We formatted them in roughly the same manner, with a basic scatterplot styling. We placed the date variable along the x-axis and plotted the page number variable along the y-axis. The feature count data points are placed at each of their respective dates and page numbers, and then color coded each data point with its corresponding feature name.&lt;/p>
+&lt;p>This method of visualization provides for a simplistic, understandable representation of our data. The matching formats and color coding allow for an easy way to compare our seemingly unrelated data just from glancing at each of the charts. Weaknesses of this visualization are that you cannot gather much just from these charts, only use them to infer about events that may have caused them to have patterns that coincide at the same time, leading to further investigation and research. While that is a glaring weakness, there is not much else to start out from researching, as the topics in question do not have much in common, so we must find similarities and differences before any reasoning can be found.&lt;/p>
+&lt;h2 id="comparing-and-contrasting-our-visualizations">Comparing and Contrasting Our Visualizations&lt;/h2>
+&lt;p>Once we completed our visualizations, we could embark on the analysis of our results. Since we each had such vast individual research topics, we were interested in comparing variables like page number, amount of data, the features that appeared most often, and the overall function our data would serve. Some proved to be more feasible than others:&lt;/p>
+&lt;h3 id="1-page-number">1. Page Number&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Wyatt&amp;amp;rsquo;s Visualization" srcset="
+/post/2022-analysis-qualitative-group/Wyatt_hu41861e00a4548436359cf9b514d2d5c0_68346_409533dc1f57040db6fd0fd70d34817a.webp 400w,
+/post/2022-analysis-qualitative-group/Wyatt_hu41861e00a4548436359cf9b514d2d5c0_68346_78737d6337e9dfc7a1048181e6a11e06.webp 760w,
+/post/2022-analysis-qualitative-group/Wyatt_hu41861e00a4548436359cf9b514d2d5c0_68346_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/Wyatt_hu41861e00a4548436359cf9b514d2d5c0_68346_409533dc1f57040db6fd0fd70d34817a.webp"
+width="760"
+height="705"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Miriam&amp;amp;rsquo;s Visualization" srcset="
+/post/2022-analysis-qualitative-group/Miriam_hued41b64ebde6dc0ed991b01e7a5ec023_71035_07e114c15747b00c251d191cdfd10a01.webp 400w,
+/post/2022-analysis-qualitative-group/Miriam_hued41b64ebde6dc0ed991b01e7a5ec023_71035_6bdfb833967e391ecdb4d128710b876c.webp 760w,
+/post/2022-analysis-qualitative-group/Miriam_hued41b64ebde6dc0ed991b01e7a5ec023_71035_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/Miriam_hued41b64ebde6dc0ed991b01e7a5ec023_71035_07e114c15747b00c251d191cdfd10a01.webp"
+width="760"
+height="310"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Harrison&amp;amp;rsquo;s Visualization" srcset="
+/post/2022-analysis-qualitative-group/Harrison_hu77d34e555ff2a7e53c3325820632cb87_65520_b903f6c061a9a1e8ff1d792764f144a6.webp 400w,
+/post/2022-analysis-qualitative-group/Harrison_hu77d34e555ff2a7e53c3325820632cb87_65520_879d68f771cbf65ca7a0f04173402dfb.webp 760w,
+/post/2022-analysis-qualitative-group/Harrison_hu77d34e555ff2a7e53c3325820632cb87_65520_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/Harrison_hu77d34e555ff2a7e53c3325820632cb87_65520_b903f6c061a9a1e8ff1d792764f144a6.webp"
+width="760"
+height="721"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+As we completed our individual research, we realized that there is more variance than we originally expected. While our visualizations are fundamentally the same, they each present data differently. Since we all align under the scope of qualitative research, we expected most results to appear on page three of The Egyptian Gazette. However, our visualizations show that research relating to individuals (for example: &amp;ldquo;Commander&amp;rdquo; and &amp;ldquo;Migration&amp;rdquo;) appears to spread across more pages than visualizations based on specific topics (for example: &amp;ldquo;Religion&amp;rdquo; and &amp;ldquo;Mummy&amp;rdquo;).&lt;/p>
+&lt;h3 id="2-features">2. Features&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Rainey&amp;amp;rsquo;s Visualization" srcset="
+/post/2022-analysis-qualitative-group/Rainey_huc7a5753d51b08e352dd19ff19df42f62_101141_5bec67ec78fedd8a322ff46958e30a61.webp 400w,
+/post/2022-analysis-qualitative-group/Rainey_huc7a5753d51b08e352dd19ff19df42f62_101141_9b2ffa8e55eeacd5d13bd1da5d8ad5df.webp 760w,
+/post/2022-analysis-qualitative-group/Rainey_huc7a5753d51b08e352dd19ff19df42f62_101141_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/Rainey_huc7a5753d51b08e352dd19ff19df42f62_101141_5bec67ec78fedd8a322ff46958e30a61.webp"
+width="760"
+height="270"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="McKenna&amp;amp;rsquo;s Visualization" srcset="
+/post/2022-analysis-qualitative-group/Story-1_hu0c4b9cde2d41f983e8b0381761303f67_83846_4479d45fbcaecfe9c592356015d3c1c1.webp 400w,
+/post/2022-analysis-qualitative-group/Story-1_hu0c4b9cde2d41f983e8b0381761303f67_83846_56aee731844f6524e93be2a37543b1de.webp 760w,
+/post/2022-analysis-qualitative-group/Story-1_hu0c4b9cde2d41f983e8b0381761303f67_83846_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/Story-1_hu0c4b9cde2d41f983e8b0381761303f67_83846_4479d45fbcaecfe9c592356015d3c1c1.webp"
+width="760"
+height="705"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+While comparing the visualizations, we also looked at the features where our data most appeared. It is difficult to identify exact results since the paper includes incomplete sections that do not have feature titles. This allows for easier navigation but does not show a complete picture. The features vary depending on the intentions of the research. The &amp;ldquo;yours truly&amp;rdquo; query appeared most in the Letters feature since it was specific to the Letter to the Editor section of the &lt;em>Egyptian Gazette&lt;/em>. We ran the Xpath query to limit the search results to useful data rather than to identify the most common feature. This allowed for better quantitative data use during the research process. Contrastly, qualitative research attempts to discover which features discussed the topic. For example, the &amp;ldquo;Mummy&amp;rdquo; Xpath query revealed the most used features were Local and Egyptological. This led to more research questions and was used to understand the importance of mummies to the readers of the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;h3 id="3-data-spikes">3. Data Spikes&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Ben&amp;amp;rsquo;s Visualization" srcset="
+/post/2022-analysis-qualitative-group/Ben_huceb8b2b0cda0d3c2b273aef30bdbe0d6_44905_d21e86d962a3bd7ed71361aef6ce3763.webp 400w,
+/post/2022-analysis-qualitative-group/Ben_huceb8b2b0cda0d3c2b273aef30bdbe0d6_44905_3f13475cdde273598025948a14a74812.webp 760w,
+/post/2022-analysis-qualitative-group/Ben_huceb8b2b0cda0d3c2b273aef30bdbe0d6_44905_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-qualitative-group/Ben_huceb8b2b0cda0d3c2b273aef30bdbe0d6_44905_d21e86d962a3bd7ed71361aef6ce3763.webp"
+width="760"
+height="721"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+It was alluring to see when specific results spiked and dipped in results. However, when we attempted to draw links between rises and falls between visualizations, the results were inconclusive. In the Fall of 2006, the &amp;ldquo;religion&amp;rdquo; visualization displayed an uptick in results. We attempted to research the reason and compare it to the uptick of results for the &amp;ldquo;Turks&amp;rdquo; visualization: to no avail. Since the &lt;em>Egyptian Gazette&lt;/em> files are incomplete, it is challenging to know if the spike is due to complete access to data or the paper&amp;rsquo;s coverage of the topic at the time.&lt;/p>
+&lt;h2 id="overall-strengths--weaknesses-in-microhistorical-qualitative-research">Overall Strengths &amp;amp; Weaknesses In Microhistorical Qualitative Research&lt;/h2>
+&lt;p>Ultimately, the digital research methods we used with the &lt;em>Egyptian Gazette&lt;/em> as our microhistorical source were complex and nuanced per each person&amp;rsquo;s research question; due to these complexities and nuances, various strengths and weaknesses arose during the employment of our chosen methods. A chief strength of our chosen XPath query and visualization format was their ability to encapsulate the significance of our search terms. The sheer quantity of results that our queries yielded provided us with adequate perceptions of how significant our chosen research topics were within the &lt;em>Gazette&lt;/em>, which is a useful starting point for the research process. Our chosen query and visualization also demonstrate the distribution of our search terms over multiple years of &lt;em>Gazette&lt;/em> issues. The ability to ascertain any trends in the mentions of our search terms, such as if the term has a higher proportional frequency in certain months, is vital for the qualitative research we each embarked on. Our understanding of potential trends allowed for further research and analysis since we could consult secondary sources or more XPath query results to help explain these trends.&lt;/p>
+&lt;p>Some weaknesses arose, though, from the confining nature of our chosen XPath query. Our query limited our results to only yield from &lt;em>Gazette&lt;/em> items labeled as features. Although this provided each of us with a smaller, much more manageable amount of data than a raw word count, it significantly limited the amount and types of trends we could analyze. Also, a weakness arises from the rather rudimental level of our chosen visualizations. Although these visualizations provided sufficient starting points for the research process, they did not yield enough data alone to be able to approach each of our complex qualitative research questions. This weakness, though, is merely reflective of the holistic qualitative research process. Qualitative research&amp;rsquo;s reliance on data beyond easily quantifiable characteristics meant we had to get creative to come up with numerical data for each of our projects. Many of us had to try multiple search terms that were relevant to our research topics before we even acquired enough data to transfer to a visualization.&lt;/p>
+&lt;p>Ultimately, we feel that our chosen XPath query and visualization format effectively initiated our research processes and created a compelling concept to discuss as a group. The query and visualization format may not have been enough to answer our research questions by themselves, but they were helpful when accompanied by further research. We recommend utilizing similar digital methods to other qualitative researchers; however, we suggest limiting the XPath queries to multiple types of items within the &lt;em>Gazette&lt;/em> rather than just features to see if another query yields a more desirable amount of results. Overall, these digital methods are imperfect, but in their imperfections, they reflect the unique limits and challenges of microhistorical research.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Digital Microhistory as a whole serves as an experimentational launching board between the realms of quantitative and qualitative analysis, and by nature our project was able to develop into an apt reflection of that reality. Within our project’s inquiry, we were faced with challenges beyond the scope of the dichotomy of using computational methodology to encompass qualitative data, specifically in that each specific personal topic was vastly different from the other. In the pursuit of trying to understand how to bridge these gaps, we developed a slightly broadened X-Path query, //div[matches(.,&amp;lsquo;x&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)]/@feature, in order to encompass a similar objective within a common research method. It was through this we came to realize that within the confines of qualitative data, a good launching pad is looking at numerical counts of usage of “trigger words” along with location of said usage, and moreover supplies a unifying factor between distinct topics of qualitative research. In looking to display our data we opted for a scatterplot styling as it most aptly reflected the particular factors returned from our query: feature, date, feature count, and page number of every division that contained a keyword of our respective research efforts. This visualization was an easily understandable representation of our findings, and allowed for effectiveness in comparing various results across the independent research efforts. These differences highlighted certain vantage and null points for each individual project, and supplemented our notions as to where to continue looking for more specific information on our individual topics. In reflection, we realized that the query was able to encapsulate the significance of key terms while also serving as a helpful catalyst into more specialized research; however, while supplying us with a more workable set of data it limits the amount/type of trends we could analyze, and so you would need more queries in order to substantially supplement one’s research. Overall, the most profound lesson learned was the amount of work and research that could still be done in regards to computational research methods concerning qualitative data, and that it is necessary to go through multiple rounds of trial and error and experimentation in order to find more defined yet transferable methods of querying for qualitative data. Furthermore, it may be concluded that in the vast diversity within qualitative data that a “one-size-fits-all query” simply can not be overarchingly specific and yield consistent, detailed, and specialized results for each pursued topic. Ultimately, this project reflected the intricacies encompassed in the microhistorical digital research methodology in order to relate the surface level disconnect between qualitative information and computational analysis.&lt;/p></description></item></channel></rss>

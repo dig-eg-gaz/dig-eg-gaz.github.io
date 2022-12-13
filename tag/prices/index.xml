@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prices | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/tag/prices/</link><atom:link href="https://dig-eg-gaz.github.io/tag/prices/index.xml" rel="self" type="application/rss+xml"/><description>prices</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>prices</title><link>https://dig-eg-gaz.github.io/tag/prices/</link></image><item><title>Change in grain production</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/</guid><description>&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Grain was an important crop in Egypt for a long period of time before cotton took over. Both wheat and barley were used for beer and bread. The period we are studying specifically in the &lt;em>Egyptian Gazette&lt;/em> is after this switch of crop occurred. Grains such as wheat and barley were still significant to the economic growth of Egypt. However, they were not as significant when the agricultural trends of Egypt shifted. In my individual research, I want to examine what the difference in cost and production of barley and wheat were. With this comparison, I think I will be able to answer the question of which grain was more useful and valuable to the people during this time period. I also plan to learn what the economic state was during this time and how it related to grain usage.&lt;/p>
+&lt;p>The economic growth of Egypt increased significantly under Cromer&amp;rsquo;s rule. Foreign trade was a specific aspect that increased. The grain exports slowly decreased during this time. According to the author Jeffery G. Collins, &amp;ldquo;Egypt&amp;rsquo;s other traditional exports, wheat, barley, maize, rice and beans, shrank or shifted entirely into import items while cigarettes remained the only manufactured product of any importance among exports&amp;rdquo;(Page 37, &amp;ldquo;The Egyptian Elite under Cromer 1882-1907: 1882-1907). These trends proved to be a worthy change in agriculture since foreign trade was increasing economic growth.&lt;/p>
+&lt;p>Even though there was a huge increase in foreign trade, Egypt was still in a lot of debt. Their public debt rates went down after 1897, but the private debt increased beginning in 1903. These debts fluctuated several times during 1903-1907. Egypt’s government also had a lot of debt to pay to the Ottomans. According to Collins, “Egypt’s massive cotton exports served largely to pay tribute to the Ottomans, service the staggering interest on the debt sand even reduce the debt, though much of the reduction was also due to the sale of former royal lands” (Page 39). The shifts in agriculture production were intended to increase economic prosperity and to repair the economy&amp;rsquo;s weak spots, meaning the large debts that had interest rates adding even more to them yearly. This shows that the change in production of grain was essential since it was not as desired as crops like cotton. In the &lt;em>Egyptian Gazette&lt;/em> during the time period we are studying, the switch of agricultural trends already occurred. What the newspaper reports are the effects of these changes. Both the newspaper and this book prove that the shift was needed for Egypt’s economic growth. Looking at barley and wheat specifically, it is obvious that wheat is the more desired grain of the two. In fact, overall wheat was the most desired grain.&lt;/p>
+&lt;h2 id="research">Research&lt;/h2>
+&lt;p>I began my individual research with the XPath search of:&lt;/p>
+&lt;ul>
+&lt;li>//table[@xml:id= “deg-ta-cema01&amp;rdquo;]//cell[contains(.,‘Barley’)]/following-sibling::cell[2]/measure&lt;/li>
+&lt;/ul>
+&lt;p>This gave me the change in price of barley over time. While I was doing the data for this specific topic, I noticed a trend in the cost. It usually stayed in the 70s. But the Maximum price listed was 110, and the minimum was 65. The raw data turned out to be over 200 items, so I will not be including that in my research paper. I then did a similar search to find the prices of wheat, but I did change how I phrased it so it would make more sense to me. I used the XPath below for wheat prices:&lt;/p>
+&lt;ul>
+&lt;li>//table[@xml:id= “deg-ta-cema01”]//row[1]/cell[3]/measure&lt;br>
+With the two tables of prices, I was able to compare the differences and similarities. I will discuss these later on in the data visualization section.&lt;/li>
+&lt;/ul>
+&lt;p>Another aspect that I wanted to research was the differences and similarities in production rates. I used the following XPaths to get this information:&lt;/p>
+&lt;ul>
+&lt;li>//table[@xml:id= “deg-ta-cema02”]//row[4]/cell[3]/measure&lt;/li>
+&lt;li>//table[@xml:id= “deg-ta-cema02”]//row[1]/cell[3]/measure&lt;br>
+The raw data that I got from each of these queries are two long to list in the paper, otherwise I would have added this to the research section.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-visualization">Data Visualization&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="alttext" srcset="
+/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_2cab6347972432a6e2655256f0770c7b.webp 400w,
+/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_3c76bcc9a9dce9e917ed808a90fb4496.webp 760w,
+/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_2cab6347972432a6e2655256f0770c7b.webp"
+width="585"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;br>
+As seen in the visual above, wheat cost a significant amount more than barley. On average, wheat cost around 110-120 pts, while barley costed around 70 pts.&lt;br>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="alttext" srcset="
+/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_28f290ff2aabbd09f71471ac6466e746.webp 400w,
+/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_a0588bab3c3d88dd0c06aec6ca8b6801.webp 760w,
+/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_28f290ff2aabbd09f71471ac6466e746.webp"
+width="607"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;br>
+As seen above, wheat on average was produced in quantities of thousands of ards. Barley is barely produced at 1,000 ards.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Wheat was a more desirable grain than barley, which made it more expensive and produced in larger quantities. These two crops were not produced nearly as much as the crops that were exported to other countries. The economical growth for Egypt depended on foreign trade so other crops such as cotton were produced more in order to meet the financial needs. While the trade of cotton managed to put a dent into the debt owed by Egypt to the Ottomans, grain remained a subtle but useful good.&lt;/p>
+&lt;h2 id="works-cited">Works cited&lt;/h2>
+&lt;p>“The Egyptian Elite under Cromer 1882-1907.” Google Books, Google, &lt;a href="https://books.google.com/books?id=ArFIEAAAQBAJ&amp;amp;amp;lpg=PR4&amp;amp;amp;ots=xBPdE78dSS&amp;amp;amp;dq=grain&amp;#43;economy&amp;#43;in&amp;#43;egypt&amp;#43;1907&amp;amp;amp;lr&amp;amp;amp;pg=PA42#v=onepage&amp;amp;amp;q&amp;amp;amp;f=false" target="_blank" rel="noopener">https://books.google.com/books?id=ArFIEAAAQBAJ&amp;amp;lpg=PR4&amp;amp;ots=xBPdE78dSS&amp;amp;dq=grain+economy+in+egypt+1907&amp;amp;lr&amp;amp;pg=PA42#v=onepage&amp;amp;q&amp;amp;f=false&lt;/a>.&lt;/p></description></item></channel></rss>

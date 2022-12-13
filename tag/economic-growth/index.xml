@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>economic growth | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/tag/economic-growth/</link><atom:link href="https://dig-eg-gaz.github.io/tag/economic-growth/index.xml" rel="self" type="application/rss+xml"/><description>economic growth</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>economic growth</title><link>https://dig-eg-gaz.github.io/tag/economic-growth/</link></image><item><title>Change in grain production</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/</guid><description>&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Grain was an important crop in Egypt for a long period of time before cotton took over. Both wheat and barley were used for beer and bread. The period we are studying specifically in the &lt;em>Egyptian Gazette&lt;/em> is after this switch of crop occurred. Grains such as wheat and barley were still significant to the economic growth of Egypt. However, they were not as significant when the agricultural trends of Egypt shifted. In my individual research, I want to examine what the difference in cost and production of barley and wheat were. With this comparison, I think I will be able to answer the question of which grain was more useful and valuable to the people during this time period. I also plan to learn what the economic state was during this time and how it related to grain usage.&lt;/p>
+&lt;p>The economic growth of Egypt increased significantly under Cromer&amp;rsquo;s rule. Foreign trade was a specific aspect that increased. The grain exports slowly decreased during this time. According to the author Jeffery G. Collins, &amp;ldquo;Egypt&amp;rsquo;s other traditional exports, wheat, barley, maize, rice and beans, shrank or shifted entirely into import items while cigarettes remained the only manufactured product of any importance among exports&amp;rdquo;(Page 37, &amp;ldquo;The Egyptian Elite under Cromer 1882-1907: 1882-1907). These trends proved to be a worthy change in agriculture since foreign trade was increasing economic growth.&lt;/p>
+&lt;p>Even though there was a huge increase in foreign trade, Egypt was still in a lot of debt. Their public debt rates went down after 1897, but the private debt increased beginning in 1903. These debts fluctuated several times during 1903-1907. Egypt’s government also had a lot of debt to pay to the Ottomans. According to Collins, “Egypt’s massive cotton exports served largely to pay tribute to the Ottomans, service the staggering interest on the debt sand even reduce the debt, though much of the reduction was also due to the sale of former royal lands” (Page 39). The shifts in agriculture production were intended to increase economic prosperity and to repair the economy&amp;rsquo;s weak spots, meaning the large debts that had interest rates adding even more to them yearly. This shows that the change in production of grain was essential since it was not as desired as crops like cotton. In the &lt;em>Egyptian Gazette&lt;/em> during the time period we are studying, the switch of agricultural trends already occurred. What the newspaper reports are the effects of these changes. Both the newspaper and this book prove that the shift was needed for Egypt’s economic growth. Looking at barley and wheat specifically, it is obvious that wheat is the more desired grain of the two. In fact, overall wheat was the most desired grain.&lt;/p>
+&lt;h2 id="research">Research&lt;/h2>
+&lt;p>I began my individual research with the XPath search of:&lt;/p>
+&lt;ul>
+&lt;li>//table[@xml:id= “deg-ta-cema01&amp;rdquo;]//cell[contains(.,‘Barley’)]/following-sibling::cell[2]/measure&lt;/li>
+&lt;/ul>
+&lt;p>This gave me the change in price of barley over time. While I was doing the data for this specific topic, I noticed a trend in the cost. It usually stayed in the 70s. But the Maximum price listed was 110, and the minimum was 65. The raw data turned out to be over 200 items, so I will not be including that in my research paper. I then did a similar search to find the prices of wheat, but I did change how I phrased it so it would make more sense to me. I used the XPath below for wheat prices:&lt;/p>
+&lt;ul>
+&lt;li>//table[@xml:id= “deg-ta-cema01”]//row[1]/cell[3]/measure&lt;br>
+With the two tables of prices, I was able to compare the differences and similarities. I will discuss these later on in the data visualization section.&lt;/li>
+&lt;/ul>
+&lt;p>Another aspect that I wanted to research was the differences and similarities in production rates. I used the following XPaths to get this information:&lt;/p>
+&lt;ul>
+&lt;li>//table[@xml:id= “deg-ta-cema02”]//row[4]/cell[3]/measure&lt;/li>
+&lt;li>//table[@xml:id= “deg-ta-cema02”]//row[1]/cell[3]/measure&lt;br>
+The raw data that I got from each of these queries are two long to list in the paper, otherwise I would have added this to the research section.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-visualization">Data Visualization&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="alttext" srcset="
+/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_2cab6347972432a6e2655256f0770c7b.webp 400w,
+/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_3c76bcc9a9dce9e917ed808a90fb4496.webp 760w,
+/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/barleywheatprices_hu2db761890afc5be044381be34d578227_142567_2cab6347972432a6e2655256f0770c7b.webp"
+width="585"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;br>
+As seen in the visual above, wheat cost a significant amount more than barley. On average, wheat cost around 110-120 pts, while barley costed around 70 pts.&lt;br>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="alttext" srcset="
+/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_28f290ff2aabbd09f71471ac6466e746.webp 400w,
+/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_a0588bab3c3d88dd0c06aec6ca8b6801.webp 760w,
+/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-casimiro/barleywheatproduction_hu487655b753afecce480a081f38cdcac4_132490_28f290ff2aabbd09f71471ac6466e746.webp"
+width="607"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;br>
+As seen above, wheat on average was produced in quantities of thousands of ards. Barley is barely produced at 1,000 ards.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Wheat was a more desirable grain than barley, which made it more expensive and produced in larger quantities. These two crops were not produced nearly as much as the crops that were exported to other countries. The economical growth for Egypt depended on foreign trade so other crops such as cotton were produced more in order to meet the financial needs. While the trade of cotton managed to put a dent into the debt owed by Egypt to the Ottomans, grain remained a subtle but useful good.&lt;/p>
+&lt;h2 id="works-cited">Works cited&lt;/h2>
+&lt;p>“The Egyptian Elite under Cromer 1882-1907.” Google Books, Google, &lt;a href="https://books.google.com/books?id=ArFIEAAAQBAJ&amp;amp;amp;lpg=PR4&amp;amp;amp;ots=xBPdE78dSS&amp;amp;amp;dq=grain&amp;#43;economy&amp;#43;in&amp;#43;egypt&amp;#43;1907&amp;amp;amp;lr&amp;amp;amp;pg=PA42#v=onepage&amp;amp;amp;q&amp;amp;amp;f=false" target="_blank" rel="noopener">https://books.google.com/books?id=ArFIEAAAQBAJ&amp;amp;lpg=PR4&amp;amp;ots=xBPdE78dSS&amp;amp;dq=grain+economy+in+egypt+1907&amp;amp;lr&amp;amp;pg=PA42#v=onepage&amp;amp;q&amp;amp;f=false&lt;/a>.&lt;/p></description></item><item><title>Wheat Production and Importance in Egypt</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/</link><pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/</guid><description>&lt;h2 id="background">Background&lt;/h2>
+&lt;p>Our project analyzes the presence and importance of wheat in the eyes of the British in the &lt;em>Egyptian Gazette&lt;/em> in the early 20th century. Egyptian wheat production was a massively important part of the day to day life of Egypt for millennia, from the days of the Pharaoh to the 19th century. Wheat was the main subsistence crop throughout the Nile Delta, and allowed the Egyptians to be wildly successful and allowed them autonomy even when they were conquered. Wheat&amp;rsquo;s staple status primarily came through its use in the production of both bread and beer. This was shown in the Roman conquest of Egypt, where they were granted autonomy from Rome until Cleopatra took Mark Antony’s side in the last war of the Roman Republic. The major importance of Egypt being the wheat basket of the Mediterranean allowed it and its ruling parties power and independence. This all came to an end under Muhammad Ali Pasha, who through large irrigation projects and the change to cotton based farming led Egypt to become a more economic power instead of sustainance based farming. This led to Egypt becoming less dependent on wheat and more dependent on the economic benefits of selling cotton and using the profit to buy food and develop the country overall.&lt;/p>
+&lt;h2 id="government-influence">Government influence&lt;/h2>
+&lt;p>The government had a variety of programs to increase agriculture. One of the main crops they pushed was the production of wheat. One of the programs was the Cairo Agricultural show; this was an opportunity for the grower to show off their wheat production to potential buyers. It was a great networking event for many people. The Suez canal was a significant government transportation portal for the exporting of wheat. Great Britain exported most of Egypt&amp;rsquo;s wheat, leaving little for the people: “as little as 1/5 of the wheat was kept for the people” (&lt;em>Egyptian Gazette&lt;/em>). The 1/5 portion was processed into other products such as bread. This policy of increasing economic revenue was done with a little more of a selfish nature rather than helping the individual farmer. However, to make up for this selfish nature, the government had to deal with the crime of people stealing each other’s crops and took these cases very seriously.&lt;/p>
+&lt;p>Over time, controversy began to grow about whether wheat or cotton was more profitable. The British saw wheat as mainly a single-dimensional product that was only for flour production. The big cash crop was cotton due to the greater demand during the US civil war and greater transferability. This is mentioned throughout the article “British flour for Egypt” in the &lt;em>Egyptian Gazette&lt;/em>. Although the British thought this, they still did a lot to help increase the production of wheat; in the Egyptian Gazette, the feature “abridged prospectus” explained the process of purchasing the land and how the process was meant to incentivize people to buy and start cultivating the wheat crop. The most popular land was lower Egypt which had the rich soil to grow good wheat. The process of securing land could get a little complicated, but there was a program to help poorer people get their foot in the door. Through this program, you could buy a share of land and make payments. However, if you miss only one payment, your entire land could be revoked. These payments could be expensive, especially with the hefty tax you pay to auditors. This extreme policy really pressured farmers to produce most of the crops. This excessive production made local articles such as “Khartoum’s wheat crop” describe wheat as a very profitable crop since it was written from the local perspective.&lt;/p>
+&lt;p>In addition, the &lt;em>Egyptian Gazette&lt;/em> has an article called &amp;ldquo;British Flour,&amp;rdquo; which was written in March 4, 1907. Throughout this text, the author talks about the shift from wheat production to more cotton production due to its further profitability. So, the government shifted focus and realized money was better than extra production. The article details how as wheat increased, the demand and sales remained the same, and the primary consumers were the British Mill, which had its own competition with the French miller for being a top supplier. Our second visual below about wheat prices displays how although foreign governments such as the British didn&amp;rsquo;t increase their wheat purchase during March of 1907, wheat remained at a steady price due to Egypt&amp;rsquo;s ability to distribute the extra grain elsewhere. This displays wheat&amp;rsquo;s ability to have stable and growing production and how it was an essential part of commerce, even though government support was shifting.&lt;/p>
+&lt;h2 id="research">Research&lt;/h2>
+&lt;p>We initially decided to find out how often wheat was mentioned in each feature within the Egyptian gazette. This piece of information would show how relevant this specific crop is and what times during the year that it is being discussed. The following query was used to find this information:&lt;br>
+&lt;code>//div[matches(.,'wheat', 'i')]/@feature&lt;/code>&lt;/p>
+&lt;p>This data showed us that there was not a specific time of the month or a season that wheat was discussed like we had assumed. It is relevant throughout the year. However it is mentioned the least during months June, August, and November. Wheat was mentioned in exportManifest more frequently compared to the other features. This search gave 56 items, which are listed below.&lt;/p>
+&lt;ul>
+&lt;li>1884-02-18 exportManifests&lt;/li>
+&lt;li>1905-02-09 passList&lt;/li>
+&lt;li>1905-03-08 passList&lt;/li>
+&lt;li>1905-03-20 exportManifests&lt;/li>
+&lt;li>1905-04-11 exportManifests&lt;/li>
+&lt;li>1905-04-17 exportManifests&lt;/li>
+&lt;li>1905-04-24 exportManifests&lt;/li>
+&lt;li>1905-04-26 wire&lt;/li>
+&lt;li>1905-09-20 parisLetter&lt;/li>
+&lt;li>1905-09-23 londonLetter&lt;/li>
+&lt;li>1905-12-12 wire&lt;/li>
+&lt;li>1906-01-03 letters&lt;/li>
+&lt;li>1906-01-19 exportManifests&lt;/li>
+&lt;li>1906-02-23 exportManifests&lt;/li>
+&lt;li>1906-03-08 passList&lt;/li>
+&lt;li>1906-03-22 social&lt;/li>
+&lt;li>1906-06-01 notesCyprus&lt;/li>
+&lt;li>1906-12-03 wire&lt;/li>
+&lt;li>1907-01-10 local&lt;/li>
+&lt;li>1907-02-12 notesCyprus&lt;/li>
+&lt;li>1907-02-22 local&lt;/li>
+&lt;li>1907-04-02 exportManifests&lt;/li>
+&lt;li>1907-04-16 local&lt;/li>
+&lt;li>1907-04-18 prepaidAdvertisements&lt;/li>
+&lt;li>1907-05-03 notesCyprus&lt;/li>
+&lt;li>1907-05-15 wire&lt;/li>
+&lt;li>1907-05-21 notesCyprus&lt;/li>
+&lt;li>1907-05-22 wire&lt;/li>
+&lt;li>1907-05-24 wire&lt;/li>
+&lt;li>1907-05-27 notesCyprus&lt;/li>
+&lt;li>1907-06-24 shippingMovements&lt;/li>
+&lt;li>1907-07-10 exportManifests&lt;/li>
+&lt;li>1907-07-17 local&lt;/li>
+&lt;li>1907-07-24 notesCyprus&lt;/li>
+&lt;li>1907-08-19 shippingMovements&lt;/li>
+&lt;li>1907-08-30 exportManifests&lt;/li>
+&lt;li>1907-09-25 wire&lt;/li>
+&lt;li>1907-10-16 wire&lt;/li>
+&lt;li>1907-10-17 notesCyprus&lt;/li>
+&lt;li>1907-10-18 wire&lt;/li>
+&lt;li>1907-10-19 masthead&lt;/li>
+&lt;li>1907-10-21 wire&lt;/li>
+&lt;li>1907-10-24 wire&lt;/li>
+&lt;li>1907-11-13 army&lt;/li>
+&lt;li>1907-12-03 exportManifests&lt;/li>
+&lt;li>1907-12-05 letters&lt;/li>
+&lt;li>1907-12-06 social&lt;/li>
+&lt;li>1907-12-07 notesOther&lt;/li>
+&lt;li>1907-12-09 exportManifests&lt;/li>
+&lt;li>1907-12-12 wire&lt;/li>
+&lt;li>1907-12-13 army&lt;/li>
+&lt;li>1907-12-17 social&lt;/li>
+&lt;li>1908-01-03 letters&lt;/li>
+&lt;li>1908-01-31 exportManifests&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-visualization">Data Visualization&lt;/h2>
+&lt;p>
+&lt;figure id="figure-the-chart-above-shows-the-amount-of-times-wheat-is-mentioned-in-each-feature-section-of-the-egyptian-gazette-newspaper-clearly-this-crop-is-mentioned-in-exportmanifests-more-often-than-the-other-features-there-is-a-high-amount-of-mentions-in-april-for-exportmanifests-and-a-high-amount-of-mentions-in-october-for-the-wire">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Graph of wheat mentions in the newspaper" srcset="
+/post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_c578c24578ea670e499d809558ffdfc9.webp 400w,
+/post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_60a566697cbebf53b7cd4e4bc31b5ed6.webp 760w,
+/post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_c578c24578ea670e499d809558ffdfc9.webp"
+width="760"
+height="699"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The chart above shows the amount of times wheat is mentioned in each feature section of the Egyptian Gazette newspaper. Clearly, this crop is mentioned in exportManifests more often than the other features. There is a high amount of mentions In April for exportManifests, and a high amount of mentions in October for the wire.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-the-chart-above-tracks-the-price-of-wheat-varieties-lows-and-highs-from-1905-to-1908-the-data-proves-to-be-extremely-consistent-with-the-mawani-variety-consistently-being-the-most-expensive-and-the-tugari-variety-being-consistently-the-cheapest-each-year-besides-in-december-and-april-what-makes-this-especially-interesting-is-that-in-those-two-months-tugari-is-able-to-compete-with-middling-all-due-to-it-reaching-highs-of-146-around-the-midpoint-of-the-month-and-continuing-to-hover-around-the-low-140s-for-the-remainder-of-the-month-leading-to-the-sudden-closeness-in-the-data-points-we-see-in-the-chart">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Graph of price differences between the different strains of wheat per month" srcset="
+/post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_a7c86a8eb7d7d4c274159a8af20289f4.webp 400w,
+/post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_eca81cbf9bf107b797a82abd4c2ebb27.webp 760w,
+/post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_a7c86a8eb7d7d4c274159a8af20289f4.webp"
+width="760"
+height="429"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The chart above tracks the price of wheat varieties (lows and highs) from 1905 to 1908. The data proves to be extremely consistent with the Mawani variety consistently being the most expensive and the Tugari variety being consistently the cheapest each year besides in December and April. What makes this especially interesting is that in those two months, Tugari is able to compete with Middling, all due to it reaching highs of 146 around the midpoint of the month and continuing to hover around the low 140’s for the remainder of the month, leading to the sudden closeness in the data points we see in the chart.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Based on our research, we accomplished our goal of finding out the significance of wheat during this time period. Together we have gathered a mixture of qualitative and quantitative research to develop a better picture of the impact of wheat cultivation. With this better picture, we were able to highlight the importance of this crop. Through our deep dive into the Egyptian Gazette, we also established that wheat was a main crop that was produced. Furthermore, we examined the effects that the native government and foreign influence had on the production and use of Wheat. The data showed how significant this crop was in the process of cultivating economic growth for Egypt, especially under British control. Detailed evidence, such ⅕ of the production of wheat, was given to the people in Egypt; the rest was exported to other countries, which led us to formulate more complex conclusions. The most apparent conclusion we were able to draw was that, over time, cotton became the main crop since there was more of a demand for it.&lt;/p>
+&lt;h2 id="works-consulted">Works Consulted&lt;/h2>
+&lt;p>Foaden. “Text-Book of Egyptian Agriculture, Ed. by G. P. Foaden &amp;hellip; and F. Fletcher &amp;hellip; v. 1.” HathiTrust, &lt;a href="https://babel.hathitrust.org/cgi/pt?id=njp.32101048820458" target="_blank" rel="noopener">https://babel.hathitrust.org/cgi/pt?id=njp.32101048820458&lt;/a>.&lt;/p>
+&lt;p>El-Sadek, A. Virtual Water Trade as a Solution for Water Scarcity in Egypt. Water Resource Manage 24, 2437–2448 (2010). &lt;a href="https://doi.org/10.1007/s11269-009-9560-9" target="_blank" rel="noopener">https://doi.org/10.1007/s11269-009-9560-9&lt;/a>&lt;/p></description></item></channel></rss>

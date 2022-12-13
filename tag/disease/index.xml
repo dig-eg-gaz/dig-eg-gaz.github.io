@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>disease | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/tag/disease/</link><atom:link href="https://dig-eg-gaz.github.io/tag/disease/index.xml" rel="self" type="application/rss+xml"/><description>disease</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>disease</title><link>https://dig-eg-gaz.github.io/tag/disease/</link></image><item><title>How To Prepare for an Outbreak</title><link>https://dig-eg-gaz.github.io/post/2019-10-25-jake_himmel/</link><pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2019-10-25-jake_himmel/</guid><description>&lt;p>An article in my January 30th, 1908 issue of the &lt;em>Egyptian Gazette&lt;/em>, &amp;ldquo;Protection Against Cholera&amp;rdquo; speaks on the Alexandria Sanitation Department issuing a statement on what steps they will take to stop the spread of cholera. I find this interesting because when an outbreak of anything happens today, the CDC for example, might send out a similar statement. What also interests me is the difference between the two organizations that would issue such a statement. In Alexandria, the sanitation department seemed to have authority over the control and prevention of disease spreading. This goes on to suggest that early 20th century disease control was thought to be based entirely on sanitation. In the United States, the &lt;a href="https://www.cdc.gov/about/organization/mission.htm" target="_blank" rel="noopener">Center for Disease Control&lt;/a> (CDC) has authority over the research and prevention of infectious diseases.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>disease | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/tag/disease/</link><atom:link href="https://dig-eg-gaz.github.io/tag/disease/index.xml" rel="self" type="application/rss+xml"/><description>disease</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url><title>disease</title><link>https://dig-eg-gaz.github.io/tag/disease/</link></image><item><title>Disease Disparities in the Gazette</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-dininger/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-dininger/</guid><description>&lt;p>As in all newspapers, the &lt;em>Egyptian Gazette&lt;/em> is no stranger to reporting on disease cases. From 1905-1907, the &lt;em>Gazette&lt;/em> mentions various diseases 1,688 times. Despite this large figure, the specific breakdown of which diseases are mentioned more often than others reveals a vast inequality in the amount of mentions per disease. To gather this data, I performed several Xpath queries to determine the number of mentions of different diseases in the &lt;em>Gazette&lt;/em>, both in total and over time.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div[matches(.,’plague’, ‘i’)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[matches(.,’bilharzia’, ‘i’)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[matches(.,’pneumonia’, ‘i’)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[matches(.,’small pox’, ‘i’)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[matches(.,’tuberculosis’, ‘i’)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[matches(.,’cholera’, ‘i’)]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>This contrast in mentions is immediately obvious upon viewing the data, and raises several questions of why the &lt;em>Gazette&lt;/em> chose its content in this way. This analysis will attempt to explain these disparities in context of when the &lt;em>Gazette&lt;/em> was written, and who it was written for.&lt;/p>
+&lt;p>
+&lt;figure id="figure-total-mentions-of-many-of-the-diseases-in-the-_gazette_">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="1" srcset="
+/post/2022-analysis-dininger/chart1_hu39282c27c6a51df6685fdb3586c52984_48864_8cc14a4e6b6ff1028a87faf35dafc49c.webp 400w,
+/post/2022-analysis-dininger/chart1_hu39282c27c6a51df6685fdb3586c52984_48864_9bf3667037a9554413048eb5341d8924.webp 760w,
+/post/2022-analysis-dininger/chart1_hu39282c27c6a51df6685fdb3586c52984_48864_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-dininger/chart1_hu39282c27c6a51df6685fdb3586c52984_48864_8cc14a4e6b6ff1028a87faf35dafc49c.webp"
+width="512"
+height="316"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Total mentions of many of the diseases in the &lt;em>Gazette&lt;/em>.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure id="figure-total-mentions-of-many-of-the-diseases-in-the-_gazette_-by-month-over-time">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="2" srcset="
+/post/2022-analysis-dininger/chart2_hu0d895a95d339cfbe060f01d81197a977_31554_9af1402dfb70d98f57af0ffdcc2d3d83.webp 400w,
+/post/2022-analysis-dininger/chart2_hu0d895a95d339cfbe060f01d81197a977_31554_40cfd54460b35a9d3a2b6bcba7fa8abd.webp 760w,
+/post/2022-analysis-dininger/chart2_hu0d895a95d339cfbe060f01d81197a977_31554_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-dininger/chart2_hu0d895a95d339cfbe060f01d81197a977_31554_9af1402dfb70d98f57af0ffdcc2d3d83.webp"
+width="512"
+height="317"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Total mentions of many of the diseases in the &lt;em>Gazette&lt;/em> by month over time.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>Founded in 1880, the &lt;em>Egyptian Gazette&lt;/em> was a newspaper written by British citizens who had moved to Egypt. Early on, it “became the mouthpiece for British policy in Egypt” and was heavily monitored by Lord Cromer, the British Controller-General (Carcanague). Cromer had a large role in the control of the &lt;em>Gazette&lt;/em>, and it is suspected that he personally subsidized the &lt;em>Gazette&lt;/em>. As Controller-General, Cromer was responsible for the administration of Egypt while under British control from 1883-1907 (Lockman).&lt;/p>
+&lt;p>All this to say that the &lt;em>Egyptian Gazette&lt;/em> was a distinctly British entity, written by the British, for the British, and containing British opinions. The reason why this is important is that the motivations of the authors of the &lt;em>Gazette&lt;/em> are directly related to their audience: British subjects. As emphasized in journalism, one of the key hallmarks of success in the news industry is to know your audience, and write about issues that they have an interest in (Santiago). In the case of the &lt;em>Gazette&lt;/em>, this means that they were tasked with writing about issues that their fellow British subjects in Egypt were interested in, all while keeping in line with Cromer’s interests.&lt;/p>
+&lt;p>The importance of the audience of the &lt;em>Gazette&lt;/em> is crucial to understanding the disparities between which diseases they featured in their issues. Since it was written for British citizens, one can assume that they tended to focus on diseases that tended to impact that population the most. This assumption is not made blindly; it is supported by a comparison of the disease mentions to actual cases during this time period.&lt;/p>
+&lt;p>One of the largest cases of the gap between cases and coverage pertains to the disease bilharzia. In her chapter analysis “Cruel Summer,” historian Jennifer Derr provides an account focusing on the prevalence of parasitic diseases, and how new methods of agriculture caused them to become quite common in society (Derr). One of the principal diseases caused by these parasites was schistosomiasis, or as it was referred to in the 1900s, bilharzia. One of the key takeaways from Derr is just how widespread these parasites were in Egypt in this time period, with her stating that the “majority of the populations with regions with access to perennial irrigation” were afflicted. This issue was not something unknown to wider Egypt either; as early as 1838, Italian physician Angelo Dubini identified parasitic worms in the autopsies of Egyptians. These discoveries eventually morphed into scientific investigations of this issue as the 1800s progressed, even getting attention from the Sanitary Department. Derr’s analysis establishes two facts critical to the disparities in attention of diseases: bilharzia was very widespread during this time period and it had been identified as a disease decades prior.&lt;/p>
+&lt;p>Because of these facts, one might wonder why bilharzia is only mentioned in the &lt;em>Gazette&lt;/em> a measly four times over the course of 1905-1907 as revealed by an Xpath query. A potential answer to this issue relates back to the audience of the &lt;em>Gazette&lt;/em>. While bilharzia was extremely widespread, it was primarily found among Egyptian agricultural workers spending their time in wet, irrigated fields where the parasites easily spread. Since we have already established that the audience of the &lt;em>Gazette&lt;/em> would not have been these workers, it stands to reason that it was neglected due to being seen as an Egyptian problem. Compare the 4 mentions of bilharzia to the 1,270 mentions of the plague. Being that the disease killed ⅓ of Europe in the 1300s, all Europeans were quite familiar with the risk of the plague and the knowledge that it was highly contagious. While it certainly did see a high case number during this period, bilharzia did as well, and yet received 318% fewer mentions. This suggests that the audience of the &lt;em>Gazette&lt;/em> had a much higher interest in reading about plague than bilharzia. Therefore, the context of the &lt;em>Gazette&lt;/em>’s author and audience could have quite plausibly played into what content they chose to focus on.&lt;/p>
+&lt;p>An additional investigation I conducted was to analyze the mentions of different diseases restricted to advertisements. I chose advertisements because they reflect public consumption and which issues are being emphasized by both consumers and suppliers. The XPath query for this question restricted the results to those labeled as “advert”&lt;/p>
+&lt;p>This revealed the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'typhoid')]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'smallpox')]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'small pox')]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'pneumonia')]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'plague')]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'bilharzia)]&lt;/code>&lt;/li>
+&lt;li>&lt;code>//div[@type=&amp;quot;advert&amp;quot;][contains(., 'tuberculosis')]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure id="figure-total-mentions-of-many-of-the-diseases-in-the-_gazette_-by-month-over-time">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="3" srcset="
+/post/2022-analysis-dininger/pic3_hu16e7f3849fc09c69dfd7c4df1c7826f8_16454_31f99b399a9deffd8607981a219cb3c6.webp 400w,
+/post/2022-analysis-dininger/pic3_hu16e7f3849fc09c69dfd7c4df1c7826f8_16454_0274f9e9231526925b1f36eb6212d436.webp 760w,
+/post/2022-analysis-dininger/pic3_hu16e7f3849fc09c69dfd7c4df1c7826f8_16454_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-dininger/pic3_hu16e7f3849fc09c69dfd7c4df1c7826f8_16454_31f99b399a9deffd8607981a219cb3c6.webp"
+width="512"
+height="317"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Total mentions of many of the diseases in the &lt;em>Gazette&lt;/em> by month over time.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>Interestingly enough, despite having far fewer total mentions than several other diseases, tuberculosis had the most mentions in the advertisement section. These results could have resulted from many factors, including poor knowledge of medicine at the time. However, the 0 mentions of bilharzia echo bilharzia’s few overall mentions and add to the idea that it was neglected by the &lt;em>Gazette&lt;/em>.&lt;/p>
+&lt;h2 id="works-cited">Works Cited:&lt;/h2>
+&lt;p>Carcanague, Marc. &lt;em>Death at Denshawai: a Case Study in the History of British Imperialism in Egypt&lt;/em>. 2020. Capstone.&lt;/p>
+&lt;p>Derr, Jennifer. &lt;em>The Lived Nile: Environment, Disease, and Material Colonial Economy in Egypt&lt;/em>. Stanford University Press, 2019.&lt;/p>
+&lt;p>Lockman, Zachary. &amp;ldquo;Lord Cromer: Victorian Imperialist, Edwardian Proconsul.&amp;rdquo; &lt;em>The Center for Middle Eastern Studies&lt;/em>, Harvard University, 23 May 2006, cmes.fas.harvard.edu/news/lord-cromer-victorian-imperialist-edwardian-proconsul.&lt;/p>
+&lt;p>Santiago, Anthony. &amp;ldquo;Why Knowing Your Audience is Important for Your Press Release.&amp;rdquo; &lt;em>Newswire&lt;/em>, 4 Mar. 2019, &lt;a href="https://www.newswire.com/blog/why-knowing-your-audience-is-important-for-your-press-release" target="_blank" rel="noopener">www.newswire.com/blog/why-knowing-your-audience-is-important-for-your-press-release&lt;/a>.&lt;/p></description></item><item><title>Sudden Death</title><link>https://dig-eg-gaz.github.io/post/2022-10-24-beggs/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-10-24-beggs/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="image" srcset="
+/post/2022-10-24-beggs/featured_hu8bc2f6d70dd1507d3fbca7406687f8fb_183611_e23e55fc77d9ba881dbd51c9d9c8512e.webp 400w,
+/post/2022-10-24-beggs/featured_hu8bc2f6d70dd1507d3fbca7406687f8fb_183611_61c8bb35daec0e3992ac2b484c70e010.webp 760w,
+/post/2022-10-24-beggs/featured_hu8bc2f6d70dd1507d3fbca7406687f8fb_183611_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-10-24-beggs/featured_hu8bc2f6d70dd1507d3fbca7406687f8fb_183611_e23e55fc77d9ba881dbd51c9d9c8512e.webp"
+width="757"
+height="231"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>In the &amp;ldquo;Local and General&amp;rdquo; section of &lt;em>The Egyptian Gazette&lt;/em>, different articles on death occur often. While others have researched the &lt;a href="https://dig-eg-gaz.github.io/post/2016-11-06-cyr-bubonic-plague/" target="_blank" rel="noopener">plague&lt;/a> or &lt;a href="https://dig-eg-gaz.github.io/post/19-analysis-himmel/" target="_blank" rel="noopener">cholera&lt;/a>, I was intrigued by the term sudden death. The “Local and General” and “Personal and Social” sections of the &lt;em>Egyptian Gazette&lt;/em> mentions sudden death many times. Typically, the news reports about sudden deaths give information about a random person. This is an example from a 1905 issue of the &lt;em>Egyptian Gazette&lt;/em>, “Mustafa Mohamed el Deep, a native butcher of 50 years of, suddenly fell dead in a tramcar yesterday. His death is reported to been caused by heart failure” (1905-10-12, “Sudden Death”). Historically, how much information did the medical community have in the early 1900s concerning sudden death?&lt;/p>
+&lt;p>In 1908, Theodore Fisher, M.D., F.R.C.P. published a book titled &lt;a href="https://babel.hathitrust.org/cgi/pt?id=hvd.hc2dq8&amp;amp;view=1up&amp;amp;seq=9" target="_blank" rel="noopener">&lt;em>The Heart and Sudden Death&lt;/em>&lt;/a>. This publication presents an abundance of information about the heart and heart diseases. The book describes aneurisms, alcoholism and the heart, and many more topics.&lt;/p>
+&lt;p>Most of the stories in the &lt;em>Egyptian Gazette&lt;/em> that have a diagnosis fall into the category of heart failure, heart disease, or natural causes. Some other causes included ruptured aneurisms and apoplexy. The definition of apoplexy according to &lt;em>A Dictionary of Medical Science&lt;/em> published in 1903 is: “interstitial hemorrhage; effusion of blood occurring suddenly into the substance of an organ or tissue, as the brain, lung, etc.” This definition also makes clear that apoplexy is not cerebral hemorrhage which accounted for the cause of one of the deaths recorded in the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;p>Although the reports of sudden death in the &lt;em>Egyptian Gazette&lt;/em> seem slightly out of place to modern readers, it must have been important to the colonists then. Medical knowledge was expanding rapidly in the nineteenth and twentieth centuries, for example, in 1901 Karl Landsteiner discovered different blood types. At this point in time, physicians knew a great deal about the causes of heart disease although they knew little about how to prevent it.&lt;/p></description></item><item><title>How To Prepare for an Outbreak</title><link>https://dig-eg-gaz.github.io/post/2019-10-25-jake_himmel/</link><pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2019-10-25-jake_himmel/</guid><description>&lt;p>An article in my January 30th, 1908 issue of the &lt;em>Egyptian Gazette&lt;/em>, &amp;ldquo;Protection Against Cholera&amp;rdquo; speaks on the Alexandria Sanitation Department issuing a statement on what steps they will take to stop the spread of cholera. I find this interesting because when an outbreak of anything happens today, the CDC for example, might send out a similar statement. What also interests me is the difference between the two organizations that would issue such a statement. In Alexandria, the sanitation department seemed to have authority over the control and prevention of disease spreading. This goes on to suggest that early 20th century disease control was thought to be based entirely on sanitation. In the United States, the &lt;a href="https://www.cdc.gov/about/organization/mission.htm" target="_blank" rel="noopener">Center for Disease Control&lt;/a> (CDC) has authority over the research and prevention of infectious diseases.&lt;/p>
 &lt;p>The article says that its primary goal was to inform the readers of the preparations they can take to guard their own safe being. The following is what the article says the Sanitary Department Suggests:&lt;/p>
 &lt;ul>
 &lt;li>Wash our hands after every visit to &amp;ldquo;lieux d&amp;rsquo;aisance&amp;rdquo; and each time before eating.&lt;/li>

@@ -1,4 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Carson Combs | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/carsoncombs/</link><atom:link href="https://dig-eg-gaz.github.io/authors/carsoncombs/index.xml" rel="self" type="application/rss+xml"/><description>Carson Combs</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/carsoncombs/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Carson Combs</title><link>https://dig-eg-gaz.github.io/authors/carsoncombs/</link></image><item><title>Fires In Alexandria</title><link>https://dig-eg-gaz.github.io/post/2022-11-19-combs/</link><pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-11-19-combs/</guid><description>&lt;p>On Monday, December 26, 1904, the Egyptian Gazette had a part in the local and general section describing three fires that occurred during the previous two days. The first fire occurred on Saturday at 2 p.m. at a tobacconist on Attarin-street. The second fire occurred at a second tobacconist. This time it was at 2 a.m. Monday morning on Munet el-Bassal. The third fire occurred only an hour later at a grocer&amp;rsquo;s shop in Attarin-street. Fortunately, the fires only caused slight damages and no one died.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Carson Combs | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/carsoncombs/</link><atom:link href="https://dig-eg-gaz.github.io/authors/carsoncombs/index.xml" rel="self" type="application/rss+xml"/><description>Carson Combs</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/carsoncombs/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Carson Combs</title><link>https://dig-eg-gaz.github.io/authors/carsoncombs/</link></image><item><title>Causes of the Changing Death Rate</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-combs/</link><pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-combs/</guid><description>&lt;p>Death and its causes are widely reported in the &lt;em>Egyptian Gazette&lt;/em>, however it is not reported equally at all times of the year. Knowing the months when death is most common allows for further analysis on what causes the death rate to change throughout the year. This can also be done with the various causes of death such as murder. This knowledge gives some insight into what it was like to live in Alexandria, Egypt in the early 1900s.&lt;/p>
+&lt;p>To answer the question of what causes the death rate to change throughout the year I first ran the x-path query &lt;code>count(//div[matches(., 'dea[d,th]','i')])&lt;/code>. I also ran the same x-path query for murder, suicide, plague, and cholera because those where all common causes of death at the time. The first thing I noticed in the death rate is that it consistently rises from July through September before it drops then peaks in January. This increase in death during the summer months can be explained by looking at the rates for murder and plague, which both have higher rates during the summer months.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="1" srcset="
+/post/2022-analysis-combs/death-frequency_hu8bb8b67c26cdcdf94d8d100d486d0b9c_27985_0a82f6e2e0c97be8f81ddce03c6fb5d8.webp 400w,
+/post/2022-analysis-combs/death-frequency_hu8bb8b67c26cdcdf94d8d100d486d0b9c_27985_5c48cc420258d4520b3ea5e8a7e4dabc.webp 760w,
+/post/2022-analysis-combs/death-frequency_hu8bb8b67c26cdcdf94d8d100d486d0b9c_27985_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-combs/death-frequency_hu8bb8b67c26cdcdf94d8d100d486d0b9c_27985_0a82f6e2e0c97be8f81ddce03c6fb5d8.webp"
+width="760"
+height="450"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="2" srcset="
+/post/2022-analysis-combs/murder-frequency_huf1fb6b9992d103456474231977ede335_27790_7bc13e2e07654abc4f7d77975ccc4fcd.webp 400w,
+/post/2022-analysis-combs/murder-frequency_huf1fb6b9992d103456474231977ede335_27790_85ae0b6b3cd27f160100a553b0f02281.webp 760w,
+/post/2022-analysis-combs/murder-frequency_huf1fb6b9992d103456474231977ede335_27790_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-combs/murder-frequency_huf1fb6b9992d103456474231977ede335_27790_7bc13e2e07654abc4f7d77975ccc4fcd.webp"
+width="760"
+height="452"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="3" srcset="
+/post/2022-analysis-combs/plague-frequency_hue850586f3cad53bba127825c3a45f649_29322_b383535e7b419cdc6ff413eb3e230acb.webp 400w,
+/post/2022-analysis-combs/plague-frequency_hue850586f3cad53bba127825c3a45f649_29322_57f32ac35a9d891076c1af8c176d31e5.webp 760w,
+/post/2022-analysis-combs/plague-frequency_hue850586f3cad53bba127825c3a45f649_29322_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-combs/plague-frequency_hue850586f3cad53bba127825c3a45f649_29322_b383535e7b419cdc6ff413eb3e230acb.webp"
+width="760"
+height="447"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>According to &lt;a href="https://www.natchitochestimes.com/2022/07/19/why-does-crime-increase-in-the-summer/" target="_blank" rel="noopener">Nathan Wilson&lt;/a>, even in modern times the summer months are when crimes are at its peak, including violent crimes such as murder. One cause of this is that the temperatures are simply higher than they are at other times of the year. The belief is that the discomforting higher temperature “acts as a stressor and alters the brain’s chemistry”. This makes people irritable and prone to anger, which would naturally cause more people to commit murder in the heat of the moment. Egypt has longer daylight hours in the summer months than any other time of year. The longer daylight hours coupled with the elevated temperature cause people to have lower quality sleep than they would otherwise. This lower quality sleep has been linked to impulsivity and aggression, which can also cause people to commit murder in the heat of the moment.&lt;/p>
+&lt;p>An increase in the murder rate is not the only reason that the death rate rises in the summer. The amount of reported cases of the plague is also much higher around the same time that the death rate was increased. According to &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174245/" target="_blank" rel="noopener">Tamara Ben-Ari et al.&lt;/a>, there are many factors that affect rodent fleas. Some of these factors include ambient temperature, rainfall, and relative humidity. When there is warm and moist weather then there will likely be more fleas. Flea development also increases with temperature, until it reaches a certain point. If the temperature is too high and the humidity is too low then the survival rate for immature fleas will drop. This would explain the rates of the plague seen in The Egyptian Gazette because while the plague frequency is consistently higher in the summer, sometimes it seems to randomly drop prematurely. This is likely due to either the temperature rising too high or the humidity dropping too low, if not both.&lt;/p>
+&lt;p>The more difficult trend in the death rate is the peak that occurs in the winter months, despite the fact that both the murder rate and the plague frequency are usually lower in the same periods. The suicide rate is much more random that any other cause of death so it serves to explain some isolated months such as December 1906, but it does not explain why the death rate regularly peaks at this time. Similarly, the cases of cholera are low throughout the year, except for January 1908, which appears to have had an outbreak of sorts, which can explain the high death rate in that month, but nothing else.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="4" srcset="
+/post/2022-analysis-combs/suicide-frequency_hub7012ebd2c612bd91c98a462f5ceee57_28489_5520b18d0d111fc66eaa01cb28407452.webp 400w,
+/post/2022-analysis-combs/suicide-frequency_hub7012ebd2c612bd91c98a462f5ceee57_28489_2baa58f837ea7dcd6bd7f41b39a02374.webp 760w,
+/post/2022-analysis-combs/suicide-frequency_hub7012ebd2c612bd91c98a462f5ceee57_28489_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-combs/suicide-frequency_hub7012ebd2c612bd91c98a462f5ceee57_28489_5520b18d0d111fc66eaa01cb28407452.webp"
+width="760"
+height="456"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="5" srcset="
+/post/2022-analysis-combs/cholera-frequency_hu24cbc9c5e72de54cc09e827d9a8a8dc8_29365_e00104c0ab7704f472147a53e5ec0eff.webp 400w,
+/post/2022-analysis-combs/cholera-frequency_hu24cbc9c5e72de54cc09e827d9a8a8dc8_29365_0ddceb04b702e2623c2762e7d24b146b.webp 760w,
+/post/2022-analysis-combs/cholera-frequency_hu24cbc9c5e72de54cc09e827d9a8a8dc8_29365_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-combs/cholera-frequency_hu24cbc9c5e72de54cc09e827d9a8a8dc8_29365_e00104c0ab7704f472147a53e5ec0eff.webp"
+width="760"
+height="455"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>It is likely that this heightened death frequency is from a plethora of causes as opposed to the increase in the summer, which is much easier to pinpoint. According to &lt;a href="https://www.tandfonline.com/doi/pdf/10.3402/ijch.v61i4.17477" target="_blank" rel="noopener">W. R. Keatinge&lt;/a>, it is known that respiratory diseases are more common in the winter. This is because people tend to gather together inside to avoid the cold, which increases the chances for cross infection. On top of that it is also believed that winter temperatures cool the mucus in the upper respiratory tract. This essentially suppresses the immune system and makes it more difficult to fight infections. These two factors make death much more likely in the winter because people would be more vulnerable to a plethora of respiratory diseases and other diseases such as the flu.&lt;/p>
+&lt;p>There is another explanation for why the death rates would increase in this time period, but it would only apply to the audience for The Egyptian Gazette because they are more likely to be English than other people in Egypt at the time. Accoridng to &lt;a href="https://spsp.org/news-center/character-context-blog/breaking-date-grim-reaper-people-sometimes-postpone-their-death" target="_blank" rel="noopener">Mitsuru Shimizu and Brett Pelham&lt;/a>, people can essentially postpone their deaths for one last holiday. In this case it would likely be Christmas or New Years, which is why this would only apply to the English-Egyptians because they are more likely to be Christians. The authors believe that this death deferral effect is that people make conscious decisions to survive for one last major holiday. While this explanation certainly contributes to the elevated death rate in the winter, the primary cause is likely to be increased disease due to a suppressed immune system.&lt;/p>
+&lt;p>While these results make a decent amount of sense and are consistent with what can be observed today, it is worth keeping in mind that not all issues of The Egyptian Gazette have been accurately uploaded to the website. Also it is likely that these words appeared in areas besides where they are being reported. They would also be used multiple times in reports so the counts for death, murder, plague, suicide, and cholera won’t be completely accurate. With that said, these results are still useful for providing some insight into when death was most common in Alexandria, Egypt and what exactly caused this to be the case.&lt;/p></description></item><item><title>Egyptian Death Reports</title><link>https://dig-eg-gaz.github.io/post/2022-analysis-death-group/</link><pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-analysis-death-group/</guid><description>&lt;p>Our group decided to focus on death reports throughout the Digital &lt;em>Egyptian Gazette&lt;/em>. Since this topic has already been thoroughly examined by other students in the past, we had to find something that would add new insight to how the &lt;em>Gazette&lt;/em> reported upon deaths in the early 1900&amp;rsquo;s. As a result, we decided to study the various components of life in Egypt that affected death and its subsequent presence in the &lt;em>Egyptian Gazette&lt;/em> as reports, articles, and expositions. We also researched how violent crime is reported in the &lt;em>Egyptian Gazette&lt;/em> in comparison to murder. Throughout various research methods, we discovered that death was one of the most prevalent topics of conversation in the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p>
+&lt;p>Death is something that is very often reported throughout the &lt;em>Gazette&lt;/em>, with multiple cases reported per day. Going through thousands of results for the words &amp;ldquo;death&amp;rdquo; and &amp;ldquo;dead&amp;rdquo; would be a hard task in order to find trends and useful insight to how the British in Alexandria spoke on death in the early 1900&amp;rsquo;s. However, we still started with a very broad query search to get a basic idea of the organization of death reports throughout the newspaper. We used X-Path to search for all the headings of &lt;code>div&lt;/code>s that contained the words “dead” and “death”, without paying attention to whether the words were uppercase or lowercase, by searching &lt;code>//body/div/div[(matches(.,’dea[d,th]’,’i’))]/head&lt;/code>.&lt;/p>
+&lt;p>This gave us a search result of 3458 items, which we then used regular expression in Sublime Text to just keep the dates, headings, and page numbers of our results. After this, we organized the results into excel, proceeding to use Tableau to create visualizations of Death Headings throughout the &lt;em>Gazette&lt;/em>. We were able to organize the data with a bar graph to show the frequency of death reports per month, quarter, and year. This gave us a basic idea of which seasons deaths occurred the most in, which could be significant in understanding life in Alexandria during the early 20th century.&lt;/p>
+&lt;p>From this visualization, we clearly saw that deaths most often occurred in peak winter and summer months, with January 1906 having the greatest number of occurrences of death. According to the &lt;a href="https://www.dropbox.com/sh/xa8w9338b7yoyow/AADjpeAbqmqfe3_5PYE4dpdja?dl=0&amp;amp;preview=Judicial-adviser-1904.pdf" target="_blank" rel="noopener">Judicial Adviser Report&lt;/a> from 1904 written by the British Judicial Adviser, death was most frequently caused by vengeance and cupidity. These months often lead to an increase in social interaction, which therefore caused an increase in feelings of greed and retribution. As a result, death sharply increased.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="1" srcset="
+/post/2022-analysis-death-group/pic-1_huef301e84bbc013e28bd96e71336c2741_216177_c4f955f3532ff31d4215375bac07f286.webp 400w,
+/post/2022-analysis-death-group/pic-1_huef301e84bbc013e28bd96e71336c2741_216177_bf4a24c10f9a01692114299eead00f03.webp 760w,
+/post/2022-analysis-death-group/pic-1_huef301e84bbc013e28bd96e71336c2741_216177_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-death-group/pic-1_huef301e84bbc013e28bd96e71336c2741_216177_c4f955f3532ff31d4215375bac07f286.webp"
+width="760"
+height="474"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Another way we were able to visualize the data of all dead headings throughout the repository was by finding which headings death was most often reported under. We completed this by using a tree-map to show the most often used headings. Through this visualization, it was revealed that the “Local and General” heading was most often used by far; there were almost 300 results under this heading. The next largest headings were “Northern Italy,” “Personal and Social,” “Telegrams,” “Death,” “The Plague,” “Obituary,” and “Death”. This type of visualization was helpful in allowing us to identify the basic structure of where deaths are reported in the &lt;em>Gazette&lt;/em>.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="2" srcset="
+/post/2022-analysis-death-group/pic-2_huef301e84bbc013e28bd96e71336c2741_141405_3b3efdfb357ec5ffe8715abc2f9aa8db.webp 400w,
+/post/2022-analysis-death-group/pic-2_huef301e84bbc013e28bd96e71336c2741_141405_87d4904deeee0cfdef89e70d93178554.webp 760w,
+/post/2022-analysis-death-group/pic-2_huef301e84bbc013e28bd96e71336c2741_141405_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-death-group/pic-2_huef301e84bbc013e28bd96e71336c2741_141405_3b3efdfb357ec5ffe8715abc2f9aa8db.webp"
+width="760"
+height="502"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>We also investigated the features that most often featured the words “Death,” “Dead,” and “Died”. The X-Path query we used for this was &lt;code>//div[matches(.,’death’,’i’)]/@feature&lt;/code>, once again adding the “i” to ignore the case of the word, then changed the word inside the apostrophes to “dead” then “died”, going through every div to find the features that included these words. I did this in a slightly more tedious way that I could’ve done, but I got separate results for each word, which showed the frequency of the words in each feature. My results showed that the features “local,” “wire,” “social,” “birthDeathMarriage,” “obituary,” and “army” had the largest amount of death reports in them.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="3" srcset="
+/post/2022-analysis-death-group/pic-3_huef301e84bbc013e28bd96e71336c2741_224235_54e6ddcfabe6c3013fe9fb6924abb6b8.webp 400w,
+/post/2022-analysis-death-group/pic-3_huef301e84bbc013e28bd96e71336c2741_224235_18221b2c7de2aecd6571a5f4fb7fa67f.webp 760w,
+/post/2022-analysis-death-group/pic-3_huef301e84bbc013e28bd96e71336c2741_224235_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-death-group/pic-3_huef301e84bbc013e28bd96e71336c2741_224235_54e6ddcfabe6c3013fe9fb6924abb6b8.webp"
+width="760"
+height="587"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The final visualization we made to help us understand the headings of death was a comparison between the count of death headings and the page number that they occurred on. This visualization showed us that death occurred on every single page, but was much more frequently reported on Page 3, which had 1,167 reports of death; around 10 times more than any other page. This makes sense since the 3rd page most often reports telegrams, local and general, and personal and social sections. These were some of the sections that had the most frequent reports of death.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="4" srcset="
+/post/2022-analysis-death-group/pic-4_huef301e84bbc013e28bd96e71336c2741_65298_a3f9fc186f1c8ee8080fee71eb760b38.webp 400w,
+/post/2022-analysis-death-group/pic-4_huef301e84bbc013e28bd96e71336c2741_65298_9cfae7a6cb0e60fb07c68515b17a2086.webp 760w,
+/post/2022-analysis-death-group/pic-4_huef301e84bbc013e28bd96e71336c2741_65298_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-death-group/pic-4_huef301e84bbc013e28bd96e71336c2741_65298_a3f9fc186f1c8ee8080fee71eb760b38.webp"
+width="760"
+height="422"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>With all this information about the layout of death reports in the &lt;em>Egyptian Gazette&lt;/em>, I wanted to find some additional insight to death reports that would help me understand more about the reports themselves, rather than just the layout of the reports. I figured that looking into the language used when describing these deaths would be very beneficial in broadening our understanding the way that the British in Egypt talked about death. In order to do this, I decided to use a simpler to find more words in the divs surrounding the word “death”. I did this by using the X-Path query &lt;code>//div[@type=“section”]/div/p[contains(.,’death’)]&lt;/code> to find the divs with the word “death” in them, which produced around 350 results, then followed the same procedure of using Sublime Text, and then using Excel to section the data into 2 columns of dates and words. However, instead of going straight to Tableau afterwards, I used the Online Word Counter linked in the resources tab of the Digital &lt;em>Egyptian Gazette&lt;/em> page. After pasting all my results in, excluding the dates of each report, the word counter generated a list of the most frequent words used in my data. I then created another Excel sheet with only this information and connected it to Tableau, creating a bar graph visualization of the most frequently used words around the descriptions of deaths.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="5" srcset="
+/post/2022-analysis-death-group/pic-5_huef301e84bbc013e28bd96e71336c2741_125338_fc8623a4d1ca507c4556be7256709b90.webp 400w,
+/post/2022-analysis-death-group/pic-5_huef301e84bbc013e28bd96e71336c2741_125338_c166899f3d97f5b72b8354f89cc64bf5.webp 760w,
+/post/2022-analysis-death-group/pic-5_huef301e84bbc013e28bd96e71336c2741_125338_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2022-analysis-death-group/pic-5_huef301e84bbc013e28bd96e71336c2741_125338_fc8623a4d1ca507c4556be7256709b90.webp"
+width="760"
+height="561"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Discarding the unimportant words, which mostly happened to be numbers such as “one” and “two”, along with some extra words that didn’t provide any insight into the language around death, I found that the visualization provided a good data set of words. Predictably, the top two most common words found were “death” and “deaths.” Nevertheless, looking further down the bar graph we found that the most frequent deaths involved topics such as hospitals, Alexandria, native, plague, Cairo, Egypt, fatal, treatment, and many other words. This proved to be incredibly insightful, as it not only allowed me to see the words used to describe death, but it also showed me which types of deaths were more frequent than others, or which the &lt;em>Gazette&lt;/em> prioritized.&lt;/p>
+&lt;p>For instance, hospital deaths were by far the most frequent, with a frequency of 116. This may ironically be because of the improvements to the healthcare system in Egypt during the 19th century, which would cause more people to rely on the hospitals. According to &lt;a href="https://dash.harvard.edu/bitstream/handle/1/10015270/Aksakal.pdf?sequence=1&amp;amp;isAllowed=y" target="_blank" rel="noopener">Asakal and Hutt&lt;/a> the “medical schools, hospitals, pharmacies, sanitation systems, and inspection regimes” are similar to the public health institutions and systems that are used in modern times as well. While the developments were ahead of their time, they had the problem of constantly being short of resources. This prevented the reforms from being good as they could have been. This improvement in the medical systems could have increased the confidence the public had in the medical systems, which would have increased the number of people that went to hospitals. The lack of resources would have made their treatment more difficult, resulting in a large proportion of deaths in Egypt being hospital deaths.&lt;/p>
+&lt;p>I also found that native deaths were very commonly reported, with a frequency of 107. This seems important since it could possibly show the contrasting conditions between native Egyptians lives and European lives in Alexandria. The plague was also a large factor of deaths reported, which most likely tie into the hospital deaths as well. The visualization revealed that the gender ratio of deaths was nearly the same; “woman” was used 29 times and “man” was used 28 times out of the death reports I gathered. This highlighted that there is not much bias or difference in frequency between the deaths of women versus deaths of men throughout the &lt;em>Gazette&lt;/em>.&lt;/p>
+&lt;p>Going down the graph, the frequency of words slowly decreases, yet a lot of descriptive words such as “European,” “Greek,” and “murder” were used around 20 times each. This once again gives a better understanding of which types of deaths most often occurred or were reported on. There was a small amount of children deaths, with a frequency of 15, and many more descriptive words that had a frequency of around 10. The list of words goes down to a frequency of 2, but I only captured the top of the bar graph to capture the most important or most frequent language that surrounded death reports in the &lt;em>Egyptian Gazette&lt;/em>.&lt;/p></description></item><item><title>Fires In Alexandria</title><link>https://dig-eg-gaz.github.io/post/2022-11-19-combs/</link><pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2022-11-19-combs/</guid><description>&lt;p>On Monday, December 26, 1904, the Egyptian Gazette had a part in the local and general section describing three fires that occurred during the previous two days. The first fire occurred on Saturday at 2 p.m. at a tobacconist on Attarin-street. The second fire occurred at a second tobacconist. This time it was at 2 a.m. Monday morning on Munet el-Bassal. The third fire occurred only an hour later at a grocer&amp;rsquo;s shop in Attarin-street. Fortunately, the fires only caused slight damages and no one died.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">

@@ -3,7 +3,7 @@ title: "Change in grain production"
 authors: [SaraCasimiro]
 tags: ["grain", "economic growth", "production", "prices"]  
 date: 2022-11-29  
-projects: [analysis]  
+categories: [analysis]  
 ---  
 ## Background  
 Grain was an important crop in Egypt for a long period of time before cotton took over. Both wheat and barley were used for beer and bread. The period we are studying specifically in the *Egyptian Gazette* is after this switch of crop occurred. Grains such as wheat and barley were still significant to the economic growth of Egypt. However, they were not as significant when the agricultural trends of Egypt shifted. In my individual research, I want to examine what the difference in cost and production of barley and wheat were. With this comparison, I think I will be able to answer the question of which grain was more useful and valuable to the people during this time period. I also plan to learn what the economic state was during this time and how it related to grain usage.   

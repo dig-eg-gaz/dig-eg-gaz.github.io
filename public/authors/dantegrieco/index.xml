@@ -224,5 +224,92 @@ date: 2016-12-07&lt;/h2&gt;
 </description>
     </item>
     
+    <item>
+      <title>OCR Woes</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-26-grieco-technical/</link>
+      <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-26-grieco-technical/</guid>
+      <description>&lt;p&gt;For my technical reflection, I have decided to discuss my experiences with the
+OCR software, simply because it was easily the most time-consuming and tedious
+portion of the technical aspects of this class. Since I have a Mac laptop, I
+used the Cisdem OCR software rather than ABBY Finereader.&lt;/p&gt;
+&lt;p&gt;The first thing I would like to say is the accuracy with which it translates
+the text is quite disappointing. I would estimate that at MOST 60% of the
+original text was transcribed to my text editor properly, and even more
+frustrating was that specific letters were nearly almost incorrectly written,
+for instance the letter “e” for the entirety of the respective pages was often
+incorrectly recorded as the letter “a”, and vice versa. Furthermore,
+spell-checking entire pages written in French was both lengthy and difficult,
+particularly when I could not read some of the words and could not use context
+clues to figure out what they were supposed to say (because I do not speak
+French). At a certain point I had to simply accept that my XML pages were simply
+going to be filled with egregious errors and a certain level of accuracy was
+impossible to achieve (much to the chagrin of my mild OCD, but hey it was a
+learning experience in patience and Zen).&lt;/p&gt;
+&lt;p&gt;Overall, I was not a fan of the OCR software. It was most likely faster than
+manually transcribing entire pages of the newspaper, but it was nonetheless
+aggravating and stressful. Rant over.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>British Imperialism</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-24-british-imperialism/</link>
+      <pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-24-british-imperialism/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.historyworld.net/wrldhis/PlainTextHistories.asp?ParagraphID=hkl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;British imperialism&lt;/a&gt; is an extremely crucial topic in understanding the development of world history, particularly during the period spanning the 19th and early 20th centuries. This era is often characterized by historians as &lt;em&gt;Pax Britannica&lt;/em&gt;, Latin for “British Peace.” It is so called due to the fact that Britain’s worldwide domination in the areas of economics, shipping, and military might kept most of Europe and the world in a state of relative peace. However, as the twentieth century came into view, global forces such as liberal ideals and nationalism threatened Britain’s role as the premier world superpower. Questions of how to proceed with its imperial rule began to multiply both in Britain and in its many colonies and territories abroad.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cromer&#34; srcset=&#34;
+               /post/2016-10-24-british-imperialism/cromer-sane-imperialism_hu7cd3be128ce0ab72e02903aa9aabd616_139819_c745e07c01b0d6c522336f307eeeb79c.webp 400w,
+               /post/2016-10-24-british-imperialism/cromer-sane-imperialism_hu7cd3be128ce0ab72e02903aa9aabd616_139819_a458b14a9fc8e56de6c15cf2ff03c87c.webp 760w,
+               /post/2016-10-24-british-imperialism/cromer-sane-imperialism_hu7cd3be128ce0ab72e02903aa9aabd616_139819_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2016-10-24-british-imperialism/cromer-sane-imperialism_hu7cd3be128ce0ab72e02903aa9aabd616_139819_c745e07c01b0d6c522336f307eeeb79c.webp&#34;
+               width=&#34;252&#34;
+               height=&#34;390&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;On the third page of the May 3rd, 1905 edition of the Egyptian Gazette contains an editorial article &lt;a href=&#34;http://biography.yourdictionary.com/1st-earl-of-cromer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Lord Cromer’s Sane Imperialism”&lt;/a&gt; that discusses a moderate “third way” of imperialism that rejects harsh materialistic concepts and embraces more liberal ideas of self-determination and government, when appropriate of course. This article maintains that Lord Cromer’s Annual Report on Egypt and the Sudan contain the necessary elements of pursuing a moderate approach for continuing the might of the Empire moving forward. This editorial provides a fascinating look at the prevailing dialogue of the day in one of Britain’s &lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;most crucial imperial territories&lt;/a&gt; about the morality and governance of British imperialism at the dawn of the 20th century.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://static.newworldencyclopedia.org/4/48/Map_of_the_British_Empire_in_the_1920%27s.png&#34; alt=&#34;The British Empire at the height of its territorial range&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

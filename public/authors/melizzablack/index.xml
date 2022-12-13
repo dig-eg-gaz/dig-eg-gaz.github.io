@@ -27,5 +27,23 @@
 </description>
     </item>
     
+    <item>
+      <title>Difficulties with OCR</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-09-black-difficulties-with-ocr/</link>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-09-black-difficulties-with-ocr/</guid>
+      <description>&lt;p&gt;One of the main goals in this class is to covert an old newspaper into a website that allows it to be easily accessed by anyone. In order to do this we must complete one very vital, and apparently very difficult step: covert pictures of microfilm into reader editable, text. This is called OCR (optical character recognition) and thankfully there are lots of programs available to us to make this process extremely simple, or so it’s thought. One of these programs is ABBYY’s FineReader, which was the one first suggested to us. This program apparently does wonders if you are using a Windows computer, but for us Mac users it only creates disappointment. Instead of converting our images into readable text, it converts them into an agglomeration of random characters that sometimes resemble words in the English language. I’ve provided a short example of one of these “conversions” done on the first few lines of one of my microfilm images. I’ve tried rescanning my images, making adjustments in FineReader, and tried a different OCR program to try and achieve better results and nothing has worked in my favor.  So, instead of making small corrections to the text as it should be, I am forced to basically retype the entire page. This process is &lt;strong&gt;extremely time-consuming&lt;/strong&gt; and I am positive that if I had an OCR program that loved my Mac computer as much as others seem to love Windows ones, I would have completed much more of my work by now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>“Avoid Female Society”</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-06-black-avoid-female-society/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-06-black-avoid-female-society/</guid>
+      <description>&lt;p&gt;The &lt;em&gt;Egyptian Gazette&lt;/em&gt; includes a section called &lt;strong&gt;“CALENDAR OF THE WEEK”&lt;/strong&gt; in every issue which lists the important events happening in Alexandria and its surrounding areas. This serves as a tool to keep its citizens up-to-date with what is happening in the town and advises them to go and participate in these events. Throughout the week of August 7 to August 12, 1905, the section lists plays, concerts, and other kinds of events for general entertainment. However, the issue for August 7, 1905 includes a peculiar calendar of events. For the areas of Coptic and Mohamedan, the calendar lists actions the people should take rather than events they should attend. What is even more interesting is the actions themselves. For Sunday, August 6th, it reads, “Avoid female society” and on Tuesday, August 8, it reads “Avoid eating onions and garlic”. The week gets even more interesting by following with “Drink cold water before breakfast” and “Great abundance of watermelons”. The calendar section leaves no explanation as to why these events have been posted. I am curious to know whether it was some kind of joke or if these events were meant to be taken seriously for some kind of reason.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

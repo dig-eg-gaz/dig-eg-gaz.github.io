@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Hayden Baker
+title: Hayden Baker
 
 authors:
 - HaydenBaker
@@ -37,5 +37,3 @@ user_groups:
 - Writers
 ---
 The author, a student at Florida State University, was enrolled in the digital microhistory lab in fall 2022.
-
-

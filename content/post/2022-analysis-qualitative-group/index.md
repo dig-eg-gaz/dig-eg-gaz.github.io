@@ -1,6 +1,6 @@
 ---
-title: "How can microhistorical digital research methods apply to questions concerning qualitative data?"
-authors: [McKennaOakley, RaineySharrow, MiriamAlrahil, WyattBush, HarrisonObos, BenjaminAnderson]
+title: "How can microhistorical digital research methods apply to questions concerning qualitative data"
+authors: [McKennaOakley, RaineySharrow, MiriamAlrahil, WyattBush, HarrisonObos, BenAnderson]
 date: 2022-12-02
 categories: [analysis]
 ---

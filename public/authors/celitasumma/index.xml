@@ -82,5 +82,71 @@
 </description>
     </item>
     
+    <item>
+      <title>Egyptian Gazette Views on Imperialism</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-08-egyptian-gazette-views-on-imperialism/</link>
+      <pubDate>Sat, 08 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-08-egyptian-gazette-views-on-imperialism/</guid>
+      <description>&lt;p&gt;Although there is a constant sense of British imperialism evident throughout the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, the attitude toward this imperialism varies widely throughout the paper. For instance, there are many cases where the &lt;em&gt;Egyptian Gazette&lt;/em&gt; provides long blocks of texts or ads clearly targeted toward rich Englishmen. The paper then proceeds to provide a sentence-long description of an item or event important to African natives. This follows with the expected traditional convention of the paper, seeing as its intended audience was wealthy Westerners.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cecil Rhodes&#34; srcset=&#34;
+               /post/2016-10-08-egyptian-gazette-views-on-imperialism/Cecil-Rhodes_hu2e62461251cdecca4b632059b92708dc_90717_3ef886d6f1025ddc2095dd0d3ee23b44.webp 400w,
+               /post/2016-10-08-egyptian-gazette-views-on-imperialism/Cecil-Rhodes_hu2e62461251cdecca4b632059b92708dc_90717_aea359449e40c708b2453eedf6cfc8ca.webp 760w,
+               /post/2016-10-08-egyptian-gazette-views-on-imperialism/Cecil-Rhodes_hu2e62461251cdecca4b632059b92708dc_90717_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2016-10-08-egyptian-gazette-views-on-imperialism/Cecil-Rhodes_hu2e62461251cdecca4b632059b92708dc_90717_3ef886d6f1025ddc2095dd0d3ee23b44.webp&#34;
+               width=&#34;264&#34;
+               height=&#34;343&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;However, it was rather surprising to discover a whole column’s length worth of information on a book regarding the emancipation on Egypt. This article, in the December 26th issue of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, mentioned both sides of the imperialism conflict, saying the author “devotes a whole chapter to the ‘false position of Great Britain in Egypt.’” The &lt;em&gt;Egyptian Gazette&lt;/em&gt; also seems to be an influential avenue for charity donations, frequently reporting on giving to certain causes and being used as a means for donations.&lt;/p&gt;
+&lt;p&gt;The paper devotes an even greater amount of room to a cluster of articles surrounding the death of a khedivial princess. These articles discuss the death of this princess, who was the sister of Prince Omar Pasha and Prince Djemil Pasha Toussoun, as well as the wife of General Ahmed Djelaleddin Pasha. Her husband wishes to open an inquiry into the circumstances surrounding her death, documented in a French telegram that is also printed in the Egyptian Gazette. Throughout the collection of articles, the princess is never referred to by name, only as the Khedivial Princess.&lt;/p&gt;
+&lt;p&gt;Whether this great amount of detail is due to the shock value of the event or the genuine interest in the matter by English businessmen is open to interpretation. Much of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; is still written about administration, war, and other topics that would mainly be of interest to the white population of Alexandria, but these few tidbits to the contrary were an interesting find.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technical Difficulties in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</link>
+      <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</guid>
+      <description>&lt;p&gt;When I first produced my image scans using the library&amp;rsquo;s microfilm
+of the Egyptian Gazette, I thought that by feeding the material into
+the OCR software, my computer would automatically spit back the
+entire transcription completed error-free. At first I attempted to use
+FineReader on my roommate&amp;rsquo;s laptop, hoping it would yield results, but
+when her computer began to lag and I realized how time consuming the
+process would be, I switched to using my Mac.&lt;/p&gt;
+&lt;p&gt;When the class discovered Cisdem PDF Converter for Mac, I quickly
+realized that while some pages contained minimal errors, others required
+extensive corrections to yield an accurate reading of the text.
+The pages, most of which were rife with errors, took around 2 and a half
+hours each to fully type and XML, and even then many advertisements and
+charts are still not completed.&lt;/p&gt;
+&lt;p&gt;After I had completed the vast majority of the transcription, I learned
+that by scanning in a higher resolution and stitching multiple images
+together, I probably could have produced the paper and a much faster rate.&lt;/p&gt;
+&lt;p&gt;Nevertheless, I&amp;rsquo;m continuing to work on completing certain advertisements
+and charts, as well as TEI-tagging people and places.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

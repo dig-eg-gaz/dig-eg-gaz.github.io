@@ -5,12 +5,402 @@
     <link>https://dig-eg-gaz.github.io/authors/gracedamato/</link>
       <atom:link href="https://dig-eg-gaz.github.io/authors/gracedamato/index.xml" rel="self" type="application/rss+xml" />
     <description>Grace Damato</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/authors/gracedamato/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
       <title>Grace Damato</title>
       <link>https://dig-eg-gaz.github.io/authors/gracedamato/</link>
     </image>
+    
+    <item>
+      <title>Mentions of Disease in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/</guid>
+      <description>&lt;p&gt;The question our group sought to answer was how the number of mentions of diseases in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; differs according to when they were discovered. We analyzed the frequency at which 14 different diseases were mentioned in the &lt;em&gt;Gazette&lt;/em&gt; from January 1905 to December 1907 and compared the results to how recently the disease had been discovered for the people in this time. In order to collect the data on how often specific illnesses were referenced, our group employed the use of both target word searches in the content repository as well as tailored XPath queries. The queries focused on finding mentions of the different diseases. We accounted for spelling differences such as with smallpox by performing multiple queries per disease when necessary (ex. “smallpox” and “small pox”). These word searches produced an information set that revealed mentions by month of Pneumonia, Epilepsy, Smallpox, Yellow fever, Aneurysm, Heart disease, Stroke, Cholera, Bilharzia, Enteritis, Typhoid, Tuberculosis, and Influenza.&lt;/p&gt;
+&lt;p&gt;For the plague, we used the XPath &lt;code&gt;//div[matches(.,&#39;plague&#39; ,&#39;i&#39;)]/*[not(matches(.,&#39;cattle&#39;))]/*[not(matches(.,&#39;locust&#39;))]/head&lt;/code&gt;. This specific XPath is designed to find how often Headlines containing the word “plague” are found in the Egyptian Gazette. Not only that, but because we are looking for Sapien incidents, the XPath excluded instances where cattle or locusts were addressed in conjunction with “plague”.&lt;/p&gt;
+&lt;p&gt;One reason we chose the diseases mentioned in this analysis project is because of their application to our projects. However, we also primarily focused our attention on more commonly known diseases of the time, such as plague, cholera, and tuberculosis. We also included data on illnesses like stroke and heart disease in conjunction with contagious diseases. Furthermore, we considered epilepsy as a potential data point but discovered that the newspaper only mentioned it twice. Therefore, our work is not comprehensive of all diseases mentioned in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, but it attempts to cover a variety of common and uncommon diseases occurring during that era.&lt;/p&gt;
+&lt;p&gt;Once the data on each disease was collected, it was organized into a list of dates detailing when they were mentioned in the Egyptian Gazette. The data was then separated by month and placed into two bar charts to visualize our findings. One reveals how many mentions there are of the individual diseases each month and separates the findings by color for comparative clarity. The second chart shows the total count of “new diseases” compared to “old diseases” from 1905 to 1907.&lt;/p&gt;
+&lt;p&gt;For the sake of this analysis, “new diseases” are considered anything discovered within the last century of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; articles being written. “Old diseases” on the other hand are the remaining illnesses, chronic or acute, claimed to have been discovered before the 19th century. This classification system was created to be based on how the readers and authors of the &lt;em&gt;Gazette&lt;/em&gt; would have thought of the diseases. While we today may think of diseases like tuberculosis and typhoid as old since they are no longer common, it is important to remember that they were relatively new for the time period in which the &lt;em&gt;Gazette&lt;/em&gt; was written.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 1&#34; srcset=&#34;
+               /post/2022-analysis-disease-group/Graph1_huc8d50f20816dcc60752eae54b2444f3e_439764_5e7d65026156a83c4a3e63f7b8330cb1.webp 400w,
+               /post/2022-analysis-disease-group/Graph1_huc8d50f20816dcc60752eae54b2444f3e_439764_4902c1eb6704ea5c616c51e4862c718e.webp 760w,
+               /post/2022-analysis-disease-group/Graph1_huc8d50f20816dcc60752eae54b2444f3e_439764_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/Graph1_huc8d50f20816dcc60752eae54b2444f3e_439764_5e7d65026156a83c4a3e63f7b8330cb1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;450&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 2&#34; srcset=&#34;
+               /post/2022-analysis-disease-group/Graph2_huf008064e2744db31de6b5b208b0febda_411081_f0a021be2ae0ad58557665b7cc01ec79.webp 400w,
+               /post/2022-analysis-disease-group/Graph2_huf008064e2744db31de6b5b208b0febda_411081_a83ac11bb6b0227c263f57b4a6011d0a.webp 760w,
+               /post/2022-analysis-disease-group/Graph2_huf008064e2744db31de6b5b208b0febda_411081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/Graph2_huf008064e2744db31de6b5b208b0febda_411081_f0a021be2ae0ad58557665b7cc01ec79.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;460&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 3&#34; srcset=&#34;
+               /post/2022-analysis-disease-group/Graph3_hu586023f21d57631956e7c3da5001be16_641489_f5bab666ec79e54cd9846abfaba3d133.webp 400w,
+               /post/2022-analysis-disease-group/Graph3_hu586023f21d57631956e7c3da5001be16_641489_5b6c4fe1aed929425205f8b8479cbc50.webp 760w,
+               /post/2022-analysis-disease-group/Graph3_hu586023f21d57631956e7c3da5001be16_641489_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/Graph3_hu586023f21d57631956e7c3da5001be16_641489_f5bab666ec79e54cd9846abfaba3d133.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;434&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;That said, several of the diseases we are analyzing have documentation dating back to a thousand years or more before the &lt;em&gt;Egyptian Gazette&lt;/em&gt; was written. For clarity purposes, the first &amp;ldquo;documentation&amp;rdquo; of a disease is defined as the first time it was mentioned in recorded history.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hippocrates recorded the symptoms of a &lt;strong&gt;stroke&lt;/strong&gt; and &lt;strong&gt;pneumonia&lt;/strong&gt; during his lifetime, which was from 460-370 BC (Nilsen and Imogen).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aneurysm&lt;/strong&gt;, &lt;strong&gt;smallpox&lt;/strong&gt;, and &lt;strong&gt;plague&lt;/strong&gt; were discovered between 100 AD and 600 AD in the order listed (Livesay, “History of Smallpox”, and “plague”).&lt;/li&gt;
+&lt;li&gt;The first record of &lt;strong&gt;influenza&lt;/strong&gt; was an epidemic in 1173 AD and &lt;strong&gt;yellow fever&lt;/strong&gt; began in the Americas during the 1500s (Shimizu and “yellow fever”).&lt;/li&gt;
+&lt;li&gt;The origin of the concept of &lt;strong&gt;heart disease&lt;/strong&gt; is a bit vague, but in 1768, a speech was given about coronary artery disease (“History of Heart Attack”).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cholera&lt;/strong&gt; also has an obscure history because reports of a disease with similar symptoms existed in India thousands of years before the first documentation of it in 1817 (“cholera”).&lt;/li&gt;
+&lt;li&gt;In 1851, Bilharz found the cause of &lt;strong&gt;bilharzia&lt;/strong&gt; (parasitic worms).&lt;/li&gt;
+&lt;li&gt;A few years later in 1880, the source of &lt;strong&gt;typhoid&lt;/strong&gt; was discovered (specific bacteria) (Barakat and Marinelli).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tuberculosis&lt;/strong&gt; was discovered by Dr. Robert Koch in 1854 when he first isolated the bacteria which causes it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enteritis&lt;/strong&gt; was the most recently classified disease (1850-1900) discussed in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; (Kirsner).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Despite all these reports, unfortunately, sometimes this date is vague and uncertain, and often information about the disease was verbally imparted to the next generation.&lt;/p&gt;
+&lt;p&gt;The data reveals that the most commonly mentioned disease was the Plague, with the second most common being cholera. One reason this could be the case is that there may have been more cases of the Plague than Cholera in Alexandria between 1905 and 1907. However, it is important to note that Europe was recovering from a major outbreak of the Plague in 1899, in which 250 cases were recorded. For perspective, this number dropped to less than 20 by 1903. Most of the cases were recorded in coastal and inland port cities such as London, Liverpool, and Marseille. Because Alexandria is a major port city with heavy traffic between these areas, it is likely they would have been concerned with outbreaks in their own city, especially in the wake of a major European pandemic.&lt;/p&gt;
+&lt;p&gt;Since mentions of the plague were so prolific, we only included mentions featured in headlines; whereas, for every other disease, we counted the total mentions. Despite these measures, plague still outranked all other diseases at 259 mentions. The disease referenced the second most was cholera at 236 mentions. Furthermore, the diseases mentioned the least were aneurysms (2) and bilharzia (4). Both of these diseases were not featured regularly in the Gazette, potentially due to them being either very rare or so common that they don’t require reporting. Overall, diseases classified as “old” (482 times) were mentioned more than diseases classified as “modern” (304 times), but this figure includes plague, which could be considered an outlier due to its prevalence. When the numbers are analyzed without plague, modern diseases are mentioned more (304 times) compared to old diseases (114 times).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 4&#34; srcset=&#34;
+               /post/2022-analysis-disease-group/Graph4_huae5f8e110a0c85d9a45b8cc896614efc_409671_9f104511493c5900b0b93b455b4ac30f.webp 400w,
+               /post/2022-analysis-disease-group/Graph4_huae5f8e110a0c85d9a45b8cc896614efc_409671_2b1516bb10a79f00a1d87bca6de84a9c.webp 760w,
+               /post/2022-analysis-disease-group/Graph4_huae5f8e110a0c85d9a45b8cc896614efc_409671_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/Graph4_huae5f8e110a0c85d9a45b8cc896614efc_409671_9f104511493c5900b0b93b455b4ac30f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;459&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 5&#34; srcset=&#34;
+               /post/2022-analysis-disease-group/Graph5_hu787130204881641eefe0cd7330069e68_458007_1cd1611087decec5058e75fd2da417d2.webp 400w,
+               /post/2022-analysis-disease-group/Graph5_hu787130204881641eefe0cd7330069e68_458007_0c250dbeff097580a7aa59cde57589db.webp 760w,
+               /post/2022-analysis-disease-group/Graph5_hu787130204881641eefe0cd7330069e68_458007_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-disease-group/Graph5_hu787130204881641eefe0cd7330069e68_458007_1cd1611087decec5058e75fd2da417d2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;442&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Also, for most of the diseases, there were no predictable or seasonal trends. The plague was an exception to this rule and experienced an increase in mentions during the summer months. The fluctuation could be the result of conflicting attitudes toward quarantine practices, or the product of preexisting outbreak fears that increased during the summer and fall months. Another explanation is that case numbers did actually increase during these months despite anecdotal and historical claims to the contrary. The data itself could also be flawed and not accurately reflect the &lt;em&gt;Egyptian Gazette&lt;/em&gt;’s true contents. For the other diseases, the lack of a pattern could be due to many elements. This study examines the mentions of disease, not the actual case numbers, so the &lt;em&gt;Gazette&lt;/em&gt; could have not mentioned cases for a variety of reasons. Cholera, on the other hand, remained fairly consistent and level in its number of mentions, but there were 2 spikes in the data that serve as staggering outliers. These spikes occurred in September 1905 and January 1908. Cholera is transmitted through contaminated food or water, so, in a time when sanitation was lacking, it was a very transmissible disease. As a result, a possible reason for the spikes could be cholera outbreaks. Further investigation into the articles where the mentions are found confirms this theory, with both spikes being caused by increased reporting on widespread outbreaks. This finding also creates the idea that perhaps the &lt;em&gt;Gazette&lt;/em&gt; prefers to report on large disease clusters and not individual cases, adding another layer to why certain diseases are mentioned less.&lt;/p&gt;
+&lt;p&gt;Overall, the data chart shows that the &lt;em&gt;Egyptian Gazette&lt;/em&gt; mentioned old diseases more often than new ones. There are many potential theories for why this is the case. First, modern diseases were much less known among the public. Many of the “old” diseases had been identifiable for centuries, so it makes sense that they were recognized by the population sufficiently enough to get reported on by the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Modern diseases might have been equally prevalent among the populations, but if they were not known formally by most of the population, their numbers would have been difficult to report. Additionally, the category of &amp;ldquo;old diseases&amp;rsquo;&amp;rsquo; includes the plague, which is the most commonly mentioned disease. If plague were to be excluded from the data as an outlier, modern diseases would be mentioned more than old diseases. A possible reason for this is that many of the modern diseases were highly contagious, such as cholera and influenza. Since these diseases lend themselves to outbreaks, it makes sense that they would be mentioned more than others. As the 2020 COVID-19 Pandemic has revealed, outbreaks have the potential to get a lot of media attention. Another theory for the prevalence of modern diseases is precisely because they are &amp;ldquo;new&amp;rdquo;. While the relatively recent discovery of these diseases would result in them being less recognized, it could also prompt the Gazette to mention them more frequently to alert, educate, or attract curious readers.&lt;/p&gt;
+&lt;p&gt;In the end, many factors could have influenced the data reflected in our initial query, and there is no definitive way to isolate one, if any, as the true cause. Still, further research on this project could include analyzing the changes and trends in how the media discusses diseases over the next century. By expanding the data set, an explanation might emerge as the most likely for the discrepancies. As &amp;ldquo;new&amp;rdquo; diseases become “old” and as scientific understandings of illnesses increase, one could explore how news organizations choose to talk about diseases, and what the influencing factors of this type of media content are. Are they similar to the &lt;em&gt;Egyptian Gazette&lt;/em&gt; in 1905, or do they reveal a greater shift in public perceptions of chronic and acute diseases?&lt;/p&gt;
+&lt;h2 id=&#34;works-cited&#34;&gt;Works Cited&lt;/h2&gt;
+&lt;p&gt;Barakat, Rashida M R. “Epidemiology of Schistosomiasis in Egypt: Travel through Time: Review.” &lt;em&gt;Journal of advanced research&lt;/em&gt; vol. 4,5 (2013): 425-32. doi:10.1016/j.jare.2012.07.003&lt;/p&gt;
+&lt;p&gt;Barbara, Bramanti, et al. “The Third Plague Pandemic in Europe.” &lt;em&gt;Proceedings of the Royal Society B: Biological Sciences&lt;/em&gt;, 17 Apr. 2019, &lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2429&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2429&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Britannica, The Information Architects of Encyclopaedia. &amp;ldquo;cholera&amp;rdquo;. &lt;em&gt;Encyclopedia Britannica&lt;/em&gt;, 18 Nov. 2022, &lt;a href=&#34;https://www.britannica.com/facts/cholera&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/facts/cholera&lt;/a&gt;. Accessed 18 November 2022.&lt;/p&gt;
+&lt;p&gt;Britannica, The Information Architects of Encyclopaedia. &amp;ldquo;plague&amp;rdquo;. &lt;em&gt;Encyclopedia Britannica&lt;/em&gt;, 18 Nov. 2022, &lt;a href=&#34;https://www.britannica.com/facts/plague&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/facts/plague&lt;/a&gt;. Accessed 18 Nov. 2022.&lt;/p&gt;
+&lt;p&gt;Britannica, The Information Architects of Encyclopaedia. &amp;ldquo;yellow fever&amp;rdquo;. &lt;em&gt;Encyclopedia Britannica&lt;/em&gt;, 18 Nov. 2022, &lt;a href=&#34;https://www.britannica.com/facts/yellow-fever&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.britannica.com/facts/yellow-fever&lt;/a&gt;. Accessed 18 November 2022.&lt;/p&gt;
+&lt;p&gt;Gerard, Imogen and Root, Kelsie. “Pneumonia.” University of Leeds, 2017, &lt;a href=&#34;https://library.leeds.ac.uk/special-collections/collection/2149/pneumonia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://library.leeds.ac.uk/special-collections/collection/2149/pneumonia&lt;/a&gt;. Accessed 18 Nov. 2022.&lt;/p&gt;
+&lt;p&gt;“History of Heart Attack: Diagnosis and Understanding”.  University of Minnesota, 15 Oct. 2012. &lt;a href=&#34;http://www.epi.umn.edu/cvdepi/essay/history-of-heart-attack-diagnosis-and-understanding/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.epi.umn.edu/cvdepi/essay/history-of-heart-attack-diagnosis-and-understanding/&lt;/a&gt;. Accessed 18 Nov. 2022.&lt;/p&gt;
+&lt;p&gt;“History of Smallpox.” Centers for Disease Control and Prevention, 20 Feb. 2021, &lt;a href=&#34;https://www.cdc.gov/smallpox/history/history.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cdc.gov/smallpox/history/history.html&lt;/a&gt;. Accessed 18 Nov. 2022.&lt;/p&gt;
+&lt;p&gt;Kirsner, J B. “Historical aspects of inflammatory bowel disease.” &lt;em&gt;Journal of clinical gastroenterology&lt;/em&gt; vol. 10,3 (1988): 286-97. doi:10.1097/00004836-198806000-00012&lt;/p&gt;
+&lt;p&gt;Livesay, James J et al. “Milestones in the treatment of aortic aneurysm: Denton A. Cooley, MD, and the Texas Heart Institute.” Texas Heart Institute journal vol. 32,2 (2005): 130-4.&lt;/p&gt;
+&lt;p&gt;Marineli, Filio et al. “Mary Mallon (1869-1938) and the history of typhoid fever.” &lt;em&gt;Annals of gastroenterology&lt;/em&gt; vol. 26,2 (2013): 132-134.&lt;/p&gt;
+&lt;p&gt;Nilsen, Marci Lee. “A historical account of stroke and the evolution of nursing care for stroke patients.” &lt;em&gt;The Journal of neuroscience nursing : journal of the American Association of Neuroscience Nurses&lt;/em&gt; vol. 42,1 (2010): 19-27. doi:10.1097/jnn.0b013e3181c1fdad&lt;/p&gt;
+&lt;p&gt;Shimizu, K. Nihon rinsho. &lt;em&gt;Japanese journal of clinical medicine&lt;/em&gt; vol. 55,10 (1997): 2505-11.&lt;/p&gt;
+&lt;p&gt;“Tuberculosis (TB): History”. Centers for Disease Control and Prevention. 12 Dec. 2016. &lt;a href=&#34;https://www.cdc.gov/tb/worldtbday/history.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cdc.gov/tb/worldtbday/history.htm&lt;/a&gt;. Accessed 18 Nov. 2022.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plague Mentions in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2022-analysis-damato/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2022-analysis-damato/</guid>
+      <description>&lt;p&gt;In preparing for my analysis project, I ran the XPath Query: &lt;code&gt;//div[matches(.,&#39;plague&#39;, &#39;i&#39;)]/*[not(matches(.,&#39;cattle&#39;))]/*[not(matches(.,&#39;locust&#39;))]/head&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This specific XPath is designed to find how often headlines containing the word “plague&amp;quot; are found in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Not only that, but because I am looking for sapient incidents, the XPath excluded instances where cattle or locusts were mentioned in conjunction with “plague”.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 1&#34; srcset=&#34;
+               /post/2022-analysis-damato/Image1_hu9f9dbd1d2ae9e8c6b3a0343464dd1c71_136555_eb3fe67c0fa9acb73b79e57a81520ea2.webp 400w,
+               /post/2022-analysis-damato/Image1_hu9f9dbd1d2ae9e8c6b3a0343464dd1c71_136555_94e2947ff9c5b4404edcb20cc9c32039.webp 760w,
+               /post/2022-analysis-damato/Image1_hu9f9dbd1d2ae9e8c6b3a0343464dd1c71_136555_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-damato/Image1_hu9f9dbd1d2ae9e8c6b3a0343464dd1c71_136555_eb3fe67c0fa9acb73b79e57a81520ea2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;439&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 2&#34; srcset=&#34;
+               /post/2022-analysis-damato/Image2_hu91e492864c67abfe2737ddd6db0082c4_501747_42ef49f4163d7c432e13d04c1c66ccce.webp 400w,
+               /post/2022-analysis-damato/Image2_hu91e492864c67abfe2737ddd6db0082c4_501747_6080627d4130792bae69a123da288bc8.webp 760w,
+               /post/2022-analysis-damato/Image2_hu91e492864c67abfe2737ddd6db0082c4_501747_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-damato/Image2_hu91e492864c67abfe2737ddd6db0082c4_501747_42ef49f4163d7c432e13d04c1c66ccce.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;434&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The XPath, along with the word search, produced results that revealed an annual spike in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;&amp;rsquo;s mentions of the term plague along with repeated occurrences of the influx from 1905-1906. As illustrated in the chart below, the &lt;em&gt;Egyptian Gazette&lt;/em&gt; contains headlines with the word &amp;ldquo;plague&amp;rdquo; almost twice as many times between early summer to early fall months compared to in the winter and spring. Curious to see if there were any correlations to explain this phenomenon, I conducted a simple word search through the content repository to find how many times &amp;ldquo;disease” was mentioned in the newspaper. Because of the extensive use of this term, my query yielded significantly more results than when looking for plague headlines. However, the mentions of disease seemed to follow a similar pattern to those of the plague. While it is not as dramatic of a fluctuation, the subtle increase and decrease in the references to disease seem to correspond with the plague&amp;rsquo;s annual influx. This phenomenon led me to wonder: Why are there significantly more occurrences of the word “plague” being mentioned in one part of the year than in the other?&lt;/p&gt;
+&lt;p&gt;Unfortunately, there are challenges with answering this question. For one, not a lot of information is given on the Plague in Egypt between 1905-1907, and most data on disease cases refer to European and American studies. Furthermore, a wide range of factors potentially explains why the Plague was talked about more during one half of the year than the other. Public perceptions, case numbers, weather, or even shipping movements could all contribute to the &lt;em&gt;Egyptian Gazette&lt;/em&gt;&amp;rsquo;s decision to increase or decrease their mentions of the Plague.&lt;/p&gt;
+&lt;p&gt;To fully understand the importance of these mentions in an Alexandrian newspaper, one must first understand the context of the term &amp;ldquo;plague.&amp;rdquo; In the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, the term “plague” is often synonymous with “Bubonic Plague”. The bubonic plague is caused by a highly infectious bacterium called Yersinia Pestis. This disease, normally transmitted by fleas on rats, causes fever-like symptoms in victims that can escalate to swollen and painful lymph nodes and even death. Throughout history, there have been several instances when plague epidemics have erupted, most infamously being the Black Death in 1346–1353.&lt;/p&gt;
+&lt;p&gt;That said, 92.9% of the mentions of the Plague were on page three of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. I found this information by applying the XPath &lt;code&gt;//div[matches(.,&#39;disease&#39;, &#39;i&#39;)]&lt;/code&gt; to find the date, page, and section identifier for every occurrence of the word plague in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. This abundance of mentions on page three is because 329 of the 380 mentions of the Plague (not just headlines), between January 1905 and January 1908, were found in the “Local and General” section of the newspaper.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 3&#34; srcset=&#34;
+               /post/2022-analysis-damato/Image3_hucc23133e63b184417f0214a8c9abfe6f_87115_29bf56b60eb32d737a93cf998ccf0cf4.webp 400w,
+               /post/2022-analysis-damato/Image3_hucc23133e63b184417f0214a8c9abfe6f_87115_62b899e8dd9f7ff424822fe3d9229df1.webp 760w,
+               /post/2022-analysis-damato/Image3_hucc23133e63b184417f0214a8c9abfe6f_87115_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-damato/Image3_hucc23133e63b184417f0214a8c9abfe6f_87115_29bf56b60eb32d737a93cf998ccf0cf4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;458&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 4&#34; srcset=&#34;
+               /post/2022-analysis-damato/Image4_hu234f5ba5aaa77e0df1d9e40cce6a481a_414743_bd8d7f2ce4def83ad85c5279a1ddb3dc.webp 400w,
+               /post/2022-analysis-damato/Image4_hu234f5ba5aaa77e0df1d9e40cce6a481a_414743_f9c2bc40acafac00ffbc591966dc289b.webp 760w,
+               /post/2022-analysis-damato/Image4_hu234f5ba5aaa77e0df1d9e40cce6a481a_414743_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-damato/Image4_hu234f5ba5aaa77e0df1d9e40cce6a481a_414743_bd8d7f2ce4def83ad85c5279a1ddb3dc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;419&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This is relevant because page three is typically the first page in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; that does not primarily contain advertisements. Therefore, if a reader wanted non-advertised information, they would likely turn to page three first. Furthermore, the &amp;ldquo;Local and General&amp;rdquo; section of the &lt;em&gt;Gazette&lt;/em&gt; is normally the first column on page three. Therefore, these contents are placed optimally to be most noticed and read by the newspaper&amp;rsquo;s subscribers. Even more, plague information would have been highly relevant to the people of Alexandria due to the risk associated with diseases in major cities.&lt;/p&gt;
+&lt;p&gt;A research article published by The Royal Society illustrates European case numbers of the plague during the early 20th century. Their findings support the idea of plague epidemics being pervasive in highly populated regions such as coastal or inland port cities. The data revealed Europe was recovering from a major outbreak of the Plague in 1899, in which 250 cases were recorded. However, this number dropped to less than 20 by 1903. Most of the cases were recorded in coastal and inland port cities such as London, Liverpool, and Marseille. Since Alexandria is also a major port city with heavy traffic between these sites, Egypt would likely have been concerned with outbreaks in its own cities, especially in the wake of a major European Pandemic. Furthermore, cities such as London and Liverpool are listed in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; as frequent areas of “special outside dispatches” under the Exterieur section of the Newspaper.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-image-from-bramanti-dean-walløe-and-stenseth-2019&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 5&#34; srcset=&#34;
+               /post/2022-analysis-damato/Image5_hu12d2469944d103b4cbc5e607f30099be_812087_6f248b6be05277351814f749e704bf77.webp 400w,
+               /post/2022-analysis-damato/Image5_hu12d2469944d103b4cbc5e607f30099be_812087_eeec6f71551a701ebd9850197275028b.webp 760w,
+               /post/2022-analysis-damato/Image5_hu12d2469944d103b4cbc5e607f30099be_812087_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-damato/Image5_hu12d2469944d103b4cbc5e607f30099be_812087_6f248b6be05277351814f749e704bf77.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;389&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      image from Bramanti, Dean, Walløe and Stenseth (2019)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-image-from-bramanti-dean-walløe-and-stenseth-2019&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph 6&#34; srcset=&#34;
+               /post/2022-analysis-damato/Image6_huaa9b3b871b7d3c6ceb6cbd5e6e6f62a9_532983_f17c1e41a2c0e810016b99652f2c2683.webp 400w,
+               /post/2022-analysis-damato/Image6_huaa9b3b871b7d3c6ceb6cbd5e6e6f62a9_532983_6bc5c8d33f7ec0b73a80f32c0f3a7647.webp 760w,
+               /post/2022-analysis-damato/Image6_huaa9b3b871b7d3c6ceb6cbd5e6e6f62a9_532983_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-damato/Image6_huaa9b3b871b7d3c6ceb6cbd5e6e6f62a9_532983_f17c1e41a2c0e810016b99652f2c2683.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;598&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      image from Bramanti, Dean, Walløe and Stenseth (2019)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;However, despite concerns over plague outbreaks, European case numbers were significantly low between 1902 and 1909. While there was a drastic case spike in 1899, the years that I am analyzing (1904-1907) reportedly witnessed a recession in case numbers. This statistic could imply that cases mentioned in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; would be more likely identified as anomalies than common occurrences. Furthermore, because Europe was recovering from a major outbreak only a few years prior, and Alexandria had close international ties with the European community, any cases in heavily populated areas would have been concerning to see.&lt;/p&gt;
+&lt;p&gt;Additionally, in 30 separate instances, 10% of the plague headlined occurrences, &amp;ldquo;quarantine&amp;rdquo; was also mentioned. While quarantining was a heavily enforced precaution taken during this time, it had a controversial history. After a series of deadly plagues hit Alexandria in the early 1800s, increased quarantine regulations were set in place to prevent future spreads. However, this action faced significant opposition from merchants and Muslim Egyptians who felt their ways of life were being threatened. Merchants were worried about how the policies would affect trade, while Muslims were disturbed by the quarantine&amp;rsquo;s violations against Islamic law. Not only that, but many Egyptians feared being removed from their homes and sent into isolation if they were found to have the Plague. Unfortunately, the region experienced several more epidemics throughout the mid-19th century, up until 1844. After that, the plague mysteriously disappeared for almost 55 years, likely a testament to the heavily enforced sanitary and quarantine standards which were implemented well into the 20th century. For example, an entry from September 1905 states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Only one fresh case of plague occurred in Egypt throughout last week, namely at Alexandria, and all other places are declared free. Three Europeans recovered during this period and there were two deaths, and one fresh case, an Italian grocer in the Menshieh district was notified yesterday. There are now only two cases under treatment. The total number of cases from January 1 to date amounts to 258, as compared with 804 during the corresponding period of last year. In consequence of the notification of a fresh case at Alexandria, the quarantine measures against departures from this port have been re-established”.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Plague’s highly contagious nature, along with its history in Europe and Alexandria, encouraged the implementation of isolation and quarantine practices. While the connection between the Plague and quarantine does not directly explain the reasons for increased mentions of the disease in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, it does give insight into how the public perceived the Plague and the measures that were taken to combat it. Furthermore, despite conflicting attitudes on the practice throughout the 19th century, quarantining was, overall, believed to be an effective strategy in fighting outbreaks and would have reassured readers that necessary action was taking place to ensure their safety.&lt;/p&gt;
+&lt;p&gt;Even more, amid the 19th-century pandemics, many European residents in Egypt believed that plague season had “easily defined limits” according to the historian &lt;a href=&#34;https://publishing.cdlib.org/ucpressebooks/view?docId=ft5t1nb3mq&amp;amp;chunk.id=d0e1179&amp;amp;toc.depth=1&amp;amp;toc.id=d0e1179&amp;amp;brand=ucpress&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaVerne Kuhnke&lt;/a&gt;. But rather than expecting cases to increase in the summer months, as the &lt;em&gt;Egyptian Gazette&lt;/em&gt; data would suggest, Egyptians witnessed a decline in plague cases starting in June. They even celebrated the plague&amp;rsquo;s disappearance alongside &amp;ldquo;al-Nuqta&amp;rdquo;, their annual summer celebration of the rise of the Nile River. Egyptians also participated in festivities on St. John’s Day (June 26) to acknowledge their escape from the Plague&amp;rsquo;s last arrival. Some European travelers even noted that it was “well known that extreme heat checks the plague in the same manner as the cold season.&amp;rdquo; This discovery seems to run contrary to the information on the plague found in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Even though mentions of the Plague are not indicative of actual case numbers, if heat and extreme temperatures deterred the disease, then it would be expected that mentions would decline during the hotter months. Instead, we see a rise in the number of mentions of the plague between May and September.&lt;/p&gt;
+&lt;p&gt;Overall, there are many potential reasons the word “plague” was talked about in different amounts throughout the years. For example, the fluctuation could be the result of conflicting attitudes toward quarantine practices, or it could be the product of preexisting outbreak fears that increased during the Summer and Fall months. Another explanation is that case numbers did actually increase during these months despite anecdotal and historical claims to the contrary. The data itself could also be flawed and not accurately reflect the &lt;em&gt;Egyptian Gazette&lt;/em&gt;’s true contents.&lt;/p&gt;
+&lt;p&gt;In the end, many factors could have influenced the data reflected in my initial query, and there is no definitive way to isolate one, if any, as the true cause. Still, despite the inconclusiveness of my results, a greater picture of the plague in 19th-20th century Egypt and its impact on the public was revealed through this analysis. Each mention of the plague is the product of a long and complicated history of epidemics experienced by Egyptians and Europeans. These findings could inspire further research into how the Plague was portrayed in media at the time, such as in newspapers and journals, and how it has evolved over the next century because of scientific and intellectual advancements and shifted perceptions on acute diseases.&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Barbara Bramanti, Katharine R. Dean, Lars Walløe and Nils Chr. Stenseth, &amp;ldquo;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rspb.2018.2429&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Third Plague Pandemic in Europe&lt;/a&gt;,&amp;rdquo; &lt;em&gt;Proceedings of the Royal Society B&lt;/em&gt; 286:1901 (2019).&lt;/li&gt;
+&lt;li&gt;Erek Cyr, &lt;a href=&#34;https://dig-eg-gaz.github.io/post/2016-11-06-cyr-bubonic-plague/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Bubonic Plague In Egypt&amp;rdquo;&lt;/a&gt;, &lt;em&gt;Digital Egyptian Gazette&lt;/em&gt; (2016).&lt;/li&gt;
+&lt;li&gt;Erek Cyr, &lt;a href=&#34;https://dig-eg-gaz.github.io/post/16-analysis-cyr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Bubonic Plague In Egypt, 1905&amp;rdquo;&lt;/a&gt;, &lt;em&gt;Digital Egyptian Gazette&lt;/em&gt; (2016).&lt;/li&gt;
+&lt;li&gt;LaVerne Kuhnke, &lt;a href=&#34;https://publishing.cdlib.org/ucpressebooks/view?docId=ft5t1nb3mq&amp;amp;chunk.id=d0e1179&amp;amp;toc.depth=1&amp;amp;toc.id=d0e1179&amp;amp;brand=ucpress&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Lives at Risk: Public Health in Nineteenth-Century Egypt&lt;/em&gt;&lt;/a&gt; (Berkeley: University of California Press, 1990).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Koepernick Robbery</title>

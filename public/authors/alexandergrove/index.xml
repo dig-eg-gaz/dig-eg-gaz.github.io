@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexander Grove | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/authors/alexandergrove/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/authors/alexandergrove/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexander Grove</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/authors/alexandergrove/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
+      <title>Alexander Grove</title>
+      <link>https://dig-eg-gaz.github.io/authors/alexandergrove/</link>
+    </image>
+    
+    <item>
+      <title>Export of Wheat through the Sahel over Time</title>
+      <link>https://dig-eg-gaz.github.io/post/2022-analysis-grove/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2022-analysis-grove/</guid>
+      <description>&lt;p&gt;X-Query: &lt;code&gt;//head[contains(.,&#39;Cereals in Boat at Sahel&#39;)]/following-sibling::row[1]/cell[3]/measure&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For my individual research project, I decided to look at the weekly export of wheat from Sahel. Sahel is another term used to describe the north coast of Egypt, where the majority of their exports flow through into the Mediterranean. I tracked the exports from the beginning of 1905 to the beginning of 1908, and found some commonalities between the years. The peak of exports seems to be from January to mid-March. This is because the Nile flooded in mid-September, spreading sediment and other nutrients into the farmland that allowed the farmers to grow crops. Wheat tends to take 120-140 days to fully mature, so the wheat would be ready for harvest in the January-February time frame. However, the British started building dams and water resources in 1902 to try and make the farming season year round by providing a consistent source of water. However, the initial Aswan dam was not capable of storing or providing enough water to provide any sustainable amount of farming water so the yearly flood cycle was still the main source of gaining nutrients for farming and providing water for irrigation.&lt;/p&gt;
+&lt;p&gt;In the graph the exports in early 1906 are unrivaled, with a weekly peak at over 120k ardebs. However, the weeks prior to that week are underwhelming compared to other years, so I believe that something limited exports during those times and that caused the week after whatever event to have hyperinflated export numbers. Compared to 1906, 1907 has much lower export numbers. This can be tied to the Denshawai Incident, where a flare up of violence between Egyptian villagers and British soldiers led to more of the Egyptian population turning to nationalism and seeing cooperation with the British as not possible. This translates into farmers being less willing to export large sums of wheat, and instead keeping and selling it within the country or to export it in other ways that do not go to European countries, therefore not going by boat through the North of Egypt. The middle part of 1906, where a straight line is present, is a portion where either no newspapers have been uploaded or they do not have export charts with them. I cannot find any outside resources to help give any insight into what the export numbers may have looked like.&lt;/p&gt;
+&lt;p&gt;Culturally and historically wheat has been extremely important to the Egyptian way of life. The Ancient Egyptians would farm and sustain themselves off wheat, and mastered farming it. They understood the Nile’s flooding cycle, irrigation, and storage amongst all the other things. This major emphasis however has made Egypt the eye of many large empires. Originally, the Romans took over Egypt and used it to feed their Empire. The Romans saw Egypt as so important that they allowed them to continue having a Pharaoh to try and maintain the peace in order to milk grain out to feed Rome. This is no different than Muhammad Ali Pasha, who modernized Egypt to become a massive cotton producer. However, Egypt could not produce cotton 24/7, so they also grew wheat in the cotton off-season, and lived and sold this wheat.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;comparison graph&#34; srcset=&#34;
+               /post/2022-analysis-grove/ComparitiveGraph_hu07277612664abd7fcb1e3193fe7431f9_219647_e56b2381c7123faed2a924dd993d7398.webp 400w,
+               /post/2022-analysis-grove/ComparitiveGraph_hu07277612664abd7fcb1e3193fe7431f9_219647_c9ed49fcec9c1d0961a270a57750e0df.webp 760w,
+               /post/2022-analysis-grove/ComparitiveGraph_hu07277612664abd7fcb1e3193fe7431f9_219647_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-grove/ComparitiveGraph_hu07277612664abd7fcb1e3193fe7431f9_219647_e56b2381c7123faed2a924dd993d7398.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;561&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Overall, through my research and the analysis of my quantitative data, I gained a stronger understanding of not only the export and farming patterns of Egypt in the early 20th century, but also the cultural effect of the production of wheat throughout Egyptian history into the modern times. The introduction of water reservoirs and dams, such as the creation of development of the Suez Canal and Aswan Dam amongst other water conservation and distribution sources, has had a massive effect on the growing capabilities of Egypt, as well as the amount of work farmers have to do. The average farmer in the 1900’s had to work year round, compared to pre-colonization workers that only worked one cycle as they had work for sustainment opposed to profit. The introduction of cotton farming as a profit driven business also led to workers having to work more, and work harder. This led to Egypt decreasing their wheat production in favor of growing and selling raw cotton to processing mills throughout Europe and using the profit to prop up their economy.&lt;/p&gt;
+&lt;h2 id=&#34;outside-source&#34;&gt;Outside Source&lt;/h2&gt;
+&lt;p&gt;Foaden. “Text-Book of Egyptian Agriculture, Ed. by G. P. Foaden &amp;hellip; and F. Fletcher &amp;hellip; v. 1.” HathiTrust, &lt;a href=&#34;https://babel.hathitrust.org/cgi/pt?id=njp.32101048820458&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://babel.hathitrust.org/cgi/pt?id=njp.32101048820458&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wheat Production and Importance in Egypt</title>
+      <link>https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Our project analyzes the presence and importance of wheat in the eyes of the British in the &lt;em&gt;Egyptian Gazette&lt;/em&gt; in the early 20th century. Egyptian wheat production was a massively important part of the day to day life of Egypt for millennia, from the days of the Pharaoh to the 19th century. Wheat was the main subsistence crop throughout the Nile Delta, and allowed the Egyptians to be wildly successful and allowed them autonomy even when they were conquered. Wheat&amp;rsquo;s staple status primarily came through its use in the production of both bread and beer. This was shown in the Roman conquest of Egypt, where they were granted autonomy from Rome until Cleopatra took Mark Antony’s side in the last war of the Roman Republic. The major importance of Egypt being the wheat basket of the Mediterranean allowed it and its ruling parties power and independence. This all came to an end under Muhammad Ali Pasha, who through large irrigation projects and the change to cotton based farming led Egypt to become a more economic power instead of sustainance based farming. This led to Egypt becoming less dependent on wheat and more dependent on the economic benefits of selling cotton and using the profit to buy food and develop the country overall.&lt;/p&gt;
+&lt;h2 id=&#34;government-influence&#34;&gt;Government influence&lt;/h2&gt;
+&lt;p&gt;The government had a variety of programs to increase agriculture. One of the main crops they pushed was the production of wheat. One of the programs was the Cairo Agricultural show; this was an opportunity for the grower to show off their wheat production to potential buyers. It was a great networking event for many people. The Suez canal was a significant government transportation portal for the exporting of wheat. Great Britain exported most of Egypt&amp;rsquo;s wheat, leaving little for the people: “as little as 1/5 of the wheat was kept for the people” (&lt;em&gt;Egyptian Gazette&lt;/em&gt;). The 1/5 portion was processed into other products such as bread. This policy of increasing economic revenue was done with a little more of a selfish nature  rather than helping the individual farmer. However, to make up for this selfish nature, the government had to deal with the crime of people stealing each other’s crops and took these cases very seriously.&lt;/p&gt;
+&lt;p&gt;Over time, controversy began to grow about whether wheat or cotton was more profitable. The British saw wheat as mainly a single-dimensional product that was only for flour production. The big cash crop was cotton due to the greater demand during the US civil war and greater transferability. This is mentioned throughout the article “British flour for Egypt” in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Although the British thought this, they still did a lot to help increase the production of wheat; in the Egyptian Gazette, the feature “abridged prospectus” explained the process of purchasing the land and how the process was meant to incentivize people to buy and start cultivating the wheat crop. The most popular land was lower Egypt which had the rich soil to grow good wheat. The process of securing land could get a little complicated, but there was a program to help poorer people get their foot in the door. Through this program, you could buy a share of land and make payments. However, if you miss only one payment, your entire land could be revoked. These payments could be expensive, especially with the hefty tax you pay to auditors. This extreme policy really pressured farmers to produce most of the crops. This excessive production made local articles such as “Khartoum’s wheat crop” describe wheat as a very profitable crop since it was written from the local perspective.&lt;/p&gt;
+&lt;p&gt;In addition, the &lt;em&gt;Egyptian Gazette&lt;/em&gt; has an article called &amp;ldquo;British Flour,&amp;rdquo; which was written in March 4, 1907. Throughout this text, the author talks about the shift from wheat production to more cotton production due to its further profitability. So, the government shifted focus and realized money was better than extra production. The article details how as wheat increased, the demand and sales remained the same, and the primary consumers were the British Mill, which had its own competition with the French miller for being a top supplier. Our second visual below about wheat prices displays how although foreign governments such as the British didn&amp;rsquo;t increase their wheat purchase during March of 1907, wheat remained at a steady price due to Egypt&amp;rsquo;s ability to distribute the extra grain elsewhere. This displays wheat&amp;rsquo;s ability to have stable and growing production and how it was an essential part of commerce, even though government support was shifting.&lt;/p&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;p&gt;We initially decided to find out how often wheat was mentioned in each feature within the Egyptian gazette. This piece of information would show how relevant this specific crop is and what times during the year that it is being discussed. The following query was used to find this information:&lt;br&gt;
+&lt;code&gt;//div[matches(.,&#39;wheat&#39;, &#39;i&#39;)]/@feature&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This data showed us that there was not a specific time of the month or a season that wheat was discussed like we had assumed. It is relevant throughout the year. However it is mentioned the least during months June, August, and November. Wheat was mentioned in exportManifest more frequently compared to the other features. This search gave 56 items, which are listed below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1884-02-18	exportManifests&lt;/li&gt;
+&lt;li&gt;1905-02-09	passList&lt;/li&gt;
+&lt;li&gt;1905-03-08	passList&lt;/li&gt;
+&lt;li&gt;1905-03-20	exportManifests&lt;/li&gt;
+&lt;li&gt;1905-04-11	exportManifests&lt;/li&gt;
+&lt;li&gt;1905-04-17	exportManifests&lt;/li&gt;
+&lt;li&gt;1905-04-24	exportManifests&lt;/li&gt;
+&lt;li&gt;1905-04-26	wire&lt;/li&gt;
+&lt;li&gt;1905-09-20	parisLetter&lt;/li&gt;
+&lt;li&gt;1905-09-23	londonLetter&lt;/li&gt;
+&lt;li&gt;1905-12-12	wire&lt;/li&gt;
+&lt;li&gt;1906-01-03	letters&lt;/li&gt;
+&lt;li&gt;1906-01-19	exportManifests&lt;/li&gt;
+&lt;li&gt;1906-02-23	exportManifests&lt;/li&gt;
+&lt;li&gt;1906-03-08	passList&lt;/li&gt;
+&lt;li&gt;1906-03-22	social&lt;/li&gt;
+&lt;li&gt;1906-06-01	notesCyprus&lt;/li&gt;
+&lt;li&gt;1906-12-03	wire&lt;/li&gt;
+&lt;li&gt;1907-01-10	local&lt;/li&gt;
+&lt;li&gt;1907-02-12	notesCyprus&lt;/li&gt;
+&lt;li&gt;1907-02-22	local&lt;/li&gt;
+&lt;li&gt;1907-04-02	exportManifests&lt;/li&gt;
+&lt;li&gt;1907-04-16	local&lt;/li&gt;
+&lt;li&gt;1907-04-18	prepaidAdvertisements&lt;/li&gt;
+&lt;li&gt;1907-05-03	notesCyprus&lt;/li&gt;
+&lt;li&gt;1907-05-15	wire&lt;/li&gt;
+&lt;li&gt;1907-05-21	notesCyprus&lt;/li&gt;
+&lt;li&gt;1907-05-22	wire&lt;/li&gt;
+&lt;li&gt;1907-05-24	wire&lt;/li&gt;
+&lt;li&gt;1907-05-27	notesCyprus&lt;/li&gt;
+&lt;li&gt;1907-06-24	shippingMovements&lt;/li&gt;
+&lt;li&gt;1907-07-10	exportManifests&lt;/li&gt;
+&lt;li&gt;1907-07-17	local&lt;/li&gt;
+&lt;li&gt;1907-07-24	notesCyprus&lt;/li&gt;
+&lt;li&gt;1907-08-19	shippingMovements&lt;/li&gt;
+&lt;li&gt;1907-08-30	exportManifests&lt;/li&gt;
+&lt;li&gt;1907-09-25	wire&lt;/li&gt;
+&lt;li&gt;1907-10-16	wire&lt;/li&gt;
+&lt;li&gt;1907-10-17	notesCyprus&lt;/li&gt;
+&lt;li&gt;1907-10-18	wire&lt;/li&gt;
+&lt;li&gt;1907-10-19	masthead&lt;/li&gt;
+&lt;li&gt;1907-10-21	wire&lt;/li&gt;
+&lt;li&gt;1907-10-24	wire&lt;/li&gt;
+&lt;li&gt;1907-11-13	army&lt;/li&gt;
+&lt;li&gt;1907-12-03	exportManifests&lt;/li&gt;
+&lt;li&gt;1907-12-05	letters&lt;/li&gt;
+&lt;li&gt;1907-12-06	social&lt;/li&gt;
+&lt;li&gt;1907-12-07	notesOther&lt;/li&gt;
+&lt;li&gt;1907-12-09	exportManifests&lt;/li&gt;
+&lt;li&gt;1907-12-12	wire&lt;/li&gt;
+&lt;li&gt;1907-12-13	army&lt;/li&gt;
+&lt;li&gt;1907-12-17	social&lt;/li&gt;
+&lt;li&gt;1908-01-03	letters&lt;/li&gt;
+&lt;li&gt;1908-01-31	exportManifests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-visualization&#34;&gt;Data Visualization&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-chart-above-shows-the-amount-of-times-wheat-is-mentioned-in-each-feature-section-of-the-egyptian-gazette-newspaper-clearly-this-crop-is-mentioned-in-exportmanifests-more-often-than-the-other-features-there-is-a-high-amount-of-mentions-in-april-for-exportmanifests-and-a-high-amount-of-mentions-in-october-for-the-wire&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph of wheat mentions in the newspaper&#34; srcset=&#34;
+               /post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_c578c24578ea670e499d809558ffdfc9.webp 400w,
+               /post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_60a566697cbebf53b7cd4e4bc31b5ed6.webp 760w,
+               /post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/datavisualization_hu7fba9da1679ce4a56c592454604cb9c1_268003_c578c24578ea670e499d809558ffdfc9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;699&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The chart above shows the amount of times wheat is mentioned in each feature section of the Egyptian Gazette newspaper. Clearly, this crop is mentioned in exportManifests more often than the other features. There is a high amount of mentions In April for exportManifests, and a high amount of mentions in October for the wire.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-chart-above-tracks-the-price-of-wheat-varieties-lows-and-highs-from-1905-to-1908-the-data-proves-to-be-extremely-consistent-with-the-mawani-variety-consistently-being-the-most-expensive-and-the-tugari-variety-being-consistently-the-cheapest-each-year-besides-in-december-and-april-what-makes-this-especially-interesting-is-that-in-those-two-months-tugari-is-able-to-compete-with-middling-all-due-to-it-reaching-highs-of-146-around-the-midpoint-of-the-month-and-continuing-to-hover-around-the-low-140s-for-the-remainder-of-the-month-leading-to-the-sudden-closeness-in-the-data-points-we-see-in-the-chart&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graph of price differences between the different strains of wheat per month&#34; srcset=&#34;
+               /post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_a7c86a8eb7d7d4c274159a8af20289f4.webp 400w,
+               /post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_eca81cbf9bf107b797a82abd4c2ebb27.webp 760w,
+               /post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2022-analysis-grain-group/datavisualization4_hu6584785f6e4d9a750d2cd97ec4954e4c_183134_a7c86a8eb7d7d4c274159a8af20289f4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;429&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The chart above tracks the price of wheat varieties (lows and highs) from 1905 to 1908. The data proves to be extremely consistent with the Mawani variety consistently being the most expensive and the Tugari variety being consistently the cheapest each year besides in December and April. What makes this especially interesting is that in those two months, Tugari is able to compete with Middling, all due to it reaching highs of 146 around the midpoint of the month and continuing to hover around the low 140’s for the remainder of the month, leading to the sudden closeness in the data points we see in the chart.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Based on our research, we accomplished our goal of finding out the significance of wheat during this time period. Together we have gathered a mixture of qualitative and quantitative research to develop a better picture of the impact of wheat cultivation. With this better picture, we were able to highlight the importance of this crop. Through our deep dive into the Egyptian Gazette, we also established that wheat was a main crop that was produced. Furthermore, we examined the effects that the native government and foreign influence had on the production and use of Wheat. The data showed how significant this crop was in the process of cultivating economic growth for Egypt, especially under British control. Detailed evidence, such ⅕ of the production of wheat, was given to the people in Egypt; the rest was exported to other countries, which led us to formulate more complex conclusions. The most apparent conclusion we were able to draw was that, over time, cotton became the main crop since there was more of a demand for it.&lt;/p&gt;
+&lt;h2 id=&#34;works-consulted&#34;&gt;Works Consulted&lt;/h2&gt;
+&lt;p&gt;Foaden. “Text-Book of Egyptian Agriculture, Ed. by G. P. Foaden &amp;hellip; and F. Fletcher &amp;hellip; v. 1.” HathiTrust, &lt;a href=&#34;https://babel.hathitrust.org/cgi/pt?id=njp.32101048820458&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://babel.hathitrust.org/cgi/pt?id=njp.32101048820458&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;El-Sadek, A. Virtual Water Trade as a Solution for Water Scarcity in Egypt. Water Resource Manage 24, 2437–2448 (2010). &lt;a href=&#34;https://doi.org/10.1007/s11269-009-9560-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s11269-009-9560-9&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

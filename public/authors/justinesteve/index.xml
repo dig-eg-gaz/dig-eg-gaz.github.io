@@ -199,5 +199,47 @@
 </description>
     </item>
     
+    <item>
+      <title>Egyptian Gazette Structural Issues</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-27-esteve-egyptiangazettestructuralissues/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-27-esteve-egyptiangazettestructuralissues/</guid>
+      <description>&lt;p&gt;During my week of the Egyptian Gazette, I have several page sevens that are unlike the other pages. These pages focus on travel and mostly have hotel advertisements. However, they also contain commentary about the best way to travel to different places and the differences in climate between the two. This commentary is split between all six columns of the newspaper. There are some advertisements (see below) that are similar in that they take up two columns. However, I have no idea how to encode these page sevens in order to reflect the structure of the newspaper. Up till now, I have just grouped the commentary in one div. If I encoded the page sevens by columns, I would get six random groups of text. Obviously, this would cause a great deal of confusion unless there was a way to connect the text in each column together. A tag that connects the text together might work, but this issue is definitely one worth exploring as we move forward.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/1905-12-11-p8-Structure.png?raw=true&#34; alt=&#34;advertisements&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Medicine</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-30-esteve-medicine/</link>
+      <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-30-esteve-medicine/</guid>
+      <description>&lt;h2 id=&#34;one-mans-trash-is-another-mans-treasure&#34;&gt;One Man&amp;rsquo;s Trash is Another Man&amp;rsquo;s Treasure&lt;/h2&gt;
+&lt;p&gt;In 1905, a man wrote to the Egyptian Gazette about the stricture and kidney disease that he had suffered with for 19 years. After living with excruciating pain and being told that he would only have three months to live, this man began taking Doan&amp;rsquo;s Backache Kidney Pills.&lt;br&gt;
+I was immediately curious about this, because &lt;a href=&#34;https://pics.drugstore.com/prodimg/498956/450.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doan&amp;rsquo;s Backache Kidney Pills&lt;/a&gt; are a cheap, over the counter drug that people use today. While someone today might take these pills to relieve minor back pain, this man believes that they saved his life. This speaks a great deal to the quality of medicine during the early 1900&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;In modern day America, &lt;a href=&#34;https://medlineplus.gov/magazine/issues/winter08/articles/winter08pg9-10.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kidney disease&lt;/a&gt; is often not curable and can usually only be delayed with extensive treatment and medication. As time passes and it gets worse, dialysis or a transplant is needed. I mention all of this to draw attention to the diagnosis of the man in the Egyptian Gazette. He suffered for 19 years and was diagnosed with three months to live, yet an over the counter drug managed to save his life. Either drugs were much better 100 years ago, or he was severely misdiagnosed. People often take for granted the high level of medicine and easy access to treatment that exists throughout the world today. I wonder how much of an impact old-fashioned medicine had on other people living in the early 1900&amp;rsquo;s.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

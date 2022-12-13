@@ -29,5 +29,23 @@
 </description>
     </item>
     
+    <item>
+      <title>Curiosities</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-27-blog-post-1-daisy/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-27-blog-post-1-daisy/</guid>
+      <description>&lt;p&gt;In the year 1905, Alexandria, Egypt was becoming a city with a rising society as a result of the introduction to the use of new practices with a variety of beneficial purposes for individuals. As of today, we can still say performing arts such as theatre or music, culinary practices, economic practices, and several cultural practices are still used, usually enhancements of what was practiced in previous years. The city of Alexandria was beginning to get its own sense of balance with opening opportunities to those employers looking for something more than labor. Education was essential for personal growth, however, businessmen often times could not spare even an hour or two to enhance their education. However, thanks to the Berlitz Schools, businessmen were able to work around their schedules to receive classes for those aspiring to learn English, French, German, Italian, and other essential language lessons. To this day, these languages are still practiced by those bilinguals, aside from the use of Arabic: the native language of Egypt. Personally, this caught my attention because this presents a start for receiving an education while working for ends-meet. Also, it amazes me that Berlitz School is still a learning center for those that desire to learn a new language and has grown to be an international program, providing opportunities to learn languages or even study abroad.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XML Brings Tears</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-27-ifs-blog-post-2-daisy/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-27-ifs-blog-post-2-daisy/</guid>
+      <description>&lt;p&gt;During the fall semester, I have been introduced to a variety of coding programs I have never known about or used and it has been a process to adjust. Starting from scanning all the images present from my week of research in the Egyptian Gazette, to currently working with XML/TEI programs to edit the text files of our Egyptian Gazette image files, to adding, ranging from tagging to adjusting grammar errors. It has been a tedious experience, especially with editing the text files on ABBYY Finereader 12 initially, fixing the errors of every word per page. The program found several errors for each page, so the process to edit was time consuming. However, after moving forward to the XML program, I can say I prefer XML/TEI programming over the ABBYY Finereader 12. This is because I am to look more into the text and learn more information, versus fixing grammar mistakes. With XML, reading the Egyptian Gazette is much easier because the program organizes the text with taggings such as &lt;code&gt;&amp;lt;div&amp;gt;, &amp;lt;head&amp;gt;, &amp;lt;placeName&amp;gt;, &amp;lt;p&amp;gt;&lt;/code&gt;, and a variety of other tagging methods I have not even used yet. All in all, this exposure to online sources, such as using Github, XML, ABBYY, and probably more has been the most stressful experience in time management this semester. Pray for my survival. RIP.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -16,11 +16,12 @@ weight: 2
 
 Date|End date|Images|Files|Notes
 ---|---|---|---|---|---|---
+December 8, 1904|December 10, 1904|20|3|
 January 27, 1906|||1|
 February 17, 1906|||1|
 June 9, 1906|||1||
-November 2, 1906|November 3, 1906|?|2|
-May 10, 1907|May 11, 1907|?|2|
+November 2, 1906|November 3, 1906||2|
+May 10, 1907|May 11, 1907|14|2|
 July 20, 1907|||1|
 October 12, 1907||6||
 

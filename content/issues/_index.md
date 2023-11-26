@@ -975,12 +975,15 @@ March 26 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PF
 July 12 • [image](https://archive.org/details/egyptian-gazette-1889-07-12)|July 13 • [image](https://archive.org/details/egyptian-gazette-1889-07-12)
 
 ## 1890-1892
-Images of all issues available via [Staatsbibliothek zu Berlin](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/31219299/-/1890/#jan).
+Images of all issues available via [Staatsbibliothek zu Berlin](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/31219299/).
 
 ## January 1893
 Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
 ---|---|---|---|---|---
 [January 2](https://raw.githack.com/dig-eg-gaz/content/master/1893-01-02.xml) • [image](https://archive.org/details/egyptian-gazette-1893-01-02)|January 3 • [image](https://archive.org/details/egyptian-gazette-1893-01-03)|January 4 • [image](https://archive.org/details/egyptian-gazette-1893-01-04)|January 5 • [image](https://archive.org/details/egyptian-gazette-1893-01-05)|January 6 • [image](https://archive.org/details/egyptian-gazette-1893-01-06)|January 7 • [image](https://archive.org/details/egyptian-gazette-1893-01-07)|
+
+## March 1893
+March 27 • [image](https://archive.org/details/egyptian-gazette-1893-03-27)
 
 ## 1895
 April 1 • [image](https://archive.org/details/egyptian-gazette-1895-04-01)
@@ -1574,4 +1577,4 @@ June 25| | | | |[5](https://raw.githubusercontent.com/dig-eg-gaz/page-images/mas
 June 26|[2](https://raw.githubusercontent.com/dig-eg-gaz/page-images/master/1919-page-images-2/1919-06-26-p2.jpg)
 
 ## 1938
-[May 19](https://raw.githack.com/dig-eg-gaz/content/master/1938-05-19.xml) • [image](https://archive.org/details/egyptian-gazette-1938-05-19)
+May 19 • [image](https://archive.org/details/egyptian-gazette-1938-05-19)

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ryan Schefstad | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/ryanschefstad/</link><atom:link href="https://dig-eg-gaz.github.io/authors/ryanschefstad/index.xml" rel="self" type="application/rss+xml"/><description>Ryan Schefstad</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/ryanschefstad/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Ryan Schefstad</title><link>https://dig-eg-gaz.github.io/authors/ryanschefstad/</link></image><item><title>The Culprit of Death</title><link>https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/</guid><description>&lt;p>Throughout my studies of the Egyptian Gazette, I always wondered how diseases affected the lifestyles and events of history. There was very minimal medicine research in this time period of 1904-1908, so death from illness seemed to be very common. When I found out about this project, I decided to try to gather information on what diseases affected the population the most. When I started querying, I was just simply searching using the word “disease”. I found interesting results, but I felt that there had to be more. I then started searching with the keywords “illness” and “plague”. I found more results and different types of conditions. Once I gathered some data, I started doing a more detailed query of searching for two words located in the same paragraph. I first started off with searching for “illness” and “death” in the same paragraph. I got minimal results, only 16 with three deaths reported from three different illnesses. This confirmed my thought of how illness wasn’t a descriptor in this time, and it seemed that illness was a word to describe less serious conditions. To prove, the main query for the word illness had 1,376 results. Next, I searched for “disease” and “death” in the same paragraph and got significantly more results. I was able to get a close estimate for the number of deaths from eleven diseases. Also, this query had more relevant results. Lastly, I searched for plague and death in the same paragraph and 1450 results. This helped me conclude that plague was more commonly used to describe conditions. Also, many of the conditions’ formal names had “plague” in them, which also led to more results. Throughout my searching time, I wrote down the data. When it came time to display the data, I initially chose to use a pie chart. However, I was recommended that this method was ineffective, so I changed the display to bar graphs. This helps the reader to get a better visual of the differences in the data. What sets my project apart from others studying a similar topic is that I do a more efficient search process by using three different key words instead of just one broad search. Also, I look at other readings and get a broad viewpoint on the topic. Thus, the trial-and-error process of this project allowed me to get a better understanding of the data, and the outside source (described below) helped me link the data together.&lt;/p>
+&lt;p>Illness and Death Query only had 3 deaths from three different illnesses: Long illness, meningitis, and small pox&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div//div[matches(.,'illness','i')] [matches(.,'death','i')]&lt;/code>: 16 Results&lt;/li>
+&lt;li>1.1% of illness query: &lt;code>//div[contains(., &amp;quot;illness&amp;quot;)]&lt;/code>: 1376 Results&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Disease and Death Query" srcset="
+/post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_c7b4ef147915437964b8b8d948348231.webp 400w,
+/post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_9e9357c0b5d302c0341b9d652a81f395.webp 760w,
+/post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_c7b4ef147915437964b8b8d948348231.webp"
+width="760"
+height="624"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div//div[matches(.,'disease','i')] [matches(.,'death','i')]&lt;/code>: 144 Results&lt;/li>
+&lt;li>7.1% of disease query: &lt;code>//div[contains(., &amp;quot;disease&amp;quot;)]&lt;/code>: 2016 Results&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Plague and Death Query" srcset="
+/post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_d84fb6af2814278d074e651c8b9a8a58.webp 400w,
+/post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_be4c79c633b032c227a3561c858493e6.webp 760w,
+/post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_d84fb6af2814278d074e651c8b9a8a58.webp"
+width="760"
+height="628"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>//div//div[matches(.,'plague','i')] [matches(.,'death','i')]&lt;/code>: 478 Results&lt;/li>
+&lt;li>34.7% of plague query: &lt;code>//div[contains(., &amp;quot;plague&amp;quot;)]&lt;/code>: 1400 Results&lt;/li>
+&lt;/ul>
+&lt;p>To give a description of the causes of diseases, I re-read a reading from one of our assigned readings called “Cruel Summer”. It talks about the illnesses mentioned in the data above, but it also brings up new diseases. First, a huge factor in the impact of diseases is the seasons. In Egypt, the dryness of Spring served as a carrier for diseases, and the air was not good for the lungs. On the other hand, warm weather stimulated the parasites lurking in the crops. Bacterial eye infections were extremely common from the summer heat. Farmers realized that there needed to be a change with the maintenance of crops, causing irrigation to be a new technique brought to the table. The title “Cruel Summer” is fitting for this article because of how the people suffered with the heat-induced diseases. Linking to the data, the article mentions that a very prevalent disease in agriculture was bilharzia. The article explains the cause of the virus, which isn’t mentioned in the gazette. It is caused by open skin wounds contacting water that contains the parasite. Also, for the demographics of infections, men were most vulnerable to parasite infection. At around 1908, scientists like Bonte Elgood were studying anatomy and trying to see what parts of the body the diseases affected. Also, new research methods started developing. For example, Elgood did a study of finding a percentage of urine samples with a certain virus. Next, it was obvious that World War I caused disease to spread because of the transportation of goods and soldiers. As the world was improving in technology and transportation, Egypt was seeing more diseases. This was at the threshold of new medicine advances. In summary, the data from the gazette and “Cruel Summer” link together and explain the context of the time.&lt;/p></description></item></channel></rss>

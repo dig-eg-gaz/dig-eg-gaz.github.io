@@ -5,12 +5,436 @@
     <link>https://dig-eg-gaz.github.io/category/analysis/</link>
       <atom:link href="https://dig-eg-gaz.github.io/category/analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>analysis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
       <title>analysis</title>
       <link>https://dig-eg-gaz.github.io/category/analysis/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-brown/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-brown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-garcia/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elephants and Empire</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-lubinski/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-lubinski/</guid>
+      <description>&lt;p&gt;The turn of the 20th century marked a unique period, in that antiquated laws and customs were beginning to clash with an industrial, and increasingly globalized society. With these changing times, the relation between humans and animals changed too, as various exotic creatures were exploited for commercial, entertainment, or recreational purposes. I started by noticing frequent mentions of ivory sales throughout the gazette, which drew me first to reading about elephants. One common way in elephants were used was for harvesting Ivory. Despite there being laws put in place to limit the number of &lt;a href=&#34;https://www.ubuntuwildlifetrust.com/2020/10/30/african-ivory-trade-history&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;elephants being killed for their tusks&lt;/a&gt;, sale of both legal and contraband ivory was still frequent, as shown in select articles throughout the gazette. While reading through the gazette, there were also multiple instances of elephants, tigers, lions, and other animals being mentioned, as well as the context in which they were brought up. Through researching this, a better idea of how animals were viewed in the context of empire, namely in Egypt, can be better understood, and give us insight to how society viewed animals as a resource at the time. My main question in conducting this analysis was “how were animals viewed in the early 20th century?”. In order to find an answer to this question, I looked at the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, along with other supplementary materials to gain a better idea of   To begin my research, a quick look at the frequency of animal mentions was made. Below is a chart listing the most frequent words that yielded results related to animals. While the words in the graph may not seem wholly connected, these were the most frequent ways in which animals were mentioned, that also included relevant information to my analysis project.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Key word&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Number of Mentions&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ivory&lt;/td&gt;
+&lt;td&gt;233&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elephant&lt;/td&gt;
+&lt;td&gt;64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zoo&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Giraffe&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hunting&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Safari&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;From this table alone, we see that ivory sale was the primary way in which, of these three topics, animals were discussed within the gazette. It is important to note that I excluded the search for “Hunting” on its own, as there are many advertisements for hunting and fishing equipment, which is in of itself a different piece of the gazette to be analyzed. With this information, I then ran a series of queries that narrowed down my results from the broad “ivory” category. Two examples of my queries were &lt;code&gt;//p[contains(., &#39;packages ivory&#39;)]&lt;/code&gt; and &lt;code&gt;//div//div[matches(.,&#39;ivory&#39;, &#39;i&#39;)][matches(., &#39;tusks&#39;, &#39;i&#39;)]&lt;/code&gt;. When I gathered my results from these queries, I divided the number of results yielded by the total number of instances of “ivory”, in order to get a clearer idea of how much these specifications narrowed down my results. The phrase “packages ivory” made up a startling 25.75% of all results, while ivory and tusks only made up 5%.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;viz&#34; srcset=&#34;
+               /post/2023-analysis-lubinski/viz_hubc81e44004597954d5f5e02e14467aed_59355_0966e7c8f9f885ee60953278d114138a.webp 400w,
+               /post/2023-analysis-lubinski/viz_hubc81e44004597954d5f5e02e14467aed_59355_f9a906db7f085c32b0552a42f4d6e5a5.webp 760w,
+               /post/2023-analysis-lubinski/viz_hubc81e44004597954d5f5e02e14467aed_59355_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-lubinski/viz_hubc81e44004597954d5f5e02e14467aed_59355_0966e7c8f9f885ee60953278d114138a.webp&#34;
+               width=&#34;613&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This visualization was made in Tableau, as it allows Through these results, it becomes clear that elephants were seen as almost a separate entity from the ivory they yielded. The body part that yielded ivory (tusks) was rarely seen associated with ivory and its sale, while packages of ivory, whether in shipping or in the market, was mentioned more frequently. There was also a spike in mentions of the Ordinance for Preservation of Wild Animals and Birds (enacted 1903) during issues in 1906, which also saw a sharp decrease in mentions of “packages ivory”. There was little association between the animal itself and all mentions of ivory, largely due to the commercial nature of the articles featuring ivory (most being the Sale of Ivory and Rubber news feature). &lt;a href=&#34;https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives/collections/ostrich-feather-trade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ostrich feathers&lt;/a&gt; were another way in which animals were sought out for their material goods, and this trade worked its way through Egypt to be exported to London. While harvesting of these feathers eventually became non-lethal for the animal, it serves as another example of how animals were exploited for commercial and luxury reasons. When searching through the articles, I came across a few that discussed owning exotic animals as pets, which was quite interesting. One article had Sudan giraffes for sale, listed as a “fine pair, male and female”. Other articles discussed the Sultan’s own collection of animals, or news regarding new animals being shipped in for Cairo’s Zoological Gardens, one instance of which I’ve outlined below.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“We hear that Capt. Flower Bey is on his way back from the Sudan with a collection of nearly 200 living animals for the Cairo Zoological Gardens, including two elephants, several lions, and a great number of antelopes of various species.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The shipment of new animals to the Cairo Zoological Gardens was noteworthy enough to be mentioned in the gazette, and exotic African animals are the main ones listed in these types of articles. Other mentions of Captain Flower in the gazette list more types of animals gathered, all along the Nile river.  Along with the acquisition of animals, there is frequent mention of hunting, largely in the form of the Thomas &amp;amp; Son’s tailoring company, which offers custom tailoring for those who could afford hunting as a sport. Both these examples show how much of a fascination with hunting and collection of animals was, as entire businesses or expeditions were centered around them.&lt;/p&gt;
+&lt;p&gt;With this information in mind, the gazette begins to paint an interesting picture of how animals were viewed at the time. Elephants were seen as a separate concept to the ivory they yielded, and otherwise were rarely mentioned throughout the gazette. Between Ivory, the Zoological Gardens, and hunting for sport, along with many other small instances of purchasing exotic species, animals were seen as an entertainment resource, that the wealthy could afford to hunt, the average person could see in a zoo, and the eccentric could purchase.&lt;/p&gt;
+&lt;h2 id=&#34;works-cited&#34;&gt;Works Cited&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hearn, Jemma. “Lets Talk about the History of the African Ivory Trade.” Ubuntu Wildlife Trust, October 30, 2020. &lt;a href=&#34;https://www.ubuntuwildlifetrust.com/2020/10/30/african-ivory-trade-history/#:~:text=In%20the%201900%2C%20there%20were,1.3%20million%20elephants%20were%20left&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ubuntuwildlifetrust.com/2020/10/30/african-ivory-trade-history/#:~:text=In%20the%201900%2C%20there%20were,1.3%20million%20elephants%20were%20left&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;“Ostrich Feather Trade.” City of London, March 3, 2023. &lt;a href=&#34;https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives/collections/ostrich-feather-trade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives/collections/ostrich-feather-trade&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Thompsell, Angela. “Does Legitimate Ivory Trade Encourage Poaching in Africa?” ThoughtCo, July 28, 2018. &lt;a href=&#34;https://www.thoughtco.com/ivory-trade-in-africa-43350&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.thoughtco.com/ivory-trade-in-africa-43350&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How is murder reported in the Egyptian Gazette?</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-west/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-west/</guid>
+      <description>&lt;p&gt;For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: &lt;code&gt;//p[contains(., ‘murder’)]/text()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This enabled me to find all of the paragraphs containing the word “murder,” as well as surrounding text to gather some more details from the search. This search yielded about 800 items, so it was clear that murder was present enough in the Gazette to do some research with. This query was appropriate for a rough estimate of murder in the Gazette, but not much else. Since it looks for a paragraph containing the word murder, it can actually count the same case of murder multiple times if it is mentioned throughout several paragraphs. I knew that I had to get more specific with my topic, but finding that murder was at least relatively relevant within the Gazette was a good start.&lt;/p&gt;
+&lt;h2 id=&#34;finalizing-a-topic&#34;&gt;Finalizing a Topic&lt;/h2&gt;
+&lt;p&gt;After the initial stage of my project, I considered more deeply what exactly about murder that I wanted to focus on. I decided on an approach that would use murder as a measure of how reputable the Egyptian Gazette was for news. To do so, I would first evaluate the Gazette’s colonial bias against Egyptians (referred to as “natives”) by seeing if there was any difference in the reporting of native murders compared to non-native murders. The second criteria which I would use to evaluate the Gazette would involve comparing the number of recorded murders per year to the number of actual murders per year, as provided by the Egyptian Consul General papers.&lt;/p&gt;
+&lt;h2 id=&#34;more-querying&#34;&gt;More Querying&lt;/h2&gt;
+&lt;p&gt;To begin these queries, I had to first determine what vocabulary would be most effective for searching. While the word “murder” had come to mind first, other words such as “homicide” and various forms of “kill” were used to describe these events. To evaluate which term was the most frequently used, I searched the following: &lt;code&gt;count(//div[contains(.,’murder’)])&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Where the word “murder” is would be interchanged for both kill and homicide to count the instances of these words. After a search of all three terms I found that murder returned 88 divs, kill returned 406 divs, and homicide returned zero divs. While it seemed that forms of the word kill were most prevalent, I read through about twenty of the results, and they were nowhere near as relevant as those that the term “murder” had returned. Most of the divs containing some form of kill either contained “murder” elsewhere in the paragraph (if it was describing a murder) or were more relevant to war. Since instances of war and other killings in non-murderous contexts (more common than it may seem) were far too common with the search including the word kill, I decided to stick with my original search of the term murder.&lt;/p&gt;
+&lt;p&gt;To find the instances of native murders, I wanted to ensure I was using the correct vocabulary for that search as well. I had seen native and Arab most commonly used within the paper to refer to the Egyptians, so I decided to see if “Arab,” “native,” or “Egyptian” would yield the most results. For this to be relevant within the context of my project, I searched the instances of these words occurring in the same paragraph with the word murder. The query is as follows: &lt;code&gt;//div//p[matches(.,&#39;murder&#39;, &#39;i&#39;)][matches(.,&#39;native&#39;)]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Where the word “native” is was interchanged with the other two words. Within paragraphs that contained “murder,” “native” appeared to be the most frequently occurring of these terms.&lt;/p&gt;
+&lt;p&gt;Now that I had a query that effectively found all of the instances of murder involving a native, I copied the results into Sublime Text and shaved them down to the date and the relevant text. I then went through all of the results and put them into an Excel sheet, noting the date of the report, who (as in what nationality) was murdered, who was responsible for the murder, and where the murder occurred. Some of the results were eliminated because they were regarding attempted murder, war, or lacked necessary information.&lt;/p&gt;
+&lt;p&gt;After identifying all of the cases of murder in which Egyptians were either the victim, perpetrator, or both, I needed a way to identify all of the other murders in the Gazette. After some tries, I reached the following query: &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div[not(@feature=&amp;quot;wire&amp;quot;)]//p[matches(.,&#39;murder&#39;, &#39;i&#39;) and not(matches(.,&#39;native&#39;, &#39;i&#39;))]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;While not perfect, this query is able to find paragraphs containing murder that do not also contain the term native. In an attempt to hopefully eliminate news from other countries, I excluded divs with the feature “wire,” because I was noticing lots of telegrams reporting international murders within the results. This query does not account for multiple murders mentioned within separate paragraphs, nor does it eliminate uses of the word “murder” in a non-literal way (such as describing something as “murderous”). It did reduce the results down to about 424 items, which was a fairly believable number for the almost 3 1⁄2 years that are encoded.&lt;/p&gt;
+&lt;h2 id=&#34;visualization--analysis&#34;&gt;Visualization &amp;amp; Analysis&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;murder&#34; srcset=&#34;
+               /post/2023-analysis-west/murder_huc46e073e7e7fba48cf35f9a151c62e14_91182_e58f09a3495f7c17fc967020691f6f4c.webp 400w,
+               /post/2023-analysis-west/murder_huc46e073e7e7fba48cf35f9a151c62e14_91182_dfb21f9401ab10f64358a2cf59d001fe.webp 760w,
+               /post/2023-analysis-west/murder_huc46e073e7e7fba48cf35f9a151c62e14_91182_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-west/murder_huc46e073e7e7fba48cf35f9a151c62e14_91182_e58f09a3495f7c17fc967020691f6f4c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;417&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I chose to visualize this data in a way that would achieve three things: (1) show the proportion of native to non-native murders reported, (2) compare the total number of murder reports by the Egyptian Gazette to the actual number of murders per year and (3) show the overall trend of murder at this time in Egypt.&lt;/p&gt;
+&lt;p&gt;By closely analyzing the results of the search for “murder” and “native” together, I observed that there was not a single report of a native being murdered by an Englishman or other European. While I do not have a statistic to point to the occurrences of this, it seems highly unlikely that in three full years this never happened, especially given the imperial tensions at the time. The majority of the murders reported involving Egyptians were native-on-native violence. In each one of these cases, it was made clear that the murderer was also a native by a. directly calling them that, or b. naming them in full. If it was not clear that the murderer was a native, the murderer was either not mentioned, or just simply referred to anonymously as “the murderer,” even if they had been identified and proven guilty. This is an important finding because it shows that the Egyptian Gazette is inclined to report things that reflect poorly onto the Egyptians, but strays away from reporting incidences of Europeans killing the locals. I believe that this information discredits the Egyptian Gazette as a holistic source of Egyptian news at this time period because of its bias in reporting.&lt;/p&gt;
+&lt;p&gt;When looking at the graph, it’s clear that these native-on-native crimes make up only a small portion of which murders are being reported. Combined with murders not involving natives, most of what is reported in the Gazette makes up only roughly a quarter of all of the incidences of murder that are happening in Egypt yearly. There could be many explanations for this trend. The first is the way the Egyptian Gazette chooses to report. Perhaps they choose the murders that are more relevant or will make a more entertaining story to report. Maybe they choose not to report when an Egyptian has been killed by a European. The explanations could also lie in the cases themselves. There could be an element of privacy, or some cases may simply just not be well known.&lt;/p&gt;
+&lt;p&gt;The final trend that can be evaluated in this graph is the increasing number of murders in Egypt from 1905-1907. While the Gazette may not report this (their numbers seem to peak in 1906), the official documents of the Egyptian Consul General do show this. A pattern of increasing crime and civil unrest could be the result of a worsening environment between the Egyptians and the imperialist English power.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Medicine and Ailments in The Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-cavaliere/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-cavaliere/</guid>
+      <description>&lt;p&gt;For my analysis project, I decided to investigate the various medications advertised in the paper. The reason why I chose this was because of the crazy claims these advertisements made. Medication and remedies for certain illnesses and pains have existed for a very long time. However, regulations to produce these medications didn’t come along until way later. The earliest of these regulations started with voluntary drug approval in 1905, but it wasn’t until 1938 when regulations for drug safety were put in place (FDA, 2006). Because of this, a lot of these pharmaceutical companies could get away with making medications out of questionable ingredients and claiming that they cure a whole list of symptoms (Library of Congress). Most of these medications were manufactured in the U.S., as the country was one of the leaders in the pharmaceutical industry at the time (Hamilton, 1951). These medications were then exported to other parts of the world, including Alexandria, Egypt where advertisements for these medications appeared in the local newspaper. My goal with this project was to look at what health issues and medications were brought up the most in the newspaper, The Egyptian Gazette, with the purpose of finding correlations between the two and to paint a picture of what health and pharmacy were like in Alexandria in the early 1900s.&lt;/p&gt;
+&lt;p&gt;To accomplish this, I started by coming up with a list of medications advertised in the paper. This proved to be slightly difficult since all the advertisements are different and none of them are labeled the same. Instead, I tried to find a specific word that all the medication advertisements had in common. This word wound up being the word “druggist” since all the medication advertisements contained a line and distribution containing this word. I was then able to use the query &lt;code&gt;//div//div[matches(., ‘druggist’, ‘i’)]&lt;/code&gt; to find all the divs containing this word and, therefore, all the medications advertised. From there, I was able to comprise a list of 11 medications. The shortcoming of using this query, however, is that I probably missed any medications that had advertisements that did not contain this word. From there, I took each medication and used the query &lt;code&gt;count(//div//div[matches(., “medication name”, ‘i’)])&lt;/code&gt; to find the number of times each of these 10 medications were advertised in the paper.&lt;/p&gt;
+&lt;p&gt;After finding all the medications, I wanted to find out what ailments were mentioned the most in the paper. This was accomplished by looking at certain keywords associated with the word “pain”. The query used was &lt;code&gt;\w+ \w+ pain\w* \w+ \w+&lt;/code&gt; with the word “paint” being excluded in order to limit the number of false positives in my results. After this, the results were counted to see what ailments were associated the most with the word “pain”. The results of this query and the previous one were then analyzed and made into visualizations using Tableau.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Medications&#34; srcset=&#34;
+               /post/2023-analysis-cavaliere/medications_hu211a22abb13e95b5a966548850edfb5d_121971_702732a3cc4b99979f6c22f5288a9d41.webp 400w,
+               /post/2023-analysis-cavaliere/medications_hu211a22abb13e95b5a966548850edfb5d_121971_d86d74de19f2206c94cde4efbbe4e698.webp 760w,
+               /post/2023-analysis-cavaliere/medications_hu211a22abb13e95b5a966548850edfb5d_121971_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-cavaliere/medications_hu211a22abb13e95b5a966548850edfb5d_121971_702732a3cc4b99979f6c22f5288a9d41.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;459&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This first visualization shows the results of the medication advertisements in the paper. Peruna by far had the most advertisements with 372, followed closely by Dr. William’s pink pills with 302. All other medications had less than half as many advertisements in the paper with some only having a handful.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Associations with the word &amp;amp;ldquo;Pain&amp;amp;rdquo;&#34; srcset=&#34;
+               /post/2023-analysis-cavaliere/associations_hu0db7bea89d31f52705fcc2e5f5d1c98d_85703_9fbb8e8c0aee04f962dcc96518435bbc.webp 400w,
+               /post/2023-analysis-cavaliere/associations_hu0db7bea89d31f52705fcc2e5f5d1c98d_85703_a373d735cfdf3536e98dae33bd329914.webp 760w,
+               /post/2023-analysis-cavaliere/associations_hu0db7bea89d31f52705fcc2e5f5d1c98d_85703_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-cavaliere/associations_hu0db7bea89d31f52705fcc2e5f5d1c98d_85703_9fbb8e8c0aee04f962dcc96518435bbc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;452&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The next visualization shows the results of the ailments associated with “pain”. Back pain and rheumatism appeared the most frequently with 87 and 68 hits respectively. Chest pain and headaches have about half as many hits as rheumatism with 29 and 23. All other ailments produced less than 20 hits.&lt;/p&gt;
+&lt;p&gt;After doing some further research on each of the medications, some correlations can be made from these two sets of results. Back pain and rheumatism were two of the biggest complaints for ailments mentioned in the paper. Interestingly, the second most advertised medication, Dr. William’s pink pills, claims to be a treatment for rheumatism while the fourth most advertised medication, Doan’s backache and kidney pills, claims to be a treatment for backaches. So, it is clear that joint and back problems were common back in the early 1900s and medications for them were in high demand, hence the large number of advertisements. However, this pattern does not hold true for every medication. On the other hand, Peruna was by far the most advertised medication and is said to treat catarrh, but catarrh was only associated with pain a total of 4 times in the paper. This is a limitation of the query used. Catarrh is an illness caused by the buildup of mucus in the nose and throat, and while there are a few instances of illnesses being associated with “pain”, illnesses and diseases tend to not be described as painful (NHS, 2022). Therefore, very little of the results are made up of illnesses. A similar problem occurs with the third most advertised medication, Sanitas. Sanitas is a disinfectant used against bacterial infections. Bacterial infections were not associated at all with “pain”. This may be because bacterial infections weren’t considered to be painful, but other factors could’ve influenced this as well. For instance, bacterial and parasitic infections weren’t as common among the upper-class citizens who read this paper as they were for the working class, which is probably why these infections weren’t necessarily mentioned (Derr, 2019). This is also probably why there weren’t many medications advertised in the paper that treated these kinds of infections, as parasitic and bacterial infections were contracted mostly by the people working in the riverbanks and cotton fields (Derr, 2019). Overall, most of the other medications tend to follow the initial trend. Pastilles Valda, a remedy for chest pain, is the sixth most advertised medication while chest pain is the third most mentioned ailment. Doan’s dinner pills and Angier’s Emulsion are both stomach medications ranking at eighth and ninth for most advertised while stomach pain is the fifth most mentioned ailment. Despite the limitations, there is a trend of supply and demand that can be seen. For future studies, it may be beneficial to broaden the scope of the query used for ailments to include illnesses, diseases, and infections, which would help get an even more accurate idea of what health and pharmacy looked like in Alexandria in that time period.&lt;/p&gt;
+&lt;h2 id=&#34;literature-cited&#34;&gt;Literature Cited&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Food and Drug Administration. (2006). A History of the FDA and Drug Regulation in the United States. FDA. Microsoft Word - 7B5F2254.doc (fda.gov)&lt;/li&gt;
+&lt;li&gt;Hamilton, B. (1951). The Medical Professions in the Eighteenth Century. The Economic History Review, 4(2), 141–169. &lt;a href=&#34;https://doi.org/10.2307/2599120&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.2307/2599120&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jennifer L. Derr, &amp;ldquo;Cruel Summer,&amp;rdquo; from &lt;em&gt;The Lived Nile: Environment, Disease, and Material Colonial Economy in Egypt&lt;/em&gt;. Stanford, California: Stanford University Press, 2019, 99-126.&lt;/li&gt;
+&lt;li&gt;Library of Congress. Catarrh Remedy and Peruna Scandal: Tpoics in the Chronicling America. Library of Congress. Introduction - Catarrh Remedy and Peruna Scandal: Topics in Chronicling America - Research Guides at Library of Congress (loc.gov)&lt;/li&gt;
+&lt;li&gt;NHS. (2022). Catarrh. NHS. Catarrh - NHS (&lt;a href=&#34;https://www.nhs.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.nhs.uk&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Culprit of Death</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/</guid>
+      <description>&lt;p&gt;Throughout my studies of the Egyptian Gazette, I always wondered how diseases affected the lifestyles and events of history. There was very minimal medicine research in this time period of 1904-1908, so death from illness seemed to be very common. When I found out about this project, I decided to try to gather information on what diseases affected the population the most. When I started querying, I was just simply searching using the word “disease”. I found interesting results, but I felt that there had to be more. I then started searching with the keywords “illness” and “plague”. I found more results and different types of conditions. Once I gathered some data, I started doing a more detailed query of searching for two words located in the same paragraph. I first started off with searching for “illness” and “death” in the same paragraph. I got minimal results, only 16 with three deaths reported from three different illnesses. This confirmed my thought of how illness wasn’t a descriptor in this time, and it seemed that illness was a word to describe less serious conditions. To prove, the main query for the word illness had 1,376 results. Next, I searched for “disease” and “death” in the same paragraph and got significantly more results. I was able to get a close estimate for the number of deaths from eleven diseases. Also, this query had more relevant results. Lastly, I searched for plague and death in the same paragraph and 1450 results. This helped me conclude that plague was more commonly used to describe conditions. Also, many of the conditions’ formal names had “plague” in them, which also led to more results. Throughout my searching time, I wrote down the data. When it came time to display the data, I initially chose to use a pie chart. However, I was recommended that this method was ineffective, so I changed the display to bar graphs. This helps the reader to get a better visual of the differences in the data. What sets my project apart from others studying a similar topic is that I do a more efficient search process by using three different key words instead of just one broad search. Also, I look at other readings and get a broad viewpoint on the topic. Thus, the trial-and-error process of this project allowed me to get a better understanding of the data, and the outside source (described below) helped me link the data together.&lt;/p&gt;
+&lt;p&gt;Illness and Death Query only had 3 deaths from three different illnesses: Long illness, meningitis, and small pox&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div//div[matches(.,&#39;illness&#39;,&#39;i&#39;)] [matches(.,&#39;death&#39;,&#39;i&#39;)]&lt;/code&gt;: 16 Results&lt;/li&gt;
+&lt;li&gt;1.1% of illness query: &lt;code&gt;//div[contains(., &amp;quot;illness&amp;quot;)]&lt;/code&gt;: 1376 Results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Disease and Death Query&#34; srcset=&#34;
+               /post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_7dbaac95300cb6e7549437ee6b416802.webp 400w,
+               /post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_9e9357c0b5d302c0341b9d652a81f395.webp 760w,
+               /post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/disease_hudcc09f48eeebfb9a688049e358cd167b_521742_7dbaac95300cb6e7549437ee6b416802.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;624&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div//div[matches(.,&#39;disease&#39;,&#39;i&#39;)] [matches(.,&#39;death&#39;,&#39;i&#39;)]&lt;/code&gt;: 144 Results&lt;/li&gt;
+&lt;li&gt;7.1% of disease query: &lt;code&gt;//div[contains(., &amp;quot;disease&amp;quot;)]&lt;/code&gt;: 2016 Results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Plague and Death Query&#34; srcset=&#34;
+               /post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_9a5094f9e531aa2437bb2264b29768a6.webp 400w,
+               /post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_be4c79c633b032c227a3561c858493e6.webp 760w,
+               /post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-schefstad/plague_hua64c9d0d969d989bf431ae0e1f8f2881_297764_9a5094f9e531aa2437bb2264b29768a6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;628&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//div//div[matches(.,&#39;plague&#39;,&#39;i&#39;)] [matches(.,&#39;death&#39;,&#39;i&#39;)]&lt;/code&gt;: 478 Results&lt;/li&gt;
+&lt;li&gt;34.7% of plague query: &lt;code&gt;//div[contains(., &amp;quot;plague&amp;quot;)]&lt;/code&gt;: 1400 Results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To give a description of the causes of diseases, I re-read a reading from one of our assigned readings called “Cruel Summer”. It talks about the illnesses mentioned in the data above, but it also brings up new diseases. First, a huge factor in the impact of diseases is the seasons. In Egypt, the dryness of Spring served as a carrier for diseases, and the air was not good for the lungs. On the other hand, warm weather stimulated the parasites lurking in the crops. Bacterial eye infections were extremely common from the summer heat. Farmers realized that there needed to be a change with the maintenance of crops, causing irrigation to be a new technique brought to the table. The title “Cruel Summer” is fitting for this article because of how the people suffered with the heat-induced diseases. Linking to the data, the article mentions that a very prevalent disease in agriculture was bilharzia. The article explains the cause of the virus, which isn’t mentioned in the gazette. It is caused by open skin wounds contacting water that contains the parasite. Also, for the demographics of infections, men were most vulnerable to parasite infection. At around 1908, scientists like Bonte Elgood were studying anatomy and trying to see what parts of the body the diseases affected. Also, new research methods started developing. For example, Elgood did a study of finding a percentage of urine samples with a certain virus. Next, it was obvious that World War I caused disease to spread because of the transportation of goods and soldiers. As the world was improving in technology and transportation, Egypt was seeing more diseases. This was at the threshold of new medicine advances. In summary, the data from the gazette and “Cruel Summer” link together and explain the context of the time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Assouan Dam</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-macalka/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-macalka/</guid>
+      <description>&lt;p&gt;The topic I chose was the significance of the Assouan Dam in The Egyptian Gazette. Ichose this topic because I thought it would be interesting to research something that is not insideCairo or Alexandria, which makes up a majority of the Gazette’s news. When looking for a topic,I found trouble trying to find something that was significant on a global scale or at least outsideof Egypt and the Gazette. I found the Assouan Dam when I saw almost an entire half-pagededicated to it, and after further research found a story that had continued throughout the fouryears of news that is available. Assouan was an area that was both rich in agriculture as well astourism and historical importance.&lt;/p&gt;
+&lt;p&gt;Located on the border of the Upper Nile and Lower Nile, a dam was built in 1902 to helpthe agricultural industry as well as to protect Philae, an island in the Nile with an ancient templecomplex. The temples were built around 6th-7th Century BC and is Assouan’s biggest touristattraction even to this day. Due to Philae being a small island that had little elevation, it wasprone to flooding if there was no control on the water level. Cotton, grains, and lentils weremajor crops that would be exported to Cairo and presumably around the world. It required theNile to be at a steady level so that the fields would not get flooded. In early 1905, articles in theGazette showed people complaining that the dam was not high enough and floods wouldeventually come and ruin Philae and the crops. However, the government did not care, and theydid not raise the dam. In 1906, architects or scientists would show how the flooding is on track tobreach the dam. In late 1906, letters to the editor included some stern messages to thegovernment demanding for money to be allocated to the raising of the dam, still with no success.In July 1907, the dam flooded and ruined a lot of fields and flooded Philae, causing extensivedamage.&lt;/p&gt;
+&lt;p&gt;This was included in the Gazette likely because Assouan was a major agricultural hubthat would supply Alexandria and Cairo with crops. When I researched other reasons Assouanwas included in the newspaper, the most common appearances were in the export and importsections, as well as stating when ferries or boats were departing from a port to go to Assouan.This was also included because the federal government was responsible for allocating funds tothe construction and re-raising of the dam, not a local government. The Letter to the Editorssection included several messages from people who were complaining or demanding thesechanges in Assouan, so that made it a big deal up in North Egypt where the Gazette waspublished.&lt;/p&gt;
+&lt;p&gt;This analysis project looks at The Egyptian Gazette to see what context the Assouan Damis in throughout the newspaper. Originally using the ‘Find/Replace’ tool inside Oxygen XML, Icame across a lot of improper results for a lot of key words or phrases. Another issue I cameacross was word capitalization. I added a tag in my queries to make the word searches not casesensitive. Lastly, another tweak I made when querying was for the word ‘dam’ adding spacesbefore and after (‘ dam ‘) so that it would pick up whole words rather than parts of words such as ‘Damascus’. Instead of finding how many times each word was said as well, I decided to countinstances based on the number of sections included each term. This created a constant for allwords as well, just showing how relevant they were instead of how common a word was stated.One section could repeat “Assouan Dam” ten times and be as relevant as a section whose headeris “Assouan Dam” and it not stated again in the paragraphs.&lt;/p&gt;
+&lt;p&gt;The XML query format I used throughout this entire project was &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div/p[matches(., ‘assouan’, &#39;i&#39;)]&lt;/code&gt; or if there was multiple words I needed to search for, &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div/p[matches(., &#39;asso&lt;/code&gt;uan&amp;rsquo;, &amp;lsquo;i&amp;rsquo;) and matches(., &amp;rsquo; dam &amp;lsquo;, &amp;lsquo;i&amp;rsquo;)].&lt;/p&gt;
+&lt;p&gt;Prior to querying, I read about 20 sections that talked about the dam in order to see whatwas relevant to the topic. I found that a majority of sections about the dam talked or referred toone of three topics: agriculture, architecture, or the government. After initial querying, I foundthat some sections would not show up, so I had to group some keywords together into a section.Government was independent, agriculture included ‘irrigation’, while architecture included ‘temple’ and ‘Philae’. I wanted to visualize the instances of these sections in a way that wasdifferent than a bar graph. Bar graphs are efficient in showing one dimension, which is countinginstances. However, I added another dimension to the data visualization by showing overlap ofinstances between two or three keywords as well. A lot of important keywords were related,which stems back to my research topic. In order to visualize my data, I used Adobe Photoshop tocreate a landscape of rectangles that would clearly show a size difference that was based on thenumber of instances. I could not use squares or the exact same ratio rectangles because thenumber of keywords I queried for would not fit visually. In order to adapt to this issue, I made the equation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Instances × 1000 = size of rectangle (in pixels)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Even though the instances was multiplied by 1000, this did not mean this was the heightand width of the rectangle. 1000 was my starting point, however it was often reduced to cater tosize restrictions. If I cut 1000 in half, I would multiply the number of instances by 2 so that theshape has the exact same number of pixels still. This effectively showed the number of instancesof each term despite occasionally having different ratios. Most shapes had a width of 1000, 500,333.3, 250, or 200, all of which were easily divisible of 1000. This meant the heights of shapeswere commonly instances multiplied by 1, 2, 3, 4, or 5.&lt;/p&gt;
+&lt;h2 id=&#34;results-and-data-visualization&#34;&gt;Results and Data Visualization:&lt;/h2&gt;
+&lt;p&gt;The complete results are following:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;overall&#34; srcset=&#34;
+               /post/2023-analysis-macalka/new_huebbfad1edfa8e198fe68a27ac6a615ca_3829882_a6d72aa38d1380e1f3922e131e4fa901.webp 400w,
+               /post/2023-analysis-macalka/new_huebbfad1edfa8e198fe68a27ac6a615ca_3829882_392a6a0bd6622d9496ed51de0afe731d.webp 760w,
+               /post/2023-analysis-macalka/new_huebbfad1edfa8e198fe68a27ac6a615ca_3829882_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-macalka/new_huebbfad1edfa8e198fe68a27ac6a615ca_3829882_a6d72aa38d1380e1f3922e131e4fa901.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Each shape represents the number of instances. A scale is in the bottom left corner forreference. Some of the major words feature their counts for viewers to understand. Any squarewhere a ‘+’ is present means both or all of these terms are present in a section. Because ‘Assouan’ is the main keyword, despite it being the third largest, I gave it a textured design tohelp it stick out more. Shapes with a blue or similar background are related to government,yellow, gold, and orange is agriculture, greens are related to architecture, while pinks and purplesare unrelated to any of those three major topics. Inside the ‘Assouan’ shape is ‘Assouan Dam’,where inside that is what other keywords are combined.&lt;/p&gt;
+&lt;p&gt;The main data that was collected is nearly impossible to read without zooming in. Thefollowing zoomed images show ‘Assouan Dam’ in relation to ‘Assouan’, as well as the ‘AssouanDam’ topics alone.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;zoom1&#34; srcset=&#34;
+               /post/2023-analysis-macalka/zoom1_huebbfad1edfa8e198fe68a27ac6a615ca_256885_a5b6313f81713a9c8bdef4c9799e5f8c.webp 400w,
+               /post/2023-analysis-macalka/zoom1_huebbfad1edfa8e198fe68a27ac6a615ca_256885_3d14ba94a99110f1a4b13764f4535ff5.webp 760w,
+               /post/2023-analysis-macalka/zoom1_huebbfad1edfa8e198fe68a27ac6a615ca_256885_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-macalka/zoom1_huebbfad1edfa8e198fe68a27ac6a615ca_256885_a5b6313f81713a9c8bdef4c9799e5f8c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;243&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;zoom2&#34; srcset=&#34;
+               /post/2023-analysis-macalka/zoom2_huebbfad1edfa8e198fe68a27ac6a615ca_38000_6184fae17e570c80ed9ae8a59988d2fc.webp 400w,
+               /post/2023-analysis-macalka/zoom2_huebbfad1edfa8e198fe68a27ac6a615ca_38000_dad752254088cd2aff6d4a0344d74906.webp 760w,
+               /post/2023-analysis-macalka/zoom2_huebbfad1edfa8e198fe68a27ac6a615ca_38000_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-macalka/zoom2_huebbfad1edfa8e198fe68a27ac6a615ca_38000_6184fae17e570c80ed9ae8a59988d2fc.webp&#34;
+               width=&#34;343&#34;
+               height=&#34;361&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section Agr. refers to (Assouan Dam + Agriculture + Irrigation)&lt;/li&gt;
+&lt;li&gt;Section Arch. refers to (Assouan Dam + Architecture + Philae + Temple)&lt;/li&gt;
+&lt;li&gt;Section Other refers to sections that do not include any of the following terms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;‘Assouan Dam’ was referenced 117 times in the Gazette in the available issues. 114 ofthese were related to the three main topics, with only 3 being unrelated to any of those. Therewere no instances of ‘Assouan Dam’, ‘Architecture’, and ‘Agriculture’ all in the same section.However, there were 3 instances of ‘Assouan Dam’, ‘Government, and ‘Agriculture’ in the samesection, hence the shape between the two. One of the sections that was in the ‘Other’ categorywas an obituary to a deceased Assouan Dam construction worker. The other two both werebroadly about water levels. I did not make this its own section because it was not includingstatistics and it just was not relevant in the general scope of the dam throughout the Gazette.There were also only two instances, so it just did not seem appropriate to give its own section,and it fits nowhere better than ‘Other’.&lt;/p&gt;
+&lt;p&gt;What I found most interesting was how close the three major topics were in the numberof instances. This really shows that there was not one topic that had more significance thananother in the Egyptian Gazette. What it also shows is how significant the dam is to the Gazette.Over the span of about 38 months, it appeared in 117 sections. If it was only mentioned in onesection per day without multiples, this would mean it was brought up in 117 days during roughlya 1,140-day period. I do not know exactly how much attention a topic needs to be significant, butI would imagine seeing the dam in about 10% of issues over 4 years is pretty significant.Although I did not collect the dates of all these instances, I noticed that a good number ofsections that fell under the ‘government’ section came in late 1907 and in 1908 after the floodingoccurred. This makes me believe that in the issues that come after what I have access to arelikely going to include ‘government’ sections at an increased rate. Most of the sections talkedabout how the government responded to the flooding, or people writing editorials complainingabout the lack of help the government offered before and after the flooding.&lt;/p&gt;
+&lt;p&gt;A potential future project could be looking at how these instances progressed by year inorder to see if there were trends. Perhaps using this chart and making the solid color a gradientbased on how many instances each topic saw in a year or month even. Another question I have iswondering if the most significant topic connected to Assouan was not the dam. The mostcommon results are through advertisements and ferries, but I would like to compare the damtopic in its entirety to another topic if there is a major one present.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Question of Levantine Immigration</title>

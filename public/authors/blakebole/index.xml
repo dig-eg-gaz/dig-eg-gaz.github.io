@@ -5,12 +5,299 @@
     <link>https://dig-eg-gaz.github.io/authors/blakebole/</link>
       <atom:link href="https://dig-eg-gaz.github.io/authors/blakebole/index.xml" rel="self" type="application/rss+xml" />
     <description>Blake Bole</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/authors/blakebole/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
       <title>Blake Bole</title>
       <link>https://dig-eg-gaz.github.io/authors/blakebole/</link>
     </image>
+    
+    <item>
+      <title>Sports in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-bole/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-bole/</guid>
+      <description>&lt;p&gt;Egypt in the early 20th century was a unique hub of cosmopolitan gathering. It was a central location for travelers, migrants, colonialists, and natives, and despite the many different backgrounds and origins of the people who populated Egypt, one trait remained constant: a desire to be entertained. Entertainment was found in Egypt in a variety of denominations, including theater, steamboat trips, and sporting events. Sporting events in particular had significant cultural influence in Egypt, serving as entertainment for the local populations as well as a shared interest among both local and colonialist inhabitants. The mention of sports throughout the Egyptian Gazette reflects the interests of the newspaper’s readers as well as providing insight into the ever-changing daily lives of the residents of Egypt. Perhaps more importantly, they present patterns through longevity that reflect how sports as a means of entertainment interact with other outlets of life in early 20th century Egypt.&lt;/p&gt;
+&lt;p&gt;In order to draw any conclusions about sports in the Egyptian Gazette, a comprehensive metric for identifying where sports are mentioned first had to be established. After many readings of Egyptian Gazette articles, as well as external research, it became apparent that the most common sports being played and documented in the newspaper at the time were aquatic sports, horseback riding, football (soccer), and cricket. In order to find instances of these in the existing Digital Egyptian Gazette database, a simple X-Path Query was constructed, starting by searching for football. More specifically, using the “matches” feature when searching for a div within a div. The query appears as follows: “//div//div[matches(., &amp;lsquo;football&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)]”. This returned all of the instances of the word “football” within the Egyptian Gazette. A similar approach was taken for the remaining sports, with the queries for “aqua sports” and “horseback riding” simply using two “matches” statements to ensure the most comprehensive results were returned. Hence, the horseback riding query appeared as: &lt;code&gt;//div//div[matches(., &#39;horse&#39;, &#39;i&#39;)][matches(., &#39;riding&#39;, &#39;i&#39;)]&lt;/code&gt; and the aqua sports query appeared as &lt;code&gt;//div//div[matches(., &#39;aqua&#39;, &#39;i&#39;)][matches(., &#39;sports’, &#39;i&#39;)]&lt;/code&gt;. It is important to note that neither the words “aquatic” nor “horseback” were included in full. Rather, “horse” and “aqua” are used in the queries as a more inclusive search term that is likely to return more results. The final query utilized was for cricket, arguably the most popular sport of the time. In this query, however, the type “wire” was excluded to void all mentions of cricket games occurring in England that were telegraphed to Egypt and written about in the newspaper. Therefore, the query for mentions of cricket in the Egyptian Gazette appeared like this: &lt;code&gt;//div//div[matches(., &#39;cricket&#39;, &#39;i&#39;)][not(@type=&amp;quot;wire&amp;quot;)]&lt;/code&gt;. The term “wire” does not need to be excluded from other queries, as cricket had disproportionately more mentions in telegraphs relative to other sports, which had practically none.&lt;/p&gt;
+&lt;p&gt;After receiving the total number of instances in which these four different sports were mentioned throughout the Egyptian Gazette database, it was almost time to visualize the results. However, the goal of this study was to draw a more longitudinal analysis of sports over time. The best way to do this was to count the total monthly mentions of each sport, regardless of the quantity of times it is mentioned in one issue or the year that the issue was published. This metric would provide a dataset that shows the monthly popularity of each sport, as sports are known for being both seasonal occurrences that result in fluctuating popularity. So, using a simple C++ algorithm written in Visual Studio Code, the number of “repeat mentions” for any sport was subtracted from the total monthly sums of mentions of that same sport, void of year. Algorithmically, it appeared like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;j=(totalIssueMentions[i]-1)&lt;/code&gt; //calculates 1 less than the total number of times a sport is mentioned in 1 issue and sets it equal to variable j&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;issueMention[i]=(totalIssueMentions[i]-j)&lt;/code&gt; //subtracts variable j from the total number of times that sport is mentioned in that same issue, which will always equal 1. &lt;em&gt;This effectively counts the issues rather than the mentions&lt;/em&gt;. This value is then set to issueMention variable.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;totalMontlyMentions[k]=∑issueMention[i]&lt;/code&gt; //calculates the summation of the total number of issues that mention the same sport in the same month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The use of a dynamic 2-dimensional array made it so every issue regardless of year was included in the calculations, each issue was only calculated once, and each sport was counted independently of the other three sports for each month. The array value of [i] is a counter that starts at 0 and runs to ∞ and increases for every new issue. The array value [k] is a counter that starts at 0 and runs to 12 and increases for every new month. The result is a total of the monthly counts of issues of the Egyptian Gazette that mentions that particular sport. On a graph, it is visualized as follows:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;sports&#34; srcset=&#34;
+               /post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_d06877c807282dfd8b1105549d4a614a.webp 400w,
+               /post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_4795a1e01725c9cc27051dd5059bb636.webp 760w,
+               /post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_d06877c807282dfd8b1105549d4a614a.webp&#34;
+               width=&#34;576&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This visualization contains many other variables in addition to the monthly total number of issues that help identify patterns related to interest in sports in early 20th century Egypt. First, is average monthly temperature. It is evident that in winter months where the average monthly temperature is between 0 and 16 degrees Celsius that sports recordings in the Egyptian Gazette are at their lowest. This is likely due to less sports being played or watched due to the uncomfortable outside temperatures. On the other hand, fall and spring months where the temperature averaged between 16 and 25 degrees Celsius saw relatively higher counts of sports mentions in the Gazette. However, sports interacted with each other just as responsively as they did with monthly temperatures. Namely, the summer spike in attention to cricket took away from the journalism directed at other sports. The months of June-August display all-time highs for cricket, and all time lows for all other sports, suggesting that cricket journalism crowded out attention towards other sports.&lt;/p&gt;
+&lt;p&gt;In conclusion, sports in the Egyptian Gazette were an outlet of entertainment and cultural diffusion. They were extremely important to the daily lives of both Egyptian residents and passer-bys, and the information displayed here identifies several significant patterns of why certain sports were more/less popular at different points in the year. These results provide modern historians with a comprehensive and warranted view into the journalism of sporting entertainment in early 20th century Egypt.&lt;/p&gt;
+&lt;h2 id=&#34;works-cited&#34;&gt;Works Cited:&lt;/h2&gt;
+&lt;p&gt;“Climate - Egypt.” Egypt Climate: Average Weather, Temperature, Rain - Climates to Travel, 2021, &lt;a href=&#34;https://www.climatestotravel.com/climate/egypt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.climatestotravel.com/climate/egypt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;temps&#34; srcset=&#34;
+               /post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_faba99b06457f6fd86b6c0c2e158e3f8.webp 400w,
+               /post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_827705b73dcd85d3447d4f90abc34dd7.webp 760w,
+               /post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_faba99b06457f6fd86b6c0c2e158e3f8.webp&#34;
+               width=&#34;588&#34;
+               height=&#34;354&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notable Locations in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;locations&#34; srcset=&#34;
+               /post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp 400w,
+               /post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_3513183750d8bb819db3b5c50c48151b.webp 760w,
+               /post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;477&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;egyptian&#34; srcset=&#34;
+               /post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp 400w,
+               /post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_e1bf71e592aeb1aa76ba4a0423ade5d1.webp 760w,
+               /post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp&#34;
+               width=&#34;724&#34;
+               height=&#34;436&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Place&lt;/th&gt;
+&lt;th&gt;Latitude&lt;/th&gt;
+&lt;th&gt;Longitude&lt;/th&gt;
+&lt;th&gt;Times mentioned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Cairo&lt;/td&gt;
+&lt;td&gt;30.0444&lt;/td&gt;
+&lt;td&gt;31.2357&lt;/td&gt;
+&lt;td&gt;4,885&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alexandria&lt;/td&gt;
+&lt;td&gt;31.1992&lt;/td&gt;
+&lt;td&gt;29.8952&lt;/td&gt;
+&lt;td&gt;4,786&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;51.5074&lt;/td&gt;
+&lt;td&gt;-0.1278&lt;/td&gt;
+&lt;td&gt;1,673&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;England&lt;/td&gt;
+&lt;td&gt;52.531&lt;/td&gt;
+&lt;td&gt;-1.2649&lt;/td&gt;
+&lt;td&gt;1,442&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paris&lt;/td&gt;
+&lt;td&gt;48.8589&lt;/td&gt;
+&lt;td&gt;2.32&lt;/td&gt;
+&lt;td&gt;512&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Suez&lt;/td&gt;
+&lt;td&gt;29.9745&lt;/td&gt;
+&lt;td&gt;32.5371&lt;/td&gt;
+&lt;td&gt;495&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kharum&lt;/td&gt;
+&lt;td&gt;15.5636&lt;/td&gt;
+&lt;td&gt;32.5349&lt;/td&gt;
+&lt;td&gt;477&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Constantinople&lt;/td&gt;
+&lt;td&gt;41.0064&lt;/td&gt;
+&lt;td&gt;28.9759&lt;/td&gt;
+&lt;td&gt;435&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Genoa&lt;/td&gt;
+&lt;td&gt;44.4073&lt;/td&gt;
+&lt;td&gt;8.9339&lt;/td&gt;
+&lt;td&gt;422&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Italy&lt;/td&gt;
+&lt;td&gt;42.6384&lt;/td&gt;
+&lt;td&gt;12.6743&lt;/td&gt;
+&lt;td&gt;383&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sahel&lt;/td&gt;
+&lt;td&gt;14.0279&lt;/td&gt;
+&lt;td&gt;-0.7718&lt;/td&gt;
+&lt;td&gt;368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;53.4072&lt;/td&gt;
+&lt;td&gt;-2.9917&lt;/td&gt;
+&lt;td&gt;347&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;France&lt;/td&gt;
+&lt;td&gt;46.6034&lt;/td&gt;
+&lt;td&gt;1.8883&lt;/td&gt;
+&lt;td&gt;344&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ghizeh&lt;/td&gt;
+&lt;td&gt;30.0081&lt;/td&gt;
+&lt;td&gt;31.2109&lt;/td&gt;
+&lt;td&gt;334&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Abdeen&lt;/td&gt;
+&lt;td&gt;30.0383&lt;/td&gt;
+&lt;td&gt;31.2423&lt;/td&gt;
+&lt;td&gt;330&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Germany&lt;/td&gt;
+&lt;td&gt;51.1638&lt;/td&gt;
+&lt;td&gt;10.4478&lt;/td&gt;
+&lt;td&gt;311&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Florence&lt;/td&gt;
+&lt;td&gt;43.7699&lt;/td&gt;
+&lt;td&gt;11.2556&lt;/td&gt;
+&lt;td&gt;251&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Russia&lt;/td&gt;
+&lt;td&gt;55.7551&lt;/td&gt;
+&lt;td&gt;37.5909&lt;/td&gt;
+&lt;td&gt;246&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assuoan&lt;/td&gt;
+&lt;td&gt;24.0911&lt;/td&gt;
+&lt;td&gt;32.8973&lt;/td&gt;
+&lt;td&gt;217&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Helouan&lt;/td&gt;
+&lt;td&gt;29.8414&lt;/td&gt;
+&lt;td&gt;31.3008&lt;/td&gt;
+&lt;td&gt;175&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ramleh&lt;/td&gt;
+&lt;td&gt;30.4403&lt;/td&gt;
+&lt;td&gt;31.1553&lt;/td&gt;
+&lt;td&gt;171&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We decided to make our own group since we found that our topics could be similar or related. Our topics were theaters, murder, and sports. When analyzing the similarities or how related they might be, we found that both theaters and sports were a source of entertainment, but the relationship between entertainment and murder was quite unclear. That is when we decided we had to go beyond our topics, and find something else that could benefit us all. So, after digging a bit deeper, we found that we could work on a query that could work for all of us by making a part of it easily substitutable. We also realized that something that we could focus on could be places. Location was something that could add significantly to our projects, especially since we could explore the relationship between locations that were hotspots for events in the Egyptian Gazette and locations that could be significant to our individual projects.&lt;/p&gt;
+&lt;p&gt;To find the most mentioned locations in the Gazette, we had to develop a search that would actually find the greatest number of locations. Since the place name tag isn’t used very often, we had to take another approach to accurately find locations. To do this, we first developed a set of phrases that often came before a location name, so that we could search for those and ideally the place names would follow. We chose to use the following terms: in, near, to, at, and by. There were other terms, such as “from” that often preceded place names, but those had more to do with shipping and advertisements and less to do with events occurring in these places like we were looking for. Using those phrases, we created the following regular expression search: &lt;code&gt;(in|near|to|at|by) [A-Z]\w+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This would effectively search for any of our key phrases that were followed by a space, capital letter (since place names are capitalized) and the rest of that word. The space between the set of parentheses and brackets was crucial, because otherwise the search would return words that start with in or at, such as “into” or “attention.”&lt;/p&gt;
+&lt;p&gt;While that regular expression search was mostly effective, there were too many results to reasonably work with, so we had to refine our search in some way. We chose to exclude advertisements, because while advertisements often mentioned place names, they weren’t actually recording events happening. Most advertisements containing locations were talking about shipping or traveling, which we felt would skew the results towards these port cities and away from other centers of local activity. So, in our search, we added “restrict to XPath” with the following query: &lt;code&gt;//div[not(@n=”1”)]//div[not(@type=”advert”)]&lt;/code&gt;. This would eliminate the entire first page of the Gazette from our results, which was full of ads, as well as any additional advertisements that contained the div type “advert.”&lt;/p&gt;
+&lt;p&gt;Once we had our results from this search, we copied them into Sublime Text to simplify them down to only the place name. We then put that list into Voyant Tools, where it ranked the words based on how often they were mentioned. Most words were place names, but there were a few that weren’t quite relevant, such as “mr.” We then went through that list manually to find the top ten Egyptian cities mentioned, as well as the top ten cities overall.&lt;/p&gt;
+&lt;p&gt;When looking at the most mentioned place names, we noticed that while Alexandria and Cairo were pretty common, the majority of our findings represented cities and countries outside of Egypt. This data suggests that international affairs are pretty popular or relevant to the Egyptian Gazette and its readers. While it is not something that we queried for, we do know that this is true, since when coding the issues, we encounter a lot of information on shipping, steamers, and movement of people. These recurrent topics are seen in recurrent features of the Gazette, such as Steamer Movements, Shipping Movements, and Movement Maritime. European countries specifically are also prevalent in the datelines of letters and telegrams, with a lot of communication coming from major cities like London and Paris.&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1702578631004&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39;Mention of places in the Egyptian Gazette &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;path&#39; value=&#39;views&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5?:language=en-US&amp;amp;:embed=true&amp;amp;publish=yes&#39; /&gt; &lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en-US&#39; /&gt;&lt;param name=&#39;filter&#39; value=&#39;publish=yes&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1702578631004&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;p&gt;For the visualization we decided to use Tableau, since it opens the possibility for a more interactive representation. We geolocated each of the cities in our table (seen above) and graphed them into a map. Since the times the place was mentioned was what was really important in showing prevalence of places in the Egyptian Gazette, we modified the visualization to incorporate that. To do so, instead of just pointing out the places, we plotted dots in different sizes to showcase the amount of times the place was mentioned throughout the Gazette. Though the dots are moreless spread out with prominence in both Egypt and Europe, it is clear that the most mentions are of Egyptian places. Following Egypt would be England, which makes sense since Egypt was an English colony. Since the Gazette was not written in Arab, but in English and French it makes the most sense to have England and some english cities as second most mentioned, since the English settlers would be interested about what is going on in their own country, followed by France, to which the newspaper is sometimes addressed due to language.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

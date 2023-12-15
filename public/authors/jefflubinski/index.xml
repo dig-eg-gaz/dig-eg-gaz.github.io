@@ -5,12 +5,124 @@
     <link>https://dig-eg-gaz.github.io/authors/jefflubinski/</link>
       <atom:link href="https://dig-eg-gaz.github.io/authors/jefflubinski/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeff Lubinski</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/authors/jefflubinski/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
       <title>Jeff Lubinski</title>
       <link>https://dig-eg-gaz.github.io/authors/jefflubinski/</link>
     </image>
+    
+    <item>
+      <title>Narrowing Results</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-results-group/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-results-group/</guid>
+      <description>&lt;p&gt;An issue faced by all the members of our group, when doing individual analysis, was getting narrower results for our related research questions, while making sure our queries still had enough relevant results. In order to tackle this issue, we devised a methodology to test the relevance of the queries used in our individual analysis. For future research projects, I have outlined the basic process below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gather relevant keywords to your research question. Try to get a list of at least 5 or so words that are concise enough to yield relevant results, but not too little.&lt;/li&gt;
+&lt;li&gt;Run count queries for those words and keep track of how many results you get for each. If you can, look at some of the results, and see if there are any “stock words” that you can use to exclude in subsequent queries.&lt;/li&gt;
+&lt;li&gt;Run more queries with narrower parameters and keep track of how many results are yielded. Make sure to exclude stock words.&lt;/li&gt;
+&lt;li&gt;Divide the number of narrow queries by the more generalized result and calculate the percentage.&lt;/li&gt;
+&lt;li&gt;With these percentages, you can now tell how relevant your specifications are, in regard to your larger research question. If some queries are only 2% of the larger data pool, that would likely be not as significant compared to a query of 38%. Interpreting this data and incorporating it into your individual analysis can be done however you choose.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The overall purpose of this method is to provide a quick way to clarify and measure the relevancy of potential queries you may have for your project. Seeing how correlated your queries are to larger ideas and phrases that are present in the Egyptian gazette can help gather a more concise data pool to draw on for your analysis.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-were-trying-to-accomplish-as-a-group-and-as-an-individual&#34;&gt;What we were trying to accomplish (as a group and as an individual)&lt;/h2&gt;
+&lt;p&gt;The purpose of this was to determine how effective a certain query was at returning results relevant to what was being researched. A lot of our initial queries returned hundreds of results, but only a certain percentage of those results contained any relevant information. Furthermore, there was often a pattern in the initial query’s results that allowed for the exclusion or inclusion of certain words or terms to help narrow things down. Because of this, we used the method of refining our initial queries and calculated a percentage to determine the relevance of the results produced.&lt;/p&gt;
+&lt;p&gt;One example of this was a query used to find associations with the word “pain” in the paper. The initial query returned 585 results with only 244 of those results being relevant. The other 341 results contained information irrelevant to what was being sought after. This means that the initial query was about 41.7% successful at returning relevant results. Obviously, there is room for improvement. Interestingly, about 31.6% of the results from the initial query contained the word “painting”. Clearly, these results were not relevant to what was being sought after, so by running the query again but excluding the word “painting” this time, the results proved to be far more relevant. This time, 61% of the results contained relevant information. This is about a 20% difference between the two queries, meaning that, now, most of the results contain relevant information.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;pain&#34; srcset=&#34;
+               /post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_49a943afeb7a725be66b2270979eff39.webp 400w,
+               /post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_fbe85ab895843ff3af6ee5c2d5b171e6.webp 760w,
+               /post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_49a943afeb7a725be66b2270979eff39.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Another example was finding specific words associated with “ivory”. While Ivory itself gave 233 results, divs containing “packages ivory” came to 60 results, or roughly a quarter of all instances of Ivory. Searching for divs that contained both the words “ivory” and “tusk” gave only 12 results (5% of all results) , which meant that there was far less results to use in my analysis. By having these numbers available, I knew how I wanted to guide my research, and was able to use the 12 results for a more in-depth analysis, while packages of ivory could give raw data in discussing the context in which animals were viewed in the Egyptian gazette.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ivory&#34; srcset=&#34;
+               /post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_822d4619d36d6ed2d454e48d77d8b6f7.webp 400w,
+               /post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_08c24edd81ab84f6aae7d2ebb4dfc062.webp 760w,
+               /post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_822d4619d36d6ed2d454e48d77d8b6f7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;452&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This example shows queries to find sections that included words associated with the Assouan Dam. This was a bit more complex as the keyword is two different words. This required the query to add sections that would include “Assouan Dam” or (“Assouan” and “Dam”) together. There were 96 initial results for “Assouan Dam” and 263 counts of “Assouan” and “Dam” not including “Assouan Dam”. This was a total of 359 results, with 114 being relevant. This shows that 32.6% of results were relevant. There were a lot of irrelevant results caused by the word “Dam”. For instance, this brought up information related to “Damascus” or “Rotterdam”. The query search was updated to look for “Assouan” and 	           “ Dam “. This included a space before and after “dam” so that it would search for whole words only. This created a total of 117 results, meaning only 3 results were not relevant. This query resulted in a 97.4% relevant return.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;tableau&#34; srcset=&#34;
+               /post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_70374c2e405a58d0a49ef044ed01c898.webp 400w,
+               /post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_5d048ea2bcb9a8d0beec2288cc7ac332.webp 760w,
+               /post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_70374c2e405a58d0a49ef044ed01c898.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;738&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This graph compiled all our relevancy trends into one chart, where ivory was in red, pain in teal, assouan dam in blue and Ryan’s in orange. Blue and teal each had similar trends, where the initial query was much larger than the later queries, but held less relevance. In the “pain” query case, that word gave more hits because it was in words like “painting”, which were not relevant to the analysis project. Future queries narrowed down the results, but made them more relevant to the subject being studied. Ryan’s analysis (orange) began with very few results and relevancy, and as the search went on, more accurate and functioning queries were made, which yielded more relevant results. The assoaun dam query, similar to “pain” dealt with multiple spellings and context for the dam. As the queries narrowed down, proper spelling, along with proper context increased, though total number of hits decreased. For the ivory query, there were multiple instances of the word mentioned, which had a lot of relevancy to the main topic. As the queries narrowed, they were designed to see if two subjects were at all related in relevancy, to test the hypothesis of the analysis. As the results narrowed, so to did the relevacny, which was valuable to the data gathered regarding the ivory trade.&lt;/p&gt;
+&lt;h2 id=&#34;how-future-students-can-use-it&#34;&gt;How future students can use it&lt;/h2&gt;
+&lt;p&gt;Our method of breaking down larger queries into more concise, filtered results was intended to help guide early research questions, and determine what stock words could be included (or excluded) from narrower queries. For future students of this class, using a simple graph to evaluate their early queries can help them visualize how feasible their potential research topic is. Additionally, from a learning perspective, running a multitude of queries allows for students to familiarize themselves with the markup language, and provides an opportunity to tinker around and see what works and what doesn’t, while still yielding useful data in their project.&lt;/p&gt;
+&lt;p&gt;This process is designed to be easy to use, quick to analyze, and simple to explain to others, as all you need to do is find a main word to search for, and produce as many smaller queries that you would like that contain that word. It is easy enough to divide the two results and make a bar graph to see how strongly related your queries are. If a future student were to query a word, like “army” and get back thousands of results, they could run finer searches that would exclude words, include the word “british”, or only find results on the third page, and see how much that skims down their data pool. If the pool is too shallow, it may not be the best to research. But if the data pool contains enough substantial evidence, while still being reasonable to look through, then that would pose a much more compelling research topic. This methodology we’ve designed is meant to help sort out and organize this process.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;All in all, we felt like this methodology was effective in the very early stages of posing your analysis question. Filtering out false positives (like with the word “painting”) can be done before more refined queries are made, and a general sense of what data you are working with can be seen early on. Otherwise, this method felt lackluster for the more in-depth steps of our research projects because all it can provide is a preliminary visualization of where your data will lead you. However, this process does help provide a simple foundation and direction for the task at hand and the method used was successful at doing just that. For future classes, this would be most effective as a suggestion made towards students running a large query that contains too many results to narrow down their findings, or to help those with very little results broaden their scope.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Elephants and Empire</title>

@@ -5,12 +5,465 @@
     <link>https://dig-eg-gaz.github.io/post/</link>
       <atom:link href="https://dig-eg-gaz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://dig-eg-gaz.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Sports in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-bole/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-bole/</guid>
+      <description>&lt;p&gt;Egypt in the early 20th century was a unique hub of cosmopolitan gathering. It was a central location for travelers, migrants, colonialists, and natives, and despite the many different backgrounds and origins of the people who populated Egypt, one trait remained constant: a desire to be entertained. Entertainment was found in Egypt in a variety of denominations, including theater, steamboat trips, and sporting events. Sporting events in particular had significant cultural influence in Egypt, serving as entertainment for the local populations as well as a shared interest among both local and colonialist inhabitants. The mention of sports throughout the Egyptian Gazette reflects the interests of the newspaper’s readers as well as providing insight into the ever-changing daily lives of the residents of Egypt. Perhaps more importantly, they present patterns through longevity that reflect how sports as a means of entertainment interact with other outlets of life in early 20th century Egypt.&lt;/p&gt;
+&lt;p&gt;In order to draw any conclusions about sports in the Egyptian Gazette, a comprehensive metric for identifying where sports are mentioned first had to be established. After many readings of Egyptian Gazette articles, as well as external research, it became apparent that the most common sports being played and documented in the newspaper at the time were aquatic sports, horseback riding, football (soccer), and cricket. In order to find instances of these in the existing Digital Egyptian Gazette database, a simple X-Path Query was constructed, starting by searching for football. More specifically, using the “matches” feature when searching for a div within a div. The query appears as follows: “//div//div[matches(., &amp;lsquo;football&amp;rsquo;, &amp;lsquo;i&amp;rsquo;)]”. This returned all of the instances of the word “football” within the Egyptian Gazette. A similar approach was taken for the remaining sports, with the queries for “aqua sports” and “horseback riding” simply using two “matches” statements to ensure the most comprehensive results were returned. Hence, the horseback riding query appeared as: &lt;code&gt;//div//div[matches(., &#39;horse&#39;, &#39;i&#39;)][matches(., &#39;riding&#39;, &#39;i&#39;)]&lt;/code&gt; and the aqua sports query appeared as &lt;code&gt;//div//div[matches(., &#39;aqua&#39;, &#39;i&#39;)][matches(., &#39;sports’, &#39;i&#39;)]&lt;/code&gt;. It is important to note that neither the words “aquatic” nor “horseback” were included in full. Rather, “horse” and “aqua” are used in the queries as a more inclusive search term that is likely to return more results. The final query utilized was for cricket, arguably the most popular sport of the time. In this query, however, the type “wire” was excluded to void all mentions of cricket games occurring in England that were telegraphed to Egypt and written about in the newspaper. Therefore, the query for mentions of cricket in the Egyptian Gazette appeared like this: &lt;code&gt;//div//div[matches(., &#39;cricket&#39;, &#39;i&#39;)][not(@type=&amp;quot;wire&amp;quot;)]&lt;/code&gt;. The term “wire” does not need to be excluded from other queries, as cricket had disproportionately more mentions in telegraphs relative to other sports, which had practically none.&lt;/p&gt;
+&lt;p&gt;After receiving the total number of instances in which these four different sports were mentioned throughout the Egyptian Gazette database, it was almost time to visualize the results. However, the goal of this study was to draw a more longitudinal analysis of sports over time. The best way to do this was to count the total monthly mentions of each sport, regardless of the quantity of times it is mentioned in one issue or the year that the issue was published. This metric would provide a dataset that shows the monthly popularity of each sport, as sports are known for being both seasonal occurrences that result in fluctuating popularity. So, using a simple C++ algorithm written in Visual Studio Code, the number of “repeat mentions” for any sport was subtracted from the total monthly sums of mentions of that same sport, void of year. Algorithmically, it appeared like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;j=(totalIssueMentions[i]-1)&lt;/code&gt; //calculates 1 less than the total number of times a sport is mentioned in 1 issue and sets it equal to variable j&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;issueMention[i]=(totalIssueMentions[i]-j)&lt;/code&gt; //subtracts variable j from the total number of times that sport is mentioned in that same issue, which will always equal 1. &lt;em&gt;This effectively counts the issues rather than the mentions&lt;/em&gt;. This value is then set to issueMention variable.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;totalMontlyMentions[k]=∑issueMention[i]&lt;/code&gt; //calculates the summation of the total number of issues that mention the same sport in the same month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The use of a dynamic 2-dimensional array made it so every issue regardless of year was included in the calculations, each issue was only calculated once, and each sport was counted independently of the other three sports for each month. The array value of [i] is a counter that starts at 0 and runs to ∞ and increases for every new issue. The array value [k] is a counter that starts at 0 and runs to 12 and increases for every new month. The result is a total of the monthly counts of issues of the Egyptian Gazette that mentions that particular sport. On a graph, it is visualized as follows:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;sports&#34; srcset=&#34;
+               /post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_d06877c807282dfd8b1105549d4a614a.webp 400w,
+               /post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_4795a1e01725c9cc27051dd5059bb636.webp 760w,
+               /post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-bole/sports_hu7d856f2be69d52e9cb17902c6b8b0b06_79648_d06877c807282dfd8b1105549d4a614a.webp&#34;
+               width=&#34;576&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This visualization contains many other variables in addition to the monthly total number of issues that help identify patterns related to interest in sports in early 20th century Egypt. First, is average monthly temperature. It is evident that in winter months where the average monthly temperature is between 0 and 16 degrees Celsius that sports recordings in the Egyptian Gazette are at their lowest. This is likely due to less sports being played or watched due to the uncomfortable outside temperatures. On the other hand, fall and spring months where the temperature averaged between 16 and 25 degrees Celsius saw relatively higher counts of sports mentions in the Gazette. However, sports interacted with each other just as responsively as they did with monthly temperatures. Namely, the summer spike in attention to cricket took away from the journalism directed at other sports. The months of June-August display all-time highs for cricket, and all time lows for all other sports, suggesting that cricket journalism crowded out attention towards other sports.&lt;/p&gt;
+&lt;p&gt;In conclusion, sports in the Egyptian Gazette were an outlet of entertainment and cultural diffusion. They were extremely important to the daily lives of both Egyptian residents and passer-bys, and the information displayed here identifies several significant patterns of why certain sports were more/less popular at different points in the year. These results provide modern historians with a comprehensive and warranted view into the journalism of sporting entertainment in early 20th century Egypt.&lt;/p&gt;
+&lt;h2 id=&#34;works-cited&#34;&gt;Works Cited:&lt;/h2&gt;
+&lt;p&gt;“Climate - Egypt.” Egypt Climate: Average Weather, Temperature, Rain - Climates to Travel, 2021, &lt;a href=&#34;https://www.climatestotravel.com/climate/egypt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.climatestotravel.com/climate/egypt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;temps&#34; srcset=&#34;
+               /post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_faba99b06457f6fd86b6c0c2e158e3f8.webp 400w,
+               /post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_827705b73dcd85d3447d4f90abc34dd7.webp 760w,
+               /post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-bole/temps_hu76d7f6c249f7cdad8c0a22a541be99b2_36634_faba99b06457f6fd86b6c0c2e158e3f8.webp&#34;
+               width=&#34;588&#34;
+               height=&#34;354&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Narrowing Results</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-results-group/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-results-group/</guid>
+      <description>&lt;p&gt;An issue faced by all the members of our group, when doing individual analysis, was getting narrower results for our related research questions, while making sure our queries still had enough relevant results. In order to tackle this issue, we devised a methodology to test the relevance of the queries used in our individual analysis. For future research projects, I have outlined the basic process below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gather relevant keywords to your research question. Try to get a list of at least 5 or so words that are concise enough to yield relevant results, but not too little.&lt;/li&gt;
+&lt;li&gt;Run count queries for those words and keep track of how many results you get for each. If you can, look at some of the results, and see if there are any “stock words” that you can use to exclude in subsequent queries.&lt;/li&gt;
+&lt;li&gt;Run more queries with narrower parameters and keep track of how many results are yielded. Make sure to exclude stock words.&lt;/li&gt;
+&lt;li&gt;Divide the number of narrow queries by the more generalized result and calculate the percentage.&lt;/li&gt;
+&lt;li&gt;With these percentages, you can now tell how relevant your specifications are, in regard to your larger research question. If some queries are only 2% of the larger data pool, that would likely be not as significant compared to a query of 38%. Interpreting this data and incorporating it into your individual analysis can be done however you choose.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The overall purpose of this method is to provide a quick way to clarify and measure the relevancy of potential queries you may have for your project. Seeing how correlated your queries are to larger ideas and phrases that are present in the Egyptian gazette can help gather a more concise data pool to draw on for your analysis.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-were-trying-to-accomplish-as-a-group-and-as-an-individual&#34;&gt;What we were trying to accomplish (as a group and as an individual)&lt;/h2&gt;
+&lt;p&gt;The purpose of this was to determine how effective a certain query was at returning results relevant to what was being researched. A lot of our initial queries returned hundreds of results, but only a certain percentage of those results contained any relevant information. Furthermore, there was often a pattern in the initial query’s results that allowed for the exclusion or inclusion of certain words or terms to help narrow things down. Because of this, we used the method of refining our initial queries and calculated a percentage to determine the relevance of the results produced.&lt;/p&gt;
+&lt;p&gt;One example of this was a query used to find associations with the word “pain” in the paper. The initial query returned 585 results with only 244 of those results being relevant. The other 341 results contained information irrelevant to what was being sought after. This means that the initial query was about 41.7% successful at returning relevant results. Obviously, there is room for improvement. Interestingly, about 31.6% of the results from the initial query contained the word “painting”. Clearly, these results were not relevant to what was being sought after, so by running the query again but excluding the word “painting” this time, the results proved to be far more relevant. This time, 61% of the results contained relevant information. This is about a 20% difference between the two queries, meaning that, now, most of the results contain relevant information.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;pain&#34; srcset=&#34;
+               /post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_49a943afeb7a725be66b2270979eff39.webp 400w,
+               /post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_fbe85ab895843ff3af6ee5c2d5b171e6.webp 760w,
+               /post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-results-group/pain_hu4bfd606913c2c5c62e23585c8c1aad0a_78771_49a943afeb7a725be66b2270979eff39.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Another example was finding specific words associated with “ivory”. While Ivory itself gave 233 results, divs containing “packages ivory” came to 60 results, or roughly a quarter of all instances of Ivory. Searching for divs that contained both the words “ivory” and “tusk” gave only 12 results (5% of all results) , which meant that there was far less results to use in my analysis. By having these numbers available, I knew how I wanted to guide my research, and was able to use the 12 results for a more in-depth analysis, while packages of ivory could give raw data in discussing the context in which animals were viewed in the Egyptian gazette.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ivory&#34; srcset=&#34;
+               /post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_822d4619d36d6ed2d454e48d77d8b6f7.webp 400w,
+               /post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_08c24edd81ab84f6aae7d2ebb4dfc062.webp 760w,
+               /post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-results-group/ivory_hud1a5d6f583dcd8b4b2a8f946f4a10329_85647_822d4619d36d6ed2d454e48d77d8b6f7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;452&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This example shows queries to find sections that included words associated with the Assouan Dam. This was a bit more complex as the keyword is two different words. This required the query to add sections that would include “Assouan Dam” or (“Assouan” and “Dam”) together. There were 96 initial results for “Assouan Dam” and 263 counts of “Assouan” and “Dam” not including “Assouan Dam”. This was a total of 359 results, with 114 being relevant. This shows that 32.6% of results were relevant. There were a lot of irrelevant results caused by the word “Dam”. For instance, this brought up information related to “Damascus” or “Rotterdam”. The query search was updated to look for “Assouan” and 	           “ Dam “. This included a space before and after “dam” so that it would search for whole words only. This created a total of 117 results, meaning only 3 results were not relevant. This query resulted in a 97.4% relevant return.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;tableau&#34; srcset=&#34;
+               /post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_70374c2e405a58d0a49ef044ed01c898.webp 400w,
+               /post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_5d048ea2bcb9a8d0beec2288cc7ac332.webp 760w,
+               /post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-results-group/tableau_hubd31c8ba1203ebf52c01a78127945c9a_88352_70374c2e405a58d0a49ef044ed01c898.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;738&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This graph compiled all our relevancy trends into one chart, where ivory was in red, pain in teal, assouan dam in blue and Ryan’s in orange. Blue and teal each had similar trends, where the initial query was much larger than the later queries, but held less relevance. In the “pain” query case, that word gave more hits because it was in words like “painting”, which were not relevant to the analysis project. Future queries narrowed down the results, but made them more relevant to the subject being studied. Ryan’s analysis (orange) began with very few results and relevancy, and as the search went on, more accurate and functioning queries were made, which yielded more relevant results. The assoaun dam query, similar to “pain” dealt with multiple spellings and context for the dam. As the queries narrowed down, proper spelling, along with proper context increased, though total number of hits decreased. For the ivory query, there were multiple instances of the word mentioned, which had a lot of relevancy to the main topic. As the queries narrowed, they were designed to see if two subjects were at all related in relevancy, to test the hypothesis of the analysis. As the results narrowed, so to did the relevacny, which was valuable to the data gathered regarding the ivory trade.&lt;/p&gt;
+&lt;h2 id=&#34;how-future-students-can-use-it&#34;&gt;How future students can use it&lt;/h2&gt;
+&lt;p&gt;Our method of breaking down larger queries into more concise, filtered results was intended to help guide early research questions, and determine what stock words could be included (or excluded) from narrower queries. For future students of this class, using a simple graph to evaluate their early queries can help them visualize how feasible their potential research topic is. Additionally, from a learning perspective, running a multitude of queries allows for students to familiarize themselves with the markup language, and provides an opportunity to tinker around and see what works and what doesn’t, while still yielding useful data in their project.&lt;/p&gt;
+&lt;p&gt;This process is designed to be easy to use, quick to analyze, and simple to explain to others, as all you need to do is find a main word to search for, and produce as many smaller queries that you would like that contain that word. It is easy enough to divide the two results and make a bar graph to see how strongly related your queries are. If a future student were to query a word, like “army” and get back thousands of results, they could run finer searches that would exclude words, include the word “british”, or only find results on the third page, and see how much that skims down their data pool. If the pool is too shallow, it may not be the best to research. But if the data pool contains enough substantial evidence, while still being reasonable to look through, then that would pose a much more compelling research topic. This methodology we’ve designed is meant to help sort out and organize this process.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;All in all, we felt like this methodology was effective in the very early stages of posing your analysis question. Filtering out false positives (like with the word “painting”) can be done before more refined queries are made, and a general sense of what data you are working with can be seen early on. Otherwise, this method felt lackluster for the more in-depth steps of our research projects because all it can provide is a preliminary visualization of where your data will lead you. However, this process does help provide a simple foundation and direction for the task at hand and the method used was successful at doing just that. For future classes, this would be most effective as a suggestion made towards students running a large query that contains too many results to narrow down their findings, or to help those with very little results broaden their scope.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notable Locations in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;locations&#34; srcset=&#34;
+               /post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp 400w,
+               /post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_3513183750d8bb819db3b5c50c48151b.webp 760w,
+               /post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;477&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;egyptian&#34; srcset=&#34;
+               /post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp 400w,
+               /post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_e1bf71e592aeb1aa76ba4a0423ade5d1.webp 760w,
+               /post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp&#34;
+               width=&#34;724&#34;
+               height=&#34;436&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Place&lt;/th&gt;
+&lt;th&gt;Latitude&lt;/th&gt;
+&lt;th&gt;Longitude&lt;/th&gt;
+&lt;th&gt;Times mentioned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Cairo&lt;/td&gt;
+&lt;td&gt;30.0444&lt;/td&gt;
+&lt;td&gt;31.2357&lt;/td&gt;
+&lt;td&gt;4,885&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alexandria&lt;/td&gt;
+&lt;td&gt;31.1992&lt;/td&gt;
+&lt;td&gt;29.8952&lt;/td&gt;
+&lt;td&gt;4,786&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;51.5074&lt;/td&gt;
+&lt;td&gt;-0.1278&lt;/td&gt;
+&lt;td&gt;1,673&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;England&lt;/td&gt;
+&lt;td&gt;52.531&lt;/td&gt;
+&lt;td&gt;-1.2649&lt;/td&gt;
+&lt;td&gt;1,442&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paris&lt;/td&gt;
+&lt;td&gt;48.8589&lt;/td&gt;
+&lt;td&gt;2.32&lt;/td&gt;
+&lt;td&gt;512&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Suez&lt;/td&gt;
+&lt;td&gt;29.9745&lt;/td&gt;
+&lt;td&gt;32.5371&lt;/td&gt;
+&lt;td&gt;495&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kharum&lt;/td&gt;
+&lt;td&gt;15.5636&lt;/td&gt;
+&lt;td&gt;32.5349&lt;/td&gt;
+&lt;td&gt;477&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Constantinople&lt;/td&gt;
+&lt;td&gt;41.0064&lt;/td&gt;
+&lt;td&gt;28.9759&lt;/td&gt;
+&lt;td&gt;435&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Genoa&lt;/td&gt;
+&lt;td&gt;44.4073&lt;/td&gt;
+&lt;td&gt;8.9339&lt;/td&gt;
+&lt;td&gt;422&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Italy&lt;/td&gt;
+&lt;td&gt;42.6384&lt;/td&gt;
+&lt;td&gt;12.6743&lt;/td&gt;
+&lt;td&gt;383&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sahel&lt;/td&gt;
+&lt;td&gt;14.0279&lt;/td&gt;
+&lt;td&gt;-0.7718&lt;/td&gt;
+&lt;td&gt;368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Liverpool&lt;/td&gt;
+&lt;td&gt;53.4072&lt;/td&gt;
+&lt;td&gt;-2.9917&lt;/td&gt;
+&lt;td&gt;347&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;France&lt;/td&gt;
+&lt;td&gt;46.6034&lt;/td&gt;
+&lt;td&gt;1.8883&lt;/td&gt;
+&lt;td&gt;344&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ghizeh&lt;/td&gt;
+&lt;td&gt;30.0081&lt;/td&gt;
+&lt;td&gt;31.2109&lt;/td&gt;
+&lt;td&gt;334&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Abdeen&lt;/td&gt;
+&lt;td&gt;30.0383&lt;/td&gt;
+&lt;td&gt;31.2423&lt;/td&gt;
+&lt;td&gt;330&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Germany&lt;/td&gt;
+&lt;td&gt;51.1638&lt;/td&gt;
+&lt;td&gt;10.4478&lt;/td&gt;
+&lt;td&gt;311&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Florence&lt;/td&gt;
+&lt;td&gt;43.7699&lt;/td&gt;
+&lt;td&gt;11.2556&lt;/td&gt;
+&lt;td&gt;251&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Russia&lt;/td&gt;
+&lt;td&gt;55.7551&lt;/td&gt;
+&lt;td&gt;37.5909&lt;/td&gt;
+&lt;td&gt;246&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assuoan&lt;/td&gt;
+&lt;td&gt;24.0911&lt;/td&gt;
+&lt;td&gt;32.8973&lt;/td&gt;
+&lt;td&gt;217&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Helouan&lt;/td&gt;
+&lt;td&gt;29.8414&lt;/td&gt;
+&lt;td&gt;31.3008&lt;/td&gt;
+&lt;td&gt;175&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ramleh&lt;/td&gt;
+&lt;td&gt;30.4403&lt;/td&gt;
+&lt;td&gt;31.1553&lt;/td&gt;
+&lt;td&gt;171&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We decided to make our own group since we found that our topics could be similar or related. Our topics were theaters, murder, and sports. When analyzing the similarities or how related they might be, we found that both theaters and sports were a source of entertainment, but the relationship between entertainment and murder was quite unclear. That is when we decided we had to go beyond our topics, and find something else that could benefit us all. So, after digging a bit deeper, we found that we could work on a query that could work for all of us by making a part of it easily substitutable. We also realized that something that we could focus on could be places. Location was something that could add significantly to our projects, especially since we could explore the relationship between locations that were hotspots for events in the Egyptian Gazette and locations that could be significant to our individual projects.&lt;/p&gt;
+&lt;p&gt;To find the most mentioned locations in the Gazette, we had to develop a search that would actually find the greatest number of locations. Since the place name tag isn’t used very often, we had to take another approach to accurately find locations. To do this, we first developed a set of phrases that often came before a location name, so that we could search for those and ideally the place names would follow. We chose to use the following terms: in, near, to, at, and by. There were other terms, such as “from” that often preceded place names, but those had more to do with shipping and advertisements and less to do with events occurring in these places like we were looking for. Using those phrases, we created the following regular expression search: &lt;code&gt;(in|near|to|at|by) [A-Z]\w+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This would effectively search for any of our key phrases that were followed by a space, capital letter (since place names are capitalized) and the rest of that word. The space between the set of parentheses and brackets was crucial, because otherwise the search would return words that start with in or at, such as “into” or “attention.”&lt;/p&gt;
+&lt;p&gt;While that regular expression search was mostly effective, there were too many results to reasonably work with, so we had to refine our search in some way. We chose to exclude advertisements, because while advertisements often mentioned place names, they weren’t actually recording events happening. Most advertisements containing locations were talking about shipping or traveling, which we felt would skew the results towards these port cities and away from other centers of local activity. So, in our search, we added “restrict to XPath” with the following query: &lt;code&gt;//div[not(@n=”1”)]//div[not(@type=”advert”)]&lt;/code&gt;. This would eliminate the entire first page of the Gazette from our results, which was full of ads, as well as any additional advertisements that contained the div type “advert.”&lt;/p&gt;
+&lt;p&gt;Once we had our results from this search, we copied them into Sublime Text to simplify them down to only the place name. We then put that list into Voyant Tools, where it ranked the words based on how often they were mentioned. Most words were place names, but there were a few that weren’t quite relevant, such as “mr.” We then went through that list manually to find the top ten Egyptian cities mentioned, as well as the top ten cities overall.&lt;/p&gt;
+&lt;p&gt;When looking at the most mentioned place names, we noticed that while Alexandria and Cairo were pretty common, the majority of our findings represented cities and countries outside of Egypt. This data suggests that international affairs are pretty popular or relevant to the Egyptian Gazette and its readers. While it is not something that we queried for, we do know that this is true, since when coding the issues, we encounter a lot of information on shipping, steamers, and movement of people. These recurrent topics are seen in recurrent features of the Gazette, such as Steamer Movements, Shipping Movements, and Movement Maritime. European countries specifically are also prevalent in the datelines of letters and telegrams, with a lot of communication coming from major cities like London and Paris.&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1702578631004&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39;Mention of places in the Egyptian Gazette &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;path&#39; value=&#39;views&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5?:language=en-US&amp;amp;:embed=true&amp;amp;publish=yes&#39; /&gt; &lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en-US&#39; /&gt;&lt;param name=&#39;filter&#39; value=&#39;publish=yes&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1702578631004&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;p&gt;For the visualization we decided to use Tableau, since it opens the possibility for a more interactive representation. We geolocated each of the cities in our table (seen above) and graphed them into a map. Since the times the place was mentioned was what was really important in showing prevalence of places in the Egyptian Gazette, we modified the visualization to incorporate that. To do so, instead of just pointing out the places, we plotted dots in different sizes to showcase the amount of times the place was mentioned throughout the Gazette. Though the dots are moreless spread out with prominence in both Egypt and Europe, it is clear that the most mentions are of Egyptian places. Following Egypt would be England, which makes sense since Egypt was an English colony. Since the Gazette was not written in Arab, but in English and French it makes the most sense to have England and some english cities as second most mentioned, since the English settlers would be interested about what is going on in their own country, followed by France, to which the newspaper is sometimes addressed due to language.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Performances in Egypt</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-garcia/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-garcia/</guid>
+      <description>&lt;p&gt;For my project, I decided to explore the link between theatres in Egypt and the type of performances they showcase. As a dancer, the cultural and artistic elements of different parts of the world and times have always interested me, so I thought this would be a great opportunity to learn more. At first, I wanted to explore which theatres were more prevalent in the Gazette, but as I explored previous projects, I realized that it was already done and that I had to focus on fixing the issues that I saw with other projects and use the corrections to be able to say more with the data available.&lt;/p&gt;
+&lt;p&gt;The main issue that I saw with works preceding mine was that the x-paths followed, and queries performed were focused on the Calendar of coming events. While that is a good approach, considering that this is the place we would find the most information about events happening at the theatres, we also have to take into consideration flaws in our database. Looking exclusively on data tagged with the Calendar of Coming Events feature (@ComingEvents) would be a good search if we knew all instances of the Calendar of Coming Events were tagged with said feature and encoded in the same format.&lt;/p&gt;
+&lt;p&gt;To verify that my statement is correct, I searched for Calendar of Coming Events by name and by feature and compared them with the number of issues encoded. To calculate the number of features encoded I used the X-Path &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]&lt;/code&gt;. Since these tags are included in the template with which we create and encode our files, every file has page 1 encoded and tagged this way. Looking for page 1 will therefore give me the number of issues encoded and uploaded to the repository, which are 956 issues. Using the X-Path &lt;code&gt;//div[@feature=&amp;quot;comingEvents&amp;quot;]&lt;/code&gt; I counted the number of issues that have the section tagged with the respective feature, and I found out that only 609 issues have the Calendar of Coming events tagged with the feature tag. When looking for Calendar of Coming Events using a regular expression, I found 635 mentions of it, proving my point of the flaws in the encoding of the database.&lt;/p&gt;
+&lt;p&gt;Because of that issue, I decided that my queries would not be focused on the feature for the Calendar of Coming Events. To start my project, I wanted a list of theatres to focus on. To find this list, I used the regex &lt;code&gt;\w+ [A-Z]\w+ Theatre&lt;/code&gt;. Since not all of the results were useful, I cleaned up the results in Sublime text, and counted the instances in Microsoft Excel, to rank the theatres from most to least mentioned, and therefore find which theatres I should focus on.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Theatre&lt;/th&gt;
+&lt;th&gt;Count&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Zizinia Theatre&lt;/td&gt;
+&lt;td&gt;509&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alhambra Theatre&lt;/td&gt;
+&lt;td&gt;114&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;San Stefano Theatre&lt;/td&gt;
+&lt;td&gt;54&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Abbas Helmy Theatre&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Esbekieh Theatre&lt;/td&gt;
+&lt;td&gt;34&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Verdi Theatre&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Knowing the the feature @comingEvents was not reliable, I found an alternative way to format my searches. Since the performances are indeed listed in the Calendar of Coming Events but the feature is coded differently per issue, I used the X-path &lt;code&gt;//div[contains(., &#39;Calendar of Coming Events&#39;)]/p[contains(., &#39;Zizinia Theatre&#39;)]&lt;/code&gt;, To find paragraphs that included Zizinia Theatre in divs that contained Calendar of Coming Events. I would have made my x-path look for the Coming Events headline specifically instead of just anywhere in the div that contained the words, but I noticed that not all of the issues had the title formatted as a headline. After cleaning up the results to include only the date (issue) that included the mention, and the actual performance or show, I copied and pasted the results into an excel sheet and proceeded to follow the same steps for the other theatres, substituting the theatre name in the x-path.&lt;/p&gt;
+&lt;p&gt;Once I had all the results for the different theatres, I created two tables. For both I included date of mention, theatre name, and type of presentation or form of entertainment. The difference between the two is how detailed I was when categorizing the types of entertainments. For the first one, I tried to be as specific as I could be, so the results could be compared, for example, between two really similar categories, like French Opera vs Italian Opera. For the second table, I grouped like categories into one, to make the graph easier to understand and for it to need a bit less effort to read, since there are less categories.&lt;/p&gt;
+&lt;p&gt;Figure 1:&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1702578148244&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39;Type of Entertainment per date and theatre &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure1_17025781094050&amp;#47;Sheet1&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;site_root&#39; value=&#39;&#39; /&gt;&lt;param name=&#39;name&#39; value=&#39;Figure1_17025781094050&amp;#47;Sheet1&#39; /&gt;&lt;param name=&#39;tabs&#39; value=&#39;no&#39; /&gt;&lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure1_17025781094050&amp;#47;Sheet1&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en-US&#39; /&gt;&lt;param name=&#39;filter&#39; value=&#39;publish=yes&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1702578148244&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;p&gt;For figure 1, I used the single count dates (day/month/year) as columns, the type of event features as rows, and represented the different theatres with different colors in the representation. Due to its shorter height, this representation does an excellent job highlighting which events were happening around the same time, and in which theatres too. For example, January 1907 shows an opera in Zizinia Theatre, a Performance in Alhambra, and a play in the Esbekieh Gardens Theatre happening in the same week. This is also the case of July 1906, where we see a Ball and a Concert at San Stefano, and a comedy at Alhambra theatre. Because of the inconsistencies in coding, the dates shown are dates in which the events were mentioned in the Calendar of Coming Events and not the day the events were happening. However, I do not consider this to be so much of a problem since the Calendar of Coming Events only shows a week of events in advance, so the dates are pretty close. Since the events are mentioned daily in the Calendar of Coming Events, we do see multiple instances of an event being repeated in a short amount of time, but since this is something that happens across all theatres and all events, it is also not a problem. If anything, this could show how important an event is, since the more times mentioned in the Calendar of Coming Events would mean that more “advertising” for the Event is being done. Since the conditions of the search are the same for all events and all theatres, I would say that if a certain event is shown more than others, it is likely a more popular event or an event of more importance to the readers. For figure 1, I also reduced the number of events I showed, merging similar events into a single category. The Italian Opera, Juvenile Opera, and French Opera, for example, are all depicted in the Opera category.&lt;/p&gt;
+&lt;p&gt;Figure 2:&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1702577790413&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39;Type of entertainment per date and theatre &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure2_17025777579660&amp;#47;Sheet2&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;site_root&#39; value=&#39;&#39; /&gt;&lt;param name=&#39;name&#39; value=&#39;Figure2_17025777579660&amp;#47;Sheet2&#39; /&gt;&lt;param name=&#39;tabs&#39; value=&#39;no&#39; /&gt;&lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure2_17025777579660&amp;#47;Sheet2&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en-US&#39; /&gt;&lt;param name=&#39;filter&#39; value=&#39;publish=yes&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1702577790413&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;                    var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;p&gt;For Figure 2, I used type of entertainment as columns and exact dates as rows. I also included the different theatres identifying them with different colors in the graph. This graph clearly shows how mentions of events in theatres increased over time. This could be due to the number of issues encoded from each year, and the fact that we have not coded the entire newspaper. This could also be due to the different ways each student codes their issues, changing the results that the x-path search would yield. Another thing that we can see in this representation is what events are showcased in more than what theatre. French Comedy, for example, was shown in Esbekieh Gardens, Zizinia Theatre, and Alhambra. Similarly, the Italian Opera was also present in different theatres, namely Verdi, Abbas Helmy, Alhambra, and Zizinia Theatre. From this figure we can see a clear shift or alteration in where the events take place. While Italian Opera was predominantly shown in Abbas Helmy in 1905, it was mainly shown in Zizinia in 1907. Other events, like concerts and ballet, remained exclusively in one theatre. Ballet performances were shown in Alhambra only, and Concerts happened in San Stafano Only.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Elephants and Empire</title>

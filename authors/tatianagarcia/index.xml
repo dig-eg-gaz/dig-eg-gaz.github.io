@@ -1,1 +1,217 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tatiana Garcia | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/tatianagarcia/</link><atom:link href="https://dig-eg-gaz.github.io/authors/tatianagarcia/index.xml" rel="self" type="application/rss+xml"/><description>Tatiana Garcia</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>https://dig-eg-gaz.github.io/authors/tatianagarcia/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Tatiana Garcia</title><link>https://dig-eg-gaz.github.io/authors/tatianagarcia/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tatiana Garcia | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/tatianagarcia/</link><atom:link href="https://dig-eg-gaz.github.io/authors/tatianagarcia/index.xml" rel="self" type="application/rss+xml"/><description>Tatiana Garcia</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/tatianagarcia/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Tatiana Garcia</title><link>https://dig-eg-gaz.github.io/authors/tatianagarcia/</link></image><item><title>Notable Locations in the Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="locations" srcset="
+/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp 400w,
+/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_3513183750d8bb819db3b5c50c48151b.webp 760w,
+/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp"
+width="760"
+height="477"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="egyptian" srcset="
+/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp 400w,
+/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_e1bf71e592aeb1aa76ba4a0423ade5d1.webp 760w,
+/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp"
+width="724"
+height="436"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Place&lt;/th>
+&lt;th>Latitude&lt;/th>
+&lt;th>Longitude&lt;/th>
+&lt;th>Times mentioned&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cairo&lt;/td>
+&lt;td>30.0444&lt;/td>
+&lt;td>31.2357&lt;/td>
+&lt;td>4,885&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alexandria&lt;/td>
+&lt;td>31.1992&lt;/td>
+&lt;td>29.8952&lt;/td>
+&lt;td>4,786&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>London&lt;/td>
+&lt;td>51.5074&lt;/td>
+&lt;td>-0.1278&lt;/td>
+&lt;td>1,673&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>England&lt;/td>
+&lt;td>52.531&lt;/td>
+&lt;td>-1.2649&lt;/td>
+&lt;td>1,442&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paris&lt;/td>
+&lt;td>48.8589&lt;/td>
+&lt;td>2.32&lt;/td>
+&lt;td>512&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Suez&lt;/td>
+&lt;td>29.9745&lt;/td>
+&lt;td>32.5371&lt;/td>
+&lt;td>495&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kharum&lt;/td>
+&lt;td>15.5636&lt;/td>
+&lt;td>32.5349&lt;/td>
+&lt;td>477&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Constantinople&lt;/td>
+&lt;td>41.0064&lt;/td>
+&lt;td>28.9759&lt;/td>
+&lt;td>435&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Genoa&lt;/td>
+&lt;td>44.4073&lt;/td>
+&lt;td>8.9339&lt;/td>
+&lt;td>422&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Italy&lt;/td>
+&lt;td>42.6384&lt;/td>
+&lt;td>12.6743&lt;/td>
+&lt;td>383&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sahel&lt;/td>
+&lt;td>14.0279&lt;/td>
+&lt;td>-0.7718&lt;/td>
+&lt;td>368&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liverpool&lt;/td>
+&lt;td>53.4072&lt;/td>
+&lt;td>-2.9917&lt;/td>
+&lt;td>347&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>France&lt;/td>
+&lt;td>46.6034&lt;/td>
+&lt;td>1.8883&lt;/td>
+&lt;td>344&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ghizeh&lt;/td>
+&lt;td>30.0081&lt;/td>
+&lt;td>31.2109&lt;/td>
+&lt;td>334&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Abdeen&lt;/td>
+&lt;td>30.0383&lt;/td>
+&lt;td>31.2423&lt;/td>
+&lt;td>330&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Germany&lt;/td>
+&lt;td>51.1638&lt;/td>
+&lt;td>10.4478&lt;/td>
+&lt;td>311&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Florence&lt;/td>
+&lt;td>43.7699&lt;/td>
+&lt;td>11.2556&lt;/td>
+&lt;td>251&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Russia&lt;/td>
+&lt;td>55.7551&lt;/td>
+&lt;td>37.5909&lt;/td>
+&lt;td>246&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Assuoan&lt;/td>
+&lt;td>24.0911&lt;/td>
+&lt;td>32.8973&lt;/td>
+&lt;td>217&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Helouan&lt;/td>
+&lt;td>29.8414&lt;/td>
+&lt;td>31.3008&lt;/td>
+&lt;td>175&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ramleh&lt;/td>
+&lt;td>30.4403&lt;/td>
+&lt;td>31.1553&lt;/td>
+&lt;td>171&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>We decided to make our own group since we found that our topics could be similar or related. Our topics were theaters, murder, and sports. When analyzing the similarities or how related they might be, we found that both theaters and sports were a source of entertainment, but the relationship between entertainment and murder was quite unclear. That is when we decided we had to go beyond our topics, and find something else that could benefit us all. So, after digging a bit deeper, we found that we could work on a query that could work for all of us by making a part of it easily substitutable. We also realized that something that we could focus on could be places. Location was something that could add significantly to our projects, especially since we could explore the relationship between locations that were hotspots for events in the Egyptian Gazette and locations that could be significant to our individual projects.&lt;/p>
+&lt;p>To find the most mentioned locations in the Gazette, we had to develop a search that would actually find the greatest number of locations. Since the place name tag isn’t used very often, we had to take another approach to accurately find locations. To do this, we first developed a set of phrases that often came before a location name, so that we could search for those and ideally the place names would follow. We chose to use the following terms: in, near, to, at, and by. There were other terms, such as “from” that often preceded place names, but those had more to do with shipping and advertisements and less to do with events occurring in these places like we were looking for. Using those phrases, we created the following regular expression search: &lt;code>(in|near|to|at|by) [A-Z]\w+&lt;/code>&lt;/p>
+&lt;p>This would effectively search for any of our key phrases that were followed by a space, capital letter (since place names are capitalized) and the rest of that word. The space between the set of parentheses and brackets was crucial, because otherwise the search would return words that start with in or at, such as “into” or “attention.”&lt;/p>
+&lt;p>While that regular expression search was mostly effective, there were too many results to reasonably work with, so we had to refine our search in some way. We chose to exclude advertisements, because while advertisements often mentioned place names, they weren’t actually recording events happening. Most advertisements containing locations were talking about shipping or traveling, which we felt would skew the results towards these port cities and away from other centers of local activity. So, in our search, we added “restrict to XPath” with the following query: &lt;code>//div[not(@n=”1”)]//div[not(@type=”advert”)]&lt;/code>. This would eliminate the entire first page of the Gazette from our results, which was full of ads, as well as any additional advertisements that contained the div type “advert.”&lt;/p>
+&lt;p>Once we had our results from this search, we copied them into Sublime Text to simplify them down to only the place name. We then put that list into Voyant Tools, where it ranked the words based on how often they were mentioned. Most words were place names, but there were a few that weren’t quite relevant, such as “mr.” We then went through that list manually to find the top ten Egyptian cities mentioned, as well as the top ten cities overall.&lt;/p>
+&lt;p>When looking at the most mentioned place names, we noticed that while Alexandria and Cairo were pretty common, the majority of our findings represented cities and countries outside of Egypt. This data suggests that international affairs are pretty popular or relevant to the Egyptian Gazette and its readers. While it is not something that we queried for, we do know that this is true, since when coding the issues, we encounter a lot of information on shipping, steamers, and movement of people. These recurrent topics are seen in recurrent features of the Gazette, such as Steamer Movements, Shipping Movements, and Movement Maritime. European countries specifically are also prevalent in the datelines of letters and telegrams, with a lot of communication coming from major cities like London and Paris.&lt;/p>
+&lt;div class='tableauPlaceholder' id='viz1702578631004' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Mention of places in the Egyptian Gazette ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='path' value='views&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5?:language=en-US&amp;amp;:embed=true&amp;amp;publish=yes' /> &lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;param name='filter' value='publish=yes' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1702578631004'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;p>For the visualization we decided to use Tableau, since it opens the possibility for a more interactive representation. We geolocated each of the cities in our table (seen above) and graphed them into a map. Since the times the place was mentioned was what was really important in showing prevalence of places in the Egyptian Gazette, we modified the visualization to incorporate that. To do so, instead of just pointing out the places, we plotted dots in different sizes to showcase the amount of times the place was mentioned throughout the Gazette. Though the dots are moreless spread out with prominence in both Egypt and Europe, it is clear that the most mentions are of Egyptian places. Following Egypt would be England, which makes sense since Egypt was an English colony. Since the Gazette was not written in Arab, but in English and French it makes the most sense to have England and some english cities as second most mentioned, since the English settlers would be interested about what is going on in their own country, followed by France, to which the newspaper is sometimes addressed due to language.&lt;/p></description></item><item><title>Performances in Egypt</title><link>https://dig-eg-gaz.github.io/post/2023-analysis-garcia/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2023-analysis-garcia/</guid><description>&lt;p>For my project, I decided to explore the link between theatres in Egypt and the type of performances they showcase. As a dancer, the cultural and artistic elements of different parts of the world and times have always interested me, so I thought this would be a great opportunity to learn more. At first, I wanted to explore which theatres were more prevalent in the Gazette, but as I explored previous projects, I realized that it was already done and that I had to focus on fixing the issues that I saw with other projects and use the corrections to be able to say more with the data available.&lt;/p>
+&lt;p>The main issue that I saw with works preceding mine was that the x-paths followed, and queries performed were focused on the Calendar of coming events. While that is a good approach, considering that this is the place we would find the most information about events happening at the theatres, we also have to take into consideration flaws in our database. Looking exclusively on data tagged with the Calendar of Coming Events feature (@ComingEvents) would be a good search if we knew all instances of the Calendar of Coming Events were tagged with said feature and encoded in the same format.&lt;/p>
+&lt;p>To verify that my statement is correct, I searched for Calendar of Coming Events by name and by feature and compared them with the number of issues encoded. To calculate the number of features encoded I used the X-Path &lt;code>//div[@type=&amp;quot;page&amp;quot;][@n=&amp;quot;1&amp;quot;]&lt;/code>. Since these tags are included in the template with which we create and encode our files, every file has page 1 encoded and tagged this way. Looking for page 1 will therefore give me the number of issues encoded and uploaded to the repository, which are 956 issues. Using the X-Path &lt;code>//div[@feature=&amp;quot;comingEvents&amp;quot;]&lt;/code> I counted the number of issues that have the section tagged with the respective feature, and I found out that only 609 issues have the Calendar of Coming events tagged with the feature tag. When looking for Calendar of Coming Events using a regular expression, I found 635 mentions of it, proving my point of the flaws in the encoding of the database.&lt;/p>
+&lt;p>Because of that issue, I decided that my queries would not be focused on the feature for the Calendar of Coming Events. To start my project, I wanted a list of theatres to focus on. To find this list, I used the regex &lt;code>\w+ [A-Z]\w+ Theatre&lt;/code>. Since not all of the results were useful, I cleaned up the results in Sublime text, and counted the instances in Microsoft Excel, to rank the theatres from most to least mentioned, and therefore find which theatres I should focus on.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Theatre&lt;/th>
+&lt;th>Count&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Zizinia Theatre&lt;/td>
+&lt;td>509&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alhambra Theatre&lt;/td>
+&lt;td>114&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>San Stefano Theatre&lt;/td>
+&lt;td>54&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Abbas Helmy Theatre&lt;/td>
+&lt;td>49&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Esbekieh Theatre&lt;/td>
+&lt;td>34&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Verdi Theatre&lt;/td>
+&lt;td>26&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Knowing the the feature @comingEvents was not reliable, I found an alternative way to format my searches. Since the performances are indeed listed in the Calendar of Coming Events but the feature is coded differently per issue, I used the X-path &lt;code>//div[contains(., 'Calendar of Coming Events')]/p[contains(., 'Zizinia Theatre')]&lt;/code>, To find paragraphs that included Zizinia Theatre in divs that contained Calendar of Coming Events. I would have made my x-path look for the Coming Events headline specifically instead of just anywhere in the div that contained the words, but I noticed that not all of the issues had the title formatted as a headline. After cleaning up the results to include only the date (issue) that included the mention, and the actual performance or show, I copied and pasted the results into an excel sheet and proceeded to follow the same steps for the other theatres, substituting the theatre name in the x-path.&lt;/p>
+&lt;p>Once I had all the results for the different theatres, I created two tables. For both I included date of mention, theatre name, and type of presentation or form of entertainment. The difference between the two is how detailed I was when categorizing the types of entertainments. For the first one, I tried to be as specific as I could be, so the results could be compared, for example, between two really similar categories, like French Opera vs Italian Opera. For the second table, I grouped like categories into one, to make the graph easier to understand and for it to need a bit less effort to read, since there are less categories.&lt;/p>
+&lt;p>Figure 1:&lt;/p>
+&lt;div class='tableauPlaceholder' id='viz1702578148244' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Type of Entertainment per date and theatre ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure1_17025781094050&amp;#47;Sheet1&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='site_root' value='' />&lt;param name='name' value='Figure1_17025781094050&amp;#47;Sheet1' />&lt;param name='tabs' value='no' />&lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure1_17025781094050&amp;#47;Sheet1&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;param name='filter' value='publish=yes' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1702578148244'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;p>For figure 1, I used the single count dates (day/month/year) as columns, the type of event features as rows, and represented the different theatres with different colors in the representation. Due to its shorter height, this representation does an excellent job highlighting which events were happening around the same time, and in which theatres too. For example, January 1907 shows an opera in Zizinia Theatre, a Performance in Alhambra, and a play in the Esbekieh Gardens Theatre happening in the same week. This is also the case of July 1906, where we see a Ball and a Concert at San Stefano, and a comedy at Alhambra theatre. Because of the inconsistencies in coding, the dates shown are dates in which the events were mentioned in the Calendar of Coming Events and not the day the events were happening. However, I do not consider this to be so much of a problem since the Calendar of Coming Events only shows a week of events in advance, so the dates are pretty close. Since the events are mentioned daily in the Calendar of Coming Events, we do see multiple instances of an event being repeated in a short amount of time, but since this is something that happens across all theatres and all events, it is also not a problem. If anything, this could show how important an event is, since the more times mentioned in the Calendar of Coming Events would mean that more “advertising” for the Event is being done. Since the conditions of the search are the same for all events and all theatres, I would say that if a certain event is shown more than others, it is likely a more popular event or an event of more importance to the readers. For figure 1, I also reduced the number of events I showed, merging similar events into a single category. The Italian Opera, Juvenile Opera, and French Opera, for example, are all depicted in the Opera category.&lt;/p>
+&lt;p>Figure 2:&lt;/p>
+&lt;div class='tableauPlaceholder' id='viz1702577790413' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Type of entertainment per date and theatre ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure2_17025777579660&amp;#47;Sheet2&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='site_root' value='' />&lt;param name='name' value='Figure2_17025777579660&amp;#47;Sheet2' />&lt;param name='tabs' value='no' />&lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Fi&amp;#47;Figure2_17025777579660&amp;#47;Sheet2&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;param name='filter' value='publish=yes' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1702577790413'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;p>For Figure 2, I used type of entertainment as columns and exact dates as rows. I also included the different theatres identifying them with different colors in the graph. This graph clearly shows how mentions of events in theatres increased over time. This could be due to the number of issues encoded from each year, and the fact that we have not coded the entire newspaper. This could also be due to the different ways each student codes their issues, changing the results that the x-path search would yield. Another thing that we can see in this representation is what events are showcased in more than what theatre. French Comedy, for example, was shown in Esbekieh Gardens, Zizinia Theatre, and Alhambra. Similarly, the Italian Opera was also present in different theatres, namely Verdi, Abbas Helmy, Alhambra, and Zizinia Theatre. From this figure we can see a clear shift or alteration in where the events take place. While Italian Opera was predominantly shown in Abbas Helmy in 1905, it was mainly shown in Zizinia in 1907. Other events, like concerts and ballet, remained exclusively in one theatre. Ballet performances were shown in Alhambra only, and Concerts happened in San Stafano Only.&lt;/p></description></item></channel></rss>

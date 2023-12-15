@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harper West | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/harperwest/</link><atom:link href="https://dig-eg-gaz.github.io/authors/harperwest/index.xml" rel="self" type="application/rss+xml"/><description>Harper West</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/harperwest/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Harper West</title><link>https://dig-eg-gaz.github.io/authors/harperwest/</link></image><item><title>How is murder reported in the Egyptian Gazette?</title><link>https://dig-eg-gaz.github.io/post/2023-analysis-west/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2023-analysis-west/</guid><description>&lt;p>For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: &lt;code>//p[contains(., ‘murder’)]/text()&lt;/code>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harper West | Digital Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/authors/harperwest/</link><atom:link href="https://dig-eg-gaz.github.io/authors/harperwest/index.xml" rel="self" type="application/rss+xml"/><description>Harper West</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>https://dig-eg-gaz.github.io/authors/harperwest/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url><title>Harper West</title><link>https://dig-eg-gaz.github.io/authors/harperwest/</link></image><item><title>Notable Locations in the Egyptian Gazette</title><link>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="locations" srcset="
+/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp 400w,
+/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_3513183750d8bb819db3b5c50c48151b.webp 760w,
+/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/locations_hue26c9c97ca816078e56e5514befe71fb_58270_e13b31bc907ddf700617b56604eea33b.webp"
+width="760"
+height="477"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="egyptian" srcset="
+/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp 400w,
+/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_e1bf71e592aeb1aa76ba4a0423ade5d1.webp 760w,
+/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://dig-eg-gaz.github.io/post/2023-analysis-locations-group/egyptian_hu85ee7134b29628e08d63a37a29f19186_31847_36119af44b577e4b312c9f2a3a5e19e5.webp"
+width="724"
+height="436"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Place&lt;/th>
+&lt;th>Latitude&lt;/th>
+&lt;th>Longitude&lt;/th>
+&lt;th>Times mentioned&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cairo&lt;/td>
+&lt;td>30.0444&lt;/td>
+&lt;td>31.2357&lt;/td>
+&lt;td>4,885&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alexandria&lt;/td>
+&lt;td>31.1992&lt;/td>
+&lt;td>29.8952&lt;/td>
+&lt;td>4,786&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>London&lt;/td>
+&lt;td>51.5074&lt;/td>
+&lt;td>-0.1278&lt;/td>
+&lt;td>1,673&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>England&lt;/td>
+&lt;td>52.531&lt;/td>
+&lt;td>-1.2649&lt;/td>
+&lt;td>1,442&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paris&lt;/td>
+&lt;td>48.8589&lt;/td>
+&lt;td>2.32&lt;/td>
+&lt;td>512&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Suez&lt;/td>
+&lt;td>29.9745&lt;/td>
+&lt;td>32.5371&lt;/td>
+&lt;td>495&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kharum&lt;/td>
+&lt;td>15.5636&lt;/td>
+&lt;td>32.5349&lt;/td>
+&lt;td>477&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Constantinople&lt;/td>
+&lt;td>41.0064&lt;/td>
+&lt;td>28.9759&lt;/td>
+&lt;td>435&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Genoa&lt;/td>
+&lt;td>44.4073&lt;/td>
+&lt;td>8.9339&lt;/td>
+&lt;td>422&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Italy&lt;/td>
+&lt;td>42.6384&lt;/td>
+&lt;td>12.6743&lt;/td>
+&lt;td>383&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sahel&lt;/td>
+&lt;td>14.0279&lt;/td>
+&lt;td>-0.7718&lt;/td>
+&lt;td>368&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liverpool&lt;/td>
+&lt;td>53.4072&lt;/td>
+&lt;td>-2.9917&lt;/td>
+&lt;td>347&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>France&lt;/td>
+&lt;td>46.6034&lt;/td>
+&lt;td>1.8883&lt;/td>
+&lt;td>344&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ghizeh&lt;/td>
+&lt;td>30.0081&lt;/td>
+&lt;td>31.2109&lt;/td>
+&lt;td>334&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Abdeen&lt;/td>
+&lt;td>30.0383&lt;/td>
+&lt;td>31.2423&lt;/td>
+&lt;td>330&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Germany&lt;/td>
+&lt;td>51.1638&lt;/td>
+&lt;td>10.4478&lt;/td>
+&lt;td>311&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Florence&lt;/td>
+&lt;td>43.7699&lt;/td>
+&lt;td>11.2556&lt;/td>
+&lt;td>251&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Russia&lt;/td>
+&lt;td>55.7551&lt;/td>
+&lt;td>37.5909&lt;/td>
+&lt;td>246&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Assuoan&lt;/td>
+&lt;td>24.0911&lt;/td>
+&lt;td>32.8973&lt;/td>
+&lt;td>217&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Helouan&lt;/td>
+&lt;td>29.8414&lt;/td>
+&lt;td>31.3008&lt;/td>
+&lt;td>175&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ramleh&lt;/td>
+&lt;td>30.4403&lt;/td>
+&lt;td>31.1553&lt;/td>
+&lt;td>171&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>We decided to make our own group since we found that our topics could be similar or related. Our topics were theaters, murder, and sports. When analyzing the similarities or how related they might be, we found that both theaters and sports were a source of entertainment, but the relationship between entertainment and murder was quite unclear. That is when we decided we had to go beyond our topics, and find something else that could benefit us all. So, after digging a bit deeper, we found that we could work on a query that could work for all of us by making a part of it easily substitutable. We also realized that something that we could focus on could be places. Location was something that could add significantly to our projects, especially since we could explore the relationship between locations that were hotspots for events in the Egyptian Gazette and locations that could be significant to our individual projects.&lt;/p>
+&lt;p>To find the most mentioned locations in the Gazette, we had to develop a search that would actually find the greatest number of locations. Since the place name tag isn’t used very often, we had to take another approach to accurately find locations. To do this, we first developed a set of phrases that often came before a location name, so that we could search for those and ideally the place names would follow. We chose to use the following terms: in, near, to, at, and by. There were other terms, such as “from” that often preceded place names, but those had more to do with shipping and advertisements and less to do with events occurring in these places like we were looking for. Using those phrases, we created the following regular expression search: &lt;code>(in|near|to|at|by) [A-Z]\w+&lt;/code>&lt;/p>
+&lt;p>This would effectively search for any of our key phrases that were followed by a space, capital letter (since place names are capitalized) and the rest of that word. The space between the set of parentheses and brackets was crucial, because otherwise the search would return words that start with in or at, such as “into” or “attention.”&lt;/p>
+&lt;p>While that regular expression search was mostly effective, there were too many results to reasonably work with, so we had to refine our search in some way. We chose to exclude advertisements, because while advertisements often mentioned place names, they weren’t actually recording events happening. Most advertisements containing locations were talking about shipping or traveling, which we felt would skew the results towards these port cities and away from other centers of local activity. So, in our search, we added “restrict to XPath” with the following query: &lt;code>//div[not(@n=”1”)]//div[not(@type=”advert”)]&lt;/code>. This would eliminate the entire first page of the Gazette from our results, which was full of ads, as well as any additional advertisements that contained the div type “advert.”&lt;/p>
+&lt;p>Once we had our results from this search, we copied them into Sublime Text to simplify them down to only the place name. We then put that list into Voyant Tools, where it ranked the words based on how often they were mentioned. Most words were place names, but there were a few that weren’t quite relevant, such as “mr.” We then went through that list manually to find the top ten Egyptian cities mentioned, as well as the top ten cities overall.&lt;/p>
+&lt;p>When looking at the most mentioned place names, we noticed that while Alexandria and Cairo were pretty common, the majority of our findings represented cities and countries outside of Egypt. This data suggests that international affairs are pretty popular or relevant to the Egyptian Gazette and its readers. While it is not something that we queried for, we do know that this is true, since when coding the issues, we encounter a lot of information on shipping, steamers, and movement of people. These recurrent topics are seen in recurrent features of the Gazette, such as Steamer Movements, Shipping Movements, and Movement Maritime. European countries specifically are also prevalent in the datelines of letters and telegrams, with a lot of communication coming from major cities like London and Paris.&lt;/p>
+&lt;div class='tableauPlaceholder' id='viz1702578631004' style='position: relative'>&lt;noscript>&lt;a href='#'>&lt;img alt='Mention of places in the Egyptian Gazette ' src='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1_rss.png' style='border: none' />&lt;/a>&lt;/noscript>&lt;object class='tableauViz' style='display:none;'>&lt;param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> &lt;param name='embed_code_version' value='3' /> &lt;param name='path' value='views&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5?:language=en-US&amp;amp;:embed=true&amp;amp;publish=yes' /> &lt;param name='toolbar' value='yes' />&lt;param name='static_image' value='https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;No&amp;#47;NotableLocationsintheEgyptianGazette&amp;#47;Sheet5&amp;#47;1.png' /> &lt;param name='animate_transition' value='yes' />&lt;param name='display_static_image' value='yes' />&lt;param name='display_spinner' value='yes' />&lt;param name='display_overlay' value='yes' />&lt;param name='display_count' value='yes' />&lt;param name='language' value='en-US' />&lt;param name='filter' value='publish=yes' />&lt;/object>&lt;/div> &lt;script type='text/javascript'> var divElement = document.getElementById('viz1702578631004'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); &lt;/script>
+&lt;p>For the visualization we decided to use Tableau, since it opens the possibility for a more interactive representation. We geolocated each of the cities in our table (seen above) and graphed them into a map. Since the times the place was mentioned was what was really important in showing prevalence of places in the Egyptian Gazette, we modified the visualization to incorporate that. To do so, instead of just pointing out the places, we plotted dots in different sizes to showcase the amount of times the place was mentioned throughout the Gazette. Though the dots are moreless spread out with prominence in both Egypt and Europe, it is clear that the most mentions are of Egyptian places. Following Egypt would be England, which makes sense since Egypt was an English colony. Since the Gazette was not written in Arab, but in English and French it makes the most sense to have England and some english cities as second most mentioned, since the English settlers would be interested about what is going on in their own country, followed by France, to which the newspaper is sometimes addressed due to language.&lt;/p></description></item><item><title>How is murder reported in the Egyptian Gazette?</title><link>https://dig-eg-gaz.github.io/post/2023-analysis-west/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate><guid>https://dig-eg-gaz.github.io/post/2023-analysis-west/</guid><description>&lt;p>For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: &lt;code>//p[contains(., ‘murder’)]/text()&lt;/code>.&lt;/p>
 &lt;p>This enabled me to find all of the paragraphs containing the word “murder,” as well as surrounding text to gather some more details from the search. This search yielded about 800 items, so it was clear that murder was present enough in the Gazette to do some research with. This query was appropriate for a rough estimate of murder in the Gazette, but not much else. Since it looks for a paragraph containing the word murder, it can actually count the same case of murder multiple times if it is mentioned throughout several paragraphs. I knew that I had to get more specific with my topic, but finding that murder was at least relatively relevant within the Gazette was a good start.&lt;/p>
 &lt;h2 id="finalizing-a-topic">Finalizing a Topic&lt;/h2>
 &lt;p>After the initial stage of my project, I considered more deeply what exactly about murder that I wanted to focus on. I decided on an approach that would use murder as a measure of how reputable the Egyptian Gazette was for news. To do so, I would first evaluate the Gazette’s colonial bias against Egyptians (referred to as “natives”) by seeing if there was any difference in the reporting of native murders compared to non-native murders. The second criteria which I would use to evaluate the Gazette would involve comparing the number of recorded murders per year to the number of actual murders per year, as provided by the Egyptian Consul General papers.&lt;/p>

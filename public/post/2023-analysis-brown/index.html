@@ -78,7 +78,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: //p[contains(." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/2023-analysis-brown/" />
@@ -307,8 +307,8 @@
   
   <meta property="og:site_name" content="Digital Egyptian Gazette" />
   <meta property="og:url" content="https://dig-eg-gaz.github.io/post/2023-analysis-brown/" />
-  <meta property="og:title" content="Digital Egyptian Gazette" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:title" content="How is murder reported in the Egyptian Gazette? | Digital Egyptian Gazette" />
+  <meta property="og:description" content="For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: //p[contains(." /><meta property="og:image" content="https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -343,14 +343,14 @@
     "@type": "WebPage",
     "@id": "https://dig-eg-gaz.github.io/post/2023-analysis-brown/"
   },
-  "headline": "",
+  "headline": "How is murder reported in the Egyptian Gazette?",
   
   "datePublished": "2023-12-13T00:00:00Z",
   "dateModified": "2023-12-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Will Hanley"
+    "name": "Harper West"
   },
   
   "publisher": {
@@ -361,7 +361,7 @@
       "url": "https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": ""
+  "description": "For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: //p[contains(."
 }
 </script>
 
@@ -372,7 +372,7 @@
   
 
 
-  <title>Digital Egyptian Gazette</title>
+  <title>How is murder reported in the Egyptian Gazette? | Digital Egyptian Gazette</title>
 
   
   
@@ -728,7 +728,7 @@
   
   
 <div class="article-container pt-3">
-  <h1></h1>
+  <h1>How is murder reported in the Egyptian Gazette?</h1>
 
   
 
@@ -738,6 +738,16 @@
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/harperwest/">Harper West</a></span>
+  </div>
   
   
 
@@ -756,7 +766,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    7 min read
   </span>
   
 
@@ -788,7 +798,45 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: <code>//p[contains(., ‘murder’)]/text()</code>.</p>
+<p>This enabled me to find all of the paragraphs containing the word “murder,” as well as surrounding text to gather some more details from the search. This search yielded about 800 items, so it was clear that murder was present enough in the Gazette to do some research with. This query was appropriate for a rough estimate of murder in the Gazette, but not much else. Since it looks for a paragraph containing the word murder, it can actually count the same case of murder multiple times if it is mentioned throughout several paragraphs. I knew that I had to get more specific with my topic, but finding that murder was at least relatively relevant within the Gazette was a good start.</p>
+<h2 id="finalizing-a-topic">Finalizing a Topic</h2>
+<p>After the initial stage of my project, I considered more deeply what exactly about murder that I wanted to focus on. I decided on an approach that would use murder as a measure of how reputable the Egyptian Gazette was for news. To do so, I would first evaluate the Gazette’s colonial bias against Egyptians (referred to as “natives”) by seeing if there was any difference in the reporting of native murders compared to non-native murders. The second criteria which I would use to evaluate the Gazette would involve comparing the number of recorded murders per year to the number of actual murders per year, as provided by the Egyptian Consul General papers.</p>
+<h2 id="more-querying">More Querying</h2>
+<p>To begin these queries, I had to first determine what vocabulary would be most effective for searching. While the word “murder” had come to mind first, other words such as “homicide” and various forms of “kill” were used to describe these events. To evaluate which term was the most frequently used, I searched the following: <code>count(//div[contains(.,’murder’)])</code></p>
+<p>Where the word “murder” is would be interchanged for both kill and homicide to count the instances of these words. After a search of all three terms I found that murder returned 88 divs, kill returned 406 divs, and homicide returned zero divs. While it seemed that forms of the word kill were most prevalent, I read through about twenty of the results, and they were nowhere near as relevant as those that the term “murder” had returned. Most of the divs containing some form of kill either contained “murder” elsewhere in the paragraph (if it was describing a murder) or were more relevant to war. Since instances of war and other killings in non-murderous contexts (more common than it may seem) were far too common with the search including the word kill, I decided to stick with my original search of the term murder.</p>
+<p>To find the instances of native murders, I wanted to ensure I was using the correct vocabulary for that search as well. I had seen native and Arab most commonly used within the paper to refer to the Egyptians, so I decided to see if “Arab,” “native,” or “Egyptian” would yield the most results. For this to be relevant within the context of my project, I searched the instances of these words occurring in the same paragraph with the word murder. The query is as follows: <code>//div//p[matches(.,'murder', 'i')][matches(.,'native')]</code></p>
+<p>Where the word “native” is was interchanged with the other two words. Within paragraphs that contained “murder,” “native” appeared to be the most frequently occurring of these terms.</p>
+<p>Now that I had a query that effectively found all of the instances of murder involving a native, I copied the results into Sublime Text and shaved them down to the date and the relevant text. I then went through all of the results and put them into an Excel sheet, noting the date of the report, who (as in what nationality) was murdered, who was responsible for the murder, and where the murder occurred. Some of the results were eliminated because they were regarding attempted murder, war, or lacked necessary information.</p>
+<p>After identifying all of the cases of murder in which Egyptians were either the victim, perpetrator, or both, I needed a way to identify all of the other murders in the Gazette. After some tries, I reached the following query: <code>//div[@type=&quot;page&quot;]/div[not(@feature=&quot;wire&quot;)]//p[matches(.,'murder', 'i') and not(matches(.,'native', 'i'))]</code></p>
+<p>While not perfect, this query is able to find paragraphs containing murder that do not also contain the term native. In an attempt to hopefully eliminate news from other countries, I excluded divs with the feature “wire,” because I was noticing lots of telegrams reporting international murders within the results. This query does not account for multiple murders mentioned within separate paragraphs, nor does it eliminate uses of the word “murder” in a non-literal way (such as describing something as “murderous”). It did reduce the results down to about 424 items, which was a fairly believable number for the almost 3 1⁄2 years that are encoded.</p>
+<h2 id="visualization--analysis">Visualization &amp; Analysis</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="murder.png" alt="murder" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>I chose to visualize this data in a way that would achieve three things: (1) show the proportion of native to non-native murders reported, (2) compare the total number of murder reports by the Egyptian Gazette to the actual number of murders per year and (3) show the overall trend of murder at this time in Egypt.</p>
+<p>By closely analyzing the results of the search for “murder” and “native” together, I observed that there was not a single report of a native being murdered by an Englishman or other European. While I do not have a statistic to point to the occurrences of this, it seems highly unlikely that in three full years this never happened, especially given the imperial tensions at the time. The majority of the murders reported involving Egyptians were native-on-native violence. In each one of these cases, it was made clear that the murderer was also a native by a. directly calling them that, or b. naming them in full. If it was not clear that the murderer was a native, the murderer was either not mentioned, or just simply referred to anonymously as “the murderer,” even if they had been identified and proven guilty. This is an important finding because it shows that the Egyptian Gazette is inclined to report things that reflect poorly onto the Egyptians, but strays away from reporting incidences of Europeans killing the locals. I believe that this information discredits the Egyptian Gazette as a holistic source of Egyptian news at this time period because of its bias in reporting.</p>
+<p>When looking at the graph, it’s clear that these native-on-native crimes make up only a small portion of which murders are being reported. Combined with murders not involving natives, most of what is reported in the Gazette makes up only roughly a quarter of all of the incidences of murder that are happening in Egypt yearly. There could be many explanations for this trend. The first is the way the Egyptian Gazette chooses to report. Perhaps they choose the murders that are more relevant or will make a more entertaining story to report. Maybe they choose not to report when an Egyptian has been killed by a European. The explanations could also lie in the cases themselves. There could be an element of privacy, or some cases may simply just not be well known.</p>
+<p>The final trend that can be evaluated in this graph is the increasing number of murders in Egypt from 1905-1907. While the Gazette may not report this (their numbers seem to peak in 1906), the official documents of the Egyptian Consul General do show this. A pattern of increasing crime and civil unrest could be the result of a worsening environment between the Egyptians and the imperialist English power.</p>
+
     </div>
 
     
@@ -810,7 +858,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;text=" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;text=How%20is%20murder%20reported%20in%20the%20Egyptian%20Gazette?" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -823,7 +871,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;t=" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;t=How%20is%20murder%20reported%20in%20the%20Egyptian%20Gazette?" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -836,7 +884,7 @@
       
       
       <li>
-        <a href="mailto:?subject=&amp;body=https://dig-eg-gaz.github.io/post/2023-analysis-brown/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=How%20is%20murder%20reported%20in%20the%20Egyptian%20Gazette?&amp;body=https://dig-eg-gaz.github.io/post/2023-analysis-brown/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -849,7 +897,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;title=" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;title=How%20is%20murder%20reported%20in%20the%20Egyptian%20Gazette?" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -862,7 +910,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=%20https://dig-eg-gaz.github.io/post/2023-analysis-brown/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=How%20is%20murder%20reported%20in%20the%20Egyptian%20Gazette?%20https://dig-eg-gaz.github.io/post/2023-analysis-brown/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -875,7 +923,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;title=" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/2023-analysis-brown/&amp;title=How%20is%20murder%20reported%20in%20the%20Egyptian%20Gazette?" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -895,6 +943,7 @@
 
   
   
+    
 
 
 
@@ -906,13 +955,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="/authors/will/"><img class="avatar mr-3 avatar-circle" src="/authors/will/avatar_hu35b2da85a4fefe308ddc6fb1d889f904_40763_270x270_fill_q75_lanczos_center.jpg" alt="Will Hanley"></a>
+      <a href="/authors/harperwest/"><img class="avatar mr-3 avatar-circle" src="/authors/harperwest/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png" alt="Harper West"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/will/">Will Hanley</a></h5>
-      <h6 class="card-subtitle">Associate Professor of History</h6>
-      <p class="card-text">I study the legal history of the Middle East and teach at Florida State University.</p>
+      <h5 class="card-title"><a href="/authors/harperwest/">Harper West</a></h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text">The author, a student at Florida State University, was enrolled in the digital microhistory lab in fall 2023.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -927,39 +976,7 @@
       
     
     <li>
-      <a href="https://twitter.com/HanleyWill" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=d7LLAbwAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/whanley" target="_blank" rel="noopener">
+      <a href="https://github.com/harperwest" target="_blank" rel="noopener">
         <i class="fab fa-github"></i>
       </a>
     </li>
@@ -970,6 +987,7 @@
   </div>
 
 
+  
 
 
 

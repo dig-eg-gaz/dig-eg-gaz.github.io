@@ -5,7 +5,7 @@
     <link>https://dig-eg-gaz.github.io/</link>
       <atom:link href="https://dig-eg-gaz.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Egyptian Gazette</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/media/icon_hu3ccbb7e8d76090b34f602b231dc00fc8_804790_512x512_fill_lanczos_center_3.png</url>
       <title>Digital Egyptian Gazette</title>
@@ -45,111 +45,7 @@
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/issues/weeks/</guid>
       <description>&lt;h2 id=&#34;current-semester&#34;&gt;Current semester&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Issue 1&lt;/th&gt;
-&lt;th&gt;Issue 2&lt;/th&gt;
-&lt;th&gt;Issue 3&lt;/th&gt;
-&lt;th&gt;Assigned to&lt;/th&gt;
-&lt;th&gt;Images&lt;/th&gt;
-&lt;th&gt;Files&lt;/th&gt;
-&lt;th&gt;Notes&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-10-24&lt;/td&gt;
-&lt;td&gt;1904-10-25&lt;/td&gt;
-&lt;td&gt;1904-10-26&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/python-user8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blake Bole&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-10-27&lt;/td&gt;
-&lt;td&gt;1904-10-28&lt;/td&gt;
-&lt;td&gt;1904-10-29&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/nathanbrown823&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nathan Brown&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;19&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-10-31&lt;/td&gt;
-&lt;td&gt;1904-11-01&lt;/td&gt;
-&lt;td&gt;1904-11-02&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/JuliaCavaliere&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Julia Cavaliere&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-03&lt;/td&gt;
-&lt;td&gt;1904-11-04&lt;/td&gt;
-&lt;td&gt;1904-11-05&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/tatigarciaaa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tatiana Garcia&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-07&lt;/td&gt;
-&lt;td&gt;1904-11-08&lt;/td&gt;
-&lt;td&gt;1904-11-09&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/acg22d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alex Gonzalez&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-10&lt;/td&gt;
-&lt;td&gt;1904-11-11&lt;/td&gt;
-&lt;td&gt;1904-11-12&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/JeffLski&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jeff Lubinski&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-14&lt;/td&gt;
-&lt;td&gt;1904-11-15&lt;/td&gt;
-&lt;td&gt;1904-11-16&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/masmac26&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mason Macalka&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-17&lt;/td&gt;
-&lt;td&gt;1904-11-18&lt;/td&gt;
-&lt;td&gt;1904-11-19&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/CoPhinney&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colton Phinney&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-21&lt;/td&gt;
-&lt;td&gt;1904-11-22&lt;/td&gt;
-&lt;td&gt;1904-11-23&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/rs22cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ryan Schefstad&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-24&lt;/td&gt;
-&lt;td&gt;1904-11-25&lt;/td&gt;
-&lt;td&gt;1904-11-26&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/harperwest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harper West&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;all&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;N/A&lt;/p&gt;
 &lt;h2 id=&#34;items-lacking-previous-semesters&#34;&gt;Items lacking (previous semesters)&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -164,6 +60,24 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;October 29, 1904&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November 7, 1904&lt;/td&gt;
+&lt;td&gt;November 9, 1904&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;December 8, 1904&lt;/td&gt;
 &lt;td&gt;December 10, 1904&lt;/td&gt;
@@ -21484,6 +21398,615 @@ Some examples of commonly used regex codes:&lt;/p&gt;
     </item>
     
     <item>
+      <title>IDS2681 Fall 2023 Weeks</title>
+      <link>https://dig-eg-gaz.github.io/issues/weeks-fall-2023/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/issues/weeks-fall-2023/</guid>
+      <description>&lt;p&gt;This is an archived record of the weeks assigned in fall 2023&lt;/p&gt;
+&lt;h2 id=&#34;current-semester&#34;&gt;Current semester&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Issue 1&lt;/th&gt;
+&lt;th&gt;Issue 2&lt;/th&gt;
+&lt;th&gt;Issue 3&lt;/th&gt;
+&lt;th&gt;Assigned to&lt;/th&gt;
+&lt;th&gt;Images&lt;/th&gt;
+&lt;th&gt;Files&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-10-24&lt;/td&gt;
+&lt;td&gt;1904-10-25&lt;/td&gt;
+&lt;td&gt;1904-10-26&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/python-user8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blake Bole&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-10-27&lt;/td&gt;
+&lt;td&gt;1904-10-28&lt;/td&gt;
+&lt;td&gt;1904-10-29&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/nathanbrown823&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nathan Brown&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-10-31&lt;/td&gt;
+&lt;td&gt;1904-11-01&lt;/td&gt;
+&lt;td&gt;1904-11-02&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/JuliaCavaliere&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Julia Cavaliere&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-03&lt;/td&gt;
+&lt;td&gt;1904-11-04&lt;/td&gt;
+&lt;td&gt;1904-11-05&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/tatigarciaaa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tatiana Garcia&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-07&lt;/td&gt;
+&lt;td&gt;1904-11-08&lt;/td&gt;
+&lt;td&gt;1904-11-09&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/acg22d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alex Gonzalez&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-10&lt;/td&gt;
+&lt;td&gt;1904-11-11&lt;/td&gt;
+&lt;td&gt;1904-11-12&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/JeffLski&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jeff Lubinski&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-14&lt;/td&gt;
+&lt;td&gt;1904-11-15&lt;/td&gt;
+&lt;td&gt;1904-11-16&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/masmac26&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mason Macalka&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-17&lt;/td&gt;
+&lt;td&gt;1904-11-18&lt;/td&gt;
+&lt;td&gt;1904-11-19&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/CoPhinney&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colton Phinney&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-21&lt;/td&gt;
+&lt;td&gt;1904-11-22&lt;/td&gt;
+&lt;td&gt;1904-11-23&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rs22cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ryan Schefstad&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1904-11-24&lt;/td&gt;
+&lt;td&gt;1904-11-25&lt;/td&gt;
+&lt;td&gt;1904-11-26&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/harperwest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harper West&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;all&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maritime Narratives in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-phinney/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-phinney/</guid>
+      <description>&lt;p&gt;Ship technologies have been constantly evolving since their inception many thousands of years ago. In the early 20th century, there were many different uses ships had and different roles. Various types of ships throughout the turn of the century included the traditional wooden sailing ships and the now established steam ships. Journeying by sea had become one of the premier travelling and transport methods for a world that was quickly becoming globalized. Alexandria, Egypt, being a thriving port city, was an epicenter of international and local naval operations including trade &amp;amp; commerce, military, fishing &amp;amp; industry, scientific expeditions, construction &amp;amp; repair operations, leisure cruises, postal services, humanitarian aid/rescue vessels, navigation aids, event/celebration ships, diplomatic &amp;amp; international relations, and health and quarantine services. Throughout the current database of the Egyptian Gazette there are approximately 15,500 instances of the word &amp;ldquo;ship&amp;rdquo; being used which means that there is lot of information pertaining to them. The research question in this analysis is to distinguish the prevalence of different ship types as well as to find any patterns that emerge throughout the Gazette. To carry this out I used different querying methods to build up a database of ships.&lt;/p&gt;
+&lt;p&gt;For Instance, here are some instances of examples where trading ships are being found by combining terms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;Trade&amp;quot; + &amp;quot;Ship&amp;quot; &lt;/code&gt;         190 instances&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;Merchant&amp;quot; + &amp;quot;Ship&amp;quot; &lt;/code&gt;         81 intances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To make sure that the instances accurately reflect what I am trying to find some exclusion terms have proved helpful in conjunction with the other queries.
+For example,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/text() | //p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;passage&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;travel&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;training&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;passengers&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;soldier&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;trade&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;canal&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another method is finding paragraphs with multiple terms within them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\w+(?=repurposed?)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\w \w+ [ship] (?=repurposed?)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;[\w\w*] [\w\w*] repurposed[^t].?[\w\w]*[\w\w]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div//div[matches(.,&#39;ship&#39;,&#39;i&#39;)][matches(.,&#39;repurposed&#39;,&#39;i&#39;)]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are not perfect querying methods by any means, but it helps narrow down the data by a significant amount.&lt;/p&gt;
+&lt;p&gt;One question was to explore how seasonal changes might affect the different types of ships mentioned in the Gazette. Because months is an easy way to sort the data this is why seasons were chosen. To begin with I first started with the term &amp;ldquo;ship&amp;rdquo; as it appeared in different months. Here are those results:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;month&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;count&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;1718&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;1054&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;1236&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;1019&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;1186&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;1206&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;1383&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;1368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;1163&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;1422&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;1107&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;1614&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This is a good baseline and could form some initial hypothesis as to why there is an influx of mentions in the months of January and December. Could it have to do with trade? Seasonal tourism?&lt;/p&gt;
+&lt;p&gt;To further explore this, I took containing &amp;ldquo;ship&amp;rdquo; and the common word &amp;ldquo;training&amp;rdquo; which is associated with military uses and found paragraphs that contain both terms and had this compared across each month.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;month&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;count&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;1146&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;693&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;713&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;685&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;808&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;710&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;872&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;910&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;1126&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;1053&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;996&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;1151&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;What initially stands out with this data is how September contains nearly the same mentions as the baseline query which may suggest an above normal level of conflict during this period.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;phinney1&#34; srcset=&#34;
+               /post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_37870e4a4d15b2c7cf72380a4eabeded.webp 400w,
+               /post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_6535ace0007b048121dd8359ab84f900.webp 760w,
+               /post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_37870e4a4d15b2c7cf72380a4eabeded.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This chart is the first indication of a trend occurring with a slight deviation with regards to September. One possibility for this deviation was the conflict in Fashoda on September 18, 1898, &amp;ldquo;An army of 1,500 British and Egyptian soldiers and five gunboats under the command of Field Marshall Horatio Herbert Kitchener, fresh off of a victory over the Dervishes of the Sudanese Khalifa near Omdurman, was dispatched, and arrived at Fashoda on September 18.  A standoff was ignited; newspapers in both France and Britain fanned the flames; war orders were drafted and troops mobilized; and diplomats scurried to prevent a colonial war.&amp;rdquo; (LOC)
+The next step was to query div types that were adverts which contain certain text that I am looking for. Using &lt;code&gt;//div[@type=&amp;quot;advert&amp;quot;]//p[contains(.,&#39; ship&#39;)]/text()&lt;/code&gt;, I could search for instances of ships within advertisements which was overwhelmingly transport ships. This query resulted in 1351 instances. Broken down by year and compared to the previous results it looks as so:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;phinney2&#34; srcset=&#34;
+               /post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_627a324235d065119caead5d2f38fef1.webp 400w,
+               /post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_6f67ac41242c8253281acd91b7e8515d.webp 760w,
+               /post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_627a324235d065119caead5d2f38fef1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;While the new chart may tell us that maybe the ads containing &amp;ldquo;ship&amp;rdquo; are simply a more uniform occurrence, but observing the relative frequency of the ads versus the other data sets by month might be a better method.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Month&lt;/th&gt;
+&lt;th&gt;Ads with &amp;ldquo;Ship&amp;rdquo;&lt;/th&gt;
+&lt;th&gt;total by month&lt;/th&gt;
+&lt;th&gt;Ad RF&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;2959&lt;/td&gt;
+&lt;td&gt;3.21%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;February&lt;/td&gt;
+&lt;td&gt;91&lt;/td&gt;
+&lt;td&gt;1838&lt;/td&gt;
+&lt;td&gt;4.95%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;2044&lt;/td&gt;
+&lt;td&gt;4.65%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;79&lt;/td&gt;
+&lt;td&gt;1783&lt;/td&gt;
+&lt;td&gt;4.43%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;155&lt;/td&gt;
+&lt;td&gt;2149&lt;/td&gt;
+&lt;td&gt;7.21%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;4.91%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;131&lt;/td&gt;
+&lt;td&gt;2386&lt;/td&gt;
+&lt;td&gt;5.49%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;142&lt;/td&gt;
+&lt;td&gt;2420&lt;/td&gt;
+&lt;td&gt;5.87%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;2383&lt;/td&gt;
+&lt;td&gt;3.94%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;138&lt;/td&gt;
+&lt;td&gt;2613&lt;/td&gt;
+&lt;td&gt;5.28%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;137&lt;/td&gt;
+&lt;td&gt;2240&lt;/td&gt;
+&lt;td&gt;6.12%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;2860&lt;/td&gt;
+&lt;td&gt;3.32%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Given this data, advertising with ships is more frequent relative to other instances of ships in the months of May, November and possibly August.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;phinney3&#34; srcset=&#34;
+               /post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_75ba309dfb4694be57fd5373ceec7861.webp 400w,
+               /post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_5d06982922b1442218d878734627e0a2.webp 760w,
+               /post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_75ba309dfb4694be57fd5373ceec7861.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;445&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Months&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Instances of &amp;ldquo;Ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;instances of &amp;ldquo;Ship&amp;rdquo; + &amp;ldquo;training&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Ads with &amp;ldquo;Ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;&amp;ldquo;Exploration&amp;rdquo; + &amp;ldquo;ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;&amp;ldquo;Hospital ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1718&lt;/td&gt;
+&lt;td&gt;1146&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;412&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;February&lt;/td&gt;
+&lt;td&gt;1054&lt;/td&gt;
+&lt;td&gt;693&lt;/td&gt;
+&lt;td&gt;91&lt;/td&gt;
+&lt;td&gt;254&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;1236&lt;/td&gt;
+&lt;td&gt;713&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;270&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;1019&lt;/td&gt;
+&lt;td&gt;685&lt;/td&gt;
+&lt;td&gt;79&lt;/td&gt;
+&lt;td&gt;272&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;1186&lt;/td&gt;
+&lt;td&gt;808&lt;/td&gt;
+&lt;td&gt;155&lt;/td&gt;
+&lt;td&gt;338&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;1206&lt;/td&gt;
+&lt;td&gt;710&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;301&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;1383&lt;/td&gt;
+&lt;td&gt;872&lt;/td&gt;
+&lt;td&gt;131&lt;/td&gt;
+&lt;td&gt;368&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;1368&lt;/td&gt;
+&lt;td&gt;910&lt;/td&gt;
+&lt;td&gt;142&lt;/td&gt;
+&lt;td&gt;361&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;1163&lt;/td&gt;
+&lt;td&gt;1126&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;437&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;1422&lt;/td&gt;
+&lt;td&gt;1053&lt;/td&gt;
+&lt;td&gt;138&lt;/td&gt;
+&lt;td&gt;379&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;1107&lt;/td&gt;
+&lt;td&gt;996&lt;/td&gt;
+&lt;td&gt;137&lt;/td&gt;
+&lt;td&gt;374&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;1614&lt;/td&gt;
+&lt;td&gt;1151&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;499&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;15476&lt;/td&gt;
+&lt;td&gt;10863&lt;/td&gt;
+&lt;td&gt;1351&lt;/td&gt;
+&lt;td&gt;4265&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Great, so what does all this mean? Well, there is some indication that a trend exists among some of the data, generally there is an uptick with ship mentions around December and January. What this could mean in terms of cause and effect is not an easy question to answer. One of the challenges when working with the data at hand was the overwhelming quantity of unnecessary instances coming up from the initial results. So being able to use a combination of querying methods as well as visual representations gives a different kind of approach when it comes to tackling some questions about the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;While trying to see how this data might lead to understanding the Gazette better, by looking at how ships are mentioned based on their use, it can show more broadly what the paper geared itself more towards. For instance, in my findings military uses outweighed all other categories when it came to ships which could indicated a strong focus on politics and war. Interestingly the scientific uses of ships was more prevalent than say hospital ships. The data and queries in this investigation were not perfect by any means and served more than anything as a way to shave off unwanted results while trying as best as possible to maintain the results wanted.&lt;/p&gt;
+&lt;h2 id=&#34;work-cited&#34;&gt;Work Cited&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogs.loc.gov/maps/2020/04/when-pride-mattered/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blogs.loc.gov/maps/2020/04/when-pride-mattered/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cotton Futures</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-brown/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-brown/</guid>
+      <description>&lt;p&gt;For my project, I decided to research Egyptian futures. Originally I thought that the futures that would be most relevant in the gazette as well as the Egyptian economy would be oil futures. After some research, however, I found that oil futures could have been more relevant in the gazette. This surprised me because of how important oil futures were during the 20th and 21st centuries. After consultation of secondary literature, I realized that the reason that they were not extremely relevant in the Gazette is that oil was not seen as the agent for the industry as it is seen today. At the turn of the 20th century, uses for oil were limited to things like lanterns, and candles, which means that it was only seen as a source for light. The future uses for oil, for things such as petroleum and powering the automobile, had not quite been discovered yet. Another limiting factor for the historical evolution of oil in the Egyptian economy was British control over Egypt. During the early 1900s, Great Britain still had somewhat of a strangle hold on the Egyptian economy. Egypt was subject to any rules or tariffs that Great Britain set for them. This included a rule that limited Egypt for imposing tariffs on oil importation and exportation. Which meant that it was not in the economic interest of Egypt to invest in oil production or trade. At the time, cotton was a far more important commodity, which is why it was mentioned far more in the Gazette. The reason cotton was a far more important commodity was because of its many uses and implications as a textile. One, somewhat obvious, use of cotton at the time was for clothing. The slightly less obvious uses for it would be for medical products such as dressings and bandages, bindings for books, and nets for fishing. This means that it is not hyperbole to say that cotton was an instrumental part of the Egyptian economy. After some research in the gazette and multiple queries, I found a section called closing reports data, which was essentially an economic report. In this report, there was a pricing for cotton futures every month or so that showed the growth rate of cotton futures in Egypt. After visualizing these data points in a graph, which can be seen below, it is obvious how economically steady cotton was.&lt;/p&gt;
+&lt;p&gt;The query I used that eventually led me to the closing reports data was &lt;code&gt;//div[contains(., &amp;quot;cotton futures&amp;quot;)]&lt;/code&gt;. I found the process of finding successful Xpath query’s very difficult. The reason for this was the lack of helpful articles containing information about futures. Originally my queries were for oil futures, however after doing these query’s and outside research, I realized the lack of relevance that oil futures had in the gazette. After realizing that cotton futures were the more relevant topic, it took quite some time to find quantitative data regarding cotton futures. Most of the articles regarding cotton futures that could be found in the gazette were advertisements or things of the like. That is until I discovered the closing reports data, which gave me the quantitative data that I need in order to draw a history of cotton futures in Egypt. After analyzing the visualization of the data contained in the closing reports data. This data shows how consistently sturdy cotton was, in terms of its economic abilities and its applications as a textile in early 20th century Egypt.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;futures&#34; srcset=&#34;
+               /post/2023-analysis-brown/futures_hu73df39d9581c96c8e389ec905b37f828_56241_e9720e11113590ae59bdef5e59ba184a.webp 400w,
+               /post/2023-analysis-brown/futures_hu73df39d9581c96c8e389ec905b37f828_56241_8cf0ddcc7431207d5fd9983acca095cc.webp 760w,
+               /post/2023-analysis-brown/futures_hu73df39d9581c96c8e389ec905b37f828_56241_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-brown/futures_hu73df39d9581c96c8e389ec905b37f828_56241_e9720e11113590ae59bdef5e59ba184a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;470&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bautista, R. M., and C. G. Gehlhar. “Price competitiveness and variability in Egyptian cotton: Effects of sectoral and economy-wide policies.” Journal of African Economies, vol. 5, no. 1, 1996, pp. 21–51, &lt;a href=&#34;https://doi.org/10.1093/oxfordjournals.jae.a020898&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1093/oxfordjournals.jae.a020898&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Richards, Alan. “Technical and social change in Egyptian agriculture: 1890-1914.” Economic Development and Cultural Change, vol. 26, no. 4, 1978, pp. 725–745, &lt;a href=&#34;https://doi.org/10.1086/451056&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1086/451056&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sports in the Egyptian Gazette</title>
       <link>https://dig-eg-gaz.github.io/post/2023-analysis-bole/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
@@ -22022,52 +22545,6 @@ Some examples of commonly used regex codes:&lt;/p&gt;
     
     <item>
       <title>How is murder reported in the Egyptian Gazette?</title>
-      <link>https://dig-eg-gaz.github.io/post/2023-analysis-brown/</link>
-      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-brown/</guid>
-      <description>&lt;p&gt;For my analysis project, I wanted to observe how murder was reported in the Egyptian Gazette. To gauge whether or not this was a feasible topic within the Gazette, I began with the simple query: &lt;code&gt;//p[contains(., ‘murder’)]/text()&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;This enabled me to find all of the paragraphs containing the word “murder,” as well as surrounding text to gather some more details from the search. This search yielded about 800 items, so it was clear that murder was present enough in the Gazette to do some research with. This query was appropriate for a rough estimate of murder in the Gazette, but not much else. Since it looks for a paragraph containing the word murder, it can actually count the same case of murder multiple times if it is mentioned throughout several paragraphs. I knew that I had to get more specific with my topic, but finding that murder was at least relatively relevant within the Gazette was a good start.&lt;/p&gt;
-&lt;h2 id=&#34;finalizing-a-topic&#34;&gt;Finalizing a Topic&lt;/h2&gt;
-&lt;p&gt;After the initial stage of my project, I considered more deeply what exactly about murder that I wanted to focus on. I decided on an approach that would use murder as a measure of how reputable the Egyptian Gazette was for news. To do so, I would first evaluate the Gazette’s colonial bias against Egyptians (referred to as “natives”) by seeing if there was any difference in the reporting of native murders compared to non-native murders. The second criteria which I would use to evaluate the Gazette would involve comparing the number of recorded murders per year to the number of actual murders per year, as provided by the Egyptian Consul General papers.&lt;/p&gt;
-&lt;h2 id=&#34;more-querying&#34;&gt;More Querying&lt;/h2&gt;
-&lt;p&gt;To begin these queries, I had to first determine what vocabulary would be most effective for searching. While the word “murder” had come to mind first, other words such as “homicide” and various forms of “kill” were used to describe these events. To evaluate which term was the most frequently used, I searched the following: &lt;code&gt;count(//div[contains(.,’murder’)])&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Where the word “murder” is would be interchanged for both kill and homicide to count the instances of these words. After a search of all three terms I found that murder returned 88 divs, kill returned 406 divs, and homicide returned zero divs. While it seemed that forms of the word kill were most prevalent, I read through about twenty of the results, and they were nowhere near as relevant as those that the term “murder” had returned. Most of the divs containing some form of kill either contained “murder” elsewhere in the paragraph (if it was describing a murder) or were more relevant to war. Since instances of war and other killings in non-murderous contexts (more common than it may seem) were far too common with the search including the word kill, I decided to stick with my original search of the term murder.&lt;/p&gt;
-&lt;p&gt;To find the instances of native murders, I wanted to ensure I was using the correct vocabulary for that search as well. I had seen native and Arab most commonly used within the paper to refer to the Egyptians, so I decided to see if “Arab,” “native,” or “Egyptian” would yield the most results. For this to be relevant within the context of my project, I searched the instances of these words occurring in the same paragraph with the word murder. The query is as follows: &lt;code&gt;//div//p[matches(.,&#39;murder&#39;, &#39;i&#39;)][matches(.,&#39;native&#39;)]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Where the word “native” is was interchanged with the other two words. Within paragraphs that contained “murder,” “native” appeared to be the most frequently occurring of these terms.&lt;/p&gt;
-&lt;p&gt;Now that I had a query that effectively found all of the instances of murder involving a native, I copied the results into Sublime Text and shaved them down to the date and the relevant text. I then went through all of the results and put them into an Excel sheet, noting the date of the report, who (as in what nationality) was murdered, who was responsible for the murder, and where the murder occurred. Some of the results were eliminated because they were regarding attempted murder, war, or lacked necessary information.&lt;/p&gt;
-&lt;p&gt;After identifying all of the cases of murder in which Egyptians were either the victim, perpetrator, or both, I needed a way to identify all of the other murders in the Gazette. After some tries, I reached the following query: &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div[not(@feature=&amp;quot;wire&amp;quot;)]//p[matches(.,&#39;murder&#39;, &#39;i&#39;) and not(matches(.,&#39;native&#39;, &#39;i&#39;))]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;While not perfect, this query is able to find paragraphs containing murder that do not also contain the term native. In an attempt to hopefully eliminate news from other countries, I excluded divs with the feature “wire,” because I was noticing lots of telegrams reporting international murders within the results. This query does not account for multiple murders mentioned within separate paragraphs, nor does it eliminate uses of the word “murder” in a non-literal way (such as describing something as “murderous”). It did reduce the results down to about 424 items, which was a fairly believable number for the almost 3 1⁄2 years that are encoded.&lt;/p&gt;
-&lt;h2 id=&#34;visualization--analysis&#34;&gt;Visualization &amp;amp; Analysis&lt;/h2&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;murder.png&#34; alt=&#34;murder&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;I chose to visualize this data in a way that would achieve three things: (1) show the proportion of native to non-native murders reported, (2) compare the total number of murder reports by the Egyptian Gazette to the actual number of murders per year and (3) show the overall trend of murder at this time in Egypt.&lt;/p&gt;
-&lt;p&gt;By closely analyzing the results of the search for “murder” and “native” together, I observed that there was not a single report of a native being murdered by an Englishman or other European. While I do not have a statistic to point to the occurrences of this, it seems highly unlikely that in three full years this never happened, especially given the imperial tensions at the time. The majority of the murders reported involving Egyptians were native-on-native violence. In each one of these cases, it was made clear that the murderer was also a native by a. directly calling them that, or b. naming them in full. If it was not clear that the murderer was a native, the murderer was either not mentioned, or just simply referred to anonymously as “the murderer,” even if they had been identified and proven guilty. This is an important finding because it shows that the Egyptian Gazette is inclined to report things that reflect poorly onto the Egyptians, but strays away from reporting incidences of Europeans killing the locals. I believe that this information discredits the Egyptian Gazette as a holistic source of Egyptian news at this time period because of its bias in reporting.&lt;/p&gt;
-&lt;p&gt;When looking at the graph, it’s clear that these native-on-native crimes make up only a small portion of which murders are being reported. Combined with murders not involving natives, most of what is reported in the Gazette makes up only roughly a quarter of all of the incidences of murder that are happening in Egypt yearly. There could be many explanations for this trend. The first is the way the Egyptian Gazette chooses to report. Perhaps they choose the murders that are more relevant or will make a more entertaining story to report. Maybe they choose not to report when an Egyptian has been killed by a European. The explanations could also lie in the cases themselves. There could be an element of privacy, or some cases may simply just not be well known.&lt;/p&gt;
-&lt;p&gt;The final trend that can be evaluated in this graph is the increasing number of murders in Egypt from 1905-1907. While the Gazette may not report this (their numbers seem to peak in 1906), the official documents of the Egyptian Consul General do show this. A pattern of increasing crime and civil unrest could be the result of a worsening environment between the Egyptians and the imperialist English power.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How is murder reported in the Egyptian Gazette?</title>
       <link>https://dig-eg-gaz.github.io/post/2023-analysis-west/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2023-analysis-west/</guid>
@@ -22281,16 +22758,17 @@ Some examples of commonly used regex codes:&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2023-analysis-macalka/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2023-analysis-macalka/</guid>
-      <description>&lt;p&gt;The topic I chose was the significance of the Assouan Dam in The Egyptian Gazette. Ichose this topic because I thought it would be interesting to research something that is not insideCairo or Alexandria, which makes up a majority of the Gazette’s news. When looking for a topic,I found trouble trying to find something that was significant on a global scale or at least outsideof Egypt and the Gazette. I found the Assouan Dam when I saw almost an entire half-pagededicated to it, and after further research found a story that had continued throughout the fouryears of news that is available. Assouan was an area that was both rich in agriculture as well astourism and historical importance.&lt;/p&gt;
-&lt;p&gt;Located on the border of the Upper Nile and Lower Nile, a dam was built in 1902 to helpthe agricultural industry as well as to protect Philae, an island in the Nile with an ancient templecomplex. The temples were built around 6th-7th Century BC and is Assouan’s biggest touristattraction even to this day. Due to Philae being a small island that had little elevation, it wasprone to flooding if there was no control on the water level. Cotton, grains, and lentils weremajor crops that would be exported to Cairo and presumably around the world. It required theNile to be at a steady level so that the fields would not get flooded. In early 1905, articles in theGazette showed people complaining that the dam was not high enough and floods wouldeventually come and ruin Philae and the crops. However, the government did not care, and theydid not raise the dam. In 1906, architects or scientists would show how the flooding is on track tobreach the dam. In late 1906, letters to the editor included some stern messages to thegovernment demanding for money to be allocated to the raising of the dam, still with no success.In July 1907, the dam flooded and ruined a lot of fields and flooded Philae, causing extensivedamage.&lt;/p&gt;
-&lt;p&gt;This was included in the Gazette likely because Assouan was a major agricultural hubthat would supply Alexandria and Cairo with crops. When I researched other reasons Assouanwas included in the newspaper, the most common appearances were in the export and importsections, as well as stating when ferries or boats were departing from a port to go to Assouan.This was also included because the federal government was responsible for allocating funds tothe construction and re-raising of the dam, not a local government. The Letter to the Editorssection included several messages from people who were complaining or demanding thesechanges in Assouan, so that made it a big deal up in North Egypt where the Gazette waspublished.&lt;/p&gt;
-&lt;p&gt;This analysis project looks at The Egyptian Gazette to see what context the Assouan Damis in throughout the newspaper. Originally using the ‘Find/Replace’ tool inside Oxygen XML, Icame across a lot of improper results for a lot of key words or phrases. Another issue I cameacross was word capitalization. I added a tag in my queries to make the word searches not casesensitive. Lastly, another tweak I made when querying was for the word ‘dam’ adding spacesbefore and after (‘ dam ‘) so that it would pick up whole words rather than parts of words such as ‘Damascus’. Instead of finding how many times each word was said as well, I decided to countinstances based on the number of sections included each term. This created a constant for allwords as well, just showing how relevant they were instead of how common a word was stated.One section could repeat “Assouan Dam” ten times and be as relevant as a section whose headeris “Assouan Dam” and it not stated again in the paragraphs.&lt;/p&gt;
-&lt;p&gt;The XML query format I used throughout this entire project was &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div/p[matches(., ‘assouan’, &#39;i&#39;)]&lt;/code&gt; or if there was multiple words I needed to search for, &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div/p[matches(., &#39;asso&lt;/code&gt;uan&amp;rsquo;, &amp;lsquo;i&amp;rsquo;) and matches(., &amp;rsquo; dam &amp;lsquo;, &amp;lsquo;i&amp;rsquo;)].&lt;/p&gt;
-&lt;p&gt;Prior to querying, I read about 20 sections that talked about the dam in order to see whatwas relevant to the topic. I found that a majority of sections about the dam talked or referred toone of three topics: agriculture, architecture, or the government. After initial querying, I foundthat some sections would not show up, so I had to group some keywords together into a section.Government was independent, agriculture included ‘irrigation’, while architecture included ‘temple’ and ‘Philae’. I wanted to visualize the instances of these sections in a way that wasdifferent than a bar graph. Bar graphs are efficient in showing one dimension, which is countinginstances. However, I added another dimension to the data visualization by showing overlap ofinstances between two or three keywords as well. A lot of important keywords were related,which stems back to my research topic. In order to visualize my data, I used Adobe Photoshop tocreate a landscape of rectangles that would clearly show a size difference that was based on thenumber of instances. I could not use squares or the exact same ratio rectangles because thenumber of keywords I queried for would not fit visually. In order to adapt to this issue, I made the equation:&lt;/p&gt;
+      <description>&lt;p&gt;The topic I chose was the significance of the Assouan Dam in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. I chose this topic because I thought it would be interesting to research something that is not inside Cairo or Alexandria, which makes up a majority of the Gazette&amp;quot;s news. When looking for a topic, I found trouble trying to find something that was significant on a global scale or at least outside of Egypt and the &lt;em&gt;Gazette&lt;/em&gt;. I found the Assouan Dam when I saw almost an entire half-page dedicated to it, and after further research found a story that had continued throughout the four years of news that is available. Assouan was an area that was both rich in agriculture as well as tourism and historical importance.&lt;/p&gt;
+&lt;p&gt;Located on the border of the Upper Nile and Lower Nile, a dam was built in 1902 to help the agricultural industry as well as to protect Philae, an island in the Nile with an ancient temple complex. The temples were built around 6th-7th Century BC and is Assouan&amp;quot;s biggest tourist attraction even to this day. Due to Philae being a small island that had little elevation, it was prone to flooding if there was no control on the water level. Cotton, grains, and lentils were major crops that would be exported to Cairo and presumably around the world. It required the Nile to be at a steady level so that the fields would not get flooded. In early 1905, articles in the &lt;em&gt;Gazette&lt;/em&gt; showed people complaining that the dam was not high enough and floods would eventually come and ruin Philae and the crops. However, the government did not care, and they did not raise the dam. In 1906, architects or scientists would show how the flooding is on track to breach the dam. In late 1906, letters to the editor included some stern messages to the government demanding for money to be allocated to the raising of the dam, still with no success. In July 1907, the dam flooded and ruined a lot of fields and flooded Philae, causing extensive damage.&lt;/p&gt;
+&lt;p&gt;This was included in the &lt;em&gt;Gazette&lt;/em&gt; likely because Assouan was a major agricultural hub that would supply Alexandria and Cairo with crops. When I researched other reasons Assouan was included in the newspaper, the most common appearances were in the export and import sections, as well as stating when ferries or boats were departing from a port to go to Assouan. This was also included because the federal government was responsible for allocating funds to the construction and re-raising of the dam, not a local government. The &amp;ldquo;Letter to the Editors&amp;rdquo; section included several messages from people who were complaining or demanding these changes in Assouan, so that made it a big deal up in North Egypt where the &lt;em&gt;Gazette&lt;/em&gt; was published.&lt;/p&gt;
+&lt;p&gt;This analysis project looks at the &lt;em&gt;Egyptian Gazette&lt;/em&gt; to see what context the Assouan Dam is in throughout the newspaper. Originally using the &amp;ldquo;Find/Replace&amp;rdquo; tool inside Oxygen XML, I came across a lot of improper results for a lot of key words or phrases. Another issue I came across was word capitalization. I added a tag in my queries to make the word searches not case sensitive. Lastly, another tweak I made when querying was for the word &amp;ldquo;dam&amp;rdquo; adding spaces before and after (&lt;code&gt; dam &lt;/code&gt;) so that it would pick up whole words rather than parts of words such as &amp;ldquo;Damascus&amp;rdquo;. Instead of finding how many times each word was said as well, I decided to count instances based on the number of sections included each term. This created a constant for all words as well, just showing how relevant they were instead of how common a word was stated. One section could repeat &amp;ldquo;Assouan Dam&amp;rdquo; ten times and be as relevant as a section whose header is &amp;ldquo;Assouan Dam&amp;rdquo; and it not stated again in the paragraphs.&lt;/p&gt;
+&lt;p&gt;The XML query format I used throughout this entire project was &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div/p[matches(., &amp;quot;assouan&amp;quot;, &#39;i&#39;)]&lt;/code&gt; or if there was multiple words I needed to search for, &lt;code&gt;//div[@type=&amp;quot;page&amp;quot;]/div/p[matches(., &#39;assouan&#39;, &#39;i&#39;) and matches(., &#39; dam &#39;, &#39;i&#39;)]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Prior to querying, I read about 20 sections that talked about the dam in order to see what was relevant to the topic. I found that a majority of sections about the dam talked or referred to one of three topics: agriculture, architecture, or the government. After initial querying, I found that some sections would not show up, so I had to group some keywords together into a section. Government was independent, agriculture included &amp;ldquo;irrigation&amp;rdquo;, while architecture included &amp;ldquo;temple&amp;rdquo; and &amp;ldquo;Philae&amp;rdquo;. I wanted to visualize the instances of these sections in a way that was different than a bar graph.&lt;/p&gt;
+&lt;p&gt;Bar graphs are efficient in showing one dimension, which is counting instances. However, I added another dimension to the data visualization by showing overlap ofinstances between two or three keywords as well. A lot of important keywords were related, which stems back to my research topic. In order to visualize my data, I used Adobe Photoshop to create a landscape of rectangles that would clearly show a size difference that was based on the number of instances. I could not use squares or the exact same ratio rectangles because the number of keywords I queried for would not fit visually. In order to adapt to this issue, I made the equation:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Instances × 1000 = size of rectangle (in pixels)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Even though the instances was multiplied by 1000, this did not mean this was the heightand width of the rectangle. 1000 was my starting point, however it was often reduced to cater tosize restrictions. If I cut 1000 in half, I would multiply the number of instances by 2 so that theshape has the exact same number of pixels still. This effectively showed the number of instancesof each term despite occasionally having different ratios. Most shapes had a width of 1000, 500,333.3, 250, or 200, all of which were easily divisible of 1000. This meant the heights of shapeswere commonly instances multiplied by 1, 2, 3, 4, or 5.&lt;/p&gt;
+&lt;p&gt;Even though the instances was multiplied by 1000, this did not mean this was the height and width of the rectangle. 1000 was my starting point, however it was often reduced to cater to size restrictions. If I cut 1000 in half, I would multiply the number of instances by 2 so that the shape has the exact same number of pixels still. This effectively showed the number of instances of each term despite occasionally having different ratios. Most shapes had a width of 1000, 500, 333.3, 250, or 200, all of which were easily divisible of 1000. This meant the heights of shapes were commonly instances multiplied by 1, 2, 3, 4, or 5.&lt;/p&gt;
 &lt;h2 id=&#34;results-and-data-visualization&#34;&gt;Results and Data Visualization:&lt;/h2&gt;
 &lt;p&gt;The complete results are following:&lt;/p&gt;
 &lt;p&gt;
@@ -22321,8 +22799,8 @@ Some examples of commonly used regex codes:&lt;/p&gt;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;Each shape represents the number of instances. A scale is in the bottom left corner forreference. Some of the major words feature their counts for viewers to understand. Any squarewhere a ‘+’ is present means both or all of these terms are present in a section. Because ‘Assouan’ is the main keyword, despite it being the third largest, I gave it a textured design tohelp it stick out more. Shapes with a blue or similar background are related to government,yellow, gold, and orange is agriculture, greens are related to architecture, while pinks and purplesare unrelated to any of those three major topics. Inside the ‘Assouan’ shape is ‘Assouan Dam’,where inside that is what other keywords are combined.&lt;/p&gt;
-&lt;p&gt;The main data that was collected is nearly impossible to read without zooming in. Thefollowing zoomed images show ‘Assouan Dam’ in relation to ‘Assouan’, as well as the ‘AssouanDam’ topics alone.&lt;/p&gt;
+&lt;p&gt;Each shape represents the number of instances. A scale is in the bottom left corner for reference. Some of the major words feature their counts for viewers to understand. Any square where a &amp;ldquo;+&amp;rdquo; is present means both or all of these terms are present in a section. Because &amp;ldquo;Assouan&amp;rdquo; is the main keyword, despite it being the third largest, I gave it a textured design to help it stick out more. Shapes with a blue or similar background are related to government, yellow, gold, and orange is agriculture, greens are related to architecture, while pinks and purples are unrelated to any of those three major topics. Inside the &amp;ldquo;Assouan&amp;rdquo; shape is &amp;ldquo;Assouan Dam&amp;rdquo;, where inside that is what other keywords are combined.&lt;/p&gt;
+&lt;p&gt;The main data that was collected is nearly impossible to read without zooming in. The following zoomed images show &amp;ldquo;Assouan Dam&amp;rdquo; in relation to &amp;ldquo;Assouan&amp;rdquo;, as well as the &amp;ldquo;Assouan Dam&amp;rdquo; topics alone.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -22384,124 +22862,9 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;li&gt;Section Arch. refers to (Assouan Dam + Architecture + Philae + Temple)&lt;/li&gt;
 &lt;li&gt;Section Other refers to sections that do not include any of the following terms&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;‘Assouan Dam’ was referenced 117 times in the Gazette in the available issues. 114 ofthese were related to the three main topics, with only 3 being unrelated to any of those. Therewere no instances of ‘Assouan Dam’, ‘Architecture’, and ‘Agriculture’ all in the same section.However, there were 3 instances of ‘Assouan Dam’, ‘Government, and ‘Agriculture’ in the samesection, hence the shape between the two. One of the sections that was in the ‘Other’ categorywas an obituary to a deceased Assouan Dam construction worker. The other two both werebroadly about water levels. I did not make this its own section because it was not includingstatistics and it just was not relevant in the general scope of the dam throughout the Gazette.There were also only two instances, so it just did not seem appropriate to give its own section,and it fits nowhere better than ‘Other’.&lt;/p&gt;
-&lt;p&gt;What I found most interesting was how close the three major topics were in the numberof instances. This really shows that there was not one topic that had more significance thananother in the Egyptian Gazette. What it also shows is how significant the dam is to the Gazette.Over the span of about 38 months, it appeared in 117 sections. If it was only mentioned in onesection per day without multiples, this would mean it was brought up in 117 days during roughlya 1,140-day period. I do not know exactly how much attention a topic needs to be significant, butI would imagine seeing the dam in about 10% of issues over 4 years is pretty significant.Although I did not collect the dates of all these instances, I noticed that a good number ofsections that fell under the ‘government’ section came in late 1907 and in 1908 after the floodingoccurred. This makes me believe that in the issues that come after what I have access to arelikely going to include ‘government’ sections at an increased rate. Most of the sections talkedabout how the government responded to the flooding, or people writing editorials complainingabout the lack of help the government offered before and after the flooding.&lt;/p&gt;
-&lt;p&gt;A potential future project could be looking at how these instances progressed by year inorder to see if there were trends. Perhaps using this chart and making the solid color a gradientbased on how many instances each topic saw in a year or month even. Another question I have iswondering if the most significant topic connected to Assouan was not the dam. The mostcommon results are through advertisements and ferries, but I would like to compare the damtopic in its entirety to another topic if there is a major one present.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IDS2681 Fall 2023 Weeks</title>
-      <link>https://dig-eg-gaz.github.io/issues/weeks-fall-2023/</link>
-      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/issues/weeks-fall-2023/</guid>
-      <description>&lt;p&gt;This is an archived record of the weeks assigned in fall 2023&lt;/p&gt;
-&lt;h2 id=&#34;current-semester&#34;&gt;Current semester&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Issue 1&lt;/th&gt;
-&lt;th&gt;Issue 2&lt;/th&gt;
-&lt;th&gt;Issue 3&lt;/th&gt;
-&lt;th&gt;Assigned to&lt;/th&gt;
-&lt;th&gt;Images&lt;/th&gt;
-&lt;th&gt;Files&lt;/th&gt;
-&lt;th&gt;Notes&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-10-24&lt;/td&gt;
-&lt;td&gt;1904-10-25&lt;/td&gt;
-&lt;td&gt;1904-10-26&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/python-user8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blake Bole&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-10-27&lt;/td&gt;
-&lt;td&gt;1904-10-28&lt;/td&gt;
-&lt;td&gt;1904-10-29&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/nathanbrown823&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nathan Brown&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-10-31&lt;/td&gt;
-&lt;td&gt;1904-11-01&lt;/td&gt;
-&lt;td&gt;1904-11-02&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/JuliaCavaliere&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Julia Cavaliere&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-03&lt;/td&gt;
-&lt;td&gt;1904-11-04&lt;/td&gt;
-&lt;td&gt;1904-11-05&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/tatigarciaaa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tatiana Garcia&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-07&lt;/td&gt;
-&lt;td&gt;1904-11-08&lt;/td&gt;
-&lt;td&gt;1904-11-09&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/acg22d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alex Gonzalez&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-10&lt;/td&gt;
-&lt;td&gt;1904-11-11&lt;/td&gt;
-&lt;td&gt;1904-11-12&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/JeffLski&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jeff Lubinski&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-14&lt;/td&gt;
-&lt;td&gt;1904-11-15&lt;/td&gt;
-&lt;td&gt;1904-11-16&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/masmac26&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mason Macalka&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-17&lt;/td&gt;
-&lt;td&gt;1904-11-18&lt;/td&gt;
-&lt;td&gt;1904-11-19&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/CoPhinney&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colton Phinney&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-21&lt;/td&gt;
-&lt;td&gt;1904-11-22&lt;/td&gt;
-&lt;td&gt;1904-11-23&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/rs22cl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ryan Schefstad&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1904-11-24&lt;/td&gt;
-&lt;td&gt;1904-11-25&lt;/td&gt;
-&lt;td&gt;1904-11-26&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/harperwest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harper West&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&amp;ldquo;Assouan Dam&amp;rdquo; was referenced 117 times in the &lt;em&gt;Gazette&lt;/em&gt; in the available issues. 114 of these were related to the three main topics, with only 3 being unrelated to any of those. There were no instances of &amp;ldquo;Assouan Dam&amp;rdquo;, &amp;ldquo;Architecture&amp;rdquo;, and &amp;ldquo;Agriculture&amp;rdquo; all in the same section. However, there were 3 instances of &amp;ldquo;Assouan Dam&amp;rdquo;, &amp;ldquo;Government&amp;rdquo;, and &amp;ldquo;Agriculture&amp;rdquo; in the same section, hence the shape between the two. One of the sections that was in the &amp;ldquo;Other&amp;rdquo; category was an obituary to a deceased Assouan Dam construction worker. The other two both were broadly about water levels. I did not make this its own section because it was not including statistics and it just was not relevant in the general scope of the dam throughout the Gazette. There were also only two instances, so it just did not seem appropriate to give its own section,and it fits nowhere better than &amp;ldquo;Other&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;What I found most interesting was how close the three major topics were in the numberof instances. This really shows that there was not one topic that had more significance than another in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. What it also shows is how significant the dam is to the Gazette. Over the span of about 38 months, it appeared in 117 sections. If it was only mentioned in one section per day without multiples, this would mean it was brought up in 117 days during roughly a 1,140-day period. I do not know exactly how much attention a topic needs to be significant, but I would imagine seeing the dam in about 10% of issues over 4 years is pretty significant. Although I did not collect the dates of all these instances, I noticed that a good number of sections that fell under the &amp;ldquo;government&amp;rdquo; section came in late 1907 and in 1908 after the flooding occurred. This makes me believe that in the issues that come after what I have access to are likely going to include &amp;ldquo;government&amp;rdquo; sections at an increased rate. Most of the sections talked about how the government responded to the flooding, or people writing editorials complaining about the lack of help the government offered before and after the flooding.&lt;/p&gt;
+&lt;p&gt;A potential future project could be looking at how these instances progressed by year in order to see if there were trends. Perhaps using this chart and making the solid color a gradient based on how many instances each topic saw in a year or month even. Another question I have is wondering if the most significant topic connected to Assouan was not the dam. The most common results are through advertisements and ferries, but I would like to compare the dam topic in its entirety to another topic if there is a major one present.&lt;/p&gt;
 </description>
     </item>
     

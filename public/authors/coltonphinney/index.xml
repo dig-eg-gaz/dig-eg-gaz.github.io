@@ -5,12 +5,459 @@
     <link>https://dig-eg-gaz.github.io/authors/coltonphinney/</link>
       <atom:link href="https://dig-eg-gaz.github.io/authors/coltonphinney/index.xml" rel="self" type="application/rss+xml" />
     <description>Colton Phinney</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/authors/coltonphinney/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_270x270_fill_lanczos_center_3.png</url>
       <title>Colton Phinney</title>
       <link>https://dig-eg-gaz.github.io/authors/coltonphinney/</link>
     </image>
+    
+    <item>
+      <title>Maritime Narratives in the Egyptian Gazette</title>
+      <link>https://dig-eg-gaz.github.io/post/2023-analysis-phinney/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2023-analysis-phinney/</guid>
+      <description>&lt;p&gt;Ship technologies have been constantly evolving since their inception many thousands of years ago. In the early 20th century, there were many different uses ships had and different roles. Various types of ships throughout the turn of the century included the traditional wooden sailing ships and the now established steam ships. Journeying by sea had become one of the premier travelling and transport methods for a world that was quickly becoming globalized. Alexandria, Egypt, being a thriving port city, was an epicenter of international and local naval operations including trade &amp;amp; commerce, military, fishing &amp;amp; industry, scientific expeditions, construction &amp;amp; repair operations, leisure cruises, postal services, humanitarian aid/rescue vessels, navigation aids, event/celebration ships, diplomatic &amp;amp; international relations, and health and quarantine services. Throughout the current database of the Egyptian Gazette there are approximately 15,500 instances of the word &amp;ldquo;ship&amp;rdquo; being used which means that there is lot of information pertaining to them. The research question in this analysis is to distinguish the prevalence of different ship types as well as to find any patterns that emerge throughout the Gazette. To carry this out I used different querying methods to build up a database of ships.&lt;/p&gt;
+&lt;p&gt;For Instance, here are some instances of examples where trading ships are being found by combining terms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;Trade&amp;quot; + &amp;quot;Ship&amp;quot; &lt;/code&gt;         190 instances&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;Merchant&amp;quot; + &amp;quot;Ship&amp;quot; &lt;/code&gt;         81 intances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To make sure that the instances accurately reflect what I am trying to find some exclusion terms have proved helpful in conjunction with the other queries.
+For example,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/text() | //p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;passage&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;travel&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;training&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;passengers&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;soldier&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;trade&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//p[contains(.,&#39;ship&#39;)]/*[not(contains(.,&#39;canal&#39;))]/text()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another method is finding paragraphs with multiple terms within them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\w+(?=repurposed?)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\w \w+ [ship] (?=repurposed?)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;[\w\w*] [\w\w*] repurposed[^t].?[\w\w]*[\w\w]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//div//div[matches(.,&#39;ship&#39;,&#39;i&#39;)][matches(.,&#39;repurposed&#39;,&#39;i&#39;)]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are not perfect querying methods by any means, but it helps narrow down the data by a significant amount.&lt;/p&gt;
+&lt;p&gt;One question was to explore how seasonal changes might affect the different types of ships mentioned in the Gazette. Because months is an easy way to sort the data this is why seasons were chosen. To begin with I first started with the term &amp;ldquo;ship&amp;rdquo; as it appeared in different months. Here are those results:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;month&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;count&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;1718&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;1054&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;1236&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;1019&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;1186&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;1206&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;1383&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;1368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;1163&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;1422&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;1107&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;1614&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This is a good baseline and could form some initial hypothesis as to why there is an influx of mentions in the months of January and December. Could it have to do with trade? Seasonal tourism?&lt;/p&gt;
+&lt;p&gt;To further explore this, I took containing &amp;ldquo;ship&amp;rdquo; and the common word &amp;ldquo;training&amp;rdquo; which is associated with military uses and found paragraphs that contain both terms and had this compared across each month.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;month&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;count&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan&lt;/td&gt;
+&lt;td&gt;1146&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb&lt;/td&gt;
+&lt;td&gt;693&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;713&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;685&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;808&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;710&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;872&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;910&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;1126&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;1053&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;996&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;1151&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;What initially stands out with this data is how September contains nearly the same mentions as the baseline query which may suggest an above normal level of conflict during this period.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;phinney1&#34; srcset=&#34;
+               /post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_37870e4a4d15b2c7cf72380a4eabeded.webp 400w,
+               /post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_6535ace0007b048121dd8359ab84f900.webp 760w,
+               /post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-phinney/phinney1_hudd3017ba968525772ebdd4d7d993a11d_139961_37870e4a4d15b2c7cf72380a4eabeded.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This chart is the first indication of a trend occurring with a slight deviation with regards to September. One possibility for this deviation was the conflict in Fashoda on September 18, 1898, &amp;ldquo;An army of 1,500 British and Egyptian soldiers and five gunboats under the command of Field Marshall Horatio Herbert Kitchener, fresh off of a victory over the Dervishes of the Sudanese Khalifa near Omdurman, was dispatched, and arrived at Fashoda on September 18.  A standoff was ignited; newspapers in both France and Britain fanned the flames; war orders were drafted and troops mobilized; and diplomats scurried to prevent a colonial war.&amp;rdquo; (LOC)
+The next step was to query div types that were adverts which contain certain text that I am looking for. Using &lt;code&gt;//div[@type=&amp;quot;advert&amp;quot;]//p[contains(.,&#39; ship&#39;)]/text()&lt;/code&gt;, I could search for instances of ships within advertisements which was overwhelmingly transport ships. This query resulted in 1351 instances. Broken down by year and compared to the previous results it looks as so:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;phinney2&#34; srcset=&#34;
+               /post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_627a324235d065119caead5d2f38fef1.webp 400w,
+               /post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_6f67ac41242c8253281acd91b7e8515d.webp 760w,
+               /post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-phinney/phinney2_hud8bb845493ac6e2589f4b2d0821f927e_147962_627a324235d065119caead5d2f38fef1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;454&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;While the new chart may tell us that maybe the ads containing &amp;ldquo;ship&amp;rdquo; are simply a more uniform occurrence, but observing the relative frequency of the ads versus the other data sets by month might be a better method.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Month&lt;/th&gt;
+&lt;th&gt;Ads with &amp;ldquo;Ship&amp;rdquo;&lt;/th&gt;
+&lt;th&gt;total by month&lt;/th&gt;
+&lt;th&gt;Ad RF&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;2959&lt;/td&gt;
+&lt;td&gt;3.21%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;February&lt;/td&gt;
+&lt;td&gt;91&lt;/td&gt;
+&lt;td&gt;1838&lt;/td&gt;
+&lt;td&gt;4.95%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;2044&lt;/td&gt;
+&lt;td&gt;4.65%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;79&lt;/td&gt;
+&lt;td&gt;1783&lt;/td&gt;
+&lt;td&gt;4.43%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;155&lt;/td&gt;
+&lt;td&gt;2149&lt;/td&gt;
+&lt;td&gt;7.21%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;2015&lt;/td&gt;
+&lt;td&gt;4.91%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;131&lt;/td&gt;
+&lt;td&gt;2386&lt;/td&gt;
+&lt;td&gt;5.49%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;142&lt;/td&gt;
+&lt;td&gt;2420&lt;/td&gt;
+&lt;td&gt;5.87%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;2383&lt;/td&gt;
+&lt;td&gt;3.94%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;138&lt;/td&gt;
+&lt;td&gt;2613&lt;/td&gt;
+&lt;td&gt;5.28%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;137&lt;/td&gt;
+&lt;td&gt;2240&lt;/td&gt;
+&lt;td&gt;6.12%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;2860&lt;/td&gt;
+&lt;td&gt;3.32%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Given this data, advertising with ships is more frequent relative to other instances of ships in the months of May, November and possibly August.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;phinney3&#34; srcset=&#34;
+               /post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_75ba309dfb4694be57fd5373ceec7861.webp 400w,
+               /post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_5d06982922b1442218d878734627e0a2.webp 760w,
+               /post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dig-eg-gaz.github.io/post/2023-analysis-phinney/phinney3_hue38d81c962a59941b1b104a4831c98aa_207531_75ba309dfb4694be57fd5373ceec7861.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;445&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Months&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Instances of &amp;ldquo;Ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;instances of &amp;ldquo;Ship&amp;rdquo; + &amp;ldquo;training&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Ads with &amp;ldquo;Ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;&amp;ldquo;Exploration&amp;rdquo; + &amp;ldquo;ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;&amp;ldquo;Hospital ship&amp;rdquo;&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;January&lt;/td&gt;
+&lt;td&gt;1718&lt;/td&gt;
+&lt;td&gt;1146&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;412&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;February&lt;/td&gt;
+&lt;td&gt;1054&lt;/td&gt;
+&lt;td&gt;693&lt;/td&gt;
+&lt;td&gt;91&lt;/td&gt;
+&lt;td&gt;254&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;March&lt;/td&gt;
+&lt;td&gt;1236&lt;/td&gt;
+&lt;td&gt;713&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;270&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;April&lt;/td&gt;
+&lt;td&gt;1019&lt;/td&gt;
+&lt;td&gt;685&lt;/td&gt;
+&lt;td&gt;79&lt;/td&gt;
+&lt;td&gt;272&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May&lt;/td&gt;
+&lt;td&gt;1186&lt;/td&gt;
+&lt;td&gt;808&lt;/td&gt;
+&lt;td&gt;155&lt;/td&gt;
+&lt;td&gt;338&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June&lt;/td&gt;
+&lt;td&gt;1206&lt;/td&gt;
+&lt;td&gt;710&lt;/td&gt;
+&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;301&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July&lt;/td&gt;
+&lt;td&gt;1383&lt;/td&gt;
+&lt;td&gt;872&lt;/td&gt;
+&lt;td&gt;131&lt;/td&gt;
+&lt;td&gt;368&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;August&lt;/td&gt;
+&lt;td&gt;1368&lt;/td&gt;
+&lt;td&gt;910&lt;/td&gt;
+&lt;td&gt;142&lt;/td&gt;
+&lt;td&gt;361&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;September&lt;/td&gt;
+&lt;td&gt;1163&lt;/td&gt;
+&lt;td&gt;1126&lt;/td&gt;
+&lt;td&gt;94&lt;/td&gt;
+&lt;td&gt;437&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October&lt;/td&gt;
+&lt;td&gt;1422&lt;/td&gt;
+&lt;td&gt;1053&lt;/td&gt;
+&lt;td&gt;138&lt;/td&gt;
+&lt;td&gt;379&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;November&lt;/td&gt;
+&lt;td&gt;1107&lt;/td&gt;
+&lt;td&gt;996&lt;/td&gt;
+&lt;td&gt;137&lt;/td&gt;
+&lt;td&gt;374&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;December&lt;/td&gt;
+&lt;td&gt;1614&lt;/td&gt;
+&lt;td&gt;1151&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;499&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total&lt;/td&gt;
+&lt;td&gt;15476&lt;/td&gt;
+&lt;td&gt;10863&lt;/td&gt;
+&lt;td&gt;1351&lt;/td&gt;
+&lt;td&gt;4265&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Great, so what does all this mean? Well, there is some indication that a trend exists among some of the data, generally there is an uptick with ship mentions around December and January. What this could mean in terms of cause and effect is not an easy question to answer. One of the challenges when working with the data at hand was the overwhelming quantity of unnecessary instances coming up from the initial results. So being able to use a combination of querying methods as well as visual representations gives a different kind of approach when it comes to tackling some questions about the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;While trying to see how this data might lead to understanding the Gazette better, by looking at how ships are mentioned based on their use, it can show more broadly what the paper geared itself more towards. For instance, in my findings military uses outweighed all other categories when it came to ships which could indicated a strong focus on politics and war. Interestingly the scientific uses of ships was more prevalent than say hospital ships. The data and queries in this investigation were not perfect by any means and served more than anything as a way to shave off unwanted results while trying as best as possible to maintain the results wanted.&lt;/p&gt;
+&lt;h2 id=&#34;work-cited&#34;&gt;Work Cited&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogs.loc.gov/maps/2020/04/when-pride-mattered/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blogs.loc.gov/maps/2020/04/when-pride-mattered/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

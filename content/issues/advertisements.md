@@ -1417,6 +1417,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mud01_tn.jpg?raw=true)|xml text: [mud01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/mud01.xml)<br><br>Example: 1907-02-09<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mud01.jpg)
 
+## nas01 Bank "El-Nassib"
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nas01.jpg?raw=true)|xml text: [nbe01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nas01.xml)<br><br>Example: 1904-11-02<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nas01.png)
+
 ## nbe01 National Bank of Egypt
  |
 ---|---

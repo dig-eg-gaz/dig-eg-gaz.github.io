@@ -20,14 +20,16 @@ N/A
 
 Date|End date|Images|Files|Notes
 ---|---|---|---|---|---|---
+October 24, 1904||3||pages 4 5 6
 October 29, 1904||1||
 November 7, 1904|November 9, 1904|20|2|
-December 8, 1904|December 10, 1904|20|3|
+December 8, 1904|December 10, 1904|20|1|
 January 27, 1906|||1|
 February 17, 1906|||1|
 June 9, 1906|||1||
 November 2, 1906|November 3, 1906||2|
 May 10, 1907|May 11, 1907|14|2|
+June 5, 1907||1||page 5 is repeated; need page 4
 July 20, 1907|||1|
 July 23, 1907||6||
 October 12, 1907||6||

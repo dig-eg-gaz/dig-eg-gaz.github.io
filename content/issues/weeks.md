@@ -21,8 +21,9 @@ N/A
 Date|End date|Images|Files|Notes
 ---|---|---|---|---|---|---
 October 24, 1904||3||pages 4 5 6
-October 29, 1904||1||
+October 28, 1904||2||
 November 7, 1904|November 9, 1904|20|2|
+December 6, 1904||1||page 2
 December 8, 1904|December 10, 1904|20|1|
 January 27, 1906|||1|
 February 17, 1906|||1|

@@ -405,6 +405,11 @@ xml:id `deg-el-egsa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02.png)|**Notes**: |Earliest: <br><br>Latest:
 
+### Variant 3
+xml:id `deg-el-egsa03`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/subscriptions-advertisements-03.xml)|Example: 1904-10-24
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03.png)|**Notes**: |Earliest: 1904-10-24<br><br>Latest:
+
 ## Vade Mecum for the Homeward Bound
 
 ### 1904-1905 Variant

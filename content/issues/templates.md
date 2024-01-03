@@ -37,6 +37,12 @@ xml:id `deg-el-agpc01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).<br><br>Do not confuse with the Alexandria General Produce Association [Weekly Report](https://dig-eg-gaz.github.io/issues/templates/#alexandria-general-produce-association-weekly-report).|Earliest: 1905-03-01<br><br>Latest: 1907-06-19<br><br>Frequency: W Th F Tu S<br><br>Rare/never: M
 
+## Administration des Domaines de l'Etat
+
+xml:id `deg-el-adde01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/administration-des-domaines-de-letat.xml)|Example: 1904-12-16
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/administration-des-domaines-de-letat_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/administration-des-domaines-de-letat.png)|**Notes**: Prepared by [Rainey Sharrow](/authors/raineysharrow).<br><br>|Earliest: 1904-10-28<br><br>Latest: 1907-12-20<br><br>Frequency: F<br><br>Rare/never: M T W Th S
+
 ## Association des Courtiers en Marchandises
 
 ### Variant 1

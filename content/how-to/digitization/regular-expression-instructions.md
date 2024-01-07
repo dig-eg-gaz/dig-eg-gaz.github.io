@@ -31,6 +31,11 @@ To put `<persName>` around passenger names in a list: find `Mr. [A-Z][a-z, 0-9]+
 
 <!-- To convert `<p>Budapest, January 4.</p>` to `<dateline>Budapest, January 4.</dateline>`: find `<p>[A-Z][a-z]+, [A-Z][a-z]+ [0-9]+\.<\/p>` and replace with `<dateline>$&</dateline>`. -->
 
+## Cleaning OCR
+The spotty quality of the microfilm original produces OCR errors of various kinds. One of these is easy to solve using regex: seeing non-Latin characters (such as Arabic and Cyrillic letters) where there are none. This is especially annoying when the OCR conjures bidirectional (right-to-left) characters, which causes Oxygen to give you an error message.
+
+This regex seems to find most such OCR errors in Unicode: `[\u0370-\u1fff]+|[\u2070-\u214F]+|[\u215F-\u25ff]+|[\u2700-\uffff]+`.
+
 ## Cleaning XPath results
 
 1. Select all, copy, and paste results into your plain text editor.

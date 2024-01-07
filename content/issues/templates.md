@@ -398,17 +398,17 @@ xml:id `deg-el-egpi02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ### Variant 1
 xml:id `deg-el-egsa01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/subscriptions-advertisements.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements.png)|**Notes**: |Earliest: 1905-01-02 <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements.png)|**Notes**: |Earliest: 1905-06-05 <br><br>Latest: 1905-11-07
 
 ### Variant 2
-xml:id `deg-el-egsa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/subscriptions-advertisements-02.xml)|Example: 1905-07-12
+xml:id `deg-el-egsa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/subscriptions-advertisements-02.xml)|Example: 1905-11-08
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02.png)|**Notes**: |Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02.png)|**Notes**: |Earliest: 1905-11-08  <br><br>Latest:
 
 ### Variant 3
 xml:id `deg-el-egsa03`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/subscriptions-advertisements-03.xml)|Example: 1904-10-24
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03.png)|**Notes**: |Earliest: 1904-10-24<br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03.png)|**Notes**: |Earliest: 1904-10-24<br><br>Latest: 1905-06-03
 
 ## Vade Mecum for the Homeward Bound
 

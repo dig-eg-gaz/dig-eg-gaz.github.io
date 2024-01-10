@@ -20,11 +20,6 @@ N/A
 
 Date|End date|Images|Files|Notes
 ---|---|---|---|---|---|---
-October 24, 1904||3||pages 4 5 6
-October 28, 1904||2||
-November 7, 1904|November 9, 1904|20|2|
-December 6, 1904||1||page 2
-December 8, 1904|December 10, 1904|20|1|
 January 27, 1906|||1|
 February 17, 1906|||1|
 June 9, 1906|||1||
@@ -33,8 +28,6 @@ May 10, 1907|May 11, 1907|14|2|
 June 5, 1907||1||page 5 is repeated; need page 4
 July 20, 1907|||1|
 July 23, 1907||6||
-October 12, 1907||6||
-January 2, 1908||1||
 
 ## Images lacking from microfilm
 
@@ -49,6 +42,7 @@ October 31, 1907|Thursday|7905|whole issue
 
 Issue numbers on the days before and after these dates are continuous.
 
+- Thursday, December 8, 1904
 - Friday, April 21, 1905
 - Monday, May 1, 1905
 - Tuesday, November 28, 1905

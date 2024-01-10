@@ -950,7 +950,7 @@ Some examples of commonly used regex codes:</p>
 <!-- To convert `<p>Budapest, January 4.</p>` to `<dateline>Budapest, January 4.</dateline>`: find `<p>[A-Z][a-z]+, [A-Z][a-z]+ [0-9]+\.<\/p>` and replace with `<dateline>$&</dateline>`. -->
 <h2 id="cleaning-ocr">Cleaning OCR</h2>
 <p>The spotty quality of the microfilm original produces OCR errors of various kinds. One of these is easy to solve using regex: seeing non-Latin characters (such as Arabic and Cyrillic letters) where there are none. This is especially annoying when the OCR conjures bidirectional (right-to-left) characters, which causes Oxygen to give you an error message.</p>
-<p>This regex seems to find most such OCR errors in Unicode: <code>[\u0370-\u1fff]+|[\u2070-\u25ff]+|[\u2700-\uffff]+</code>.</p>
+<p>This regex seems to find most such OCR errors in Unicode: <code>[\u0370-\u1fff]+|[\u2070-\u214F]+|[\u215F-\u25ff]+|[\u2700-\uffff]+</code>.</p>
 <h2 id="cleaning-xpath-results">Cleaning XPath results</h2>
 <ol>
 <li>

@@ -857,6 +857,8 @@ function drawChart() {
     [ new Date(1904, 11, 5), 2 ],
     [ new Date(1904, 11, 6), 2 ],
     [ new Date(1904, 11, 7), 2 ],
+    [ new Date(1904, 11, 9), 2 ],
+    [ new Date(1904, 11, 10), 2 ],
     [ new Date(1904, 11, 12), 2 ],
     [ new Date(1904, 11, 13), 2 ],
     [ new Date(1904, 11, 14), 2 ],
@@ -1022,6 +1024,9 @@ March 27 • [image](https://archive.org/details/egyptian-gazette-1897-03-27)
 ## 1899
 March 25 • [image](https://archive.org/details/egyptian-gazette-1899-03-25)
 
+## 1902
+April 3 • [image](https://archive.org/details/egyptian-gazette-1902-04-03)|April 4 • [image](https://archive.org/details/egyptian-gazette-1902-04-04)|April 5 • [image](https://archive.org/details/egyptian-gazette-1902-04-05)
+
 ## 1903
 November 5 • [image](https://archive.org/details/egyptian-gazette-1903-11-05)|November 6 • [image](https://archive.org/details/egyptian-gazette-1903-11-06)
 
@@ -1044,7 +1049,7 @@ Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
 Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
 ---|---|---|---|---|---
 | | | |[December 1](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-01.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-01)|[December 2](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-02.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-02)|[December 3](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-03.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-03)
-[December 5](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-05.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-05)|[December 6](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-06.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-06)|[December 7](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-07.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-07)|[December 8](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-08.xml)| |[December 10](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-10.xml)
+[December 5](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-05.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-05)|[December 6](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-06.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-06)|[December 7](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-07.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-07)| |[December 9](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-09.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-09)|[December 10](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-10.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-10)
 [December 12](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-12.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-12)|[December 13](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-13.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-13)|[December 14](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-14.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-14)|[December 15](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-15.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-15)|[December 16](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-16.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-16)|[December 17](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-17.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-17)
 [December 19](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-19.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-19)|[December 20](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-20.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-20)|[December 21](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-21.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-21)|[December 22](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-22.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-22)|[December 23](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-23.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-23)|[December 24](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-24.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-24)
 [December 26](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-26.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-26)|[December 27](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-27.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-27)|[December 28](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-28.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-28)|[December 29](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-29.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-29)|[December 30](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-30.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-30)|[December 31](https://raw.githack.com/dig-eg-gaz/content/master/1904-12-31.xml) • [image](https://archive.org/details/egyptian-gazette-1904-12-31)

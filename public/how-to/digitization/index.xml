@@ -1402,7 +1402,7 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;!-- To convert `&lt;p&gt;Budapest, January 4.&lt;/p&gt;` to `&lt;dateline&gt;Budapest, January 4.&lt;/dateline&gt;`: find `&lt;p&gt;[A-Z][a-z]+, [A-Z][a-z]+ [0-9]+\.&lt;\/p&gt;` and replace with `&lt;dateline&gt;$&amp;&lt;/dateline&gt;`. --&gt;
 &lt;h2 id=&#34;cleaning-ocr&#34;&gt;Cleaning OCR&lt;/h2&gt;
 &lt;p&gt;The spotty quality of the microfilm original produces OCR errors of various kinds. One of these is easy to solve using regex: seeing non-Latin characters (such as Arabic and Cyrillic letters) where there are none. This is especially annoying when the OCR conjures bidirectional (right-to-left) characters, which causes Oxygen to give you an error message.&lt;/p&gt;
-&lt;p&gt;This regex seems to find most such OCR errors in Unicode: &lt;code&gt;[\u0370-\u1fff]+|[\u2070-\u25ff]+|[\u2700-\uffff]+&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This regex seems to find most such OCR errors in Unicode: &lt;code&gt;[\u0370-\u1fff]+|[\u2070-\u214F]+|[\u215F-\u25ff]+|[\u2700-\uffff]+&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;cleaning-xpath-results&#34;&gt;Cleaning XPath results&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;

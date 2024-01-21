@@ -1001,9 +1001,6 @@ March 26 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PF
 ## 1884
 [February 18](https://raw.githack.com/dig-eg-gaz/content/master/1884-02-18.xml) • [image](https://archive.org/details/egyptian-gazette-1884-02-18)
 
-## 1889
-July 12 • [image](https://archive.org/details/egyptian-gazette-1889-07-12)|July 13 • [image](https://archive.org/details/egyptian-gazette-1889-07-12)
-
 ## 1890-1892
 Images of all issues available via [Staatsbibliothek zu Berlin](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/31219299/).
 
@@ -1022,7 +1019,9 @@ April 1 • [image](https://archive.org/details/egyptian-gazette-1895-04-01)
 March 27 • [image](https://archive.org/details/egyptian-gazette-1897-03-27)
 
 ## 1899
-March 25 • [image](https://archive.org/details/egyptian-gazette-1899-03-25)
+- March 25 • [image](https://archive.org/details/egyptian-gazette-1899-03-25)
+- July 12 • [image](https://archive.org/details/egyptian-gazette-1899-07-12)
+- July 13 • [image](https://archive.org/details/egyptian-gazette-1899-07-12)
 
 ## 1902
 April 3 • [image](https://archive.org/details/egyptian-gazette-1902-04-03)|April 4 • [image](https://archive.org/details/egyptian-gazette-1902-04-04)|April 5 • [image](https://archive.org/details/egyptian-gazette-1902-04-05)

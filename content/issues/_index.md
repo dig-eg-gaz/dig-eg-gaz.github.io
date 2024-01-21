@@ -999,24 +999,23 @@ March 19 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PF
 March 26 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PFE_036_98_w.pdf)|March 27 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PFE_036_99_w.pdf)|March 28 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PFE_036_100_w.pdf)|March 29 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PFE_036_101_w.pdf)|March 30 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PFE_036_102_w.pdf)|March 31 • images: [CEAlex](https://pfe.cealex.org/diffusion/PFEWeb/pfe_036/PFE_036_103_w.pdf)|
 
 ## 1884
-[February 18](https://raw.githack.com/dig-eg-gaz/content/master/1884-02-18.xml) • [image](https://archive.org/details/egyptian-gazette-1884-02-18)
+- [February 18](https://raw.githack.com/dig-eg-gaz/content/master/1884-02-18.xml) • [image](https://archive.org/details/egyptian-gazette-1884-02-18)
 
 ## 1890-1892
 Images of all issues available via [Staatsbibliothek zu Berlin](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/31219299/).
 
-## January 1893
+## 1893
 Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
 ---|---|---|---|---|---
 [January 2](https://raw.githack.com/dig-eg-gaz/content/master/1893-01-02.xml) • [image](https://archive.org/details/egyptian-gazette-1893-01-02)|January 3 • [image](https://archive.org/details/egyptian-gazette-1893-01-03)|January 4 • [image](https://archive.org/details/egyptian-gazette-1893-01-04)|January 5 • [image](https://archive.org/details/egyptian-gazette-1893-01-05)|January 6 • [image](https://archive.org/details/egyptian-gazette-1893-01-06)|January 7 • [image](https://archive.org/details/egyptian-gazette-1893-01-07)|
 
-## March 1893
-March 27 • [image](https://archive.org/details/egyptian-gazette-1893-03-27)
+- March 27 • [image](https://archive.org/details/egyptian-gazette-1893-03-27)
 
 ## 1895
-April 1 • [image](https://archive.org/details/egyptian-gazette-1895-04-01)
+- April 1 • [image](https://archive.org/details/egyptian-gazette-1895-04-01)
 
 ## 1897
-March 27 • [image](https://archive.org/details/egyptian-gazette-1897-03-27)
+- March 27 • [image](https://archive.org/details/egyptian-gazette-1897-03-27)
 
 ## 1899
 - March 25 • [image](https://archive.org/details/egyptian-gazette-1899-03-25)
@@ -1024,10 +1023,13 @@ March 27 • [image](https://archive.org/details/egyptian-gazette-1897-03-27)
 - July 13 • [image](https://archive.org/details/egyptian-gazette-1899-07-12)
 
 ## 1902
-April 3 • [image](https://archive.org/details/egyptian-gazette-1902-04-03)|April 4 • [image](https://archive.org/details/egyptian-gazette-1902-04-04)|April 5 • [image](https://archive.org/details/egyptian-gazette-1902-04-05)
+Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
+---|---|---|---|---|---
+ | | |April 3 • [image](https://archive.org/details/egyptian-gazette-1902-04-03)|April 4 • [image](https://archive.org/details/egyptian-gazette-1902-04-04)|April 5 • [image](https://archive.org/details/egyptian-gazette-1902-04-05)
 
 ## 1903
-November 5 • [image](https://archive.org/details/egyptian-gazette-1903-11-05)|November 6 • [image](https://archive.org/details/egyptian-gazette-1903-11-06)
+- November 5 • [image](https://archive.org/details/egyptian-gazette-1903-11-05)
+- November 6 • [image](https://archive.org/details/egyptian-gazette-1903-11-06)
 
 ## October 1904
 Monday|Tuesday|Wednesday|Thursday|Friday|Saturday

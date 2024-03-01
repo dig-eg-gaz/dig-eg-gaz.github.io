@@ -1025,7 +1025,7 @@ Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
 ## 1902
 Monday|Tuesday|Wednesday|Thursday|Friday|Saturday
 ---|---|---|---|---|---
- | | |April 3 • [image](https://archive.org/details/egyptian-gazette-1902-04-03)|April 4 • [image](https://archive.org/details/egyptian-gazette-1902-04-04)|April 5 • [image](https://archive.org/details/egyptian-gazette-1902-04-05)
+| | | |April 3 • [image](https://archive.org/details/egyptian-gazette-1902-04-03)|April 4 • [image](https://archive.org/details/egyptian-gazette-1902-04-04)|April 5 • [image](https://archive.org/details/egyptian-gazette-1902-04-05)
 
 ## 1903
 - November 5 • [image](https://archive.org/details/egyptian-gazette-1903-11-05)

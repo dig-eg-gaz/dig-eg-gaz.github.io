@@ -92,7 +92,7 @@ xml:id `deg-el-dehe01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 ## Exterieur
 
-xml:id `deg-el-extr01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/exterieur.xml)|Example: 1905-07-12
+xml:id `deg-el-extr01`|line-by-line OCR or [XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/exterieur.xml)|Example: 1905-07-12
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur.png)|**Notes**: |Earliest: 1905-01-04<br><br>Latest: 1907-05-22<br><br>Frequency: Daily
 
@@ -287,30 +287,6 @@ xml:id `deg-el-tdeq01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 # Non-Financial
 
-## Calendar of Coming Events
-
-feature `comingEvents`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-coming-events.xml)|Example: 1905-07-15
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-coming-events_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-coming-events.png)|**Notes**: This calendar changes each day, but most events appear in several issues of the paper. You can move rows of the table in previous and future issues around to save effort.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-coce01`|Earliest: <br><br>Latest:
-
-## Calendar of the Week
-
-xml:id `deg-el-cotw01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-the-week.xml)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-the-week_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-the-week.png)|**Notes**: This feature changes only once per week.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-cotw01`|Earliest: <br><br>Latest:
-
-## Cheap Prepaid Advertisements
-
-feature `prepaidAdvertisements`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cheap-prepaid-advertisements.xml) (first lines only)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cheap-prepaid-advertisements_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cheap-prepaid-advertisements.png)|**Notes**: Add each advertisement as a `<div type="item">` within the section.<br><br>|Earliest: <br><br>Latest:
-
-## Claims against the Estate
-
-xml:id `deg-el-caet01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/claims-against-the-estate.xml)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/claims-against-the-estate_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/claims-against-the-estate.png)|**Notes**: This feature contains consistent text around changing names and details.<br><br>|Earliest: <br><br>Latest:
-
 ## Daily Weather Report
 
 ### Variant 1
@@ -338,14 +314,7 @@ xml:id `deg-el-etcl01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 xml:id `deg-el-nile01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/nile-gauge-readings.xml)|Example: 1905-07-10
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/nile-gauge-readings_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/nile-gauge-readings.png)|**Notes**: This is a cumulative monthly table. Each day, a new line is added to the existing table. It is thus useful to work back from a copy of the end of the month's table. Table xml:id `deg-ta-nile01`<br><br>|Earliest: <br><br>Latest:
-
-## Société Internationale des Employés d'Alexandrie Bureau de Placement
-
-feature `bureauPlacement`|[1905 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes.xml) (first and last lines only)|Example: 1905-07-15
----|---|---
-`bureauPlacement`|[1907 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes-1907.xml) (first and last lines only)|1907-12-07
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes.png)|**Notes**: Add each advertisement as a `<p>` within its section.<br><br>|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/nile-gauge-readings_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/nile-gauge-readings.png)|**Notes**: This is a cumulative monthly table, typically appearing May through November. Each day, a new line is added to the existing table. It is thus useful to work back from a copy of the end of the month's table. Table xml:id `deg-ta-nile01`<br><br>Typically this is a 4-column table. For three column version, see 1905-06-08; for 2-column, see 1905-05-22|Earliest: 1905-06-13<br><br>Latest:
 
 ## Weekly Postal Table
 
@@ -375,24 +344,6 @@ xml:id `deg-el-rrat01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 # Egyptian Gazette
 
-## Egyptian Gazette en vente
-
-xml:id `deg-el-egev01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/egyptian-gazette-en-vente.xml)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/egyptian-gazette-en-vente_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/egyptian-gazette-en-vente.png)|**Notes**: In the latter pages of the newspaper, we sometimes find a brief item explaining where and when the paper is sold.<br><br>|Earliest: <br><br>Latest:
-
-## Egyptian Gazette masthead
-
-### Variant 1
-xml:id `deg-el-egpi01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/masthead.xml)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead.png)|**Notes**: This feature usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1905-01-02 <br><br>Latest: 1906-08-27
-
-### Variant 2
-xml:id `deg-el-egpi02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/masthead-02.xml)|Example: 1906-10-03
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead-02.png)|**Notes**: This feature usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1906-08-28 <br><br>Latest:
-
 ## Egyptian Gazette Subscriptions and Advertisements
 
 ### Variant 1
@@ -409,6 +360,24 @@ xml:id `deg-el-egsa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 xml:id `deg-el-egsa03`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/subscriptions-advertisements-03.xml)|Example: 1904-10-24
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-03.png)|**Notes**: |Earliest: 1904-10-24<br><br>Latest: 1905-06-03
+
+## Egyptian Gazette imprint
+
+### Variant 1
+xml:id `deg-el-egpi01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/masthead.xml)|Example: 1905-07-12
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead.png)|**Notes**: The imprint usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1905-01-02 <br><br>Latest: 1906-08-27
+
+### Variant 2
+xml:id `deg-el-egpi02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/masthead-02.xml)|Example: 1906-10-03
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead-02.png)|**Notes**: The imprint usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1906-08-28 <br><br>Latest:
+
+## Egyptian Gazette en vente
+
+xml:id `deg-el-egev01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/egyptian-gazette-en-vente.xml)|Example: 1905-07-12
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/egyptian-gazette-en-vente_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/egyptian-gazette-en-vente.png)|**Notes**: In the latter pages of the newspaper, we sometimes find a brief item explaining where and when the paper is sold.<br><br>|Earliest: <br><br>Latest:
 
 ## Vade Mecum for the Homeward Bound
 
@@ -441,11 +410,30 @@ feature `bulletinBourse`|No template|Example: 1905-07-12
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bulletin-de-la-bourse_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bulletin-de-la-bourse.png)|**Notes**: This text must be OCRed<br><br>|Earliest: <br><br>Latest:
 
+
+## Calendar of Coming Events
+
+feature `comingEvents`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-coming-events.xml)|Example: 1905-07-15
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-coming-events_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-coming-events.png)|**Notes**: This calendar changes each day, but most events appear in several issues of the paper. You can move rows of the table in previous and future issues around to save effort.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-coce01`|Earliest: <br><br>Latest:
+
+## Calendar of the Week
+
+xml:id `deg-el-cotw01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-the-week.xml)|Example: 1905-07-12
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-the-week_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/calendar-of-the-week.png)|**Notes**: This feature changes only once per week.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-cotw01`|Earliest: <br><br>Latest:
+
+## Cheap Prepaid Advertisements
+
+feature `prepaidAdvertisements`|first lines only: [XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cheap-prepaid-advertisements.xml)|Example: 1905-07-12
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cheap-prepaid-advertisements_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cheap-prepaid-advertisements.png)|**Notes**: Add each advertisement as a `<div type="item">` within the section.<br><br>|Earliest: <br><br>Latest:
+
 ## Claims against the Estate
 
 feature `claimsEstate`|[XML Format example](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/claims-against-the-estate.xml)|Example: 1905-07-11
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/claims-against-the-estate_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/claims-against-the-estate.png)|**Notes**: Change name, rank, post, and dates<br><br>|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/claims-against-the-estate_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/claims-against-the-estate.png)|**Notes**: This feature contains consistent text around changing names and details. Change name, rank, post, and dates<br><br>|Earliest: <br><br>Latest:
 
 ## Export Manifests
 
@@ -458,3 +446,10 @@ feature `exportManifests`|No template|Example: 1905-07-12
 feature `shippingMovements`|No template|Example: 1905-07-12
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime.png)|**Notes**: This item is unique in each issue. Use OCR, and when formatting ensure that each line is its own `<p>`, and preserve the punctuation pattern (which is regular).<br><br>|Earliest: <br><br>Latest:
+
+## Société Internationale des Employés d'Alexandrie Bureau de Placement
+
+feature `bureauPlacement`|first and last lines only: [1905 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes.xml)|Example: 1905-07-15
+---|---|---
+`bureauPlacement`|[1907 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes-1907.xml) (first and last lines only)|1907-12-07
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes.png)|**Notes**: Add each advertisement as a `<p>` within its section.<br><br>|Earliest: <br><br>Latest:

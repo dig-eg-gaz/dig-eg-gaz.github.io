@@ -121,6 +121,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ahh01-al-hayat-helouan_tn.jpg?raw=true)|xml text: [ahh01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/ahh01.xml)<br><br>Example: 1905-01-02<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ahh01-al-hayat-helouan.png)
 
+## ajm01 A. & J. Main
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ajm01_tn.jpg?raw=true)|xml text: [ajm01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/ajm01.xml)<br><br>Example: 1904-11-01<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ajm01.png)
+
 ## akl01 Arthur Koppel, Ltd.
  |
 ---|---

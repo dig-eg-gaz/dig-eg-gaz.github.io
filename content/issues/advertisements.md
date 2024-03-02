@@ -1862,6 +1862,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla03_tn.jpg?raw=true)|xml text: [sla03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sla03.xml)<br><br>Example: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla03.png)
 
+## sla04 Standard Life Assurance Company
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla04_tn.jpg?raw=true)|xml text: [sla04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sla04.xml)<br><br>Example: 1904-11-01<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla04.png)
+
 ## smc01 Steineman, Mabardi & Co
  |
 ---|---
@@ -2216,6 +2221,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos04_tn.jpg?raw=true)|xml text: [yos04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/yos04.xml)<br><br>Example: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos04.png)
+
+## yos05 Yost
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos05_tn.jpg?raw=true)|xml text: [yos05](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/yos05.xml)<br><br>Example: 1904-11-01<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos05.png)
 
 ## you01 Youngs
  |
